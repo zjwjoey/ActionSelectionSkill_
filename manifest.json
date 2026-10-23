@@ -1,22 +1,17 @@
 {
   "package": "ActionSelectionSkill",
   "date": "2026-10-23",
-  "boundary_method": "V3 candidate; V0.3 historical data frozen",
+  "boundary_method": "V3 formal policy frozen; opt-in AI_EXPERIMENTAL_BOUNDARY",
   "action_reference_count": 10037,
   "semantic_candidates": 10037,
   "owner_selection_decisions": 3,
-  "new500_results": {
-    "保留": 229,
-    "观察": 271,
-    "用不到": 0
-  },
   "model_weights_finetuned": false,
   "measured_selection_accuracy": null,
   "sealed50_included": false,
   "master_included": false,
   "full_learning_database_included": false,
   "source_skill_sha256": "6218634ce80e20c1a83ae0a2d37ec0069672ce81f0269411b2343474136c1445",
-  "package_version": "v3.0-candidate",
+  "package_version": "v3.1-ai-experimental-candidate",
   "independent_selection_accuracy": null,
   "frozen_asset_files_verified": 201,
   "files": {
@@ -33,12 +28,12 @@
       "bytes": 186
     },
     "README.md": {
-      "sha256": "5c7015948a8213b4514a96035434f9543da484bffc89acaddb7d0c6df5fcd393",
-      "bytes": 2846
+      "sha256": "e8ddb61a6fc5c45881a6480740da093fa0b21763ff26ee19775c9028ce04f013",
+      "bytes": 4025
     },
     "SKILL.md": {
-      "sha256": "065d52865bfed46c8b6d83a2d78b4b23c24eaf98be386ad490f9c178772d6284",
-      "bytes": 4139
+      "sha256": "06da30f07703c2df3fb6c3819eec4fe56e6e4c38ac0028c9dd04e543205a5dca",
+      "bytes": 5579
     },
     "assets/action_groups_v26.json": {
       "sha256": "e9e11376e6318b7e01ad358c56533516e3391ca7dd9b7713c6d20f867abf0ce4",
@@ -216,6 +211,10 @@
       "sha256": "6218634ce80e20c1a83ae0a2d37ec0069672ce81f0269411b2343474136c1445",
       "bytes": 15715
     },
+    "references/v31_autonomous.md": {
+      "sha256": "43004897f3fa4362991858447a4598480e07e31106c4311b34be5f748cb2b311",
+      "bytes": 4630
+    },
     "references/v3_workflow.md": {
       "sha256": "d3b243a1ea6d9154ae91d32a24c1761594282eb65a20dc0e94a6f0d519821e7a",
       "bytes": 7231
@@ -227,6 +226,42 @@
     "releases/v0.3/skill_entry.txt": {
       "sha256": "d9af09d1997946fc54cd6f6dafc9b9ae2c4b7b58e2b3ff27b494c7a05184edce",
       "bytes": 3357
+    },
+    "reports/v31_ai_review60_20261023/ActionSelectionSkill_V3.1_60条AI复核与修正.xlsx": {
+      "sha256": "f2218b43b117f846e7cae6eaabae88e4253309d451de414d7c70d693a8696948",
+      "bytes": 27586
+    },
+    "reports/v31_ai_review60_20261023/README.md": {
+      "sha256": "e01a984788217df5bfa8e89118092885b34c4432455ba3718f4aeb9a8ff15261",
+      "bytes": 2014
+    },
+    "reports/v31_ai_review60_20261023/amended300_projection.jsonl": {
+      "sha256": "c41566d8497b2de4928fea1db27a2e1136cc28b66cb54eca08d268e7bc889472",
+      "bytes": 466479
+    },
+    "reports/v31_ai_review60_20261023/analysis60.jsonl": {
+      "sha256": "8c7d00c73fcd229a43a1a74be4432b2cdd30a358951800a0217c8175ec6a696c",
+      "bytes": 52592
+    },
+    "reports/v31_ai_review60_20261023/inputs60.jsonl": {
+      "sha256": "0493174d2ccc5ebbb902781ae158f93a0f759c3503a33bd97954789533055610",
+      "bytes": 73112
+    },
+    "reports/v31_ai_review60_20261023/results60.jsonl": {
+      "sha256": "8960c2182bd1fe5c0114ea7a0ceeba4492c10cbad0fea347bbbf2f999dd19c5a",
+      "bytes": 101057
+    },
+    "reports/v31_ai_review60_20261023/review60.csv": {
+      "sha256": "ec141ff9380d1098873351fa6ad073b564a34c1e75d598bf34b55a0974c46e8f",
+      "bytes": 34635
+    },
+    "reports/v31_ai_review60_20261023/review_audit60.jsonl": {
+      "sha256": "e1e6188e60065952ca3f3d6a77e257919715b156dcc54ea1a3a1f1e681d57b5f",
+      "bytes": 141373
+    },
+    "reports/v31_ai_review60_20261023/review_report.json": {
+      "sha256": "1f3e4e33359e63783eb315c296dd5d72d333307940a08f4b6c0bd9bc34d45ea6",
+      "bytes": 3281
     },
     "reports/v3_candidate_acceptance_20261023.json": {
       "sha256": "5db7169c50d8f048215b314e2ea70d7207dbe642eb0c1a1ed1189edc43ee100d",
@@ -912,13 +947,65 @@
       "sha256": "97cc2ff5bb40e9da1703ffd93cc8edf26d8611623cb88de730b32cf345a67306",
       "bytes": 11831
     },
+    "runtime/v31/__init__.py": {
+      "sha256": "e49a396565bbbd385671a3428aa7a649ad569e67ee50a8bfa6905046a68f62ba",
+      "bytes": 75
+    },
+    "runtime/v31/cli.py": {
+      "sha256": "faf86c5f365c651f105379367d6e84426ee1f6da881862195eb8e1afbba3a6e5",
+      "bytes": 2527
+    },
+    "runtime/v31/core.py": {
+      "sha256": "6431f4f767d4cc0ec11b9a2cd4fb190db91c5223c7039539be03dfc1d8c344f9",
+      "bytes": 8057
+    },
+    "runtime/v31/model.py": {
+      "sha256": "b3156820081f38f76a7f64f5e8d6f51d509d775792b2733ce38294fb6d2f1fbd",
+      "bytes": 12900
+    },
+    "runtime/v31/qualification.py": {
+      "sha256": "acca0c0480ad300a2f7a9ce05c0306f23b258134a9bb3edef036e2b0e8799dc6",
+      "bytes": 1721
+    },
+    "runtime/v31/rules.py": {
+      "sha256": "1c161340a04feb16eb9440cfcdcfda41e28ea83d0fbd2e20fd9d9fd9827b3426",
+      "bytes": 5825
+    },
+    "runtime/v31/state.py": {
+      "sha256": "c7e2f927c56f2b0a0cee1e48896f63b50645b6173350331279defa8dd24b1e46",
+      "bytes": 1408
+    },
+    "runtime/v31/workflow.py": {
+      "sha256": "37e5e0a7947373e978907d05807560a31c442bf7c1739f92e90a4364b35ccf41",
+      "bytes": 11148
+    },
     "scripts/build_manifest.py": {
       "sha256": "6f3692d8b9f0745e988a7d2854fad00ed1b7b8d3c375d4047f6b3d820179f203",
       "bytes": 1358
     },
     "scripts/share_tool.py": {
-      "sha256": "8016f39ea0fbdad6ceb00da2e622d92fe9d56611c885e344fa513c562d728b5c",
-      "bytes": 2439
+      "sha256": "9cd845f036fd9be28f24c109694dd0585d84e8de91d8b00419f94e2c338213d8",
+      "bytes": 2635
+    },
+    "scripts/v31_commonality.py": {
+      "sha256": "fdea4def060e359203084689b4167f478004ebf9099d3428b5c327768d654257",
+      "bytes": 2898
+    },
+    "scripts/v31_cycle.py": {
+      "sha256": "6ac3c44b67b47020e2509484afa72bff03cf84ba52d2f4cf513ad373c981e6e9",
+      "bytes": 7551
+    },
+    "scripts/v31_prepare_validation.py": {
+      "sha256": "62d7cab2b57609dfa8f6041479759a56f118ad3beafe128983b38b94db1078eb",
+      "bytes": 3792
+    },
+    "scripts/v31_report.py": {
+      "sha256": "6df2a8e7bf37dff0a127819ea216e36c6c957d9676b5bc68e14d95bfcab2630b",
+      "bytes": 7557
+    },
+    "tests/test_v31_experimental.py": {
+      "sha256": "d9fe0257af6887a0e2a29efe56bb9b26537fd618e0789f5622480f62f9e3b547",
+      "bytes": 14045
     },
     "tests/test_v3_acceptance.py": {
       "sha256": "ba6d6bcf143c5839ee2da72342d12cfedcc9b68c7c9bc106e874254006d9e010",
@@ -940,5 +1027,12 @@
       "sha256": "5ac3e893a6d63c05ee64b9b93e32e4293a36c5073560eb79445261f869009ce8",
       "bytes": 1344
     }
-  }
+  },
+  "legacy_v03_500_results": {
+    "保留": 229,
+    "观察": 271,
+    "用不到": 0
+  },
+  "entry_skill_sha256": "06da30f07703c2df3fb6c3819eec4fe56e6e4c38ac0028c9dd04e543205a5dca",
+  "ai_experimental_results_are_not_human_gold": true
 }

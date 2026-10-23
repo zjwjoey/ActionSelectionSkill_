@@ -1,6 +1,6 @@
 # ActionSelectionSkill
 
-V3统一筛选开发候选版，2026-10-23。V0.3历史结果及10,037条Action参照保持冻结。
+V3.1自主实验开发候选版，2026-10-23。V3正式人工规则通道、V0.3历史结果及10,037条Action参照保持独立；不自动发布正式经营规则。
 
 使用入口为根目录的[SKILL.md](SKILL.md)。将整个仓库交给AI读取，或作为一个完整Skill目录安装。仅复制SKILL.md不会携带参照库和配套程序。
 
@@ -12,7 +12,7 @@ V3统一筛选开发候选版，2026-10-23。V0.3历史结果及10,037条Action�
 - 最近300条和500条实验记录。
 - 用户确认的3条具体商品选品反馈，未扩大为整类规则。
 
-最近500条随机样本的AI候选为229条保留、271条观察、0条用不到。尚未获得独立人工验证的正式准确率，不能据此证明排除能力。
+V0.3冻结历史500条随机样本为229条保留、271条观察、0条用不到。这些是旧版本结果，不是V3.1本轮500条开发样本。尚未获得独立人工验证的正式准确率，不能据此证明排除能力。
 
 ## 使用
 
@@ -36,6 +36,18 @@ python -m unittest discover -s tests -v
 ```
 
 新设备上无需原始大型SQLite：程序在`learning_data/`建立专用共享学习库，执行记录另存`work/`。反馈、规则提议、正反例验证、人工发布和受影响商品增量重筛已提供命令。完整说明与schema见[V3运行契约](references/v3_workflow.md)。
+
+## V3.1：实际模型与实验规则
+
+```sh
+python scripts/share_tool.py experiment-screen --input products.jsonl --mode codex --purpose smoke --batch-size 25
+```
+
+使用本机已登录ChatGPT的Codex CLI，两个独立临时上下文分别理解和复核商品；保留实际调用、使用量、来源hash和每次尝试。模型服务不可用时保留待处理和失败记录，不切换未授权的付费API。队列不算AI执行完成。
+
+实验规则经`experiment-propose → experiment-validate → experiment-release → experiment-rescreen`进入独立`AI_EXPERIMENTAL_BOUNDARY`通道。需要真实开发记录中的多个支持案例和反例，最多两次实验迭代；不会写入人工反馈、人工Gold或正式规则表。未知主体及未解决分歧保持观察。
+
+完整用法与证据边界见[V3.1自主实验契约](references/v31_autonomous.md)。正式`feedback-import`、`rule-publish`仍要求原有真实人工证据。AI技术回归通过、两轮一致或观察数变化，都不等于选品准确率提升。
 
 参照索引使用joblib序列化，仅加载来源可信的文件。本仓库文件可用manifest.json校验。Git保留文件原始字节，避免跨平台换行转换导致校验失效。
 

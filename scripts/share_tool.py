@@ -7,6 +7,10 @@ def readlines(p):
   for s in f:
    if s.strip():yield json.loads(s)
 def main():
+ if len(sys.argv)>1 and sys.argv[1].startswith('experiment-'):
+  sys.path.insert(0,str(ROOT))
+  from runtime.v31.cli import main as experiment_main
+  return experiment_main(sys.argv[1:],ROOT)
  if len(sys.argv)>1 and sys.argv[1] in {'knowledge','screen','feedback-bootstrap','feedback-import','rule-propose','rule-validate','rule-publish','impact','rescreen','evaluate'}:
   sys.path.insert(0,str(ROOT))
   from runtime.v3.cli import main as v3_main
