@@ -1,0 +1,31 @@
+{
+  "random": {
+    "records": 300,
+    "decisions": {
+      "观察": 187,
+      "保留": 112,
+      "用不到": 1
+    },
+    "disagreements": 71,
+    "not_accuracy": true
+  },
+  "boundary": {
+    "records": 100,
+    "decisions": {
+      "观察": 80,
+      "保留": 19,
+      "用不到": 1
+    },
+    "disagreements": 42,
+    "not_accuracy": true
+  },
+  "difficult": {
+    "records": 100,
+    "decisions": {
+      "观察": 71,
+      "保留": 29
+    },
+    "disagreements": 29,
+    "not_accuracy": true
+  }
+}

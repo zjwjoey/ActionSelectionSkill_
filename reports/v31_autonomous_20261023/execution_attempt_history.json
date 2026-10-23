@@ -1,0 +1,1393 @@
+[
+  {
+    "original_relative_path": "development500/execution-9b5845ffa5c289fe95c8a543/summary.json",
+    "summary": {
+      "accuracy": null,
+      "actual_model_process_calls": 5,
+      "completed": 50,
+      "contract": {
+        "v3": {
+          "assets/action_reference10037.jsonl": "16666989932fdc84abbb8b8e6c929cef070fe613354f0954de2b56b8f6d7fdbc",
+          "assets/action_semantics/product_type_library.json": "90bf1c11a4b1e51222bded9eef7899ca6500056835377a9f8215c9fd03fc6a14",
+          "assets/action_semantics/related_need_groups.json": "24581f79c05705b8984159254fc1c04286bdf4cd3158795022e25fd613526e78",
+          "assets/action_semantics/results.jsonl": "babe815c08a2b6eb8806cdc23fd6bbe2209e4d999accd213c5824054ce389ad8",
+          "rules/v3_type_aliases.json": "35f5d483aa37644be0a4ed52d6355b760d219329bb259f9aac11450629aaedf0",
+          "runtime/v3/__init__.py": "51c484f17e21596be345e2a85d5fe4951cdcde9f20b0003af5bd6ca38582cd09",
+          "runtime/v3/catalog.py": "6f7f5344f998be5db1addcaa9ae3ccd219ee36fee65a8273d9e72fd8d1a25f13",
+          "runtime/v3/cli.py": "7b547e12b009f0b66b4bb187ccc3d7c2a6fc390576142b3f905259b1295e749c",
+          "runtime/v3/core.py": "8e5b0abe9807c5198f74938dd6118c57a603dc5fba3c50683b130b868e5d0402",
+          "runtime/v3/evaluation.py": "aaa2fb54cefffb68ba18c568536e2448da0e744bc6cc23462540ac88e1c103bf",
+          "runtime/v3/feedback.py": "3f3ddaa88a6221ff63161c91168becd45f4ce67eabb4aff2d8f48f641066cd9c",
+          "runtime/v3/store.py": "603f1a0eded8c31ee6564f17ac0d16cb39888987b2ea8640b2f837841cd4222d",
+          "runtime/v3/workflow.py": "97cc2ff5bb40e9da1703ffd93cc8edf26d8611623cb88de730b32cf345a67306"
+        },
+        "v31": {
+          "runtime/v31/__init__.py": "6144508b55915dc7eef4898a6497559e5c4ecf51079444927924e3ec2cb8bd36",
+          "runtime/v31/cli.py": "20ef0abe30d23c5decab126bf13aea63e1bd282a3be72bf1fd144aab8920df6d",
+          "runtime/v31/core.py": "f805c91d9079ebbabe89076831b2ef2eca75bc9944d8981d42f0510ab5f778b1",
+          "runtime/v31/model.py": "b97170e28ce76b755c769554c3627d20722057ca919001cb80960e30f2fa7c29",
+          "runtime/v31/qualification.py": "21f41d2d071869eb598dbe6efccf9dacb6132b575161ce80329f88f16dc42764",
+          "runtime/v31/rules.py": "c60bd03d859acbcd7af0d694da63f95201ad447496ffa670df0e3debb03e3234",
+          "runtime/v31/state.py": "5f22449871ddca51fa3a5941e90fe4841fd60c293a7a293eb5af12b0114b585e",
+          "runtime/v31/workflow.py": "42608dffdb050aa3b93043c4d2eecf012ca3b50e0f93d5246003c46e9a791b3d",
+          "scripts/v31_cycle.py": "77da2e85b2606142f279a08077cc21a1d99343fb130dd346fe3b8f8c447b937f",
+          "scripts/v31_prepare_validation.py": "e9fe30d3ec1d6ab728c9737fb470ec8745ebe842542e4a9e57d644b777acd713"
+        }
+      },
+      "decisions": {
+        "保留": 14,
+        "观察": 36
+      },
+      "disagreements": 15,
+      "errors": [
+        {
+          "error": "MODEL_BATCH_SOURCE_OR_SCHEMA_MISMATCH_RETRY_ONLY_UNCACHED_ROWS",
+          "records": [
+            "B0_84bacc4c6b66_016043",
+            "B0_84bacc4c6b66_012358",
+            "B0_84bacc4c6b66_024721",
+            "B0_84bacc4c6b66_023892",
+            "B0_84bacc4c6b66_003536",
+            "B0_84bacc4c6b66_004357",
+            "B0_84bacc4c6b66_012076",
+            "B0_84bacc4c6b66_016673",
+            "B0_84bacc4c6b66_006486",
+            "B0_84bacc4c6b66_014713",
+            "B0_84bacc4c6b66_004682",
+            "B0_84bacc4c6b66_015602",
+            "B0_84bacc4c6b66_018314",
+            "B0_84bacc4c6b66_020463",
+            "B0_84bacc4c6b66_006884",
+            "B0_84bacc4c6b66_009535",
+            "B0_84bacc4c6b66_018179",
+            "B0_84bacc4c6b66_004027",
+            "B0_84bacc4c6b66_009308",
+            "B0_84bacc4c6b66_001557",
+            "B0_84bacc4c6b66_010254",
+            "B0_84bacc4c6b66_024759",
+            "B0_84bacc4c6b66_005547",
+            "B0_84bacc4c6b66_013413",
+            "B0_84bacc4c6b66_007816",
+            "B0_84bacc4c6b66_006364",
+            "B0_84bacc4c6b66_010055",
+            "B0_84bacc4c6b66_005957",
+            "B0_84bacc4c6b66_012559",
+            "B0_84bacc4c6b66_011114",
+            "B0_84bacc4c6b66_011932",
+            "B0_84bacc4c6b66_018233",
+            "B0_84bacc4c6b66_018807",
+            "B0_84bacc4c6b66_009007",
+            "B0_84bacc4c6b66_004725",
+            "B0_84bacc4c6b66_017199",
+            "B0_84bacc4c6b66_002564",
+            "B0_84bacc4c6b66_011812",
+            "B0_84bacc4c6b66_009791",
+            "B0_84bacc4c6b66_015746",
+            "B0_84bacc4c6b66_005554",
+            "B0_84bacc4c6b66_007628",
+            "B0_84bacc4c6b66_007879",
+            "B0_84bacc4c6b66_003662",
+            "B0_84bacc4c6b66_001532",
+            "B0_84bacc4c6b66_006083",
+            "B0_84bacc4c6b66_012465",
+            "B0_84bacc4c6b66_014587",
+            "B0_84bacc4c6b66_019693",
+            "B0_84bacc4c6b66_023448"
+          ]
+        }
+      ],
+      "execution_id": "execution-9b5845ffa5c289fe95c8a543",
+      "formal_publication": false,
+      "human_gold_count": 0,
+      "integrity": {
+        "foreign_keys": 0,
+        "integrity": "ok"
+      },
+      "observation_reasons": {
+        "DEPENDENCY_SCOPE_UNCONFIRMED": 3,
+        "INFORMATION_INSUFFICIENT": 2,
+        "OPERATING_SCOPE_UNCONFIRMED": 4,
+        "REFERENCE_NOT_SUFFICIENT": 12,
+        "UNRESOLVED_AI_DISAGREEMENT": 15
+      },
+      "output": "F:\\ActionSelectionSkill\\repository_sync\\ActionSelectionSkill_\\work\\v31_autonomous_20261023\\development500\\execution-9b5845ffa5c289fe95c8a543",
+      "pending": 450,
+      "provider_modes": [
+        "codex",
+        "codex"
+      ],
+      "purpose": "development",
+      "records": 500,
+      "release": null,
+      "result_rows": 50,
+      "reused_model_records": 109,
+      "run_id": "run-cce462f2e3417dd796573405"
+    }
+  },
+  {
+    "original_relative_path": "development500_resume/execution-043b0248f13b19dcffd82112/attempt_3z_p8t_9/summary.json",
+    "summary": {
+      "accuracy": null,
+      "actual_model_process_calls": 0,
+      "completed": 500,
+      "contract": {
+        "v3": {
+          "assets/action_reference10037.jsonl": "16666989932fdc84abbb8b8e6c929cef070fe613354f0954de2b56b8f6d7fdbc",
+          "assets/action_semantics/product_type_library.json": "90bf1c11a4b1e51222bded9eef7899ca6500056835377a9f8215c9fd03fc6a14",
+          "assets/action_semantics/related_need_groups.json": "24581f79c05705b8984159254fc1c04286bdf4cd3158795022e25fd613526e78",
+          "assets/action_semantics/results.jsonl": "babe815c08a2b6eb8806cdc23fd6bbe2209e4d999accd213c5824054ce389ad8",
+          "rules/v3_type_aliases.json": "35f5d483aa37644be0a4ed52d6355b760d219329bb259f9aac11450629aaedf0",
+          "runtime/v3/__init__.py": "51c484f17e21596be345e2a85d5fe4951cdcde9f20b0003af5bd6ca38582cd09",
+          "runtime/v3/catalog.py": "6f7f5344f998be5db1addcaa9ae3ccd219ee36fee65a8273d9e72fd8d1a25f13",
+          "runtime/v3/cli.py": "7b547e12b009f0b66b4bb187ccc3d7c2a6fc390576142b3f905259b1295e749c",
+          "runtime/v3/core.py": "8e5b0abe9807c5198f74938dd6118c57a603dc5fba3c50683b130b868e5d0402",
+          "runtime/v3/evaluation.py": "aaa2fb54cefffb68ba18c568536e2448da0e744bc6cc23462540ac88e1c103bf",
+          "runtime/v3/feedback.py": "3f3ddaa88a6221ff63161c91168becd45f4ce67eabb4aff2d8f48f641066cd9c",
+          "runtime/v3/store.py": "603f1a0eded8c31ee6564f17ac0d16cb39888987b2ea8640b2f837841cd4222d",
+          "runtime/v3/workflow.py": "97cc2ff5bb40e9da1703ffd93cc8edf26d8611623cb88de730b32cf345a67306"
+        },
+        "v31": {
+          "runtime/v31/__init__.py": "6144508b55915dc7eef4898a6497559e5c4ecf51079444927924e3ec2cb8bd36",
+          "runtime/v31/cli.py": "20ef0abe30d23c5decab126bf13aea63e1bd282a3be72bf1fd144aab8920df6d",
+          "runtime/v31/core.py": "1aae9d2812ddd58a19c9244d1533f05e15343da12cdb109783b3a6ce9b249d8a",
+          "runtime/v31/model.py": "fa361819cdb0100c6744a257c4d539658f34935cfee885ffcd724544224871ae",
+          "runtime/v31/qualification.py": "21f41d2d071869eb598dbe6efccf9dacb6132b575161ce80329f88f16dc42764",
+          "runtime/v31/rules.py": "064c935571bcbaa576acc0e56f5c9eeef355f6a1d24ad2c30e973be89a627a0b",
+          "runtime/v31/state.py": "68ee2590f18948252e3ebeb2e625899cb05af1a8460f66491554b801a80860ed",
+          "runtime/v31/workflow.py": "c7988bd9f252422cf368bc3414f36c38387bd32f518971961e9fa13db811679c",
+          "scripts/v31_cycle.py": "8d346199fd3b47b2430ef92415d69be220ba5a14d7f1c32552cad88d73613b06",
+          "scripts/v31_prepare_validation.py": "1eec4c3499858db352e85c9d0fe0df40f5ebb0beb67a91fa245c5ff6c6fa3e68"
+        }
+      },
+      "decisions": {
+        "保留": 160,
+        "观察": 340
+      },
+      "disagreements": 142,
+      "errors": [],
+      "execution_id": "execution-043b0248f13b19dcffd82112",
+      "formal_publication": false,
+      "human_gold_count": 0,
+      "integrity": {
+        "foreign_keys": 0,
+        "integrity": "ok"
+      },
+      "observation_reasons": {
+        "DEPENDENCY_SCOPE_UNCONFIRMED": 39,
+        "INFORMATION_INSUFFICIENT": 6,
+        "OPERATING_SCOPE_UNCONFIRMED": 46,
+        "REFERENCE_NOT_SUFFICIENT": 107,
+        "UNRESOLVED_AI_DISAGREEMENT": 142
+      },
+      "output": "F:\\ActionSelectionSkill\\repository_sync\\ActionSelectionSkill_\\work\\v31_autonomous_20261023\\development500_resume\\execution-043b0248f13b19dcffd82112\\attempt_3z_p8t_9",
+      "pending": 0,
+      "provider_modes": [
+        "codex",
+        "codex"
+      ],
+      "purpose": "development",
+      "records": 500,
+      "release": null,
+      "result_rows": 500,
+      "reused_model_records": 1000,
+      "run_id": "run-bfe73d2434a24b1183532ac9"
+    }
+  },
+  {
+    "original_relative_path": "development500_resume/execution-b58c5045da695ca7086dfbe2/attempt_p7tfhuxd/summary.json",
+    "summary": {
+      "accuracy": null,
+      "actual_model_process_calls": 0,
+      "completed": 500,
+      "contract": {
+        "v3": {
+          "assets/action_reference10037.jsonl": "16666989932fdc84abbb8b8e6c929cef070fe613354f0954de2b56b8f6d7fdbc",
+          "assets/action_semantics/product_type_library.json": "90bf1c11a4b1e51222bded9eef7899ca6500056835377a9f8215c9fd03fc6a14",
+          "assets/action_semantics/related_need_groups.json": "24581f79c05705b8984159254fc1c04286bdf4cd3158795022e25fd613526e78",
+          "assets/action_semantics/results.jsonl": "babe815c08a2b6eb8806cdc23fd6bbe2209e4d999accd213c5824054ce389ad8",
+          "rules/v3_type_aliases.json": "35f5d483aa37644be0a4ed52d6355b760d219329bb259f9aac11450629aaedf0",
+          "runtime/v3/__init__.py": "51c484f17e21596be345e2a85d5fe4951cdcde9f20b0003af5bd6ca38582cd09",
+          "runtime/v3/catalog.py": "6f7f5344f998be5db1addcaa9ae3ccd219ee36fee65a8273d9e72fd8d1a25f13",
+          "runtime/v3/cli.py": "7b547e12b009f0b66b4bb187ccc3d7c2a6fc390576142b3f905259b1295e749c",
+          "runtime/v3/core.py": "8e5b0abe9807c5198f74938dd6118c57a603dc5fba3c50683b130b868e5d0402",
+          "runtime/v3/evaluation.py": "aaa2fb54cefffb68ba18c568536e2448da0e744bc6cc23462540ac88e1c103bf",
+          "runtime/v3/feedback.py": "3f3ddaa88a6221ff63161c91168becd45f4ce67eabb4aff2d8f48f641066cd9c",
+          "runtime/v3/store.py": "603f1a0eded8c31ee6564f17ac0d16cb39888987b2ea8640b2f837841cd4222d",
+          "runtime/v3/workflow.py": "97cc2ff5bb40e9da1703ffd93cc8edf26d8611623cb88de730b32cf345a67306"
+        },
+        "v31": {
+          "runtime/v31/__init__.py": "6144508b55915dc7eef4898a6497559e5c4ecf51079444927924e3ec2cb8bd36",
+          "runtime/v31/cli.py": "20ef0abe30d23c5decab126bf13aea63e1bd282a3be72bf1fd144aab8920df6d",
+          "runtime/v31/core.py": "1aae9d2812ddd58a19c9244d1533f05e15343da12cdb109783b3a6ce9b249d8a",
+          "runtime/v31/model.py": "fa361819cdb0100c6744a257c4d539658f34935cfee885ffcd724544224871ae",
+          "runtime/v31/qualification.py": "21f41d2d071869eb598dbe6efccf9dacb6132b575161ce80329f88f16dc42764",
+          "runtime/v31/rules.py": "064c935571bcbaa576acc0e56f5c9eeef355f6a1d24ad2c30e973be89a627a0b",
+          "runtime/v31/state.py": "5f22449871ddca51fa3a5941e90fe4841fd60c293a7a293eb5af12b0114b585e",
+          "runtime/v31/workflow.py": "d095c902180b0f6d919ff40a1f1dcfd42d6fbf16dc0e2ee9c001ffd0aa0d251a",
+          "scripts/v31_cycle.py": "8d346199fd3b47b2430ef92415d69be220ba5a14d7f1c32552cad88d73613b06",
+          "scripts/v31_prepare_validation.py": "1eec4c3499858db352e85c9d0fe0df40f5ebb0beb67a91fa245c5ff6c6fa3e68"
+        }
+      },
+      "decisions": {
+        "保留": 160,
+        "观察": 340
+      },
+      "disagreements": 142,
+      "errors": [],
+      "execution_id": "execution-b58c5045da695ca7086dfbe2",
+      "formal_publication": false,
+      "human_gold_count": 0,
+      "integrity": {
+        "foreign_keys": 0,
+        "integrity": "ok"
+      },
+      "observation_reasons": {
+        "DEPENDENCY_SCOPE_UNCONFIRMED": 39,
+        "INFORMATION_INSUFFICIENT": 6,
+        "OPERATING_SCOPE_UNCONFIRMED": 46,
+        "REFERENCE_NOT_SUFFICIENT": 107,
+        "UNRESOLVED_AI_DISAGREEMENT": 142
+      },
+      "output": "F:\\ActionSelectionSkill\\repository_sync\\ActionSelectionSkill_\\work\\v31_autonomous_20261023\\development500_resume\\execution-b58c5045da695ca7086dfbe2\\attempt_p7tfhuxd",
+      "pending": 0,
+      "provider_modes": [
+        "codex",
+        "codex"
+      ],
+      "purpose": "development",
+      "records": 500,
+      "release": null,
+      "result_rows": 500,
+      "reused_model_records": 1000,
+      "run_id": "run-bd7c7099cf4a256f66c14075"
+    }
+  },
+  {
+    "original_relative_path": "development500_resume/execution-cf8b2a7d6bba23746eb495d1/attempt_l4tkfzdz/summary.json",
+    "summary": {
+      "accuracy": null,
+      "actual_model_process_calls": 33,
+      "completed": 500,
+      "contract": {
+        "v3": {
+          "assets/action_reference10037.jsonl": "16666989932fdc84abbb8b8e6c929cef070fe613354f0954de2b56b8f6d7fdbc",
+          "assets/action_semantics/product_type_library.json": "90bf1c11a4b1e51222bded9eef7899ca6500056835377a9f8215c9fd03fc6a14",
+          "assets/action_semantics/related_need_groups.json": "24581f79c05705b8984159254fc1c04286bdf4cd3158795022e25fd613526e78",
+          "assets/action_semantics/results.jsonl": "babe815c08a2b6eb8806cdc23fd6bbe2209e4d999accd213c5824054ce389ad8",
+          "rules/v3_type_aliases.json": "35f5d483aa37644be0a4ed52d6355b760d219329bb259f9aac11450629aaedf0",
+          "runtime/v3/__init__.py": "51c484f17e21596be345e2a85d5fe4951cdcde9f20b0003af5bd6ca38582cd09",
+          "runtime/v3/catalog.py": "6f7f5344f998be5db1addcaa9ae3ccd219ee36fee65a8273d9e72fd8d1a25f13",
+          "runtime/v3/cli.py": "7b547e12b009f0b66b4bb187ccc3d7c2a6fc390576142b3f905259b1295e749c",
+          "runtime/v3/core.py": "8e5b0abe9807c5198f74938dd6118c57a603dc5fba3c50683b130b868e5d0402",
+          "runtime/v3/evaluation.py": "aaa2fb54cefffb68ba18c568536e2448da0e744bc6cc23462540ac88e1c103bf",
+          "runtime/v3/feedback.py": "3f3ddaa88a6221ff63161c91168becd45f4ce67eabb4aff2d8f48f641066cd9c",
+          "runtime/v3/store.py": "603f1a0eded8c31ee6564f17ac0d16cb39888987b2ea8640b2f837841cd4222d",
+          "runtime/v3/workflow.py": "97cc2ff5bb40e9da1703ffd93cc8edf26d8611623cb88de730b32cf345a67306"
+        },
+        "v31": {
+          "runtime/v31/__init__.py": "6144508b55915dc7eef4898a6497559e5c4ecf51079444927924e3ec2cb8bd36",
+          "runtime/v31/cli.py": "20ef0abe30d23c5decab126bf13aea63e1bd282a3be72bf1fd144aab8920df6d",
+          "runtime/v31/core.py": "84a7b937882b94ac6ae1127bbf60a4e808473672ae35629fc4ddb48dda93993d",
+          "runtime/v31/model.py": "fa361819cdb0100c6744a257c4d539658f34935cfee885ffcd724544224871ae",
+          "runtime/v31/qualification.py": "21f41d2d071869eb598dbe6efccf9dacb6132b575161ce80329f88f16dc42764",
+          "runtime/v31/rules.py": "301365e9c8b23d0a9a5678e21efc61e936aeffc15f9428056c48249e02ee0e9c",
+          "runtime/v31/state.py": "5f22449871ddca51fa3a5941e90fe4841fd60c293a7a293eb5af12b0114b585e",
+          "runtime/v31/workflow.py": "d095c902180b0f6d919ff40a1f1dcfd42d6fbf16dc0e2ee9c001ffd0aa0d251a",
+          "scripts/v31_cycle.py": "77da2e85b2606142f279a08077cc21a1d99343fb130dd346fe3b8f8c447b937f",
+          "scripts/v31_prepare_validation.py": "e9fe30d3ec1d6ab728c9737fb470ec8745ebe842542e4a9e57d644b777acd713"
+        }
+      },
+      "decisions": {
+        "保留": 157,
+        "观察": 343
+      },
+      "disagreements": 149,
+      "errors": [],
+      "execution_id": "execution-cf8b2a7d6bba23746eb495d1",
+      "formal_publication": false,
+      "human_gold_count": 0,
+      "integrity": {
+        "foreign_keys": 0,
+        "integrity": "ok"
+      },
+      "observation_reasons": {
+        "DEPENDENCY_SCOPE_UNCONFIRMED": 39,
+        "INFORMATION_INSUFFICIENT": 6,
+        "OPERATING_SCOPE_UNCONFIRMED": 46,
+        "REFERENCE_NOT_SUFFICIENT": 103,
+        "UNRESOLVED_AI_DISAGREEMENT": 149
+      },
+      "output": "F:\\ActionSelectionSkill\\repository_sync\\ActionSelectionSkill_\\work\\v31_autonomous_20261023\\development500_resume\\execution-cf8b2a7d6bba23746eb495d1\\attempt_l4tkfzdz",
+      "pending": 0,
+      "provider_modes": [
+        "codex",
+        "codex"
+      ],
+      "purpose": "development",
+      "records": 500,
+      "release": null,
+      "result_rows": 500,
+      "reused_model_records": 239,
+      "run_id": "run-6b87a1e4e60ceea408b169a7"
+    }
+  },
+  {
+    "original_relative_path": "development_auth_checked/execution-21658fae123ccab67aa94786/attempt_6kfpmwlz/summary.json",
+    "summary": {
+      "accuracy": null,
+      "actual_model_process_calls": 0,
+      "completed": 500,
+      "contract": {
+        "v3": {
+          "assets/action_reference10037.jsonl": "16666989932fdc84abbb8b8e6c929cef070fe613354f0954de2b56b8f6d7fdbc",
+          "assets/action_semantics/product_type_library.json": "90bf1c11a4b1e51222bded9eef7899ca6500056835377a9f8215c9fd03fc6a14",
+          "assets/action_semantics/related_need_groups.json": "24581f79c05705b8984159254fc1c04286bdf4cd3158795022e25fd613526e78",
+          "assets/action_semantics/results.jsonl": "babe815c08a2b6eb8806cdc23fd6bbe2209e4d999accd213c5824054ce389ad8",
+          "rules/v3_type_aliases.json": "35f5d483aa37644be0a4ed52d6355b760d219329bb259f9aac11450629aaedf0",
+          "runtime/v3/__init__.py": "51c484f17e21596be345e2a85d5fe4951cdcde9f20b0003af5bd6ca38582cd09",
+          "runtime/v3/catalog.py": "6f7f5344f998be5db1addcaa9ae3ccd219ee36fee65a8273d9e72fd8d1a25f13",
+          "runtime/v3/cli.py": "7b547e12b009f0b66b4bb187ccc3d7c2a6fc390576142b3f905259b1295e749c",
+          "runtime/v3/core.py": "8e5b0abe9807c5198f74938dd6118c57a603dc5fba3c50683b130b868e5d0402",
+          "runtime/v3/evaluation.py": "aaa2fb54cefffb68ba18c568536e2448da0e744bc6cc23462540ac88e1c103bf",
+          "runtime/v3/feedback.py": "3f3ddaa88a6221ff63161c91168becd45f4ce67eabb4aff2d8f48f641066cd9c",
+          "runtime/v3/store.py": "603f1a0eded8c31ee6564f17ac0d16cb39888987b2ea8640b2f837841cd4222d",
+          "runtime/v3/workflow.py": "97cc2ff5bb40e9da1703ffd93cc8edf26d8611623cb88de730b32cf345a67306"
+        },
+        "v31": {
+          "runtime/v31/__init__.py": "6144508b55915dc7eef4898a6497559e5c4ecf51079444927924e3ec2cb8bd36",
+          "runtime/v31/cli.py": "20ef0abe30d23c5decab126bf13aea63e1bd282a3be72bf1fd144aab8920df6d",
+          "runtime/v31/core.py": "1aae9d2812ddd58a19c9244d1533f05e15343da12cdb109783b3a6ce9b249d8a",
+          "runtime/v31/model.py": "566fbd1f4a8c5593d0a345e4147651190bf450ea51b81ea8a554507f59632c95",
+          "runtime/v31/qualification.py": "21f41d2d071869eb598dbe6efccf9dacb6132b575161ce80329f88f16dc42764",
+          "runtime/v31/rules.py": "064c935571bcbaa576acc0e56f5c9eeef355f6a1d24ad2c30e973be89a627a0b",
+          "runtime/v31/state.py": "68ee2590f18948252e3ebeb2e625899cb05af1a8460f66491554b801a80860ed",
+          "runtime/v31/workflow.py": "c7988bd9f252422cf368bc3414f36c38387bd32f518971961e9fa13db811679c",
+          "scripts/v31_cycle.py": "edaf66ba1ad124d152fa5ad2c01414068bfcb9ec7ceccb4f2df4c3ad19d0a63f",
+          "scripts/v31_prepare_validation.py": "1eec4c3499858db352e85c9d0fe0df40f5ebb0beb67a91fa245c5ff6c6fa3e68"
+        }
+      },
+      "decisions": {
+        "保留": 160,
+        "观察": 340
+      },
+      "disagreements": 142,
+      "errors": [],
+      "execution_id": "execution-21658fae123ccab67aa94786",
+      "formal_publication": false,
+      "human_gold_count": 0,
+      "integrity": {
+        "foreign_keys": 0,
+        "integrity": "ok"
+      },
+      "observation_reasons": {
+        "DEPENDENCY_SCOPE_UNCONFIRMED": 39,
+        "INFORMATION_INSUFFICIENT": 6,
+        "OPERATING_SCOPE_UNCONFIRMED": 46,
+        "REFERENCE_NOT_SUFFICIENT": 107,
+        "UNRESOLVED_AI_DISAGREEMENT": 142
+      },
+      "output": "F:\\ActionSelectionSkill\\repository_sync\\ActionSelectionSkill_\\work\\v31_autonomous_20261023\\development_auth_checked\\execution-21658fae123ccab67aa94786\\attempt_6kfpmwlz",
+      "pending": 0,
+      "provider_modes": [
+        "codex",
+        "codex"
+      ],
+      "purpose": "development",
+      "records": 500,
+      "release": null,
+      "result_rows": 500,
+      "reused_model_records": 1000,
+      "run_id": "run-aa58ee86bea75e134863922f"
+    }
+  },
+  {
+    "original_relative_path": "smoke/execution-17b2ef753066dfc64f98a270/summary.json",
+    "summary": {
+      "accuracy": null,
+      "actual_model_process_calls": 2,
+      "completed": 7,
+      "contract": {
+        "v3": {
+          "assets/action_reference10037.jsonl": "16666989932fdc84abbb8b8e6c929cef070fe613354f0954de2b56b8f6d7fdbc",
+          "assets/action_semantics/product_type_library.json": "90bf1c11a4b1e51222bded9eef7899ca6500056835377a9f8215c9fd03fc6a14",
+          "assets/action_semantics/related_need_groups.json": "24581f79c05705b8984159254fc1c04286bdf4cd3158795022e25fd613526e78",
+          "assets/action_semantics/results.jsonl": "babe815c08a2b6eb8806cdc23fd6bbe2209e4d999accd213c5824054ce389ad8",
+          "rules/v3_type_aliases.json": "35f5d483aa37644be0a4ed52d6355b760d219329bb259f9aac11450629aaedf0",
+          "runtime/v3/__init__.py": "51c484f17e21596be345e2a85d5fe4951cdcde9f20b0003af5bd6ca38582cd09",
+          "runtime/v3/catalog.py": "6f7f5344f998be5db1addcaa9ae3ccd219ee36fee65a8273d9e72fd8d1a25f13",
+          "runtime/v3/cli.py": "7b547e12b009f0b66b4bb187ccc3d7c2a6fc390576142b3f905259b1295e749c",
+          "runtime/v3/core.py": "8e5b0abe9807c5198f74938dd6118c57a603dc5fba3c50683b130b868e5d0402",
+          "runtime/v3/evaluation.py": "aaa2fb54cefffb68ba18c568536e2448da0e744bc6cc23462540ac88e1c103bf",
+          "runtime/v3/feedback.py": "3f3ddaa88a6221ff63161c91168becd45f4ce67eabb4aff2d8f48f641066cd9c",
+          "runtime/v3/store.py": "603f1a0eded8c31ee6564f17ac0d16cb39888987b2ea8640b2f837841cd4222d",
+          "runtime/v3/workflow.py": "97cc2ff5bb40e9da1703ffd93cc8edf26d8611623cb88de730b32cf345a67306"
+        },
+        "v31": {
+          "runtime\\v31\\__init__.py": "6144508b55915dc7eef4898a6497559e5c4ecf51079444927924e3ec2cb8bd36",
+          "runtime\\v31\\cli.py": "f10f9d9618a93cc02115e243fd22b21f5086f62854cf27681fc5ecb1e65930f6",
+          "runtime\\v31\\core.py": "2fd86dea0029eb69b2e335322e5494b7ab80d4141843784a36f6fabd0d749d48",
+          "runtime\\v31\\model.py": "c2be388c0c2fa93b1e82e5f7e86176e408edbaac10eb3f61365a144e4b498433",
+          "runtime\\v31\\rules.py": "40fb1c8a3d350cd511dba210ff8247bff59264ffd765eba1d358de1d84d9f6a4",
+          "runtime\\v31\\state.py": "5b50ac0e73abe1bbd5b741f8fca0ed41debda1e1d491bbbfaa4a933709f8a671",
+          "runtime\\v31\\workflow.py": "9d3a5000400b37ca726b62e56e7d7004fc9d5a98b3a509221b4b1832de641e96"
+        }
+      },
+      "decisions": {
+        "保留": 3,
+        "观察": 4
+      },
+      "disagreements": 4,
+      "errors": [
+        {
+          "error": "INVALID_FORM_OR_RELATION",
+          "records": [
+            "B0_84bacc4c6b66_006134",
+            "B0_84bacc4c6b66_016914",
+            "B0_84bacc4c6b66_007619",
+            "B0_84bacc4c6b66_015244",
+            "B0_84bacc4c6b66_000003",
+            "B0_84bacc4c6b66_003671",
+            "B0_84bacc4c6b66_002325",
+            "B0_84bacc4c6b66_009086",
+            "B0_84bacc4c6b66_002668",
+            "B0_84bacc4c6b66_011159"
+          ]
+        }
+      ],
+      "execution_id": "execution-17b2ef753066dfc64f98a270",
+      "formal_publication": false,
+      "human_gold_count": 0,
+      "integrity": {
+        "foreign_keys": 0,
+        "integrity": "ok"
+      },
+      "observation_reasons": {
+        "UNRESOLVED_AI_DISAGREEMENT": 4
+      },
+      "output": "F:\\ActionSelectionSkill\\repository_sync\\ActionSelectionSkill_\\work\\v31_autonomous_20261023\\smoke\\execution-17b2ef753066dfc64f98a270",
+      "pending": 50,
+      "provider_modes": [
+        "codex",
+        "codex"
+      ],
+      "purpose": "smoke",
+      "records": 50,
+      "release": null,
+      "result_rows": 7,
+      "reused_model_records": 0,
+      "run_id": "run-125e6475693c0ffe8cb6ffc3"
+    }
+  },
+  {
+    "original_relative_path": "smoke_auth_checked/execution-7621fdb263eef8c8458152b7/attempt_9ijlqq31/summary.json",
+    "summary": {
+      "accuracy": null,
+      "actual_model_process_calls": 0,
+      "completed": 50,
+      "contract": {
+        "v3": {
+          "assets/action_reference10037.jsonl": "16666989932fdc84abbb8b8e6c929cef070fe613354f0954de2b56b8f6d7fdbc",
+          "assets/action_semantics/product_type_library.json": "90bf1c11a4b1e51222bded9eef7899ca6500056835377a9f8215c9fd03fc6a14",
+          "assets/action_semantics/related_need_groups.json": "24581f79c05705b8984159254fc1c04286bdf4cd3158795022e25fd613526e78",
+          "assets/action_semantics/results.jsonl": "babe815c08a2b6eb8806cdc23fd6bbe2209e4d999accd213c5824054ce389ad8",
+          "rules/v3_type_aliases.json": "35f5d483aa37644be0a4ed52d6355b760d219329bb259f9aac11450629aaedf0",
+          "runtime/v3/__init__.py": "51c484f17e21596be345e2a85d5fe4951cdcde9f20b0003af5bd6ca38582cd09",
+          "runtime/v3/catalog.py": "6f7f5344f998be5db1addcaa9ae3ccd219ee36fee65a8273d9e72fd8d1a25f13",
+          "runtime/v3/cli.py": "7b547e12b009f0b66b4bb187ccc3d7c2a6fc390576142b3f905259b1295e749c",
+          "runtime/v3/core.py": "8e5b0abe9807c5198f74938dd6118c57a603dc5fba3c50683b130b868e5d0402",
+          "runtime/v3/evaluation.py": "aaa2fb54cefffb68ba18c568536e2448da0e744bc6cc23462540ac88e1c103bf",
+          "runtime/v3/feedback.py": "3f3ddaa88a6221ff63161c91168becd45f4ce67eabb4aff2d8f48f641066cd9c",
+          "runtime/v3/store.py": "603f1a0eded8c31ee6564f17ac0d16cb39888987b2ea8640b2f837841cd4222d",
+          "runtime/v3/workflow.py": "97cc2ff5bb40e9da1703ffd93cc8edf26d8611623cb88de730b32cf345a67306"
+        },
+        "v31": {
+          "runtime/v31/__init__.py": "6144508b55915dc7eef4898a6497559e5c4ecf51079444927924e3ec2cb8bd36",
+          "runtime/v31/cli.py": "20ef0abe30d23c5decab126bf13aea63e1bd282a3be72bf1fd144aab8920df6d",
+          "runtime/v31/core.py": "1aae9d2812ddd58a19c9244d1533f05e15343da12cdb109783b3a6ce9b249d8a",
+          "runtime/v31/model.py": "566fbd1f4a8c5593d0a345e4147651190bf450ea51b81ea8a554507f59632c95",
+          "runtime/v31/qualification.py": "21f41d2d071869eb598dbe6efccf9dacb6132b575161ce80329f88f16dc42764",
+          "runtime/v31/rules.py": "064c935571bcbaa576acc0e56f5c9eeef355f6a1d24ad2c30e973be89a627a0b",
+          "runtime/v31/state.py": "68ee2590f18948252e3ebeb2e625899cb05af1a8460f66491554b801a80860ed",
+          "runtime/v31/workflow.py": "c7988bd9f252422cf368bc3414f36c38387bd32f518971961e9fa13db811679c",
+          "scripts/v31_cycle.py": "edaf66ba1ad124d152fa5ad2c01414068bfcb9ec7ceccb4f2df4c3ad19d0a63f",
+          "scripts/v31_prepare_validation.py": "1eec4c3499858db352e85c9d0fe0df40f5ebb0beb67a91fa245c5ff6c6fa3e68"
+        }
+      },
+      "decisions": {
+        "保留": 13,
+        "观察": 37
+      },
+      "disagreements": 17,
+      "errors": [],
+      "execution_id": "execution-7621fdb263eef8c8458152b7",
+      "formal_publication": false,
+      "human_gold_count": 0,
+      "integrity": {
+        "foreign_keys": 0,
+        "integrity": "ok"
+      },
+      "observation_reasons": {
+        "DEPENDENCY_SCOPE_UNCONFIRMED": 6,
+        "INFORMATION_INSUFFICIENT": 1,
+        "OPERATING_SCOPE_UNCONFIRMED": 2,
+        "REFERENCE_NOT_SUFFICIENT": 11,
+        "UNRESOLVED_AI_DISAGREEMENT": 17
+      },
+      "output": "F:\\ActionSelectionSkill\\repository_sync\\ActionSelectionSkill_\\work\\v31_autonomous_20261023\\smoke_auth_checked\\execution-7621fdb263eef8c8458152b7\\attempt_9ijlqq31",
+      "pending": 0,
+      "provider_modes": [
+        "codex",
+        "codex"
+      ],
+      "purpose": "smoke",
+      "records": 50,
+      "release": null,
+      "result_rows": 50,
+      "reused_model_records": 100,
+      "run_id": "run-082b8e3d4498cea9538a5ada"
+    }
+  },
+  {
+    "original_relative_path": "smoke_final/execution-ceddc8b5fba53579b384e94e/summary.json",
+    "summary": {
+      "accuracy": null,
+      "actual_model_process_calls": 0,
+      "completed": 50,
+      "contract": {
+        "v3": {
+          "assets/action_reference10037.jsonl": "16666989932fdc84abbb8b8e6c929cef070fe613354f0954de2b56b8f6d7fdbc",
+          "assets/action_semantics/product_type_library.json": "90bf1c11a4b1e51222bded9eef7899ca6500056835377a9f8215c9fd03fc6a14",
+          "assets/action_semantics/related_need_groups.json": "24581f79c05705b8984159254fc1c04286bdf4cd3158795022e25fd613526e78",
+          "assets/action_semantics/results.jsonl": "babe815c08a2b6eb8806cdc23fd6bbe2209e4d999accd213c5824054ce389ad8",
+          "rules/v3_type_aliases.json": "35f5d483aa37644be0a4ed52d6355b760d219329bb259f9aac11450629aaedf0",
+          "runtime/v3/__init__.py": "51c484f17e21596be345e2a85d5fe4951cdcde9f20b0003af5bd6ca38582cd09",
+          "runtime/v3/catalog.py": "6f7f5344f998be5db1addcaa9ae3ccd219ee36fee65a8273d9e72fd8d1a25f13",
+          "runtime/v3/cli.py": "7b547e12b009f0b66b4bb187ccc3d7c2a6fc390576142b3f905259b1295e749c",
+          "runtime/v3/core.py": "8e5b0abe9807c5198f74938dd6118c57a603dc5fba3c50683b130b868e5d0402",
+          "runtime/v3/evaluation.py": "aaa2fb54cefffb68ba18c568536e2448da0e744bc6cc23462540ac88e1c103bf",
+          "runtime/v3/feedback.py": "3f3ddaa88a6221ff63161c91168becd45f4ce67eabb4aff2d8f48f641066cd9c",
+          "runtime/v3/store.py": "603f1a0eded8c31ee6564f17ac0d16cb39888987b2ea8640b2f837841cd4222d",
+          "runtime/v3/workflow.py": "97cc2ff5bb40e9da1703ffd93cc8edf26d8611623cb88de730b32cf345a67306"
+        },
+        "v31": {
+          "runtime/v31/__init__.py": "6144508b55915dc7eef4898a6497559e5c4ecf51079444927924e3ec2cb8bd36",
+          "runtime/v31/cli.py": "20ef0abe30d23c5decab126bf13aea63e1bd282a3be72bf1fd144aab8920df6d",
+          "runtime/v31/core.py": "f805c91d9079ebbabe89076831b2ef2eca75bc9944d8981d42f0510ab5f778b1",
+          "runtime/v31/model.py": "b97170e28ce76b755c769554c3627d20722057ca919001cb80960e30f2fa7c29",
+          "runtime/v31/qualification.py": "21f41d2d071869eb598dbe6efccf9dacb6132b575161ce80329f88f16dc42764",
+          "runtime/v31/rules.py": "c60bd03d859acbcd7af0d694da63f95201ad447496ffa670df0e3debb03e3234",
+          "runtime/v31/state.py": "5f22449871ddca51fa3a5941e90fe4841fd60c293a7a293eb5af12b0114b585e",
+          "runtime/v31/workflow.py": "42608dffdb050aa3b93043c4d2eecf012ca3b50e0f93d5246003c46e9a791b3d",
+          "scripts/v31_cycle.py": "77da2e85b2606142f279a08077cc21a1d99343fb130dd346fe3b8f8c447b937f",
+          "scripts/v31_prepare_validation.py": "e9fe30d3ec1d6ab728c9737fb470ec8745ebe842542e4a9e57d644b777acd713"
+        }
+      },
+      "decisions": {
+        "保留": 13,
+        "观察": 37
+      },
+      "disagreements": 17,
+      "errors": [],
+      "execution_id": "execution-ceddc8b5fba53579b384e94e",
+      "formal_publication": false,
+      "human_gold_count": 0,
+      "integrity": {
+        "foreign_keys": 0,
+        "integrity": "ok"
+      },
+      "observation_reasons": {
+        "DEPENDENCY_SCOPE_UNCONFIRMED": 6,
+        "INFORMATION_INSUFFICIENT": 1,
+        "OPERATING_SCOPE_UNCONFIRMED": 2,
+        "REFERENCE_NOT_SUFFICIENT": 11,
+        "UNRESOLVED_AI_DISAGREEMENT": 17
+      },
+      "output": "F:\\ActionSelectionSkill\\repository_sync\\ActionSelectionSkill_\\work\\v31_autonomous_20261023\\smoke_final\\execution-ceddc8b5fba53579b384e94e",
+      "pending": 0,
+      "provider_modes": [
+        "codex",
+        "codex"
+      ],
+      "purpose": "smoke",
+      "records": 50,
+      "release": null,
+      "result_rows": 50,
+      "reused_model_records": 100,
+      "run_id": "run-a87500741b1b46350eed4a64"
+    }
+  },
+  {
+    "original_relative_path": "smoke_qualified/execution-a3ce11d93c6e7763598b8d60/attempt_sslda9x2/summary.json",
+    "summary": {
+      "accuracy": null,
+      "actual_model_process_calls": 0,
+      "completed": 50,
+      "contract": {
+        "v3": {
+          "assets/action_reference10037.jsonl": "16666989932fdc84abbb8b8e6c929cef070fe613354f0954de2b56b8f6d7fdbc",
+          "assets/action_semantics/product_type_library.json": "90bf1c11a4b1e51222bded9eef7899ca6500056835377a9f8215c9fd03fc6a14",
+          "assets/action_semantics/related_need_groups.json": "24581f79c05705b8984159254fc1c04286bdf4cd3158795022e25fd613526e78",
+          "assets/action_semantics/results.jsonl": "babe815c08a2b6eb8806cdc23fd6bbe2209e4d999accd213c5824054ce389ad8",
+          "rules/v3_type_aliases.json": "35f5d483aa37644be0a4ed52d6355b760d219329bb259f9aac11450629aaedf0",
+          "runtime/v3/__init__.py": "51c484f17e21596be345e2a85d5fe4951cdcde9f20b0003af5bd6ca38582cd09",
+          "runtime/v3/catalog.py": "6f7f5344f998be5db1addcaa9ae3ccd219ee36fee65a8273d9e72fd8d1a25f13",
+          "runtime/v3/cli.py": "7b547e12b009f0b66b4bb187ccc3d7c2a6fc390576142b3f905259b1295e749c",
+          "runtime/v3/core.py": "8e5b0abe9807c5198f74938dd6118c57a603dc5fba3c50683b130b868e5d0402",
+          "runtime/v3/evaluation.py": "aaa2fb54cefffb68ba18c568536e2448da0e744bc6cc23462540ac88e1c103bf",
+          "runtime/v3/feedback.py": "3f3ddaa88a6221ff63161c91168becd45f4ce67eabb4aff2d8f48f641066cd9c",
+          "runtime/v3/store.py": "603f1a0eded8c31ee6564f17ac0d16cb39888987b2ea8640b2f837841cd4222d",
+          "runtime/v3/workflow.py": "97cc2ff5bb40e9da1703ffd93cc8edf26d8611623cb88de730b32cf345a67306"
+        },
+        "v31": {
+          "runtime/v31/__init__.py": "6144508b55915dc7eef4898a6497559e5c4ecf51079444927924e3ec2cb8bd36",
+          "runtime/v31/cli.py": "20ef0abe30d23c5decab126bf13aea63e1bd282a3be72bf1fd144aab8920df6d",
+          "runtime/v31/core.py": "84a7b937882b94ac6ae1127bbf60a4e808473672ae35629fc4ddb48dda93993d",
+          "runtime/v31/model.py": "25f6e41d01b6607e59861977735df673587061c2b46a323594d2253cbedc0e5e",
+          "runtime/v31/qualification.py": "21f41d2d071869eb598dbe6efccf9dacb6132b575161ce80329f88f16dc42764",
+          "runtime/v31/rules.py": "301365e9c8b23d0a9a5678e21efc61e936aeffc15f9428056c48249e02ee0e9c",
+          "runtime/v31/state.py": "5f22449871ddca51fa3a5941e90fe4841fd60c293a7a293eb5af12b0114b585e",
+          "runtime/v31/workflow.py": "a9950e77fd924abe0af02a1b0fff3e4662ba162d7260853568c778b968871b05",
+          "scripts/v31_cycle.py": "77da2e85b2606142f279a08077cc21a1d99343fb130dd346fe3b8f8c447b937f",
+          "scripts/v31_prepare_validation.py": "e9fe30d3ec1d6ab728c9737fb470ec8745ebe842542e4a9e57d644b777acd713"
+        }
+      },
+      "decisions": {
+        "保留": 13,
+        "观察": 37
+      },
+      "disagreements": 17,
+      "errors": [],
+      "execution_id": "execution-a3ce11d93c6e7763598b8d60",
+      "formal_publication": false,
+      "human_gold_count": 0,
+      "integrity": {
+        "foreign_keys": 0,
+        "integrity": "ok"
+      },
+      "observation_reasons": {
+        "DEPENDENCY_SCOPE_UNCONFIRMED": 6,
+        "INFORMATION_INSUFFICIENT": 1,
+        "OPERATING_SCOPE_UNCONFIRMED": 2,
+        "REFERENCE_NOT_SUFFICIENT": 11,
+        "UNRESOLVED_AI_DISAGREEMENT": 17
+      },
+      "output": "F:\\ActionSelectionSkill\\repository_sync\\ActionSelectionSkill_\\work\\v31_autonomous_20261023\\smoke_qualified\\execution-a3ce11d93c6e7763598b8d60\\attempt_sslda9x2",
+      "pending": 0,
+      "provider_modes": [
+        "codex",
+        "codex"
+      ],
+      "purpose": "smoke",
+      "records": 50,
+      "release": null,
+      "result_rows": 50,
+      "reused_model_records": 100,
+      "run_id": "run-5465e3e4e226caa94aa273e2"
+    }
+  },
+  {
+    "original_relative_path": "smoke_qualified_final/execution-35d3ad4a5869f435f56619c4/attempt_7k9dtumy/summary.json",
+    "summary": {
+      "accuracy": null,
+      "actual_model_process_calls": 0,
+      "completed": 50,
+      "contract": {
+        "v3": {
+          "assets/action_reference10037.jsonl": "16666989932fdc84abbb8b8e6c929cef070fe613354f0954de2b56b8f6d7fdbc",
+          "assets/action_semantics/product_type_library.json": "90bf1c11a4b1e51222bded9eef7899ca6500056835377a9f8215c9fd03fc6a14",
+          "assets/action_semantics/related_need_groups.json": "24581f79c05705b8984159254fc1c04286bdf4cd3158795022e25fd613526e78",
+          "assets/action_semantics/results.jsonl": "babe815c08a2b6eb8806cdc23fd6bbe2209e4d999accd213c5824054ce389ad8",
+          "rules/v3_type_aliases.json": "35f5d483aa37644be0a4ed52d6355b760d219329bb259f9aac11450629aaedf0",
+          "runtime/v3/__init__.py": "51c484f17e21596be345e2a85d5fe4951cdcde9f20b0003af5bd6ca38582cd09",
+          "runtime/v3/catalog.py": "6f7f5344f998be5db1addcaa9ae3ccd219ee36fee65a8273d9e72fd8d1a25f13",
+          "runtime/v3/cli.py": "7b547e12b009f0b66b4bb187ccc3d7c2a6fc390576142b3f905259b1295e749c",
+          "runtime/v3/core.py": "8e5b0abe9807c5198f74938dd6118c57a603dc5fba3c50683b130b868e5d0402",
+          "runtime/v3/evaluation.py": "aaa2fb54cefffb68ba18c568536e2448da0e744bc6cc23462540ac88e1c103bf",
+          "runtime/v3/feedback.py": "3f3ddaa88a6221ff63161c91168becd45f4ce67eabb4aff2d8f48f641066cd9c",
+          "runtime/v3/store.py": "603f1a0eded8c31ee6564f17ac0d16cb39888987b2ea8640b2f837841cd4222d",
+          "runtime/v3/workflow.py": "97cc2ff5bb40e9da1703ffd93cc8edf26d8611623cb88de730b32cf345a67306"
+        },
+        "v31": {
+          "runtime/v31/__init__.py": "6144508b55915dc7eef4898a6497559e5c4ecf51079444927924e3ec2cb8bd36",
+          "runtime/v31/cli.py": "20ef0abe30d23c5decab126bf13aea63e1bd282a3be72bf1fd144aab8920df6d",
+          "runtime/v31/core.py": "84a7b937882b94ac6ae1127bbf60a4e808473672ae35629fc4ddb48dda93993d",
+          "runtime/v31/model.py": "25f6e41d01b6607e59861977735df673587061c2b46a323594d2253cbedc0e5e",
+          "runtime/v31/qualification.py": "21f41d2d071869eb598dbe6efccf9dacb6132b575161ce80329f88f16dc42764",
+          "runtime/v31/rules.py": "301365e9c8b23d0a9a5678e21efc61e936aeffc15f9428056c48249e02ee0e9c",
+          "runtime/v31/state.py": "5f22449871ddca51fa3a5941e90fe4841fd60c293a7a293eb5af12b0114b585e",
+          "runtime/v31/workflow.py": "d095c902180b0f6d919ff40a1f1dcfd42d6fbf16dc0e2ee9c001ffd0aa0d251a",
+          "scripts/v31_cycle.py": "77da2e85b2606142f279a08077cc21a1d99343fb130dd346fe3b8f8c447b937f",
+          "scripts/v31_prepare_validation.py": "e9fe30d3ec1d6ab728c9737fb470ec8745ebe842542e4a9e57d644b777acd713"
+        }
+      },
+      "decisions": {
+        "保留": 13,
+        "观察": 37
+      },
+      "disagreements": 17,
+      "errors": [],
+      "execution_id": "execution-35d3ad4a5869f435f56619c4",
+      "formal_publication": false,
+      "human_gold_count": 0,
+      "integrity": {
+        "foreign_keys": 0,
+        "integrity": "ok"
+      },
+      "observation_reasons": {
+        "DEPENDENCY_SCOPE_UNCONFIRMED": 6,
+        "INFORMATION_INSUFFICIENT": 1,
+        "OPERATING_SCOPE_UNCONFIRMED": 2,
+        "REFERENCE_NOT_SUFFICIENT": 11,
+        "UNRESOLVED_AI_DISAGREEMENT": 17
+      },
+      "output": "F:\\ActionSelectionSkill\\repository_sync\\ActionSelectionSkill_\\work\\v31_autonomous_20261023\\smoke_qualified_final\\execution-35d3ad4a5869f435f56619c4\\attempt_7k9dtumy",
+      "pending": 0,
+      "provider_modes": [
+        "codex",
+        "codex"
+      ],
+      "purpose": "smoke",
+      "records": 50,
+      "release": null,
+      "result_rows": 50,
+      "reused_model_records": 100,
+      "run_id": "run-d1b94b6c52368b6b60720401"
+    }
+  },
+  {
+    "original_relative_path": "smoke_release_candidate/execution-4a423b472413b909c4f2ac6d/attempt_59qx0l67/summary.json",
+    "summary": {
+      "accuracy": null,
+      "actual_model_process_calls": 0,
+      "completed": 50,
+      "contract": {
+        "v3": {
+          "assets/action_reference10037.jsonl": "16666989932fdc84abbb8b8e6c929cef070fe613354f0954de2b56b8f6d7fdbc",
+          "assets/action_semantics/product_type_library.json": "90bf1c11a4b1e51222bded9eef7899ca6500056835377a9f8215c9fd03fc6a14",
+          "assets/action_semantics/related_need_groups.json": "24581f79c05705b8984159254fc1c04286bdf4cd3158795022e25fd613526e78",
+          "assets/action_semantics/results.jsonl": "babe815c08a2b6eb8806cdc23fd6bbe2209e4d999accd213c5824054ce389ad8",
+          "rules/v3_type_aliases.json": "35f5d483aa37644be0a4ed52d6355b760d219329bb259f9aac11450629aaedf0",
+          "runtime/v3/__init__.py": "51c484f17e21596be345e2a85d5fe4951cdcde9f20b0003af5bd6ca38582cd09",
+          "runtime/v3/catalog.py": "6f7f5344f998be5db1addcaa9ae3ccd219ee36fee65a8273d9e72fd8d1a25f13",
+          "runtime/v3/cli.py": "7b547e12b009f0b66b4bb187ccc3d7c2a6fc390576142b3f905259b1295e749c",
+          "runtime/v3/core.py": "8e5b0abe9807c5198f74938dd6118c57a603dc5fba3c50683b130b868e5d0402",
+          "runtime/v3/evaluation.py": "aaa2fb54cefffb68ba18c568536e2448da0e744bc6cc23462540ac88e1c103bf",
+          "runtime/v3/feedback.py": "3f3ddaa88a6221ff63161c91168becd45f4ce67eabb4aff2d8f48f641066cd9c",
+          "runtime/v3/store.py": "603f1a0eded8c31ee6564f17ac0d16cb39888987b2ea8640b2f837841cd4222d",
+          "runtime/v3/workflow.py": "97cc2ff5bb40e9da1703ffd93cc8edf26d8611623cb88de730b32cf345a67306"
+        },
+        "v31": {
+          "runtime/v31/__init__.py": "6144508b55915dc7eef4898a6497559e5c4ecf51079444927924e3ec2cb8bd36",
+          "runtime/v31/cli.py": "20ef0abe30d23c5decab126bf13aea63e1bd282a3be72bf1fd144aab8920df6d",
+          "runtime/v31/core.py": "1aae9d2812ddd58a19c9244d1533f05e15343da12cdb109783b3a6ce9b249d8a",
+          "runtime/v31/model.py": "fa361819cdb0100c6744a257c4d539658f34935cfee885ffcd724544224871ae",
+          "runtime/v31/qualification.py": "21f41d2d071869eb598dbe6efccf9dacb6132b575161ce80329f88f16dc42764",
+          "runtime/v31/rules.py": "064c935571bcbaa576acc0e56f5c9eeef355f6a1d24ad2c30e973be89a627a0b",
+          "runtime/v31/state.py": "68ee2590f18948252e3ebeb2e625899cb05af1a8460f66491554b801a80860ed",
+          "runtime/v31/workflow.py": "c7988bd9f252422cf368bc3414f36c38387bd32f518971961e9fa13db811679c",
+          "scripts/v31_cycle.py": "8d346199fd3b47b2430ef92415d69be220ba5a14d7f1c32552cad88d73613b06",
+          "scripts/v31_prepare_validation.py": "1eec4c3499858db352e85c9d0fe0df40f5ebb0beb67a91fa245c5ff6c6fa3e68"
+        }
+      },
+      "decisions": {
+        "保留": 13,
+        "观察": 37
+      },
+      "disagreements": 17,
+      "errors": [],
+      "execution_id": "execution-4a423b472413b909c4f2ac6d",
+      "formal_publication": false,
+      "human_gold_count": 0,
+      "integrity": {
+        "foreign_keys": 0,
+        "integrity": "ok"
+      },
+      "observation_reasons": {
+        "DEPENDENCY_SCOPE_UNCONFIRMED": 6,
+        "INFORMATION_INSUFFICIENT": 1,
+        "OPERATING_SCOPE_UNCONFIRMED": 2,
+        "REFERENCE_NOT_SUFFICIENT": 11,
+        "UNRESOLVED_AI_DISAGREEMENT": 17
+      },
+      "output": "F:\\ActionSelectionSkill\\repository_sync\\ActionSelectionSkill_\\work\\v31_autonomous_20261023\\smoke_release_candidate\\execution-4a423b472413b909c4f2ac6d\\attempt_59qx0l67",
+      "pending": 0,
+      "provider_modes": [
+        "codex",
+        "codex"
+      ],
+      "purpose": "smoke",
+      "records": 50,
+      "release": null,
+      "result_rows": 50,
+      "reused_model_records": 100,
+      "run_id": "run-1c52ec93a60ec4813221e73c"
+    }
+  },
+  {
+    "original_relative_path": "smoke_release_candidate/execution-a2aa1d13ae768fda74b04412/attempt_ab2x6sqo/summary.json",
+    "summary": {
+      "accuracy": null,
+      "actual_model_process_calls": 0,
+      "completed": 50,
+      "contract": {
+        "v3": {
+          "assets/action_reference10037.jsonl": "16666989932fdc84abbb8b8e6c929cef070fe613354f0954de2b56b8f6d7fdbc",
+          "assets/action_semantics/product_type_library.json": "90bf1c11a4b1e51222bded9eef7899ca6500056835377a9f8215c9fd03fc6a14",
+          "assets/action_semantics/related_need_groups.json": "24581f79c05705b8984159254fc1c04286bdf4cd3158795022e25fd613526e78",
+          "assets/action_semantics/results.jsonl": "babe815c08a2b6eb8806cdc23fd6bbe2209e4d999accd213c5824054ce389ad8",
+          "rules/v3_type_aliases.json": "35f5d483aa37644be0a4ed52d6355b760d219329bb259f9aac11450629aaedf0",
+          "runtime/v3/__init__.py": "51c484f17e21596be345e2a85d5fe4951cdcde9f20b0003af5bd6ca38582cd09",
+          "runtime/v3/catalog.py": "6f7f5344f998be5db1addcaa9ae3ccd219ee36fee65a8273d9e72fd8d1a25f13",
+          "runtime/v3/cli.py": "7b547e12b009f0b66b4bb187ccc3d7c2a6fc390576142b3f905259b1295e749c",
+          "runtime/v3/core.py": "8e5b0abe9807c5198f74938dd6118c57a603dc5fba3c50683b130b868e5d0402",
+          "runtime/v3/evaluation.py": "aaa2fb54cefffb68ba18c568536e2448da0e744bc6cc23462540ac88e1c103bf",
+          "runtime/v3/feedback.py": "3f3ddaa88a6221ff63161c91168becd45f4ce67eabb4aff2d8f48f641066cd9c",
+          "runtime/v3/store.py": "603f1a0eded8c31ee6564f17ac0d16cb39888987b2ea8640b2f837841cd4222d",
+          "runtime/v3/workflow.py": "97cc2ff5bb40e9da1703ffd93cc8edf26d8611623cb88de730b32cf345a67306"
+        },
+        "v31": {
+          "runtime/v31/__init__.py": "6144508b55915dc7eef4898a6497559e5c4ecf51079444927924e3ec2cb8bd36",
+          "runtime/v31/cli.py": "20ef0abe30d23c5decab126bf13aea63e1bd282a3be72bf1fd144aab8920df6d",
+          "runtime/v31/core.py": "84a7b937882b94ac6ae1127bbf60a4e808473672ae35629fc4ddb48dda93993d",
+          "runtime/v31/model.py": "fa361819cdb0100c6744a257c4d539658f34935cfee885ffcd724544224871ae",
+          "runtime/v31/qualification.py": "21f41d2d071869eb598dbe6efccf9dacb6132b575161ce80329f88f16dc42764",
+          "runtime/v31/rules.py": "301365e9c8b23d0a9a5678e21efc61e936aeffc15f9428056c48249e02ee0e9c",
+          "runtime/v31/state.py": "5f22449871ddca51fa3a5941e90fe4841fd60c293a7a293eb5af12b0114b585e",
+          "runtime/v31/workflow.py": "d095c902180b0f6d919ff40a1f1dcfd42d6fbf16dc0e2ee9c001ffd0aa0d251a",
+          "scripts/v31_cycle.py": "77da2e85b2606142f279a08077cc21a1d99343fb130dd346fe3b8f8c447b937f",
+          "scripts/v31_prepare_validation.py": "e9fe30d3ec1d6ab728c9737fb470ec8745ebe842542e4a9e57d644b777acd713"
+        }
+      },
+      "decisions": {
+        "保留": 13,
+        "观察": 37
+      },
+      "disagreements": 17,
+      "errors": [],
+      "execution_id": "execution-a2aa1d13ae768fda74b04412",
+      "formal_publication": false,
+      "human_gold_count": 0,
+      "integrity": {
+        "foreign_keys": 0,
+        "integrity": "ok"
+      },
+      "observation_reasons": {
+        "DEPENDENCY_SCOPE_UNCONFIRMED": 6,
+        "INFORMATION_INSUFFICIENT": 1,
+        "OPERATING_SCOPE_UNCONFIRMED": 2,
+        "REFERENCE_NOT_SUFFICIENT": 11,
+        "UNRESOLVED_AI_DISAGREEMENT": 17
+      },
+      "output": "F:\\ActionSelectionSkill\\repository_sync\\ActionSelectionSkill_\\work\\v31_autonomous_20261023\\smoke_release_candidate\\execution-a2aa1d13ae768fda74b04412\\attempt_ab2x6sqo",
+      "pending": 0,
+      "provider_modes": [
+        "codex",
+        "codex"
+      ],
+      "purpose": "smoke",
+      "records": 50,
+      "release": null,
+      "result_rows": 50,
+      "reused_model_records": 100,
+      "run_id": "run-d156ca4e61a1251b649319db"
+    }
+  },
+  {
+    "original_relative_path": "smoke_release_candidate/execution-ea588de295f0c28193a2e8ee/attempt_3_galdcp/summary.json",
+    "summary": {
+      "accuracy": null,
+      "actual_model_process_calls": 0,
+      "completed": 50,
+      "contract": {
+        "v3": {
+          "assets/action_reference10037.jsonl": "16666989932fdc84abbb8b8e6c929cef070fe613354f0954de2b56b8f6d7fdbc",
+          "assets/action_semantics/product_type_library.json": "90bf1c11a4b1e51222bded9eef7899ca6500056835377a9f8215c9fd03fc6a14",
+          "assets/action_semantics/related_need_groups.json": "24581f79c05705b8984159254fc1c04286bdf4cd3158795022e25fd613526e78",
+          "assets/action_semantics/results.jsonl": "babe815c08a2b6eb8806cdc23fd6bbe2209e4d999accd213c5824054ce389ad8",
+          "rules/v3_type_aliases.json": "35f5d483aa37644be0a4ed52d6355b760d219329bb259f9aac11450629aaedf0",
+          "runtime/v3/__init__.py": "51c484f17e21596be345e2a85d5fe4951cdcde9f20b0003af5bd6ca38582cd09",
+          "runtime/v3/catalog.py": "6f7f5344f998be5db1addcaa9ae3ccd219ee36fee65a8273d9e72fd8d1a25f13",
+          "runtime/v3/cli.py": "7b547e12b009f0b66b4bb187ccc3d7c2a6fc390576142b3f905259b1295e749c",
+          "runtime/v3/core.py": "8e5b0abe9807c5198f74938dd6118c57a603dc5fba3c50683b130b868e5d0402",
+          "runtime/v3/evaluation.py": "aaa2fb54cefffb68ba18c568536e2448da0e744bc6cc23462540ac88e1c103bf",
+          "runtime/v3/feedback.py": "3f3ddaa88a6221ff63161c91168becd45f4ce67eabb4aff2d8f48f641066cd9c",
+          "runtime/v3/store.py": "603f1a0eded8c31ee6564f17ac0d16cb39888987b2ea8640b2f837841cd4222d",
+          "runtime/v3/workflow.py": "97cc2ff5bb40e9da1703ffd93cc8edf26d8611623cb88de730b32cf345a67306"
+        },
+        "v31": {
+          "runtime/v31/__init__.py": "6144508b55915dc7eef4898a6497559e5c4ecf51079444927924e3ec2cb8bd36",
+          "runtime/v31/cli.py": "20ef0abe30d23c5decab126bf13aea63e1bd282a3be72bf1fd144aab8920df6d",
+          "runtime/v31/core.py": "1aae9d2812ddd58a19c9244d1533f05e15343da12cdb109783b3a6ce9b249d8a",
+          "runtime/v31/model.py": "fa361819cdb0100c6744a257c4d539658f34935cfee885ffcd724544224871ae",
+          "runtime/v31/qualification.py": "21f41d2d071869eb598dbe6efccf9dacb6132b575161ce80329f88f16dc42764",
+          "runtime/v31/rules.py": "064c935571bcbaa576acc0e56f5c9eeef355f6a1d24ad2c30e973be89a627a0b",
+          "runtime/v31/state.py": "5f22449871ddca51fa3a5941e90fe4841fd60c293a7a293eb5af12b0114b585e",
+          "runtime/v31/workflow.py": "d095c902180b0f6d919ff40a1f1dcfd42d6fbf16dc0e2ee9c001ffd0aa0d251a",
+          "scripts/v31_cycle.py": "8d346199fd3b47b2430ef92415d69be220ba5a14d7f1c32552cad88d73613b06",
+          "scripts/v31_prepare_validation.py": "1eec4c3499858db352e85c9d0fe0df40f5ebb0beb67a91fa245c5ff6c6fa3e68"
+        }
+      },
+      "decisions": {
+        "保留": 13,
+        "观察": 37
+      },
+      "disagreements": 17,
+      "errors": [],
+      "execution_id": "execution-ea588de295f0c28193a2e8ee",
+      "formal_publication": false,
+      "human_gold_count": 0,
+      "integrity": {
+        "foreign_keys": 0,
+        "integrity": "ok"
+      },
+      "observation_reasons": {
+        "DEPENDENCY_SCOPE_UNCONFIRMED": 6,
+        "INFORMATION_INSUFFICIENT": 1,
+        "OPERATING_SCOPE_UNCONFIRMED": 2,
+        "REFERENCE_NOT_SUFFICIENT": 11,
+        "UNRESOLVED_AI_DISAGREEMENT": 17
+      },
+      "output": "F:\\ActionSelectionSkill\\repository_sync\\ActionSelectionSkill_\\work\\v31_autonomous_20261023\\smoke_release_candidate\\execution-ea588de295f0c28193a2e8ee\\attempt_3_galdcp",
+      "pending": 0,
+      "provider_modes": [
+        "codex",
+        "codex"
+      ],
+      "purpose": "smoke",
+      "records": 50,
+      "release": null,
+      "result_rows": 50,
+      "reused_model_records": 100,
+      "run_id": "run-6f09ec8a00fbacdace8bc006"
+    }
+  },
+  {
+    "original_relative_path": "smoke_v2/execution-f9ced3513ec13a8afd184dc2/summary.json",
+    "summary": {
+      "accuracy": null,
+      "actual_model_process_calls": 2,
+      "completed": 0,
+      "contract": {
+        "v3": {
+          "assets/action_reference10037.jsonl": "16666989932fdc84abbb8b8e6c929cef070fe613354f0954de2b56b8f6d7fdbc",
+          "assets/action_semantics/product_type_library.json": "90bf1c11a4b1e51222bded9eef7899ca6500056835377a9f8215c9fd03fc6a14",
+          "assets/action_semantics/related_need_groups.json": "24581f79c05705b8984159254fc1c04286bdf4cd3158795022e25fd613526e78",
+          "assets/action_semantics/results.jsonl": "babe815c08a2b6eb8806cdc23fd6bbe2209e4d999accd213c5824054ce389ad8",
+          "rules/v3_type_aliases.json": "35f5d483aa37644be0a4ed52d6355b760d219329bb259f9aac11450629aaedf0",
+          "runtime/v3/__init__.py": "51c484f17e21596be345e2a85d5fe4951cdcde9f20b0003af5bd6ca38582cd09",
+          "runtime/v3/catalog.py": "6f7f5344f998be5db1addcaa9ae3ccd219ee36fee65a8273d9e72fd8d1a25f13",
+          "runtime/v3/cli.py": "7b547e12b009f0b66b4bb187ccc3d7c2a6fc390576142b3f905259b1295e749c",
+          "runtime/v3/core.py": "8e5b0abe9807c5198f74938dd6118c57a603dc5fba3c50683b130b868e5d0402",
+          "runtime/v3/evaluation.py": "aaa2fb54cefffb68ba18c568536e2448da0e744bc6cc23462540ac88e1c103bf",
+          "runtime/v3/feedback.py": "3f3ddaa88a6221ff63161c91168becd45f4ce67eabb4aff2d8f48f641066cd9c",
+          "runtime/v3/store.py": "603f1a0eded8c31ee6564f17ac0d16cb39888987b2ea8640b2f837841cd4222d",
+          "runtime/v3/workflow.py": "97cc2ff5bb40e9da1703ffd93cc8edf26d8611623cb88de730b32cf345a67306"
+        },
+        "v31": {
+          "runtime/v31/__init__.py": "6144508b55915dc7eef4898a6497559e5c4ecf51079444927924e3ec2cb8bd36",
+          "runtime/v31/cli.py": "f10f9d9618a93cc02115e243fd22b21f5086f62854cf27681fc5ecb1e65930f6",
+          "runtime/v31/core.py": "2fd86dea0029eb69b2e335322e5494b7ab80d4141843784a36f6fabd0d749d48",
+          "runtime/v31/model.py": "9ba7dde97658d5078dff0731b77af22c5f824a04985b105b0a2260254371be08",
+          "runtime/v31/rules.py": "40fb1c8a3d350cd511dba210ff8247bff59264ffd765eba1d358de1d84d9f6a4",
+          "runtime/v31/state.py": "5f22449871ddca51fa3a5941e90fe4841fd60c293a7a293eb5af12b0114b585e",
+          "runtime/v31/workflow.py": "06ce7527b1f977d8a8d13d83a02053cbad8ead03899681b4a77223cc88fda7d1"
+        }
+      },
+      "decisions": {},
+      "disagreements": 0,
+      "errors": [
+        {
+          "error": "MODEL_BATCH_SOURCE_OR_COUNT_MISMATCH",
+          "records": [
+            "B0_84bacc4c6b66_006134",
+            "B0_84bacc4c6b66_016914",
+            "B0_84bacc4c6b66_007619",
+            "B0_84bacc4c6b66_015244",
+            "B0_84bacc4c6b66_000003",
+            "B0_84bacc4c6b66_003671",
+            "B0_84bacc4c6b66_002325",
+            "B0_84bacc4c6b66_009086",
+            "B0_84bacc4c6b66_002668",
+            "B0_84bacc4c6b66_011159"
+          ]
+        }
+      ],
+      "execution_id": "execution-f9ced3513ec13a8afd184dc2",
+      "formal_publication": false,
+      "human_gold_count": 0,
+      "integrity": {
+        "foreign_keys": 0,
+        "integrity": "ok"
+      },
+      "observation_reasons": {},
+      "output": "F:\\ActionSelectionSkill\\repository_sync\\ActionSelectionSkill_\\work\\v31_autonomous_20261023\\smoke_v2\\execution-f9ced3513ec13a8afd184dc2",
+      "pending": 50,
+      "provider_modes": [
+        "codex",
+        "codex"
+      ],
+      "purpose": "smoke",
+      "records": 50,
+      "release": null,
+      "result_rows": 0,
+      "reused_model_records": 0,
+      "run_id": "run-8b699076a46a8eb3cc31d85f"
+    }
+  },
+  {
+    "original_relative_path": "smoke_v3/execution-33f8eaab669ae535ecb6af76/summary.json",
+    "summary": {
+      "accuracy": null,
+      "actual_model_process_calls": 11,
+      "completed": 50,
+      "contract": {
+        "v3": {
+          "assets/action_reference10037.jsonl": "16666989932fdc84abbb8b8e6c929cef070fe613354f0954de2b56b8f6d7fdbc",
+          "assets/action_semantics/product_type_library.json": "90bf1c11a4b1e51222bded9eef7899ca6500056835377a9f8215c9fd03fc6a14",
+          "assets/action_semantics/related_need_groups.json": "24581f79c05705b8984159254fc1c04286bdf4cd3158795022e25fd613526e78",
+          "assets/action_semantics/results.jsonl": "babe815c08a2b6eb8806cdc23fd6bbe2209e4d999accd213c5824054ce389ad8",
+          "rules/v3_type_aliases.json": "35f5d483aa37644be0a4ed52d6355b760d219329bb259f9aac11450629aaedf0",
+          "runtime/v3/__init__.py": "51c484f17e21596be345e2a85d5fe4951cdcde9f20b0003af5bd6ca38582cd09",
+          "runtime/v3/catalog.py": "6f7f5344f998be5db1addcaa9ae3ccd219ee36fee65a8273d9e72fd8d1a25f13",
+          "runtime/v3/cli.py": "7b547e12b009f0b66b4bb187ccc3d7c2a6fc390576142b3f905259b1295e749c",
+          "runtime/v3/core.py": "8e5b0abe9807c5198f74938dd6118c57a603dc5fba3c50683b130b868e5d0402",
+          "runtime/v3/evaluation.py": "aaa2fb54cefffb68ba18c568536e2448da0e744bc6cc23462540ac88e1c103bf",
+          "runtime/v3/feedback.py": "3f3ddaa88a6221ff63161c91168becd45f4ce67eabb4aff2d8f48f641066cd9c",
+          "runtime/v3/store.py": "603f1a0eded8c31ee6564f17ac0d16cb39888987b2ea8640b2f837841cd4222d",
+          "runtime/v3/workflow.py": "97cc2ff5bb40e9da1703ffd93cc8edf26d8611623cb88de730b32cf345a67306"
+        },
+        "v31": {
+          "runtime/v31/__init__.py": "6144508b55915dc7eef4898a6497559e5c4ecf51079444927924e3ec2cb8bd36",
+          "runtime/v31/cli.py": "f10f9d9618a93cc02115e243fd22b21f5086f62854cf27681fc5ecb1e65930f6",
+          "runtime/v31/core.py": "eef224e3285a8d24369e02cda5c1d1b22816cbd780a07dbca1f213d0f9e31b79",
+          "runtime/v31/model.py": "a902b61ea2ed993f0f7297cb58130a0b3fa3714ccd2043234dd3d93fb0944ff7",
+          "runtime/v31/rules.py": "db1327da725c2d7ec9bbd2d74da6630efd99abdf7ebffa0c6d81bc52766b70ba",
+          "runtime/v31/state.py": "5f22449871ddca51fa3a5941e90fe4841fd60c293a7a293eb5af12b0114b585e",
+          "runtime/v31/workflow.py": "056017b5243c2932fd1cba6527f51441b471d2c72210e22866928a53674087bf"
+        }
+      },
+      "decisions": {
+        "保留": 11,
+        "观察": 39
+      },
+      "disagreements": 29,
+      "errors": [],
+      "execution_id": "execution-33f8eaab669ae535ecb6af76",
+      "formal_publication": false,
+      "human_gold_count": 0,
+      "integrity": {
+        "foreign_keys": 0,
+        "integrity": "ok"
+      },
+      "observation_reasons": {
+        "DEPENDENCY_SCOPE_UNCONFIRMED": 3,
+        "INFORMATION_INSUFFICIENT": 1,
+        "REFERENCE_NOT_SUFFICIENT": 6,
+        "UNRESOLVED_AI_DISAGREEMENT": 29
+      },
+      "output": "F:\\ActionSelectionSkill\\repository_sync\\ActionSelectionSkill_\\work\\v31_autonomous_20261023\\smoke_v3\\execution-33f8eaab669ae535ecb6af76",
+      "pending": 0,
+      "provider_modes": [
+        "codex",
+        "codex"
+      ],
+      "purpose": "smoke",
+      "records": 50,
+      "release": null,
+      "result_rows": 50,
+      "reused_model_records": 8,
+      "run_id": "run-24747f084f63e632c4ea0bad"
+    }
+  },
+  {
+    "original_relative_path": "validation200/execution-166d463750fd5126a7025e24/attempt_8gx899pl/summary.json",
+    "summary": {
+      "accuracy": null,
+      "actual_model_process_calls": 3,
+      "completed": 0,
+      "contract": {
+        "v3": {
+          "assets/action_reference10037.jsonl": "16666989932fdc84abbb8b8e6c929cef070fe613354f0954de2b56b8f6d7fdbc",
+          "assets/action_semantics/product_type_library.json": "90bf1c11a4b1e51222bded9eef7899ca6500056835377a9f8215c9fd03fc6a14",
+          "assets/action_semantics/related_need_groups.json": "24581f79c05705b8984159254fc1c04286bdf4cd3158795022e25fd613526e78",
+          "assets/action_semantics/results.jsonl": "babe815c08a2b6eb8806cdc23fd6bbe2209e4d999accd213c5824054ce389ad8",
+          "rules/v3_type_aliases.json": "35f5d483aa37644be0a4ed52d6355b760d219329bb259f9aac11450629aaedf0",
+          "runtime/v3/__init__.py": "51c484f17e21596be345e2a85d5fe4951cdcde9f20b0003af5bd6ca38582cd09",
+          "runtime/v3/catalog.py": "6f7f5344f998be5db1addcaa9ae3ccd219ee36fee65a8273d9e72fd8d1a25f13",
+          "runtime/v3/cli.py": "7b547e12b009f0b66b4bb187ccc3d7c2a6fc390576142b3f905259b1295e749c",
+          "runtime/v3/core.py": "8e5b0abe9807c5198f74938dd6118c57a603dc5fba3c50683b130b868e5d0402",
+          "runtime/v3/evaluation.py": "aaa2fb54cefffb68ba18c568536e2448da0e744bc6cc23462540ac88e1c103bf",
+          "runtime/v3/feedback.py": "3f3ddaa88a6221ff63161c91168becd45f4ce67eabb4aff2d8f48f641066cd9c",
+          "runtime/v3/store.py": "603f1a0eded8c31ee6564f17ac0d16cb39888987b2ea8640b2f837841cd4222d",
+          "runtime/v3/workflow.py": "97cc2ff5bb40e9da1703ffd93cc8edf26d8611623cb88de730b32cf345a67306"
+        },
+        "v31": {
+          "runtime/v31/__init__.py": "6144508b55915dc7eef4898a6497559e5c4ecf51079444927924e3ec2cb8bd36",
+          "runtime/v31/cli.py": "20ef0abe30d23c5decab126bf13aea63e1bd282a3be72bf1fd144aab8920df6d",
+          "runtime/v31/core.py": "1aae9d2812ddd58a19c9244d1533f05e15343da12cdb109783b3a6ce9b249d8a",
+          "runtime/v31/model.py": "fa361819cdb0100c6744a257c4d539658f34935cfee885ffcd724544224871ae",
+          "runtime/v31/qualification.py": "21f41d2d071869eb598dbe6efccf9dacb6132b575161ce80329f88f16dc42764",
+          "runtime/v31/rules.py": "064c935571bcbaa576acc0e56f5c9eeef355f6a1d24ad2c30e973be89a627a0b",
+          "runtime/v31/state.py": "68ee2590f18948252e3ebeb2e625899cb05af1a8460f66491554b801a80860ed",
+          "runtime/v31/workflow.py": "c7988bd9f252422cf368bc3414f36c38387bd32f518971961e9fa13db811679c",
+          "scripts/v31_cycle.py": "8d346199fd3b47b2430ef92415d69be220ba5a14d7f1c32552cad88d73613b06",
+          "scripts/v31_prepare_validation.py": "1eec4c3499858db352e85c9d0fe0df40f5ebb0beb67a91fa245c5ff6c6fa3e68"
+        }
+      },
+      "decisions": {},
+      "disagreements": 0,
+      "errors": [
+        {
+          "error": "MODEL_BATCH_SOURCE_OR_SCHEMA_MISMATCH_RETRY_ONLY_UNCACHED_ROWS",
+          "records": [
+            "B0_84bacc4c6b66_005920",
+            "B0_84bacc4c6b66_023332",
+            "B0_84bacc4c6b66_007188",
+            "B0_84bacc4c6b66_014700",
+            "B0_84bacc4c6b66_015934",
+            "B0_84bacc4c6b66_012803",
+            "B0_84bacc4c6b66_011121",
+            "B0_84bacc4c6b66_006893",
+            "B0_84bacc4c6b66_009602",
+            "B0_84bacc4c6b66_024630",
+            "B0_84bacc4c6b66_010127",
+            "B0_84bacc4c6b66_001846",
+            "B0_84bacc4c6b66_017890",
+            "B0_84bacc4c6b66_001941",
+            "B0_84bacc4c6b66_019898",
+            "B0_84bacc4c6b66_016207",
+            "B0_84bacc4c6b66_006401",
+            "B0_84bacc4c6b66_007893",
+            "B0_84bacc4c6b66_014654",
+            "B0_84bacc4c6b66_022458",
+            "B0_84bacc4c6b66_001654",
+            "B0_84bacc4c6b66_013073",
+            "B0_84bacc4c6b66_012826",
+            "B0_84bacc4c6b66_012243",
+            "B0_84bacc4c6b66_009891"
+          ]
+        }
+      ],
+      "execution_id": "execution-166d463750fd5126a7025e24",
+      "formal_publication": false,
+      "human_gold_count": 0,
+      "integrity": {
+        "foreign_keys": 0,
+        "integrity": "ok"
+      },
+      "observation_reasons": {},
+      "output": "F:\\ActionSelectionSkill\\repository_sync\\ActionSelectionSkill_\\work\\v31_autonomous_20261023\\validation200\\execution-166d463750fd5126a7025e24\\attempt_8gx899pl",
+      "pending": 200,
+      "provider_modes": [
+        "codex",
+        "codex"
+      ],
+      "purpose": "independent",
+      "records": 200,
+      "release": "release-b4c0e5f4d4d3a8098a10e408",
+      "result_rows": 0,
+      "reused_model_records": 24,
+      "run_id": "run-92d7aa3c47c5bd028d3c9d55"
+    }
+  },
+  {
+    "original_relative_path": "validation200_auth_checked/execution-a8a7741ae1105096e8edeac9/attempt_gqkr2n9e/summary.json",
+    "summary": {
+      "accuracy": null,
+      "actual_model_process_calls": 15,
+      "completed": 175,
+      "contract": {
+        "v3": {
+          "assets/action_reference10037.jsonl": "16666989932fdc84abbb8b8e6c929cef070fe613354f0954de2b56b8f6d7fdbc",
+          "assets/action_semantics/product_type_library.json": "90bf1c11a4b1e51222bded9eef7899ca6500056835377a9f8215c9fd03fc6a14",
+          "assets/action_semantics/related_need_groups.json": "24581f79c05705b8984159254fc1c04286bdf4cd3158795022e25fd613526e78",
+          "assets/action_semantics/results.jsonl": "babe815c08a2b6eb8806cdc23fd6bbe2209e4d999accd213c5824054ce389ad8",
+          "rules/v3_type_aliases.json": "35f5d483aa37644be0a4ed52d6355b760d219329bb259f9aac11450629aaedf0",
+          "runtime/v3/__init__.py": "51c484f17e21596be345e2a85d5fe4951cdcde9f20b0003af5bd6ca38582cd09",
+          "runtime/v3/catalog.py": "6f7f5344f998be5db1addcaa9ae3ccd219ee36fee65a8273d9e72fd8d1a25f13",
+          "runtime/v3/cli.py": "7b547e12b009f0b66b4bb187ccc3d7c2a6fc390576142b3f905259b1295e749c",
+          "runtime/v3/core.py": "8e5b0abe9807c5198f74938dd6118c57a603dc5fba3c50683b130b868e5d0402",
+          "runtime/v3/evaluation.py": "aaa2fb54cefffb68ba18c568536e2448da0e744bc6cc23462540ac88e1c103bf",
+          "runtime/v3/feedback.py": "3f3ddaa88a6221ff63161c91168becd45f4ce67eabb4aff2d8f48f641066cd9c",
+          "runtime/v3/store.py": "603f1a0eded8c31ee6564f17ac0d16cb39888987b2ea8640b2f837841cd4222d",
+          "runtime/v3/workflow.py": "97cc2ff5bb40e9da1703ffd93cc8edf26d8611623cb88de730b32cf345a67306"
+        },
+        "v31": {
+          "runtime/v31/__init__.py": "6144508b55915dc7eef4898a6497559e5c4ecf51079444927924e3ec2cb8bd36",
+          "runtime/v31/cli.py": "20ef0abe30d23c5decab126bf13aea63e1bd282a3be72bf1fd144aab8920df6d",
+          "runtime/v31/core.py": "1aae9d2812ddd58a19c9244d1533f05e15343da12cdb109783b3a6ce9b249d8a",
+          "runtime/v31/model.py": "566fbd1f4a8c5593d0a345e4147651190bf450ea51b81ea8a554507f59632c95",
+          "runtime/v31/qualification.py": "21f41d2d071869eb598dbe6efccf9dacb6132b575161ce80329f88f16dc42764",
+          "runtime/v31/rules.py": "064c935571bcbaa576acc0e56f5c9eeef355f6a1d24ad2c30e973be89a627a0b",
+          "runtime/v31/state.py": "68ee2590f18948252e3ebeb2e625899cb05af1a8460f66491554b801a80860ed",
+          "runtime/v31/workflow.py": "c7988bd9f252422cf368bc3414f36c38387bd32f518971961e9fa13db811679c",
+          "scripts/v31_cycle.py": "edaf66ba1ad124d152fa5ad2c01414068bfcb9ec7ceccb4f2df4c3ad19d0a63f",
+          "scripts/v31_prepare_validation.py": "1eec4c3499858db352e85c9d0fe0df40f5ebb0beb67a91fa245c5ff6c6fa3e68"
+        }
+      },
+      "decisions": {
+        "保留": 70,
+        "观察": 105
+      },
+      "disagreements": 30,
+      "errors": [
+        {
+          "error": "REAL_MODEL_EXECUTION_FAILED_SEE_AUDIT",
+          "records": [
+            "B0_84bacc4c6b66_023335",
+            "B0_84bacc4c6b66_006353",
+            "B0_84bacc4c6b66_005193",
+            "B0_84bacc4c6b66_021729",
+            "B0_84bacc4c6b66_021956",
+            "B0_84bacc4c6b66_002078",
+            "B0_84bacc4c6b66_015205",
+            "B0_84bacc4c6b66_010988",
+            "B0_84bacc4c6b66_013993",
+            "B0_84bacc4c6b66_010146",
+            "B0_84bacc4c6b66_012059",
+            "B0_84bacc4c6b66_009233",
+            "B0_84bacc4c6b66_005382",
+            "B0_84bacc4c6b66_014244",
+            "B0_84bacc4c6b66_024405",
+            "B0_84bacc4c6b66_014289",
+            "B0_84bacc4c6b66_001830",
+            "B0_84bacc4c6b66_008820",
+            "B0_84bacc4c6b66_000901",
+            "B0_84bacc4c6b66_003518",
+            "B0_84bacc4c6b66_012448",
+            "B0_84bacc4c6b66_000986",
+            "B0_84bacc4c6b66_005779",
+            "B0_84bacc4c6b66_009938",
+            "B0_84bacc4c6b66_001730"
+          ]
+        }
+      ],
+      "execution_id": "execution-a8a7741ae1105096e8edeac9",
+      "formal_publication": false,
+      "human_gold_count": 0,
+      "integrity": {
+        "foreign_keys": 0,
+        "integrity": "ok"
+      },
+      "observation_reasons": {
+        "DEPENDENCY_SCOPE_UNCONFIRMED": 22,
+        "INFORMATION_INSUFFICIENT": 2,
+        "OPERATING_SCOPE_UNCONFIRMED": 24,
+        "REFERENCE_NOT_SUFFICIENT": 27,
+        "UNRESOLVED_AI_DISAGREEMENT": 30
+      },
+      "output": "F:\\ActionSelectionSkill\\repository_sync\\ActionSelectionSkill_\\work\\v31_autonomous_20261023\\validation200_auth_checked\\execution-a8a7741ae1105096e8edeac9\\attempt_gqkr2n9e",
+      "pending": 25,
+      "provider_modes": [
+        "codex",
+        "codex"
+      ],
+      "purpose": "independent",
+      "records": 200,
+      "release": "release-d811bd13da8313f4bd72fb98",
+      "result_rows": 175,
+      "reused_model_records": 49,
+      "run_id": "run-e17a0b26a2b890bc5eefbfd5"
+    }
+  },
+  {
+    "original_relative_path": "validation200_network_resume/execution-a8a7741ae1105096e8edeac9/attempt_2en4r6vz/summary.json",
+    "summary": {
+      "accuracy": null,
+      "actual_model_process_calls": 2,
+      "completed": 175,
+      "contract": {
+        "v3": {
+          "assets/action_reference10037.jsonl": "16666989932fdc84abbb8b8e6c929cef070fe613354f0954de2b56b8f6d7fdbc",
+          "assets/action_semantics/product_type_library.json": "90bf1c11a4b1e51222bded9eef7899ca6500056835377a9f8215c9fd03fc6a14",
+          "assets/action_semantics/related_need_groups.json": "24581f79c05705b8984159254fc1c04286bdf4cd3158795022e25fd613526e78",
+          "assets/action_semantics/results.jsonl": "babe815c08a2b6eb8806cdc23fd6bbe2209e4d999accd213c5824054ce389ad8",
+          "rules/v3_type_aliases.json": "35f5d483aa37644be0a4ed52d6355b760d219329bb259f9aac11450629aaedf0",
+          "runtime/v3/__init__.py": "51c484f17e21596be345e2a85d5fe4951cdcde9f20b0003af5bd6ca38582cd09",
+          "runtime/v3/catalog.py": "6f7f5344f998be5db1addcaa9ae3ccd219ee36fee65a8273d9e72fd8d1a25f13",
+          "runtime/v3/cli.py": "7b547e12b009f0b66b4bb187ccc3d7c2a6fc390576142b3f905259b1295e749c",
+          "runtime/v3/core.py": "8e5b0abe9807c5198f74938dd6118c57a603dc5fba3c50683b130b868e5d0402",
+          "runtime/v3/evaluation.py": "aaa2fb54cefffb68ba18c568536e2448da0e744bc6cc23462540ac88e1c103bf",
+          "runtime/v3/feedback.py": "3f3ddaa88a6221ff63161c91168becd45f4ce67eabb4aff2d8f48f641066cd9c",
+          "runtime/v3/store.py": "603f1a0eded8c31ee6564f17ac0d16cb39888987b2ea8640b2f837841cd4222d",
+          "runtime/v3/workflow.py": "97cc2ff5bb40e9da1703ffd93cc8edf26d8611623cb88de730b32cf345a67306"
+        },
+        "v31": {
+          "runtime/v31/__init__.py": "6144508b55915dc7eef4898a6497559e5c4ecf51079444927924e3ec2cb8bd36",
+          "runtime/v31/cli.py": "20ef0abe30d23c5decab126bf13aea63e1bd282a3be72bf1fd144aab8920df6d",
+          "runtime/v31/core.py": "1aae9d2812ddd58a19c9244d1533f05e15343da12cdb109783b3a6ce9b249d8a",
+          "runtime/v31/model.py": "566fbd1f4a8c5593d0a345e4147651190bf450ea51b81ea8a554507f59632c95",
+          "runtime/v31/qualification.py": "21f41d2d071869eb598dbe6efccf9dacb6132b575161ce80329f88f16dc42764",
+          "runtime/v31/rules.py": "064c935571bcbaa576acc0e56f5c9eeef355f6a1d24ad2c30e973be89a627a0b",
+          "runtime/v31/state.py": "68ee2590f18948252e3ebeb2e625899cb05af1a8460f66491554b801a80860ed",
+          "runtime/v31/workflow.py": "c7988bd9f252422cf368bc3414f36c38387bd32f518971961e9fa13db811679c",
+          "scripts/v31_cycle.py": "edaf66ba1ad124d152fa5ad2c01414068bfcb9ec7ceccb4f2df4c3ad19d0a63f",
+          "scripts/v31_prepare_validation.py": "1eec4c3499858db352e85c9d0fe0df40f5ebb0beb67a91fa245c5ff6c6fa3e68"
+        }
+      },
+      "decisions": {
+        "保留": 70,
+        "观察": 105
+      },
+      "disagreements": 30,
+      "errors": [
+        {
+          "error": "REAL_MODEL_EXECUTION_FAILED_SEE_AUDIT",
+          "records": [
+            "B0_84bacc4c6b66_023335",
+            "B0_84bacc4c6b66_006353",
+            "B0_84bacc4c6b66_005193",
+            "B0_84bacc4c6b66_021729",
+            "B0_84bacc4c6b66_021956",
+            "B0_84bacc4c6b66_002078",
+            "B0_84bacc4c6b66_015205",
+            "B0_84bacc4c6b66_010988",
+            "B0_84bacc4c6b66_013993",
+            "B0_84bacc4c6b66_010146",
+            "B0_84bacc4c6b66_012059",
+            "B0_84bacc4c6b66_009233",
+            "B0_84bacc4c6b66_005382",
+            "B0_84bacc4c6b66_014244",
+            "B0_84bacc4c6b66_024405",
+            "B0_84bacc4c6b66_014289",
+            "B0_84bacc4c6b66_001830",
+            "B0_84bacc4c6b66_008820",
+            "B0_84bacc4c6b66_000901",
+            "B0_84bacc4c6b66_003518",
+            "B0_84bacc4c6b66_012448",
+            "B0_84bacc4c6b66_000986",
+            "B0_84bacc4c6b66_005779",
+            "B0_84bacc4c6b66_009938",
+            "B0_84bacc4c6b66_001730"
+          ]
+        }
+      ],
+      "execution_id": "execution-a8a7741ae1105096e8edeac9",
+      "formal_publication": false,
+      "human_gold_count": 0,
+      "integrity": {
+        "foreign_keys": 0,
+        "integrity": "ok"
+      },
+      "observation_reasons": {
+        "DEPENDENCY_SCOPE_UNCONFIRMED": 22,
+        "INFORMATION_INSUFFICIENT": 2,
+        "OPERATING_SCOPE_UNCONFIRMED": 24,
+        "REFERENCE_NOT_SUFFICIENT": 27,
+        "UNRESOLVED_AI_DISAGREEMENT": 30
+      },
+      "output": "F:\\ActionSelectionSkill\\repository_sync\\ActionSelectionSkill_\\work\\v31_autonomous_20261023\\validation200_network_resume\\execution-a8a7741ae1105096e8edeac9\\attempt_2en4r6vz",
+      "pending": 25,
+      "provider_modes": [
+        "codex",
+        "codex"
+      ],
+      "purpose": "independent",
+      "records": 200,
+      "release": "release-d811bd13da8313f4bd72fb98",
+      "result_rows": 175,
+      "reused_model_records": 350,
+      "run_id": "run-e17a0b26a2b890bc5eefbfd5"
+    }
+  }
+]

@@ -1,0 +1,12 @@
+{
+  "source_sha256": "84bacc4c6b66ab7aa1fd7f704d7c3c50a0a195539050fc8e6180f5f0129f68d4",
+  "source_unchanged": true,
+  "action_assets_and_runtime_v3_contract_unchanged": true,
+  "master_write_operations": 0,
+  "sealed50_read_operations": 0,
+  "integrity": {
+    "integrity": "ok",
+    "foreign_keys": 0
+  },
+  "formal_table_comparison_scope": "Captured immediately before and after real rollback/idempotent rescreen. No fabricated task-start DB fingerprint."
+}

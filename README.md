@@ -49,6 +49,8 @@ python scripts/share_tool.py experiment-screen --input products.jsonl --mode cod
 
 完整用法与证据边界见[V3.1自主实验契约](references/v31_autonomous.md)。正式`feedback-import`、`rule-publish`仍要求原有真实人工证据。AI技术回归通过、两轮一致或观察数变化，都不等于选品准确率提升。
 
+本轮实际执行与未完成项见[V3.1实验记录](reports/v31_autonomous_20261023/README.md)：500条开发已完成，200条新来源技术验证完成175条，剩余25条受模型服务网络连接失败阻塞。实验规则只改变2条开发记录，当前新来源验证尚未触发该规则；尚未证明泛化改善，不进入全量或正式经营规则库。
+
 参照索引使用joblib序列化，仅加载来源可信的文件。本仓库文件可用manifest.json校验。Git保留文件原始字节，避免跨平台换行转换导致校验失效。
 
 ## 数据与版本边界

@@ -36,6 +36,8 @@ def export_run(state,execution,out,release=None):
             'rule_conflicts':sum(r['reason_code']=='EXPERIMENTAL_RULE_CONFLICT' for r in finals),'observation_reasons':dict(Counter(r['reason_code'] for r in finals if r['decision']=='观察')),
             'unknown_subjects':sum(r['understanding_status']=='INFORMATION_INSUFFICIENT' for r in finals),'changes':changes,'new_human_gold':0,'formal_accuracy':None,'false_exclusion_rate':None,'retain_recall':None,
             'note':'AI differences and validation are experimental technical evidence. No independent human accuracy claim. Titles are not verified purchasable SKU identities.'}
+    report['subject_metric_basis']='known_subject_candidates and unknown_subjects use second-pass validated understanding status, not confirmed correctness'
+    report['either_pass_information_insufficient']=sum(any((r.get(k) or {}).get('information_status')=='insufficient' for k in ['initial_analysis','review_analysis']) for r in finals)
     (out/'metrics.json').write_text(json.dumps(report,ensure_ascii=False,indent=2),encoding='utf-8')
     return report
 
@@ -52,12 +54,13 @@ def main():
                 if u:
                     for key,value in u.items():
                         if isinstance(value,(int,float)):tokens[key]+=value
-        ledger={'model_process_calls':len(calls),'rule_model_calls':len(rule_calls),'call_records_sum_not_unique':sum(c['records'] for c in calls),'provider_failures':len(state.all('model_failure')),'validation_failure_attempts':len(state.all('model_invalid')),'model_validated_per_record_entries':len(state.all('model_record')),'reported_token_usage':dict(tokens),'external_paid_api_fallback':False,'api_key_used':False,'monetary_cost_not_exposed':True,'calls':calls,'rule_calls':rule_calls}
+        failures=[v for _,v in state.all('model_failure')]
+        ledger={'model_process_calls':len(calls)+len(failures),'successful_model_process_calls':len(calls),'failed_model_process_calls':len(failures),'rule_model_calls':len(rule_calls),'call_records_sum_not_unique':sum(c['records'] for c in calls),'provider_failures':len(failures),'validation_failure_attempts':len(state.all('model_invalid')),'model_validated_per_record_entries':len(state.all('model_record')),'reported_token_usage':dict(tokens),'external_paid_api_fallback':False,'api_key_used':False,'monetary_cost_not_exposed':True,'exact_model_id_unavailable':True,'calls':calls,'failures':failures,'rule_calls':rule_calls}
         (out/'actual_model_call_ledger.json').write_text(json.dumps(ledger,ensure_ascii=False,indent=2),encoding='utf-8')
         gate=qualify(ROOT,state,a.release,Catalog(ROOT))
         report={'version':'V3.1 experiment candidate','git_base_before_publication':subprocess.check_output(['git','rev-parse','HEAD'],cwd=ROOT,text=True).strip(),'code_content_contract':contract(ROOT),'code_content_contract_hash':digest(contract(ROOT)),
                 'development':development,'independent':independent,'actual_model_process_calls':ledger['model_process_calls'],'actual_rule_model_calls':ledger['rule_model_calls'],'full_qualification':gate,'full_25152_performed':False,'shared_store_integrity':state.store.check(),'new_human_gold':0,'formal_publication':False,'main_merge':False,'action_library_frozen':10037,'sealed50_used':False}
         (out/'closure_report.json').write_text(json.dumps(report,ensure_ascii=False,indent=2),encoding='utf-8')
-        print(json.dumps({'development':development['both_model_passes_completed'],'independent':independent['both_model_passes_completed'] if independent else None,'actual_model_calls':len(calls),'output':str(out)},ensure_ascii=False))
+        print(json.dumps({'development':development['both_model_passes_completed'],'independent':independent['both_model_passes_completed'] if independent else None,'actual_model_calls':ledger['model_process_calls'],'output':str(out)},ensure_ascii=False))
     finally:state.close()
 if __name__=='__main__':main()

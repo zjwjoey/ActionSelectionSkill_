@@ -206,5 +206,14 @@ class Experimental(unittest.TestCase):
             s.db.execute('UPDATE v31_events SET payload=? WHERE id=?',(json.dumps({'n':'tampered'}),keys[0]));s.db.commit()
             with self.assertRaisesRegex(ValueError,'HASH_MISMATCH'):s.all('fixture')
         finally:s.close()
+    def test_api_key_login_rejected_without_model_execution(self):
+        from unittest.mock import patch
+        from types import SimpleNamespace
+        from runtime.v31.model import require_chatgpt_login
+        with patch('runtime.v31.model.subprocess.run',return_value=SimpleNamespace(returncode=0,stdout='',stderr='Logged in using an API key')) as proc:
+            with self.assertRaisesRegex(ValueError,'NO_PAID_API'):require_chatgpt_login('fixture-exe')
+            self.assertEqual(proc.call_count,1)
+        with patch('runtime.v31.model.subprocess.run',return_value=SimpleNamespace(returncode=0,stdout='',stderr='Logged in using ChatGPT')):
+            require_chatgpt_login('fixture-exe')
 
 if __name__=='__main__':unittest.main()

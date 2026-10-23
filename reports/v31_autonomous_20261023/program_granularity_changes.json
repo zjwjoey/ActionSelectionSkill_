@@ -1,0 +1,35 @@
+[
+  {
+    "record_id": "B0_84bacc4c6b66_000607",
+    "title": "AX Waber Elevador de monitor doble, longitud y ángulo ajustables, soporte de madera para 2 monitores con almacenamiento",
+    "before": "观察",
+    "after": "保留",
+    "before_reason": "UNRESOLVED_AI_DISAGREEMENT",
+    "after_reason": "DAILY_SUBJECT_WITH_BOUNDED_REFERENCE",
+    "first_form": "ordinary_good",
+    "second_form": "universal_accessory",
+    "raw_model_analyses_unchanged": true
+  },
+  {
+    "record_id": "B0_84bacc4c6b66_013417",
+    "title": "MgcTolBox 20 Ganchos para Colgar, Ganchos en Forma de S, Ganchos Metal para Cocina, Baño, Armario, Oficina, Jardín （Largo, Negro）",
+    "before": "观察",
+    "after": "保留",
+    "before_reason": "UNRESOLVED_AI_DISAGREEMENT",
+    "after_reason": "DAILY_SUBJECT_WITH_BOUNDED_REFERENCE",
+    "first_form": "ordinary_good",
+    "second_form": "universal_accessory",
+    "raw_model_analyses_unchanged": true
+  },
+  {
+    "record_id": "B0_84bacc4c6b66_020565",
+    "title": "Uadme Tapete de Prensa de Calor, Alfombrilla Protectora Resistente al Calor, Tapete para Manualidades, Planchado, Aislantes, Transfers (13x13x1,8cm)",
+    "before": "观察",
+    "after": "保留",
+    "before_reason": "UNRESOLVED_AI_DISAGREEMENT",
+    "after_reason": "DAILY_SUBJECT_WITH_BOUNDED_REFERENCE",
+    "first_form": "universal_accessory",
+    "second_form": "ordinary_good",
+    "raw_model_analyses_unchanged": true
+  }
+]

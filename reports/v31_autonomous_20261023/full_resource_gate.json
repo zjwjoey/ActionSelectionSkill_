@@ -1,0 +1,16 @@
+{
+  "full_source_records": 25152,
+  "full_model_execution_performed": false,
+  "checked_local_time": "2026-10-23 23:42 Asia/Shanghai",
+  "ordinary_usage_allowed": true,
+  "weekly_used_percent": 84,
+  "weekly_remaining_percent": 16,
+  "monetary_cost_not_exposed": true,
+  "no_paid_api_authorized_or_used": true,
+  "no_credits_reset_or_purchase": true,
+  "actual_sum_model_process_seconds": 7785.85,
+  "actual_sum_role_records": 1396,
+  "rough_full_hours_two_roles_two_workers": 39.0,
+  "estimate_not_guaranteed": true,
+  "decision": "RESOURCE_GATE_NOT_CONFIRMED; stop before full inference, retain completed 675 source-record experiment. No local rule results presented as full AI."
+}

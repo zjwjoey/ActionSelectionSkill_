@@ -1,0 +1,1105 @@
+{
+  "version": "V3.1 experiment candidate",
+  "git_base_before_publication": "7e401374d748ece6aac9e232b7e9cf9d417a1aa9",
+  "code_content_contract": {
+    "v3": {
+      "assets/action_reference10037.jsonl": "16666989932fdc84abbb8b8e6c929cef070fe613354f0954de2b56b8f6d7fdbc",
+      "assets/action_semantics/results.jsonl": "babe815c08a2b6eb8806cdc23fd6bbe2209e4d999accd213c5824054ce389ad8",
+      "assets/action_semantics/product_type_library.json": "90bf1c11a4b1e51222bded9eef7899ca6500056835377a9f8215c9fd03fc6a14",
+      "assets/action_semantics/related_need_groups.json": "24581f79c05705b8984159254fc1c04286bdf4cd3158795022e25fd613526e78",
+      "rules/v3_type_aliases.json": "35f5d483aa37644be0a4ed52d6355b760d219329bb259f9aac11450629aaedf0",
+      "runtime/v3/__init__.py": "51c484f17e21596be345e2a85d5fe4951cdcde9f20b0003af5bd6ca38582cd09",
+      "runtime/v3/catalog.py": "6f7f5344f998be5db1addcaa9ae3ccd219ee36fee65a8273d9e72fd8d1a25f13",
+      "runtime/v3/cli.py": "7b547e12b009f0b66b4bb187ccc3d7c2a6fc390576142b3f905259b1295e749c",
+      "runtime/v3/core.py": "8e5b0abe9807c5198f74938dd6118c57a603dc5fba3c50683b130b868e5d0402",
+      "runtime/v3/evaluation.py": "aaa2fb54cefffb68ba18c568536e2448da0e744bc6cc23462540ac88e1c103bf",
+      "runtime/v3/feedback.py": "3f3ddaa88a6221ff63161c91168becd45f4ce67eabb4aff2d8f48f641066cd9c",
+      "runtime/v3/store.py": "603f1a0eded8c31ee6564f17ac0d16cb39888987b2ea8640b2f837841cd4222d",
+      "runtime/v3/workflow.py": "97cc2ff5bb40e9da1703ffd93cc8edf26d8611623cb88de730b32cf345a67306"
+    },
+    "v31": {
+      "runtime/v31/__init__.py": "6144508b55915dc7eef4898a6497559e5c4ecf51079444927924e3ec2cb8bd36",
+      "runtime/v31/cli.py": "20ef0abe30d23c5decab126bf13aea63e1bd282a3be72bf1fd144aab8920df6d",
+      "runtime/v31/core.py": "1aae9d2812ddd58a19c9244d1533f05e15343da12cdb109783b3a6ce9b249d8a",
+      "runtime/v31/model.py": "566fbd1f4a8c5593d0a345e4147651190bf450ea51b81ea8a554507f59632c95",
+      "runtime/v31/qualification.py": "21f41d2d071869eb598dbe6efccf9dacb6132b575161ce80329f88f16dc42764",
+      "runtime/v31/rules.py": "064c935571bcbaa576acc0e56f5c9eeef355f6a1d24ad2c30e973be89a627a0b",
+      "runtime/v31/state.py": "68ee2590f18948252e3ebeb2e625899cb05af1a8460f66491554b801a80860ed",
+      "runtime/v31/workflow.py": "c7988bd9f252422cf368bc3414f36c38387bd32f518971961e9fa13db811679c",
+      "scripts/v31_cycle.py": "edaf66ba1ad124d152fa5ad2c01414068bfcb9ec7ceccb4f2df4c3ad19d0a63f",
+      "scripts/v31_prepare_validation.py": "1eec4c3499858db352e85c9d0fe0df40f5ebb0beb67a91fa245c5ff6c6fa3e68"
+    }
+  },
+  "code_content_contract_hash": "63329678949aefaff2f2f07a2d95ada82ab7de0de76c656d8e1abd4f51dbfb2b",
+  "development": {
+    "execution": "execution-21658fae123ccab67aa94786",
+    "purpose": "development",
+    "sources": 500,
+    "output_rows": 500,
+    "both_model_passes_completed": 500,
+    "pending": 0,
+    "decisions": {
+      "观察": 338,
+      "保留": 160,
+      "用不到": 2
+    },
+    "paired_v3_baseline": {
+      "观察": 258,
+      "保留": 242
+    },
+    "paired_comparison_not_independent_AB": true,
+    "disagreements": 142,
+    "disagreement_layers": {
+      "reference": 86,
+      "boundary": 32,
+      "subject": 48
+    },
+    "known_subject_candidates": 487,
+    "reference_relation": {
+      "none": 130,
+      "related_type": 98,
+      "same_type": 193,
+      "specific_need": 43,
+      "category_only": 16,
+      "host_only": 20
+    },
+    "rule_conflicts": 0,
+    "observation_reasons": {
+      "REFERENCE_NOT_SUFFICIENT": 107,
+      "UNRESOLVED_AI_DISAGREEMENT": 141,
+      "OPERATING_SCOPE_UNCONFIRMED": 45,
+      "DEPENDENCY_SCOPE_UNCONFIRMED": 39,
+      "INFORMATION_INSUFFICIENT": 6
+    },
+    "unknown_subjects": 13,
+    "changes": [
+      {
+        "record_id": "B0_84bacc4c6b66_000052",
+        "title": "132cm Ventilador De Techo Con Luz Y Mando Motor Dc Silencioso 3aspas Marrón | Ventilador De Techo Con Luz Silencioso Exterior Temporizador 3 Temperaturas 6 Velocidades De Color Función Verano Invierno",
+        "v3_paired": "保留",
+        "v31_final": "观察",
+        "reason": "OPERATING_SCOPE_UNCONFIRMED",
+        "experimental_rules": []
+      },
+      {
+        "record_id": "B0_84bacc4c6b66_000518",
+        "title": "ARTISTRO 24 Marcadores de Tela de Doble Punta - Kit de Decoración Textil - Permanente para Ropa - Rotuladores Sin Manchas para Camisetas, Bolsas, Textiles, Lienzos y Más (Punta de Pincel y Punta Fina)",
+        "v3_paired": "保留",
+        "v31_final": "观察",
+        "reason": "UNRESOLVED_AI_DISAGREEMENT",
+        "experimental_rules": []
+      },
+      {
+        "record_id": "B0_84bacc4c6b66_001389",
+        "title": "Amazon Basics Vajilla para 4 personas (16 piezas), diseño de rayas, color negro",
+        "v3_paired": "保留",
+        "v31_final": "观察",
+        "reason": "UNRESOLVED_AI_DISAGREEMENT",
+        "experimental_rules": []
+      },
+      {
+        "record_id": "B0_84bacc4c6b66_001480",
+        "title": "Amazon Basics 6 Estantes de Almacenamiento, Seis Cubos, de Alambre, Blanco, 37.08 P x 76.96 W x 113.79 H",
+        "v3_paired": "保留",
+        "v31_final": "观察",
+        "reason": "OPERATING_SCOPE_UNCONFIRMED",
+        "experimental_rules": []
+      },
+      {
+        "record_id": "B0_84bacc4c6b66_001515",
+        "title": "8 Packs Ambientador Nevera,Refrigerator Deodorizer,Desodorante Para Frigorífico,Contiene Un Desodorante Con Carbón Activo Que Elimina Eficazmente Los Malos Olores",
+        "v3_paired": "保留",
+        "v31_final": "观察",
+        "reason": "UNRESOLVED_AI_DISAGREEMENT",
+        "experimental_rules": []
+      },
+      {
+        "record_id": "B0_84bacc4c6b66_002407",
+        "title": "BRILONER - Mini Lámpara de Mesa LED Inalámbrica, Lámpara de Noche Regulable Táctil, Lámpara de Escritorio, USB-C, Lámpara de Camping, Luz Blanca Cálida y RGB, 7x7 cm, Plata",
+        "v3_paired": "保留",
+        "v31_final": "观察",
+        "reason": "UNRESOLVED_AI_DISAGREEMENT",
+        "experimental_rules": []
+      },
+      {
+        "record_id": "B0_84bacc4c6b66_002689",
+        "title": "BelleStyle Juguetes de Baño, 4 Piezas Juguete Bañera Silicona para Bebes Niños 1 2 3 4 Años, Juguetes de Agua Antimoho Animales de Juguete Flotantes Juego de Ducha para Niños Pequeños 6 9 12 Meses",
+        "v3_paired": "保留",
+        "v31_final": "观察",
+        "reason": "UNRESOLVED_AI_DISAGREEMENT",
+        "experimental_rules": []
+      },
+      {
+        "record_id": "B0_84bacc4c6b66_003041",
+        "title": "2 Juegos de 6 Colores Popcorn Pen, Bolígrafos Mágicos Hinchados | Bolígrafos Popcorn, Bolígrafo 3D para Niños, 3D Pen, Ideales para Tarjetas, Álbumes y Manualidades",
+        "v3_paired": "保留",
+        "v31_final": "观察",
+        "reason": "UNRESOLVED_AI_DISAGREEMENT",
+        "experimental_rules": []
+      },
+      {
+        "record_id": "B0_84bacc4c6b66_003540",
+        "title": "Buyqualia Armario hogar escobero Multiusos en Color Blanco (Alto 170 cm/Ancho 35 cm/Fondo 32 cm)",
+        "v3_paired": "保留",
+        "v31_final": "观察",
+        "reason": "OPERATING_SCOPE_UNCONFIRMED",
+        "experimental_rules": []
+      },
+      {
+        "record_id": "B0_84bacc4c6b66_003711",
+        "title": "CLEANmaxx Limpiador de tapicería Pro Power, 600 W, color azul, potente aspiradora de lavado con doble depósito y autolimpieza, ideal para tapicería de sofá, coche, alfombra, fuerte eliminación de",
+        "v3_paired": "保留",
+        "v31_final": "观察",
+        "reason": "UNRESOLVED_AI_DISAGREEMENT",
+        "experimental_rules": []
+      },
+      {
+        "record_id": "B0_84bacc4c6b66_003846",
+        "title": "CREATE/WINDCALM/Ventilador de techo ABS con luz blanco con Wifi y mando / 40W, Silencioso, Ø132 cm, 6 velocidades, 3 temperaturas de luz, temporizador, función verano-invierno",
+        "v3_paired": "保留",
+        "v31_final": "观察",
+        "reason": "UNRESOLVED_AI_DISAGREEMENT",
+        "experimental_rules": []
+      },
+      {
+        "record_id": "B0_84bacc4c6b66_004010",
+        "title": "Cajas de Almacenamiento con Tapa 2.8L, Pack de 6 Organizadores con Asas | Plastico Duro Apilable, Cajas de Almacenaje Estrechas con Tapa, Organizador para Armario y Baño, Cubos para Cocina y Cajon",
+        "v3_paired": "保留",
+        "v31_final": "观察",
+        "reason": "UNRESOLVED_AI_DISAGREEMENT",
+        "experimental_rules": []
+      },
+      {
+        "record_id": "B0_84bacc4c6b66_004028",
+        "title": "Juego de 2 Funda de Cojín de Otoño,Patrón de Hojas de Arce y Calabazas | 2 Piezas Funda de Cojín Decorativo,Funda de Almohada,Funda Cojín Calabaza para Sofá,Salón,Dormitorio,Patio",
+        "v3_paired": "保留",
+        "v31_final": "观察",
+        "reason": "UNRESOLVED_AI_DISAGREEMENT",
+        "experimental_rules": []
+      },
+      {
+        "record_id": "B0_84bacc4c6b66_004274",
+        "title": "Cecotec Robot Aspirador con Navegación Giroscópica Conga M10 Advance Aqua",
+        "v3_paired": "保留",
+        "v31_final": "观察",
+        "reason": "OPERATING_SCOPE_UNCONFIRMED",
+        "experimental_rules": []
+      },
+      {
+        "record_id": "B0_84bacc4c6b66_004570",
+        "title": "Cervaline Armario de Madera de ingeniería 30x50x200 cm,35.6kg-3307684",
+        "v3_paired": "保留",
+        "v31_final": "观察",
+        "reason": "OPERATING_SCOPE_UNCONFIRMED",
+        "experimental_rules": []
+      },
+      {
+        "record_id": "B0_84bacc4c6b66_004940",
+        "title": "7 Compartimentos caja organizadora de armario con separadores - 6 Unidades",
+        "v3_paired": "保留",
+        "v31_final": "观察",
+        "reason": "UNRESOLVED_AI_DISAGREEMENT",
+        "experimental_rules": []
+      },
+      {
+        "record_id": "B0_84bacc4c6b66_005013",
+        "title": "Connex COX881004 - Espátula japonesa set 4 piezas",
+        "v3_paired": "保留",
+        "v31_final": "观察",
+        "reason": "UNRESOLVED_AI_DISAGREEMENT",
+        "experimental_rules": []
+      },
+      {
+        "record_id": "B0_84bacc4c6b66_005717",
+        "title": "DUSPAK 3D Hinchables Popcorn Pen,12 colores para crear dibujos con relieve usando aire caliente, ideales para tarjetas, álbumes y manualidades",
+        "v3_paired": "保留",
+        "v31_final": "观察",
+        "reason": "UNRESOLVED_AI_DISAGREEMENT",
+        "experimental_rules": []
+      },
+      {
+        "record_id": "B0_84bacc4c6b66_005724",
+        "title": "DYIOTF Fundas Cojines 45x45 Juego de 2, Funda Cojin Gamer Decorativa para Sofa, Fundas de Cojines de Lino con Temática de Videojuegos para Decoracion de Habitacion Juvenil, Sin Relleno",
+        "v3_paired": "保留",
+        "v31_final": "观察",
+        "reason": "UNRESOLVED_AI_DISAGREEMENT",
+        "experimental_rules": []
+      },
+      {
+        "record_id": "B0_84bacc4c6b66_006254",
+        "title": "Dispensador de Miel Antigoteo, Tarro para Miel de 10,65oz, Tapas Superior E Inferior Extraíbles, Dispensador Miel que Mantiene la Miel Fresca, Accesorio de Cocina para Guardar Miel y Jarabe (Negro)",
+        "v3_paired": "保留",
+        "v31_final": "观察",
+        "reason": "REFERENCE_NOT_SUFFICIENT",
+        "experimental_rules": []
+      },
+      {
+        "record_id": "B0_84bacc4c6b66_006486",
+        "title": "ECOVACS WINBOT W3 OMNI Robot Limpiacristales con Estación Multifunción, Autolavado de Mopa, Limpieza Inteligente de Bordes, Atomizador Triple, Control vía App, Protección de 12 Fases",
+        "v3_paired": "观察",
+        "v31_final": "用不到",
+        "reason": "AI_EXPERIMENTAL_RULE",
+        "experimental_rules": [
+          "experiment-56d25863903bc914c29cfe55"
+        ]
+      },
+      {
+        "record_id": "B0_84bacc4c6b66_006654",
+        "title": "EVVO Limpiatapicerías AM68 1000/1200 W, Pulveriza y Aspira, Sofá y Coche | Depósitos Separados, Secado Rápido, Accesorios Incluidos y Limpieza Profunda de Hogar y Coche",
+        "v3_paired": "保留",
+        "v31_final": "观察",
+        "reason": "UNRESOLVED_AI_DISAGREEMENT",
+        "experimental_rules": []
+      },
+      {
+        "record_id": "B0_84bacc4c6b66_006755",
+        "title": "Goma Elástica Costura Ancha 38mm Blanca, Banda Elástica Plana Fuerte 6m | Cinturillas para pantalones, faldas y ropa deportiva, fundas de sofá, tapizar sillas, arreglos y remates de prendas",
+        "v3_paired": "保留",
+        "v31_final": "观察",
+        "reason": "UNRESOLVED_AI_DISAGREEMENT",
+        "experimental_rules": []
+      },
+      {
+        "record_id": "B0_84bacc4c6b66_006820",
+        "title": "Elan Base de Corte A3 Autocicatrizante Verde, Tabla Cortar Costura 44x30 cm",
+        "v3_paired": "保留",
+        "v31_final": "观察",
+        "reason": "UNRESOLVED_AI_DISAGREEMENT",
+        "experimental_rules": []
+      },
+      {
+        "record_id": "B0_84bacc4c6b66_007463",
+        "title": "FEELSO Alcachofa de Ducha con Filtro de 15 Capas, Alta Presión, Antical | Alcachofa Ducha con 3+1 Modos de Chorro, Cabezal de Ducha con Botón de Pausa y Ahorro de Agua para Agua Dura, Gris",
+        "v3_paired": "保留",
+        "v31_final": "观察",
+        "reason": "UNRESOLVED_AI_DISAGREEMENT",
+        "experimental_rules": []
+      },
+      {
+        "record_id": "B0_84bacc4c6b66_007614",
+        "title": "2uds Máquina para Fabricar Tubos de Tela, Máquina para Hacer Rollos de Tela de Plástico Herramienta para Doblar Telas para Hacer Alfombras de Tela Más Fácilmente (Verde)",
+        "v3_paired": "保留",
+        "v31_final": "观察",
+        "reason": "REFERENCE_NOT_SUFFICIENT",
+        "experimental_rules": []
+      },
+      {
+        "record_id": "B0_84bacc4c6b66_007928",
+        "title": "Folpus Fuente de Cascada de Escritorio Flujo de Agua Batería USB/AA Fengshui para",
+        "v3_paired": "保留",
+        "v31_final": "观察",
+        "reason": "UNRESOLVED_AI_DISAGREEMENT",
+        "experimental_rules": []
+      },
+      {
+        "record_id": "B0_84bacc4c6b66_008246",
+        "title": "GRANNY SAYS Cajas Tela Almacenaje, Pack de 3 Cajas Almacenaje Ropa, Cajas de Tela Almacenaje Ropa Armario, Cajas Almacenaje Carton, Cajas Organizadoras Ropa, Cajas Almacenaje con Tapa, Blanco Caqui",
+        "v3_paired": "保留",
+        "v31_final": "观察",
+        "reason": "UNRESOLVED_AI_DISAGREEMENT",
+        "experimental_rules": []
+      },
+      {
+        "record_id": "B0_84bacc4c6b66_008484",
+        "title": "Genérico Luz Dragon Nook, luz estante para libros con respiración dragón | Lámpara dragón impresa en 3D, luz estantería dragón que , luz dragones que brillan en el estante",
+        "v3_paired": "保留",
+        "v31_final": "观察",
+        "reason": "UNRESOLVED_AI_DISAGREEMENT",
+        "experimental_rules": []
+      },
+      {
+        "record_id": "B0_84bacc4c6b66_009139",
+        "title": "HOMCOM Armario de Tela con 5 Barras para Dormitorio 212x45x167 cm Gris | Armario Ropero, 5 Estantes, 6 Bolsillos Laterales, Cremallera, Marco de Acero, Espacio Pequeño",
+        "v3_paired": "保留",
+        "v31_final": "观察",
+        "reason": "OPERATING_SCOPE_UNCONFIRMED",
+        "experimental_rules": []
+      },
+      {
+        "record_id": "B0_84bacc4c6b66_009159",
+        "title": "HOMCOM Mesa de Costura Plegable con 6 Ruedas, 3 Compartimentos Blanco | Mueble para Máquina de Coser, 18 Clavijas para Hilos, 2 Cajones de Tela, Tomas Corriente, Armario de Costura",
+        "v3_paired": "保留",
+        "v31_final": "观察",
+        "reason": "UNRESOLVED_AI_DISAGREEMENT",
+        "experimental_rules": []
+      },
+      {
+        "record_id": "B0_84bacc4c6b66_009185",
+        "title": "HOME DECO FACTORY Mesa Auxiliar Redonda Reloj Modelo Pequeño Negro",
+        "v3_paired": "保留",
+        "v31_final": "观察",
+        "reason": "OPERATING_SCOPE_UNCONFIRMED",
+        "experimental_rules": []
+      },
+      {
+        "record_id": "B0_84bacc4c6b66_009308",
+        "title": "Habitdesign Mesa de Comedor Extensible Kendra, 140-190x78x90cm",
+        "v3_paired": "保留",
+        "v31_final": "观察",
+        "reason": "OPERATING_SCOPE_UNCONFIRMED",
+        "experimental_rules": []
+      },
+      {
+        "record_id": "B0_84bacc4c6b66_009390",
+        "title": "Habitdesign Zapatero Armario Basic, Mueble Auxiliar Acabado en Color Roble Canadian, Medidas: 108 x 55 x 36 cm",
+        "v3_paired": "保留",
+        "v31_final": "观察",
+        "reason": "UNRESOLVED_AI_DISAGREEMENT",
+        "experimental_rules": []
+      },
+      {
+        "record_id": "B0_84bacc4c6b66_009405",
+        "title": "Almohada Halloween,Almohadas fantasma,Peluche fantasmas con sombrero bruja | Almohada de Halloween,Almohadas fantasma,Peluche fantasmas,CojínFantasma de Felpa Suave,Decoración de halloweens para sofá",
+        "v3_paired": "保留",
+        "v31_final": "观察",
+        "reason": "UNRESOLVED_AI_DISAGREEMENT",
+        "experimental_rules": []
+      },
+      {
+        "record_id": "B0_84bacc4c6b66_009759",
+        "title": "Homaxy Funda gruesa suave para sofá, color albaricoque, 70 x 210 cm | Funda de sofá lavable antideslizante, fundas de sofá para perros, mascotas y niños, 3 4 plazas para el salón",
+        "v3_paired": "保留",
+        "v31_final": "观察",
+        "reason": "REFERENCE_NOT_SUFFICIENT",
+        "experimental_rules": []
+      },
+      {
+        "record_id": "B0_84bacc4c6b66_010842",
+        "title": "Jimmy BX7 Pro Aspirador Anti-ácaros 700W, Aspirador de mão con Esterilização UV Lamp e Ultra-sónica, Sensor Inteligente de Sujidade, para Colchões, Cama e Sofás",
+        "v3_paired": "保留",
+        "v31_final": "观察",
+        "reason": "UNRESOLVED_AI_DISAGREEMENT",
+        "experimental_rules": []
+      },
+      {
+        "record_id": "B0_84bacc4c6b66_010856",
+        "title": "Joejis Absorbe Olores Nevera - Dura 12 meses, carbón de bambú premium sin aroma ambientador nevera - Efectivo desodorante frigorifico (2 pack)",
+        "v3_paired": "保留",
+        "v31_final": "观察",
+        "reason": "UNRESOLVED_AI_DISAGREEMENT",
+        "experimental_rules": []
+      },
+      {
+        "record_id": "B0_84bacc4c6b66_011074",
+        "title": "KASURE 4 Pcs Bolsas Almacenaje Ropa Plegables, 40L Cajas Almacenaje Ropa | Organizador Armario con Ventana Transparente Diseño Tipo Cajón, Asa Reforzada para Guardar Ropa Mantas Edredones Toallas Gris",
+        "v3_paired": "保留",
+        "v31_final": "观察",
+        "reason": "UNRESOLVED_AI_DISAGREEMENT",
+        "experimental_rules": []
+      },
+      {
+        "record_id": "B0_84bacc4c6b66_011128",
+        "title": "KICHLY Organizadores para la despensa - Juego de 8 -Compartimentos de almacenamiento para la cocina, despensa, armarios, encimeras y refrigerador - sin BPA (Transparente)",
+        "v3_paired": "保留",
+        "v31_final": "观察",
+        "reason": "UNRESOLVED_AI_DISAGREEMENT",
+        "experimental_rules": []
+      },
+      {
+        "record_id": "B0_84bacc4c6b66_011405",
+        "title": "Kiatuniya Funda de Cojín Terciopelo 40x40 Otoño Hojas de Arce y Calabaza | Decorativo Funda de Cojíns Otoñal Modernas Cuadrado Fundas de Almohada para Patio Balcón Jardín Sofá Juego de 2",
+        "v3_paired": "保留",
+        "v31_final": "观察",
+        "reason": "UNRESOLVED_AI_DISAGREEMENT",
+        "experimental_rules": []
+      },
+      {
+        "record_id": "B0_84bacc4c6b66_011932",
+        "title": "LTHERMELK Banderín de Halloween con Bruja, 180 x 90 cm. Decoración terrorífica para Interior y Exterior",
+        "v3_paired": "保留",
+        "v31_final": "观察",
+        "reason": "UNRESOLVED_AI_DISAGREEMENT",
+        "experimental_rules": []
+      },
+      {
+        "record_id": "B0_84bacc4c6b66_012076",
+        "title": "Lavea® Juego de 2 Fundas de Almohada - 40x80 - Verde Oliva | Funda de almohada 100% Microfibra, Funda de cojín, Sin plancha y sin arrugas con cremallera",
+        "v3_paired": "保留",
+        "v31_final": "观察",
+        "reason": "UNRESOLVED_AI_DISAGREEMENT",
+        "experimental_rules": []
+      },
+      {
+        "record_id": "B0_84bacc4c6b66_012147",
+        "title": "Leopacat Cafetera Turca,  600 ML Calentador de Mantequilla Acero Inoxidable | Jarra de Leche Derretir con Mango de Boquilla para Chocolate Caliente Hacer Café Leche Art, Cappuccino",
+        "v3_paired": "保留",
+        "v31_final": "观察",
+        "reason": "UNRESOLVED_AI_DISAGREEMENT",
+        "experimental_rules": []
+      },
+      {
+        "record_id": "B0_84bacc4c6b66_012347",
+        "title": "Linda's Essentials Protector Cajones Cocina - Protector Antideslizante de Armarios y Muebles - Rollo Cubre Cajon Transparente - 30 x 150 cm",
+        "v3_paired": "保留",
+        "v31_final": "观察",
+        "reason": "UNRESOLVED_AI_DISAGREEMENT",
+        "experimental_rules": []
+      },
+      {
+        "record_id": "B0_84bacc4c6b66_012820",
+        "title": "MISSLO Perchero corto para colgar ropa con estantes inferiores y ruedas, perchero resistente con ruedas para ropa de niños, para abrigos de adultos, armario, armario",
+        "v3_paired": "保留",
+        "v31_final": "观察",
+        "reason": "OPERATING_SCOPE_UNCONFIRMED",
+        "experimental_rules": []
+      },
+      {
+        "record_id": "B0_84bacc4c6b66_013006",
+        "title": "Mailfull 10 adhesivos 3D para azulejos, para cocina, baño, color beige | Azulejos autoadhesivos gruesos desmontables impermeables para baño, cocina, decoración de pared, resistente al agua",
+        "v3_paired": "保留",
+        "v31_final": "观察",
+        "reason": "UNRESOLVED_AI_DISAGREEMENT",
+        "experimental_rules": []
+      },
+      {
+        "record_id": "B0_84bacc4c6b66_013413",
+        "title": "Mewaii Luz Nocturna Infantil Dinosaurio de Silicona – Lampara Quitamiedos, 3 Niveles de Brillo, 4 Sonidos Relajantes, Batería Recargable 1200 mAh, Ideal para Bebés y Niños",
+        "v3_paired": "保留",
+        "v31_final": "观察",
+        "reason": "UNRESOLVED_AI_DISAGREEMENT",
+        "experimental_rules": []
+      },
+      {
+        "record_id": "B0_84bacc4c6b66_013653",
+        "title": "Moliuoly Correa de hombro para desbrozadora y cortacésped | Correa de transporte ajustable; Con mosquetón de metal y cierre rápido; Todas las marcas de cortasetos",
+        "v3_paired": "保留",
+        "v31_final": "观察",
+        "reason": "UNRESOLVED_AI_DISAGREEMENT",
+        "experimental_rules": []
+      },
+      {
+        "record_id": "B0_84bacc4c6b66_014000",
+        "title": "NEWSONA 3 Piezas Organizador Ropa Transparente 35L – Cajas Plegables para Armario o Debajo de la Cama – Bolsa Almacenamiento Mantas y Juguetes",
+        "v3_paired": "保留",
+        "v31_final": "观察",
+        "reason": "UNRESOLVED_AI_DISAGREEMENT",
+        "experimental_rules": []
+      },
+      {
+        "record_id": "B0_84bacc4c6b66_014544",
+        "title": "OTraki Cortina Baño Pesado 240 x 200 cm, Impermeable Antimoho EVA Cortina de Ducha Larga Sin PVC, Cortina Bañera 3D Efecto Semi-Transparente Lavable",
+        "v3_paired": "保留",
+        "v31_final": "观察",
+        "reason": "UNRESOLVED_AI_DISAGREEMENT",
+        "experimental_rules": []
+      },
+      {
+        "record_id": "B0_84bacc4c6b66_014713",
+        "title": "Coca-Cola - Letrero de metal en relieve en forma de flecha con Coca-Cola fría para la cocina o la sala de entretenimiento",
+        "v3_paired": "保留",
+        "v31_final": "观察",
+        "reason": "UNRESOLVED_AI_DISAGREEMENT",
+        "experimental_rules": []
+      },
+      {
+        "record_id": "B0_84bacc4c6b66_015603",
+        "title": "Peugeot Paris - Molinillo de pimienta y sal (22 cm, Chocolate) | Molinillo de pimienta manual con 6 moliendas preestablecidas, madera de haya con certificación PEFC, fabricado en Francia",
+        "v3_paired": "保留",
+        "v31_final": "观察",
+        "reason": "UNRESOLVED_AI_DISAGREEMENT",
+        "experimental_rules": []
+      },
+      {
+        "record_id": "B0_84bacc4c6b66_016125",
+        "title": "Prasent - Bobina de cordón (rayón, 100 m), color rojo",
+        "v3_paired": "保留",
+        "v31_final": "观察",
+        "reason": "UNRESOLVED_AI_DISAGREEMENT",
+        "experimental_rules": []
+      },
+      {
+        "record_id": "B0_84bacc4c6b66_016687",
+        "title": "Rayher 38238000 Pasta para modelar, fina, bote 500g",
+        "v3_paired": "保留",
+        "v31_final": "观察",
+        "reason": "UNRESOLVED_AI_DISAGREEMENT",
+        "experimental_rules": []
+      },
+      {
+        "record_id": "B0_84bacc4c6b66_016876",
+        "title": "Rayher Caja clasificadora con asa, Surtido, 3 compartimentos, 23,1x15,6x18,5cm",
+        "v3_paired": "保留",
+        "v31_final": "观察",
+        "reason": "UNRESOLVED_AI_DISAGREEMENT",
+        "experimental_rules": []
+      },
+      {
+        "record_id": "B0_84bacc4c6b66_017422",
+        "title": "Rotuladores de Burbujas 3D Popcorn Pen, Bubble Drawing Pens para DIY, Kit de 6 Colores para Dibujo Creativo y Manualidades, Bolígrafo 3D para Niños y Tarjetas de Felicitación",
+        "v3_paired": "保留",
+        "v31_final": "观察",
+        "reason": "UNRESOLVED_AI_DISAGREEMENT",
+        "experimental_rules": []
+      },
+      {
+        "record_id": "B0_84bacc4c6b66_017951",
+        "title": "SONGMICS Silla de escritorio Ergonómica con altura ajustable PU 150 kg",
+        "v3_paired": "保留",
+        "v31_final": "观察",
+        "reason": "OPERATING_SCOPE_UNCONFIRMED",
+        "experimental_rules": []
+      },
+      {
+        "record_id": "B0_84bacc4c6b66_017996",
+        "title": "SONGMICS Home Mueble de Baño Estrecho, Snapsemble Montaje, 30x30x170 cm | Mueble Compacto con Estantes Ajustables para Salón y Entrada, Blanco Rústico y Marrón Miel, Colección HOPU BBC667WJ01",
+        "v3_paired": "保留",
+        "v31_final": "观察",
+        "reason": "OPERATING_SCOPE_UNCONFIRMED",
+        "experimental_rules": []
+      },
+      {
+        "record_id": "B0_84bacc4c6b66_017999",
+        "title": "SONGMICS Armario de Ropa Plegable, Perchero con Barras, 112 x 43 x 165 cm",
+        "v3_paired": "保留",
+        "v31_final": "观察",
+        "reason": "OPERATING_SCOPE_UNCONFIRMED",
+        "experimental_rules": []
+      },
+      {
+        "record_id": "B0_84bacc4c6b66_018022",
+        "title": "SONGMICS Espejo Joyero con 2 Cajones, Giro de 360°, sin Marco, Estantes | Armario de Joyas, Espejo Completo, Blanco y Negro Tinta, Colección BERIT JJC007W01",
+        "v3_paired": "保留",
+        "v31_final": "观察",
+        "reason": "OPERATING_SCOPE_UNCONFIRMED",
+        "experimental_rules": []
+      },
+      {
+        "record_id": "B0_84bacc4c6b66_018233",
+        "title": "SURFOU Timbre Inalámbrico Exterior Impermeable 400M, 1 Receptor + 1 Tx | Campainha Sem Fios, 55 Melodías, 5 Volúmenes hasta 110dB, LED, -30°C a 70°C, Batería 1-3 Años, Interior y Exterior",
+        "v3_paired": "保留",
+        "v31_final": "观察",
+        "reason": "UNRESOLVED_AI_DISAGREEMENT",
+        "experimental_rules": []
+      },
+      {
+        "record_id": "B0_84bacc4c6b66_018474",
+        "title": "Anillos De Servilleta Plata, Servilleteros De Mesa, Anillos Servilleta De Metal, 12 Piezas, para Reuniones Familiares, Bodas, Cumpleaños, Decoración De Mesa",
+        "v3_paired": "保留",
+        "v31_final": "观察",
+        "reason": "UNRESOLVED_AI_DISAGREEMENT",
+        "experimental_rules": []
+      },
+      {
+        "record_id": "B0_84bacc4c6b66_018904",
+        "title": "Soporte Alcachofa Ducha Ventosa 7cm Giratorio 360° Sin Taladrar Baño Hogar | ABS cromado anticorrosivo, alta succión hasta 3kg, rotación flexible, compatible cabezales ducha estándar para caravana baño",
+        "v3_paired": "保留",
+        "v31_final": "观察",
+        "reason": "UNRESOLVED_AI_DISAGREEMENT",
+        "experimental_rules": []
+      },
+      {
+        "record_id": "B0_84bacc4c6b66_019072",
+        "title": "Stockholm Style Juego de 4 fundas de cojín, cojines de leopardo 45 x 45 cm | Funda suave con diseño de Leo, lazo y motivo de bola 8, para decorar sofá, cama, salón, terraza y habitación.",
+        "v3_paired": "保留",
+        "v31_final": "观察",
+        "reason": "UNRESOLVED_AI_DISAGREEMENT",
+        "experimental_rules": []
+      },
+      {
+        "record_id": "B0_84bacc4c6b66_019092",
+        "title": "Storage Box Meat Cuts Modula 550/3 - white,",
+        "v3_paired": "保留",
+        "v31_final": "观察",
+        "reason": "REFERENCE_NOT_SUFFICIENT",
+        "experimental_rules": []
+      },
+      {
+        "record_id": "B0_84bacc4c6b66_019355",
+        "title": "TIMEMORE Chestnut C3s PRO, molinillo de café manual, cuerpo totalmente metálico integrado, fresa cónica S2C de acero inoxidable, asa plegable, para café espresso a prensa francesa, negro",
+        "v3_paired": "保留",
+        "v31_final": "观察",
+        "reason": "REFERENCE_NOT_SUFFICIENT",
+        "experimental_rules": []
+      },
+      {
+        "record_id": "B0_84bacc4c6b66_019554",
+        "title": "Arregui Taburete Plegable de Cocina, Escalera Pequeña, Taburete Infantil, Banqueta Baño, Escalón para Adultos y Niños (hasta 150 Kg), Azul, 27 cm de Altura",
+        "v3_paired": "保留",
+        "v31_final": "观察",
+        "reason": "OPERATING_SCOPE_UNCONFIRMED",
+        "experimental_rules": []
+      },
+      {
+        "record_id": "B0_84bacc4c6b66_020011",
+        "title": "Terry - Ardesia 102A, Armario Escobero de 3 Puertas, Divisor Vertical, 3 Estantes Internos Regulables, Acabado Efecto Piedra, para Exterior e Interior Cubierto, de Plástico, 102 x 39 x 172 cm",
+        "v3_paired": "保留",
+        "v31_final": "观察",
+        "reason": "OPERATING_SCOPE_UNCONFIRMED",
+        "experimental_rules": []
+      },
+      {
+        "record_id": "B0_84bacc4c6b66_020788",
+        "title": "VABNEER 100 Piezas de Mecha de Vela de Algodón, para Fabricación de Velas DIY (10cm/4in)",
+        "v3_paired": "保留",
+        "v31_final": "观察",
+        "reason": "UNRESOLVED_AI_DISAGREEMENT",
+        "experimental_rules": []
+      },
+      {
+        "record_id": "B0_84bacc4c6b66_020822",
+        "title": "VASAGLE Armario de Baño, Mueble de Almacenamiento, 30 x 30 x 170 cm | Con 1 Cajón, Compartimientos, Estantes Ajustables, Blanco Nube, Colección Kailyn, BBC560P31",
+        "v3_paired": "保留",
+        "v31_final": "观察",
+        "reason": "OPERATING_SCOPE_UNCONFIRMED",
+        "experimental_rules": []
+      },
+      {
+        "record_id": "B0_84bacc4c6b66_020824",
+        "title": "VASAGLE Armario con Espejo, Armario de Baño, a Pared, 56.5 x 13 x 58.5 cm",
+        "v3_paired": "保留",
+        "v31_final": "观察",
+        "reason": "OPERATING_SCOPE_UNCONFIRMED",
+        "experimental_rules": []
+      },
+      {
+        "record_id": "B0_84bacc4c6b66_020930",
+        "title": "VASMIA Botellero de bambú, Soporte para 12 Botellas, estantes de Almacenamiento Independientes de 3 Niveles para Cocina, despensa, Bodega Bar, Marrón Vintage",
+        "v3_paired": "保留",
+        "v31_final": "观察",
+        "reason": "OPERATING_SCOPE_UNCONFIRMED",
+        "experimental_rules": []
+      },
+      {
+        "record_id": "B0_84bacc4c6b66_021345",
+        "title": "Versear Armario para Vestuario Taquilla Metálico con 4 Compartimentos Armario de Garaje de Oficina -Gris Claro y Verde-con 4 cerraduras",
+        "v3_paired": "保留",
+        "v31_final": "观察",
+        "reason": "OPERATING_SCOPE_UNCONFIRMED",
+        "experimental_rules": []
+      },
+      {
+        "record_id": "B0_84bacc4c6b66_021930",
+        "title": "WOLTU Estante de Pared Tablero Flotante Libre de CD DVD Libro Tablero de Madera 50x22,9x3,8cm, Blanco, RG9477ws",
+        "v3_paired": "保留",
+        "v31_final": "观察",
+        "reason": "UNRESOLVED_AI_DISAGREEMENT",
+        "experimental_rules": []
+      },
+      {
+        "record_id": "B0_84bacc4c6b66_022111",
+        "title": "WideSmart Cubresofa, 180x300cm Poliéster, Funda Decorativa Beige | Tejido Poliéster Suave y Transpirable, Resistente a Arañazos, Lavable, Multiuso para Decoración Hogar",
+        "v3_paired": "保留",
+        "v31_final": "观察",
+        "reason": "REFERENCE_NOT_SUFFICIENT",
+        "experimental_rules": []
+      },
+      {
+        "record_id": "B0_84bacc4c6b66_022285",
+        "title": "XIAOMI H40 Robot Aspirador con Auto-Vaciado, Aspiración 10000 Pa | Estación Compacta Bolsa 4L, Hasta 90 Días Sin Intervención, Anti-Tangle, Control App y voz",
+        "v3_paired": "观察",
+        "v31_final": "用不到",
+        "reason": "AI_EXPERIMENTAL_RULE",
+        "experimental_rules": [
+          "experiment-56d25863903bc914c29cfe55"
+        ]
+      },
+      {
+        "record_id": "B0_84bacc4c6b66_022500",
+        "title": "YOUDENOVA Armario archivador de metal de 180 x 80 x 40 con cerradura con 2 puertas, armario multiusos con 5 niveles, armario multiusos con estantes ajustables, color blanco",
+        "v3_paired": "保留",
+        "v31_final": "观察",
+        "reason": "OPERATING_SCOPE_UNCONFIRMED",
+        "experimental_rules": []
+      },
+      {
+        "record_id": "B0_84bacc4c6b66_022597",
+        "title": "Yaheetech Armario de Baño con Espejo Armario de Pared Colgante",
+        "v3_paired": "保留",
+        "v31_final": "观察",
+        "reason": "OPERATING_SCOPE_UNCONFIRMED",
+        "experimental_rules": []
+      },
+      {
+        "record_id": "B0_84bacc4c6b66_023942",
+        "title": "flintronic Temporizador Visual para Niño,Temporizador de Escritorio, 60 Minuto Temporizadorr de Cuenta Regresiva, Herramienta de Gestión del Tiempo para Niño Adult, Temporizadorr Silencio",
+        "v3_paired": "保留",
+        "v31_final": "观察",
+        "reason": "UNRESOLVED_AI_DISAGREEMENT",
+        "experimental_rules": []
+      },
+      {
+        "record_id": "B0_84bacc4c6b66_024418",
+        "title": "naspaluro Silla de Oficina ergonómica con función de Masaje, Asiento calefactado, reposapiés, Silla de Ordenador de Piel PU, Asiento y reposacabezas Acolchados, Negro",
+        "v3_paired": "保留",
+        "v31_final": "观察",
+        "reason": "OPERATING_SCOPE_UNCONFIRMED",
+        "experimental_rules": []
+      },
+      {
+        "record_id": "B0_84bacc4c6b66_024713",
+        "title": "Spray reflectante nocturno, 100 ml de pintura reflectante transparente | Spray de revestimiento reflectante, pintura fluorescente de seguridad resistente a la intemperie, para ciclismo nocturno",
+        "v3_paired": "保留",
+        "v31_final": "观察",
+        "reason": "UNRESOLVED_AI_DISAGREEMENT",
+        "experimental_rules": []
+      },
+      {
+        "record_id": "B0_84bacc4c6b66_024744",
+        "title": "2 candados resistentes con llaves para exteriores, 40 mm, impermeables, industriales, de alta seguridad, resistentes a la intemperie, para contenedores, almacenes, garajes, obturadores, puertas",
+        "v3_paired": "保留",
+        "v31_final": "观察",
+        "reason": "UNRESOLVED_AI_DISAGREEMENT",
+        "experimental_rules": []
+      },
+      {
+        "record_id": "B0_84bacc4c6b66_024826",
+        "title": "shinfly 13mm-3m Organizador de Cables, Manguito de Cable Auto, Recoge Cables Mesa Escritorio, Cierre Ocultar Cubre Cables para TV PC, Blanco",
+        "v3_paired": "保留",
+        "v31_final": "观察",
+        "reason": "REFERENCE_NOT_SUFFICIENT",
+        "experimental_rules": []
+      }
+    ],
+    "new_human_gold": 0,
+    "formal_accuracy": null,
+    "false_exclusion_rate": null,
+    "retain_recall": null,
+    "note": "AI differences and validation are experimental technical evidence. No independent human accuracy claim. Titles are not verified purchasable SKU identities.",
+    "subject_metric_basis": "known_subject_candidates and unknown_subjects use second-pass validated understanding status, not confirmed correctness",
+    "either_pass_information_insufficient": 14
+  },
+  "independent": {
+    "execution": "execution-a8a7741ae1105096e8edeac9",
+    "purpose": "independent",
+    "sources": 200,
+    "output_rows": 175,
+    "both_model_passes_completed": 175,
+    "pending": 25,
+    "decisions": {
+      "保留": 70,
+      "观察": 105
+    },
+    "paired_v3_baseline": {
+      "保留": 83,
+      "观察": 92
+    },
+    "paired_comparison_not_independent_AB": true,
+    "disagreements": 30,
+    "disagreement_layers": {
+      "subject": 11,
+      "boundary": 5,
+      "reference": 24
+    },
+    "known_subject_candidates": 173,
+    "reference_relation": {
+      "same_type": 71,
+      "specific_need": 11,
+      "related_type": 36,
+      "none": 49,
+      "category_only": 7,
+      "host_only": 1
+    },
+    "rule_conflicts": 0,
+    "observation_reasons": {
+      "UNRESOLVED_AI_DISAGREEMENT": 30,
+      "REFERENCE_NOT_SUFFICIENT": 27,
+      "OPERATING_SCOPE_UNCONFIRMED": 24,
+      "INFORMATION_INSUFFICIENT": 2,
+      "DEPENDENCY_SCOPE_UNCONFIRMED": 22
+    },
+    "unknown_subjects": 2,
+    "changes": [
+      {
+        "record_id": "B0_84bacc4c6b66_000142",
+        "title": "4smile ganchos adhesivos para pared, set de 4 unidades, negro - Colgadores adhesivos resistentes e impermeables, colgador toalla baño de acero inoxidable - Ganchos adhesivos, toallero sin taladrar",
+        "v3_paired": "保留",
+        "v31_final": "观察",
+        "reason": "UNRESOLVED_AI_DISAGREEMENT",
+        "experimental_rules": []
+      },
+      {
+        "record_id": "B0_84bacc4c6b66_002286",
+        "title": "BONTEC Elevador Monitor de Madera para Monitor, Soporte Monitor de Escritorio de 1 Nivel con Gestion de Cables y Ranura para Movil (Blanco)",
+        "v3_paired": "保留",
+        "v31_final": "观察",
+        "reason": "UNRESOLVED_AI_DISAGREEMENT",
+        "experimental_rules": []
+      },
+      {
+        "record_id": "B0_84bacc4c6b66_005495",
+        "title": "DECORA, 0062612 Bandeja Profesional Redonda Ø 20 x 10 cm de altura, de Aluminio Anodizado, Sin Puntos de Soldadura, Diseño Profesional",
+        "v3_paired": "保留",
+        "v31_final": "观察",
+        "reason": "UNRESOLVED_AI_DISAGREEMENT",
+        "experimental_rules": []
+      },
+      {
+        "record_id": "B0_84bacc4c6b66_008644",
+        "title": "AULE Globos Numeros 5 Plateado: 40 Pulgadas Globo 5 Años Cumpleaños",
+        "v3_paired": "保留",
+        "v31_final": "观察",
+        "reason": "UNRESOLVED_AI_DISAGREEMENT",
+        "experimental_rules": []
+      },
+      {
+        "record_id": "B0_84bacc4c6b66_012025",
+        "title": "Laneetal Soporte para Leña, 100x40x25 cm, Estante para Leña de Chimenea | Leñero Interior y Exterior de Metal, Estanteria de Almacenamiento de Madera, Negro",
+        "v3_paired": "保留",
+        "v31_final": "观察",
+        "reason": "OPERATING_SCOPE_UNCONFIRMED",
+        "experimental_rules": []
+      },
+      {
+        "record_id": "B0_84bacc4c6b66_012826",
+        "title": "MIULEE Cortinas Cocina Cortinas Lino 65An x 60Al(cm) 2 Paneles Azul | Pasabarras Visillos Rusticas Cortos Translucidas para Ventanas Pequeñas Baño Armario Comedor Café Bistro",
+        "v3_paired": "保留",
+        "v31_final": "观察",
+        "reason": "UNRESOLVED_AI_DISAGREEMENT",
+        "experimental_rules": []
+      },
+      {
+        "record_id": "B0_84bacc4c6b66_017544",
+        "title": "Russell Hobbs Soup Maker & Blender - Robot de cocina 2 en 1",
+        "v3_paired": "保留",
+        "v31_final": "观察",
+        "reason": "UNRESOLVED_AI_DISAGREEMENT",
+        "experimental_rules": []
+      },
+      {
+        "record_id": "B0_84bacc4c6b66_018044",
+        "title": "SONGMICS Armario de Tela, 3 Barras de Ropa, Estantes, 130 x 45 x 167 cm",
+        "v3_paired": "保留",
+        "v31_final": "观察",
+        "reason": "OPERATING_SCOPE_UNCONFIRMED",
+        "experimental_rules": []
+      },
+      {
+        "record_id": "B0_84bacc4c6b66_018070",
+        "title": "SONGMICS Silla de Malla, Silla de Oficina giratoria, Altura Ajustable, Función de inclinación, Respaldo y Asiento de Malla Transpirable, para Estudio, Oficina, Carga de 120 kg, Gris OBN022G01",
+        "v3_paired": "保留",
+        "v31_final": "观察",
+        "reason": "OPERATING_SCOPE_UNCONFIRMED",
+        "experimental_rules": []
+      },
+      {
+        "record_id": "B0_84bacc4c6b66_019212",
+        "title": "T-LOVENDO.ES Silla de Oficina Ergonómica, de Escritorio, Ejecutiva, Giratoria con Ruedas, de Juegos de Malla Transpirable, con Reposacabezas y Apoyabrazos Ajustable, Soporte Lumbar para Oficina, Casa",
+        "v3_paired": "保留",
+        "v31_final": "观察",
+        "reason": "UNRESOLVED_AI_DISAGREEMENT",
+        "experimental_rules": []
+      },
+      {
+        "record_id": "B0_84bacc4c6b66_021401",
+        "title": "Vicloon Prensador de café, 51mm Tamper de Acero Inoxidable, Premium Tamper, Café Tamper, Prensadores de Café, Prensador Cafe para prensar café Espresso, Imprescindible para Los Baristas",
+        "v3_paired": "保留",
+        "v31_final": "观察",
+        "reason": "REFERENCE_NOT_SUFFICIENT",
+        "experimental_rules": []
+      },
+      {
+        "record_id": "B0_84bacc4c6b66_024630",
+        "title": "powerking Armario de almacenamiento de baño de 2 niveles, organizador independiente con puertas, armario de almacenamiento impermeable blanco para dormitorio, inodoro, sala de estar, cocina, balcón",
+        "v3_paired": "保留",
+        "v31_final": "观察",
+        "reason": "OPERATING_SCOPE_UNCONFIRMED",
+        "experimental_rules": []
+      },
+      {
+        "record_id": "B0_84bacc4c6b66_024774",
+        "title": "roborock Robot Aspirador QV 35A 8000Pa de succión, Blanco",
+        "v3_paired": "保留",
+        "v31_final": "观察",
+        "reason": "OPERATING_SCOPE_UNCONFIRMED",
+        "experimental_rules": []
+      }
+    ],
+    "new_human_gold": 0,
+    "formal_accuracy": null,
+    "false_exclusion_rate": null,
+    "retain_recall": null,
+    "note": "AI differences and validation are experimental technical evidence. No independent human accuracy claim. Titles are not verified purchasable SKU identities.",
+    "subject_metric_basis": "known_subject_candidates and unknown_subjects use second-pass validated understanding status, not confirmed correctness",
+    "either_pass_information_insufficient": 2
+  },
+  "actual_model_process_calls": 73,
+  "actual_rule_model_calls": 1,
+  "full_qualification": {
+    "passed": false,
+    "blockers": [
+      "independent_ACTUAL_MODEL_EVIDENCE_MISSING"
+    ],
+    "release": "release-d811bd13da8313f4bd72fb98",
+    "selected_executions": {
+      "smoke": "execution-7621fdb263eef8c8458152b7",
+      "development": "execution-21658fae123ccab67aa94786"
+    },
+    "contract": {
+      "v3": {
+        "assets/action_reference10037.jsonl": "16666989932fdc84abbb8b8e6c929cef070fe613354f0954de2b56b8f6d7fdbc",
+        "assets/action_semantics/results.jsonl": "babe815c08a2b6eb8806cdc23fd6bbe2209e4d999accd213c5824054ce389ad8",
+        "assets/action_semantics/product_type_library.json": "90bf1c11a4b1e51222bded9eef7899ca6500056835377a9f8215c9fd03fc6a14",
+        "assets/action_semantics/related_need_groups.json": "24581f79c05705b8984159254fc1c04286bdf4cd3158795022e25fd613526e78",
+        "rules/v3_type_aliases.json": "35f5d483aa37644be0a4ed52d6355b760d219329bb259f9aac11450629aaedf0",
+        "runtime/v3/__init__.py": "51c484f17e21596be345e2a85d5fe4951cdcde9f20b0003af5bd6ca38582cd09",
+        "runtime/v3/catalog.py": "6f7f5344f998be5db1addcaa9ae3ccd219ee36fee65a8273d9e72fd8d1a25f13",
+        "runtime/v3/cli.py": "7b547e12b009f0b66b4bb187ccc3d7c2a6fc390576142b3f905259b1295e749c",
+        "runtime/v3/core.py": "8e5b0abe9807c5198f74938dd6118c57a603dc5fba3c50683b130b868e5d0402",
+        "runtime/v3/evaluation.py": "aaa2fb54cefffb68ba18c568536e2448da0e744bc6cc23462540ac88e1c103bf",
+        "runtime/v3/feedback.py": "3f3ddaa88a6221ff63161c91168becd45f4ce67eabb4aff2d8f48f641066cd9c",
+        "runtime/v3/store.py": "603f1a0eded8c31ee6564f17ac0d16cb39888987b2ea8640b2f837841cd4222d",
+        "runtime/v3/workflow.py": "97cc2ff5bb40e9da1703ffd93cc8edf26d8611623cb88de730b32cf345a67306"
+      },
+      "v31": {
+        "runtime/v31/__init__.py": "6144508b55915dc7eef4898a6497559e5c4ecf51079444927924e3ec2cb8bd36",
+        "runtime/v31/cli.py": "20ef0abe30d23c5decab126bf13aea63e1bd282a3be72bf1fd144aab8920df6d",
+        "runtime/v31/core.py": "1aae9d2812ddd58a19c9244d1533f05e15343da12cdb109783b3a6ce9b249d8a",
+        "runtime/v31/model.py": "566fbd1f4a8c5593d0a345e4147651190bf450ea51b81ea8a554507f59632c95",
+        "runtime/v31/qualification.py": "21f41d2d071869eb598dbe6efccf9dacb6132b575161ce80329f88f16dc42764",
+        "runtime/v31/rules.py": "064c935571bcbaa576acc0e56f5c9eeef355f6a1d24ad2c30e973be89a627a0b",
+        "runtime/v31/state.py": "68ee2590f18948252e3ebeb2e625899cb05af1a8460f66491554b801a80860ed",
+        "runtime/v31/workflow.py": "c7988bd9f252422cf368bc3414f36c38387bd32f518971961e9fa13db811679c",
+        "scripts/v31_cycle.py": "edaf66ba1ad124d152fa5ad2c01414068bfcb9ec7ceccb4f2df4c3ad19d0a63f",
+        "scripts/v31_prepare_validation.py": "1eec4c3499858db352e85c9d0fe0df40f5ebb0beb67a91fa245c5ff6c6fa3e68"
+      }
+    },
+    "accuracy": null,
+    "human_gold": 0,
+    "resource_availability": "CHECK_AT_EXECUTION_NO_PAID_FALLBACK"
+  },
+  "full_25152_performed": false,
+  "shared_store_integrity": {
+    "integrity": "ok",
+    "foreign_keys": 0
+  },
+  "new_human_gold": 0,
+  "formal_publication": false,
+  "main_merge": false,
+  "action_library_frozen": 10037,
+  "sealed50_used": false,
+  "resource_gate": {
+    "full_source_records": 25152,
+    "full_model_execution_performed": false,
+    "checked_local_time": "2026-10-23 23:42 Asia/Shanghai",
+    "ordinary_usage_allowed": true,
+    "weekly_used_percent": 84,
+    "weekly_remaining_percent": 16,
+    "monetary_cost_not_exposed": true,
+    "no_paid_api_authorized_or_used": true,
+    "no_credits_reset_or_purchase": true,
+    "actual_sum_model_process_seconds": 7785.85,
+    "actual_sum_role_records": 1396,
+    "rough_full_hours_two_roles_two_workers": 39.0,
+    "estimate_not_guaranteed": true,
+    "decision": "RESOURCE_GATE_NOT_CONFIRMED; stop before full inference, retain completed 675 source-record experiment. No local rule results presented as full AI."
+  },
+  "rollback": {
+    "parent_execution": "execution-21658fae123ccab67aa94786",
+    "parent_payload_hashes_unchanged": true,
+    "restored_records": 500,
+    "restored_decisions": {
+      "观察": 340,
+      "保留": 160
+    },
+    "incremental_resume_identical": true,
+    "new_model_calls": 0,
+    "formal_tables_unchanged_during_rollback": true,
+    "formal_table_fingerprints": {
+      "v3_runs": "79ac108c36dea645f3410681fd4b6c0711a8140c25669eb350eeb7816b7f4d94",
+      "v3_sources": "f0a06feb5bcf04f25559abdeb85549eb8a44e8a62dd7848a7c54a737258a26ff",
+      "v3_analyses": "21859ce0038ded69a3949f92c6994bafed34f051f4d2ef78afdb74442b95c237",
+      "v3_results": "620d9832a627d694f0efb74e1fe8d66a152e977ec8d5f1e86386a60e15af87f3",
+      "v3_feedback": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "v3_rule_candidates": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "v3_rule_validation": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "v3_rule_releases": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "v31_events": "d1336072614f90b59390cdc9743b8d20637b430d54b050e72422d1f90bbe348a"
+    },
+    "scope": "Real immutable parent projection restored to separate file; no deletion or database overwrite."
+  },
+  "data_protection": {
+    "source_sha256": "84bacc4c6b66ab7aa1fd7f704d7c3c50a0a195539050fc8e6180f5f0129f68d4",
+    "source_unchanged": true,
+    "action_assets_and_runtime_v3_contract_unchanged": true,
+    "master_write_operations": 0,
+    "sealed50_read_operations": 0,
+    "integrity": {
+      "integrity": "ok",
+      "foreign_keys": 0
+    },
+    "formal_table_comparison_scope": "Captured immediately before and after real rollback/idempotent rescreen. No fabricated task-start DB fingerprint."
+  },
+  "business_rule_iterations": 1,
+  "execution_only_patch": {
+    "old_release": "release-b4c0e5f4d4d3a8098a10e408",
+    "new_release": "release-d811bd13da8313f4bd72fb98",
+    "rule_id": "experiment-56d25863903bc914c29cfe55",
+    "rule_hash_unchanged": true,
+    "business_rule_changed": false,
+    "development_execution": "execution-21658fae123ccab67aa94786",
+    "changes": [
+      "Require ChatGPT authentication before model execution; reject API-key login",
+      "Unique literal evidence clause guidance for repeated product names"
+    ],
+    "validation_sample_unchanged": true,
+    "validation_record_triggering_transport_repair": "B0_84bacc4c6b66_009602",
+    "validation_business_labels_used_for_learning": false,
+    "validation_accuracy": null,
+    "contract": {
+      "v3": {
+        "assets/action_reference10037.jsonl": "16666989932fdc84abbb8b8e6c929cef070fe613354f0954de2b56b8f6d7fdbc",
+        "assets/action_semantics/results.jsonl": "babe815c08a2b6eb8806cdc23fd6bbe2209e4d999accd213c5824054ce389ad8",
+        "assets/action_semantics/product_type_library.json": "90bf1c11a4b1e51222bded9eef7899ca6500056835377a9f8215c9fd03fc6a14",
+        "assets/action_semantics/related_need_groups.json": "24581f79c05705b8984159254fc1c04286bdf4cd3158795022e25fd613526e78",
+        "rules/v3_type_aliases.json": "35f5d483aa37644be0a4ed52d6355b760d219329bb259f9aac11450629aaedf0",
+        "runtime/v3/__init__.py": "51c484f17e21596be345e2a85d5fe4951cdcde9f20b0003af5bd6ca38582cd09",
+        "runtime/v3/catalog.py": "6f7f5344f998be5db1addcaa9ae3ccd219ee36fee65a8273d9e72fd8d1a25f13",
+        "runtime/v3/cli.py": "7b547e12b009f0b66b4bb187ccc3d7c2a6fc390576142b3f905259b1295e749c",
+        "runtime/v3/core.py": "8e5b0abe9807c5198f74938dd6118c57a603dc5fba3c50683b130b868e5d0402",
+        "runtime/v3/evaluation.py": "aaa2fb54cefffb68ba18c568536e2448da0e744bc6cc23462540ac88e1c103bf",
+        "runtime/v3/feedback.py": "3f3ddaa88a6221ff63161c91168becd45f4ce67eabb4aff2d8f48f641066cd9c",
+        "runtime/v3/store.py": "603f1a0eded8c31ee6564f17ac0d16cb39888987b2ea8640b2f837841cd4222d",
+        "runtime/v3/workflow.py": "97cc2ff5bb40e9da1703ffd93cc8edf26d8611623cb88de730b32cf345a67306"
+      },
+      "v31": {
+        "runtime/v31/__init__.py": "6144508b55915dc7eef4898a6497559e5c4ecf51079444927924e3ec2cb8bd36",
+        "runtime/v31/cli.py": "20ef0abe30d23c5decab126bf13aea63e1bd282a3be72bf1fd144aab8920df6d",
+        "runtime/v31/core.py": "1aae9d2812ddd58a19c9244d1533f05e15343da12cdb109783b3a6ce9b249d8a",
+        "runtime/v31/model.py": "566fbd1f4a8c5593d0a345e4147651190bf450ea51b81ea8a554507f59632c95",
+        "runtime/v31/qualification.py": "21f41d2d071869eb598dbe6efccf9dacb6132b575161ce80329f88f16dc42764",
+        "runtime/v31/rules.py": "064c935571bcbaa576acc0e56f5c9eeef355f6a1d24ad2c30e973be89a627a0b",
+        "runtime/v31/state.py": "68ee2590f18948252e3ebeb2e625899cb05af1a8460f66491554b801a80860ed",
+        "runtime/v31/workflow.py": "c7988bd9f252422cf368bc3414f36c38387bd32f518971961e9fa13db811679c",
+        "scripts/v31_cycle.py": "edaf66ba1ad124d152fa5ad2c01414068bfcb9ec7ceccb4f2df4c3ad19d0a63f",
+        "scripts/v31_prepare_validation.py": "1eec4c3499858db352e85c9d0fe0df40f5ebb0beb67a91fa245c5ff6c6fa3e68"
+      }
+    }
+  },
+  "unique_real_model_source_records": 675,
+  "smoke50_subset_of_development": true,
+  "validation_scope": "200 selected new-source technical records; one was used to debug literal evidence transport, no business labels learned. Not untouched human Gold.",
+  "independent_completed": 175,
+  "independent_pending": 25,
+  "independent_errors": [
+    {
+      "records": [
+        "B0_84bacc4c6b66_023335",
+        "B0_84bacc4c6b66_006353",
+        "B0_84bacc4c6b66_005193",
+        "B0_84bacc4c6b66_021729",
+        "B0_84bacc4c6b66_021956",
+        "B0_84bacc4c6b66_002078",
+        "B0_84bacc4c6b66_015205",
+        "B0_84bacc4c6b66_010988",
+        "B0_84bacc4c6b66_013993",
+        "B0_84bacc4c6b66_010146",
+        "B0_84bacc4c6b66_012059",
+        "B0_84bacc4c6b66_009233",
+        "B0_84bacc4c6b66_005382",
+        "B0_84bacc4c6b66_014244",
+        "B0_84bacc4c6b66_024405",
+        "B0_84bacc4c6b66_014289",
+        "B0_84bacc4c6b66_001830",
+        "B0_84bacc4c6b66_008820",
+        "B0_84bacc4c6b66_000901",
+        "B0_84bacc4c6b66_003518",
+        "B0_84bacc4c6b66_012448",
+        "B0_84bacc4c6b66_000986",
+        "B0_84bacc4c6b66_005779",
+        "B0_84bacc4c6b66_009938",
+        "B0_84bacc4c6b66_001730"
+      ],
+      "error": "REAL_MODEL_EXECUTION_FAILED_SEE_AUDIT"
+    }
+  ]
+}

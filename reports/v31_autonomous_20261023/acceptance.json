@@ -1,0 +1,21 @@
+{
+  "local_full_suite": {
+    "command": "python -X utf8 -m unittest discover -s tests -v",
+    "tests": 103,
+    "status": "PASS",
+    "seconds": 13.039,
+    "platform": "Windows-11-10.0.26300-SP0",
+    "log_sha256": "2099f9ad7c8bc5afb41e5c86bd93d46b784ad0b4494b6e50c2f3c76946e8fb76"
+  },
+  "manifest_verification": "PASS before archival of test log; regenerate before commit",
+  "ubuntu_ci": "NOT_RUN_NETWORK_BLOCKED",
+  "windows_ci": "NOT_RUN_NETWORK_BLOCKED",
+  "main_merged": false,
+  "network_errors": [
+    "Codex workspace routing discovery failed",
+    "GitHub schannel SSL/TLS handshake failed"
+  ],
+  "completed_source_records": 675,
+  "independent_pending": 25,
+  "formal_selection_accuracy": null
+}

@@ -1,0 +1,740 @@
+{
+  "authority": "PROGRAM_GROUPING_OF_AI_CANDIDATES_NOT_GOLD",
+  "rows": 175,
+  "completed_both": 175,
+  "form_variations": {
+    "ordinary_good → installed_component": 1,
+    "ordinary_good → universal_accessory": 1,
+    "ordinary_good → bundle": 1,
+    "whole_machine → ordinary_good": 1,
+    "host_component → ordinary_good": 1,
+    "installed_component → host_component": 1
+  },
+  "reference_variations": {
+    "specific_need/subject → specific_need/partial": 2,
+    "specific_need/partial → none/unknown": 2,
+    "related_type/subject → same_type/subject": 2,
+    "related_type/subject → category_only/subject": 2,
+    "related_type/subject → related_type/partial": 2,
+    "specific_need/partial → specific_need/subject": 1,
+    "related_type/partial → specific_need/partial": 1,
+    "same_type/subject → related_type/subject": 1,
+    "host_only/subject → category_only/unknown": 1,
+    "category_only/unknown → none/unknown": 1,
+    "specific_need/unknown → related_type/subject": 1,
+    "related_type/subject → none/unknown": 1,
+    "category_only/partial → category_only/unknown": 1,
+    "category_only/unknown → related_type/unknown": 1,
+    "same_type/unknown → category_only/unknown": 1,
+    "specific_need/unknown → none/unknown": 1,
+    "category_only/subject → related_type/subject": 1
+  },
+  "boundary_variations": {
+    "灰区 → 范围内": 2
+  },
+  "examples": {
+    "form:ordinary_good → installed_component": [
+      {
+        "record_id": "B0_84bacc4c6b66_000142",
+        "source_hash": "8499c3bec9239e97e05799e6be3c2bed1cedba561954ca4a3256221cba0222a8",
+        "title": "4smile ganchos adhesivos para pared, set de 4 unidades, negro - Colgadores adhesivos resistentes e impermeables, colgador toalla baño de acero inoxidable - Ganchos adhesivos, toallero sin taladrar",
+        "first_subject": "自粘墙面挂钩",
+        "review_subject": "自粘墙面挂钩",
+        "first_span": "ganchos adhesivos para pared, set de 4 unidades",
+        "review_span": "ganchos adhesivos para pared, set de 4 unidades, negro",
+        "first_features": [
+          {
+            "name": "ordinary_accessory",
+            "span": "ganchos adhesivos para pared"
+          }
+        ],
+        "review_features": [
+          {
+            "name": "ordinary_accessory",
+            "span": "ganchos adhesivos para pared"
+          }
+        ]
+      }
+    ],
+    "reference:specific_need/subject → specific_need/partial": [
+      {
+        "record_id": "B0_84bacc4c6b66_000154",
+        "source_hash": "061374330cb3488ca33521770f45ae5ec13ae5a3091ece31ddb57fc8c6d45bea",
+        "title": "14.4V 5000mAh Ni-MH Batería de Repuesto Batería para iRobot Roomba 500 600 700 800 R3 Series 530 531 532 535 536 540 550 552 560 570 580 595 620 650 660 760 770 780 790 870 980",
+        "first_subject": "专用镍氢替换电池",
+        "review_subject": "吸尘器替换电池",
+        "first_span": "14.4V 5000mAh Ni-MH Batería de Repuesto",
+        "review_span": "14.4V 5000mAh Ni-MH Batería de Repuesto",
+        "first_features": [
+          {
+            "name": "host_dependency",
+            "span": "Batería para iRobot Roomba"
+          }
+        ],
+        "review_features": [
+          {
+            "name": "host_dependency",
+            "span": "Batería para iRobot Roomba 500 600 700 800 R3 Series"
+          }
+        ]
+      },
+      {
+        "record_id": "B0_84bacc4c6b66_007814",
+        "source_hash": "90e2701c8716b45e869b93d32965dc772cb8977e13b915f83adad97106c1c96b",
+        "title": "14.4V 5000mAh Ni-MH Batería de Repuesto Compatible con iRobot Roomba 500 510 520 530 532 535 540 550 552 555 560 562 570 580 581 582 585 595 600 610 620 630 631 650",
+        "first_subject": "专用镍氢替换电池",
+        "review_subject": "吸尘器替换电池",
+        "first_span": "14.4V 5000mAh Ni-MH Batería de Repuesto",
+        "review_span": "14.4V 5000mAh Ni-MH Batería de Repuesto",
+        "first_features": [
+          {
+            "name": "host_dependency",
+            "span": "Compatible con iRobot Roomba"
+          }
+        ],
+        "review_features": [
+          {
+            "name": "host_dependency",
+            "span": "Compatible con iRobot Roomba 500"
+          }
+        ]
+      }
+    ],
+    "reference:specific_need/partial → specific_need/subject": [
+      {
+        "record_id": "B0_84bacc4c6b66_001059",
+        "source_hash": "394e897ccf3acfc51afe57b91459eb1eefa2e66a65d6a4bfd160dbbefb4908be",
+        "title": "Máquina de Leche Vegetal AlfaBot N2-1L |Automática para Leche de Soja, Avena, Almendras, Yogur | 800W | Rápida y Silenciosa, Libre de BPA, Incluye Recetario",
+        "first_subject": "植物奶制作机",
+        "review_subject": "植物奶制作机",
+        "first_span": "Máquina de Leche Vegetal AlfaBot N2-1L",
+        "review_span": "Máquina de Leche Vegetal AlfaBot N2-1L",
+        "first_features": [
+          {
+            "name": "household_good",
+            "span": "Máquina de Leche Vegetal"
+          }
+        ],
+        "review_features": [
+          {
+            "name": "household_good",
+            "span": "Máquina de Leche Vegetal"
+          }
+        ]
+      }
+    ],
+    "reference:specific_need/partial → none/unknown": [
+      {
+        "record_id": "B0_84bacc4c6b66_001846",
+        "source_hash": "3e340542a317e390923adfdd3d7352e28731807965a2aaf8d42416442118e1bc",
+        "title": "Kit para Hacer Jabones Artesanales,Juego Hacer Jabones,Fabrica de Jabones | Kit de fabricación de jabón con 500g Base de Jabón,Fragancias,Colorantes,Moldes de Silicona,para Crear Jabón Casero",
+        "first_subject": "手工皂制作套装",
+        "review_subject": "手工制皂材料工具套装",
+        "first_span": "Kit de fabricación de jabón con 500g Base de Jabón,Fragancias,Colorantes,Moldes de Silicona",
+        "review_span": "Kit para Hacer Jabones Artesanales",
+        "first_features": [
+          {
+            "name": "ordinary_consumable",
+            "span": "500g Base de Jabón"
+          }
+        ],
+        "review_features": [
+          {
+            "name": "ordinary_consumable",
+            "span": "500g Base de Jabón"
+          }
+        ]
+      },
+      {
+        "record_id": "B0_84bacc4c6b66_015849",
+        "source_hash": "6ad934ae7f568a522cafa501904ba9058e28348e9c251c7c8216781bd17d2000",
+        "title": "Piezas de repuesto para Roomba 115 para combinado: kit de 15 piezas con cepillo principal, cepillos laterales, filtros y almohadillas de fregona",
+        "first_subject": "清洁设备替换件套装",
+        "review_subject": "扫地设备替换件套装",
+        "first_span": "kit de 15 piezas con cepillo principal, cepillos laterales, filtros y almohadillas de fregona",
+        "review_span": "kit de 15 piezas con cepillo principal, cepillos laterales, filtros y almohadillas de fregona",
+        "first_features": [
+          {
+            "name": "host_dependency",
+            "span": "Piezas de repuesto para Roomba 115"
+          }
+        ],
+        "review_features": [
+          {
+            "name": "host_dependency",
+            "span": "Piezas de repuesto para Roomba 115"
+          }
+        ]
+      }
+    ],
+    "form:ordinary_good → universal_accessory": [
+      {
+        "record_id": "B0_84bacc4c6b66_002286",
+        "source_hash": "48249c553af61fa9f951be13117ea8aff07f995ccab184cde236e07774f498b0",
+        "title": "BONTEC Elevador Monitor de Madera para Monitor, Soporte Monitor de Escritorio de 1 Nivel con Gestion de Cables y Ranura para Movil (Blanco)",
+        "first_subject": "木质显示器增高架",
+        "review_subject": "木制显示器增高架",
+        "first_span": "Soporte Monitor de Escritorio de 1 Nivel con Gestion de Cables y Ranura para Movil",
+        "review_span": "Elevador Monitor de Madera para Monitor",
+        "first_features": [
+          {
+            "name": "ordinary_accessory",
+            "span": "Soporte Monitor de Escritorio de 1 Nivel"
+          }
+        ],
+        "review_features": [
+          {
+            "name": "ordinary_accessory",
+            "span": "Elevador Monitor de Madera"
+          }
+        ]
+      }
+    ],
+    "reference:related_type/partial → specific_need/partial": [
+      {
+        "record_id": "B0_84bacc4c6b66_002963",
+        "source_hash": "4c81c22e1f9035751675443c13a72c96398e193c79d7995ca17bb167843d7b0e",
+        "title": "Knewmart Bobinadora de Hilo,Kit de bobinado de Lana de Punto con Tablero de Bobina,1Bobinadora de Hilo + 1PC Tijeras (26)",
+        "first_subject": "绕线器与剪刀套装",
+        "review_subject": "绕线工具套装",
+        "first_span": "1Bobinadora de Hilo + 1PC Tijeras",
+        "review_span": "Kit de bobinado de Lana de Punto con Tablero de Bobina,1Bobinadora de Hilo + 1PC Tijeras (26)",
+        "first_features": [],
+        "review_features": []
+      }
+    ],
+    "reference:same_type/subject → related_type/subject": [
+      {
+        "record_id": "B0_84bacc4c6b66_005495",
+        "source_hash": "7a4579582c4e7ca9b2f076a2cb3bfd45efb77f8d0acd14faef6ca8d8adf0cd9f",
+        "title": "DECORA, 0062612 Bandeja Profesional Redonda Ø 20 x 10 cm de altura, de Aluminio Anodizado, Sin Puntos de Soldadura, Diseño Profesional",
+        "first_subject": "圆形深铝盘",
+        "review_subject": "高边铝制圆盘",
+        "first_span": "Bandeja Profesional Redonda Ø 20 x 10 cm de altura, de Aluminio Anodizado",
+        "review_span": "Bandeja Profesional Redonda Ø 20 x 10 cm de altura, de Aluminio Anodizado",
+        "first_features": [
+          {
+            "name": "household_good",
+            "span": "Bandeja Profesional Redonda"
+          }
+        ],
+        "review_features": [
+          {
+            "name": "household_good",
+            "span": "Bandeja Profesional Redonda"
+          }
+        ]
+      }
+    ],
+    "reference:host_only/subject → category_only/unknown": [
+      {
+        "record_id": "B0_84bacc4c6b66_005516",
+        "source_hash": "7cf7dbe4691603372639ff17a24df04510504724296350916f4e4070c22a9b28",
+        "title": "DEMULAX Conector de aspiradora Adaptador de 35 mm, para accesorios de | toda la serie Ix e Iz",
+        "first_subject": "吸尘器附件连接适配器",
+        "review_subject": "吸尘器连接适配器",
+        "first_span": "Conector de aspiradora Adaptador de 35 mm",
+        "review_span": "Conector de aspiradora Adaptador de 35 mm",
+        "first_features": [
+          {
+            "name": "host_dependency",
+            "span": "Conector de aspiradora"
+          }
+        ],
+        "review_features": [
+          {
+            "name": "host_dependency",
+            "span": "Conector de aspiradora Adaptador de 35 mm"
+          }
+        ]
+      }
+    ],
+    "reference:category_only/unknown → none/unknown": [
+      {
+        "record_id": "B0_84bacc4c6b66_007769",
+        "source_hash": "614708257dce33e6c70acd643ac227cd9e1a3c32d39d787317f765a9919c9340",
+        "title": "Filamento Para Bolígrafo 3D Recambios PLA Hilos 1.75mm 40 Colores | 120m Total Recargas Boli 3D Sin Burbujas Para Plumas Alta Temperatura MYNT3D SCRIB3D PIKA3D Manualidades Artísticas",
+        "first_subject": "PLA彩色3D笔补充线材",
+        "review_subject": "三维笔PLA补充丝材",
+        "first_span": "Filamento Para Bolígrafo 3D Recambios PLA Hilos 1.75mm 40 Colores",
+        "review_span": "Filamento Para Bolígrafo 3D Recambios PLA Hilos 1.75mm 40 Colores",
+        "first_features": [
+          {
+            "name": "ordinary_consumable",
+            "span": "Filamento Para Bolígrafo 3D Recambios PLA"
+          },
+          {
+            "name": "host_dependency",
+            "span": "Para Plumas Alta Temperatura MYNT3D SCRIB3D PIKA3D"
+          }
+        ],
+        "review_features": [
+          {
+            "name": "ordinary_consumable",
+            "span": "Recambios PLA Hilos 1.75mm"
+          },
+          {
+            "name": "host_dependency",
+            "span": "Filamento Para Bolígrafo 3D"
+          }
+        ]
+      }
+    ],
+    "boundary:灰区 → 范围内": [
+      {
+        "record_id": "B0_84bacc4c6b66_007769",
+        "source_hash": "614708257dce33e6c70acd643ac227cd9e1a3c32d39d787317f765a9919c9340",
+        "title": "Filamento Para Bolígrafo 3D Recambios PLA Hilos 1.75mm 40 Colores | 120m Total Recargas Boli 3D Sin Burbujas Para Plumas Alta Temperatura MYNT3D SCRIB3D PIKA3D Manualidades Artísticas",
+        "first_subject": "PLA彩色3D笔补充线材",
+        "review_subject": "三维笔PLA补充丝材",
+        "first_span": "Filamento Para Bolígrafo 3D Recambios PLA Hilos 1.75mm 40 Colores",
+        "review_span": "Filamento Para Bolígrafo 3D Recambios PLA Hilos 1.75mm 40 Colores",
+        "first_features": [
+          {
+            "name": "ordinary_consumable",
+            "span": "Filamento Para Bolígrafo 3D Recambios PLA"
+          },
+          {
+            "name": "host_dependency",
+            "span": "Para Plumas Alta Temperatura MYNT3D SCRIB3D PIKA3D"
+          }
+        ],
+        "review_features": [
+          {
+            "name": "ordinary_consumable",
+            "span": "Recambios PLA Hilos 1.75mm"
+          },
+          {
+            "name": "host_dependency",
+            "span": "Filamento Para Bolígrafo 3D"
+          }
+        ]
+      },
+      {
+        "record_id": "B0_84bacc4c6b66_022715",
+        "source_hash": "33727ce42227060d3249f170cc76f2a3b888f764531f7bb0b841441ca6ba225a",
+        "title": "Yonality 100 Piezas Solder Seal Conector, 4 Tamaños, 26-10 AWG Terminales Eléctricos Termorretráctiles, Conectores Terminales Electrico Impermeable Aislado, para la Industria Electrónica, Automóviles",
+        "first_subject": "热缩焊锡密封接线端子套装",
+        "review_subject": "热缩焊锡密封接头百件装",
+        "first_span": "Terminales Eléctricos Termorretráctiles",
+        "review_span": "100 Piezas Solder Seal Conector, 4 Tamaños, 26-10 AWG Terminales Eléctricos Termorretráctiles",
+        "first_features": [
+          {
+            "name": "industrial_context",
+            "span": "para la Industria Electrónica, Automóviles"
+          },
+          {
+            "name": "ordinary_accessory",
+            "span": "Terminales Eléctricos Termorretráctiles"
+          }
+        ],
+        "review_features": [
+          {
+            "name": "ordinary_accessory",
+            "span": "Terminales Eléctricos Termorretráctiles"
+          },
+          {
+            "name": "industrial_context",
+            "span": "para la Industria Electrónica, Automóviles"
+          }
+        ]
+      }
+    ],
+    "reference:specific_need/unknown → related_type/subject": [
+      {
+        "record_id": "B0_84bacc4c6b66_007861",
+        "source_hash": "74b02b61b382cf0218370cadcafb7de366cf0b0c3f0d37a6f0034b01389cc0e4",
+        "title": "Flintronic 2pcs Barniz Arcilla Secado al Aire, 100ml Sellador Cerámica, Barniz Arcillas Secado al Aire, Brillante Impermeable, Previene Grietas, para Cerámica, Manualidades y Escultura",
+        "first_subject": "陶土清漆封层剂",
+        "review_subject": "黏土陶艺封护清漆",
+        "first_span": "Barniz Arcilla Secado al Aire, 100ml Sellador Cerámica",
+        "review_span": "2pcs Barniz Arcilla Secado al Aire, 100ml Sellador Cerámica",
+        "first_features": [
+          {
+            "name": "ordinary_consumable",
+            "span": "100ml Sellador Cerámica"
+          }
+        ],
+        "review_features": [
+          {
+            "name": "ordinary_consumable",
+            "span": "Barniz Arcilla Secado al Aire"
+          }
+        ]
+      }
+    ],
+    "reference:related_type/subject → same_type/subject": [
+      {
+        "record_id": "B0_84bacc4c6b66_008644",
+        "source_hash": "b29cd664856b9c308dca2e5aa3d6c063a2fa28a15b7ac653418a83579300b12e",
+        "title": "AULE Globos Numeros 5 Plateado: 40 Pulgadas Globo 5 Años Cumpleaños",
+        "first_subject": "银色数字五气球",
+        "review_subject": "银色数字5生日气球",
+        "first_span": "Globos Numeros 5 Plateado: 40 Pulgadas Globo 5 Años Cumpleaños",
+        "review_span": "Globos Numeros 5 Plateado: 40 Pulgadas Globo 5 Años Cumpleaños",
+        "first_features": [],
+        "review_features": []
+      },
+      {
+        "record_id": "B0_84bacc4c6b66_019212",
+        "source_hash": "00ca3b5abbc1b631300a62049abcd0d61b2399d842384f45cb067981721048fc",
+        "title": "T-LOVENDO.ES Silla de Oficina Ergonómica, de Escritorio, Ejecutiva, Giratoria con Ruedas, de Juegos de Malla Transpirable, con Reposacabezas y Apoyabrazos Ajustable, Soporte Lumbar para Oficina, Casa",
+        "first_subject": "带轮办公椅",
+        "review_subject": "办公游戏椅",
+        "first_span": "Silla de Oficina Ergonómica, de Escritorio, Ejecutiva, Giratoria con Ruedas",
+        "review_span": "Silla de Oficina Ergonómica, de Escritorio, Ejecutiva, Giratoria con Ruedas",
+        "first_features": [
+          {
+            "name": "large_complete_furniture",
+            "span": "Silla de Oficina"
+          }
+        ],
+        "review_features": [
+          {
+            "name": "large_complete_furniture",
+            "span": "Silla de Oficina"
+          }
+        ]
+      }
+    ],
+    "form:ordinary_good → bundle": [
+      {
+        "record_id": "B0_84bacc4c6b66_009392",
+        "source_hash": "c39099b6e9b7f70776e3f2edc31fe06f8e5dc2c39793e5da6d6f512b972826f4",
+        "title": "Habitdesign Recibidor Tekkan con Cajón y Espejo, 75 x 116 x 29 cm, Roble Canadian",
+        "first_subject": "带抽屉镜面玄关家具",
+        "review_subject": "带抽屉及镜子的玄关家具",
+        "first_span": "Recibidor Tekkan con Cajón y Espejo",
+        "review_span": "Recibidor Tekkan con Cajón y Espejo, 75 x 116 x 29 cm",
+        "first_features": [
+          {
+            "name": "large_complete_furniture",
+            "span": "Recibidor Tekkan con Cajón y Espejo, 75 x 116 x 29 cm"
+          }
+        ],
+        "review_features": [
+          {
+            "name": "large_complete_furniture",
+            "span": "Recibidor Tekkan con Cajón y Espejo, 75 x 116 x 29 cm"
+          }
+        ]
+      }
+    ],
+    "form:whole_machine → ordinary_good": [
+      {
+        "record_id": "B0_84bacc4c6b66_009602",
+        "source_hash": "06f7ea5d5ba0fa94ccca99fdf9fce7303ee38d57bcc927d99e401b1839a7dbca",
+        "title": "Herramienta De Prueba De Tubería De Bomba De Prueba De Presión De Agua Hidráulica Manual De 2,5 Mpa Y 25 Kg, Bomba De Prueba De Presión De Agua Hidráulica Manual De Primera Calidad Para Pruebas De Pre",
+        "first_subject": "手动水压试压泵",
+        "review_subject": "手动水压试压泵",
+        "first_span": "Bomba De Prueba De Presión De Agua Hidráulica Manual De Primera Calidad Para Pruebas De Pre",
+        "review_span": "Bomba De Prueba De Presión De Agua Hidráulica Manual",
+        "first_features": [
+          {
+            "name": "manual_tool",
+            "span": "Manual"
+          }
+        ],
+        "review_features": [
+          {
+            "name": "manual_tool",
+            "span": "Bomba De Prueba De Presión De Agua Hidráulica Manual"
+          }
+        ]
+      }
+    ],
+    "form:host_component → ordinary_good": [
+      {
+        "record_id": "B0_84bacc4c6b66_009811",
+        "source_hash": "0f402cbfc8df1115ad14684c9835688ff5ad717273f76aa2ca51bd9d837fd8ec",
+        "title": "Hoover G236Ee 35601706 Cepillo Alfombras y suelos, W, Decibel, Negro, Ner",
+        "first_subject": "地毯地面清洁刷头",
+        "review_subject": "地毯地面刷",
+        "first_span": "Cepillo Alfombras y suelos",
+        "review_span": "Cepillo Alfombras y suelos",
+        "first_features": [],
+        "review_features": []
+      }
+    ],
+    "reference:related_type/subject → none/unknown": [
+      {
+        "record_id": "B0_84bacc4c6b66_009811",
+        "source_hash": "0f402cbfc8df1115ad14684c9835688ff5ad717273f76aa2ca51bd9d837fd8ec",
+        "title": "Hoover G236Ee 35601706 Cepillo Alfombras y suelos, W, Decibel, Negro, Ner",
+        "first_subject": "地毯地面清洁刷头",
+        "review_subject": "地毯地面刷",
+        "first_span": "Cepillo Alfombras y suelos",
+        "review_span": "Cepillo Alfombras y suelos",
+        "first_features": [],
+        "review_features": []
+      }
+    ],
+    "reference:category_only/partial → category_only/unknown": [
+      {
+        "record_id": "B0_84bacc4c6b66_010015",
+        "source_hash": "55f51cc22aa0339d20cdd870d3fb31e6c92dc6684479032c2e9e90a3542c1c96",
+        "title": "Imex El Zorro 71416 - Cesta quemador de pellets, 30 x 25 x 17 cm",
+        "first_subject": "颗粒燃料燃烧篮",
+        "review_subject": "颗粒燃烧篮",
+        "first_span": "Cesta quemador de pellets",
+        "review_span": "Cesta quemador de pellets, 30 x 25 x 17 cm",
+        "first_features": [],
+        "review_features": []
+      }
+    ],
+    "reference:category_only/unknown → related_type/unknown": [
+      {
+        "record_id": "B0_84bacc4c6b66_010651",
+        "source_hash": "8e5a132c6f176c4482d3366a7bb439864b6e5040968b4961ade916c5d52089fe",
+        "title": "JSRQT Kit de Bordado de Halloween, Trick or Treat Kit de Punto Cruz Estampado para Principiantes, Kit de Manualidades con Bordado a Mano para Decoración del Hogar",
+        "first_subject": "万圣节刺绣套装",
+        "review_subject": "万圣节刺绣套装",
+        "first_span": "Kit de Bordado de Halloween",
+        "review_span": "Kit de Bordado de Halloween",
+        "first_features": [
+          {
+            "name": "household_good",
+            "span": "Kit de Manualidades con Bordado a Mano"
+          }
+        ],
+        "review_features": []
+      }
+    ],
+    "reference:related_type/subject → category_only/subject": [
+      {
+        "record_id": "B0_84bacc4c6b66_014701",
+        "source_hash": "8416b43de1dd3f35c4c72a61a4b2ac1626458453c7f501d2efab81cd739afc21",
+        "title": "Omquot Luz de Señal Industrial LED de 24 V Lámpara de Advertencia de 3 Colores de Alto Brillo para Máquinas CNC y Equipos de Seguridad Aluminio Compacto 1 Unidad",
+        "first_subject": "24伏三色工业警示灯",
+        "review_subject": "工业三色LED信号灯",
+        "first_span": "Luz de Señal Industrial LED de 24 V Lámpara de Advertencia de 3 Colores",
+        "review_span": "Luz de Señal Industrial LED de 24 V",
+        "first_features": [
+          {
+            "name": "industrial_context",
+            "span": "Luz de Señal Industrial"
+          },
+          {
+            "name": "host_dependency",
+            "span": "para Máquinas CNC y Equipos de Seguridad"
+          }
+        ],
+        "review_features": [
+          {
+            "name": "industrial_context",
+            "span": "Luz de Señal Industrial"
+          },
+          {
+            "name": "host_dependency",
+            "span": "para Máquinas CNC y Equipos de Seguridad"
+          }
+        ]
+      },
+      {
+        "record_id": "B0_84bacc4c6b66_018257",
+        "source_hash": "2674555b98607f9010360e65c0d0bf69d31f69fb7f5da941d7815f789cf0bf3e",
+        "title": "SZSIQI 4 Piezas Patas para Muebles, Patas para Mesas, 10 cm Patas de Muebles, Pies de Soporte de Metal para Muebles Sofás Mesa Armario Silla Escritorio Cocina, con Tornillos",
+        "first_subject": "金属家具脚四件装",
+        "review_subject": "金属家具支撑腿",
+        "first_span": "4 Piezas Patas para Muebles",
+        "review_span": "4 Piezas Patas para Muebles",
+        "first_features": [
+          {
+            "name": "ordinary_accessory",
+            "span": "Patas para Muebles"
+          }
+        ],
+        "review_features": [
+          {
+            "name": "ordinary_accessory",
+            "span": "Patas para Muebles"
+          },
+          {
+            "name": "host_dependency",
+            "span": "para Muebles"
+          }
+        ]
+      }
+    ],
+    "reference:same_type/unknown → category_only/unknown": [
+      {
+        "record_id": "B0_84bacc4c6b66_016108",
+        "source_hash": "6e0f1f27caa3ffd8f197a03db6f55895f6f888e987a627811fe6fc368b94c70c",
+        "title": "Pott'd Kit Cerámica para Adultos, Arcilla de Secado al Aire | Kit Manualidades para Principiantes con Arcilla de Secado al Aire, Pinturas, Herramientas y Guía Paso a Paso, Idea de Regalo",
+        "first_subject": "风干黏土陶艺套装",
+        "review_subject": "风干黏土陶艺套装",
+        "first_span": "Kit Manualidades para Principiantes con Arcilla de Secado al Aire, Pinturas, Herramientas y Guía Paso a Paso",
+        "review_span": "Kit Manualidades para Principiantes con Arcilla de Secado al Aire, Pinturas, Herramientas y Guía Paso a Paso",
+        "first_features": [],
+        "review_features": []
+      }
+    ],
+    "reference:related_type/subject → related_type/partial": [
+      {
+        "record_id": "B0_84bacc4c6b66_017544",
+        "source_hash": "26808a53bf64f9b1aa9c12ecf264312c57974aab2e8e015341a721448ef62dfe",
+        "title": "Russell Hobbs Soup Maker & Blender - Robot de cocina 2 en 1",
+        "first_subject": "制汤搅拌一体机",
+        "review_subject": "制汤搅拌一体机",
+        "first_span": "Soup Maker & Blender - Robot de cocina 2 en 1",
+        "review_span": "Soup Maker & Blender - Robot de cocina 2 en 1",
+        "first_features": [
+          {
+            "name": "household_good",
+            "span": "Soup Maker & Blender"
+          }
+        ],
+        "review_features": [
+          {
+            "name": "household_good",
+            "span": "Robot de cocina 2 en 1"
+          }
+        ]
+      },
+      {
+        "record_id": "B0_84bacc4c6b66_019948",
+        "source_hash": "76f4daf2ef3896ff8035c1dbf08291f24f4da3ddfb0370337e4f9267be762222",
+        "title": "Temporizador de monedas 1250 W, 30 A, para lavadoras y masajes, 220 V",
+        "first_subject": "投币式计时控制器",
+        "review_subject": "投币式定时控制器",
+        "first_span": "Temporizador de monedas 1250 W, 30 A",
+        "review_span": "Temporizador de monedas 1250 W, 30 A",
+        "first_features": [
+          {
+            "name": "host_dependency",
+            "span": "para lavadoras y masajes"
+          }
+        ],
+        "review_features": [
+          {
+            "name": "host_dependency",
+            "span": "para lavadoras y masajes"
+          }
+        ]
+      }
+    ],
+    "form:installed_component → host_component": [
+      {
+        "record_id": "B0_84bacc4c6b66_019948",
+        "source_hash": "76f4daf2ef3896ff8035c1dbf08291f24f4da3ddfb0370337e4f9267be762222",
+        "title": "Temporizador de monedas 1250 W, 30 A, para lavadoras y masajes, 220 V",
+        "first_subject": "投币式计时控制器",
+        "review_subject": "投币式定时控制器",
+        "first_span": "Temporizador de monedas 1250 W, 30 A",
+        "review_span": "Temporizador de monedas 1250 W, 30 A",
+        "first_features": [
+          {
+            "name": "host_dependency",
+            "span": "para lavadoras y masajes"
+          }
+        ],
+        "review_features": [
+          {
+            "name": "host_dependency",
+            "span": "para lavadoras y masajes"
+          }
+        ]
+      }
+    ],
+    "reference:specific_need/unknown → none/unknown": [
+      {
+        "record_id": "B0_84bacc4c6b66_022551",
+        "source_hash": "2aa1963b89550cdb781d5c0135b4af150fe042020c0724cda6fdc59e83ad47b4",
+        "title": "YXHZVON Cortadores Galletas Halloween, Moldes Galletas de Acero Inoxidable | 12 Cortadores Galletas Halloween, Fantasma, Gato, Lápida, Murciélago, Antiadherente, Bordes Redondeados, para Masa y Fondant",
+        "first_subject": "万圣节饼干切模",
+        "review_subject": "万圣节饼干切模",
+        "first_span": "12 Cortadores Galletas Halloween",
+        "review_span": "Cortadores Galletas Halloween, Moldes Galletas de Acero Inoxidable",
+        "first_features": [
+          {
+            "name": "manual_tool",
+            "span": "Cortadores Galletas Halloween"
+          }
+        ],
+        "review_features": [
+          {
+            "name": "manual_tool",
+            "span": "Cortadores Galletas Halloween"
+          }
+        ]
+      }
+    ],
+    "reference:category_only/subject → related_type/subject": [
+      {
+        "record_id": "B0_84bacc4c6b66_024462",
+        "source_hash": "7acf4c8a8e5711bcacd85039511befa7e17695b92e221d0d90f96c5c8a2c8321",
+        "title": "Pinzoveco Joyero para mujer, organizador de joyas de madera rústica para guardar aretes, anillos, collares, pulseras, alhajeros y organizadores de madera de estilo campo, color madera quemada",
+        "first_subject": "木质首饰收纳器",
+        "review_subject": "木制首饰收纳器",
+        "first_span": "organizador de joyas de madera rústica",
+        "review_span": "organizador de joyas de madera rústica",
+        "first_features": [
+          {
+            "name": "household_good",
+            "span": "organizador de joyas de madera rústica"
+          }
+        ],
+        "review_features": [
+          {
+            "name": "household_good",
+            "span": "organizador de joyas de madera rústica"
+          }
+        ]
+      }
+    ]
+  },
+  "both_outside_candidates": [
+    {
+      "record_id": "B0_84bacc4c6b66_016158",
+      "source_hash": "2edbb180a7efeab1161b6189b483443a62c4807e0311fd46a0d52ac3360bdfc0",
+      "title": "Prensa Stove - Estufa de Leña Grande con Horno y Puerta Lateral VESUBIO 2 de 14,3 kW – ECODESIGN 2022 – Acero 4 mm – Salida Trasera Ø150 mm – Diseño Tradicional",
+      "first_subject": "带烤箱大型燃木炉",
+      "review_subject": "带烤箱大型燃木炉",
+      "first_span": "Estufa de Leña Grande con Horno y Puerta Lateral VESUBIO 2 de 14,3 kW",
+      "review_span": "Estufa de Leña Grande con Horno y Puerta Lateral VESUBIO 2 de 14,3 kW",
+      "first_features": [
+        {
+          "name": "major_appliance",
+          "span": "Estufa de Leña Grande con Horno"
+        }
+      ],
+      "review_features": [
+        {
+          "name": "major_appliance",
+          "span": "Estufa de Leña Grande con Horno"
+        }
+      ],
+      "first_family": "供暖炉具",
+      "review_family": "供暖炉具",
+      "first_form": "whole_machine",
+      "review_form": "whole_machine",
+      "unresolved_layers": []
+    }
+  ],
+  "information_insufficient": [
+    {
+      "record_id": "B0_84bacc4c6b66_002814",
+      "source_hash": "a8a68269b6735257cf3cba9fbfb1efdd42e1e6bc98f9bfdb644b0cdbe4b1328f",
+      "title": "Bialetti Mini Express Set Magrite",
+      "first_subject": "未知",
+      "review_subject": "未知",
+      "first_span": "Bialetti Mini Express Set Magrite",
+      "review_span": "Bialetti Mini Express Set Magrite",
+      "first_features": [],
+      "review_features": []
+    },
+    {
+      "record_id": "B0_84bacc4c6b66_013562",
+      "source_hash": "141d11a028a78a4c6b6636fae63793be8b8b929de51f3bce3b76cbf8190024ca",
+      "title": "Mod Podge (900112/301) 236ml 8 oz. Matt, Color Blanco (CS11301)",
+      "first_subject": "未知",
+      "review_subject": "未知",
+      "first_span": "Mod Podge (900112/301) 236ml 8 oz. Matt, Color Blanco (CS11301)",
+      "review_span": "Mod Podge (900112/301) 236ml 8 oz. Matt, Color Blanco (CS11301)",
+      "first_features": [],
+      "review_features": []
+    }
+  ],
+  "formal_accuracy": null,
+  "confirmed_errors": null
+}

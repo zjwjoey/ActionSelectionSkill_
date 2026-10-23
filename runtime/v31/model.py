@@ -8,6 +8,13 @@ from pathlib import Path
 from runtime.v3.core import canonical,digest
 from runtime.v3.workflow import filehash,load_rows
 
+def require_chatgpt_login(executable):
+    """Read auth mode only; never print/store credentials or buy API access."""
+    cp=subprocess.run([executable,'login','status'],capture_output=True,text=True,encoding='utf-8',timeout=30,shell=False,
+                      env={k:v for k,v in os.environ.items() if k not in {'OPENAI_API_KEY','CODEX_API_KEY'}})
+    if cp.returncode or 'chatgpt' not in (cp.stdout+cp.stderr).casefold():
+        raise ValueError('CHATGPT_LOGIN_REQUIRED_NO_PAID_API_KEY_FALLBACK')
+
 def schema(requests=None):
     strings=['record_id','source_hash','subject_span','subject_type','subject_family','form','relation','action_sku','reference_span','reason','information_status','operating_context','coverage','match_strength','boundary']
     props={k:{'type':'string'} for k in strings}
@@ -60,7 +67,7 @@ class Model:
         # This is a transport repair hint, not a semantic-policy change. Existing
         # rows already passed the same nonempty literal-span validator, so their
         # semantic cache binding deliberately remains valid.
-        transport_hint='subject_span must NEVER be empty. If the title does not identify an object, keep form unknown and information_status insufficient, and copy the ENTIRE original title as the literal evidence span. Never invent a product type to satisfy the schema.'
+        transport_hint='subject_span must NEVER be empty. If the title does not identify an object, keep form unknown and information_status insufficient, and copy the ENTIRE original title as the literal evidence span. Never invent a product type to satisfy the schema. A repeated product name may first occur after de/para in a misleading grammatical fragment. If the actual sold object is independently named in a later clause, quote a longer UNIQUE literal snippet from that independent clause, including its qualifier, so evidence binding locates the correct occurrence. Never expand a compatibility host into a sold machine, or change the sold form merely to pass validation.'
         own_feedback=self.repair_feedback(requests,role)
         body={'provider':self.identity,'role':role,'prompt':prompt,'requests':requests,'schema':schema(requests),'transport_hint':transport_hint,'own_validation_feedback':own_feedback}
         key=digest(body);cached=[v for _,v in self.state.all('model_response') if v['request_hash']==key]
@@ -73,6 +80,7 @@ class Model:
         if self.mode=='file':
             values=[self.notes[r['record_id']] for r in requests if r['record_id'] in self.notes]
         else:
+            require_chatgpt_login(self.exe)
             self.calls+=1;schema_path=folder/'schema.json';schema_path.write_text(canonical(body['schema']),encoding='utf-8')
             answer=folder/'answer.json'
             # An empty execution cwd prevents automatic project/Skill context from

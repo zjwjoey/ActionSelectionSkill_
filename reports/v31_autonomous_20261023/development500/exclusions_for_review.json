@@ -1,0 +1,335 @@
+[
+  {
+    "authority": "PROGRAM_PROJECTION",
+    "boundary_review": "AI_AGREEMENT_NOT_GOLD",
+    "channel": "AI_EXPERIMENTAL_BOUNDARY",
+    "decision": "用不到",
+    "disagreement": true,
+    "disagreement_layers": [
+      "reference"
+    ],
+    "execution_id": "execution-21658fae123ccab67aa94786",
+    "experimental_rules": [
+      "experiment-56d25863903bc914c29cfe55"
+    ],
+    "formal_publication": false,
+    "human_confirmed": false,
+    "initial_analysis": {
+      "action_sku": "3216860",
+      "authority": "AI_CANDIDATE",
+      "boundary": "范围外",
+      "coverage": "partial",
+      "features": [
+        {
+          "name": "robot_cleaner",
+          "span": "Robot Limpiacristales"
+        },
+        {
+          "name": "automatic_maintenance",
+          "span": "Autolavado de Mopa"
+        }
+      ],
+      "form": "whole_system",
+      "functions": [
+        "清洁玻璃",
+        "自动清洗拖布"
+      ],
+      "information_status": "clear",
+      "match_strength": "弱",
+      "needs": [
+        "减少擦窗操作"
+      ],
+      "operating_context": "daily",
+      "reason": "机器人与多功能站组成系统；清洁套装仅需求相关。复杂自动维护系统暂作范围外实验假设。",
+      "record_id": "B0_84bacc4c6b66_006486",
+      "reference_span": "Set de limpieza",
+      "relation": "specific_need",
+      "source_hash": "d9d448a2b322a5ca460faf4e4a6f124576c2062d85b19f3dc7f238948e4ff3a2",
+      "subject_family": "自动清洁系统",
+      "subject_span": "Robot Limpiacristales con Estación Multifunción",
+      "subject_type": "带维护站擦窗机器人系统",
+      "unknowns": [
+        "自主导航方式未明示",
+        "安全与清洁效果未验证"
+      ]
+    },
+    "initial_decision": "观察",
+    "match_strength": "弱",
+    "method_version": "v3.1-ai-experimental-1",
+    "operating_boundary": "范围外",
+    "operating_status": "DAILY_SCOPE_CANDIDATE",
+    "ordinary_role_granularity_variation": false,
+    "policy_evidence": [],
+    "purpose": "development",
+    "reason": "机器人与多功能站构成自动清洁系统，实验性判为范围外；泛清洁套装无法证明整套同类。",
+    "reason_code": "AI_EXPERIMENTAL_RULE",
+    "record_id": "B0_84bacc4c6b66_006486",
+    "reference": {
+      "relation": "specific_need",
+      "sku": "3216860",
+      "source_row_id": "row_cb1c71c231b128100668d66e",
+      "title": "Set de limpieza C&C"
+    },
+    "reference_disagreement_resolved_by_boundary": false,
+    "reference_sku_variation": false,
+    "reference_validity": "DISPUTED",
+    "release_id": null,
+    "review_analysis": {
+      "action_sku": "3216860",
+      "authority": "AI_CANDIDATE",
+      "boundary": "范围外",
+      "coverage": "unknown",
+      "features": [
+        {
+          "name": "robot_cleaner",
+          "span": "Robot Limpiacristales"
+        },
+        {
+          "name": "automatic_maintenance",
+          "span": "Autolavado de Mopa"
+        }
+      ],
+      "form": "whole_system",
+      "functions": [
+        "擦窗",
+        "拖布自清洗"
+      ],
+      "information_status": "clear",
+      "match_strength": "弱",
+      "needs": [
+        "玻璃清洁"
+      ],
+      "operating_context": "daily",
+      "reason": "机器人与多功能站构成自动清洁系统，实验性判为范围外；泛清洁套装无法证明整套同类。",
+      "record_id": "B0_84bacc4c6b66_006486",
+      "reference_span": "Set de limpieza",
+      "relation": "specific_need",
+      "source_hash": "d9d448a2b322a5ca460faf4e4a6f124576c2062d85b19f3dc7f238948e4ff3a2",
+      "subject_family": "清洁设备",
+      "subject_span": "Robot Limpiacristales con Estación Multifunción",
+      "subject_type": "带基站擦窗机器人系统",
+      "unknowns": [
+        "自主导航能力",
+        "防护宣称是否属实"
+      ]
+    },
+    "review_completed": true,
+    "review_decision": "观察",
+    "run_id": "run-aa58ee86bea75e134863922f",
+    "semantic": {
+      "action_sku": "3216860",
+      "authority": "AI_CANDIDATE",
+      "boundary": "范围外",
+      "coverage": "unknown",
+      "features": [
+        {
+          "name": "robot_cleaner",
+          "span": "Robot Limpiacristales"
+        },
+        {
+          "name": "automatic_maintenance",
+          "span": "Autolavado de Mopa"
+        }
+      ],
+      "form": "whole_system",
+      "functions": [
+        "擦窗",
+        "拖布自清洗"
+      ],
+      "information_status": "clear",
+      "match_strength": "弱",
+      "needs": [
+        "玻璃清洁"
+      ],
+      "operating_context": "daily",
+      "reason": "机器人与多功能站构成自动清洁系统，实验性判为范围外；泛清洁套装无法证明整套同类。",
+      "record_id": "B0_84bacc4c6b66_006486",
+      "reference_span": "Set de limpieza",
+      "relation": "specific_need",
+      "source_hash": "d9d448a2b322a5ca460faf4e4a6f124576c2062d85b19f3dc7f238948e4ff3a2",
+      "subject_family": "清洁设备",
+      "subject_span": "Robot Limpiacristales con Estación Multifunción",
+      "subject_type": "带基站擦窗机器人系统",
+      "unknowns": [
+        "自主导航能力",
+        "防护宣称是否属实"
+      ]
+    },
+    "source_hash": "d9d448a2b322a5ca460faf4e4a6f124576c2062d85b19f3dc7f238948e4ff3a2",
+    "subject_error_candidate": false,
+    "taxonomy_variation": true,
+    "title_original": "ECOVACS WINBOT W3 OMNI Robot Limpiacristales con Estación Multifunción, Autolavado de Mopa, Limpieza Inteligente de Bordes, Atomizador Triple, Control vía App, Protección de 12 Fases",
+    "understanding_status": "UNDERSTOOD_CANDIDATE",
+    "unknowns": [
+      "自主导航能力",
+      "防护宣称是否属实"
+    ],
+    "v3_baseline": "观察"
+  },
+  {
+    "authority": "PROGRAM_PROJECTION",
+    "boundary_review": "AI_AGREEMENT_NOT_GOLD",
+    "channel": "AI_EXPERIMENTAL_BOUNDARY",
+    "decision": "用不到",
+    "disagreement": false,
+    "disagreement_layers": [],
+    "execution_id": "execution-21658fae123ccab67aa94786",
+    "experimental_rules": [
+      "experiment-56d25863903bc914c29cfe55"
+    ],
+    "formal_publication": false,
+    "human_confirmed": false,
+    "initial_analysis": {
+      "action_sku": "",
+      "authority": "AI_CANDIDATE",
+      "boundary": "范围外",
+      "coverage": "unknown",
+      "features": [
+        {
+          "name": "robot_cleaner",
+          "span": "Robot Aspirador"
+        },
+        {
+          "name": "automatic_maintenance",
+          "span": "Auto-Vaciado"
+        }
+      ],
+      "form": "whole_system",
+      "functions": [
+        "吸尘",
+        "自动集尘",
+        "应用及语音控制"
+      ],
+      "information_status": "clear",
+      "match_strength": "弱",
+      "needs": [
+        "自动化地面清洁"
+      ],
+      "operating_context": "daily",
+      "reason": "主体为机器人与自动集尘站系统，普通袋类候选不对应；复杂自动维护系统暂作范围外实验假设。",
+      "record_id": "B0_84bacc4c6b66_022285",
+      "reference_span": "",
+      "relation": "none",
+      "source_hash": "70800c36ad8904d17aadd45a3f21967e73850abf382f6988fc9b647ddab0f964",
+      "subject_family": "地面清洁系统",
+      "subject_span": "Robot Aspirador con Auto-Vaciado",
+      "subject_type": "自动集尘扫地机器人系统",
+      "unknowns": [
+        "导航方式未说明",
+        "90天免干预等性能宣称未核实"
+      ]
+    },
+    "initial_decision": "观察",
+    "match_strength": "弱",
+    "method_version": "v3.1-ai-experimental-1",
+    "operating_boundary": "范围外",
+    "operating_status": "DAILY_SCOPE_CANDIDATE",
+    "ordinary_role_granularity_variation": false,
+    "policy_evidence": [],
+    "purpose": "development",
+    "reason": "机器人与自动集尘站构成系统，暂作范围外实验假设；普通袋类不对应整套。",
+    "reason_code": "AI_EXPERIMENTAL_RULE",
+    "record_id": "B0_84bacc4c6b66_022285",
+    "reference": null,
+    "reference_disagreement_resolved_by_boundary": false,
+    "reference_sku_variation": false,
+    "reference_validity": "AI_AGREEMENT_NOT_GOLD",
+    "release_id": null,
+    "review_analysis": {
+      "action_sku": "",
+      "authority": "AI_CANDIDATE",
+      "boundary": "范围外",
+      "coverage": "unknown",
+      "features": [
+        {
+          "name": "robot_cleaner",
+          "span": "Robot Aspirador"
+        },
+        {
+          "name": "automatic_maintenance",
+          "span": "Auto-Vaciado"
+        }
+      ],
+      "form": "whole_system",
+      "functions": [
+        "吸尘",
+        "自动集尘",
+        "应用及语音控制"
+      ],
+      "information_status": "clear",
+      "match_strength": "弱",
+      "needs": [
+        "自动地面清洁"
+      ],
+      "operating_context": "daily",
+      "reason": "机器人与自动集尘站构成系统，暂作范围外实验假设；普通袋类不对应整套。",
+      "record_id": "B0_84bacc4c6b66_022285",
+      "reference_span": "",
+      "relation": "none",
+      "source_hash": "70800c36ad8904d17aadd45a3f21967e73850abf382f6988fc9b647ddab0f964",
+      "subject_family": "自动地面清洁系统",
+      "subject_span": "Robot Aspirador con Auto-Vaciado",
+      "subject_type": "带自动集尘站的扫地机器人系统",
+      "unknowns": [
+        "导航方式",
+        "免干预时长及吸力表现",
+        "实际自动化范围"
+      ]
+    },
+    "review_completed": true,
+    "review_decision": "观察",
+    "run_id": "run-aa58ee86bea75e134863922f",
+    "semantic": {
+      "action_sku": "",
+      "authority": "AI_CANDIDATE",
+      "boundary": "范围外",
+      "coverage": "unknown",
+      "features": [
+        {
+          "name": "robot_cleaner",
+          "span": "Robot Aspirador"
+        },
+        {
+          "name": "automatic_maintenance",
+          "span": "Auto-Vaciado"
+        }
+      ],
+      "form": "whole_system",
+      "functions": [
+        "吸尘",
+        "自动集尘",
+        "应用及语音控制"
+      ],
+      "information_status": "clear",
+      "match_strength": "弱",
+      "needs": [
+        "自动地面清洁"
+      ],
+      "operating_context": "daily",
+      "reason": "机器人与自动集尘站构成系统，暂作范围外实验假设；普通袋类不对应整套。",
+      "record_id": "B0_84bacc4c6b66_022285",
+      "reference_span": "",
+      "relation": "none",
+      "source_hash": "70800c36ad8904d17aadd45a3f21967e73850abf382f6988fc9b647ddab0f964",
+      "subject_family": "自动地面清洁系统",
+      "subject_span": "Robot Aspirador con Auto-Vaciado",
+      "subject_type": "带自动集尘站的扫地机器人系统",
+      "unknowns": [
+        "导航方式",
+        "免干预时长及吸力表现",
+        "实际自动化范围"
+      ]
+    },
+    "source_hash": "70800c36ad8904d17aadd45a3f21967e73850abf382f6988fc9b647ddab0f964",
+    "subject_error_candidate": false,
+    "taxonomy_variation": true,
+    "title_original": "XIAOMI H40 Robot Aspirador con Auto-Vaciado, Aspiración 10000 Pa | Estación Compacta Bolsa 4L, Hasta 90 Días Sin Intervención, Anti-Tangle, Control App y voz",
+    "understanding_status": "UNDERSTOOD_CANDIDATE",
+    "unknowns": [
+      "导航方式",
+      "免干预时长及吸力表现",
+      "实际自动化范围"
+    ],
+    "v3_baseline": "观察"
+  }
+]
