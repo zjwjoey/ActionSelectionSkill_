@@ -1,0 +1,164 @@
+{
+  "authority": "ACTUAL_CODEX_SEMANTIC_REVIEW_NOT_HUMAN_GOLD",
+  "group": "a",
+  "review_ids": "P001-P200",
+  "n": 200,
+  "human_labels": 0,
+  "states": {
+    "待复核": 108,
+    "纳入候选": 92
+  },
+  "pending_reasons": {
+    "OPERATING_BOUNDARY_UNCONFIRMED": 64,
+    "DEPENDENCY_REVIEW": 28,
+    "REFERENCE_ABSENT": 9,
+    "REFERENCE_COVERAGE_INCOMPLETE": 1,
+    "REFERENCE_TOO_BROAD": 3,
+    "INFORMATION_INSUFFICIENT": 3
+  },
+  "findings": [
+    {
+      "kind": "RETRIEVAL_HOST_AND_ATTRIBUTE_DISTRACTORS",
+      "review_ids": [
+        "P003",
+        "P007",
+        "P008",
+        "P017",
+        "P022",
+        "P034",
+        "P043",
+        "P049",
+        "P053",
+        "P061",
+        "P064",
+        "P079",
+        "P096",
+        "P110",
+        "P146",
+        "P199"
+      ],
+      "detail": "原top候选被材料、容器、被安装物或宿主词干扰；例如咖啡渣桶命中Marco相框、角阀命中角尺、熔断器命中太阳能灯。用真实语言判断及冻结参考库只读检索，不把得分当语义事实。"
+    },
+    {
+      "kind": "WHOLE_PRODUCT_VS_PART",
+      "review_ids": [
+        "P022",
+        "P025",
+        "P026",
+        "P027",
+        "P036",
+        "P043",
+        "P044",
+        "P052",
+        "P072",
+        "P074",
+        "P075",
+        "P080",
+        "P083",
+        "P087",
+        "P096",
+        "P099",
+        "P106",
+        "P141",
+        "P153",
+        "P154",
+        "P169",
+        "P193",
+        "P199"
+      ],
+      "detail": "显式区分机芯、滤芯、角阀、管口盖、电气元件和集尘罩等部件；宿主名称不继承整机排除。通用构件和专用机型件的经营边界仍由冻结规则待复核。"
+    },
+    {
+      "kind": "UNCONFIRMED_BUSINESS_BOUNDARY",
+      "review_ids": [
+        "P015",
+        "P088",
+        "P109",
+        "P120",
+        "P131",
+        "P139",
+        "P170",
+        "P192"
+      ],
+      "detail": "陶艺拉坯机、商用炸锅、照护报警系统、折刀收纳盒、热压机、储能电源、枪械保管箱及燃料各有明确类型，但现有经营政策未足够具体；未凭专业字样、功率或缺参照强制排除。"
+    },
+    {
+      "kind": "SUPPLY_OR_FORM_INSUFFICIENT",
+      "review_ids": [
+        "P157",
+        "P163",
+        "P196"
+      ],
+      "detail": "法压器具与露营炉适配表述、Caballete仅材质尺寸、Cafetera仅型号容量不足以判明供货或形态；未用品牌外部知识补法压、画架或电动结构。"
+    },
+    {
+      "kind": "SMALL_APPLIANCE_REVIEW_DESPITE_REFERENCE",
+      "review_ids": [
+        "P001",
+        "P005",
+        "P012",
+        "P018",
+        "P046",
+        "P053",
+        "P082",
+        "P091",
+        "P102",
+        "P108",
+        "P111",
+        "P119",
+        "P127",
+        "P155",
+        "P158",
+        "P161",
+        "P164",
+        "P171",
+        "P175",
+        "P184",
+        "P186",
+        "P191",
+        "P195",
+        "P197"
+      ],
+      "detail": "冻结范围将许多主体明确且有Action同类的小家电留待经营复核。不能把这些待复核计为主体未理解，或自动宣称排除有效。"
+    },
+    {
+      "kind": "SOURCE_LIMITS",
+      "review_ids": [
+        "P002",
+        "P023",
+        "P036",
+        "P088",
+        "P122",
+        "P142",
+        "P185",
+        "P194"
+      ],
+      "detail": "标题截断、附加涂层配方未知、材料分配及容量口径混杂、驱动方式措辞冲突分别记录；不把未验证的性能与材料写成实证。P194采用中性餐具套装，不凭4人推成人适龄。"
+    },
+    {
+      "kind": "PARTIAL_BUNDLE_REFERENCE",
+      "review_ids": [
+        "P023",
+        "P038",
+        "P073",
+        "P138",
+        "P178"
+      ],
+      "detail": "套装主功能可识别，但Action参照不证明每件组成一致。P038混合派对套装明确标partial_bundle并保持待复核，其他可辨主用途套装仅在主体层级给出关系。"
+    },
+    {
+      "kind": "OWNER_CASES_NOT_GENERALIZED",
+      "review_ids": [
+        "P062",
+        "P121",
+        "P119",
+        "P171"
+      ],
+      "detail": "旧N037、N038、N065人工决定只属旧三条，不作为新油醋壶、桌面收纳器或饮水机的类级规则；本批依据冻结V0.3重新给候选判断。"
+    }
+  ],
+  "formal_accuracy": null,
+  "frozen_rule_changed": false,
+  "master_changed": false,
+  "other_groups_read": false
+}

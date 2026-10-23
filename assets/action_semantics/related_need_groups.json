@@ -1,0 +1,6733 @@
+[
+  {
+    "shared_need_hypothesis": "上妆操作",
+    "types": [
+      {
+        "type": "化妆刷",
+        "supporting_skus": [
+          "2569643",
+          "3015165",
+          "3215395",
+          "3215578",
+          "3215581",
+          "3215709",
+          "3216008",
+          "3216331",
+          "3219428",
+          "3219429",
+          "3222871",
+          "3224099",
+          "3227335"
+        ]
+      },
+      {
+        "type": "化妆海绵",
+        "supporting_skus": [
+          "3216145"
+        ]
+      },
+      {
+        "type": "彩妆套装",
+        "supporting_skus": [
+          "2571187",
+          "2572743",
+          "3215929",
+          "3218177",
+          "3219962",
+          "3219963",
+          "3225543"
+        ]
+      }
+    ],
+    "relation": "SHARED_NEED_CANDIDATE_NOT_PRODUCT_EQUIVALENCE",
+    "not_automatic_match": true
+  },
+  {
+    "shared_need_hypothesis": "下身贴身衣着",
+    "types": [
+      {
+        "type": "内裤",
+        "supporting_skus": [
+          "2567438",
+          "2571015",
+          "3000495",
+          "3001508",
+          "3002239",
+          "3213477",
+          "3213479",
+          "3213485",
+          "3214795",
+          "3215634",
+          "3216184",
+          "3218808",
+          "3219564",
+          "3220969",
+          "3222212",
+          "3222441",
+          "3222484",
+          "3222485",
+          "3222662"
+        ]
+      },
+      {
+        "type": "平角内裤",
+        "supporting_skus": [
+          "2511446",
+          "2511447",
+          "2511448",
+          "2511449",
+          "2516029",
+          "2516030",
+          "2516031",
+          "2534040",
+          "2536273",
+          "2536274",
+          "2536275",
+          "2538795",
+          "2538890",
+          "2551177",
+          "2551178",
+          "2551180",
+          "2551185",
+          "2560000",
+          "2560001",
+          "2561273",
+          "2562299",
+          "2562310",
+          "2565986",
+          "2566006",
+          "2570217",
+          "2582350",
+          "3002854",
+          "3013084",
+          "3213297",
+          "3213489",
+          "3214733",
+          "3214735",
+          "3214737",
+          "3214739",
+          "3214741",
+          "3214743",
+          "3214745",
+          "3215635",
+          "3217357",
+          "3217358",
+          "3219536",
+          "3219566",
+          "3221546"
+        ]
+      }
+    ],
+    "relation": "SHARED_NEED_CANDIDATE_NOT_PRODUCT_EQUIVALENCE",
+    "not_automatic_match": true
+  },
+  {
+    "shared_need_hypothesis": "个人护理研究",
+    "types": [
+      {
+        "type": "按摩或刮拭器具",
+        "supporting_skus": [
+          "3011868",
+          "3201099",
+          "3214197",
+          "3215744",
+          "3217098",
+          "3221713"
+        ]
+      },
+      {
+        "type": "标称去角质护理用品",
+        "supporting_skus": [
+          "2582226",
+          "3009848",
+          "3204904",
+          "3209433",
+          "3213513",
+          "3213531",
+          "3215656",
+          "3216089",
+          "3218740",
+          "3222433"
+        ]
+      },
+      {
+        "type": "浮石磨擦用品",
+        "supporting_skus": [
+          "3221333"
+        ]
+      }
+    ],
+    "relation": "SHARED_NEED_CANDIDATE_NOT_PRODUCT_EQUIVALENCE",
+    "not_automatic_match": true
+  },
+  {
+    "shared_need_hypothesis": "个人清洁",
+    "types": [
+      {
+        "type": "洗浴清洁品",
+        "supporting_skus": [
+          "3010292",
+          "3206816",
+          "3216348",
+          "3217831",
+          "3219996",
+          "3219997",
+          "3222133",
+          "3222389",
+          "3224704"
+        ]
+      },
+      {
+        "type": "纸巾",
+        "supporting_skus": [
+          "2538287",
+          "2552814",
+          "2566972"
+        ]
+      }
+    ],
+    "relation": "SHARED_NEED_CANDIDATE_NOT_PRODUCT_EQUIVALENCE",
+    "not_automatic_match": true
+  },
+  {
+    "shared_need_hypothesis": "串珠创作",
+    "types": [
+      {
+        "type": "珠子套装",
+        "supporting_skus": [
+          "3206031"
+        ]
+      },
+      {
+        "type": "盒装串珠材料",
+        "supporting_skus": [
+          "2564921"
+        ]
+      }
+    ],
+    "relation": "SHARED_NEED_CANDIDATE_NOT_PRODUCT_EQUIVALENCE",
+    "not_automatic_match": true
+  },
+  {
+    "shared_need_hypothesis": "书写工具收纳",
+    "types": [
+      {
+        "type": "笔架",
+        "supporting_skus": [
+          "3216458"
+        ]
+      },
+      {
+        "type": "笔类整理件",
+        "supporting_skus": [
+          "2533351"
+        ]
+      }
+    ],
+    "relation": "SHARED_NEED_CANDIDATE_NOT_PRODUCT_EQUIVALENCE",
+    "not_automatic_match": true
+  },
+  {
+    "shared_need_hypothesis": "书写记录",
+    "types": [
+      {
+        "type": "书写套装",
+        "supporting_skus": [
+          "3222812",
+          "3222835"
+        ]
+      },
+      {
+        "type": "笔",
+        "supporting_skus": [
+          "3217510"
+        ]
+      }
+    ],
+    "relation": "SHARED_NEED_CANDIDATE_NOT_PRODUCT_EQUIVALENCE",
+    "not_automatic_match": true
+  },
+  {
+    "shared_need_hypothesis": "仿真植物陈设",
+    "types": [
+      {
+        "type": "仿真植物饰品",
+        "supporting_skus": [
+          "3005999",
+          "3008238",
+          "3012008",
+          "3013856",
+          "3201687",
+          "3201688",
+          "3205146",
+          "3205156",
+          "3207310",
+          "3207434",
+          "3208047",
+          "3208429",
+          "3211539",
+          "3211867",
+          "3216875",
+          "3221786",
+          "3222305",
+          "3222349",
+          "3222350",
+          "3222355",
+          "3222357",
+          "3222858",
+          "3222859",
+          "3224939",
+          "3225022",
+          "3226001"
+        ]
+      },
+      {
+        "type": "仿真榕树",
+        "supporting_skus": [
+          "3224998"
+        ]
+      }
+    ],
+    "relation": "SHARED_NEED_CANDIDATE_NOT_PRODUCT_EQUIVALENCE",
+    "not_automatic_match": true
+  },
+  {
+    "shared_need_hypothesis": "休闲垂钓",
+    "types": [
+      {
+        "type": "钓鱼竿",
+        "supporting_skus": [
+          "2575656",
+          "3008497",
+          "3204991"
+        ]
+      },
+      {
+        "type": "钓鱼配件",
+        "supporting_skus": [
+          "3008806"
+        ]
+      }
+    ],
+    "relation": "SHARED_NEED_CANDIDATE_NOT_PRODUCT_EQUIVALENCE",
+    "not_automatic_match": true
+  },
+  {
+    "shared_need_hypothesis": "休闲活动",
+    "types": [
+      {
+        "type": "法式滚球",
+        "supporting_skus": [
+          "2582044"
+        ]
+      },
+      {
+        "type": "球类或飞盘",
+        "supporting_skus": [
+          "2523460",
+          "2540416",
+          "2575039",
+          "2582111",
+          "3222187",
+          "3222702",
+          "3223143",
+          "3223160"
+        ]
+      }
+    ],
+    "relation": "SHARED_NEED_CANDIDATE_NOT_PRODUCT_EQUIVALENCE",
+    "not_automatic_match": true
+  },
+  {
+    "shared_need_hypothesis": "休闲玩耍",
+    "types": [
+      {
+        "type": "动物毛绒玩具",
+        "supporting_skus": [
+          "3015258",
+          "3217613",
+          "3220190"
+        ]
+      },
+      {
+        "type": "弹跳球",
+        "supporting_skus": [
+          "3016220"
+        ]
+      },
+      {
+        "type": "遥控形态玩赏商品",
+        "supporting_skus": [
+          "3005323",
+          "3218019",
+          "3223211",
+          "3224728",
+          "3224731"
+        ]
+      },
+      {
+        "type": "黏液或弹性玩耍材料",
+        "supporting_skus": [
+          "2549464",
+          "3013769",
+          "3213169",
+          "3218869"
+        ]
+      }
+    ],
+    "relation": "SHARED_NEED_CANDIDATE_NOT_PRODUCT_EQUIVALENCE",
+    "not_automatic_match": true
+  },
+  {
+    "shared_need_hypothesis": "体毛处理",
+    "types": [
+      {
+        "type": "玻璃脱毛器",
+        "supporting_skus": [
+          "3200507"
+        ]
+      },
+      {
+        "type": "脱毛条",
+        "supporting_skus": [
+          "2559310"
+        ]
+      }
+    ],
+    "relation": "SHARED_NEED_CANDIDATE_NOT_PRODUCT_EQUIVALENCE",
+    "not_automatic_match": true
+  },
+  {
+    "shared_need_hypothesis": "作业辅助",
+    "types": [
+      {
+        "type": "防尘面罩（名称用途）",
+        "supporting_skus": [
+          "3211379"
+        ]
+      },
+      {
+        "type": "防护眼镜",
+        "supporting_skus": [
+          "2578014",
+          "3012318",
+          "3212489"
+        ]
+      }
+    ],
+    "relation": "SHARED_NEED_CANDIDATE_NOT_PRODUCT_EQUIVALENCE",
+    "not_automatic_match": true
+  },
+  {
+    "shared_need_hypothesis": "便捷拖鞋穿着",
+    "types": [
+      {
+        "type": "人字拖鞋",
+        "supporting_skus": [
+          "2550841",
+          "2551664",
+          "2551665",
+          "2561188",
+          "2573572",
+          "3008153",
+          "3008719",
+          "3009064",
+          "3204310",
+          "3204416",
+          "3204418",
+          "3205456",
+          "3222056",
+          "3223067",
+          "3223304"
+        ]
+      },
+      {
+        "type": "拖鞋",
+        "supporting_skus": [
+          "2556826",
+          "2559200",
+          "3001960",
+          "3006554",
+          "3011522",
+          "3012268",
+          "3201830",
+          "3207419",
+          "3208373",
+          "3217094",
+          "3217095",
+          "3217163",
+          "3217165",
+          "3217378",
+          "3217383",
+          "3217384",
+          "3217391",
+          "3217395",
+          "3217997",
+          "3219197",
+          "3221150",
+          "3224741",
+          "3225646",
+          "3225663",
+          "3226013",
+          "3226016",
+          "3226018"
+        ]
+      }
+    ],
+    "relation": "SHARED_NEED_CANDIDATE_NOT_PRODUCT_EQUIVALENCE",
+    "not_automatic_match": true
+  },
+  {
+    "shared_need_hypothesis": "便鞋穿着",
+    "types": [
+      {
+        "type": "包头便鞋",
+        "supporting_skus": [
+          "2566008",
+          "3212695"
+        ]
+      },
+      {
+        "type": "帆布草编式鞋",
+        "supporting_skus": [
+          "3222057"
+        ]
+      }
+    ],
+    "relation": "SHARED_NEED_CANDIDATE_NOT_PRODUCT_EQUIVALENCE",
+    "not_automatic_match": true
+  },
+  {
+    "shared_need_hypothesis": "冰箱内部整理",
+    "types": [
+      {
+        "type": "冰箱收纳器",
+        "supporting_skus": [
+          "3202054",
+          "3202056",
+          "3202058",
+          "3212751",
+          "3215037",
+          "3215140",
+          "3220368",
+          "3220378",
+          "3220379",
+          "3222587"
+        ]
+      },
+      {
+        "type": "冰箱收纳容器",
+        "supporting_skus": [
+          "3215153",
+          "3215154"
+        ]
+      }
+    ],
+    "relation": "SHARED_NEED_CANDIDATE_NOT_PRODUCT_EQUIVALENCE",
+    "not_automatic_match": true
+  },
+  {
+    "shared_need_hypothesis": "分类标记",
+    "types": [
+      {
+        "type": "标签",
+        "supporting_skus": [
+          "2536858",
+          "3217527",
+          "3222124",
+          "3225763"
+        ]
+      },
+      {
+        "type": "标签制作设备",
+        "supporting_skus": [
+          "3204642",
+          "3212141"
+        ]
+      }
+    ],
+    "relation": "SHARED_NEED_CANDIDATE_NOT_PRODUCT_EQUIVALENCE",
+    "not_automatic_match": true
+  },
+  {
+    "shared_need_hypothesis": "切锯作业",
+    "types": [
+      {
+        "type": "链锯",
+        "supporting_skus": [
+          "3009003"
+        ]
+      },
+      {
+        "type": "锯片组合",
+        "supporting_skus": [
+          "3210941"
+        ]
+      }
+    ],
+    "relation": "SHARED_NEED_CANDIDATE_NOT_PRODUCT_EQUIVALENCE",
+    "not_automatic_match": true
+  },
+  {
+    "shared_need_hypothesis": "创作辅助",
+    "types": [
+      {
+        "type": "手工加工器具",
+        "supporting_skus": [
+          "2570164",
+          "3006294"
+        ]
+      },
+      {
+        "type": "热笔入门套装（具体工艺未核实）",
+        "supporting_skus": [
+          "3202008"
+        ]
+      }
+    ],
+    "relation": "SHARED_NEED_CANDIDATE_NOT_PRODUCT_EQUIVALENCE",
+    "not_automatic_match": true
+  },
+  {
+    "shared_need_hypothesis": "刺绣制作",
+    "types": [
+      {
+        "type": "刺绣套装",
+        "supporting_skus": [
+          "3209490"
+        ]
+      },
+      {
+        "type": "刺绣绷框",
+        "supporting_skus": [
+          "3225625"
+        ]
+      }
+    ],
+    "relation": "SHARED_NEED_CANDIDATE_NOT_PRODUCT_EQUIVALENCE",
+    "not_automatic_match": true
+  },
+  {
+    "shared_need_hypothesis": "剃毛操作",
+    "types": [
+      {
+        "type": "剃须刀",
+        "supporting_skus": [
+          "2543297"
+        ]
+      },
+      {
+        "type": "剃须刀入门套装",
+        "supporting_skus": [
+          "3014366",
+          "3211391"
+        ]
+      }
+    ],
+    "relation": "SHARED_NEED_CANDIDATE_NOT_PRODUCT_EQUIVALENCE",
+    "not_automatic_match": true
+  },
+  {
+    "shared_need_hypothesis": "剪贴簿创作",
+    "types": [
+      {
+        "type": "剪贴簿",
+        "supporting_skus": [
+          "3214281",
+          "3214283"
+        ]
+      },
+      {
+        "type": "剪贴簿用纸",
+        "supporting_skus": [
+          "3220012"
+        ]
+      }
+    ],
+    "relation": "SHARED_NEED_CANDIDATE_NOT_PRODUCT_EQUIVALENCE",
+    "not_automatic_match": true
+  },
+  {
+    "shared_need_hypothesis": "包装封合",
+    "types": [
+      {
+        "type": "包装胶带",
+        "supporting_skus": [
+          "2525994",
+          "2578747"
+        ]
+      },
+      {
+        "type": "包装胶带切割座",
+        "supporting_skus": [
+          "3009193"
+        ]
+      }
+    ],
+    "relation": "SHARED_NEED_CANDIDATE_NOT_PRODUCT_EQUIVALENCE",
+    "not_automatic_match": true
+  },
+  {
+    "shared_need_hypothesis": "化妆",
+    "types": [
+      {
+        "type": "化妆刷组合",
+        "supporting_skus": [
+          "3221008"
+        ]
+      },
+      {
+        "type": "化妆海绵",
+        "supporting_skus": [
+          "2569646",
+          "3220740",
+          "3224095"
+        ]
+      },
+      {
+        "type": "底妆或修饰彩妆",
+        "supporting_skus": [
+          "3002507",
+          "3002509",
+          "3006484",
+          "3008445",
+          "3210393",
+          "3213685",
+          "3215545",
+          "3218968",
+          "3218969",
+          "3221167",
+          "3223746"
+        ]
+      },
+      {
+        "type": "睫毛膏",
+        "supporting_skus": [
+          "3002516",
+          "3207414",
+          "3221177",
+          "3224491",
+          "3226879"
+        ]
+      },
+      {
+        "type": "腮红",
+        "supporting_skus": [
+          "3202871",
+          "3203156",
+          "3207021",
+          "3216684",
+          "3218288",
+          "3218300",
+          "3218359"
+        ]
+      }
+    ],
+    "relation": "SHARED_NEED_CANDIDATE_NOT_PRODUCT_EQUIVALENCE",
+    "not_automatic_match": true
+  },
+  {
+    "shared_need_hypothesis": "卫生护理",
+    "types": [
+      {
+        "type": "卫生巾",
+        "supporting_skus": [
+          "2576280",
+          "3006059",
+          "3006061",
+          "3016216",
+          "3016877",
+          "3016878",
+          "3016879",
+          "3017044",
+          "3210439",
+          "3217891",
+          "3217892",
+          "3217893",
+          "3217894",
+          "3219860",
+          "3220058",
+          "3220061",
+          "3222823"
+        ]
+      },
+      {
+        "type": "私密清洁用品",
+        "supporting_skus": [
+          "3011130"
+        ]
+      }
+    ],
+    "relation": "SHARED_NEED_CANDIDATE_NOT_PRODUCT_EQUIVALENCE",
+    "not_automatic_match": true
+  },
+  {
+    "shared_need_hypothesis": "卫生空间维护研究",
+    "types": [
+      {
+        "type": "厕所化学用品",
+        "supporting_skus": [
+          "2546857"
+        ]
+      },
+      {
+        "type": "浴室除味用品",
+        "supporting_skus": [
+          "3221863"
+        ]
+      }
+    ],
+    "relation": "SHARED_NEED_CANDIDATE_NOT_PRODUCT_EQUIVALENCE",
+    "not_automatic_match": true
+  },
+  {
+    "shared_need_hypothesis": "卷发造型",
+    "types": [
+      {
+        "type": "卷发造型凝胶",
+        "supporting_skus": [
+          "3208778"
+        ]
+      },
+      {
+        "type": "卷发造型摩丝",
+        "supporting_skus": [
+          "3215633"
+        ]
+      },
+      {
+        "type": "卷发造型霜",
+        "supporting_skus": [
+          "3010310"
+        ]
+      }
+    ],
+    "relation": "SHARED_NEED_CANDIDATE_NOT_PRODUCT_EQUIVALENCE",
+    "not_automatic_match": true
+  },
+  {
+    "shared_need_hypothesis": "厨房擦拭",
+    "types": [
+      {
+        "type": "厨房用布",
+        "supporting_skus": [
+          "2540008",
+          "2546675",
+          "2549520",
+          "2550326",
+          "2553956",
+          "2553960",
+          "2554067",
+          "2554069",
+          "2568502",
+          "2571676",
+          "2577935",
+          "2577936",
+          "2577937",
+          "3003279",
+          "3007230",
+          "3012843",
+          "3206225",
+          "3208443",
+          "3208444",
+          "3210705",
+          "3213835",
+          "3215179",
+          "3216961",
+          "3218401",
+          "3220472",
+          "3220473",
+          "3225507"
+        ]
+      },
+      {
+        "type": "厨房纸",
+        "supporting_skus": [
+          "2569291",
+          "3011452",
+          "3014085",
+          "3201998"
+        ]
+      }
+    ],
+    "relation": "SHARED_NEED_CANDIDATE_NOT_PRODUCT_EQUIVALENCE",
+    "not_automatic_match": true
+  },
+  {
+    "shared_need_hypothesis": "厨房角色游戏",
+    "types": [
+      {
+        "type": "玩具厨房",
+        "supporting_skus": [
+          "3224788"
+        ]
+      },
+      {
+        "type": "玩具厨房搅拌机套装",
+        "supporting_skus": [
+          "3218886"
+        ]
+      }
+    ],
+    "relation": "SHARED_NEED_CANDIDATE_NOT_PRODUCT_EQUIVALENCE",
+    "not_automatic_match": true
+  },
+  {
+    "shared_need_hypothesis": "发型整理",
+    "types": [
+      {
+        "type": "发饰",
+        "supporting_skus": [
+          "2537463",
+          "2564363",
+          "2564827",
+          "2567890",
+          "2570267",
+          "2570953",
+          "2572871",
+          "2572986",
+          "2573215",
+          "3012792",
+          "3200618",
+          "3201097",
+          "3205236",
+          "3205758",
+          "3206717",
+          "3208372",
+          "3209055",
+          "3211337",
+          "3214765",
+          "3214769",
+          "3214771",
+          "3215074",
+          "3219010",
+          "3219659",
+          "3219664",
+          "3219801",
+          "3219916",
+          "3221071",
+          "3221814",
+          "3223248",
+          "3223305",
+          "3223444",
+          "3223560",
+          "3223568",
+          "3223725",
+          "3223945",
+          "3224088",
+          "3224089",
+          "3225952",
+          "3225953",
+          "3225989"
+        ]
+      },
+      {
+        "type": "发饰或固定夹",
+        "supporting_skus": [
+          "2564066",
+          "2572870",
+          "2572987",
+          "3001509",
+          "3006559",
+          "3205759",
+          "3208809",
+          "3208811",
+          "3209450",
+          "3215856",
+          "3219004",
+          "3219977",
+          "3220886",
+          "3221153",
+          "3223243",
+          "3223246",
+          "3223569",
+          "3225659"
+        ]
+      }
+    ],
+    "relation": "SHARED_NEED_CANDIDATE_NOT_PRODUCT_EQUIVALENCE",
+    "not_automatic_match": true
+  },
+  {
+    "shared_need_hypothesis": "吹泡泡游戏",
+    "types": [
+      {
+        "type": "吹泡泡用品",
+        "supporting_skus": [
+          "2539177",
+          "2575271",
+          "3203228"
+        ]
+      },
+      {
+        "type": "泡泡吹制器",
+        "supporting_skus": [
+          "3200231",
+          "3200448",
+          "3212569",
+          "3223180"
+        ]
+      },
+      {
+        "type": "泡泡棒",
+        "supporting_skus": [
+          "3004773",
+          "3200496"
+        ]
+      }
+    ],
+    "relation": "SHARED_NEED_CANDIDATE_NOT_PRODUCT_EQUIVALENCE",
+    "not_automatic_match": true
+  },
+  {
+    "shared_need_hypothesis": "唇部护理",
+    "types": [
+      {
+        "type": "唇部护理套装",
+        "supporting_skus": [
+          "3209429",
+          "3211237",
+          "3215719"
+        ]
+      },
+      {
+        "type": "唇部护理用品（名称用途）",
+        "supporting_skus": [
+          "2580597"
+        ]
+      }
+    ],
+    "relation": "SHARED_NEED_CANDIDATE_NOT_PRODUCT_EQUIVALENCE",
+    "not_automatic_match": true
+  },
+  {
+    "shared_need_hypothesis": "喷水游戏",
+    "types": [
+      {
+        "type": "水枪玩具",
+        "supporting_skus": [
+          "3212033",
+          "3212039",
+          "3213113",
+          "3213115",
+          "3222641",
+          "3222700",
+          "3222712",
+          "3222716"
+        ]
+      },
+      {
+        "type": "玩具水枪",
+        "supporting_skus": [
+          "2552541"
+        ]
+      }
+    ],
+    "relation": "SHARED_NEED_CANDIDATE_NOT_PRODUCT_EQUIVALENCE",
+    "not_automatic_match": true
+  },
+  {
+    "shared_need_hypothesis": "器具维护",
+    "types": [
+      {
+        "type": "洗碗机用盐",
+        "supporting_skus": [
+          "2561295"
+        ]
+      },
+      {
+        "type": "清洁维护用片剂或挂剂",
+        "supporting_skus": [
+          "2549168",
+          "2580207",
+          "3205687",
+          "3217655",
+          "3222754"
+        ]
+      }
+    ],
+    "relation": "SHARED_NEED_CANDIDATE_NOT_PRODUCT_EQUIVALENCE",
+    "not_automatic_match": true
+  },
+  {
+    "shared_need_hypothesis": "园艺维护",
+    "types": [
+      {
+        "type": "园艺修剪工具",
+        "supporting_skus": [
+          "3004532",
+          "3008661",
+          "3014136",
+          "3213185",
+          "3214375"
+        ]
+      },
+      {
+        "type": "园艺耙具",
+        "supporting_skus": [
+          "2540582",
+          "2550015"
+        ]
+      }
+    ],
+    "relation": "SHARED_NEED_CANDIDATE_NOT_PRODUCT_EQUIVALENCE",
+    "not_automatic_match": true
+  },
+  {
+    "shared_need_hypothesis": "圣诞场景布置",
+    "types": [
+      {
+        "type": "圣诞场景摆件",
+        "supporting_skus": [
+          "3006731",
+          "3217467"
+        ]
+      },
+      {
+        "type": "圣诞老人装饰摆件",
+        "supporting_skus": [
+          "3206745"
+        ]
+      }
+    ],
+    "relation": "SHARED_NEED_CANDIDATE_NOT_PRODUCT_EQUIVALENCE",
+    "not_automatic_match": true
+  },
+  {
+    "shared_need_hypothesis": "坚果零食",
+    "types": [
+      {
+        "type": "坚果混合食品",
+        "supporting_skus": [
+          "2581020",
+          "3008365",
+          "3011698",
+          "3012443",
+          "3208739",
+          "3214347",
+          "3214349",
+          "3215813",
+          "3222391",
+          "3224312"
+        ]
+      },
+      {
+        "type": "坚果食品",
+        "supporting_skus": [
+          "2572300",
+          "2572327",
+          "2572352",
+          "2572356",
+          "2572372",
+          "2576502",
+          "2577347",
+          "2581329",
+          "2581927",
+          "2581928",
+          "3000746",
+          "3002917",
+          "3002918",
+          "3003625",
+          "3006318",
+          "3007718",
+          "3008457",
+          "3008458",
+          "3205496"
+        ]
+      },
+      {
+        "type": "松子",
+        "supporting_skus": [
+          "2580351"
+        ]
+      },
+      {
+        "type": "花生坚果混合食品",
+        "supporting_skus": [
+          "3224252"
+        ]
+      }
+    ],
+    "relation": "SHARED_NEED_CANDIDATE_NOT_PRODUCT_EQUIVALENCE",
+    "not_automatic_match": true
+  },
+  {
+    "shared_need_hypothesis": "墙面布置",
+    "types": [
+      {
+        "type": "墙面装饰件",
+        "supporting_skus": [
+          "3205185",
+          "3210445",
+          "3211661",
+          "3214944",
+          "3216061",
+          "3216067",
+          "3216420",
+          "3217432",
+          "3218007",
+          "3218008",
+          "3218015",
+          "3218170",
+          "3219666",
+          "3219669",
+          "3221806",
+          "3222134",
+          "3222359",
+          "3222921",
+          "3223085",
+          "3223086"
+        ]
+      },
+      {
+        "type": "墙面装饰板",
+        "supporting_skus": [
+          "3221611",
+          "3222625"
+        ]
+      }
+    ],
+    "relation": "SHARED_NEED_CANDIDATE_NOT_PRODUCT_EQUIVALENCE",
+    "not_automatic_match": true
+  },
+  {
+    "shared_need_hypothesis": "备餐操作",
+    "types": [
+      {
+        "type": "刨丝器",
+        "supporting_skus": [
+          "2546434",
+          "3206412"
+        ]
+      },
+      {
+        "type": "压泥器",
+        "supporting_skus": [
+          "3219764"
+        ]
+      },
+      {
+        "type": "压蒜器",
+        "supporting_skus": [
+          "3200255",
+          "3219766"
+        ]
+      },
+      {
+        "type": "打蛋搅拌器",
+        "supporting_skus": [
+          "3219765"
+        ]
+      },
+      {
+        "type": "漏勺",
+        "supporting_skus": [
+          "2547713",
+          "3200262",
+          "3219763"
+        ]
+      }
+    ],
+    "relation": "SHARED_NEED_CANDIDATE_NOT_PRODUCT_EQUIVALENCE",
+    "not_automatic_match": true
+  },
+  {
+    "shared_need_hypothesis": "外观修饰",
+    "types": [
+      {
+        "type": "仿晒护理用品",
+        "supporting_skus": [
+          "3000073",
+          "3223208"
+        ]
+      },
+      {
+        "type": "身体头发亮饰喷雾",
+        "supporting_skus": [
+          "3217825"
+        ]
+      },
+      {
+        "type": "身体或发部亮饰用品",
+        "supporting_skus": [
+          "3212343",
+          "3218829"
+        ]
+      }
+    ],
+    "relation": "SHARED_NEED_CANDIDATE_NOT_PRODUCT_EQUIVALENCE",
+    "not_automatic_match": true
+  },
+  {
+    "shared_need_hypothesis": "头发护理",
+    "types": [
+      {
+        "type": "头发护理或造型用品",
+        "supporting_skus": [
+          "2565129",
+          "2573555",
+          "3003862",
+          "3008447",
+          "3009292",
+          "3009293",
+          "3011745",
+          "3011746",
+          "3015488",
+          "3015655",
+          "3017008",
+          "3017009",
+          "3017045",
+          "3017046",
+          "3202330",
+          "3202332",
+          "3203311",
+          "3204010",
+          "3205622",
+          "3206696",
+          "3209342",
+          "3210413",
+          "3210939",
+          "3210943",
+          "3212579",
+          "3215399",
+          "3215400",
+          "3215805",
+          "3215810",
+          "3215867",
+          "3215932",
+          "3216648",
+          "3216653",
+          "3216721",
+          "3217765",
+          "3217772",
+          "3217779",
+          "3217795",
+          "3218081",
+          "3218845",
+          "3218977",
+          "3219313",
+          "3219697",
+          "3219816",
+          "3220698",
+          "3221463",
+          "3221519",
+          "3222916"
+        ]
+      },
+      {
+        "type": "头发护理油类",
+        "supporting_skus": [
+          "3006980",
+          "3203044",
+          "3208831",
+          "3210409",
+          "3215811"
+        ]
+      },
+      {
+        "type": "头发护理用品（具体作用未核实）",
+        "supporting_skus": [
+          "3201568"
+        ]
+      },
+      {
+        "type": "头发精华",
+        "supporting_skus": [
+          "3209009",
+          "3215809",
+          "3217774",
+          "3217782",
+          "3218082",
+          "3218295",
+          "3219311",
+          "3219667",
+          "3221464",
+          "3222127",
+          "3222622"
+        ]
+      },
+      {
+        "type": "护发套装",
+        "supporting_skus": [
+          "3216572"
+        ]
+      }
+    ],
+    "relation": "SHARED_NEED_CANDIDATE_NOT_PRODUCT_EQUIVALENCE",
+    "not_automatic_match": true
+  },
+  {
+    "shared_need_hypothesis": "头发整理",
+    "types": [
+      {
+        "type": "头发梳理器具",
+        "supporting_skus": [
+          "3013455",
+          "3213963",
+          "3216364",
+          "3216509",
+          "3217058",
+          "3222590",
+          "3223931"
+        ]
+      },
+      {
+        "type": "头发造型器具",
+        "supporting_skus": [
+          "3009175",
+          "3220744",
+          "3223932",
+          "3224130",
+          "3226197"
+        ]
+      },
+      {
+        "type": "头发造型或护理品",
+        "supporting_skus": [
+          "2558580",
+          "2573557",
+          "3200212",
+          "3203234",
+          "3205548",
+          "3215402",
+          "3218076",
+          "3218079",
+          "3218231",
+          "3219818",
+          "3226104"
+        ]
+      },
+      {
+        "type": "美发组合（内含物未明确）",
+        "supporting_skus": [
+          "3214763"
+        ]
+      }
+    ],
+    "relation": "SHARED_NEED_CANDIDATE_NOT_PRODUCT_EQUIVALENCE",
+    "not_automatic_match": true
+  },
+  {
+    "shared_need_hypothesis": "头发梳理",
+    "types": [
+      {
+        "type": "发刷",
+        "supporting_skus": [
+          "2579935",
+          "3204789",
+          "3209431",
+          "3210405"
+        ]
+      },
+      {
+        "type": "梳发刷",
+        "supporting_skus": [
+          "3216087"
+        ]
+      },
+      {
+        "type": "梳子套装",
+        "supporting_skus": [
+          "3209432",
+          "3220749"
+        ]
+      }
+    ],
+    "relation": "SHARED_NEED_CANDIDATE_NOT_PRODUCT_EQUIVALENCE",
+    "not_automatic_match": true
+  },
+  {
+    "shared_need_hypothesis": "头部护理",
+    "types": [
+      {
+        "type": "头皮按摩刷",
+        "supporting_skus": [
+          "3220754"
+        ]
+      },
+      {
+        "type": "头部按摩刷",
+        "supporting_skus": [
+          "3207585"
+        ]
+      }
+    ],
+    "relation": "SHARED_NEED_CANDIDATE_NOT_PRODUCT_EQUIVALENCE",
+    "not_automatic_match": true
+  },
+  {
+    "shared_need_hypothesis": "妆前打底",
+    "types": [
+      {
+        "type": "妆前打底用品",
+        "supporting_skus": [
+          "3013475",
+          "3203899",
+          "3213537",
+          "3216962",
+          "3221165",
+          "3221168",
+          "3224502",
+          "3225208"
+        ]
+      },
+      {
+        "type": "精华式妆前乳",
+        "supporting_skus": [
+          "3216575"
+        ]
+      }
+    ],
+    "relation": "SHARED_NEED_CANDIDATE_NOT_PRODUCT_EQUIVALENCE",
+    "not_automatic_match": true
+  },
+  {
+    "shared_need_hypothesis": "威化零食食用",
+    "types": [
+      {
+        "type": "威化卷",
+        "supporting_skus": [
+          "3217574"
+        ]
+      },
+      {
+        "type": "标称蛋白质威化",
+        "supporting_skus": [
+          "3222463",
+          "3223501"
+        ]
+      }
+    ],
+    "relation": "SHARED_NEED_CANDIDATE_NOT_PRODUCT_EQUIVALENCE",
+    "not_automatic_match": true
+  },
+  {
+    "shared_need_hypothesis": "宠物喂养",
+    "types": [
+      {
+        "type": "名称明示宠物对象的食用品",
+        "supporting_skus": [
+          "2536552",
+          "2536784",
+          "2541720",
+          "2543000",
+          "2543001",
+          "2564730",
+          "2573218",
+          "2580365",
+          "2580491",
+          "2580780",
+          "2580789",
+          "2580792",
+          "2582450",
+          "3000977",
+          "3002949",
+          "3006190",
+          "3010560",
+          "3013328",
+          "3015517",
+          "3200743",
+          "3200745",
+          "3200748",
+          "3200750",
+          "3200753",
+          "3206015",
+          "3206668",
+          "3207798",
+          "3220113",
+          "3221082",
+          "3223281",
+          "3223282",
+          "3223283",
+          "3223284",
+          "3223286",
+          "3224452"
+        ]
+      },
+      {
+        "type": "宠物食品",
+        "supporting_skus": [
+          "2541721",
+          "2542999",
+          "2545336",
+          "2545337",
+          "2548110",
+          "2555040",
+          "2564679",
+          "2573220",
+          "2575527",
+          "2576167",
+          "2579082",
+          "2579083",
+          "3000784",
+          "3001112",
+          "3003218",
+          "3009488",
+          "3009708",
+          "3015098",
+          "3200513",
+          "3200742",
+          "3200744",
+          "3200749",
+          "3204470",
+          "3206068",
+          "3206715",
+          "3207696",
+          "3208232",
+          "3208410",
+          "3214481",
+          "3214483",
+          "3220172",
+          "3220176",
+          "3221084",
+          "3221127",
+          "3222469",
+          "3223280",
+          "3223285",
+          "3224481",
+          "3224927",
+          "3225841"
+        ]
+      }
+    ],
+    "relation": "SHARED_NEED_CANDIDATE_NOT_PRODUCT_EQUIVALENCE",
+    "not_automatic_match": true
+  },
+  {
+    "shared_need_hypothesis": "宠物照护",
+    "types": [
+      {
+        "type": "宠物喂养或卫生器具",
+        "supporting_skus": [
+          "3200840",
+          "3206051",
+          "3219540"
+        ]
+      },
+      {
+        "type": "宠物用品",
+        "supporting_skus": [
+          "2562800",
+          "3004942",
+          "3015513",
+          "3016525",
+          "3017022",
+          "3017091",
+          "3208923",
+          "3208926",
+          "3213939",
+          "3215000",
+          "3215004",
+          "3215013",
+          "3217316",
+          "3219177",
+          "3223316",
+          "3223623",
+          "3223624",
+          "3223982",
+          "3224247",
+          "3224969",
+          "3224970",
+          "3225217",
+          "3226441"
+        ]
+      }
+    ],
+    "relation": "SHARED_NEED_CANDIDATE_NOT_PRODUCT_EQUIVALENCE",
+    "not_automatic_match": true
+  },
+  {
+    "shared_need_hypothesis": "宠物零食选择",
+    "types": [
+      {
+        "type": "三文鱼海鲜名称的猫零食",
+        "supporting_skus": [
+          "2576183"
+        ]
+      },
+      {
+        "type": "狗零食",
+        "supporting_skus": [
+          "2555062"
+        ]
+      }
+    ],
+    "relation": "SHARED_NEED_CANDIDATE_NOT_PRODUCT_EQUIVALENCE",
+    "not_automatic_match": true
+  },
+  {
+    "shared_need_hypothesis": "室内顶部照明",
+    "types": [
+      {
+        "type": "吸顶灯",
+        "supporting_skus": [
+          "3217205",
+          "3218147",
+          "3224757"
+        ]
+      },
+      {
+        "type": "顶装灯具",
+        "supporting_skus": [
+          "3208575",
+          "3216644",
+          "3219901"
+        ]
+      }
+    ],
+    "relation": "SHARED_NEED_CANDIDATE_NOT_PRODUCT_EQUIVALENCE",
+    "not_automatic_match": true
+  },
+  {
+    "shared_need_hypothesis": "家务角色游戏",
+    "types": [
+      {
+        "type": "家电家务角色玩具",
+        "supporting_skus": [
+          "3002988",
+          "3202136",
+          "3217599",
+          "3225777"
+        ]
+      },
+      {
+        "type": "玩具吸尘器",
+        "supporting_skus": [
+          "3015281",
+          "3217597"
+        ]
+      }
+    ],
+    "relation": "SHARED_NEED_CANDIDATE_NOT_PRODUCT_EQUIVALENCE",
+    "not_automatic_match": true
+  },
+  {
+    "shared_need_hypothesis": "寝具配置",
+    "types": [
+      {
+        "type": "床单",
+        "supporting_skus": [
+          "2538706",
+          "2538707",
+          "2547515",
+          "2547516",
+          "2547518",
+          "2547519",
+          "2559130",
+          "2559131",
+          "2559132",
+          "2559133",
+          "2561879",
+          "2561886",
+          "2561887",
+          "2561891",
+          "2577283",
+          "2577284",
+          "2577286",
+          "2577290",
+          "3004660",
+          "3213813"
+        ]
+      },
+      {
+        "type": "被子",
+        "supporting_skus": [
+          "2548181",
+          "2548182",
+          "2548183",
+          "2548184",
+          "2555303",
+          "2564698",
+          "3220478",
+          "3222052",
+          "3222164",
+          "3223917",
+          "3223918",
+          "3224852",
+          "3224853"
+        ]
+      },
+      {
+        "type": "被类商品（常规寝具词义）",
+        "supporting_skus": [
+          "3217223"
+        ]
+      }
+    ],
+    "relation": "SHARED_NEED_CANDIDATE_NOT_PRODUCT_EQUIVALENCE",
+    "not_automatic_match": true
+  },
+  {
+    "shared_need_hypothesis": "小食盛放",
+    "types": [
+      {
+        "type": "小食托盘",
+        "supporting_skus": [
+          "2542003",
+          "3218991"
+        ]
+      },
+      {
+        "type": "小食盘",
+        "supporting_skus": [
+          "3218774",
+          "3218848",
+          "3221207"
+        ]
+      }
+    ],
+    "relation": "SHARED_NEED_CANDIDATE_NOT_PRODUCT_EQUIVALENCE",
+    "not_automatic_match": true
+  },
+  {
+    "shared_need_hypothesis": "局部暖用",
+    "types": [
+      {
+        "type": "局部保暖用品",
+        "supporting_skus": [
+          "2542277",
+          "3012153",
+          "3226000"
+        ]
+      },
+      {
+        "type": "热水袋",
+        "supporting_skus": [
+          "2564233",
+          "2580381",
+          "3208209"
+        ]
+      }
+    ],
+    "relation": "SHARED_NEED_CANDIDATE_NOT_PRODUCT_EQUIVALENCE",
+    "not_automatic_match": true
+  },
+  {
+    "shared_need_hypothesis": "巧克力零食",
+    "types": [
+      {
+        "type": "兔形巧克力",
+        "supporting_skus": [
+          "3014245",
+          "3215178"
+        ]
+      },
+      {
+        "type": "圣诞巧克力组合",
+        "supporting_skus": [
+          "3221211"
+        ]
+      },
+      {
+        "type": "夹心巧克力",
+        "supporting_skus": [
+          "3008655",
+          "3206663"
+        ]
+      },
+      {
+        "type": "巧克力",
+        "supporting_skus": [
+          "2522376",
+          "2537874",
+          "2563524",
+          "2576384",
+          "3015305",
+          "3203308",
+          "3221630",
+          "3227578",
+          "3228235",
+          "3228412"
+        ]
+      },
+      {
+        "type": "巧克力条",
+        "supporting_skus": [
+          "2513185",
+          "2521695",
+          "2580407",
+          "3221629",
+          "3227531"
+        ]
+      },
+      {
+        "type": "巧克力球",
+        "supporting_skus": [
+          "3226771"
+        ]
+      },
+      {
+        "type": "巧克力组合",
+        "supporting_skus": [
+          "3212283"
+        ]
+      },
+      {
+        "type": "球形巧克力",
+        "supporting_skus": [
+          "3225157"
+        ]
+      },
+      {
+        "type": "硬币形巧克力",
+        "supporting_skus": [
+          "3208114"
+        ]
+      },
+      {
+        "type": "造型巧克力",
+        "supporting_skus": [
+          "2521694",
+          "2550773",
+          "2578676",
+          "3008463",
+          "3008464",
+          "3011535",
+          "3012468",
+          "3202759",
+          "3202866",
+          "3214719",
+          "3221208",
+          "3221224",
+          "3222939",
+          "3224174"
+        ]
+      }
+    ],
+    "relation": "SHARED_NEED_CANDIDATE_NOT_PRODUCT_EQUIVALENCE",
+    "not_automatic_match": true
+  },
+  {
+    "shared_need_hypothesis": "庆祝布置",
+    "types": [
+      {
+        "type": "彩纸礼花筒",
+        "supporting_skus": [
+          "2521273",
+          "3201096",
+          "3202851",
+          "3211767"
+        ]
+      },
+      {
+        "type": "生日蜡烛",
+        "supporting_skus": [
+          "3206965",
+          "3220044"
+        ]
+      }
+    ],
+    "relation": "SHARED_NEED_CANDIDATE_NOT_PRODUCT_EQUIVALENCE",
+    "not_automatic_match": true
+  },
+  {
+    "shared_need_hypothesis": "废物整理",
+    "types": [
+      {
+        "type": "垃圾桶",
+        "supporting_skus": [
+          "2526877",
+          "2531440",
+          "2531824",
+          "2568410",
+          "2579202",
+          "2579779",
+          "3015861",
+          "3015862",
+          "3208106",
+          "3208107",
+          "3208303",
+          "3208615",
+          "3209579",
+          "3213725",
+          "3215026",
+          "3215122",
+          "3216113",
+          "3216867",
+          "3220221",
+          "3220359",
+          "3221591",
+          "3223631"
+        ]
+      },
+      {
+        "type": "废物收集袋",
+        "supporting_skus": [
+          "2520380",
+          "2523488",
+          "3224150"
+        ]
+      }
+    ],
+    "relation": "SHARED_NEED_CANDIDATE_NOT_PRODUCT_EQUIVALENCE",
+    "not_automatic_match": true
+  },
+  {
+    "shared_need_hypothesis": "微缩场景制作",
+    "types": [
+      {
+        "type": "微缩房间手工套件",
+        "supporting_skus": [
+          "3010093"
+        ]
+      },
+      {
+        "type": "微缩模型手工套装",
+        "supporting_skus": [
+          "3217278"
+        ]
+      }
+    ],
+    "relation": "SHARED_NEED_CANDIDATE_NOT_PRODUCT_EQUIVALENCE",
+    "not_automatic_match": true
+  },
+  {
+    "shared_need_hypothesis": "悬挂照明",
+    "types": [
+      {
+        "type": "吊灯",
+        "supporting_skus": [
+          "2561123",
+          "3221853",
+          "3223112"
+        ]
+      },
+      {
+        "type": "太阳能悬挂灯",
+        "supporting_skus": [
+          "2568514"
+        ]
+      }
+    ],
+    "relation": "SHARED_NEED_CANDIDATE_NOT_PRODUCT_EQUIVALENCE",
+    "not_automatic_match": true
+  },
+  {
+    "shared_need_hypothesis": "手工作品制作",
+    "types": [
+      {
+        "type": "编织线",
+        "supporting_skus": [
+          "2578514"
+        ]
+      },
+      {
+        "type": "自制钩织造型项目",
+        "supporting_skus": [
+          "3012135"
+        ]
+      }
+    ],
+    "relation": "SHARED_NEED_CANDIDATE_NOT_PRODUCT_EQUIVALENCE",
+    "not_automatic_match": true
+  },
+  {
+    "shared_need_hypothesis": "手工装饰",
+    "types": [
+      {
+        "type": "小夜灯装饰制作用品",
+        "supporting_skus": [
+          "3206005"
+        ]
+      },
+      {
+        "type": "装饰布材",
+        "supporting_skus": [
+          "3201859",
+          "3217012",
+          "3221347",
+          "3224663"
+        ]
+      },
+      {
+        "type": "贴纸材料",
+        "supporting_skus": [
+          "2547743",
+          "3010537",
+          "3206056"
+        ]
+      },
+      {
+        "type": "闪粉材料",
+        "supporting_skus": [
+          "3210785",
+          "3217362",
+          "3223731"
+        ]
+      }
+    ],
+    "relation": "SHARED_NEED_CANDIDATE_NOT_PRODUCT_EQUIVALENCE",
+    "not_automatic_match": true
+  },
+  {
+    "shared_need_hypothesis": "手机携带",
+    "types": [
+      {
+        "type": "手机小包",
+        "supporting_skus": [
+          "3223727"
+        ]
+      },
+      {
+        "type": "手机挂绳",
+        "supporting_skus": [
+          "3202533",
+          "3218857"
+        ]
+      }
+    ],
+    "relation": "SHARED_NEED_CANDIDATE_NOT_PRODUCT_EQUIVALENCE",
+    "not_automatic_match": true
+  },
+  {
+    "shared_need_hypothesis": "手部皮肤护理",
+    "types": [
+      {
+        "type": "手膜",
+        "supporting_skus": [
+          "3012712"
+        ]
+      },
+      {
+        "type": "护手霜",
+        "supporting_skus": [
+          "2573121",
+          "2576175",
+          "2582419",
+          "3221092",
+          "3221513",
+          "3227332"
+        ]
+      }
+    ],
+    "relation": "SHARED_NEED_CANDIDATE_NOT_PRODUCT_EQUIVALENCE",
+    "not_automatic_match": true
+  },
+  {
+    "shared_need_hypothesis": "手部穿戴",
+    "types": [
+      {
+        "type": "乳胶手套",
+        "supporting_skus": [
+          "2576406"
+        ]
+      },
+      {
+        "type": "手套",
+        "supporting_skus": [
+          "210016",
+          "210017",
+          "2523375",
+          "2523376",
+          "2529123",
+          "2535468",
+          "2550094",
+          "2554979",
+          "2554980",
+          "2554984",
+          "2555736",
+          "2556296",
+          "2556298",
+          "2557969",
+          "2557976",
+          "2562713",
+          "2562958",
+          "2564053",
+          "2565719",
+          "2569402",
+          "2570504",
+          "2577836",
+          "2579179",
+          "2581944",
+          "2582294",
+          "3000201",
+          "3006069",
+          "3202992",
+          "3207374",
+          "3208162",
+          "3209425",
+          "3216296",
+          "3217762",
+          "3219871",
+          "3225784"
+        ]
+      }
+    ],
+    "relation": "SHARED_NEED_CANDIDATE_NOT_PRODUCT_EQUIVALENCE",
+    "not_automatic_match": true
+  },
+  {
+    "shared_need_hypothesis": "打印耗材补充",
+    "types": [
+      {
+        "type": "墨盒",
+        "supporting_skus": [
+          "2549435",
+          "2565842",
+          "3004355",
+          "3010428",
+          "3220299",
+          "3220300",
+          "3226670"
+        ]
+      },
+      {
+        "type": "设备用纸卷",
+        "supporting_skus": [
+          "3214491",
+          "3224425",
+          "3227226"
+        ]
+      }
+    ],
+    "relation": "SHARED_NEED_CANDIDATE_NOT_PRODUCT_EQUIVALENCE",
+    "not_automatic_match": true
+  },
+  {
+    "shared_need_hypothesis": "排水维护研究",
+    "types": [
+      {
+        "type": "疏通工具或制剂（形态依原名）",
+        "supporting_skus": [
+          "2563296",
+          "3013244",
+          "3212885",
+          "3213211",
+          "3217754"
+        ]
+      },
+      {
+        "type": "管道疏通工具",
+        "supporting_skus": [
+          "3200457",
+          "3210039"
+        ]
+      }
+    ],
+    "relation": "SHARED_NEED_CANDIDATE_NOT_PRODUCT_EQUIVALENCE",
+    "not_automatic_match": true
+  },
+  {
+    "shared_need_hypothesis": "摆件彩绘",
+    "types": [
+      {
+        "type": "摆件彩绘套装",
+        "supporting_skus": [
+          "3202753",
+          "3206191",
+          "3216152"
+        ]
+      },
+      {
+        "type": "熊形彩绘制作套装",
+        "supporting_skus": [
+          "3220979"
+        ]
+      }
+    ],
+    "relation": "SHARED_NEED_CANDIDATE_NOT_PRODUCT_EQUIVALENCE",
+    "not_automatic_match": true
+  },
+  {
+    "shared_need_hypothesis": "文件整理",
+    "types": [
+      {
+        "type": "回形针",
+        "supporting_skus": [
+          "3214986",
+          "3224322"
+        ]
+      },
+      {
+        "type": "文件夹",
+        "supporting_skus": [
+          "2514870",
+          "2538622",
+          "2545566",
+          "2579895",
+          "3206706",
+          "3208931",
+          "3214387",
+          "3215713",
+          "3219400",
+          "3220672",
+          "3222829",
+          "3224618",
+          "3224834",
+          "93644"
+        ]
+      },
+      {
+        "type": "文件或卡片套",
+        "supporting_skus": [
+          "3206636",
+          "3219391",
+          "3219399"
+        ]
+      },
+      {
+        "type": "文件整理用品",
+        "supporting_skus": [
+          "2514838"
+        ]
+      },
+      {
+        "type": "文件装订扣",
+        "supporting_skus": [
+          "3221356"
+        ]
+      }
+    ],
+    "relation": "SHARED_NEED_CANDIDATE_NOT_PRODUCT_EQUIVALENCE",
+    "not_automatic_match": true
+  },
+  {
+    "shared_need_hypothesis": "日常清扫",
+    "types": [
+      {
+        "type": "扫帚",
+        "supporting_skus": [
+          "3014884",
+          "3220500"
+        ]
+      },
+      {
+        "type": "簸箕与刷组合",
+        "supporting_skus": [
+          "2525237",
+          "3015929",
+          "3205885"
+        ]
+      }
+    ],
+    "relation": "SHARED_NEED_CANDIDATE_NOT_PRODUCT_EQUIVALENCE",
+    "not_automatic_match": true
+  },
+  {
+    "shared_need_hypothesis": "日晒护理",
+    "types": [
+      {
+        "type": "日晒用油喷雾（名称用途）",
+        "supporting_skus": [
+          "2553949"
+        ]
+      },
+      {
+        "type": "防晒用品",
+        "supporting_skus": [
+          "3015141",
+          "3015143",
+          "3015144",
+          "3015145",
+          "3015149",
+          "3214693",
+          "3223083",
+          "3223090",
+          "3223539"
+        ]
+      }
+    ],
+    "relation": "SHARED_NEED_CANDIDATE_NOT_PRODUCT_EQUIVALENCE",
+    "not_automatic_match": true
+  },
+  {
+    "shared_need_hypothesis": "果干零食",
+    "types": [
+      {
+        "type": "冻干草莓食品",
+        "supporting_skus": [
+          "3224585"
+        ]
+      },
+      {
+        "type": "杏干",
+        "supporting_skus": [
+          "2551891"
+        ]
+      },
+      {
+        "type": "葡萄干",
+        "supporting_skus": [
+          "3005777",
+          "3010138"
+        ]
+      }
+    ],
+    "relation": "SHARED_NEED_CANDIDATE_NOT_PRODUCT_EQUIVALENCE",
+    "not_automatic_match": true
+  },
+  {
+    "shared_need_hypothesis": "桌面保护",
+    "types": [
+      {
+        "type": "桌布或餐垫",
+        "supporting_skus": [
+          "2536873",
+          "2554870",
+          "2555474",
+          "2562923",
+          "2566890",
+          "2570525",
+          "2570532",
+          "2570848",
+          "2570933",
+          "2581045",
+          "3004187",
+          "3005752",
+          "3006082",
+          "3010392",
+          "3203222",
+          "3208890",
+          "3208949",
+          "3209885",
+          "3210251",
+          "3215371",
+          "3215523",
+          "3215909",
+          "3216345",
+          "3216963",
+          "3216964",
+          "3217156",
+          "3217198",
+          "3217494",
+          "3217542",
+          "3218400",
+          "3218408",
+          "3218410",
+          "3218976",
+          "3219023",
+          "3220296",
+          "3220475",
+          "3220476",
+          "3220477",
+          "3221232",
+          "3222213",
+          "3222214",
+          "3222215",
+          "3222256",
+          "3222258",
+          "3222260",
+          "3222261",
+          "3223055",
+          "3224620",
+          "3225469",
+          "3225480",
+          "3225506",
+          "3225602",
+          "3225607",
+          "3226191"
+        ]
+      },
+      {
+        "type": "隔热垫",
+        "supporting_skus": [
+          "2546556",
+          "3006094",
+          "3011476",
+          "3202665",
+          "3218672"
+        ]
+      }
+    ],
+    "relation": "SHARED_NEED_CANDIDATE_NOT_PRODUCT_EQUIVALENCE",
+    "not_automatic_match": true
+  },
+  {
+    "shared_need_hypothesis": "桌面保护研究",
+    "types": [
+      {
+        "type": "杯垫",
+        "supporting_skus": [
+          "2523277",
+          "3200190",
+          "3214043",
+          "3225898"
+        ]
+      },
+      {
+        "type": "锅垫或餐桌垫",
+        "supporting_skus": [
+          "3012530"
+        ]
+      }
+    ],
+    "relation": "SHARED_NEED_CANDIDATE_NOT_PRODUCT_EQUIVALENCE",
+    "not_automatic_match": true
+  },
+  {
+    "shared_need_hypothesis": "桌面整理",
+    "types": [
+      {
+        "type": "笔具承放用品",
+        "supporting_skus": [
+          "3216459",
+          "3220633",
+          "3222833",
+          "3223430"
+        ]
+      },
+      {
+        "type": "笔筒",
+        "supporting_skus": [
+          "3220668"
+        ]
+      }
+    ],
+    "relation": "SHARED_NEED_CANDIDATE_NOT_PRODUCT_EQUIVALENCE",
+    "not_automatic_match": true
+  },
+  {
+    "shared_need_hypothesis": "桌面文件整理",
+    "types": [
+      {
+        "type": "办公文件托盘",
+        "supporting_skus": [
+          "2529027",
+          "2529028"
+        ]
+      },
+      {
+        "type": "文件托盘",
+        "supporting_skus": [
+          "3224286"
+        ]
+      }
+    ],
+    "relation": "SHARED_NEED_CANDIDATE_NOT_PRODUCT_EQUIVALENCE",
+    "not_automatic_match": true
+  },
+  {
+    "shared_need_hypothesis": "桌面设备配置",
+    "types": [
+      {
+        "type": "显示器支臂",
+        "supporting_skus": [
+          "3012737"
+        ]
+      },
+      {
+        "type": "笔记本电脑支架",
+        "supporting_skus": [
+          "2578240",
+          "3013374",
+          "3208165",
+          "3224360"
+        ]
+      }
+    ],
+    "relation": "SHARED_NEED_CANDIDATE_NOT_PRODUCT_EQUIVALENCE",
+    "not_automatic_match": true
+  },
+  {
+    "shared_need_hypothesis": "植物喷洒",
+    "types": [
+      {
+        "type": "植物喷洒器",
+        "supporting_skus": [
+          "2518124",
+          "3225497"
+        ]
+      },
+      {
+        "type": "植物雾化喷洒器",
+        "supporting_skus": [
+          "3012834"
+        ]
+      }
+    ],
+    "relation": "SHARED_NEED_CANDIDATE_NOT_PRODUCT_EQUIVALENCE",
+    "not_automatic_match": true
+  },
+  {
+    "shared_need_hypothesis": "植物栽培",
+    "types": [
+      {
+        "type": "植物种子",
+        "supporting_skus": [
+          "2541369",
+          "2545944",
+          "2582641"
+        ]
+      },
+      {
+        "type": "花盆或栽培槽",
+        "supporting_skus": [
+          "2545745",
+          "2552919",
+          "2552923",
+          "3005717",
+          "3204448",
+          "3214047",
+          "3218009",
+          "3221338"
+        ]
+      }
+    ],
+    "relation": "SHARED_NEED_CANDIDATE_NOT_PRODUCT_EQUIVALENCE",
+    "not_automatic_match": true
+  },
+  {
+    "shared_need_hypothesis": "植物浇灌",
+    "types": [
+      {
+        "type": "浇水壶",
+        "supporting_skus": [
+          "2560603",
+          "3010562",
+          "3218018"
+        ]
+      },
+      {
+        "type": "浇灌喷枪",
+        "supporting_skus": [
+          "2560379",
+          "3213179"
+        ]
+      },
+      {
+        "type": "浇灌辅助用品",
+        "supporting_skus": [
+          "3222269"
+        ]
+      }
+    ],
+    "relation": "SHARED_NEED_CANDIDATE_NOT_PRODUCT_EQUIVALENCE",
+    "not_automatic_match": true
+  },
+  {
+    "shared_need_hypothesis": "毛发整理",
+    "types": [
+      {
+        "type": "剃刮或修剪器具",
+        "supporting_skus": [
+          "2535063",
+          "2562376",
+          "2570420",
+          "2570421",
+          "3004893",
+          "3009523",
+          "3013751",
+          "3015403",
+          "3015404",
+          "3206473",
+          "3208124",
+          "3211389",
+          "3212391",
+          "3212395",
+          "3220505",
+          "3223703",
+          "3223857",
+          "3224057",
+          "3224553",
+          "3224554",
+          "3224763",
+          "3225564",
+          "3226732"
+        ]
+      },
+      {
+        "type": "剃须入门组合",
+        "supporting_skus": [
+          "3014283",
+          "3223513"
+        ]
+      }
+    ],
+    "relation": "SHARED_NEED_CANDIDATE_NOT_PRODUCT_EQUIVALENCE",
+    "not_automatic_match": true
+  },
+  {
+    "shared_need_hypothesis": "气球场景布置",
+    "types": [
+      {
+        "type": "气球布置套装",
+        "supporting_skus": [
+          "3216554",
+          "3216645"
+        ]
+      },
+      {
+        "type": "气球装饰串",
+        "supporting_skus": [
+          "3205499",
+          "3209499",
+          "3211273"
+        ]
+      },
+      {
+        "type": "装饰气球",
+        "supporting_skus": [
+          "2508148",
+          "2543127",
+          "3000270",
+          "3011305",
+          "3011306",
+          "3011307",
+          "3011516",
+          "3200718",
+          "3202529",
+          "3202615",
+          "3205477",
+          "3205670",
+          "3205747",
+          "3206506",
+          "3209408",
+          "3209410",
+          "3209457",
+          "3209536",
+          "3211271",
+          "3214155",
+          "3216266",
+          "3216741",
+          "3217022",
+          "3217404",
+          "3217410",
+          "3218387",
+          "3218835",
+          "3219921",
+          "3219925",
+          "3220770",
+          "3220907",
+          "3221377",
+          "3221749",
+          "3221794",
+          "3222610",
+          "3223882",
+          "3224102",
+          "3224891",
+          "3225643"
+        ]
+      }
+    ],
+    "relation": "SHARED_NEED_CANDIDATE_NOT_PRODUCT_EQUIVALENCE",
+    "not_automatic_match": true
+  },
+  {
+    "shared_need_hypothesis": "水上活动研究",
+    "types": [
+      {
+        "type": "充气船",
+        "supporting_skus": [
+          "2575184"
+        ]
+      },
+      {
+        "type": "趴板",
+        "supporting_skus": [
+          "3215325"
+        ]
+      }
+    ],
+    "relation": "SHARED_NEED_CANDIDATE_NOT_PRODUCT_EQUIVALENCE",
+    "not_automatic_match": true
+  },
+  {
+    "shared_need_hypothesis": "水彩绘画",
+    "types": [
+      {
+        "type": "水彩套装",
+        "supporting_skus": [
+          "3214933"
+        ]
+      },
+      {
+        "type": "水彩效果马克笔",
+        "supporting_skus": [
+          "3224292"
+        ]
+      },
+      {
+        "type": "水彩铅笔",
+        "supporting_skus": [
+          "3220618",
+          "3224274"
+        ]
+      },
+      {
+        "type": "水彩铅笔与画笔组合",
+        "supporting_skus": [
+          "3214271"
+        ]
+      }
+    ],
+    "relation": "SHARED_NEED_CANDIDATE_NOT_PRODUCT_EQUIVALENCE",
+    "not_automatic_match": true
+  },
+  {
+    "shared_need_hypothesis": "池水维护研究",
+    "types": [
+      {
+        "type": "泳池漂浮投放或过滤用品",
+        "supporting_skus": [
+          "3008166"
+        ]
+      },
+      {
+        "type": "泳池除藻用品",
+        "supporting_skus": [
+          "2581877"
+        ]
+      }
+    ],
+    "relation": "SHARED_NEED_CANDIDATE_NOT_PRODUCT_EQUIVALENCE",
+    "not_automatic_match": true
+  },
+  {
+    "shared_need_hypothesis": "沐浴后擦干",
+    "types": [
+      {
+        "type": "土耳其浴巾",
+        "supporting_skus": [
+          "3222289"
+        ]
+      },
+      {
+        "type": "浴巾",
+        "supporting_skus": [
+          "131702",
+          "137200",
+          "2504201",
+          "2510061",
+          "2558150",
+          "2558152",
+          "2568745",
+          "2568746",
+          "2568749",
+          "2571658",
+          "3001105",
+          "3014853",
+          "3207119",
+          "3216943",
+          "3217009",
+          "3217030",
+          "3217472",
+          "3217474"
+        ]
+      }
+    ],
+    "relation": "SHARED_NEED_CANDIDATE_NOT_PRODUCT_EQUIVALENCE",
+    "not_automatic_match": true
+  },
+  {
+    "shared_need_hypothesis": "沐浴玩耍",
+    "types": [
+      {
+        "type": "洗澡玩具",
+        "supporting_skus": [
+          "3016221",
+          "3212071"
+        ]
+      },
+      {
+        "type": "浴缸玩具",
+        "supporting_skus": [
+          "3202026"
+        ]
+      }
+    ],
+    "relation": "SHARED_NEED_CANDIDATE_NOT_PRODUCT_EQUIVALENCE",
+    "not_automatic_match": true
+  },
+  {
+    "shared_need_hypothesis": "沐浴用品",
+    "types": [
+      {
+        "type": "泡泡浴用品",
+        "supporting_skus": [
+          "3218972"
+        ]
+      },
+      {
+        "type": "浴球",
+        "supporting_skus": [
+          "3211255"
+        ]
+      }
+    ],
+    "relation": "SHARED_NEED_CANDIDATE_NOT_PRODUCT_EQUIVALENCE",
+    "not_automatic_match": true
+  },
+  {
+    "shared_need_hypothesis": "沙地塑形游戏",
+    "types": [
+      {
+        "type": "冰淇淋造型沙模套装",
+        "supporting_skus": [
+          "3212043"
+        ]
+      },
+      {
+        "type": "沙地玩具",
+        "supporting_skus": [
+          "3212069",
+          "3222183"
+        ]
+      }
+    ],
+    "relation": "SHARED_NEED_CANDIDATE_NOT_PRODUCT_EQUIVALENCE",
+    "not_automatic_match": true
+  },
+  {
+    "shared_need_hypothesis": "泡泡玩耍",
+    "types": [
+      {
+        "type": "吹泡泡用品",
+        "supporting_skus": [
+          "3013160",
+          "3222192",
+          "3222198"
+        ]
+      },
+      {
+        "type": "泡泡机",
+        "supporting_skus": [
+          "3222224"
+        ]
+      },
+      {
+        "type": "泡泡枪",
+        "supporting_skus": [
+          "3013149",
+          "3016281",
+          "3222199"
+        ]
+      }
+    ],
+    "relation": "SHARED_NEED_CANDIDATE_NOT_PRODUCT_EQUIVALENCE",
+    "not_automatic_match": true
+  },
+  {
+    "shared_need_hypothesis": "活动体验",
+    "types": [
+      {
+        "type": "活动或贴纸书",
+        "supporting_skus": [
+          "3200616",
+          "3203151",
+          "3206530",
+          "3207806",
+          "3208553",
+          "3209234",
+          "3214287",
+          "3216096",
+          "3217347",
+          "3219290",
+          "3219303",
+          "3220893",
+          "3220894",
+          "3220922",
+          "3223589",
+          "3223716"
+        ]
+      },
+      {
+        "type": "秋千",
+        "supporting_skus": [
+          "3222701"
+        ]
+      }
+    ],
+    "relation": "SHARED_NEED_CANDIDATE_NOT_PRODUCT_EQUIVALENCE",
+    "not_automatic_match": true
+  },
+  {
+    "shared_need_hypothesis": "活动氛围",
+    "types": [
+      {
+        "type": "彩带喷射用品",
+        "supporting_skus": [
+          "3207435"
+        ]
+      },
+      {
+        "type": "派对撒饰",
+        "supporting_skus": [
+          "2556723"
+        ]
+      }
+    ],
+    "relation": "SHARED_NEED_CANDIDATE_NOT_PRODUCT_EQUIVALENCE",
+    "not_automatic_match": true
+  },
+  {
+    "shared_need_hypothesis": "浴室表面清洁",
+    "types": [
+      {
+        "type": "浴室清洁剂",
+        "supporting_skus": [
+          "2532451",
+          "2566077",
+          "3005597",
+          "3203588",
+          "3214023"
+        ]
+      },
+      {
+        "type": "浴室清洁巾",
+        "supporting_skus": [
+          "2532058"
+        ]
+      }
+    ],
+    "relation": "SHARED_NEED_CANDIDATE_NOT_PRODUCT_EQUIVALENCE",
+    "not_automatic_match": true
+  },
+  {
+    "shared_need_hypothesis": "淋浴配置",
+    "types": [
+      {
+        "type": "淋浴套装",
+        "supporting_skus": [
+          "3215044"
+        ]
+      },
+      {
+        "type": "淋浴配件",
+        "supporting_skus": [
+          "2542056",
+          "2562482",
+          "3008228",
+          "3203949"
+        ]
+      }
+    ],
+    "relation": "SHARED_NEED_CANDIDATE_NOT_PRODUCT_EQUIVALENCE",
+    "not_automatic_match": true
+  },
+  {
+    "shared_need_hypothesis": "清洁研究",
+    "types": [
+      {
+        "type": "清洁皂类",
+        "supporting_skus": [
+          "2577183",
+          "3221667"
+        ]
+      },
+      {
+        "type": "漂白清洁制剂",
+        "supporting_skus": [
+          "2520005",
+          "2557809"
+        ]
+      }
+    ],
+    "relation": "SHARED_NEED_CANDIDATE_NOT_PRODUCT_EQUIVALENCE",
+    "not_automatic_match": true
+  },
+  {
+    "shared_need_hypothesis": "游戏体验",
+    "types": [
+      {
+        "type": "Turbo Fire飞镖发射玩具",
+        "supporting_skus": [
+          "3225710"
+        ]
+      },
+      {
+        "type": "玩偶或毛绒游戏用品",
+        "supporting_skus": [
+          "3002487",
+          "3006189",
+          "3010120",
+          "3011808",
+          "3203312",
+          "3204275",
+          "3205010",
+          "3213515",
+          "3217584",
+          "3217611",
+          "3224789"
+        ]
+      }
+    ],
+    "relation": "SHARED_NEED_CANDIDATE_NOT_PRODUCT_EQUIVALENCE",
+    "not_automatic_match": true
+  },
+  {
+    "shared_need_hypothesis": "滑行活动研究",
+    "types": [
+      {
+        "type": "滑板",
+        "supporting_skus": [
+          "2568285",
+          "3009385"
+        ]
+      },
+      {
+        "type": "滑板车",
+        "supporting_skus": [
+          "3202747",
+          "3209344"
+        ]
+      }
+    ],
+    "relation": "SHARED_NEED_CANDIDATE_NOT_PRODUCT_EQUIVALENCE",
+    "not_automatic_match": true
+  },
+  {
+    "shared_need_hypothesis": "灯光装饰",
+    "types": [
+      {
+        "type": "LED蜡烛灯",
+        "supporting_skus": [
+          "3207226",
+          "3216196",
+          "3219347",
+          "3219603",
+          "3224644",
+          "3224930",
+          "3224933"
+        ]
+      },
+      {
+        "type": "仿真花球",
+        "supporting_skus": [
+          "3221115"
+        ]
+      },
+      {
+        "type": "星空投影器",
+        "supporting_skus": [
+          "3200695",
+          "3201319"
+        ]
+      },
+      {
+        "type": "灯帘",
+        "supporting_skus": [
+          "3010682",
+          "3206931"
+        ]
+      }
+    ],
+    "relation": "SHARED_NEED_CANDIDATE_NOT_PRODUCT_EQUIVALENCE",
+    "not_automatic_match": true
+  },
+  {
+    "shared_need_hypothesis": "点火辅助",
+    "types": [
+      {
+        "type": "引火凝胶",
+        "supporting_skus": [
+          "2571313"
+        ]
+      },
+      {
+        "type": "打火机",
+        "supporting_skus": [
+          "3014797"
+        ]
+      }
+    ],
+    "relation": "SHARED_NEED_CANDIDATE_NOT_PRODUCT_EQUIVALENCE",
+    "not_automatic_match": true
+  },
+  {
+    "shared_need_hypothesis": "点火需求",
+    "types": [
+      {
+        "type": "带替换或补充件的点火器",
+        "supporting_skus": [
+          "3201171"
+        ]
+      },
+      {
+        "type": "点火器",
+        "supporting_skus": [
+          "2516766",
+          "2527288",
+          "2539409",
+          "2568742",
+          "3015477",
+          "3204688",
+          "3218136"
+        ]
+      }
+    ],
+    "relation": "SHARED_NEED_CANDIDATE_NOT_PRODUCT_EQUIVALENCE",
+    "not_automatic_match": true
+  },
+  {
+    "shared_need_hypothesis": "烘焙装饰",
+    "types": [
+      {
+        "type": "翻糖材料",
+        "supporting_skus": [
+          "2563810"
+        ]
+      },
+      {
+        "type": "裱花袋",
+        "supporting_skus": [
+          "2578387"
+        ]
+      }
+    ],
+    "relation": "SHARED_NEED_CANDIDATE_NOT_PRODUCT_EQUIVALENCE",
+    "not_automatic_match": true
+  },
+  {
+    "shared_need_hypothesis": "烤箱烘烤",
+    "types": [
+      {
+        "type": "烤盘",
+        "supporting_skus": [
+          "3211377"
+        ]
+      },
+      {
+        "type": "烤箱烤皿",
+        "supporting_skus": [
+          "2569014",
+          "2569016",
+          "2569017",
+          "3005202",
+          "3204547"
+        ]
+      }
+    ],
+    "relation": "SHARED_NEED_CANDIDATE_NOT_PRODUCT_EQUIVALENCE",
+    "not_automatic_match": true
+  },
+  {
+    "shared_need_hypothesis": "烧烤器具清洁",
+    "types": [
+      {
+        "type": "烧烤器具清洁套装",
+        "supporting_skus": [
+          "3219900"
+        ]
+      },
+      {
+        "type": "烧烤清洁刷",
+        "supporting_skus": [
+          "2561124",
+          "3212155"
+        ]
+      },
+      {
+        "type": "烧烤炉清洁剂",
+        "supporting_skus": [
+          "3005020"
+        ]
+      }
+    ],
+    "relation": "SHARED_NEED_CANDIDATE_NOT_PRODUCT_EQUIVALENCE",
+    "not_automatic_match": true
+  },
+  {
+    "shared_need_hypothesis": "烹饪计时",
+    "types": [
+      {
+        "type": "厨房定时器",
+        "supporting_skus": [
+          "2546560",
+          "3215455"
+        ]
+      },
+      {
+        "type": "厨房计时器",
+        "supporting_skus": [
+          "3207470"
+        ]
+      }
+    ],
+    "relation": "SHARED_NEED_CANDIDATE_NOT_PRODUCT_EQUIVALENCE",
+    "not_automatic_match": true
+  },
+  {
+    "shared_need_hypothesis": "照片展示",
+    "types": [
+      {
+        "type": "照片陈列搁板",
+        "supporting_skus": [
+          "2576731",
+          "2581312"
+        ]
+      },
+      {
+        "type": "相框",
+        "supporting_skus": [
+          "2533083",
+          "2533084",
+          "2533085",
+          "2539834",
+          "2549000",
+          "2556277",
+          "2564037",
+          "2566696",
+          "2570904",
+          "2570905",
+          "2570906",
+          "2577979",
+          "2578341",
+          "2582616",
+          "3001875",
+          "3006764",
+          "3007380",
+          "3007381",
+          "3012465",
+          "3203438",
+          "3204510",
+          "3204511",
+          "3204513",
+          "3206138",
+          "3209931",
+          "3209949",
+          "3211033",
+          "3211041",
+          "3211503",
+          "3216063",
+          "3216064",
+          "3216066",
+          "3216068",
+          "3216069",
+          "3216070",
+          "3216412",
+          "3216413",
+          "3216418",
+          "3216419",
+          "3217322",
+          "3217343",
+          "3217430",
+          "3217431",
+          "3219668",
+          "3219899",
+          "3220549",
+          "3220550",
+          "3220551",
+          "3220552",
+          "3220557",
+          "3220560",
+          "3221797",
+          "3221808",
+          "3222360",
+          "3222365",
+          "3222369",
+          "3222395",
+          "3222807",
+          "3222808",
+          "3223966",
+          "3223967",
+          "3223968",
+          "3226384"
+        ]
+      }
+    ],
+    "relation": "SHARED_NEED_CANDIDATE_NOT_PRODUCT_EQUIVALENCE",
+    "not_automatic_match": true
+  },
+  {
+    "shared_need_hypothesis": "爆米花制作",
+    "types": [
+      {
+        "type": "微波爆米花",
+        "supporting_skus": [
+          "2042515",
+          "2042516",
+          "2577034"
+        ]
+      },
+      {
+        "type": "爆米花机",
+        "supporting_skus": [
+          "3207549"
+        ]
+      }
+    ],
+    "relation": "SHARED_NEED_CANDIDATE_NOT_PRODUCT_EQUIVALENCE",
+    "not_automatic_match": true
+  },
+  {
+    "shared_need_hypothesis": "牙间隙清理",
+    "types": [
+      {
+        "type": "牙线",
+        "supporting_skus": [
+          "3216393"
+        ]
+      },
+      {
+        "type": "牙间刷",
+        "supporting_skus": [
+          "2525562",
+          "2525563",
+          "2568214",
+          "3212601",
+          "3212647"
+        ]
+      }
+    ],
+    "relation": "SHARED_NEED_CANDIDATE_NOT_PRODUCT_EQUIVALENCE",
+    "not_automatic_match": true
+  },
+  {
+    "shared_need_hypothesis": "牙齿外观护理",
+    "types": [
+      {
+        "type": "牙齿美白笔",
+        "supporting_skus": [
+          "3206702"
+        ]
+      },
+      {
+        "type": "牙齿美白粉",
+        "supporting_skus": [
+          "3212595"
+        ]
+      }
+    ],
+    "relation": "SHARED_NEED_CANDIDATE_NOT_PRODUCT_EQUIVALENCE",
+    "not_automatic_match": true
+  },
+  {
+    "shared_need_hypothesis": "牙齿清洁",
+    "types": [
+      {
+        "type": "牙刷",
+        "supporting_skus": [
+          "2541640",
+          "2556082",
+          "2565025",
+          "2578314",
+          "3008548",
+          "3008550",
+          "3009731",
+          "3204228",
+          "3212619",
+          "3217845",
+          "3222308",
+          "3223051",
+          "3223462",
+          "3223596",
+          "3226454"
+        ]
+      },
+      {
+        "type": "牙膏",
+        "supporting_skus": [
+          "2530507",
+          "2565120",
+          "2577857",
+          "2579428",
+          "2579796",
+          "3006565",
+          "3006599",
+          "3011090",
+          "3015759",
+          "3015761",
+          "3015762",
+          "3015763",
+          "3015764",
+          "3208740",
+          "3216788",
+          "3217846",
+          "3218292",
+          "3222309",
+          "3223449",
+          "3224267"
+        ]
+      }
+    ],
+    "relation": "SHARED_NEED_CANDIDATE_NOT_PRODUCT_EQUIVALENCE",
+    "not_automatic_match": true
+  },
+  {
+    "shared_need_hypothesis": "物品固定",
+    "types": [
+      {
+        "type": "夹持用品",
+        "supporting_skus": [
+          "2532545",
+          "3210285"
+        ]
+      },
+      {
+        "type": "弹性胶圈",
+        "supporting_skus": [
+          "10280",
+          "3225821"
+        ]
+      },
+      {
+        "type": "橡皮筋",
+        "supporting_skus": [
+          "3205099"
+        ]
+      }
+    ],
+    "relation": "SHARED_NEED_CANDIDATE_NOT_PRODUCT_EQUIVALENCE",
+    "not_automatic_match": true
+  },
+  {
+    "shared_need_hypothesis": "物品悬挂",
+    "types": [
+      {
+        "type": "壁面挂架",
+        "supporting_skus": [
+          "2521958"
+        ]
+      },
+      {
+        "type": "挂钩",
+        "supporting_skus": [
+          "1815165",
+          "2568437",
+          "3004913",
+          "3012448",
+          "3014731",
+          "3016588",
+          "3209857"
+        ]
+      }
+    ],
+    "relation": "SHARED_NEED_CANDIDATE_NOT_PRODUCT_EQUIVALENCE",
+    "not_automatic_match": true
+  },
+  {
+    "shared_need_hypothesis": "物品携带",
+    "types": [
+      {
+        "type": "单肩包",
+        "supporting_skus": [
+          "3223416"
+        ]
+      },
+      {
+        "type": "箱包",
+        "supporting_skus": [
+          "2567401",
+          "2575284",
+          "2579000",
+          "2580368",
+          "2581214",
+          "2581583",
+          "3009498",
+          "3015797",
+          "3015798",
+          "3015799",
+          "3016292",
+          "3208198",
+          "3208640",
+          "3210161",
+          "3213615",
+          "3214729",
+          "3214767",
+          "3217618",
+          "3218145",
+          "3219198",
+          "3221419",
+          "3223278",
+          "3223574",
+          "3223636",
+          "3223875",
+          "4000134"
+        ]
+      },
+      {
+        "type": "钻石画相关包袋（交付形态未核实）",
+        "supporting_skus": [
+          "3219926"
+        ]
+      }
+    ],
+    "relation": "SHARED_NEED_CANDIDATE_NOT_PRODUCT_EQUIVALENCE",
+    "not_automatic_match": true
+  },
+  {
+    "shared_need_hypothesis": "物品收纳",
+    "types": [
+      {
+        "type": "收纳容器",
+        "supporting_skus": [
+          "3015729",
+          "3015730",
+          "3203911",
+          "3204372",
+          "3214918",
+          "3216436",
+          "3220637",
+          "3221665",
+          "3224002"
+        ]
+      },
+      {
+        "type": "柜类家具",
+        "supporting_skus": [
+          "3000196",
+          "3202677",
+          "3204835",
+          "3216157",
+          "3216158",
+          "3216159",
+          "3216163",
+          "3217564",
+          "3219533",
+          "3219535",
+          "3220559",
+          "3220583",
+          "3220594",
+          "3228238"
+        ]
+      }
+    ],
+    "relation": "SHARED_NEED_CANDIDATE_NOT_PRODUCT_EQUIVALENCE",
+    "not_automatic_match": true
+  },
+  {
+    "shared_need_hypothesis": "犬类互动玩耍",
+    "types": [
+      {
+        "type": "犬用球玩具",
+        "supporting_skus": [
+          "3008986"
+        ]
+      },
+      {
+        "type": "犬用绳玩具",
+        "supporting_skus": [
+          "3015529",
+          "3215319"
+        ]
+      }
+    ],
+    "relation": "SHARED_NEED_CANDIDATE_NOT_PRODUCT_EQUIVALENCE",
+    "not_automatic_match": true
+  },
+  {
+    "shared_need_hypothesis": "珠饰制作",
+    "types": [
+      {
+        "type": "串珠套装",
+        "supporting_skus": [
+          "3010209",
+          "3206057",
+          "3207905",
+          "3209226",
+          "3209228",
+          "3209229",
+          "3210655",
+          "3213013",
+          "3216105",
+          "3216439",
+          "3217670",
+          "3218097"
+        ]
+      },
+      {
+        "type": "手工珠饰",
+        "supporting_skus": [
+          "2575316"
+        ]
+      }
+    ],
+    "relation": "SHARED_NEED_CANDIDATE_NOT_PRODUCT_EQUIVALENCE",
+    "not_automatic_match": true
+  },
+  {
+    "shared_need_hypothesis": "球类活动",
+    "types": [
+      {
+        "type": "排球",
+        "supporting_skus": [
+          "2552461"
+        ]
+      },
+      {
+        "type": "足球",
+        "supporting_skus": [
+          "2575137"
+        ]
+      }
+    ],
+    "relation": "SHARED_NEED_CANDIDATE_NOT_PRODUCT_EQUIVALENCE",
+    "not_automatic_match": true
+  },
+  {
+    "shared_need_hypothesis": "白板书写",
+    "types": [
+      {
+        "type": "白板笔",
+        "supporting_skus": [
+          "3217666",
+          "3218267"
+        ]
+      },
+      {
+        "type": "白板笔套装",
+        "supporting_skus": [
+          "3217938"
+        ]
+      }
+    ],
+    "relation": "SHARED_NEED_CANDIDATE_NOT_PRODUCT_EQUIVALENCE",
+    "not_automatic_match": true
+  },
+  {
+    "shared_need_hypothesis": "眉毛修整",
+    "types": [
+      {
+        "type": "修眉刀片",
+        "supporting_skus": [
+          "3013393",
+          "3222479"
+        ]
+      },
+      {
+        "type": "修眉器",
+        "supporting_skus": [
+          "3218974"
+        ]
+      }
+    ],
+    "relation": "SHARED_NEED_CANDIDATE_NOT_PRODUCT_EQUIVALENCE",
+    "not_automatic_match": true
+  },
+  {
+    "shared_need_hypothesis": "眉部彩妆",
+    "types": [
+      {
+        "type": "染眉膏",
+        "supporting_skus": [
+          "3213683",
+          "3216342"
+        ]
+      },
+      {
+        "type": "眉笔",
+        "supporting_skus": [
+          "2569488"
+        ]
+      },
+      {
+        "type": "眉部彩妆用品",
+        "supporting_skus": [
+          "3208833",
+          "3209535"
+        ]
+      }
+    ],
+    "relation": "SHARED_NEED_CANDIDATE_NOT_PRODUCT_EQUIVALENCE",
+    "not_automatic_match": true
+  },
+  {
+    "shared_need_hypothesis": "眼部彩妆",
+    "types": [
+      {
+        "type": "眼影棒",
+        "supporting_skus": [
+          "3209434"
+        ]
+      },
+      {
+        "type": "眼影盘",
+        "supporting_skus": [
+          "2569491",
+          "3000484",
+          "3002137",
+          "3219720",
+          "3220496",
+          "3221363",
+          "3221364",
+          "3224492",
+          "3225200"
+        ]
+      }
+    ],
+    "relation": "SHARED_NEED_CANDIDATE_NOT_PRODUCT_EQUIVALENCE",
+    "not_automatic_match": true
+  },
+  {
+    "shared_need_hypothesis": "礼品包装",
+    "types": [
+      {
+        "type": "礼品包装纸",
+        "supporting_skus": [
+          "2506712",
+          "2506713",
+          "2548472",
+          "3002396",
+          "3012057",
+          "3207925",
+          "3225673"
+        ]
+      },
+      {
+        "type": "礼品盒",
+        "supporting_skus": [
+          "3208229",
+          "3209645",
+          "3217493",
+          "3218453",
+          "3219852",
+          "3220038",
+          "3225672",
+          "3225888"
+        ]
+      },
+      {
+        "type": "礼品袋",
+        "supporting_skus": [
+          "2502085",
+          "2523719",
+          "2523720",
+          "2528923",
+          "2548906",
+          "2558698",
+          "2563561",
+          "3002956",
+          "3003780",
+          "3011763",
+          "3012322",
+          "3202558",
+          "3206059",
+          "3206060",
+          "3207965",
+          "3208197",
+          "3208776",
+          "3208870",
+          "3209242",
+          "3209248",
+          "3209249",
+          "3213051",
+          "3215336",
+          "3216782",
+          "3217193",
+          "3217282",
+          "3217710",
+          "3218220",
+          "3218334",
+          "3219392",
+          "3220844"
+        ]
+      }
+    ],
+    "relation": "SHARED_NEED_CANDIDATE_NOT_PRODUCT_EQUIVALENCE",
+    "not_automatic_match": true
+  },
+  {
+    "shared_need_hypothesis": "种植维护",
+    "types": [
+      {
+        "type": "园艺用品",
+        "supporting_skus": [
+          "2543994",
+          "2562268",
+          "2581907",
+          "3004531",
+          "3222861"
+        ]
+      },
+      {
+        "type": "植物肥料（品名标注）",
+        "supporting_skus": [
+          "3223319"
+        ]
+      }
+    ],
+    "relation": "SHARED_NEED_CANDIDATE_NOT_PRODUCT_EQUIVALENCE",
+    "not_automatic_match": true
+  },
+  {
+    "shared_need_hypothesis": "空间气味管理",
+    "types": [
+      {
+        "type": "空间芳香用品",
+        "supporting_skus": [
+          "2530452",
+          "2534566",
+          "2536947",
+          "2554639",
+          "2554643",
+          "2562317",
+          "2562634",
+          "2564385",
+          "2577190",
+          "3001917",
+          "3008625",
+          "3009213",
+          "3013361",
+          "3015268",
+          "3200020",
+          "3201003",
+          "3201088",
+          "3201758",
+          "3201808",
+          "3203205",
+          "3203858",
+          "3204539",
+          "3204540",
+          "3204983",
+          "3206161",
+          "3209022",
+          "3210041",
+          "3210325",
+          "3210327",
+          "3214309",
+          "3214834",
+          "3215303",
+          "3215369",
+          "3215740",
+          "3215741",
+          "3215838",
+          "3216223",
+          "3216241",
+          "3216243",
+          "3216244",
+          "3216247",
+          "3216582",
+          "3216588",
+          "3216895",
+          "3216896",
+          "3216903",
+          "3216910",
+          "3216911",
+          "3216913",
+          "3216915",
+          "3217107",
+          "3217273",
+          "3217274",
+          "3217412",
+          "3218355",
+          "3219006",
+          "3219111",
+          "3219604",
+          "3220776",
+          "3220777",
+          "3220779",
+          "3220780",
+          "3221026",
+          "3221037",
+          "3221038",
+          "3221041",
+          "3221042",
+          "3221046",
+          "3221050",
+          "3221072",
+          "3221073",
+          "3221074",
+          "3221770",
+          "3221860",
+          "3222345",
+          "3222372",
+          "3222556",
+          "3224035",
+          "3224106",
+          "3224109",
+          "3224659",
+          "3224957",
+          "3224958",
+          "3224959",
+          "3224960",
+          "3224961",
+          "3226060",
+          "3227043",
+          "3227580"
+        ]
+      },
+      {
+        "type": "香气扩散器",
+        "supporting_skus": [
+          "3217085",
+          "3224635"
+        ]
+      }
+    ],
+    "relation": "SHARED_NEED_CANDIDATE_NOT_PRODUCT_EQUIVALENCE",
+    "not_automatic_match": true
+  },
+  {
+    "shared_need_hypothesis": "空间香味研究",
+    "types": [
+      {
+        "type": "空间香味用品",
+        "supporting_skus": [
+          "2550954",
+          "2574772",
+          "3007383",
+          "3008644",
+          "3208668",
+          "3210337",
+          "3215566",
+          "3216242",
+          "3217996"
+        ]
+      },
+      {
+        "type": "芳香袋",
+        "supporting_skus": [
+          "3225033"
+        ]
+      },
+      {
+        "type": "香味扩散用品",
+        "supporting_skus": [
+          "3208669"
+        ]
+      },
+      {
+        "type": "香品承放器",
+        "supporting_skus": [
+          "3207847",
+          "3211309"
+        ]
+      }
+    ],
+    "relation": "SHARED_NEED_CANDIDATE_NOT_PRODUCT_EQUIVALENCE",
+    "not_automatic_match": true
+  },
+  {
+    "shared_need_hypothesis": "穿戴搭配",
+    "types": [
+      {
+        "type": "贝雷帽",
+        "supporting_skus": [
+          "2530118",
+          "2550822"
+        ]
+      },
+      {
+        "type": "链状首饰",
+        "supporting_skus": [
+          "3219662",
+          "3219979",
+          "3225956"
+        ]
+      }
+    ],
+    "relation": "SHARED_NEED_CANDIDATE_NOT_PRODUCT_EQUIVALENCE",
+    "not_automatic_match": true
+  },
+  {
+    "shared_need_hypothesis": "糕点零食",
+    "types": [
+      {
+        "type": "小华夫饼",
+        "supporting_skus": [
+          "2566010"
+        ]
+      },
+      {
+        "type": "小蛋糕",
+        "supporting_skus": [
+          "2579750",
+          "3012309",
+          "3012310",
+          "3205728",
+          "3226888",
+          "3226889",
+          "3226890"
+        ]
+      },
+      {
+        "type": "糕点",
+        "supporting_skus": [
+          "2042861",
+          "2049000",
+          "2561191",
+          "2573496",
+          "3201380",
+          "3218994",
+          "3224582",
+          "3224583",
+          "3225849"
+        ]
+      }
+    ],
+    "relation": "SHARED_NEED_CANDIDATE_NOT_PRODUCT_EQUIVALENCE",
+    "not_automatic_match": true
+  },
+  {
+    "shared_need_hypothesis": "糕点食用",
+    "types": [
+      {
+        "type": "小型糕点",
+        "supporting_skus": [
+          "3221578",
+          "3221579"
+        ]
+      },
+      {
+        "type": "巧克力糕点",
+        "supporting_skus": [
+          "3205605"
+        ]
+      },
+      {
+        "type": "芝士蛋糕",
+        "supporting_skus": [
+          "3226270"
+        ]
+      },
+      {
+        "type": "迷你糕点",
+        "supporting_skus": [
+          "3219568"
+        ]
+      }
+    ],
+    "relation": "SHARED_NEED_CANDIDATE_NOT_PRODUCT_EQUIVALENCE",
+    "not_automatic_match": true
+  },
+  {
+    "shared_need_hypothesis": "糖果选择",
+    "types": [
+      {
+        "type": "口香糖",
+        "supporting_skus": [
+          "2529452",
+          "2580856",
+          "2581230",
+          "3216288",
+          "3216289",
+          "3222042",
+          "3225359"
+        ]
+      },
+      {
+        "type": "拐杖糖",
+        "supporting_skus": [
+          "2536661"
+        ]
+      }
+    ],
+    "relation": "SHARED_NEED_CANDIDATE_NOT_PRODUCT_EQUIVALENCE",
+    "not_automatic_match": true
+  },
+  {
+    "shared_need_hypothesis": "糖果零食",
+    "types": [
+      {
+        "type": "冻干糖果",
+        "supporting_skus": [
+          "3222221"
+        ]
+      },
+      {
+        "type": "复活节蛋形糖果",
+        "supporting_skus": [
+          "3215172"
+        ]
+      },
+      {
+        "type": "桃味环形软糖",
+        "supporting_skus": [
+          "3217645"
+        ]
+      },
+      {
+        "type": "棉花糖",
+        "supporting_skus": [
+          "2559435",
+          "3222217",
+          "3226222",
+          "3226770"
+        ]
+      },
+      {
+        "type": "棒棒糖",
+        "supporting_skus": [
+          "3013752",
+          "3210135",
+          "3214791",
+          "3222354",
+          "3223767",
+          "3224076",
+          "3225768"
+        ]
+      },
+      {
+        "type": "管状糖果",
+        "supporting_skus": [
+          "2562879"
+        ]
+      },
+      {
+        "type": "糖果",
+        "supporting_skus": [
+          "2500388",
+          "2506555",
+          "2531068",
+          "2535618",
+          "2556041",
+          "2560822",
+          "2563687",
+          "2577704",
+          "2578567",
+          "2580169",
+          "3000090",
+          "3001714",
+          "3004700",
+          "3007231",
+          "3007232",
+          "3007233",
+          "3011261",
+          "3204084",
+          "3209639",
+          "3214251",
+          "3214941",
+          "3214942",
+          "3217297",
+          "3218482",
+          "3218488",
+          "3220056",
+          "3220463",
+          "3220514",
+          "3220762",
+          "3220832",
+          "3220842",
+          "3222012",
+          "3222178",
+          "3222755",
+          "3222764",
+          "3223040",
+          "3223833",
+          "3223858",
+          "3225164",
+          "3225764",
+          "3225766",
+          "3225810",
+          "3226734",
+          "3226751"
+        ]
+      },
+      {
+        "type": "袋装混合糖果",
+        "supporting_skus": [
+          "3007180"
+        ]
+      }
+    ],
+    "relation": "SHARED_NEED_CANDIDATE_NOT_PRODUCT_EQUIVALENCE",
+    "not_automatic_match": true
+  },
+  {
+    "shared_need_hypothesis": "纸艺制作",
+    "types": [
+      {
+        "type": "信封及纸盒制作器",
+        "supporting_skus": [
+          "3221009"
+        ]
+      },
+      {
+        "type": "手工纸",
+        "supporting_skus": [
+          "3225820"
+        ]
+      },
+      {
+        "type": "手工纸材",
+        "supporting_skus": [
+          "2558513",
+          "3011607",
+          "3207056"
+        ]
+      }
+    ],
+    "relation": "SHARED_NEED_CANDIDATE_NOT_PRODUCT_EQUIVALENCE",
+    "not_automatic_match": true
+  },
+  {
+    "shared_need_hypothesis": "纺织手工制作",
+    "types": [
+      {
+        "type": "编织或刺绣线材",
+        "supporting_skus": [
+          "2542587",
+          "2548891",
+          "2548895",
+          "2577372",
+          "3201187",
+          "3203423",
+          "3204882",
+          "3205894",
+          "3209407",
+          "3219449",
+          "3220389",
+          "3220392",
+          "3220393",
+          "3224285"
+        ]
+      },
+      {
+        "type": "钩针工具",
+        "supporting_skus": [
+          "3202114"
+        ]
+      }
+    ],
+    "relation": "SHARED_NEED_CANDIDATE_NOT_PRODUCT_EQUIVALENCE",
+    "not_automatic_match": true
+  },
+  {
+    "shared_need_hypothesis": "绘画创作",
+    "types": [
+      {
+        "type": "小画布",
+        "supporting_skus": [
+          "2559897",
+          "3209488"
+        ]
+      },
+      {
+        "type": "带储物画架",
+        "supporting_skus": [
+          "3216481"
+        ]
+      },
+      {
+        "type": "水彩绘画载体",
+        "supporting_skus": [
+          "3216445",
+          "3222938"
+        ]
+      },
+      {
+        "type": "绘画套装（具体材料未明）",
+        "supporting_skus": [
+          "3216880"
+        ]
+      },
+      {
+        "type": "绘画材料",
+        "supporting_skus": [
+          "2531537",
+          "2531539",
+          "3000065",
+          "3001904",
+          "3008565",
+          "3203346",
+          "3203347",
+          "3204817",
+          "3207235",
+          "3214279",
+          "3216451",
+          "3216452",
+          "3217213",
+          "3219905",
+          "3219930",
+          "3219986",
+          "3219994",
+          "3219998",
+          "3220640",
+          "3220642",
+          "3220644",
+          "3221635",
+          "3221636",
+          "3221637"
+        ]
+      },
+      {
+        "type": "绘画笔刷",
+        "supporting_skus": [
+          "3214277",
+          "3216455"
+        ]
+      },
+      {
+        "type": "蜡笔",
+        "supporting_skus": [
+          "3216450"
+        ]
+      }
+    ],
+    "relation": "SHARED_NEED_CANDIDATE_NOT_PRODUCT_EQUIVALENCE",
+    "not_automatic_match": true
+  },
+  {
+    "shared_need_hypothesis": "绘画承载材料",
+    "types": [
+      {
+        "type": "画布",
+        "supporting_skus": [
+          "2507094",
+          "2507447",
+          "2534126",
+          "2545912",
+          "2555023",
+          "3215250",
+          "3216446",
+          "3216447",
+          "3216449",
+          "3220090",
+          "3220576",
+          "3220582",
+          "3220592",
+          "3224273",
+          "3224275"
+        ]
+      },
+      {
+        "type": "绘画纸本",
+        "supporting_skus": [
+          "2525235",
+          "2567335",
+          "2572252",
+          "2572997",
+          "3206082"
+        ]
+      }
+    ],
+    "relation": "SHARED_NEED_CANDIDATE_NOT_PRODUCT_EQUIVALENCE",
+    "not_automatic_match": true
+  },
+  {
+    "shared_need_hypothesis": "维修制作",
+    "types": [
+      {
+        "type": "钻具",
+        "supporting_skus": [
+          "3202290"
+        ]
+      },
+      {
+        "type": "锤具组合",
+        "supporting_skus": [
+          "3218216"
+        ]
+      }
+    ],
+    "relation": "SHARED_NEED_CANDIDATE_NOT_PRODUCT_EQUIVALENCE",
+    "not_automatic_match": true
+  },
+  {
+    "shared_need_hypothesis": "美甲研究",
+    "types": [
+      {
+        "type": "假甲用品组合",
+        "supporting_skus": [
+          "3203137"
+        ]
+      },
+      {
+        "type": "美甲UV灯",
+        "supporting_skus": [
+          "3215706"
+        ]
+      }
+    ],
+    "relation": "SHARED_NEED_CANDIDATE_NOT_PRODUCT_EQUIVALENCE",
+    "not_automatic_match": true
+  },
+  {
+    "shared_need_hypothesis": "脆片零食",
+    "types": [
+      {
+        "type": "薯片类零食",
+        "supporting_skus": [
+          "3209565",
+          "3215353",
+          "3220082",
+          "3220837",
+          "3221203"
+        ]
+      },
+      {
+        "type": "蛋白质脆片",
+        "supporting_skus": [
+          "3210997",
+          "3222826",
+          "3223502"
+        ]
+      }
+    ],
+    "relation": "SHARED_NEED_CANDIDATE_NOT_PRODUCT_EQUIVALENCE",
+    "not_automatic_match": true
+  },
+  {
+    "shared_need_hypothesis": "节庆主题配置",
+    "types": [
+      {
+        "type": "圣诞主题袜类商品",
+        "supporting_skus": [
+          "3218393",
+          "3225645"
+        ]
+      },
+      {
+        "type": "带灯万圣节桶形商品",
+        "supporting_skus": [
+          "2563235"
+        ]
+      }
+    ],
+    "relation": "SHARED_NEED_CANDIDATE_NOT_PRODUCT_EQUIVALENCE",
+    "not_automatic_match": true
+  },
+  {
+    "shared_need_hypothesis": "节庆布置",
+    "types": [
+      {
+        "type": "喷雪装饰品",
+        "supporting_skus": [
+          "2547999"
+        ]
+      },
+      {
+        "type": "节庆装饰品",
+        "supporting_skus": [
+          "3218335"
+        ]
+      },
+      {
+        "type": "节庆造型或悬挂饰品",
+        "supporting_skus": [
+          "3224909"
+        ]
+      }
+    ],
+    "relation": "SHARED_NEED_CANDIDATE_NOT_PRODUCT_EQUIVALENCE",
+    "not_automatic_match": true
+  },
+  {
+    "shared_need_hypothesis": "节庆氛围",
+    "types": [
+      {
+        "type": "圣诞帽造型用品（音乐或舞动按品名标注）",
+        "supporting_skus": [
+          "2578510"
+        ]
+      },
+      {
+        "type": "圣诞树类用品",
+        "supporting_skus": [
+          "2558856",
+          "2577745",
+          "3006064",
+          "3015458",
+          "3201458",
+          "3206723",
+          "3206725",
+          "3206742",
+          "3206760",
+          "3206809",
+          "3206935",
+          "3207484",
+          "3207692",
+          "3217803",
+          "3218276",
+          "3218343",
+          "3219342",
+          "3225230",
+          "3225309",
+          "3225398",
+          "3225399"
+        ]
+      },
+      {
+        "type": "节庆饰品",
+        "supporting_skus": [
+          "3201358",
+          "3206610",
+          "3206611",
+          "3207447",
+          "3207757",
+          "3210353",
+          "3217701",
+          "3217702",
+          "3217704",
+          "3217725",
+          "3217800",
+          "3218345",
+          "3218361",
+          "3218367",
+          "3218412",
+          "3218414",
+          "3218818",
+          "3219277",
+          "3221229",
+          "3224895",
+          "3224896",
+          "3224914",
+          "3225324",
+          "3225445",
+          "3225891"
+        ]
+      }
+    ],
+    "relation": "SHARED_NEED_CANDIDATE_NOT_PRODUCT_EQUIVALENCE",
+    "not_automatic_match": true
+  },
+  {
+    "shared_need_hypothesis": "花材装饰",
+    "types": [
+      {
+        "type": "仿真花",
+        "supporting_skus": [
+          "2573052",
+          "3007876"
+        ]
+      },
+      {
+        "type": "仿真花球",
+        "supporting_skus": [
+          "3221115"
+        ]
+      }
+    ],
+    "relation": "SHARED_NEED_CANDIDATE_NOT_PRODUCT_EQUIVALENCE",
+    "not_automatic_match": true
+  },
+  {
+    "shared_need_hypothesis": "花艺制作",
+    "types": [
+      {
+        "type": "插花泡沫",
+        "supporting_skus": [
+          "1810015",
+          "2542931"
+        ]
+      },
+      {
+        "type": "花艺金属线",
+        "supporting_skus": [
+          "2576005"
+        ]
+      }
+    ],
+    "relation": "SHARED_NEED_CANDIDATE_NOT_PRODUCT_EQUIVALENCE",
+    "not_automatic_match": true
+  },
+  {
+    "shared_need_hypothesis": "营养相关食用选择（非效果保证）",
+    "types": [
+      {
+        "type": "标称多维生素软糖（法规归类未判定）",
+        "supporting_skus": [
+          "3215424"
+        ]
+      },
+      {
+        "type": "蛋白饮品（名称宣称）",
+        "supporting_skus": [
+          "3220180",
+          "3223069"
+        ]
+      }
+    ],
+    "relation": "SHARED_NEED_CANDIDATE_NOT_PRODUCT_EQUIVALENCE",
+    "not_automatic_match": true
+  },
+  {
+    "shared_need_hypothesis": "衣物护理",
+    "types": [
+      {
+        "type": "洗衣辅助片",
+        "supporting_skus": [
+          "3204597",
+          "3213119",
+          "3213121"
+        ]
+      },
+      {
+        "type": "衣物柔顺或增香用品",
+        "supporting_skus": [
+          "2575303",
+          "2575304",
+          "3012163",
+          "3014642",
+          "3202227",
+          "3202228",
+          "3205535",
+          "3206126",
+          "3206180",
+          "3207331",
+          "3207333",
+          "3208782",
+          "3212337",
+          "3216725",
+          "3219105",
+          "3219106",
+          "3220977",
+          "3220978",
+          "3221547",
+          "3222472",
+          "3222503",
+          "3222618",
+          "3222911",
+          "3222912",
+          "3223259",
+          "3224561",
+          "3224770",
+          "3224771",
+          "3225225",
+          "3225226",
+          "3226214"
+        ]
+      }
+    ],
+    "relation": "SHARED_NEED_CANDIDATE_NOT_PRODUCT_EQUIVALENCE",
+    "not_automatic_match": true
+  },
+  {
+    "shared_need_hypothesis": "衣物整理",
+    "types": [
+      {
+        "type": "洗衣篮",
+        "supporting_skus": [
+          "2554513",
+          "2554514",
+          "3013156",
+          "3208050",
+          "3218161",
+          "3218163",
+          "3223472"
+        ]
+      },
+      {
+        "type": "衣物悬挂用品",
+        "supporting_skus": [
+          "220099",
+          "2535685",
+          "2546440",
+          "2568365",
+          "3003940",
+          "3012702",
+          "3016471",
+          "3204339",
+          "3210591",
+          "3211335",
+          "3215029",
+          "3215068",
+          "3218282",
+          "3218694",
+          "3220223",
+          "3221725",
+          "3221930"
+        ]
+      }
+    ],
+    "relation": "SHARED_NEED_CANDIDATE_NOT_PRODUCT_EQUIVALENCE",
+    "not_automatic_match": true
+  },
+  {
+    "shared_need_hypothesis": "衣物清洁",
+    "types": [
+      {
+        "type": "彩色白色衣物洗衣凝珠",
+        "supporting_skus": [
+          "3219366"
+        ]
+      },
+      {
+        "type": "洗衣胶囊",
+        "supporting_skus": [
+          "3207215",
+          "3214169",
+          "3214171",
+          "3217413",
+          "3219369"
+        ]
+      }
+    ],
+    "relation": "SHARED_NEED_CANDIDATE_NOT_PRODUCT_EQUIVALENCE",
+    "not_automatic_match": true
+  },
+  {
+    "shared_need_hypothesis": "衣物穿戴",
+    "types": [
+      {
+        "type": "POLO衫",
+        "supporting_skus": [
+          "2559113",
+          "3223073"
+        ]
+      },
+      {
+        "type": "上衣毛衫",
+        "supporting_skus": [
+          "2556238",
+          "2556239",
+          "2556240",
+          "2570216",
+          "3201844",
+          "3207429",
+          "3208892",
+          "3217019",
+          "3218000",
+          "3226003"
+        ]
+      },
+      {
+        "type": "内衣裤",
+        "supporting_skus": [
+          "2571754",
+          "2572104",
+          "2579839",
+          "3001215",
+          "3002241",
+          "3002242",
+          "3002444",
+          "3009418",
+          "3011988",
+          "3205243",
+          "3205244",
+          "3207782",
+          "3207783",
+          "3213299",
+          "3213487",
+          "3213493",
+          "3213495",
+          "3213499",
+          "3213503",
+          "3214796",
+          "3219534"
+        ]
+      },
+      {
+        "type": "短裤",
+        "supporting_skus": [
+          "2580986",
+          "3214189",
+          "3216185",
+          "3222276"
+        ]
+      },
+      {
+        "type": "裙装",
+        "supporting_skus": [
+          "3222424"
+        ]
+      },
+      {
+        "type": "贴身长裤或紧身裤",
+        "supporting_skus": [
+          "2566910",
+          "3006474",
+          "3011416",
+          "3208770"
+        ]
+      },
+      {
+        "type": "连体衣",
+        "supporting_skus": [
+          "2555084",
+          "2561419",
+          "2572472",
+          "3015200",
+          "3200619",
+          "3211345",
+          "3216183",
+          "3217020",
+          "3219660",
+          "3222488",
+          "3223436",
+          "3225652"
+        ]
+      }
+    ],
+    "relation": "SHARED_NEED_CANDIDATE_NOT_PRODUCT_EQUIVALENCE",
+    "not_automatic_match": true
+  },
+  {
+    "shared_need_hypothesis": "表达与标记",
+    "types": [
+      {
+        "type": "双头闪粉金属色记号笔",
+        "supporting_skus": [
+          "3217469"
+        ]
+      },
+      {
+        "type": "可洗记号笔",
+        "supporting_skus": [
+          "3220037"
+        ]
+      }
+    ],
+    "relation": "SHARED_NEED_CANDIDATE_NOT_PRODUCT_EQUIVALENCE",
+    "not_automatic_match": true
+  },
+  {
+    "shared_need_hypothesis": "表面处理",
+    "types": [
+      {
+        "type": "打磨块",
+        "supporting_skus": [
+          "3207948"
+        ]
+      },
+      {
+        "type": "打磨工具或耗材",
+        "supporting_skus": [
+          "2510702",
+          "2510705",
+          "2513186",
+          "2554122",
+          "3205232",
+          "3206716",
+          "3215197",
+          "3215290",
+          "3215292",
+          "3215293",
+          "3215294",
+          "3222521"
+        ]
+      },
+      {
+        "type": "砂纸",
+        "supporting_skus": [
+          "2532127",
+          "2578966"
+        ]
+      }
+    ],
+    "relation": "SHARED_NEED_CANDIDATE_NOT_PRODUCT_EQUIVALENCE",
+    "not_automatic_match": true
+  },
+  {
+    "shared_need_hypothesis": "表面擦拭",
+    "types": [
+      {
+        "type": "清洁擦拭纸",
+        "supporting_skus": [
+          "2562816"
+        ]
+      },
+      {
+        "type": "超细纤维擦拭布",
+        "supporting_skus": [
+          "102235",
+          "2503733",
+          "2509562",
+          "2513718",
+          "2528705",
+          "2561275",
+          "3214413",
+          "3214637",
+          "3215120",
+          "3215133",
+          "3215700",
+          "3220353",
+          "3221670",
+          "3221671",
+          "3224623"
+        ]
+      }
+    ],
+    "relation": "SHARED_NEED_CANDIDATE_NOT_PRODUCT_EQUIVALENCE",
+    "not_automatic_match": true
+  },
+  {
+    "shared_need_hypothesis": "表面施工",
+    "types": [
+      {
+        "type": "上漆工具组合",
+        "supporting_skus": [
+          "1200021"
+        ]
+      },
+      {
+        "type": "腻子刮刀",
+        "supporting_skus": [
+          "3215281"
+        ]
+      }
+    ],
+    "relation": "SHARED_NEED_CANDIDATE_NOT_PRODUCT_EQUIVALENCE",
+    "not_automatic_match": true
+  },
+  {
+    "shared_need_hypothesis": "表面涂装",
+    "types": [
+      {
+        "type": "涂料",
+        "supporting_skus": [
+          "2523153",
+          "2532947",
+          "2535282",
+          "2535318",
+          "2542126",
+          "2546059",
+          "2560478",
+          "2562727",
+          "2566868",
+          "2571629",
+          "2580154",
+          "2580494",
+          "3000950",
+          "3001092",
+          "3001276",
+          "3001675",
+          "3003427",
+          "3005845",
+          "3005846",
+          "3006055",
+          "3008512",
+          "3011949",
+          "3011950",
+          "3012014",
+          "3012015",
+          "3012016",
+          "3012017",
+          "3012018",
+          "3012019",
+          "3012020",
+          "3012021",
+          "3012023",
+          "3012025",
+          "3012027",
+          "3012028",
+          "3012033",
+          "3012173",
+          "3015431",
+          "3015432",
+          "3015436",
+          "3015437",
+          "3015438",
+          "3015439",
+          "3015440",
+          "3015441",
+          "3016561",
+          "3016796",
+          "3017116",
+          "3200702",
+          "3202027",
+          "3204863",
+          "3206120",
+          "3208505",
+          "3209196",
+          "3209260",
+          "3209491",
+          "3214389",
+          "3215164",
+          "3216990",
+          "3216991",
+          "3216992",
+          "3216993",
+          "3217535",
+          "3217538",
+          "3217540",
+          "3217798",
+          "3219991",
+          "3220011",
+          "3220418",
+          "3222426",
+          "3223337",
+          "3223339",
+          "3223684",
+          "3225012"
+        ]
+      },
+      {
+        "type": "涂漆刷",
+        "supporting_skus": [
+          "2525517"
+        ]
+      },
+      {
+        "type": "涂漆滚筒",
+        "supporting_skus": [
+          "1221001",
+          "2500418",
+          "2527144",
+          "2554020",
+          "2574980",
+          "3010852",
+          "3014627",
+          "3015642",
+          "3016554",
+          "3215226",
+          "3218563",
+          "3221615",
+          "3221616"
+        ]
+      },
+      {
+        "type": "涂装工具",
+        "supporting_skus": [
+          "2546378"
+        ]
+      },
+      {
+        "type": "金属效果涂料（名称标注）",
+        "supporting_skus": [
+          "2553583"
+        ]
+      }
+    ],
+    "relation": "SHARED_NEED_CANDIDATE_NOT_PRODUCT_EQUIVALENCE",
+    "not_automatic_match": true
+  },
+  {
+    "shared_need_hypothesis": "表面清洁",
+    "types": [
+      {
+        "type": "刮水或玻璃清洁用品",
+        "supporting_skus": [
+          "2567689",
+          "298512",
+          "3000678",
+          "3012447",
+          "3206632",
+          "3209611",
+          "3216858",
+          "3224246"
+        ]
+      },
+      {
+        "type": "擦拭清洁材料",
+        "supporting_skus": [
+          "2525626",
+          "2572113",
+          "2581587",
+          "292106",
+          "3006047",
+          "3006312",
+          "3006472",
+          "3200223",
+          "3207368",
+          "3218327",
+          "3218678"
+        ]
+      },
+      {
+        "type": "陶瓷清洁剂",
+        "supporting_skus": [
+          "3209321"
+        ]
+      }
+    ],
+    "relation": "SHARED_NEED_CANDIDATE_NOT_PRODUCT_EQUIVALENCE",
+    "not_automatic_match": true
+  },
+  {
+    "shared_need_hypothesis": "表面维护研究",
+    "types": [
+      {
+        "type": "密封粘接或填补材料",
+        "supporting_skus": [
+          "2542572",
+          "2563347",
+          "3010675",
+          "3014094",
+          "3014095",
+          "3210263"
+        ]
+      },
+      {
+        "type": "滚涂工具",
+        "supporting_skus": [
+          "1221158",
+          "2513955",
+          "3207277"
+        ]
+      }
+    ],
+    "relation": "SHARED_NEED_CANDIDATE_NOT_PRODUCT_EQUIVALENCE",
+    "not_automatic_match": true
+  },
+  {
+    "shared_need_hypothesis": "表面装饰",
+    "types": [
+      {
+        "type": "自粘铺片",
+        "supporting_skus": [
+          "3016648",
+          "3215287",
+          "3216771"
+        ]
+      },
+      {
+        "type": "贴覆材料",
+        "supporting_skus": [
+          "2508779",
+          "2577074",
+          "2577397",
+          "3011530",
+          "3216263",
+          "3217777",
+          "3218717",
+          "3219393",
+          "3224171",
+          "3227971"
+        ]
+      }
+    ],
+    "relation": "SHARED_NEED_CANDIDATE_NOT_PRODUCT_EQUIVALENCE",
+    "not_automatic_match": true
+  },
+  {
+    "shared_need_hypothesis": "设备互联",
+    "types": [
+      {
+        "type": "桌面交换设备",
+        "supporting_skus": [
+          "3000035"
+        ]
+      },
+      {
+        "type": "设备网络或数据连接线",
+        "supporting_skus": [
+          "3200326",
+          "3207156",
+          "3223498"
+        ]
+      }
+    ],
+    "relation": "SHARED_NEED_CANDIDATE_NOT_PRODUCT_EQUIVALENCE",
+    "not_automatic_match": true
+  },
+  {
+    "shared_need_hypothesis": "设备供电",
+    "types": [
+      {
+        "type": "充电器",
+        "supporting_skus": [
+          "2536381",
+          "2547046",
+          "3013053",
+          "3013594",
+          "3205545",
+          "3205990",
+          "3207152",
+          "3208891",
+          "3209991",
+          "3210987",
+          "3213063",
+          "3213065",
+          "3213079",
+          "3214969",
+          "3215586",
+          "3215922",
+          "3216817",
+          "3216821",
+          "3218294",
+          "3218476",
+          "3221194",
+          "3222317",
+          "3222376",
+          "3222380",
+          "3222531",
+          "3222745",
+          "3222942",
+          "3222947",
+          "3223494",
+          "3224684"
+        ]
+      },
+      {
+        "type": "可充电电池",
+        "supporting_skus": [
+          "3205546"
+        ]
+      },
+      {
+        "type": "壁插充电器",
+        "supporting_skus": [
+          "3007311",
+          "3216893"
+        ]
+      },
+      {
+        "type": "磁吸无线充电器",
+        "supporting_skus": [
+          "3220416"
+        ]
+      }
+    ],
+    "relation": "SHARED_NEED_CANDIDATE_NOT_PRODUCT_EQUIVALENCE",
+    "not_automatic_match": true
+  },
+  {
+    "shared_need_hypothesis": "设备放置",
+    "types": [
+      {
+        "type": "平板支架",
+        "supporting_skus": [
+          "3010672"
+        ]
+      },
+      {
+        "type": "设备支架",
+        "supporting_skus": [
+          "3222901"
+        ]
+      }
+    ],
+    "relation": "SHARED_NEED_CANDIDATE_NOT_PRODUCT_EQUIVALENCE",
+    "not_automatic_match": true
+  },
+  {
+    "shared_need_hypothesis": "购物角色游戏",
+    "types": [
+      {
+        "type": "玩具购物篮",
+        "supporting_skus": [
+          "3218213"
+        ]
+      },
+      {
+        "type": "玩具购物车",
+        "supporting_skus": [
+          "3015336"
+        ]
+      }
+    ],
+    "relation": "SHARED_NEED_CANDIDATE_NOT_PRODUCT_EQUIVALENCE",
+    "not_automatic_match": true
+  },
+  {
+    "shared_need_hypothesis": "贴饰活动",
+    "types": [
+      {
+        "type": "贴纸册",
+        "supporting_skus": [
+          "3204493",
+          "3216088",
+          "3217189",
+          "3220039",
+          "3220067",
+          "3220421",
+          "3224899"
+        ]
+      },
+      {
+        "type": "贴纸页",
+        "supporting_skus": [
+          "3215801",
+          "3216085"
+        ]
+      }
+    ],
+    "relation": "SHARED_NEED_CANDIDATE_NOT_PRODUCT_EQUIVALENCE",
+    "not_automatic_match": true
+  },
+  {
+    "shared_need_hypothesis": "身体护理",
+    "types": [
+      {
+        "type": "去角质海绵（名称用途）",
+        "supporting_skus": [
+          "3218981"
+        ]
+      },
+      {
+        "type": "按摩器具",
+        "supporting_skus": [
+          "3005850",
+          "3013109",
+          "3216010",
+          "3217100"
+        ]
+      },
+      {
+        "type": "身体或局部护理品",
+        "supporting_skus": [
+          "2574651",
+          "2578348",
+          "3002493",
+          "3004289",
+          "3005156",
+          "3011872",
+          "3200874",
+          "3200981",
+          "3200985",
+          "3205279",
+          "3205672",
+          "3206298",
+          "3208464",
+          "3209349",
+          "3210391",
+          "3212001",
+          "3216647",
+          "3216666",
+          "3217824",
+          "3217836",
+          "3218966",
+          "3220687"
+        ]
+      },
+      {
+        "type": "身体护理油",
+        "supporting_skus": [
+          "3013815",
+          "3207763",
+          "3221511"
+        ]
+      }
+    ],
+    "relation": "SHARED_NEED_CANDIDATE_NOT_PRODUCT_EQUIVALENCE",
+    "not_automatic_match": true
+  },
+  {
+    "shared_need_hypothesis": "身体清洁",
+    "types": [
+      {
+        "type": "沐浴用品",
+        "supporting_skus": [
+          "2544462",
+          "2544721",
+          "2547321",
+          "3013942",
+          "3013943",
+          "3202953",
+          "3204216",
+          "3218952",
+          "3218971",
+          "3219995",
+          "3220491"
+        ]
+      },
+      {
+        "type": "身体刷",
+        "supporting_skus": [
+          "3216026"
+        ]
+      }
+    ],
+    "relation": "SHARED_NEED_CANDIDATE_NOT_PRODUCT_EQUIVALENCE",
+    "not_automatic_match": true
+  },
+  {
+    "shared_need_hypothesis": "身体清洗",
+    "types": [
+      {
+        "type": "沐浴海绵",
+        "supporting_skus": [
+          "3220745"
+        ]
+      },
+      {
+        "type": "沐浴露",
+        "supporting_skus": [
+          "2001356",
+          "2535943",
+          "2538438",
+          "2541000",
+          "2546447",
+          "2546726",
+          "3011648",
+          "3015256",
+          "3016952",
+          "3016975",
+          "3017117",
+          "3200993",
+          "3202727",
+          "3205287",
+          "3205364",
+          "3207076",
+          "3212623",
+          "3213555",
+          "3215583",
+          "3216567",
+          "3217417",
+          "3217418",
+          "3218743",
+          "3218970",
+          "3219394",
+          "3219910",
+          "3219999",
+          "3222866",
+          "3224339",
+          "3226078",
+          "3226455",
+          "3226456",
+          "3228152"
+        ]
+      }
+    ],
+    "relation": "SHARED_NEED_CANDIDATE_NOT_PRODUCT_EQUIVALENCE",
+    "not_automatic_match": true
+  },
+  {
+    "shared_need_hypothesis": "身体皮肤护理",
+    "types": [
+      {
+        "type": "身体乳液",
+        "supporting_skus": [
+          "2547172",
+          "3216045",
+          "3219819",
+          "3219911",
+          "3228969"
+        ]
+      },
+      {
+        "type": "身体乳霜",
+        "supporting_skus": [
+          "2574624",
+          "3216273",
+          "3223038",
+          "3227410"
+        ]
+      },
+      {
+        "type": "身体精华",
+        "supporting_skus": [
+          "3213843"
+        ]
+      }
+    ],
+    "relation": "SHARED_NEED_CANDIDATE_NOT_PRODUCT_EQUIVALENCE",
+    "not_automatic_match": true
+  },
+  {
+    "shared_need_hypothesis": "车辆主题玩耍",
+    "types": [
+      {
+        "type": "玩具摩托车",
+        "supporting_skus": [
+          "3011160"
+        ]
+      },
+      {
+        "type": "玩具车",
+        "supporting_skus": [
+          "3017018",
+          "3216398"
+        ]
+      },
+      {
+        "type": "玩具车辆",
+        "supporting_skus": [
+          "2531851",
+          "2563254",
+          "3008907",
+          "3203227",
+          "3204266",
+          "3215354",
+          "3216592",
+          "3216699",
+          "3217588",
+          "3217941",
+          "3223754",
+          "3223755",
+          "3223893"
+        ]
+      }
+    ],
+    "relation": "SHARED_NEED_CANDIDATE_NOT_PRODUCT_EQUIVALENCE",
+    "not_automatic_match": true
+  },
+  {
+    "shared_need_hypothesis": "车辆清洗",
+    "types": [
+      {
+        "type": "汽车清洗剂",
+        "supporting_skus": [
+          "3010269",
+          "3224084"
+        ]
+      },
+      {
+        "type": "洗车海绵",
+        "supporting_skus": [
+          "3016326"
+        ]
+      },
+      {
+        "type": "车辆清洁套装",
+        "supporting_skus": [
+          "2571289"
+        ]
+      }
+    ],
+    "relation": "SHARED_NEED_CANDIDATE_NOT_PRODUCT_EQUIVALENCE",
+    "not_automatic_match": true
+  },
+  {
+    "shared_need_hypothesis": "车辆维护",
+    "types": [
+      {
+        "type": "汽车护理用品",
+        "supporting_skus": [
+          "2502760",
+          "2544375",
+          "2544376",
+          "2544377",
+          "2544378",
+          "2544407",
+          "2544409",
+          "2544410",
+          "2544411",
+          "3009626",
+          "3212793"
+        ]
+      },
+      {
+        "type": "汽车陶瓷喷雾护理品（名称标注）",
+        "supporting_skus": [
+          "3224083"
+        ]
+      }
+    ],
+    "relation": "SHARED_NEED_CANDIDATE_NOT_PRODUCT_EQUIVALENCE",
+    "not_automatic_match": true
+  },
+  {
+    "shared_need_hypothesis": "车辆维护研究",
+    "types": [
+      {
+        "type": "车辆外观护理用品",
+        "supporting_skus": [
+          "1325690",
+          "3008100",
+          "3217212"
+        ]
+      },
+      {
+        "type": "车辆用液",
+        "supporting_skus": [
+          "2577222",
+          "3003698",
+          "3218493"
+        ]
+      }
+    ],
+    "relation": "SHARED_NEED_CANDIDATE_NOT_PRODUCT_EQUIVALENCE",
+    "not_automatic_match": true
+  },
+  {
+    "shared_need_hypothesis": "运动活动",
+    "types": [
+      {
+        "type": "呼啦圈",
+        "supporting_skus": [
+          "3002287"
+        ]
+      },
+      {
+        "type": "瑜伽垫",
+        "supporting_skus": [
+          "2572199"
+        ]
+      },
+      {
+        "type": "跳绳",
+        "supporting_skus": [
+          "2559058",
+          "3007674",
+          "3008135",
+          "3217594",
+          "3222188",
+          "3222218"
+        ]
+      }
+    ],
+    "relation": "SHARED_NEED_CANDIDATE_NOT_PRODUCT_EQUIVALENCE",
+    "not_automatic_match": true
+  },
+  {
+    "shared_need_hypothesis": "运动训练研究",
+    "types": [
+      {
+        "type": "哑铃",
+        "supporting_skus": [
+          "2568446",
+          "2576330",
+          "3003939"
+        ]
+      },
+      {
+        "type": "阻力带",
+        "supporting_skus": [
+          "2577395",
+          "3216716"
+        ]
+      }
+    ],
+    "relation": "SHARED_NEED_CANDIDATE_NOT_PRODUCT_EQUIVALENCE",
+    "not_automatic_match": true
+  },
+  {
+    "shared_need_hypothesis": "造型活动",
+    "types": [
+      {
+        "type": "可塑造型用品",
+        "supporting_skus": [
+          "3012939",
+          "3017093",
+          "3200866",
+          "3202336",
+          "3205840",
+          "3205847",
+          "3212365",
+          "3215348",
+          "3216120",
+          "3216848",
+          "3218447",
+          "3224041"
+        ]
+      },
+      {
+        "type": "造型材料组合",
+        "supporting_skus": [
+          "2538552"
+        ]
+      }
+    ],
+    "relation": "SHARED_NEED_CANDIDATE_NOT_PRODUCT_EQUIVALENCE",
+    "not_automatic_match": true
+  },
+  {
+    "shared_need_hypothesis": "随身物品整理",
+    "types": [
+      {
+        "type": "带发饰的包袋组合",
+        "supporting_skus": [
+          "3220200"
+        ]
+      },
+      {
+        "type": "钥匙挂件",
+        "supporting_skus": [
+          "3202936",
+          "3214331",
+          "3215117",
+          "3216463",
+          "3216600",
+          "3217167",
+          "3217454",
+          "3218875",
+          "3220051",
+          "3220105",
+          "3220202",
+          "3220883",
+          "3222838",
+          "3222864",
+          "3223682"
+        ]
+      }
+    ],
+    "relation": "SHARED_NEED_CANDIDATE_NOT_PRODUCT_EQUIVALENCE",
+    "not_automatic_match": true
+  },
+  {
+    "shared_need_hypothesis": "面部护理",
+    "types": [
+      {
+        "type": "泥膜棒（名称标注）",
+        "supporting_skus": [
+          "3007241"
+        ]
+      },
+      {
+        "type": "面膜组合（成分仅按品名标注）",
+        "supporting_skus": [
+          "3215585"
+        ]
+      },
+      {
+        "type": "面部护理用品",
+        "supporting_skus": [
+          "2559461",
+          "2579070",
+          "3010833",
+          "3218344"
+        ]
+      }
+    ],
+    "relation": "SHARED_NEED_CANDIDATE_NOT_PRODUCT_EQUIVALENCE",
+    "not_automatic_match": true
+  },
+  {
+    "shared_need_hypothesis": "面部清洁",
+    "types": [
+      {
+        "type": "洁肤用品",
+        "supporting_skus": [
+          "3002102"
+        ]
+      },
+      {
+        "type": "洁面清洁剂",
+        "supporting_skus": [
+          "3002777",
+          "3203681",
+          "3204739",
+          "3208398",
+          "3216282"
+        ]
+      },
+      {
+        "type": "面部清洁套装",
+        "supporting_skus": [
+          "3006388",
+          "3216012",
+          "3216142"
+        ]
+      }
+    ],
+    "relation": "SHARED_NEED_CANDIDATE_NOT_PRODUCT_EQUIVALENCE",
+    "not_automatic_match": true
+  },
+  {
+    "shared_need_hypothesis": "面部皮肤护理",
+    "types": [
+      {
+        "type": "胶囊装面部精华",
+        "supporting_skus": [
+          "3218305"
+        ]
+      },
+      {
+        "type": "面膜",
+        "supporting_skus": [
+          "2557238",
+          "2566576",
+          "2576285",
+          "2579049",
+          "2579059",
+          "2582629",
+          "3002656",
+          "3008728",
+          "3200551",
+          "3204159",
+          "3208168",
+          "3210037",
+          "3216686",
+          "3217662",
+          "3218298",
+          "3218973",
+          "3221093",
+          "3221183",
+          "3223213",
+          "3223748",
+          "3226916"
+        ]
+      },
+      {
+        "type": "面部护理套装",
+        "supporting_skus": [
+          "3218246",
+          "3221188",
+          "3224407"
+        ]
+      },
+      {
+        "type": "面部护肤霜",
+        "supporting_skus": [
+          "2549767",
+          "2549768",
+          "2572893",
+          "2578211",
+          "2580418",
+          "3000156",
+          "3000930",
+          "3015146",
+          "3206276",
+          "3213611",
+          "3217826",
+          "3218297",
+          "3218738",
+          "3220709",
+          "3221202",
+          "3221831",
+          "3223804",
+          "3224501"
+        ]
+      },
+      {
+        "type": "面部爽肤水",
+        "supporting_skus": [
+          "2574058",
+          "3208396"
+        ]
+      },
+      {
+        "type": "面部精华",
+        "supporting_skus": [
+          "2575305",
+          "2576609",
+          "3207741",
+          "3208397",
+          "3209258",
+          "3209538",
+          "3211999",
+          "3213627",
+          "3215595",
+          "3217827"
+        ]
+      }
+    ],
+    "relation": "SHARED_NEED_CANDIDATE_NOT_PRODUCT_EQUIVALENCE",
+    "not_automatic_match": true
+  },
+  {
+    "shared_need_hypothesis": "音频播放",
+    "types": [
+      {
+        "type": "扬声器",
+        "supporting_skus": [
+          "3011799",
+          "3201945",
+          "3204382",
+          "3205982",
+          "3206170",
+          "3208918",
+          "3210087",
+          "3212471",
+          "3212947",
+          "3214950",
+          "3214953",
+          "3214955",
+          "3216679",
+          "3218290",
+          "3218411",
+          "3221838",
+          "3221933",
+          "3224087"
+        ]
+      },
+      {
+        "type": "扬声设备",
+        "supporting_skus": [
+          "3213053",
+          "3216678",
+          "3226256"
+        ]
+      }
+    ],
+    "relation": "SHARED_NEED_CANDIDATE_NOT_PRODUCT_EQUIVALENCE",
+    "not_automatic_match": true
+  },
+  {
+    "shared_need_hypothesis": "食品储存",
+    "types": [
+      {
+        "type": "食品保存容器",
+        "supporting_skus": [
+          "2567528",
+          "2567529",
+          "2577398",
+          "3002382",
+          "3002388",
+          "3002389",
+          "3218551"
+        ]
+      },
+      {
+        "type": "食品储存盒",
+        "supporting_skus": [
+          "2535170",
+          "2535173",
+          "2535176"
+        ]
+      },
+      {
+        "type": "食品储存罐",
+        "supporting_skus": [
+          "2552569",
+          "2582588",
+          "3008554",
+          "3009354",
+          "3015884",
+          "3015885",
+          "3016479",
+          "3202256",
+          "3203531",
+          "3204633",
+          "3206012",
+          "3207387",
+          "3207389",
+          "3214421",
+          "3214423",
+          "3215033",
+          "3218498",
+          "3218507",
+          "3218939",
+          "3220344",
+          "3220381",
+          "3220384",
+          "3220385",
+          "3220493",
+          "3220679",
+          "3220736",
+          "3225427"
+        ]
+      }
+    ],
+    "relation": "SHARED_NEED_CANDIDATE_NOT_PRODUCT_EQUIVALENCE",
+    "not_automatic_match": true
+  },
+  {
+    "shared_need_hypothesis": "食品制作",
+    "types": [
+      {
+        "type": "模具",
+        "supporting_skus": [
+          "3206888",
+          "3206893",
+          "3207577",
+          "3207872",
+          "3207873",
+          "3207890",
+          "3208907",
+          "3211349",
+          "3211361",
+          "3211375",
+          "3218669",
+          "3218670",
+          "3219145",
+          "3219147",
+          "3219334",
+          "3219355",
+          "3219356",
+          "3219814",
+          "3219815",
+          "3222543"
+        ]
+      },
+      {
+        "type": "食品成型模具",
+        "supporting_skus": [
+          "208006",
+          "3211369",
+          "3211373",
+          "3219813",
+          "3221320",
+          "3222544"
+        ]
+      }
+    ],
+    "relation": "SHARED_NEED_CANDIDATE_NOT_PRODUCT_EQUIVALENCE",
+    "not_automatic_match": true
+  },
+  {
+    "shared_need_hypothesis": "食材加工",
+    "types": [
+      {
+        "type": "切碎器具",
+        "supporting_skus": [
+          "3006560"
+        ]
+      },
+      {
+        "type": "搅拌或切碎器具",
+        "supporting_skus": [
+          "3000758",
+          "3008809",
+          "3206378",
+          "3210877",
+          "3217623",
+          "3218854",
+          "3221881",
+          "3224671",
+          "3224673",
+          "3224693",
+          "3224696",
+          "3225911",
+          "3225912"
+        ]
+      }
+    ],
+    "relation": "SHARED_NEED_CANDIDATE_NOT_PRODUCT_EQUIVALENCE",
+    "not_automatic_match": true
+  },
+  {
+    "shared_need_hypothesis": "食材处理",
+    "types": [
+      {
+        "type": "带刨丝器的柑橘榨汁器",
+        "supporting_skus": [
+          "3219578"
+        ]
+      },
+      {
+        "type": "滤器",
+        "supporting_skus": [
+          "2500062",
+          "2518337",
+          "2526286",
+          "3212897",
+          "3218325"
+        ]
+      },
+      {
+        "type": "砧板",
+        "supporting_skus": [
+          "3016470",
+          "3016631",
+          "3208378",
+          "3208379",
+          "3215621",
+          "3224699",
+          "3227198"
+        ]
+      }
+    ],
+    "relation": "SHARED_NEED_CANDIDATE_NOT_PRODUCT_EQUIVALENCE",
+    "not_automatic_match": true
+  },
+  {
+    "shared_need_hypothesis": "餐具整理",
+    "types": [
+      {
+        "type": "沥碗架",
+        "supporting_skus": [
+          "3014271"
+        ]
+      },
+      {
+        "type": "餐具收纳架",
+        "supporting_skus": [
+          "2567624"
+        ]
+      }
+    ],
+    "relation": "SHARED_NEED_CANDIDATE_NOT_PRODUCT_EQUIVALENCE",
+    "not_automatic_match": true
+  },
+  {
+    "shared_need_hypothesis": "餐具清洗",
+    "types": [
+      {
+        "type": "洗洁精",
+        "supporting_skus": [
+          "2577181"
+        ]
+      },
+      {
+        "type": "洗碗机漂洗剂",
+        "supporting_skus": [
+          "2522811"
+        ]
+      }
+    ],
+    "relation": "SHARED_NEED_CANDIDATE_NOT_PRODUCT_EQUIVALENCE",
+    "not_automatic_match": true
+  },
+  {
+    "shared_need_hypothesis": "餐厨操作",
+    "types": [
+      {
+        "type": "刀叉匙类",
+        "supporting_skus": [
+          "2542656",
+          "2542658",
+          "2545907",
+          "2554026",
+          "2554036",
+          "2560969",
+          "2570958",
+          "2574208",
+          "2576916",
+          "2582380",
+          "3014877",
+          "3016464",
+          "3200082",
+          "3206564",
+          "3208364",
+          "3208484",
+          "3208485",
+          "3208720",
+          "3208721",
+          "3209544",
+          "3212185",
+          "3212957",
+          "3215110",
+          "3215176",
+          "3215177",
+          "3215279",
+          "3215280",
+          "3215956",
+          "3217629",
+          "3219698",
+          "3219851",
+          "3220269",
+          "3222356",
+          "3222364",
+          "3222500",
+          "3223026",
+          "3223028",
+          "3223032",
+          "3223036",
+          "3226408"
+        ]
+      },
+      {
+        "type": "刀类器具",
+        "supporting_skus": [
+          "2542660",
+          "3206208",
+          "3209302",
+          "3215175"
+        ]
+      },
+      {
+        "type": "匙类餐具",
+        "supporting_skus": [
+          "3009438",
+          "3223031",
+          "3223034"
+        ]
+      },
+      {
+        "type": "叉类餐具",
+        "supporting_skus": [
+          "3009437",
+          "3215174"
+        ]
+      }
+    ],
+    "relation": "SHARED_NEED_CANDIDATE_NOT_PRODUCT_EQUIVALENCE",
+    "not_automatic_match": true
+  },
+  {
+    "shared_need_hypothesis": "餐厨调味",
+    "types": [
+      {
+        "type": "油醋盛装器具",
+        "supporting_skus": [
+          "3218089"
+        ]
+      },
+      {
+        "type": "糖罐",
+        "supporting_skus": [
+          "3206684"
+        ]
+      },
+      {
+        "type": "胡椒盐调味器具",
+        "supporting_skus": [
+          "3008585",
+          "3206265",
+          "3224697"
+        ]
+      }
+    ],
+    "relation": "SHARED_NEED_CANDIDATE_NOT_PRODUCT_EQUIVALENCE",
+    "not_automatic_match": true
+  },
+  {
+    "shared_need_hypothesis": "餐食盛装",
+    "types": [
+      {
+        "type": "平盘",
+        "supporting_skus": [
+          "2557753",
+          "2558004",
+          "3201707",
+          "3202581",
+          "3206458",
+          "3206505",
+          "3207363",
+          "3213871",
+          "3215243",
+          "3218043",
+          "3218644",
+          "3218844",
+          "3218887",
+          "3219155",
+          "3219675",
+          "3219687",
+          "3220455",
+          "3222129",
+          "3223327",
+          "3225682"
+        ]
+      },
+      {
+        "type": "深盘",
+        "supporting_skus": [
+          "2557756",
+          "2557965",
+          "3006010",
+          "3201708",
+          "3202577",
+          "3205000",
+          "3212255",
+          "3213873",
+          "3215246",
+          "3218044",
+          "3218852",
+          "3218891",
+          "3218954",
+          "3219688",
+          "3220456",
+          "3222130",
+          "3223129",
+          "3223324",
+          "3225683"
+        ]
+      },
+      {
+        "type": "纸塑餐盘",
+        "supporting_skus": [
+          "2554039",
+          "2576875",
+          "3000203",
+          "3000246",
+          "3009318",
+          "3009384",
+          "3208613",
+          "3220284",
+          "3220714",
+          "3220768",
+          "3222383",
+          "3222384"
+        ]
+      },
+      {
+        "type": "餐食盛放碗",
+        "supporting_skus": [
+          "3216493"
+        ]
+      }
+    ],
+    "relation": "SHARED_NEED_CANDIDATE_NOT_PRODUCT_EQUIVALENCE",
+    "not_automatic_match": true
+  },
+  {
+    "shared_need_hypothesis": "饮品制作",
+    "types": [
+      {
+        "type": "榨取或搅打饮品设备",
+        "supporting_skus": [
+          "3013902",
+          "3203964",
+          "3217743",
+          "3221894"
+        ]
+      },
+      {
+        "type": "调饮摇杯",
+        "supporting_skus": [
+          "3215995"
+        ]
+      }
+    ],
+    "relation": "SHARED_NEED_CANDIDATE_NOT_PRODUCT_EQUIVALENCE",
+    "not_automatic_match": true
+  },
+  {
+    "shared_need_hypothesis": "饮品温度管理研究",
+    "types": [
+      {
+        "type": "保温容器",
+        "supporting_skus": [
+          "3207057"
+        ]
+      },
+      {
+        "type": "葡萄酒冷却器具",
+        "supporting_skus": [
+          "3215993"
+        ]
+      }
+    ],
+    "relation": "SHARED_NEED_CANDIDATE_NOT_PRODUCT_EQUIVALENCE",
+    "not_automatic_match": true
+  },
+  {
+    "shared_need_hypothesis": "饮品盛装",
+    "types": [
+      {
+        "type": "杯壶类容器",
+        "supporting_skus": [
+          "2513804",
+          "2531610",
+          "2557384",
+          "2564807",
+          "2566807",
+          "3000782",
+          "3002248",
+          "3009321",
+          "3014721",
+          "3202757",
+          "3203836",
+          "3203881",
+          "3204057",
+          "3206147",
+          "3206148",
+          "3207376",
+          "3207386",
+          "3208614",
+          "3208910",
+          "3208915",
+          "3209547",
+          "3209573",
+          "3211603",
+          "3211651",
+          "3211683",
+          "3212099",
+          "3213877",
+          "3214381",
+          "3214968",
+          "3215023",
+          "3215095",
+          "3215098",
+          "3215898",
+          "3216297",
+          "3217491",
+          "3217627",
+          "3217851",
+          "3218190",
+          "3218197",
+          "3218515",
+          "3218555",
+          "3218680",
+          "3218908",
+          "3218992",
+          "3219116",
+          "3219120",
+          "3219140",
+          "3220290",
+          "3220338",
+          "3220655",
+          "3220785",
+          "3221314",
+          "3222492",
+          "3222520",
+          "3222537",
+          "3223124",
+          "3223474",
+          "3223497",
+          "3223499",
+          "3223679",
+          "3224744",
+          "3224774",
+          "3225635",
+          "3225870",
+          "3226087",
+          "3226107",
+          "3226192",
+          "3227316",
+          "3227317",
+          "3228377",
+          "3228378"
+        ]
+      },
+      {
+        "type": "杯子",
+        "supporting_skus": [
+          "2548082",
+          "2557964",
+          "2573722",
+          "2574198",
+          "2578683",
+          "2582232",
+          "3001967",
+          "3006255",
+          "3010122",
+          "3200196",
+          "3200952",
+          "3202571",
+          "3203561",
+          "3204992",
+          "3205730",
+          "3206414",
+          "3206502",
+          "3206520",
+          "3206731",
+          "3206986",
+          "3207249",
+          "3208913",
+          "3212113",
+          "3212247",
+          "3212249",
+          "3212377",
+          "3212379",
+          "3213875",
+          "3215045",
+          "3215115",
+          "3215116",
+          "3215248",
+          "3215312",
+          "3215948",
+          "3217460",
+          "3217489",
+          "3217490",
+          "3217769",
+          "3217771",
+          "3217859",
+          "3218114",
+          "3218208",
+          "3218500",
+          "3218504",
+          "3218508",
+          "3218646",
+          "3218940",
+          "3218989",
+          "3219279",
+          "3219336",
+          "3219409",
+          "3220193",
+          "3220258",
+          "3221184",
+          "3221732",
+          "3222495",
+          "3222501",
+          "3222598",
+          "3223677",
+          "3225163",
+          "3226194"
+        ]
+      },
+      {
+        "type": "茶杯",
+        "supporting_skus": [
+          "3202394",
+          "3207381",
+          "3208054",
+          "3217091"
+        ]
+      }
+    ],
+    "relation": "SHARED_NEED_CANDIDATE_NOT_PRODUCT_EQUIVALENCE",
+    "not_automatic_match": true
+  },
+  {
+    "shared_need_hypothesis": "饮品选择",
+    "types": [
+      {
+        "type": "Twix饮料",
+        "supporting_skus": [
+          "2577328"
+        ]
+      },
+      {
+        "type": "咖啡类食品",
+        "supporting_skus": [
+          "2581167",
+          "2581318",
+          "3225886"
+        ]
+      },
+      {
+        "type": "咖啡胶囊",
+        "supporting_skus": [
+          "3009534",
+          "3009535",
+          "3222759",
+          "3222760",
+          "3222763",
+          "3222765"
+        ]
+      },
+      {
+        "type": "茶类商品",
+        "supporting_skus": [
+          "3209629",
+          "3224321"
+        ]
+      },
+      {
+        "type": "茶饮商品（名称标注）",
+        "supporting_skus": [
+          "3007829"
+        ]
+      },
+      {
+        "type": "蛋白饮品（名称宣称）",
+        "supporting_skus": [
+          "3220180",
+          "3223069"
+        ]
+      },
+      {
+        "type": "饮料",
+        "supporting_skus": [
+          "2515972",
+          "2517433",
+          "2565459",
+          "3000880",
+          "3006860",
+          "3205711",
+          "3217284",
+          "3217286",
+          "3220066",
+          "3224051",
+          "3224073",
+          "3225854",
+          "3227027",
+          "3228585"
+        ]
+      }
+    ],
+    "relation": "SHARED_NEED_CANDIDATE_NOT_PRODUCT_EQUIVALENCE",
+    "not_automatic_match": true
+  },
+  {
+    "shared_need_hypothesis": "饮水携带",
+    "types": [
+      {
+        "type": "便携水壶",
+        "supporting_skus": [
+          "3206987"
+        ]
+      },
+      {
+        "type": "水瓶",
+        "supporting_skus": [
+          "3204543",
+          "3213797",
+          "3219357"
+        ]
+      }
+    ],
+    "relation": "SHARED_NEED_CANDIDATE_NOT_PRODUCT_EQUIVALENCE",
+    "not_automatic_match": true
+  },
+  {
+    "shared_need_hypothesis": "饼干零食",
+    "types": [
+      {
+        "type": "意式脆饼",
+        "supporting_skus": [
+          "3219947"
+        ]
+      },
+      {
+        "type": "薄脆饼干组合",
+        "supporting_skus": [
+          "3201251"
+        ]
+      },
+      {
+        "type": "迷你薄脆饼干",
+        "supporting_skus": [
+          "3218549"
+        ]
+      },
+      {
+        "type": "饼干",
+        "supporting_skus": [
+          "2049010",
+          "2500315",
+          "2519929",
+          "2539709",
+          "2549164",
+          "2551316",
+          "2573325",
+          "2580197",
+          "2580210",
+          "2580366",
+          "3001742",
+          "3008597",
+          "3014661",
+          "3202844",
+          "3206238",
+          "3208274",
+          "3213689",
+          "3218033",
+          "3219893",
+          "3219894",
+          "3219942",
+          "3219944",
+          "3220394",
+          "3220829",
+          "3221164",
+          "3221215",
+          "3222075",
+          "3222076",
+          "3223878",
+          "3223957",
+          "3224149",
+          "3224248",
+          "3224742",
+          "3224775",
+          "3225882"
+        ]
+      },
+      {
+        "type": "饼干什锦",
+        "supporting_skus": [
+          "3213693"
+        ]
+      },
+      {
+        "type": "饼干食品",
+        "supporting_skus": [
+          "3219876"
+        ]
+      }
+    ],
+    "relation": "SHARED_NEED_CANDIDATE_NOT_PRODUCT_EQUIVALENCE",
+    "not_automatic_match": true
+  },
+  {
+    "shared_need_hypothesis": "首饰收纳",
+    "types": [
+      {
+        "type": "首饰盒",
+        "supporting_skus": [
+          "3016638",
+          "3210047",
+          "3215077",
+          "3216160",
+          "3219838",
+          "3223512",
+          "3223999"
+        ]
+      },
+      {
+        "type": "首饰置物架",
+        "supporting_skus": [
+          "3015836",
+          "3214920"
+        ]
+      }
+    ],
+    "relation": "SHARED_NEED_CANDIDATE_NOT_PRODUCT_EQUIVALENCE",
+    "not_automatic_match": true
+  },
+  {
+    "shared_need_hypothesis": "马桶清洁护理",
+    "types": [
+      {
+        "type": "马桶清洁片",
+        "supporting_skus": [
+          "2571018",
+          "3217654",
+          "3225062"
+        ]
+      },
+      {
+        "type": "马桶用凝胶",
+        "supporting_skus": [
+          "3224622"
+        ]
+      }
+    ],
+    "relation": "SHARED_NEED_CANDIDATE_NOT_PRODUCT_EQUIVALENCE",
+    "not_automatic_match": true
+  },
+  {
+    "shared_need_hypothesis": "骑行维护研究",
+    "types": [
+      {
+        "type": "自行车打气泵",
+        "supporting_skus": [
+          "3221595"
+        ]
+      },
+      {
+        "type": "自行车轮胎修补套件",
+        "supporting_skus": [
+          "3200355"
+        ]
+      }
+    ],
+    "relation": "SHARED_NEED_CANDIDATE_NOT_PRODUCT_EQUIVALENCE",
+    "not_automatic_match": true
+  },
+  {
+    "shared_need_hypothesis": "黏土造型活动",
+    "types": [
+      {
+        "type": "黏土造型制作用品",
+        "supporting_skus": [
+          "3208824"
+        ]
+      },
+      {
+        "type": "黏土造型材料",
+        "supporting_skus": [
+          "2527108",
+          "2546586",
+          "3207929",
+          "3214291",
+          "3217311",
+          "3224293"
+        ]
+      }
+    ],
+    "relation": "SHARED_NEED_CANDIDATE_NOT_PRODUCT_EQUIVALENCE",
+    "not_automatic_match": true
+  }
+]

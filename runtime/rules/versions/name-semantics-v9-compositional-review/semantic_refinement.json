@@ -1,0 +1,411 @@
+{
+  "version": "name-semantics-v9-compositional-review",
+  "method": "Refine frozen parent candidates using reusable Spanish object/modifier relationships. Not a new independent classifier or parameter training.",
+  "scope": "Same 2000 SKU; no new sample; preserve prior unresolved rows and all human feedback",
+  "semantic_priority": [
+    "source validity",
+    "named object",
+    "explicit target/use modifier",
+    "multiple named components",
+    "ordinary-use inference",
+    "seasonal or brand wording"
+  ],
+  "rules": [
+    {
+      "id": "CRAFT_PAINT_KIT",
+      "regex": "^(?:kit|set|juego) de pintura\\b",
+      "exclude_regex": "pared|suelo|hormig[oó]n|carrocer[ií]a|fachada",
+      "patch": {
+        "category_l1": "手工创作",
+        "category_l2": "绘画活动",
+        "product_type": "绘画套装（具体材料未明）",
+        "primary_function": [
+          "绘画活动（品名用途）"
+        ],
+        "consumer_need": [
+          "绘画创作"
+        ],
+        "usage_scenario": [
+          "绘画活动"
+        ],
+        "action_pattern": [
+          "兴趣创作"
+        ]
+      },
+      "reason": "套装活动对象优先于内部pintura关键词；工程涂装对象另分支，不依品牌判定。"
+    },
+    {
+      "id": "LIP_AND_HAND_COMBINATION",
+      "regex": "^potenciador labial y crema de manos\\b",
+      "patch": {
+        "category_l2": "唇部与手部护理组合",
+        "product_type": "唇部用品与护手霜组合",
+        "primary_function": [
+          "唇部外观修饰（名称用途，效果未验证）",
+          "手部护理（名称用途）"
+        ],
+        "consumer_need": [
+          "唇部修饰",
+          "手部护理"
+        ],
+        "usage_scenario": [
+          "唇部与手部护理"
+        ]
+      },
+      "reason": "y连接的两个商品成分均保留，不能只给第一对象的用途。"
+    },
+    {
+      "id": "HAIR_PERFUME_PURPOSE",
+      "regex": "^perfume para el cabello\\b",
+      "patch": {
+        "category_l2": "头发香氛",
+        "product_type": "头发香氛用品",
+        "primary_function": [
+          "为头发提供香气（名称用途）"
+        ],
+        "consumer_need": [
+          "头发香氛"
+        ],
+        "usage_scenario": [
+          "头发使用"
+        ]
+      },
+      "reason": "para el cabello限定施用对象，不能把香氛等同护发或造型功效。"
+    },
+    {
+      "id": "SCENTED_CANDLE",
+      "regex": "^vela (?:arom[aá]tica|perfumada)\\b",
+      "patch": {
+        "primary_function": [
+          "香氛（名称宣称）",
+          "灯光或装饰（具体结构以品名为限）"
+        ],
+        "consumer_need": [
+          "氛围装饰",
+          "香气体验"
+        ]
+      },
+      "reason": "保留香气修饰，不因为共有vela对象而只保留烛光功能；LED不推断燃烧。"
+    },
+    {
+      "id": "DATA_AND_CHARGE",
+      "regex": "^cable de datos y carga\\b",
+      "patch": {
+        "product_type": "数据与充电连接线",
+        "primary_function": [
+          "数据传输（名称用途）",
+          "充电（名称用途）"
+        ],
+        "consumer_need": [
+          "设备数据连接",
+          "设备充电"
+        ],
+        "usage_scenario": [
+          "数据连接与充电"
+        ]
+      },
+      "reason": "显式datos y carga必须双用途；不把只写datos的线添加充电功能。"
+    },
+    {
+      "id": "TRAVEL_LUGGAGE",
+      "regex": "^maletas?\\b",
+      "patch": {
+        "category_l1": "旅行用品",
+        "category_l2": "行李携带",
+        "product_type": "行李箱",
+        "primary_function": [
+          "装载与携带行李"
+        ],
+        "consumer_need": [
+          "行李携带"
+        ],
+        "usage_scenario": [
+          "出行行李携带（常规用途）"
+        ],
+        "action_pattern": [
+          "出行应急"
+        ]
+      },
+      "reason": "统一研究分类口径；旧服饰箱包分类并非语义事实错误。"
+    },
+    {
+      "id": "CAMPING_CHAIR",
+      "regex": "^silla de camping\\b",
+      "patch": {
+        "category_l1": "园艺户外",
+        "category_l2": "露营座椅",
+        "product_type": "露营椅",
+        "primary_function": [
+          "坐用（常规用途）"
+        ],
+        "consumer_need": [
+          "露营座位配置"
+        ],
+        "usage_scenario": [
+          "露营（品名明确）"
+        ]
+      },
+      "reason": "用途修饰camping不能被通用座椅标签抹掉；不推断防水、承重或便携性能。"
+    },
+    {
+      "id": "PET_TOY_USE",
+      "regex": "^juguetes?(?: de \\w+)? para (?:perros|gatos)\\b",
+      "patch": {
+        "category_l2": "宠物玩具",
+        "product_type": "宠物玩具",
+        "primary_function": [
+          "供标题指定动物玩耍"
+        ],
+        "consumer_need": [
+          "动物玩耍"
+        ],
+        "usage_scenario": [
+          "标题指定动物玩耍"
+        ],
+        "action_pattern": [
+          "宠物照护",
+          "休闲游戏"
+        ]
+      },
+      "reason": "juguete为主体、para动物为使用对象；宽泛宠物用品标签可进一步细化。"
+    },
+    {
+      "id": "LANTERN_COMPONENT_BOUNDARY",
+      "regex": "^farol\\b",
+      "exclude_regex": "solar|led|el[eé]ctric|recargable",
+      "patch": {
+        "product_type": "灯笼或提灯形器具（光源未明）",
+        "primary_function": [
+          "灯光或灯具陈设（光源是否随附未明）"
+        ],
+        "consumer_need": [
+          "灯光或灯具陈设"
+        ],
+        "confidence": "中"
+      },
+      "reason": "名称支持器具，不保证随附发光部件；不把缺少可选部件当成源损坏。"
+    },
+    {
+      "id": "BRONCEADOR_POLYSEMY",
+      "regex": "^bronceador\\b",
+      "patch": {
+        "category_l2": "仿晒或妆容用途待定",
+        "product_type": "肤色修饰或日晒相关用品（具体形式待核实）",
+        "primary_function": [
+          "具体用途待核实"
+        ],
+        "consumer_need": [
+          "肤色或日晒相关需求待确认"
+        ],
+        "usage_scenario": [
+          "场景未确定"
+        ],
+        "uncertainty_codes": [
+          "TYPE_AMBIGUOUS"
+        ]
+      },
+      "reason": "仅bronceador无法排除不同化妆/日晒用法，不能凭品牌指定彩妆形态或防晒功效。"
+    },
+    {
+      "id": "CHRISTMAS_BALL_CONTENT_BOUNDARY",
+      "regex": "^bola navide[nñ]a\\b",
+      "exclude_regex": "decoraci[oó]n|colgar|[aá]rbol|chocolate|caramelo",
+      "patch": {
+        "category_l1": "未确定",
+        "category_l2": "节庆球形商品用途待定",
+        "product_type": "圣诞球形商品（形式与内含物未明）",
+        "primary_function": [
+          "节庆主题，具体用途待核实"
+        ],
+        "consumer_need": [
+          "用途待明确"
+        ],
+        "usage_scenario": [
+          "场景未确定"
+        ],
+        "action_pattern": [],
+        "uncertainty_codes": [
+          "TYPE_AMBIGUOUS"
+        ]
+      },
+      "reason": "navideña是主题，不足以独立确定可悬挂装饰还是其他球形商品；不从Milka等品牌反推食品。"
+    },
+    {
+      "id": "MULTIVITAMIN_GUMMY",
+      "regex": "^gominolas multivitam[ií]nicas\\b",
+      "patch": {
+        "category_l2": "营养相关食用商品",
+        "product_type": "标称多维生素软糖（法规归类未判定）",
+        "primary_function": [
+          "食用（名称用途，剂量和适用性未审核）"
+        ],
+        "consumer_need": [
+          "营养相关食用选择（非效果保证）"
+        ]
+      },
+      "reason": "保留multivitamínicas命名属性，不降成普通糖果，也不推断疗效或法定补充剂身份。"
+    },
+    {
+      "id": "PROTEIN_DRINK_FORM",
+      "regex": "^bebida proteica\\b",
+      "patch": {
+        "category_l2": "营养相关饮品",
+        "product_type": "蛋白饮品（名称宣称）",
+        "primary_function": [
+          "饮用（常规用途）"
+        ],
+        "consumer_need": [
+          "饮品选择",
+          "营养相关食用选择（非效果保证）"
+        ],
+        "usage_scenario": [
+          "饮用场景"
+        ]
+      },
+      "reason": "bebida已给出饮品形式，不停留在蛋白食品泛称，不推断运动增肌。"
+    },
+    {
+      "id": "HOT_CHOCOLATE_USE",
+      "regex": "^chocolate caliente\\b",
+      "patch": {
+        "category_l2": "巧克力饮品相关",
+        "product_type": "热巧克力饮品相关商品（交付形态未明）",
+        "primary_function": [
+          "饮用（常规用途）"
+        ],
+        "consumer_need": [
+          "饮品选择"
+        ],
+        "usage_scenario": [
+          "饮用场景"
+        ]
+      },
+      "reason": "识别热巧克力的饮用用途，不推断即饮、粉末或冲调方式。"
+    },
+    {
+      "id": "POLISH_OR_DRY_CLOTH",
+      "regex": "^pa[nñ]o para pulir o para secar\\b",
+      "patch": {
+        "product_type": "抛光或擦干用布",
+        "primary_function": [
+          "抛光（名称用途）",
+          "擦干（名称用途）"
+        ],
+        "consumer_need": [
+          "表面抛光或擦干"
+        ],
+        "usage_scenario": [
+          "表面处理（具体对象未限定）"
+        ]
+      },
+      "reason": "o连接用途为替代用途，不把泛擦拭当作完整用途学习。"
+    },
+    {
+      "id": "READING_GLASSES",
+      "regex": "^gafas de lectura\\b",
+      "patch": {
+        "product_type": "阅读眼镜",
+        "primary_function": [
+          "辅助阅读视用（名称用途）"
+        ],
+        "consumer_need": [
+          "阅读视用"
+        ],
+        "usage_scenario": [
+          "阅读（名称用途）"
+        ]
+      },
+      "reason": "lectura明确用途；不额外推断度数、诊疗作用或遮光。"
+    },
+    {
+      "id": "ARTIFICIAL_FLOWER_LIGHT",
+      "regex": "^bola de flores artificiales con iluminaci[oó]n solar\\b",
+      "patch": {
+        "primary_function": [
+          "花饰陈设",
+          "太阳能照明（名称宣称）"
+        ],
+        "consumer_need": [
+          "花材装饰",
+          "灯光装饰"
+        ],
+        "usage_scenario": [
+          "花饰与灯光陈设（具体位置未限定）"
+        ]
+      },
+      "reason": "con iluminación为明确附属功能；solar仅作为命名宣称，不当作性能已核验。"
+    },
+    {
+      "id": "SHOPPING_BAG_USE",
+      "regex": "^bolsa(?: plegable)? (?:de (?:la )?compra|para (?:la )?compras?)\\b",
+      "patch": {
+        "category_l2": "购物携带",
+        "product_type": "购物袋",
+        "primary_function": [
+          "携带购物物品"
+        ],
+        "consumer_need": [
+          "购物物品携带"
+        ],
+        "usage_scenario": [
+          "购物携带（名称用途）"
+        ]
+      },
+      "reason": "保留明确购物用途；服饰/日用为研究分类选择，不声称旧标签是语义错误。"
+    },
+    {
+      "id": "PYJAMA_USE",
+      "regex": "^pantal[oó]n de pijama\\b",
+      "patch": {
+        "category_l2": "睡衣下装",
+        "product_type": "睡衣裤",
+        "primary_function": [
+          "穿着（常规用途）"
+        ],
+        "consumer_need": [
+          "睡衣穿着"
+        ],
+        "usage_scenario": [
+          "睡衣场景（品名明确）"
+        ]
+      },
+      "reason": "pijama的命名用途应保留；不推断面料、保暖或穿着效果。"
+    },
+    {
+      "id": "MAKEUP_TABLE_USE",
+      "regex": "^mesa de maquillaje\\b",
+      "patch": {
+        "category_l2": "化妆桌",
+        "product_type": "化妆桌",
+        "primary_function": [
+          "为化妆活动提供桌面（常规用途）"
+        ],
+        "consumer_need": [
+          "化妆桌面配置"
+        ],
+        "usage_scenario": [
+          "化妆场景（名称用途）"
+        ]
+      },
+      "reason": "maquillaje指活动，桌子仍是家具，不归彩妆耗材。"
+    },
+    {
+      "id": "SPORT_GRIP_OBJECT",
+      "regex": "^grips de mano\\b",
+      "patch": {
+        "category_l2": "手部训练",
+        "product_type": "手部握力训练用品（结构未明）",
+        "primary_function": [
+          "手部握持训练（名称用途）"
+        ],
+        "consumer_need": [
+          "手部训练"
+        ],
+        "usage_scenario": [
+          "手部训练（结构与阻力未核实）"
+        ]
+      },
+      "reason": "保留mano限定，器械结构/阻力值仍未知，不凭品牌确认效果。"
+    }
+  ]
+}

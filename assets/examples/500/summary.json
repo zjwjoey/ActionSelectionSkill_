@@ -1,0 +1,20 @@
+{
+  "n": 500,
+  "states": {
+    "待复核": 271,
+    "纳入候选": 229
+  },
+  "pending_reasons": {
+    "OPERATING_BOUNDARY_UNCONFIRMED": 136,
+    "DEPENDENCY_REVIEW": 62,
+    "REFERENCE_ABSENT": 48,
+    "REFERENCE_COVERAGE_INCOMPLETE": 10,
+    "REFERENCE_TOO_BROAD": 3,
+    "INFORMATION_INSUFFICIENT": 12
+  },
+  "human_gold": 0,
+  "accuracy": null,
+  "frozen_unchanged": true,
+  "master_changed": false,
+  "full_rescreen": false
+}

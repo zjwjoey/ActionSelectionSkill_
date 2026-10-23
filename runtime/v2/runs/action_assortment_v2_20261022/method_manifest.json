@@ -1,0 +1,13 @@
+{
+  "version": "assortment-v2.2-experimental",
+  "action_snapshot": "master_632e4e1c186a88c1",
+  "policy_sha256": "74f4bebb712b0564388f4d3f873b79e96f2b3c342768af7b0c45db8a6394ee91",
+  "code_sha256": "83610734da8d611203751a110bb16296d553b97cfb1577ae63c3b77defb3a26e",
+  "index_sha256": "e944252617db9a5d49b9c23dc0aa9c7370516e41efb380422545b6a55393c5f0",
+  "feature_sha256": "33855d6ffc90b85553985291744ffb28cc056db8d944fc71597fb5ed32107e8c",
+  "fit_scope": "Eligible Action titles only. No Amazon fitting, no labels, no external outcomes.",
+  "latent_dimensions": 128,
+  "word_features": 16817,
+  "character_features": 21913,
+  "head_vocabulary": 787
+}

@@ -1,0 +1,75 @@
+{
+  "method": "LIVE_BROWSER_EXTENSION_OFFICIAL_RETAILER_PAGES",
+  "separate_from_title_only_validation": true,
+  "human_gold": false,
+  "master_changed": false,
+  "frozen_rules_changed": false,
+  "frozen_results_changed": false,
+  "findings": [
+    {
+      "review_id": "N038",
+      "fact_status": "CONFIRMED_PORTABLE_GAS_WATER_HEATER",
+      "official_evidence_url": "https://www.amazon.es/Calentador-Instant%C3%A1neo-6L-Blanco-Precisi%C3%B3n/dp/B0HHMSH3RP?psc=1",
+      "checked_at": "2026-10-23T05:55:57.421Z",
+      "observed_fact": "Amazon卖家商品页面明确称便携式丙烷热水器，适用户外、露营、旅行；保留为卖家对用途的陈述，不核实安全性能。",
+      "assessment": "固定安装设备的排除依据不成立；便携燃气设备是否经营仍属于待确认边界。",
+      "recommended_state": "待复核",
+      "raw_frozen_state": "暂不纳入",
+      "automatic_application": false
+    },
+    {
+      "review_id": "N037",
+      "fact_status": "AMAZON_ITEM_CONFIRMED_ACTION_REFERENCE_UNAVAILABLE",
+      "official_evidence_urls": [
+        "https://www.amazon.es/YARRAMATE-Dispensador-Protezione-Pulverizador-Alimentaria/dp/B0DJXPTRW6?psc=1",
+        "https://www.action.com/es-es/?ShowProductWarning=true&productCode=3222348"
+      ],
+      "checked_at": "2026-10-23T05:57:20.337Z",
+      "observed_fact": "Amazon明确为厨房用喷油/倒油两用瓶；Action 3222348详情入口跳转商品不可用，精确SKU检索未取得可核对的官方详情。",
+      "assessment": "厨房喷油用途不能由Action旧品名Botella con pulverizador证明，保留参照用途未确认状态。",
+      "recommended_state": "待复核",
+      "raw_frozen_state": "纳入候选",
+      "automatic_application": false
+    },
+    {
+      "review_id": "N065",
+      "fact_status": "ACTION_GAME_CONTROLLER_PURPOSE_CONFIRMED_DIFFERENT_ITEM_TYPE",
+      "official_evidence_urls": [
+        "https://www.amazon.es/Magn%C3%A9tico-Distancia-Autoadhesivo-Acondicionado-Taladrar/dp/B0H15JFRVW?psc=1",
+        "https://www.action.com/es-es/p/3222901/soporte-para-auriculares-y-mando-battletron/"
+      ],
+      "checked_at": "2026-10-23T05:56:59.212Z",
+      "observed_fact": "Action官网明确游戏场景、耳机与4个手柄收纳及Nintendo/PlayStation/Xbox/PC用途；Amazon为电视/空调遥控器磁吸壁架。",
+      "assessment": "游戏手柄含义已由官网详情确认；两侧商品形态、适配对象不同，只能证明控制器收纳需求相关，不能升级为同类。",
+      "reference_role": "specific_need_only_not_same_type",
+      "raw_frozen_state": "纳入候选",
+      "recommended_state": "待复核",
+      "automatic_application": false
+    }
+  ],
+  "still_unavailable": [
+    "Action3222348"
+  ],
+  "evidence_files": {
+    "Action3222901.png": {
+      "sha256": "680d468b8e0a5aa8c7be1dda0fa77aa793ec8e42d179b7ae216cd86aed4d481b",
+      "bytes": 454015
+    },
+    "N037_amazon.png": {
+      "sha256": "a22f4e65365d2426e5e6c2d534a64a3a48a1595575fb37070646fa7f19c4390b",
+      "bytes": 1300651
+    },
+    "N038_amazon.png": {
+      "sha256": "40b461dddda87a0b664543af4232914a5a4542bcd2a801e1a688d468e22ca9f7",
+      "bytes": 581234
+    },
+    "N065_amazon.png": {
+      "sha256": "85671312c9cabd509eb316adfabc00df4046bd2d21baa15ba59482592f2c3257",
+      "bytes": 194704
+    },
+    "website_evidence.json": {
+      "sha256": "955b5d39a9d5c643104c071e2ced9ce5ec5284f34110026e7957d1bc7268d592",
+      "bytes": 8646
+    }
+  }
+}

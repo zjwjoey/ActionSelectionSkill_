@@ -1,0 +1,332 @@
+# id|regex|type|ordinary use hypothesis|specific consumer need
+mousepad|^alfombrillas? para (?:el )?(?:rat[oó]n|mouse)\b|鼠标垫|为鼠标操作提供垫面|鼠标操作垫面
+potted_bonsai|^bons[aá]i\b|盆景植物|陈设盆景植物|盆景陈设
+potted_plant|^plantas?\b.*\ben macet[ao]\b|盆栽植物|陈设或养护盆栽|盆栽陈设养护
+artificial_plant|^(?:plantas?|flores?|ramas?|orqu[ií]dea|bons[aá]i)\b.*\bartificial(?:es)?\b|仿真植物饰品|陈设仿真植物造型|仿真植物陈设
+floorcloth|^pa[ñn]os?\b.*\b(?:para el suelo|suelos)\b|地板擦拭布|擦拭地板|地板擦拭
+kitchencloth|^pa[ñn]os? de cocina\b|厨房用布|厨房擦拭|厨房擦拭
+microfibercloth|^pa[ñn]os? de microfibras?\b|超细纤维擦拭布|擦拭表面|表面擦拭
+bathtowel|^toallas? de ba[ñn]o\b|浴巾|沐浴后擦拭身体|沐浴后擦干
+handtowel|^toallas? de manos\b|擦手毛巾|擦干双手|洗手后擦干
+carwipes|^toallitas? para (?:coche|auto)\b|汽车擦拭巾|擦拭车辆表面|车辆表面擦拭
+babywipes|^toallitas? (?:para beb[eé]|de beb[eé]|h[uú]medas para beb[eé])\b|婴儿湿巾|婴儿日常擦拭|婴儿擦拭
+dishwasherdetergent|^(?:gel|pastillas?|c[aá]psulas?|detergente)\b.*\blavavajillas\b|洗碗机清洗剂|清洗餐具|机器清洗餐具
+laundrydetergent|^detergente\b.*\b(?:ropa|lavadora|colada)\b|衣物洗涤剂|清洗衣物|衣物洗涤
+floordetergent|^(?:limpiasuelos|limpiador de suelos)\b|地板清洁剂|清洁地板|地板清洁
+carshampoo|^champ[uú]\b.*\bcoches?\b|汽车清洗剂|清洗车辆|车辆清洗
+hairshampoo|^champ[uú]\b(?!.*\b(?:coche|perro|gato|mascota))|洗发水|清洗头发|头发清洗
+hairconditioner|^acondicionador\b.*\b(?:pelo|cabello|capilar)\b|护发素|护理头发|洗后护发
+bodylotion|^loci[oó]n corporal\b|身体乳液|皮肤日常护理|身体皮肤护理
+bodycream|^crema corporal\b|身体乳霜|皮肤日常护理|身体皮肤护理
+facecream|^crema\b.*\b(?:facial|de d[ií]a|de noche)\b|面部护肤霜|面部日常护理|面部皮肤护理
+faceserum|^s[eé]rum facial\b|面部精华|面部日常护理|面部皮肤护理
+handcream|^crema de manos\b|护手霜|手部皮肤护理|手部皮肤护理
+shaving|^(?:gel|espuma) de afeitar\b|剃须辅助用品|辅助剃须|剃须准备
+toothpaste|^(?:pasta de dientes|dent[ií]frico|pasta dental)\b|牙膏|刷牙清洁|牙齿清洁
+toothbrush|^cepillos? (?:de dientes|dental)\b|牙刷|刷洗牙齿|牙齿清洁
+interdental|^cepillos? interdentales\b|牙间刷|清洁牙间隙|牙间隙清理
+dentalfloss|^hilo dental\b|牙线|清洁牙间隙|牙间隙清理
+nailclipper|^cortau[ñn]as\b|指甲剪|修剪指甲|指甲修剪
+nailbrush|^cepillo de u[ñn]as\b|指甲刷|清洁指甲周边|指甲周边清洁
+groutbrush|^cepillo para juntas\b|缝隙清洁刷|刷洗接缝|接缝清洁
+bottlebrush|^cepillo para tetinas y biberones\b|奶瓶奶嘴刷|刷洗奶瓶奶嘴|奶瓶奶嘴清洁
+drillbrush|^brochas? para taladro\b|电钻配套刷头|配合电钻刷洗|机动刷洗配件
+makeupbrush|^(?:brochas?|pinceles?)\b.*\b(?:maquillaje|kabuki|sombra de ojos)\b|化妆刷|涂布化妆品|上妆操作
+paintbrush|^brochas?\b.*\b(?:pintura|pintar)\b|涂漆刷|涂刷表面|表面涂装
+paintroller|^rodillos? de pintura\b|涂漆滚筒|滚涂表面|表面涂装
+painttray|^bandejas? para rodillo\b|涂漆滚筒托盘|盛放滚涂用涂料|滚涂配套盛料
+paintbucket|^cubos? para pintura\b|涂料桶|盛放涂料|涂装盛料
+paintingkit|^(?:set|juego) de accesorios de pintura\b|涂装配件套装|辅助涂装|表面涂装配套
+wallpaperkit|^juego para empapelar\b|贴壁纸工具组合|辅助铺贴壁纸|壁纸铺贴
+packtape|^cinta (?:adhesiva )?de embalaje\b|包装胶带|封合包装|包装封合
+maskingtape|^cinta (?:de enmascarar|para enmascarar|de carrocero)\b|遮蔽胶带|遮蔽施工边界|涂装边界遮蔽
+mountingtape|^cinta de montaje\b|安装胶带|粘接安装物件|粘接安装
+gluestick|^barras? de cola\b|热熔胶棒|供适配胶枪粘接|热熔粘接耗材
+gluegun|^pistola (?:de encolado|de pegamento|de silicona)\b|胶枪|涂施胶料|涂胶粘接
+heatgun|^pistola de aire caliente\b|热风枪|局部热风处理|热风作业
+drillbits|^brocas?\b|钻头|配合钻具钻孔|钻孔配件
+precisionknife|^(?:navajas?|cuchillas?) de precisi[oó]n\b|精细切割刀具|精细切割|小件精细切割
+voltmeter|^volt[ií]metro\b|电压表|测量电压|电压测量
+thermometer|^term[oó]metro\b|温度计|测量温度|温度测量
+measuringtape|^(?:cinta m[eé]trica|flex[oó]metro)\b|卷尺|测量长度|长度测量
+rulersquare|^juego de escuadra y cartab[oó]n\b|三角尺组合|绘制直线与角度辅助|几何绘图
+mouse|^rat[oó]n (?:[oó]ptico|inal[aá]mbrico|gaming|para ordenador)\b|电脑鼠标|操控电脑指针|电脑指针操作
+usbdata|^cable(?:s)? de datos y carga\b|数据充电线|连接设备传输数据或充电|设备数据供电连接
+audiocable|^cable(?:s)? de audio\b|音频线|传递音频信号|音频设备连接
+hdmicable|^cable(?:s)? HDMI\b|HDMI连接线|连接影音设备|影音信号连接
+extensioncord|^alargador\b|延长线|延长电源接线|供电距离延长
+powerstrip|^regleta\b|插线板|提供多插位供电连接|多设备供电连接
+battery|^pilas?\b|电池|为适配设备供电|便携设备供电
+memorycard|^tarjeta de memoria\b|存储卡|在适配设备保存数据|可移动数据存储
+mic|^micr[oó]fono\b|麦克风|拾取声音|音频输入
+speaker|^altavo(?:z|ces)\b|扬声器|播放声音|音频播放
+headphones|^auriculares\b|耳机|个人收听音频|个人音频收听
+phoneholder|^soporte(?: magn[eé]tico)? para (?:el tel[eé]fono|tel[eé]fono|m[oó]vil|smartphone|tablet)\b|手机平板支架|支承手机或平板|移动设备摆放
+monitorstand|^soporte para monitor\b|显示器支架|支承显示器|显示器摆放
+toothbrushholder|^soporte para cepillos de dientes\b|牙刷架|收放牙刷|牙刷收放
+cottonholder|^soporte para (?:discos|bastoncillos) de algod[oó]n\b|棉签化妆棉收纳架|收纳棉签或化妆棉|护理小物收纳
+pencilholder|^soporte para l[aá]pices\b|笔架|收放笔|书写工具收纳
+tabletcase|^funda para tablet\b|平板保护套|包覆平板|平板外部保护
+ironingcover|^funda de tabla de planchar\b|熨衣板套|覆盖熨衣板工作面|熨衣板配套覆面
+carcover|^funda(?: protectora)? (?:de coche|para coche|para moto|para asientos de coche)\b|车辆或车座罩套|覆盖标题指定车辆或座椅|车辆部件覆盖保护
+laminating|^fundas? para (?:laminar|plastificar)\b|覆膜袋|配合覆膜作业|文档覆膜保护
+ironingboard|^tabla de planchar\b|熨衣板|承托待熨衣物|衣物熨烫支承
+laundrybag|^bolsas? para lavadora\b|机洗护洗袋|装入衣物进行机洗|衣物机洗分装
+dryingline|^cuerda para tender la ropa\b|晾衣绳|悬挂晾晒衣物|衣物晾晒
+foodbag|^bolsas? (?:de congelado y conservaci[oó]n|de conservaci[oó]n|para alimentos)\b|食品保存袋|分装保存食品|食品分装保存
+pantryjar|^tarros? de despensa\b|食品储存罐|存放食品|食品储存
+pantrybox|^cajas? de despensa\b|食品储存盒|存放食品|食品储存
+foodcontainer|^(?:bote|recipiente)\b.*\b(?:alimentos|mantener fresco)\b|食品保存容器|存放食品|食品储存
+lunchbox|^fiambreras?\b|饭盒|盛装携带餐食|餐食携带
+storagebox|^cajas? de (?:almacenaje|almacenamiento)\b|收纳箱|归置物品|箱式收纳
+storagebasket|^cestas? de almacenaje\b|收纳篮|归置物品|篮式收纳
+makeuporganizer|^organizador(?:es)? de maquillaje\b|化妆品整理架盒|分类摆放化妆品|化妆品收纳
+suitcaseorganizer|^organizadores? para maletas\b|行李箱整理袋盒|分装行李箱物品|行李分装
+drawerorganizer|^(?:organizadores?|separadores?) de cajones\b|抽屉分隔整理件|分隔抽屉内物品|抽屉分隔收纳
+teabox|^caja de t[eé]\b|茶叶收纳盒|收纳茶叶或茶包|茶叶分格收纳
+moneybox|^caja de dinero\b|钱款收纳盒|存放钱款|钱款收纳
+officetray|^bandeja de oficina\b|办公文件托盘|归置文件|桌面文件整理
+grilltray|^bandejas?\b.*\b(?:parrilla|barbacoa)\b|烧烤托盘|承放烧烤食材|烧烤食材承放
+deepplate|^platos? hondos?\b|深盘|盛放餐食|餐食盛装
+flatplate|^platos? llanos?\b|平盘|盛放餐食|餐食盛装
+teacup|^tazas? de t[eé]\b|茶杯|盛装茶饮|饮品盛装
+fryingpan|^sart[eé]n(?:es)?\b|煎锅|煎制食物|食物煎制
+saucepan|^cazo\b|小煮锅|煮制食物|食物煮制
+casserole|^(?:cacerola|olla)\b|炖煮锅|炖煮食物|食物炖煮
+icepack|^acumuladores? de fr[ií]o\b|蓄冷块|辅助低温保存|携带物品蓄冷
+backpack|^mochilas?\b|双肩背包|背负携带物品|背负携带
+travelbag|^bolsa de viaje\b|旅行袋|携带旅行物品|旅行物品携带
+toolbag|^bolsa de herramientas\b|工具袋|收纳携带工具|工具携带
+constructionbag|^bolsa de escombros\b|建筑碎料袋|装运施工碎料|施工碎料收集
+growingbag|^bolsa de cultivo\b|种植袋|容纳种植基质|袋式种植
+sportssocks|^calcetines de deporte\b|运动袜|运动时足部穿着|运动足部衣着
+homesocks|^calcetines para estar por casa\b|居家袜|居家足部穿着|居家足部衣着
+boxers|^b[oó]xers?\b|平角内裤|贴身穿着|下身贴身衣着
+earrings|^pendientes\b|耳饰|耳部佩戴装饰|耳部装饰
+necklace|^collar\b(?!.*\b(?:perro|gato|mascota))|项链|颈部佩戴装饰|颈部装饰
+wallclock|^reloj de pared\b|挂钟|壁挂显示时间|墙面时间显示
+alarmclock|^reloj despertador\b|闹钟|定时提醒|起床时间提醒
+bulb|^bombillas?\b|灯泡|安装于适配灯具供光|灯具光源替换
+ceilinglight|^(?:plaf[oó]n|luz de techo)\b|吸顶灯|提供顶部照明|室内顶部照明
+gardenlight|^(?:luz|l[aá]mpara)\b.*\bjard[ií]n\b|庭院灯|提供庭院灯光|庭院照明
+nightlight|^luz de noche\b|小夜灯|夜间提供局部光照|夜间局部照明
+scentcandle|^velas? (?:perfumadas?|arom[aá]ticas?)\b|香薰蜡烛|散发香气|室内香氛布置
+ledcandle|^vela LED\b|LED蜡烛灯|提供烛形灯光|烛形灯光布置
+photoframe|^marcos? de fotos\b|相框|陈列照片|照片展示
+canvas|^lienzos?\b|画布|承载绘画|绘画承载材料
+drawingpad|^bloc de (?:dibujo|acuarelas)\b|绘画纸本|承载绘画|绘画承载材料
+printerpaper|^papel de impresora\b|打印纸|承载打印内容|文档打印
+coloringbook|^libros? (?:de colorear|para colorear|m[aá]gico de acuarelas)\b|涂色活动书|按图涂色|图案涂色活动
+puzzlebook|^libro de puzzles\b|益智题册|解答书面谜题|纸面益智活动
+diamondpainting|^(?:pintura|cuadro) (?:con|de) diamantes\b|钻石画制作用品|粘贴颗粒形成图案|拼贴图案制作
+makejewelry|^(?:haz|crea) tu(?:s)? propi[oa]s? (?:llavero|pulsera|collar)\b|饰件制作用品|制作名称所指饰件|手工饰件制作
+makecandle|^(?:haz|crea) tu(?:s)? propi[oa]s? velas?\b|蜡烛制作用品|制作蜡烛|蜡烛手工制作
+makeslime|^(?:haz|crea) tu(?:s)? propi[oa]s? (?:slime|limo)\b|史莱姆制作用品|制作可塑胶状玩具|可塑玩具制作
+makeclay|^haz tu propia figura de arcilla\b|黏土造型制作用品|制作黏土造型|黏土造型活动
+mountsmoke|^kit de montaje para detector de humos\b|烟雾探测器安装件|安装适配探测器|探测器固定安装
+growkit|^kit de cultivo\b|种植套件|开展种植|植物种植操作
+makeupkit|^(?:kit|set) de maquillaje\b|彩妆套装|上妆修饰|上妆操作
+snorkelkit|^set de snorkel\b|浮潜用品套装|配合浮潜活动|浮潜装备
+badminton|^(?:juego de b[aá]dminton|raquetas? de b[aá]dminton)\b|羽毛球用品|进行羽毛球活动|羽毛球运动
+jumpercable|^cables? de arranque\b|车辆搭电线|连接适配电源辅助起动|车辆辅助起动
+gardennozzle|^pistolas? de riego\b|浇灌喷枪|浇灌植物|植物浇灌
+basketball|^pelota de baloncesto\b|篮球|进行篮球活动|篮球运动
+pingpong|^pelotas? de pimp[oó]n\b|乒乓球|进行乒乓球活动|乒乓球运动
+padel|^pelotas? de p[aá]del\b|板式网球|进行板式网球活动|板式网球运动
+bikepump|^bomba para bicicleta\b|自行车打气筒|给适配车胎充气|自行车轮胎充气
+airpump|^bomba (?:de aire|de inflado)\b|充气泵|给适配充气物充气|充气物补气
+bikebrake|^pastillas? de freno de bicicleta\b|自行车刹车片|更换适配制动部件|自行车制动维护
+swimgoggles|^gafas de nataci[oó]n\b|泳镜|游泳时佩戴|游泳眼部装备
+toiletbrush|^escobilla de ba[ñn]o\b|卫生间清洁刷|刷洗卫生间器具|卫生间刷洗
+fragrancerefill|^recambio de ambientador\b|空气芳香剂补充装|补充适配芳香器具|室内香氛补充
+handsoaprefill|^recambio de jab[oó]n de manos\b|洗手液补充装|补充洗手清洁品|洗手清洁补充
+petpads|^almohadillas de (?:entrenamiento|adiestramiento) para cachorros\b|幼犬训练垫|辅助幼犬如厕训练|幼犬如厕训练
+dogrope|^cuerda (?:de juguete|de juego)(?: XXL)? para perros\b|犬用绳玩具|供犬拉扯互动|犬类互动玩耍
+toycar|^(?:coche|cami[oó]n|veh[ií]culo) (?:de juguete|en miniatura)\b|玩具车辆|车辆造型玩耍|车辆主题玩耍
+remotevehicle|^(?:coche|veh[ií]culo)\b.*\b(?:teledirigido|con mando)\b|遥控车辆玩具|遥控操作玩耍|遥控车辆活动
+toywater|^animal de juguete para la ba[ñn]era\b|浴缸玩具|沐浴时玩耍|沐浴玩耍
+seasonaldecor|^(?:decoraci[oó]n|colgantes?|adornos?|figuras?)\b.*\b(?:Navidad|navide[ñn][oa]s?|Halloween|Pascua)\b|节庆装饰件|布置名称所指节庆主题|节庆主题布置
+walldecor|^decoraci[oó]n de pared\b|墙面装饰件|装饰墙面|墙面布置
+garland|^guirnalda de (?:hojas|flores artificiales)\b|植物造型装饰花环|陈设植物造型花环|花环装饰
+balloongarland|^guirnalda de globos\b|气球装饰串|布置气球组合|气球场景布置
+sugardecor|^decoraci[oó]n de az[uú]car\b|糖制装饰物|装饰食品（常规用途）|食品装饰
+chocolateshape|^(?:bolas?|figuras?|huevos?|tabletas?|barras?|palitos|Pap[aá] Noel)\b.*\bchocolate\b|造型巧克力|食用巧克力|巧克力零食
+candy|^(?:caramelos|mezcla de caramelos|surtido de golosinas)\b|糖果|食用糖果|糖果零食
+cookies|^galletas\b(?!.*\b(?:perros|gatos|mascotas))|饼干|食用饼干|饼干零食
+nutmix|^mezcla de (?:anacardos|pistachos|nueces|frutos secos|ar[aá]ndanos y cacahuetes|semillas)\b|坚果种籽混合食品|食用混合坚果种籽|坚果种籽零食
+spicemix|^mezcla de especias\b|混合香辛料|给食品调味|食品调味
+motor_oil|^aceite de motor\b|发动机油|润滑适配发动机|发动机润滑维护
+glasswasher|^l[ií]quido limpiaparabrisas\b|挡风玻璃清洗液|清洗挡风玻璃|车辆玻璃清洗
+parasol|^sombrilla\b|遮阳伞|遮挡日光|日光遮挡
+desklamp|^l[aá]mparas? de mesa\b|台灯|提供桌面灯光|桌面照明
+walllamp|^l[aá]mparas? de pared\b|壁灯|提供墙面安装灯光|墙装照明
+flashlight|^linterna\b|手电筒|手持提供光照|手持照明
+lightstring|^guirnalda (?:LED|de luces)\b|灯串|布置串状灯光|串灯布置
+coffebeans|^caf[eé] en grano\b|咖啡豆|研磨后制备咖啡饮品|咖啡冲饮准备
+groundcoffee|^caf[eé] molido\b|咖啡粉|制备咖啡饮品|咖啡冲饮准备
+chocolate|^chocolate\b|巧克力|食用巧克力|巧克力零食
+chocolatebar|^barritas? de chocolate\b|巧克力条|食用巧克力条|巧克力零食
+noodles|^fideos\b|面条|制备面食|面食餐饮
+waffle|^gofres\b|华夫饼|食用华夫饼|烘焙点心
+nutassortment|^surtido de (?:frutos secos|nueces)\b|坚果混合食品|食用坚果|坚果零食
+spice|^(?:pimienta|piment[oó]n|especias)\b|香辛调味料|给食品调味|食品调味
+mueslibar|^barritas? de muesli\b|谷物棒|食用谷物棒|谷物零食
+crispbread|^pan crujiente\b|脆面包|食用脆面包|面包食品
+toyplush|^peluches?\b|毛绒玩具|毛绒造型玩耍陈设|毛绒玩具活动
+toydoll|^mu[ñn]ecas?\b|玩偶|人物玩偶游戏|玩偶角色游戏
+actionfigure|^figura de acci[oó]n\b|人物模型玩偶|人物造型玩耍陈设|角色模型活动
+bubblegun|^pistola de pompas\b|泡泡枪|产生泡泡玩耍|泡泡玩耍
+watergun|^pistola de agua\b|水枪玩具|喷水玩耍|喷水游戏
+bubblemachine|^m[aá]quina de pompas de jab[oó]n\b|泡泡机|产生泡泡玩耍|泡泡玩耍
+jigsaw|^(?:puzles?|puzzles?|rompecabezas)\b|拼图益智玩具|组合或解谜|拼组解谜活动
+toyboardgame|^juego de mesa\b|桌面游戏|进行桌面规则游戏|桌面游戏活动
+blanket|^mantas?\b(?!.*\b(?:p[ií]cnic|ign[ií]fuga|t[eé]rmica|perros|gatos|beb[eé]))|毯子|覆盖身体或床面|毯类覆盖
+picnicblanket|^manta para p[ií]cnic\b|野餐垫|野餐时铺垫|野餐铺垫
+bedspread|^colcha\b|床罩|覆盖床面|床面覆盖
+doormat|^felpudos?\b|门垫|出入口踏擦鞋底|门口鞋底擦拭
+kitchenmat|^alfombra de cocina\b|厨房地垫|厨房地面铺垫|厨房地面铺垫
+bathmat|^alfombrilla para el ba[ñn]o\b|浴室地垫|浴室地面铺垫|浴室地面铺垫
+carmat|^alfombrillas? para coche\b|汽车脚垫|车辆地板铺垫|车辆地板铺垫
+pottray|^plato para macet(?:a|ero)\b|花盆底托|承托花盆|花盆底部承托
+dessertplate|^plato de postre\b|甜点盘|盛放甜点|甜点盛装
+paperplate|^platos? de (?:papel|pl[aá]stico)\b|纸塑餐盘|盛放餐食|餐食盛装
+binliner|^bolsas? de basura\b|垃圾袋|收集垃圾|生活垃圾收集
+vacuumstorage|^bolsas? (?:de almacenaje al vac[ií]o|de vac[ií]o)\b|真空收纳袋|压缩收纳物品|压缩收纳
+frozenfoodbag|^bolsas? de congelados\b|冷冻食品袋|分装冷冻食品|冷冻食品分装
+catlitterliner|^bolsas? para arenero\b|猫砂盆衬袋|衬装猫砂盆|猫砂盆清理辅助
+penorganizer|^organizador de bol[ií]grafos\b|笔类整理件|收纳书写工具|书写工具收纳
+wallhelf|^estantes? de pared\b|壁挂搁板|墙面置物|墙面置物收纳
+photoshelf|^estante para fotos\b|照片陈列搁板|陈列照片|照片展示
+jewelryshelf|^estante para joyas\b|首饰置物架|收放首饰|首饰收纳
+faceskinmask|^mascarilla facial\b|面膜|面部皮肤护理|面部皮肤护理
+footmask|^mascarilla de pies\b|足膜|足部皮肤护理|足部皮肤护理
+handmask|^mascarilla de manos\b|手膜|手部皮肤护理|手部皮肤护理
+lipmask|^mascarilla de labios\b|唇膜|唇部护理|唇部皮肤护理
+eyeshadow|^paleta de sombras de ojos\b|眼影盘|眼部上妆|眼部彩妆
+eyeshadowstick|^barra de sombra de ojos\b|眼影棒|眼部上妆|眼部彩妆
+blushstick|^barra de rubor\b|腮红棒|面部彩妆着色|面部彩妆
+lipgloss|^brillos? labiales\b|唇彩|唇部上妆|唇部彩妆
+nailpolish|^esmalte de u[ñn]as\b|指甲油|指甲着色|指甲彩妆
+makeupfix|^espray fijador de maquillaje\b|定妆喷雾|辅助妆面定型|妆面定型
+ovenCleaner|^detergente espumoso para hornos y microondas\b|烤箱微波炉清洁剂|清洁烤箱微波炉|厨电内腔清洁
+upholsterycleaner|^limpiador de tapicer[ií]a\b|软包织物清洁剂|清洁软包织物|软包织物清洁
+brakecleaner|^limpiador de frenos\b|制动部件清洗剂|清洁制动部件|制动部件清洁
+dishmachinecleaner|^limpiador de lavavajillas\b|洗碗机机体清洁剂|清洁洗碗机本体|洗碗机维护清洁
+bathcleaner|^limpiador de ba[ñn]o\b|浴室清洁剂|清洁浴室表面|浴室表面清洁
+glasswipes|^toallitas limpiagafas\b|眼镜清洁巾|擦拭眼镜|眼镜镜片清洁
+bathwipes|^toallitas para limpiar el ba[ñn]o\b|浴室清洁巾|擦拭浴室表面|浴室表面清洁
+dishbrush|^cepillo\b.*\b(?:lavar platos|para platos)\b|洗碗刷|刷洗餐具|餐具手工刷洗
+grillbrush|^cepillo para barbacoa\b|烧烤清洁刷|刷洗烧烤器具|烧烤器具清洁
+cleaningpaper|^papel de limpieza\b|清洁擦拭纸|擦拭表面|表面擦拭
+kitchenpaper|^(?:rollo de )?papel de cocina\b|厨房纸|厨房吸水擦拭|厨房擦拭
+bubblewrap|^papel de burbujas\b|气泡包装膜|缓冲包装|包装缓冲
+carairfreshener|^ambientador de coche\b|车用芳香剂|车内气味布置|车内香氛
+carseatcover|^funda para asiento de coche\b|汽车座套|包覆汽车座椅|车辆座椅覆盖
+steeringcover|^funda para volante\b|方向盘套|包覆方向盘|方向盘覆盖
+laptopcover|^funda para port[aá]til\b|笔记本电脑套|包覆笔记本电脑|电脑携带保护
+nightstand|^mesita de noche\b|床头柜桌|床旁置物|床旁置物
+pen|^bol[ií]grafos?\b|圆珠笔|书写|日常笔写记录
+pencil|^l[aá]pi(?:z|ces)\b(?!.*\b(?:ojos|labios|cejas|acuarela|dental|dentales|blanqueador|blanqueadores|corrector))|铅笔|书写绘图|铅笔书写绘图
+watercolorpencil|^l[aá]pices de acuarela\b|水彩铅笔|绘制水彩效果图画|水彩绘画
+notebook|^cuadernos?\b|笔记本|书写记录|纸面记录
+stampswax|^(?:kit|set) de sellos de cera\b|火漆印章套装|制作火漆印记|火漆封缄装饰
+giftbag|^bolsas? de regalo\b|礼品袋|装入礼品|礼品包装
+giftpaper|^papel de regalo\b|礼品包装纸|包覆礼品|礼品包装
+hoodie|^sudadera con capucha\b|连帽卫衣|上身穿着|上身日常衣着
+pajamas|^pijama\b|睡衣|睡眠时穿着|睡眠衣着
+briefs|^braguitas\b|内裤|贴身穿着|下身贴身衣着
+flipflops|^chanclas\b|人字拖鞋|足部穿着|便捷拖鞋穿着
+tealight|^velas? de t[eé]\b|茶蜡|提供小型烛光|小型烛光布置
+showergel|^gel de ducha\b|沐浴露|清洗身体|身体清洗
+bathbomb|^bombas? de ba[ñn]o\b|浴球|用于泡澡|泡澡用品
+bracelet|^pulsera de acero inoxidable\b|手链|腕部佩戴装饰|腕部装饰
+brush_unspecified|^brochas?\b(?!.*\b(?:pintura|pintar|maquillaje|kabuki|sombra|taladro))|刷具||
+pincel_unspecified|^pinceles?\b(?!.*\b(?:pintura|pintar|maquillaje|acuarela|artist|sombra))|笔刷||
+genericgift|^(?:set|juego|kit) de regalo\b|礼品组合（内容未明）||
+oilunspecified|^aceite de (?:coco|ricino|almendras)\b(?!.*\b(?:alimentario|cosm[eé]tico|cocina|piel|pelo))|植物油（用途未明）||
+surpriseunspecified|^(?:bola|huevo|figura) sorpresa\b|惊喜包装商品（内容未明）||
+glove|^guantes\b|手套|覆盖手部（具体防护性能未知）|手部穿戴
+bottle_unspecified|^botella\s*$|瓶类容器||
+jewelrybox|^joyero\b|首饰盒|收放首饰|首饰收纳
+sprayerwater|^pulverizador de agua\b|喷水器|喷洒水|水雾喷洒
+sportshorts|^pantalones cortos deportivos\b|运动短裤|运动时下身穿着|运动下身衣着
+toiletrybag|^neceser\b|洗漱收纳包|收纳携带洗漱用品|洗漱用品携带
+bowl_unspecified|^cuencos?\b|碗类容器||
+planner|^planificador\b|计划记录用品|记录计划|计划记录
+eyebrowgel|^(?:gel para las cejas|l[aá]piz y gel para cejas)\b|眉部彩妆用品|修饰眉部|眉部彩妆
+salmonoil_dog|^aceite de salm[oó]n para perros\b|犬用三文鱼油|作为犬用喂食用品候选（不宣称功效）|犬类喂食
+breakfastmix|^mezcla de desayuno\b|早餐混合食品|作为早餐食用|早餐食物
+datacable|^cable de datos\b|数据线|连接设备传输数据|设备数据连接
+potsoil|^sustrato\b|种植基质|容纳植物根系|植物基质栽培
+orchidpot|^orqu[ií]dea en (?:maceta|jarro)\b|盆栽兰花|陈设或养护兰花|兰花盆栽陈设
+hairbrush|^cepillo de pelo\b|梳发刷|梳理头发|头发梳理
+makeupsponge|^esponja para maquillaje\b|化妆海绵|涂布化妆品|上妆操作
+carsponge|^esponja para coche\b|洗车海绵|擦洗车辆|车辆清洗
+showersponge|^esponja de ducha\b|沐浴海绵|沐浴擦洗|身体清洗
+massageoil|^aceite para masaje\b|按摩油|辅助按摩|按摩润滑
+firestarter|^pastillas para encender la barbacoa\b|烧烤引火块|辅助引燃烧烤燃料|烧烤生火
+firegel|^gel de encendido\b|引火凝胶|辅助点燃燃料|点火辅助
+icebucket|^cubo para el hielo\b|冰桶|盛放冰块|冰块盛装
+wringerbucket|^cubo con escurridor\b|带挤水器清洁桶|盛放清洁水并辅助挤水|拖地配套挤水
+rollingadhesive|^rodillo de cola\b|涂胶滚筒|滚涂胶料|涂胶作业
+carcleaningkit|^juego de limpieza para coche\b|车辆清洁套装|清洁车辆|车辆清洗
+embroiderybox|^caja de hilos de bordar\b|盒装绣线|进行刺绣|刺绣材料
+rawlplugbox|^caja de tacos y tornillos\b|膨胀栓螺丝组合|配套固定物件|螺丝锚固安装
+diarydecor|^set para decorar el diario\b|日记本装饰材料|装饰日记本|日记手账装饰
+clayshaping|^arcilla\b|黏土造型材料|塑造手工作品|黏土造型活动
+craftpaper|^papel para manualidades\b|手工纸|制作纸艺作品|纸艺材料
+carvedwoodletters|^letras(?: de purpurina)? de madera\b|木制字母材料|拼贴陈列字母|字母造型装饰
+greetingcraft|^crea tus propias tarjetas de felicitaci[oó]n\b|贺卡制作用品|制作贺卡|贺卡创作
+craftbirdhouse|^haz tu propia hucha\b|存钱罐制作用品|制作存钱罐|存钱罐手工制作
+coolbox|^nevera port[aá]til\b|便携冷藏箱|携带低温保存物品|物品低温携带
+gardenhandspade|^pala de jard[ií]n\b|园艺铲|铲掘种植土|园艺铲土
+catlitterscoop|^pala para arena de gatos\b|猫砂铲|铲除猫砂污物|猫砂清理
+woodglue|^cola para madera\b|木材胶|粘接木材|木材粘接
+contactglue|^cola de contacto\b|接触型胶黏剂|接触粘接物件|表面粘接
+handwarmers|^calentadores de manos\b|暖手用品|为手部提供暖用辅助|手部取暖
+smokedetector|^detector de humo\b|烟雾探测器|探测烟雾（不宣称认证）|烟雾监测
+bugtrap|^trampa para (?:avispas|moscas)\b|捕虫器|捕捉名称指定虫类|室内外捕虫研究
+iron|^plancha de vapor\b|蒸汽熨斗|熨烫衣物|衣物熨烫
+popcornmachine|^m[aá]quina de palomitas\b|爆米花机|制作爆米花|爆米花制作
+shaver|^m[aá]quina de afeitar\b|剃须器|剃除胡须|胡须修整
+gamecontroller|^mando de juegos\b|游戏控制器|操控适配游戏设备|游戏设备操控
+drinkdispenser|^dispensador de bebidas\b|饮料分配器|分装饮料|饮料分装
+packtapedispenser|^dispensador de cinta de embalaje\b|包装胶带切割座|辅助施放切割胶带|包装封合
+luggagestrap|^correa de (?:equipaje|maleta)\b|行李绑带|捆绑固定行李|行李绑固
+diamonddiscs|^discos? de diamante\b|金刚石作业盘|配合适配工具作业（切磨对象待核）|
+flapdiscs|^discos? de aleta\b|百叶打磨盘|配合适配工具打磨|表面打磨
+makeupremovepad|^discos desmaquilladores\b|卸妆棉片|辅助卸除妆容|面部卸妆
+latexglove|^guantes de l[aá]tex\b|乳胶手套|覆盖手部（不推断医用等级）|手部穿戴
+gardengloves|^guantes de jard[ií]n\b|园艺手套|园艺活动中穿戴|园艺手部穿戴
+beachmat|^esterilla (?:de|para) playa\b|沙滩垫|沙滩活动铺垫|沙滩铺垫
+multitoolaccessory|^accesorios para multiherramientas\b|多功能工具配件|配合适配多功能工具作业|工具配套
+floorclothrefill|^recambio de pa[ñn]os (?:secos|h[uú]medos) para (?:el suelo|suelos)\b|地板清洁布替换装|更换配套擦地布|地板擦拭耗材
+mosquitorefill|^recambio de enchufe repelente de mosquitos\b|插电驱蚊用品替换装|更换适配驱蚊耗材（不推断有效率）|驱蚊用品补充
+cattoyball|^pelota de juguete para perros\b|犬用球玩具|供犬追逐玩耍|犬类互动玩耍
+dentalpen|^l[aá]pi(?:z|ces) blanqueadores? dentales?\b|牙齿美白笔|名称标称用于牙齿美白（效果未核实）|牙齿外观护理
+storage_table|^caja de almacenaje y mesa\b|收纳箱兼用桌|收纳并提供桌面置物|收纳与桌面置物
+exfoliatingglove|^guantes exfoliantes\b|去角质手套|皮肤擦洗（功效未核实）|身体皮肤擦洗
+diamondstorage|^caja de almacenaje para pintura de diamantes\b|钻石画材料收纳盒|分装钻石画材料|拼贴材料收纳
+crochetkit|^kit para hacer ganchillo\b|钩针编织套件|开展钩针编织|钩针编织
+toaster|^tostadora\b|吐司机|烘烤面包片|面包片烘烤
+briefcase|^malet[ií]n\b|手提箱包|手提携带物品|手提携带
+earringcraft|^crea tus propios pendientes\b|耳饰制作用品|制作耳饰|耳饰手工制作
+hairserum|^s[eé]rum capilar\b|头发精华|头发护理（功效未核实）|头发护理
+dietshake|^batido adelgazante\b|标称减重奶昔饮品|作为饮品（减重效果未核实）|奶昔饮用
+plantsprayer|^nebulizador de plantas\b|植物雾化喷洒器|向植物喷雾|植物喷洒
+leggings|^mallas de mujer\b|女式紧身裤|下身穿着|下身贴体衣着
+lighter|^mecheros?\b|打火机|点燃火焰|点火辅助
+punchset|^punzones\b|冲孔尖锥工具|刺孔或标记|小件刺孔
+makeupbag|^bolsa de maquillaje\b|化妆包|收纳携带化妆品|化妆品携带
+serumcapsule|^c[aá]psulas de s[eé]rum facial\b|胶囊装面部精华|面部皮肤护理|面部皮肤护理
+carorganizer|^organizador de asiento para el coche\b|汽车座椅收纳件|收放车内小物|车内小物收纳
+bubbleblower|^soplador de burbujas\b|吹泡泡用品|吹制泡泡|泡泡玩耍
+chocball|^pelotas de chocolate\b|球形巧克力|食用巧克力|巧克力零食
+toy_motorcycle|^moto\b.*\bde juguete\b|玩具摩托车|摩托车造型玩耍|车辆主题玩耍
+flatbread|^wraps\b|卷饼饼皮|包裹食材制作卷饼|卷饼制作
+multimediaclean|^kit de limpieza para multimedia\b|数码影音设备清洁套装|清洁数码影音设备|设备表面清洁
+pendantlamp|^l[aá]mpara colgante\b|吊灯|悬挂供光|悬挂照明
+servingbowl|^boles para servir\b|餐食盛放碗|盛放餐食|餐食盛装
+hopscotch|^juego de la rayuela\b|跳房子游戏用品|进行跳房子活动|跳跃规则游戏
+slippers|^pantuflas\b|拖鞋|足部便捷穿着|便捷拖鞋穿着
+croutons|^picatostes\b|烤面包丁|作为餐食配料|面包丁配餐

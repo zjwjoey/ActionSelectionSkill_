@@ -1,0 +1,89 @@
+{
+  "version": "name-semantics-v9-compositional-review",
+  "semantic_inputs": [
+    "name_es_original",
+    "name_es_normalized"
+  ],
+  "normalization": [
+    "Unicode NFC",
+    "trim outer whitespace",
+    "collapse repeated whitespace"
+  ],
+  "preserve": [
+    "Spanish accents",
+    "numbers",
+    "units",
+    "models",
+    "brands",
+    "negation",
+    "compatibility qualifiers"
+  ],
+  "original_category_use": "sampling and after-the-fact comparison only",
+  "price_use": "stored only; no score, valuation or price-based filter. Extreme price difference checks are a future interface and are not executed.",
+  "forbidden_claims": [
+    "unmentioned material",
+    "unmentioned size",
+    "quality",
+    "sales",
+    "consumption frequency",
+    "Action purchasing motivation",
+    "margin",
+    "procurement value"
+  ],
+  "source_quality": "Non-Spanish Chinese-only names remain unchanged and are information-insufficient for this Spanish-only pilot. Brand-only names do not establish product identity.",
+  "classification": "Confidence applies to the stated granularity. Missing capacity/material/variant alone does not invalidate a clear broad object. Polysemy or unresolved primary domain remains information-insufficient. Brand/series context may suggest a hypothesis but is not a literal product fact.",
+  "review_round": "codex-review-20261022-v2",
+  "reviewer_kind": "AI; no human confirmation is implied",
+  "dimension_confidence_fields": [
+    "product_identity",
+    "primary_domain",
+    "function",
+    "scenario"
+  ],
+  "uncertainty_codes": {
+    "SOURCE_LANGUAGE_INVALID": "Chinese-only text in Spanish title field; no reverse guessing",
+    "BRAND_ONLY": "No product identity noun",
+    "TYPE_AMBIGUOUS": "Multiple materially different object meanings",
+    "DOMAIN_AMBIGUOUS": "Object named but primary use/domain cannot be established",
+    "SUBTYPE_UNSPECIFIED": "Subtype/variant absent; broad classification may remain valid",
+    "SCENARIO_UNSPECIFIED": "Specific location/application absent",
+    "MECHANISM_UNSPECIFIED": "Mechanism or assembly details not stated",
+    "DOMAIN_INFERRED": "Primary domain is a common-use hypothesis rather than literal title text",
+    "RULE_COVERAGE_GAP": "Current rule set cannot identify a reliable object; not proof of an ambiguous source title or semantic AI error",
+    "INTERPRETATION_UNRESOLVED": "Reviewer cannot reliably resolve identity/meaning from the frozen name; not a proven defective title or semantic error"
+  },
+  "blocking_uncertainty_codes": [
+    "SOURCE_LANGUAGE_INVALID",
+    "BRAND_ONLY",
+    "TYPE_AMBIGUOUS",
+    "DOMAIN_AMBIGUOUS",
+    "RULE_COVERAGE_GAP",
+    "INTERPRETATION_UNRESOLVED"
+  ],
+  "guardrails_from_pilot": [
+    "Adornment does not establish a DIY kit",
+    "Gift set does not establish bath use from a brand word alone",
+    "recambio does not establish fuel refill",
+    "apósito does not establish adhesive dressing",
+    "efecto infinito does not establish a mirror component",
+    "Use neutral data-cable category if charging is not stated",
+    "Do not force leisure games into creative craft tags"
+  ],
+  "review": "AI statuses are only 待审核 or 信息不足. 已确认 requires explicit supplied human feedback and matching annotation hash.",
+  "execution_limit": 100,
+  "model_training": "none",
+  "external_collection": "disabled",
+  "stage_limits": [
+    100,
+    500,
+    2000
+  ],
+  "generation_method": "Deterministic, title-only candidate families authored by Codex; no parameter training; no human gold implied",
+  "dispute_policy": {
+    "sample_dispute_threshold": 0.15,
+    "sample_definite_error_threshold": 0.05,
+    "source_anomaly_is_semantic_error": false,
+    "inherent_insufficiency_is_semantic_error": false,
+    "independent_review_required": true
+  }
+}

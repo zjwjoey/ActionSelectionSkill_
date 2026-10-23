@@ -1,0 +1,1928 @@
+{
+  "version": "name-semantics-v3-staged",
+  "authority": "AI_RULE_CANDIDATE",
+  "patterns": [
+    {
+      "id": "plant",
+      "regex": "plantas? artificial(?:es)?",
+      "product_type": "人造植物",
+      "category_l1": "家居装饰",
+      "category_l2": "仿真植物",
+      "function": "装饰空间",
+      "need": "植物造型装饰",
+      "tag": "家居装饰"
+    },
+    {
+      "id": "artificial_flower",
+      "regex": "(?:flores?|rosas?|olivo) artificial(?:es)?",
+      "product_type": "人造花木",
+      "category_l1": "家居装饰",
+      "category_l2": "仿真花木",
+      "function": "装饰空间",
+      "need": "花木造型装饰",
+      "tag": "家居装饰"
+    },
+    {
+      "id": "dried_flower",
+      "regex": "ramo(?: de flores)? sec[oa]s?",
+      "product_type": "干花花束",
+      "category_l1": "家居装饰",
+      "category_l2": "干花装饰",
+      "function": "装饰空间",
+      "need": "花束装饰",
+      "tag": "家居装饰"
+    },
+    {
+      "id": "flowerpot",
+      "regex": "macetas?",
+      "product_type": "花盆",
+      "category_l1": "园艺户外",
+      "category_l2": "种植容器",
+      "function": "容纳种植基质和植物",
+      "need": "植物种植",
+      "tag": "日常实用"
+    },
+    {
+      "id": "cosmetic_swab",
+      "regex": "bastoncillos? de algodón",
+      "product_type": "棉签",
+      "category_l1": "个人护理",
+      "category_l2": "卫生用品",
+      "function": "局部擦拭",
+      "need": "局部清理",
+      "tag": "个人护理"
+    },
+    {
+      "id": "cottonpad",
+      "regex": "discos? de algodón",
+      "product_type": "化妆棉",
+      "category_l1": "个人护理",
+      "category_l2": "护理用品",
+      "function": "局部擦拭",
+      "need": "护理用品",
+      "tag": "个人护理"
+    },
+    {
+      "id": "jewelry_box",
+      "regex": "joyeros?",
+      "product_type": "首饰收纳盒",
+      "category_l1": "家居日用",
+      "category_l2": "首饰收纳",
+      "function": "收纳首饰",
+      "need": "小物收纳",
+      "tag": "收纳整理"
+    },
+    {
+      "id": "tray",
+      "regex": "bandejas?",
+      "product_type": "托盘",
+      "category_l1": "家居日用",
+      "category_l2": "盛放容器",
+      "function": "盛放内容物",
+      "need": "物品盛放",
+      "tag": "日常实用"
+    },
+    {
+      "id": "beads",
+      "regex": "(?:set|juego) de cuentas",
+      "product_type": "串珠用品套装",
+      "category_l1": "手工创作",
+      "category_l2": "串珠材料",
+      "function": "串珠制作",
+      "need": "手工制作",
+      "tag": "兴趣创作"
+    },
+    {
+      "id": "craft_string",
+      "regex": "(?:cuerda de macramé|hilo(?:s)? (?:de tejer|para hacer punto|de chenilla|de peluche|caniche)|hilos? para bordar)",
+      "product_type": "编织或刺绣线材",
+      "category_l1": "手工创作",
+      "category_l2": "纺织手工材料",
+      "function": "编织或刺绣",
+      "need": "纺织手工制作",
+      "tag": "兴趣创作"
+    },
+    {
+      "id": "duvet",
+      "regex": "edred[oó]n(?:es)?",
+      "product_type": "被子",
+      "category_l1": "家居日用",
+      "category_l2": "床上用品",
+      "function": "覆盖身体",
+      "need": "寝具配置",
+      "tag": "日常实用"
+    },
+    {
+      "id": "duvet_cover",
+      "regex": "fundas? n[oó]rdicas?",
+      "product_type": "被套",
+      "category_l1": "家居日用",
+      "category_l2": "床上用品",
+      "function": "包覆被芯",
+      "need": "寝具保护",
+      "tag": "日常实用"
+    },
+    {
+      "id": "curtain",
+      "regex": "cortinas?",
+      "product_type": "窗帘类用品",
+      "category_l1": "家居日用",
+      "category_l2": "帘类",
+      "function": "遮挡或分隔",
+      "need": "空间遮挡",
+      "tag": "日常实用"
+    },
+    {
+      "id": "shower_curtain",
+      "regex": "cortinas? de ducha",
+      "product_type": "浴帘",
+      "category_l1": "家居日用",
+      "category_l2": "浴室用品",
+      "function": "分隔淋浴区域",
+      "need": "淋浴空间遮挡",
+      "tag": "日常实用"
+    },
+    {
+      "id": "sock",
+      "regex": "calcetines?",
+      "product_type": "袜子",
+      "category_l1": "服饰配件",
+      "category_l2": "袜类",
+      "function": "穿着",
+      "need": "足部穿着",
+      "tag": "服饰搭配"
+    },
+    {
+      "id": "tights",
+      "regex": "(?:pantis|leotardos)",
+      "product_type": "连裤袜类",
+      "category_l1": "服饰配件",
+      "category_l2": "袜类",
+      "function": "穿着",
+      "need": "腿部穿着",
+      "tag": "服饰搭配"
+    },
+    {
+      "id": "underwear",
+      "regex": "(?:braguitas?|b[oó]xers?|tangas?|sujetador)",
+      "product_type": "内衣裤",
+      "category_l1": "服饰配件",
+      "category_l2": "内衣",
+      "function": "穿着",
+      "need": "贴身穿着",
+      "tag": "服饰搭配"
+    },
+    {
+      "id": "pajama",
+      "regex": "pijama(?:s)?",
+      "product_type": "睡衣",
+      "category_l1": "服饰配件",
+      "category_l2": "居家服",
+      "function": "穿着",
+      "need": "居家穿着",
+      "tag": "服饰搭配"
+    },
+    {
+      "id": "shirt",
+      "regex": "camisetas?",
+      "product_type": "上衣",
+      "category_l1": "服饰配件",
+      "category_l2": "上装",
+      "function": "穿着",
+      "need": "上身穿着",
+      "tag": "服饰搭配"
+    },
+    {
+      "id": "outerwear",
+      "regex": "(?:chaquetas?|chalecos?|sudaderas?|conjunto para estar en casa)",
+      "product_type": "外搭或居家服",
+      "category_l1": "服饰配件",
+      "category_l2": "衣着",
+      "function": "穿着",
+      "need": "衣着配置",
+      "tag": "服饰搭配"
+    },
+    {
+      "id": "trousers",
+      "regex": "(?:pantal[oó]n(?:es)?|leggings)",
+      "product_type": "裤装",
+      "category_l1": "服饰配件",
+      "category_l2": "下装",
+      "function": "穿着",
+      "need": "下身穿着",
+      "tag": "服饰搭配"
+    },
+    {
+      "id": "dress",
+      "regex": "vestidos?",
+      "product_type": "连衣裙",
+      "category_l1": "服饰配件",
+      "category_l2": "裙装",
+      "function": "穿着",
+      "need": "服装穿着",
+      "tag": "服饰搭配"
+    },
+    {
+      "id": "scarf",
+      "regex": "bufandas?",
+      "product_type": "围巾",
+      "category_l1": "服饰配件",
+      "category_l2": "颈部配饰",
+      "function": "围戴",
+      "need": "颈部穿戴",
+      "tag": "服饰搭配"
+    },
+    {
+      "id": "hat",
+      "regex": "(?:gorr[ao]s?|gorritos?|sombreros?)",
+      "product_type": "帽子",
+      "category_l1": "服饰配件",
+      "category_l2": "头部配饰",
+      "function": "戴用",
+      "need": "头部穿戴",
+      "tag": "服饰搭配"
+    },
+    {
+      "id": "shoe",
+      "regex": "(?:chanclas?|pantuflas?|sandalias?|zuecos?)",
+      "product_type": "鞋类",
+      "category_l1": "服饰配件",
+      "category_l2": "鞋类",
+      "function": "足部穿着",
+      "need": "鞋履配置",
+      "tag": "服饰搭配"
+    },
+    {
+      "id": "insole",
+      "regex": "plantillas?",
+      "product_type": "鞋垫",
+      "category_l1": "服饰配件",
+      "category_l2": "鞋类配件",
+      "function": "置于鞋内",
+      "need": "鞋内衬垫",
+      "tag": "日常实用"
+    },
+    {
+      "id": "shoelace",
+      "regex": "cordones?",
+      "product_type": "鞋带或绳带",
+      "category_l1": "服饰配件",
+      "category_l2": "绳带配件",
+      "function": "系结",
+      "need": "系结需求",
+      "tag": "日常实用"
+    },
+    {
+      "id": "bag",
+      "regex": "(?:bols[ao]s? (?:shopper|de (?:la )?compra|para compras|de deporte|de yoga|bandolera|de paja)|riñoneras?|mochilas?|monederos?|maletas?)",
+      "product_type": "箱包",
+      "category_l1": "服饰配件",
+      "category_l2": "携带与收纳",
+      "function": "携带物品",
+      "need": "物品携带",
+      "tag": "收纳整理"
+    },
+    {
+      "id": "giftbag",
+      "regex": "bolsas? de regalo",
+      "product_type": "礼品袋",
+      "category_l1": "派对用品",
+      "category_l2": "礼品包装",
+      "function": "包装礼物",
+      "need": "礼物包装",
+      "tag": "礼赠场景"
+    },
+    {
+      "id": "giftset",
+      "regex": "set de regalo",
+      "product_type": "礼赠套装（用途待核实）",
+      "category_l1": "未确定",
+      "category_l2": "礼赠套装",
+      "function": "礼赠",
+      "need": "礼品选择",
+      "tag": "礼赠场景"
+    },
+    {
+      "id": "case",
+      "regex": "(?:estuches?|neceser(?:es)?)",
+      "product_type": "盒袋类商品（用途待核实）",
+      "category_l1": "未确定",
+      "category_l2": "盒袋用途待定",
+      "function": "收纳物品",
+      "need": "收纳用途待明确",
+      "tag": "收纳整理"
+    },
+    {
+      "id": "storagebox",
+      "regex": "cajas? de (?:almacenaje|almacenamiento)",
+      "product_type": "收纳箱",
+      "category_l1": "家居日用",
+      "category_l2": "物品收纳",
+      "function": "收纳物品",
+      "need": "物品整理",
+      "tag": "收纳整理"
+    },
+    {
+      "id": "storagebag",
+      "regex": "bolsas? (?:de almacenaje|al vac[ií]o|de vac[ií]o)",
+      "product_type": "收纳袋",
+      "category_l1": "家居日用",
+      "category_l2": "袋类收纳",
+      "function": "收纳物品",
+      "need": "物品整理",
+      "tag": "收纳整理"
+    },
+    {
+      "id": "basket",
+      "regex": "cestas?(?: de almacenaje)?",
+      "product_type": "篮类容器",
+      "category_l1": "家居日用",
+      "category_l2": "篮类收纳",
+      "function": "盛放物品",
+      "need": "物品整理",
+      "tag": "收纳整理"
+    },
+    {
+      "id": "laundrybasket",
+      "regex": "cesta de la colada",
+      "product_type": "洗衣篮",
+      "category_l1": "家居日用",
+      "category_l2": "衣物收纳",
+      "function": "盛放待洗衣物",
+      "need": "衣物整理",
+      "tag": "收纳整理"
+    },
+    {
+      "id": "organizer",
+      "regex": "organizadores?",
+      "product_type": "整理用品",
+      "category_l1": "家居日用",
+      "category_l2": "物品整理",
+      "function": "整理物品",
+      "need": "物品整理",
+      "tag": "收纳整理"
+    },
+    {
+      "id": "hanger",
+      "regex": "(?:perchas?|percheros?)",
+      "product_type": "衣物悬挂用品",
+      "category_l1": "家居日用",
+      "category_l2": "衣物整理",
+      "function": "悬挂衣物",
+      "need": "衣物整理",
+      "tag": "收纳整理"
+    },
+    {
+      "id": "hook",
+      "regex": "ganchos?",
+      "product_type": "挂钩",
+      "category_l1": "家居日用",
+      "category_l2": "悬挂收纳",
+      "function": "悬挂物品",
+      "need": "物品悬挂",
+      "tag": "收纳整理"
+    },
+    {
+      "id": "wardrobe",
+      "regex": "armarios?",
+      "product_type": "柜类家具",
+      "category_l1": "家居日用",
+      "category_l2": "柜类",
+      "function": "存放物品",
+      "need": "物品收纳",
+      "tag": "收纳整理"
+    },
+    {
+      "id": "table",
+      "regex": "mesas?",
+      "product_type": "桌类家具",
+      "category_l1": "家居日用",
+      "category_l2": "桌类",
+      "function": "承放物品",
+      "need": "桌面使用",
+      "tag": "日常实用"
+    },
+    {
+      "id": "chair",
+      "regex": "(?:sillas?|bancos?)",
+      "product_type": "座椅类家具",
+      "category_l1": "家居日用",
+      "category_l2": "座椅",
+      "function": "坐用",
+      "need": "座位配置",
+      "tag": "日常实用"
+    },
+    {
+      "id": "shelf",
+      "regex": "(?:estantes?|carro de bamb[uú])",
+      "product_type": "置物架或置物车",
+      "category_l1": "家居日用",
+      "category_l2": "置物家具",
+      "function": "承放物品",
+      "need": "物品整理",
+      "tag": "收纳整理"
+    },
+    {
+      "id": "mat",
+      "regex": "(?:alfombr(?:a|illa)s?|felpudos?)",
+      "product_type": "地毯或垫类",
+      "category_l1": "家居日用",
+      "category_l2": "垫类",
+      "function": "铺垫",
+      "need": "铺垫需求",
+      "tag": "日常实用"
+    },
+    {
+      "id": "bathmat",
+      "regex": "(?:alfombr(?:a|illa)s? de baño)",
+      "product_type": "浴室垫",
+      "category_l1": "家居日用",
+      "category_l2": "浴室用品",
+      "function": "浴室铺垫",
+      "need": "浴室垫类配置",
+      "tag": "日常实用"
+    },
+    {
+      "id": "mousemat",
+      "regex": "alfombrilla(?:s)? (?:de rat[oó]n|gaming)",
+      "product_type": "鼠标垫",
+      "category_l1": "数码配件",
+      "category_l2": "电脑配件",
+      "function": "提供鼠标操作垫面",
+      "need": "桌面操作",
+      "tag": "日常实用"
+    },
+    {
+      "id": "cutmat",
+      "regex": "alfombrilla para cortar",
+      "product_type": "裁切垫",
+      "category_l1": "手工创作",
+      "category_l2": "手工辅助",
+      "function": "裁切时铺垫",
+      "need": "裁切辅助",
+      "tag": "兴趣创作"
+    },
+    {
+      "id": "pillow",
+      "regex": "(?:coj[ií]n(?:es)?|almohadas?)",
+      "product_type": "枕垫",
+      "category_l1": "家居日用",
+      "category_l2": "枕垫",
+      "function": "承托或垫靠",
+      "need": "垫靠需求",
+      "tag": "日常实用"
+    },
+    {
+      "id": "pillowcover",
+      "regex": "fundas? de (?:coj[ií]n|almohada)",
+      "product_type": "枕垫套",
+      "category_l1": "家居日用",
+      "category_l2": "枕垫配件",
+      "function": "包覆枕垫",
+      "need": "枕垫保护",
+      "tag": "日常实用"
+    },
+    {
+      "id": "blanket",
+      "regex": "(?:mantas?|colchas?)",
+      "product_type": "毯或床罩",
+      "category_l1": "家居日用",
+      "category_l2": "床上纺织",
+      "function": "覆盖",
+      "need": "覆盖需求",
+      "tag": "日常实用"
+    },
+    {
+      "id": "towel",
+      "regex": "toallas?",
+      "product_type": "毛巾",
+      "category_l1": "家居日用",
+      "category_l2": "巾类",
+      "function": "擦拭",
+      "need": "擦拭需求",
+      "tag": "日常实用"
+    },
+    {
+      "id": "tablecloth",
+      "regex": "(?:manteles?|mantel(?:es)? individual(?:es)?|camino de mesa)",
+      "product_type": "桌布或餐垫",
+      "category_l1": "厨房与餐饮",
+      "category_l2": "桌面铺设",
+      "function": "铺设桌面",
+      "need": "桌面保护",
+      "tag": "日常实用"
+    },
+    {
+      "id": "thermalbag",
+      "regex": "bolsa de agua caliente",
+      "product_type": "热水袋",
+      "category_l1": "家居日用",
+      "category_l2": "保温用品",
+      "function": "容纳热水供暖",
+      "need": "局部暖用",
+      "tag": "日常实用"
+    },
+    {
+      "id": "foodbox",
+      "regex": "(?:t[aá]per|fiambreras?|recipientes? (?:para alimentos|de ensalada))",
+      "product_type": "食品容器",
+      "category_l1": "厨房与餐饮",
+      "category_l2": "食品储存",
+      "function": "盛放食品",
+      "need": "食品携带或储存",
+      "tag": "收纳整理"
+    },
+    {
+      "id": "jar",
+      "regex": "(?:tarros? (?:de (?:conservas|almacenaje))|bomboneras?)",
+      "product_type": "储存罐",
+      "category_l1": "家居日用",
+      "category_l2": "罐类收纳",
+      "function": "盛放内容物",
+      "need": "物品储存",
+      "tag": "收纳整理"
+    },
+    {
+      "id": "bottle",
+      "regex": "botellas?",
+      "product_type": "瓶类容器",
+      "category_l1": "家居日用",
+      "category_l2": "瓶类",
+      "function": "盛装内容物",
+      "need": "盛装需求",
+      "tag": "日常实用"
+    },
+    {
+      "id": "mug",
+      "regex": "tazas?",
+      "product_type": "杯子",
+      "category_l1": "厨房与餐饮",
+      "category_l2": "饮用容器",
+      "function": "盛装饮品（常规用途）",
+      "need": "饮品盛装",
+      "tag": "日常实用"
+    },
+    {
+      "id": "glass",
+      "regex": "(?:vasos?|copas?|jarras?)",
+      "product_type": "杯壶类容器",
+      "category_l1": "厨房与餐饮",
+      "category_l2": "饮用容器",
+      "function": "盛装饮品（常规用途）",
+      "need": "饮品盛装",
+      "tag": "日常实用"
+    },
+    {
+      "id": "bowl",
+      "regex": "(?:cuencos?|ensaladeras?)",
+      "product_type": "碗类容器",
+      "category_l1": "厨房与餐饮",
+      "category_l2": "碗类",
+      "function": "盛装内容物",
+      "need": "盛装需求",
+      "tag": "日常实用"
+    },
+    {
+      "id": "plate",
+      "regex": "(?:platos?|bajoplatos?)",
+      "product_type": "盘类",
+      "category_l1": "厨房与餐饮",
+      "category_l2": "盘类",
+      "function": "盛放内容物",
+      "need": "盛放需求",
+      "tag": "日常实用"
+    },
+    {
+      "id": "cutlery",
+      "regex": "(?:cubiertos|cuberter[ií]a|cucharas?|tenedores?|cuchillos?)",
+      "product_type": "刀叉匙类",
+      "category_l1": "厨房与餐饮",
+      "category_l2": "餐厨用具",
+      "function": "分切或取用食物（常规用途）",
+      "need": "餐厨操作",
+      "tag": "日常实用"
+    },
+    {
+      "id": "pan",
+      "regex": "(?:sart[eé]n(?:es)?|cacerolas?|ollas?)",
+      "product_type": "锅具",
+      "category_l1": "厨房与餐饮",
+      "category_l2": "烹饪器具",
+      "function": "烹饪",
+      "need": "烹饪需求",
+      "tag": "日常实用"
+    },
+    {
+      "id": "bakingmould",
+      "regex": "moldes? (?:de silicona|para hornear|de reposter[ií]a|cuadrad[oa])",
+      "product_type": "模具",
+      "category_l1": "厨房与餐饮",
+      "category_l2": "食品成型",
+      "function": "使内容物成型",
+      "need": "食品制作",
+      "tag": "日常实用"
+    },
+    {
+      "id": "bakinggeneric",
+      "regex": "moldes?",
+      "product_type": "模具（用途待核实）",
+      "category_l1": "未确定",
+      "category_l2": "成型器具",
+      "function": "使内容物成型",
+      "need": "成型用途待明确",
+      "tag": "日常实用"
+    },
+    {
+      "id": "cutboard",
+      "regex": "tabla(?:s)? de cortar",
+      "product_type": "砧板",
+      "category_l1": "厨房与餐饮",
+      "category_l2": "备餐工具",
+      "function": "提供切配垫面",
+      "need": "食材处理",
+      "tag": "日常实用"
+    },
+    {
+      "id": "straw",
+      "regex": "pajitas?",
+      "product_type": "吸管",
+      "category_l1": "厨房与餐饮",
+      "category_l2": "饮用配件",
+      "function": "吸饮（常规用途）",
+      "need": "饮用需求",
+      "tag": "日常实用"
+    },
+    {
+      "id": "trivet",
+      "regex": "salvamanteles?",
+      "product_type": "隔热垫",
+      "category_l1": "厨房与餐饮",
+      "category_l2": "桌面保护",
+      "function": "隔离热器皿与桌面",
+      "need": "桌面保护",
+      "tag": "日常实用"
+    },
+    {
+      "id": "eggstand",
+      "regex": "hueveras?",
+      "product_type": "蛋托",
+      "category_l1": "厨房与餐饮",
+      "category_l2": "餐厨辅助",
+      "function": "放置蛋类",
+      "need": "蛋类放置",
+      "tag": "日常实用"
+    },
+    {
+      "id": "foil",
+      "regex": "papel de aluminio",
+      "product_type": "铝箔",
+      "category_l1": "厨房与餐饮",
+      "category_l2": "包装材料",
+      "function": "包覆内容物",
+      "need": "食品包装（常规用途）",
+      "tag": "日常实用"
+    },
+    {
+      "id": "coffeemaker",
+      "regex": "cafeteras?",
+      "product_type": "咖啡机具",
+      "category_l1": "厨房与餐饮",
+      "category_l2": "饮品制作",
+      "function": "制作咖啡",
+      "need": "咖啡制作",
+      "tag": "日常实用"
+    },
+    {
+      "id": "blender",
+      "regex": "(?:batidoras?|minipicadoras?)",
+      "product_type": "搅拌或切碎器具",
+      "category_l1": "厨房与餐饮",
+      "category_l2": "食材加工",
+      "function": "搅拌或切碎食材",
+      "need": "食材加工",
+      "tag": "日常实用"
+    },
+    {
+      "id": "toast",
+      "regex": "(?:tostadoras?|gofreras?)",
+      "product_type": "烘烤机具",
+      "category_l1": "厨房与餐饮",
+      "category_l2": "食物加热",
+      "function": "烘烤食物",
+      "need": "食物制作",
+      "tag": "日常实用"
+    },
+    {
+      "id": "bbq",
+      "regex": "barbacoas?",
+      "product_type": "烧烤器具",
+      "category_l1": "园艺户外",
+      "category_l2": "烧烤",
+      "function": "烧烤食物",
+      "need": "户外烹饪（常规用途）",
+      "tag": "日常实用"
+    },
+    {
+      "id": "detergent",
+      "regex": "(?:detergentes?|limpiador(?:es)?|limpialavadoras?|desengrasantes?|blanqueador|espuma limpiadora)",
+      "product_type": "清洁剂",
+      "category_l1": "清洁维护",
+      "category_l2": "清洁剂",
+      "function": "清洁标题所指对象",
+      "need": "清洁需求",
+      "tag": "清洁维护"
+    },
+    {
+      "id": "laundrysoftener",
+      "regex": "(?:suavizantes?|perfume para la colada|potenciador(?:es)? (?:de perfume|de fragancia))",
+      "product_type": "衣物柔顺或增香用品",
+      "category_l1": "清洁维护",
+      "category_l2": "衣物护理",
+      "function": "衣物护理（常规用途）",
+      "need": "衣物护理",
+      "tag": "清洁维护"
+    },
+    {
+      "id": "toiletcleaner",
+      "regex": "(?:pastillas? (?:lavavajillas|antical|de cisterna)|colgador WC|gel de inodoro)",
+      "product_type": "清洁维护用片剂或挂剂",
+      "category_l1": "清洁维护",
+      "category_l2": "器具清洁",
+      "function": "清洁维护（常规用途推断）",
+      "need": "器具维护",
+      "tag": "清洁维护"
+    },
+    {
+      "id": "cloth",
+      "regex": "paños?",
+      "product_type": "擦拭布",
+      "category_l1": "清洁维护",
+      "category_l2": "擦拭工具",
+      "function": "擦拭",
+      "need": "表面清理（常规用途）",
+      "tag": "清洁维护"
+    },
+    {
+      "id": "scrubber",
+      "regex": "(?:estropajos?|esponjas? abrasivas?|esponja-estropajo)",
+      "product_type": "擦洗用品",
+      "category_l1": "清洁维护",
+      "category_l2": "擦洗工具",
+      "function": "擦洗",
+      "need": "表面清理",
+      "tag": "清洁维护"
+    },
+    {
+      "id": "mop",
+      "regex": "(?:fregona|sistema de fregona)",
+      "product_type": "拖地工具",
+      "category_l1": "清洁维护",
+      "category_l2": "地面清洁",
+      "function": "拖擦地面",
+      "need": "地面清理",
+      "tag": "清洁维护"
+    },
+    {
+      "id": "cleanbrush",
+      "regex": "cepillo(?:s)? (?:de limpieza|(?:de plástico )?para lavar platos|lavaplatos)",
+      "product_type": "清洁刷",
+      "category_l1": "清洁维护",
+      "category_l2": "刷洗工具",
+      "function": "刷洗",
+      "need": "清洁需求",
+      "tag": "清洁维护"
+    },
+    {
+      "id": "toiletbrush",
+      "regex": "escobillas? de inodoro",
+      "product_type": "马桶刷",
+      "category_l1": "清洁维护",
+      "category_l2": "卫浴清洁工具",
+      "function": "刷洗马桶",
+      "need": "卫浴清理",
+      "tag": "清洁维护"
+    },
+    {
+      "id": "vacuum",
+      "regex": "aspirador(?:a|es)?",
+      "product_type": "吸尘器",
+      "category_l1": "清洁维护",
+      "category_l2": "清洁电器",
+      "function": "吸取灰尘（常规用途）",
+      "need": "清洁需求",
+      "tag": "清洁维护"
+    },
+    {
+      "id": "lint",
+      "regex": "(?:quitapelusas?|rodillos? quitapelusas?|recambios de rodillos quitapelusas)",
+      "product_type": "除毛絮用品",
+      "category_l1": "清洁维护",
+      "category_l2": "织物维护",
+      "function": "去除表面毛絮",
+      "need": "织物表面维护",
+      "tag": "清洁维护"
+    },
+    {
+      "id": "trashbag",
+      "regex": "bolsas? (?:de basura|para escombros)",
+      "product_type": "废物收集袋",
+      "category_l1": "清洁维护",
+      "category_l2": "废物收集",
+      "function": "容纳废物",
+      "need": "废物整理",
+      "tag": "清洁维护"
+    },
+    {
+      "id": "wipe",
+      "regex": "toallitas?",
+      "product_type": "湿巾或片状擦拭用品",
+      "category_l1": "个人护理",
+      "category_l2": "擦拭用品",
+      "function": "擦拭（具体对象见品名）",
+      "need": "擦拭需求",
+      "tag": "个人护理"
+    },
+    {
+      "id": "laundrywipe",
+      "regex": "toallitas? (?:antitransferencia|para lavadora)",
+      "product_type": "洗衣辅助片",
+      "category_l1": "清洁维护",
+      "category_l2": "衣物护理",
+      "function": "洗衣辅助",
+      "need": "衣物护理",
+      "tag": "清洁维护"
+    },
+    {
+      "id": "carwipe",
+      "regex": "toallitas? para el coche",
+      "product_type": "汽车擦拭巾",
+      "category_l1": "汽车用品",
+      "category_l2": "汽车护理",
+      "function": "擦拭汽车相关表面",
+      "need": "汽车清理",
+      "tag": "清洁维护"
+    },
+    {
+      "id": "tissue",
+      "regex": "(?:papel higi[eé]nico|caja de pañuelos)",
+      "product_type": "纸品",
+      "category_l1": "家居日用",
+      "category_l2": "卫生纸品",
+      "function": "擦拭（常规用途）",
+      "need": "纸品使用",
+      "tag": "日常实用"
+    },
+    {
+      "id": "showerhead",
+      "regex": "(?:cabezal de ducha|manguera de ducha)",
+      "product_type": "淋浴配件",
+      "category_l1": "家居日用",
+      "category_l2": "淋浴配件",
+      "function": "供淋浴使用",
+      "need": "淋浴配置",
+      "tag": "日常实用"
+    },
+    {
+      "id": "toiletseat",
+      "regex": "asiento de inodoro",
+      "product_type": "马桶座圈",
+      "category_l1": "家居日用",
+      "category_l2": "卫浴配件",
+      "function": "提供坐用支承",
+      "need": "卫浴使用",
+      "tag": "日常实用"
+    },
+    {
+      "id": "airfreshener",
+      "regex": "(?:ambientadores?|varillas? arom[aá]ticas?|varitas arom[aá]ticas?|bolsita arom[aá]tica|aceite arom[aá]tico|aroma en gel|espray para el hogar)",
+      "product_type": "空间芳香用品",
+      "category_l1": "家居日用",
+      "category_l2": "空间气味用品",
+      "function": "提供香气（命名用途）",
+      "need": "空间气味管理",
+      "tag": "家居装饰"
+    },
+    {
+      "id": "dehumidifier",
+      "regex": "colector de humedad",
+      "product_type": "集湿用品",
+      "category_l1": "家居日用",
+      "category_l2": "湿度管理",
+      "function": "收集湿气",
+      "need": "湿度管理",
+      "tag": "日常实用"
+    },
+    {
+      "id": "candleholder",
+      "regex": "portavelas?",
+      "product_type": "烛台",
+      "category_l1": "家居装饰",
+      "category_l2": "烛具",
+      "function": "承放蜡烛",
+      "need": "蜡烛摆放",
+      "tag": "家居装饰"
+    },
+    {
+      "id": "candle",
+      "regex": "velas?",
+      "product_type": "蜡烛类用品",
+      "category_l1": "家居装饰",
+      "category_l2": "烛具",
+      "function": "灯光或装饰（具体形态见名称）",
+      "need": "氛围装饰",
+      "tag": "家居装饰"
+    },
+    {
+      "id": "ledcandle",
+      "regex": "velas? (?:perfumad[ao]s? )?LED",
+      "product_type": "LED蜡烛灯",
+      "category_l1": "照明与应急",
+      "category_l2": "装饰照明",
+      "function": "提供灯光",
+      "need": "灯光装饰",
+      "tag": "家居装饰"
+    },
+    {
+      "id": "lightbulb",
+      "regex": "bombillas?",
+      "product_type": "灯泡",
+      "category_l1": "照明与应急",
+      "category_l2": "光源",
+      "function": "提供照明",
+      "need": "照明需求",
+      "tag": "日常实用"
+    },
+    {
+      "id": "lamps",
+      "regex": "(?:l[aá]mparas?|focos?|farol(?:es)?|iluminaci[oó]n|luces?|tiras? LED|barras? de luz|bolas? de luz|cubo de luz|luz (?:LED|ambiental))",
+      "product_type": "灯具或照明用品",
+      "category_l1": "照明与应急",
+      "category_l2": "照明",
+      "function": "提供照明",
+      "need": "灯光需求",
+      "tag": "日常实用"
+    },
+    {
+      "id": "mirror",
+      "regex": "espejos?",
+      "product_type": "镜子",
+      "category_l1": "家居日用",
+      "category_l2": "镜具",
+      "function": "反射影像（常规用途）",
+      "need": "照面或空间配置",
+      "tag": "日常实用"
+    },
+    {
+      "id": "frame",
+      "regex": "(?:marcos?(?: de fotos)?|bloques? de fotos)",
+      "product_type": "相片或图画展示用品",
+      "category_l1": "家居装饰",
+      "category_l2": "展示装饰",
+      "function": "展示图像",
+      "need": "图像展示",
+      "tag": "家居装饰"
+    },
+    {
+      "id": "decor",
+      "regex": "(?:decoraci[oó]n|figuras? decorativ[ao]s?|trenes? decorativ[ao]s?|conejos? de Pascua decorativ[ao]s?|pap[aá] noel decorativo|colgador decorativo)",
+      "product_type": "装饰品",
+      "category_l1": "家居装饰",
+      "category_l2": "空间装饰",
+      "function": "装饰空间",
+      "need": "空间装饰",
+      "tag": "家居装饰"
+    },
+    {
+      "id": "vase",
+      "regex": "jarr[oó]n(?:es)?",
+      "product_type": "花瓶",
+      "category_l1": "家居装饰",
+      "category_l2": "花器",
+      "function": "陈设花材（常规用途）",
+      "need": "花材陈设",
+      "tag": "家居装饰"
+    },
+    {
+      "id": "christmastree",
+      "regex": "(?:[aá]rbol(?:es)? de Navidad|mini[aá]rbol de Navidad)",
+      "product_type": "圣诞树类用品",
+      "category_l1": "节庆用品",
+      "category_l2": "圣诞布置",
+      "function": "圣诞主题布置",
+      "need": "节庆氛围",
+      "tag": "季节节庆"
+    },
+    {
+      "id": "christmasornament",
+      "regex": "(?:bolas? navideñas?|colgantes? navideños?|figuritas? de Navidad|figuras? de Halloween|estrella de Navidad)",
+      "product_type": "节庆饰品",
+      "category_l1": "节庆用品",
+      "category_l2": "节庆装饰",
+      "function": "节庆主题装饰",
+      "need": "节庆氛围",
+      "tag": "季节节庆"
+    },
+    {
+      "id": "balloon",
+      "regex": "(?:globos?|arco de globos)",
+      "product_type": "气球用品",
+      "category_l1": "派对用品",
+      "category_l2": "气球布置",
+      "function": "布置空间（常规用途）",
+      "need": "装饰氛围",
+      "tag": "派对布置"
+    },
+    {
+      "id": "confetti",
+      "regex": "(?:confeti|serpentina)",
+      "product_type": "派对撒饰",
+      "category_l1": "派对用品",
+      "category_l2": "派对装饰",
+      "function": "装饰活动空间",
+      "need": "活动氛围",
+      "tag": "派对布置"
+    },
+    {
+      "id": "giftpaper",
+      "regex": "papel de regalo",
+      "product_type": "礼品包装纸",
+      "category_l1": "派对用品",
+      "category_l2": "礼品包装",
+      "function": "包装礼物",
+      "need": "礼品包装",
+      "tag": "礼赠场景"
+    },
+    {
+      "id": "giftbox",
+      "regex": "cajas? de regalo",
+      "product_type": "礼品盒",
+      "category_l1": "派对用品",
+      "category_l2": "礼品包装",
+      "function": "包装礼物",
+      "need": "礼品包装",
+      "tag": "礼赠场景"
+    },
+    {
+      "id": "skincare",
+      "regex": "(?:mascarillas? faciales?|m[aá]scara facial|s[eé]rum facial|crema(?:s)? (?:facial|de d[ií]a|de noche)|parches? de acn[eé]|tiras nasales)",
+      "product_type": "面部护理用品",
+      "category_l1": "个人护理",
+      "category_l2": "面部护理",
+      "function": "面部护理（命名用途）",
+      "need": "面部护理",
+      "tag": "个人护理"
+    },
+    {
+      "id": "sunscreen",
+      "regex": "(?:leche solar|crema solar|aplicador de protector solar)",
+      "product_type": "防晒用品",
+      "category_l1": "个人护理",
+      "category_l2": "防晒护理",
+      "function": "防晒护理（命名用途）",
+      "need": "日晒护理",
+      "tag": "个人护理"
+    },
+    {
+      "id": "bodycream",
+      "regex": "(?:crema(?:s)? (?:corporal|de manos|de pies)|leche corporal|b[aá]lsamo)",
+      "product_type": "身体或局部护理品",
+      "category_l1": "个人护理",
+      "category_l2": "身体护理",
+      "function": "身体局部护理（命名用途）",
+      "need": "身体护理",
+      "tag": "个人护理"
+    },
+    {
+      "id": "haircare",
+      "regex": "(?:acondicionador|champ[uú]|pre champ[uú]|mascarilla capilar|s[eé]rum capilar|bruma para el cabello|espray capilar|cera para el cabello|laca (?:para (?:el pelo|volumen))|perfume para el cabello|modelador capilar|aclarado de color|espray de queratina)",
+      "product_type": "头发护理或造型用品",
+      "category_l1": "个人护理",
+      "category_l2": "头发护理",
+      "function": "护发或造型（具体见名称）",
+      "need": "头发护理",
+      "tag": "个人护理"
+    },
+    {
+      "id": "showergel",
+      "regex": "(?:gel de ducha|espuma de ducha|crema de baño|espuma de baño)",
+      "product_type": "沐浴用品",
+      "category_l1": "个人护理",
+      "category_l2": "身体清洁",
+      "function": "沐浴清洁（命名用途）",
+      "need": "身体清洁",
+      "tag": "个人护理"
+    },
+    {
+      "id": "handsoap",
+      "regex": "(?:jab[oó]n de manos|pastilla de jab[oó]n)",
+      "product_type": "香皂或洗手用品",
+      "category_l1": "个人护理",
+      "category_l2": "身体清洁",
+      "function": "清洁皮肤（常规用途）",
+      "need": "皮肤清洁",
+      "tag": "个人护理"
+    },
+    {
+      "id": "oralcare",
+      "regex": "(?:pasta de dientes|hilo dental|enjuague bucal|cepillo de dientes|cabezales de cepillo de dientes)",
+      "product_type": "口腔清洁用品",
+      "category_l1": "个人护理",
+      "category_l2": "口腔护理",
+      "function": "口腔清洁",
+      "need": "口腔护理",
+      "tag": "个人护理"
+    },
+    {
+      "id": "deodorant",
+      "regex": "desodorantes?",
+      "product_type": "除臭护理品",
+      "category_l1": "个人护理",
+      "category_l2": "身体护理",
+      "function": "身体气味护理（命名用途）",
+      "need": "身体气味管理",
+      "tag": "个人护理"
+    },
+    {
+      "id": "perfume",
+      "regex": "(?:agua de colonia|eau de (?:toilette|parfum)|bruma corporal|espray corporal)",
+      "product_type": "香氛用品",
+      "category_l1": "个人护理",
+      "category_l2": "个人香氛",
+      "function": "提供香气（命名用途）",
+      "need": "个人香氛",
+      "tag": "个人护理"
+    },
+    {
+      "id": "cosmetics",
+      "regex": "(?:bronceador|iluminador|preparador facial|prebase|polvos? (?:fijadores|compactos)|polvo para las ra[ií]ces|delineador de ojos|paleta de sombras|m[aá]scara para cejas|brillo de labios|aceite labial|potenciador labial|barra de maquillaje)",
+      "product_type": "彩妆用品",
+      "category_l1": "个人护理",
+      "category_l2": "彩妆",
+      "function": "修饰外观（命名用途）",
+      "need": "化妆需求",
+      "tag": "个人护理"
+    },
+    {
+      "id": "makeup_tools",
+      "regex": "(?:brochas?(?: de maquillaje)?|esponja de maquillaje|turbante para cosm[eé]tica)",
+      "product_type": "化妆辅助用品",
+      "category_l1": "个人护理",
+      "category_l2": "化妆工具",
+      "function": "辅助化妆（常规用途）",
+      "need": "化妆辅助",
+      "tag": "个人护理"
+    },
+    {
+      "id": "hairbrush",
+      "regex": "cepillo para el pelo",
+      "product_type": "发刷",
+      "category_l1": "个人护理",
+      "category_l2": "头发工具",
+      "function": "梳理头发",
+      "need": "头发梳理",
+      "tag": "个人护理"
+    },
+    {
+      "id": "hairaccessories",
+      "regex": "(?:gomas? para el pelo|pinzas? (?:del pelo|para el cabello)|pinza para el pelo|minicoleteros?|lazo para el pelo)",
+      "product_type": "发饰",
+      "category_l1": "服饰配件",
+      "category_l2": "发饰",
+      "function": "整理或装饰头发",
+      "need": "发型整理",
+      "tag": "服饰搭配"
+    },
+    {
+      "id": "nail",
+      "regex": "(?:uñas? postizas?|pegatinas de gel para uñas|polvo de uñas|set de manicura|l[aá]mpara de uñas)",
+      "product_type": "美甲用品",
+      "category_l1": "个人护理",
+      "category_l2": "指甲护理",
+      "function": "指甲修饰（命名用途）",
+      "need": "指甲护理",
+      "tag": "个人护理"
+    },
+    {
+      "id": "eyelash",
+      "regex": "pestañas? postizas?",
+      "product_type": "假睫毛",
+      "category_l1": "个人护理",
+      "category_l2": "彩妆",
+      "function": "眼部修饰",
+      "need": "化妆需求",
+      "tag": "个人护理"
+    },
+    {
+      "id": "razor",
+      "regex": "(?:cuchillas?(?: de afeitar)?|recortadora(?:s)?)",
+      "product_type": "剃刮或修剪器具",
+      "category_l1": "个人护理",
+      "category_l2": "毛发修整",
+      "function": "修整毛发（常规用途）",
+      "need": "毛发整理",
+      "tag": "个人护理"
+    },
+    {
+      "id": "bathaccessory",
+      "regex": "(?:esponja de baño|manopla de baño|guantes exfoliantes)",
+      "product_type": "洗浴辅助品",
+      "category_l1": "个人护理",
+      "category_l2": "洗浴工具",
+      "function": "洗浴擦拭（常规用途）",
+      "need": "洗浴辅助",
+      "tag": "个人护理"
+    },
+    {
+      "id": "pad",
+      "regex": "compresas?",
+      "product_type": "卫生巾",
+      "category_l1": "个人护理",
+      "category_l2": "卫生护理",
+      "function": "吸收（命名用途）",
+      "need": "卫生护理",
+      "tag": "个人护理"
+    },
+    {
+      "id": "dressing",
+      "regex": "ap[oó]sitos?",
+      "product_type": "敷料",
+      "category_l1": "个人护理",
+      "category_l2": "创面护理",
+      "function": "覆盖保护创面（常规用途）",
+      "need": "创面护理",
+      "tag": "个人护理"
+    },
+    {
+      "id": "glasses",
+      "regex": "gafas? de (?:lectura|sol)",
+      "product_type": "眼镜",
+      "category_l1": "服饰配件",
+      "category_l2": "眼镜",
+      "function": "辅助视用或遮光（具体见名称）",
+      "need": "视用需求",
+      "tag": "日常实用"
+    },
+    {
+      "id": "jewelry",
+      "regex": "(?:pendientes?|pulseras?|collar(?:es)?|joyas?|juego de joyas)",
+      "product_type": "首饰",
+      "category_l1": "服饰配件",
+      "category_l2": "首饰",
+      "function": "佩戴装饰",
+      "need": "穿戴装饰",
+      "tag": "服饰搭配"
+    },
+    {
+      "id": "keychain",
+      "regex": "llaveros?",
+      "product_type": "钥匙挂件",
+      "category_l1": "服饰配件",
+      "category_l2": "随身配件",
+      "function": "挂放钥匙（常规用途）",
+      "need": "随身物品整理",
+      "tag": "日常实用"
+    },
+    {
+      "id": "belt",
+      "regex": "cintur[oó]n(?:es)?",
+      "product_type": "腰带",
+      "category_l1": "服饰配件",
+      "category_l2": "腰带",
+      "function": "系戴",
+      "need": "衣着搭配",
+      "tag": "服饰搭配"
+    },
+    {
+      "id": "notebook",
+      "regex": "(?:cuadernos?|libretas?|bloc(?:s)? de notas|bloc de tareas pendientes|diario)",
+      "product_type": "笔记本",
+      "category_l1": "文具与规划",
+      "category_l2": "记录用品",
+      "function": "记录信息",
+      "need": "事项记录",
+      "tag": "日常实用"
+    },
+    {
+      "id": "planner",
+      "regex": "(?:agenda|planificador)",
+      "product_type": "日程规划用品",
+      "category_l1": "文具与规划",
+      "category_l2": "计划管理",
+      "function": "安排事项",
+      "need": "日程管理",
+      "tag": "生活便利"
+    },
+    {
+      "id": "pen",
+      "regex": "(?:bol[ií]grafos?|rotuladores?|marcadores?|l[aá]pices)",
+      "product_type": "书写或绘画笔",
+      "category_l1": "文具与规划",
+      "category_l2": "笔类",
+      "function": "书写或绘画",
+      "need": "表达与记录",
+      "tag": "日常实用"
+    },
+    {
+      "id": "eraser",
+      "regex": "(?:gomas de borrar|sacapuntas|cintas? correctoras?|rollos de cintas correctoras)",
+      "product_type": "文具修整用品",
+      "category_l1": "文具与规划",
+      "category_l2": "文具辅助",
+      "function": "修整书写工具或笔迹",
+      "need": "书写辅助",
+      "tag": "日常实用"
+    },
+    {
+      "id": "compass",
+      "regex": "comp[aá]s",
+      "product_type": "圆规",
+      "category_l1": "文具与规划",
+      "category_l2": "绘图工具",
+      "function": "绘图",
+      "need": "绘图辅助",
+      "tag": "日常实用"
+    },
+    {
+      "id": "document",
+      "regex": "carpetas? de documentos",
+      "product_type": "文件夹",
+      "category_l1": "文具与规划",
+      "category_l2": "文件整理",
+      "function": "整理文件",
+      "need": "文件整理",
+      "tag": "收纳整理"
+    },
+    {
+      "id": "sticker",
+      "regex": "pegatinas?",
+      "product_type": "贴纸",
+      "category_l1": "手工创作",
+      "category_l2": "贴饰材料",
+      "function": "粘贴装饰",
+      "need": "贴饰需求",
+      "tag": "兴趣创作"
+    },
+    {
+      "id": "colouring",
+      "regex": "(?:libros? para colorear|(?:kit|juego) (?:para |de )?(?:dibujar|colorear|dibujo)|pintar siguiendo los n[uú]meros|pinta (?:tu|tus)|crea tu propio)",
+      "product_type": "绘画或创作项目",
+      "category_l1": "手工创作",
+      "category_l2": "绘画创作",
+      "function": "绘画或手工制作",
+      "need": "创作活动",
+      "tag": "兴趣创作"
+    },
+    {
+      "id": "book",
+      "regex": "libros? (?:de pegatinas|de actividades)",
+      "product_type": "活动或贴纸书",
+      "category_l1": "手工创作",
+      "category_l2": "活动读物",
+      "function": "提供活动内容",
+      "need": "活动体验",
+      "tag": "兴趣创作"
+    },
+    {
+      "id": "craftkit",
+      "regex": "(?:set|juego|kit|bloc) (?:de |para )?(?:manualidades|diseño|cesta de ganchillo)",
+      "product_type": "手工创作用品",
+      "category_l1": "手工创作",
+      "category_l2": "手工项目",
+      "function": "手工制作",
+      "need": "创作活动",
+      "tag": "兴趣创作"
+    },
+    {
+      "id": "craftmaterial",
+      "regex": "(?:plumas y pompones|diamantes autoadhesivos|arcilla para manualidades|cartulina|lienzos?|figuras de papel|purpurina)",
+      "product_type": "手工材料",
+      "category_l1": "手工创作",
+      "category_l2": "创作材料",
+      "function": "手工创作",
+      "need": "创作材料",
+      "tag": "兴趣创作"
+    },
+    {
+      "id": "paint",
+      "regex": "(?:pinturas?|barniz|imprimaci[oó]n|tinte opaco para madera)",
+      "product_type": "涂料",
+      "category_l1": "工具五金",
+      "category_l2": "涂装材料",
+      "function": "涂覆表面",
+      "need": "表面涂装",
+      "tag": "清洁维护"
+    },
+    {
+      "id": "craftpaint",
+      "regex": "(?:pintura acr[ií]lica|pinceles de acuarela)",
+      "product_type": "绘画材料",
+      "category_l1": "手工创作",
+      "category_l2": "绘画材料",
+      "function": "绘画",
+      "need": "绘画创作",
+      "tag": "兴趣创作"
+    },
+    {
+      "id": "brushpaint",
+      "regex": "(?:rodillo de pintura|brocha plana|juego de pintura de pared)",
+      "product_type": "涂装工具",
+      "category_l1": "工具五金",
+      "category_l2": "涂装工具",
+      "function": "涂覆表面",
+      "need": "表面涂装",
+      "tag": "清洁维护"
+    },
+    {
+      "id": "glue",
+      "regex": "(?:pegamento|cola epoxi|barras de pegamento)",
+      "product_type": "粘接材料",
+      "category_l1": "工具五金",
+      "category_l2": "粘接材料",
+      "function": "粘接",
+      "need": "物品粘接",
+      "tag": "日常实用"
+    },
+    {
+      "id": "tape",
+      "regex": "(?:cinta adhesiva|cinta de enmascarar)",
+      "product_type": "胶带",
+      "category_l1": "工具五金",
+      "category_l2": "粘贴材料",
+      "function": "粘贴或遮蔽（具体见名称）",
+      "need": "粘贴辅助",
+      "tag": "日常实用"
+    },
+    {
+      "id": "film",
+      "regex": "(?:l[aá]mina de pl[aá]stico autoadhesiva|film decorativo autoadhesivo|papel autoadhesivo|papel pintado)",
+      "product_type": "贴覆材料",
+      "category_l1": "家居装饰",
+      "category_l2": "表面装饰",
+      "function": "贴覆表面",
+      "need": "表面装饰",
+      "tag": "家居装饰"
+    },
+    {
+      "id": "tool",
+      "regex": "(?:taladro|destornillador|alicates|martillo|multiherramienta|llaves de vaso|puntas|sierra|juego de herramientas|esp[aá]tula de masilla|abrazadera sargento)",
+      "product_type": "手工具或电动工具",
+      "category_l1": "工具五金",
+      "category_l2": "工具作业",
+      "function": "工具作业（具体见名称）",
+      "need": "安装修整",
+      "tag": "日常实用"
+    },
+    {
+      "id": "sanding",
+      "regex": "(?:lijadora|pulidora|discos de lijado|papel de lija)",
+      "product_type": "打磨工具或耗材",
+      "category_l1": "工具五金",
+      "category_l2": "打磨用品",
+      "function": "打磨修整",
+      "need": "表面处理",
+      "tag": "清洁维护"
+    },
+    {
+      "id": "fastener",
+      "regex": "(?:tornillos|bridas|escuadras)",
+      "product_type": "固定或连接用品",
+      "category_l1": "工具五金",
+      "category_l2": "固定连接",
+      "function": "固定或连接物件",
+      "need": "安装需求",
+      "tag": "日常实用"
+    },
+    {
+      "id": "lock",
+      "regex": "candados?",
+      "product_type": "锁具",
+      "category_l1": "工具五金",
+      "category_l2": "锁具",
+      "function": "锁闭",
+      "need": "物品锁闭",
+      "tag": "日常实用"
+    },
+    {
+      "id": "measurement",
+      "regex": "(?:term[oó]metro|pie de rey|medidor de [aá]ngulo)",
+      "product_type": "测量器具",
+      "category_l1": "工具五金",
+      "category_l2": "测量",
+      "function": "测量标题所指量",
+      "need": "测量需求",
+      "tag": "日常实用"
+    },
+    {
+      "id": "strap",
+      "regex": "(?:correa tensora|correas de sujeci[oó]n)",
+      "product_type": "捆扎固定带",
+      "category_l1": "工具五金",
+      "category_l2": "固定用品",
+      "function": "捆扎固定",
+      "need": "固定需求",
+      "tag": "日常实用"
+    },
+    {
+      "id": "insulation",
+      "regex": "(?:burlete|panel reflectante de calor)",
+      "product_type": "隔挡辅助用品",
+      "category_l1": "家居日用",
+      "category_l2": "居家辅助",
+      "function": "间隙隔挡或热反射（具体见名称）",
+      "need": "居家隔挡",
+      "tag": "日常实用"
+    },
+    {
+      "id": "watergarden",
+      "regex": "(?:pistola de riego|temporizador (?:el[eé]ctrico )?para agua)",
+      "product_type": "浇灌辅助用品",
+      "category_l1": "园艺户外",
+      "category_l2": "浇灌",
+      "function": "控制浇灌（常规用途）",
+      "need": "植物浇灌",
+      "tag": "日常实用"
+    },
+    {
+      "id": "garden",
+      "regex": "(?:pala multifuncional|escardador|malla antihierbas|tabletas fertilizantes|hidrogr[aá]nulos)",
+      "product_type": "园艺用品",
+      "category_l1": "园艺户外",
+      "category_l2": "植物养护",
+      "function": "植物养护（具体见名称）",
+      "need": "种植维护",
+      "tag": "日常实用"
+    },
+    {
+      "id": "parasol",
+      "regex": "(?:sombrillas?|toldo de sombra)",
+      "product_type": "遮阳用品",
+      "category_l1": "园艺户外",
+      "category_l2": "遮阳",
+      "function": "遮挡阳光",
+      "need": "遮阳需求",
+      "tag": "日常实用"
+    },
+    {
+      "id": "umbrella",
+      "regex": "paraguas",
+      "product_type": "雨伞",
+      "category_l1": "服饰配件",
+      "category_l2": "出行配件",
+      "function": "遮雨（常规用途）",
+      "need": "出行遮雨",
+      "tag": "出行应急"
+    },
+    {
+      "id": "sportmat",
+      "regex": "esterilla de ejercicios",
+      "product_type": "运动垫",
+      "category_l1": "家居日用",
+      "category_l2": "运动用品",
+      "function": "运动时铺垫",
+      "need": "锻炼辅助",
+      "tag": "运动场景"
+    },
+    {
+      "id": "fitness",
+      "regex": "(?:pelota de fitness|rueda abdominal|pesa rusa|pistola de masaje|rodillo de masaje|entrenador postural)",
+      "product_type": "锻炼或按摩用品",
+      "category_l1": "家居日用",
+      "category_l2": "运动与身体辅助",
+      "function": "锻炼或按摩（具体见名称）",
+      "need": "身体活动辅助",
+      "tag": "运动场景"
+    },
+    {
+      "id": "swim",
+      "regex": "(?:flotadores?|piscinas?|manguitos para nadar|gafas de buceo|juego de buceo|hamaca de agua)",
+      "product_type": "泳池或水上用品",
+      "category_l1": "泳池用品",
+      "category_l2": "水上活动",
+      "function": "水上活动辅助",
+      "need": "水上活动",
+      "tag": "日常实用"
+    },
+    {
+      "id": "ball",
+      "regex": "(?:pelotas? de (?:f[uú]tbol|tenis|playa)|discos? volador(?:es)?)",
+      "product_type": "球类或飞盘",
+      "category_l1": "玩具游戏",
+      "category_l2": "投掷与球类活动",
+      "function": "球类或投掷活动",
+      "need": "休闲活动",
+      "tag": "休闲游戏"
+    },
+    {
+      "id": "toyexplicit",
+      "regex": "(?:juguetes?|de juguete|muñecas?|peluches?|marionetas?|set de juego|juego de (?:memoria|bolos|la rayuela)|figura de acci[oó]n)",
+      "product_type": "玩具或游戏用品",
+      "category_l1": "玩具游戏",
+      "category_l2": "玩具游戏",
+      "function": "游戏玩耍",
+      "need": "休闲游戏",
+      "tag": "休闲游戏"
+    },
+    {
+      "id": "watertoy",
+      "regex": "pistolas? de (?:agua|pompas)",
+      "product_type": "喷水或泡泡游戏器具",
+      "category_l1": "玩具游戏",
+      "category_l2": "喷水泡泡玩具",
+      "function": "喷水或吹泡游戏",
+      "need": "休闲游戏",
+      "tag": "休闲游戏"
+    },
+    {
+      "id": "remotetoy",
+      "regex": "(?:coches?|veh[ií]culos?|robots?|ratas?) (?:de carreras con mando|(?:de choque )?teledirigid[oa]s?)",
+      "product_type": "遥控游戏用品",
+      "category_l1": "玩具游戏",
+      "category_l2": "遥控玩具",
+      "function": "遥控游戏",
+      "need": "休闲游戏",
+      "tag": "休闲游戏"
+    },
+    {
+      "id": "slime",
+      "regex": "(?:slime|plastilina|pasta moldeable)",
+      "product_type": "可塑造型用品",
+      "category_l1": "玩具游戏",
+      "category_l2": "造型玩具",
+      "function": "塑形玩耍",
+      "need": "造型活动",
+      "tag": "休闲游戏"
+    },
+    {
+      "id": "game",
+      "regex": "juego Nintendo Switch|minim[aá]quina de Arcade",
+      "product_type": "电子游戏商品",
+      "category_l1": "玩具游戏",
+      "category_l2": "电子游戏",
+      "function": "电子游戏",
+      "need": "休闲游戏",
+      "tag": "休闲游戏"
+    },
+    {
+      "id": "petfood",
+      "regex": "(?:comida(?: h[uú]meda)? (?:de|para) (?:gatos?|perros?)|(?:aperitivos|snacks|galletas|helados|peluches|juguetes|manta|piscina|cepillo|bolsas para excrementos) para (?:gatos?|perros?|animales)|pasta de semillas de girasol)",
+      "product_type": "宠物食物或用品",
+      "category_l1": "宠物用品",
+      "category_l2": "宠物照护",
+      "function": "标题明确动物对象的食用或照护",
+      "need": "宠物照护",
+      "tag": "宠物照护"
+    },
+    {
+      "id": "petbasket",
+      "regex": "(?:cesta para mascotas|tienda de gatos)",
+      "product_type": "宠物休憩用品",
+      "category_l1": "宠物用品",
+      "category_l2": "宠物休憩",
+      "function": "供宠物休憩（常规用途）",
+      "need": "宠物休憩",
+      "tag": "宠物照护"
+    },
+    {
+      "id": "petgroom",
+      "regex": "cepillo para animales",
+      "product_type": "宠物刷",
+      "category_l1": "宠物用品",
+      "category_l2": "宠物护理",
+      "function": "刷理动物毛发（常规用途）",
+      "need": "宠物护理",
+      "tag": "宠物照护"
+    },
+    {
+      "id": "cookie",
+      "regex": "(?:galletas?|cookies?)",
+      "product_type": "饼干类",
+      "category_l1": "食品饮料",
+      "category_l2": "食品",
+      "function": "食用（命名用途）",
+      "need": "食物选择",
+      "tag": "日常实用"
+    },
+    {
+      "id": "chocolate",
+      "regex": "(?:chocolate|barritas de chocolate|huevos de Pascua de chocolate)",
+      "product_type": "巧克力类",
+      "category_l1": "食品饮料",
+      "category_l2": "食品",
+      "function": "食用（命名用途）",
+      "need": "食物选择",
+      "tag": "日常实用"
+    },
+    {
+      "id": "candy",
+      "regex": "(?:caramelos?|golosinas|gominolas|chicles|piruletas|ositos de goma|huevos de Pascua azucarados)",
+      "product_type": "糖果类",
+      "category_l1": "食品饮料",
+      "category_l2": "食品",
+      "function": "食用（命名用途）",
+      "need": "食物选择",
+      "tag": "日常实用"
+    },
+    {
+      "id": "nuts",
+      "regex": "(?:anacardos|cacahuetes|almendras|(?:surtido de )?(?:nueces|frutos secos))",
+      "product_type": "坚果类",
+      "category_l1": "食品饮料",
+      "category_l2": "食品",
+      "function": "食用（命名用途）",
+      "need": "食物选择",
+      "tag": "日常实用"
+    },
+    {
+      "id": "snack",
+      "regex": "(?:patatas fritas|palomitas|barritas de (?:cereales|muesli)|fideos instant[aá]neos|pasta instant[aá]nea|wraps de tortilla)",
+      "product_type": "即食或简制食品",
+      "category_l1": "食品饮料",
+      "category_l2": "食品",
+      "function": "食用（命名用途）",
+      "need": "食物选择",
+      "tag": "日常实用"
+    },
+    {
+      "id": "foodcondiment",
+      "regex": "(?:aceite (?:sabor ajo|de aguacate)|salsa de|k[eé]tchup|semillas de lino)",
+      "product_type": "食品或调味料",
+      "category_l1": "食品饮料",
+      "category_l2": "食品",
+      "function": "食用或调味（命名用途）",
+      "need": "食物调味",
+      "tag": "日常实用"
+    },
+    {
+      "id": "protein",
+      "regex": "(?:prote[ií]na en polvo|barritas? de prote[ií]nas?|bolas de prote[ií]na)",
+      "product_type": "蛋白食品（品名标注）",
+      "category_l1": "食品饮料",
+      "category_l2": "营养食品",
+      "function": "食用（命名用途）",
+      "need": "营养食品选择",
+      "tag": "日常实用"
+    },
+    {
+      "id": "earphone",
+      "regex": "auriculares?",
+      "product_type": "耳机",
+      "category_l1": "数码配件",
+      "category_l2": "音频设备",
+      "function": "收听音频",
+      "need": "音频收听",
+      "tag": "日常实用"
+    },
+    {
+      "id": "speaker",
+      "regex": "(?:altavoz|barra de sonido)",
+      "product_type": "扬声设备",
+      "category_l1": "数码配件",
+      "category_l2": "音频设备",
+      "function": "播放音频",
+      "need": "音频播放",
+      "tag": "日常实用"
+    },
+    {
+      "id": "charger",
+      "regex": "cargador(?:es)?",
+      "product_type": "充电器",
+      "category_l1": "数码配件",
+      "category_l2": "充电配件",
+      "function": "充电",
+      "need": "设备供电",
+      "tag": "数码连接"
+    },
+    {
+      "id": "powerstrip",
+      "regex": "(?:regleta|enchufe inteligente)",
+      "product_type": "供电连接用品",
+      "category_l1": "数码配件",
+      "category_l2": "供电连接",
+      "function": "供电连接",
+      "need": "电源连接",
+      "tag": "数码连接"
+    },
+    {
+      "id": "cable",
+      "regex": "cables? (?:HDMI|USB|de datos)",
+      "product_type": "连接线",
+      "category_l1": "数码配件",
+      "category_l2": "连接配件",
+      "function": "传输对应信号（具体见名称）",
+      "need": "设备连接",
+      "tag": "数码连接"
+    },
+    {
+      "id": "phonecover",
+      "regex": "fundas? (?:de (?:tel[eé]fono|m[oó]vil)|para m[oó]vil)",
+      "product_type": "手机保护套",
+      "category_l1": "数码配件",
+      "category_l2": "手机配件",
+      "function": "包覆手机",
+      "need": "手机保护",
+      "tag": "日常实用"
+    },
+    {
+      "id": "screenprotector",
+      "regex": "protectores? de pantalla",
+      "product_type": "屏幕保护片",
+      "category_l1": "数码配件",
+      "category_l2": "设备保护",
+      "function": "覆盖屏幕",
+      "need": "屏幕保护",
+      "tag": "日常实用"
+    },
+    {
+      "id": "phonesupport",
+      "regex": "soporte para tel[eé]fono",
+      "product_type": "手机支架",
+      "category_l1": "数码配件",
+      "category_l2": "设备支承",
+      "function": "支承手机",
+      "need": "手机放置",
+      "tag": "日常实用"
+    },
+    {
+      "id": "devicesupport",
+      "regex": "soporte para auriculares",
+      "product_type": "设备支架",
+      "category_l1": "数码配件",
+      "category_l2": "设备支承",
+      "function": "支承设备",
+      "need": "设备放置",
+      "tag": "收纳整理"
+    },
+    {
+      "id": "battery",
+      "regex": "pilas?",
+      "product_type": "电池",
+      "category_l1": "数码配件",
+      "category_l2": "电源",
+      "function": "供电",
+      "need": "设备供电",
+      "tag": "日常实用"
+    },
+    {
+      "id": "fan",
+      "regex": "ventilador(?:es)?",
+      "product_type": "风扇",
+      "category_l1": "家居日用",
+      "category_l2": "空气流动用品",
+      "function": "促进空气流动",
+      "need": "通风凉用",
+      "tag": "生活便利"
+    },
+    {
+      "id": "waterdispense",
+      "regex": "(?:dispensador de agua caliente|minidispensador de bebidas)",
+      "product_type": "饮品分配器具",
+      "category_l1": "厨房与餐饮",
+      "category_l2": "饮品器具",
+      "function": "分配饮品",
+      "need": "饮品取用",
+      "tag": "生活便利"
+    },
+    {
+      "id": "cycling",
+      "regex": "(?:sill[ií]n de bicicleta|bomba de pie)",
+      "product_type": "自行车配件或打气用品",
+      "category_l1": "园艺户外",
+      "category_l2": "出行辅助",
+      "function": "骑行或充气辅助（具体见名称）",
+      "need": "出行辅助",
+      "tag": "日常实用"
+    },
+    {
+      "id": "snowbrush",
+      "regex": "(?:cepillo telesc[oó]pico.*(?:nieve|hielo)|rascador de hielo)",
+      "product_type": "冰雪清理用品",
+      "category_l1": "汽车用品",
+      "category_l2": "除冰清雪",
+      "function": "刮除冰雪（常规用途）",
+      "need": "冰雪清理",
+      "tag": "季节气候"
+    },
+    {
+      "id": "carcare",
+      "regex": "(?:limpiaparabrisas|abrillantador de ruedas|espray cockpit)",
+      "product_type": "汽车护理用品",
+      "category_l1": "汽车用品",
+      "category_l2": "车辆护理",
+      "function": "车辆清理（常规用途）",
+      "need": "车辆维护",
+      "tag": "清洁维护"
+    },
+    {
+      "id": "watch",
+      "regex": "reloj(?:es)?",
+      "product_type": "钟表",
+      "category_l1": "家居日用",
+      "category_l2": "计时用品",
+      "function": "显示时间",
+      "need": "时间查看",
+      "tag": "日常实用"
+    }
+  ],
+  "feature_scope": "Only title-supported broad objects and ordinary uses; unhandled terms become coverage-gap cases",
+  "not_human_gold": true
+}

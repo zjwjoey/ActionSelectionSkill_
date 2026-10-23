@@ -1,0 +1,66 @@
+{
+  "version": "name-semantics-v9-compositional-review",
+  "status": "provisional observed-title taxonomy; revisions require a new rules version",
+  "levels": [
+    "category_l1: primary domain",
+    "category_l2: functional group",
+    "product_type: named object"
+  ],
+  "principles": [
+    "Main purpose takes precedence over source merchandising department",
+    "No original category passed to semantic analyst",
+    "General types remain general if title does not specify subtype",
+    "未确定 is allowed",
+    "Additional uses belong in labels, not invented primary types"
+  ],
+  "category_l1_candidates": [
+    "厨房与餐饮",
+    "家居日用",
+    "家居装饰",
+    "清洁维护",
+    "工具五金",
+    "汽车用品",
+    "园艺户外",
+    "泳池用品",
+    "食品饮料",
+    "个人护理",
+    "服饰配件",
+    "手工创作",
+    "派对用品",
+    "节庆用品",
+    "玩具游戏",
+    "宠物用品",
+    "数码配件",
+    "文具与规划",
+    "旅行用品",
+    "照明与应急",
+    "未确定",
+    "运动与健身"
+  ],
+  "category_l2_policy": "Derived from the 100 reviewed titles; open candidates, not 15 source departments copied into predictions.",
+  "confidence": {
+    "高": "The asserted broad object and usual use are clear; omitted optional attributes do not lower confidence",
+    "中": "A broad object is supported, with a material domain/scenario interpretation still needing review",
+    "低": "Brand-only, language corruption, polysemy or unresolved primary domain"
+  },
+  "review_decisions": [
+    "KEEP",
+    "CORRECTED",
+    "CALIBRATED",
+    "ABSTAIN_RETAINED"
+  ],
+  "category_boundaries": {
+    "首饰盒": "家居日用/首饰收纳, storage function",
+    "钻石画装饰包袋": "服饰配件/包袋 unless title explicitly establishes DIY",
+    "数据线": "Do not claim charging where absent from title",
+    "Cazo": "Record small-pan/ladle ambiguity rather than assert one vessel",
+    "Barco with brand/series only": "Domain hypothesis must not silently become a toy fact",
+    "训练器具": "运动与健身；按摩用品依命名放个人护理，禁止因为缺体育主类而放家居日用",
+    "餐盘垫": "承托餐盘或桌面装饰，不默认直接盛装食物",
+    "量杯": "体积计量器具，不归普通饮用杯",
+    "普通用途": "可作为有边界的研究候选；不因属于宽泛词族而自动入争议，不构成人工确认",
+    "行李箱": "旅行用品/行李携带；主类口径一致不等于旧类别是语义错误",
+    "露营椅": "园艺户外/露营座椅；仍保留坐用功能",
+    "功能限定词": "用于、搭配、和/或等组合关系保留，不因首个词族命中丢掉明确用途"
+  }
+}

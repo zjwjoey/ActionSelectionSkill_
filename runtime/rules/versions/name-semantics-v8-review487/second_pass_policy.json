@@ -1,0 +1,249 @@
+{
+  "version": "name-semantics-v8-review487",
+  "rules": [
+    {
+      "id": "facepack",
+      "regex": "^(?:paquete múltiple de )?mascarillas? faciales",
+      "product_type": "面膜组合（成分仅按品名标注）",
+      "category_l1": "个人护理",
+      "category_l2": "面部护理",
+      "function": "面部护理（名称用途）",
+      "need": "面部护理",
+      "tag": "个人护理",
+      "outcome": "CLEAR"
+    },
+    {
+      "id": "snowtool",
+      "regex": "^cepillo telescópico.*(?:hielo|nieve)",
+      "product_type": "伸缩刷与刮冰工具",
+      "category_l1": "工具五金",
+      "category_l2": "冰雪清理工具",
+      "function": "刷扫或刮冰（名称用途）",
+      "need": "冰雪清理",
+      "tag": "季节气候",
+      "outcome": "CLEAR"
+    },
+    {
+      "id": "festivehat",
+      "regex": "^gorro de navidad.*(?:baile|música)",
+      "product_type": "圣诞帽造型用品（音乐或舞动按品名标注）",
+      "category_l1": "节庆用品",
+      "category_l2": "节庆趣味用品",
+      "function": "节庆趣味（不保证可穿戴或驱动结构）",
+      "need": "节庆氛围",
+      "tag": "季节节庆",
+      "outcome": "CLEAR"
+    },
+    {
+      "id": "acnepatch",
+      "regex": "^parches hidrocoloides para granos",
+      "product_type": "痘点护理贴（品名标注水胶体）",
+      "category_l1": "个人护理",
+      "category_l2": "局部护理",
+      "function": "覆盖痘点（名称用途，非治疗保证）",
+      "need": "局部护理",
+      "tag": "个人护理",
+      "outcome": "CLEAR"
+    },
+    {
+      "id": "bikecomputer",
+      "regex": "^ciclocomputadora",
+      "product_type": "自行车码表",
+      "category_l1": "园艺户外",
+      "category_l2": "骑行配件",
+      "function": "骑行信息显示（常规用途，具体指标未明）",
+      "need": "骑行辅助",
+      "tag": "日常实用",
+      "outcome": "CLEAR"
+    },
+    {
+      "id": "rubberband",
+      "regex": "^gomas elásticas",
+      "product_type": "弹性胶圈",
+      "category_l1": "家居日用",
+      "category_l2": "固定整理用品",
+      "function": "捆扎固定（常规用途）",
+      "need": "物品固定",
+      "tag": "收纳整理",
+      "outcome": "CLEAR"
+    },
+    {
+      "id": "crackerfood",
+      "regex": "^cracker mix",
+      "product_type": "饼干混合食品（名称标注）",
+      "category_l1": "食品饮料",
+      "category_l2": "零食",
+      "function": "食用（名称用途）",
+      "need": "食品选择",
+      "tag": "日常实用",
+      "outcome": "CLEAR"
+    },
+    {
+      "id": "chipsfood",
+      "regex": "^\\S+(?: super)? chips\\b",
+      "product_type": "脆片类食品（原料未明确）",
+      "category_l1": "食品饮料",
+      "category_l2": "零食",
+      "function": "食用（名称用途，未推断原料）",
+      "need": "食品选择",
+      "tag": "日常实用",
+      "outcome": "CLEAR"
+    },
+    {
+      "id": "candybag",
+      "regex": "^bolsa para caramelos",
+      "product_type": "糖果包装袋",
+      "category_l1": "派对用品",
+      "category_l2": "包装用品",
+      "function": "盛装糖果（名称用途）",
+      "need": "食品包装",
+      "tag": "日常实用",
+      "outcome": "CLEAR"
+    },
+    {
+      "id": "animalfeeder",
+      "regex": "^comederos con soporte",
+      "product_type": "动物喂食器具（适用动物未明确）",
+      "category_l1": "宠物用品",
+      "category_l2": "喂食器具",
+      "function": "喂食（常规词义，不推断具体动物）",
+      "need": "动物喂养",
+      "tag": "宠物照护",
+      "outcome": "CLEAR"
+    },
+    {
+      "id": "sandgame",
+      "regex": "^juego de helados para arena",
+      "product_type": "冰淇淋主题沙地游戏套装",
+      "category_l1": "玩具游戏",
+      "category_l2": "沙地游戏",
+      "function": "沙地游戏（名称用途）",
+      "need": "休闲游戏",
+      "tag": "休闲游戏",
+      "outcome": "CLEAR"
+    },
+    {
+      "id": "rotatingbrush",
+      "regex": "^juego de cepillos giratorios automáticos",
+      "product_type": "自动旋转刷组合（使用对象未明）",
+      "category_l1": "清洁维护",
+      "category_l2": "刷洗工具",
+      "function": "旋转刷洗（常规用途，未推断对象）",
+      "need": "刷洗需求",
+      "tag": "清洁维护",
+      "outcome": "CLEAR"
+    },
+    {
+      "id": "serumbroad",
+      "regex": "^sérum\\b",
+      "product_type": "精华类护理品（使用部位未明）",
+      "category_l1": "个人护理",
+      "category_l2": "护理用品",
+      "function": "护理（按品名，不推断具体作用）",
+      "need": "护理用品",
+      "tag": "个人护理",
+      "outcome": "CLEAR"
+    },
+    {
+      "id": "hairbroad",
+      "regex": "^potenciadores del cabello",
+      "product_type": "头发护理用品（具体作用未核实）",
+      "category_l1": "个人护理",
+      "category_l2": "头发护理",
+      "function": "头发护理（名称用途）",
+      "need": "头发护理",
+      "tag": "个人护理",
+      "outcome": "CLEAR"
+    },
+    {
+      "id": "collagen",
+      "regex": "^cápsulas de complejo de colágeno",
+      "product_type": "复合胶原蛋白胶囊（品名标注，用途待核实）",
+      "category_l1": "未确定",
+      "category_l2": "胶囊用途待明确",
+      "function": "具体用途待核实",
+      "need": "用途待明确",
+      "tag": "日常实用",
+      "outcome": "KEEP"
+    },
+    {
+      "id": "coconutoil",
+      "regex": "^aceite de coco",
+      "product_type": "椰子油（食品或护理用途未明）",
+      "category_l1": "未确定",
+      "category_l2": "油类用途待定",
+      "function": "具体用途待核实",
+      "need": "用途待明确",
+      "tag": "日常实用",
+      "outcome": "KEEP"
+    },
+    {
+      "id": "seedobject",
+      "regex": "^semillas$",
+      "product_type": "种子（食用或种植用途未明）",
+      "category_l1": "未确定",
+      "category_l2": "种子用途待定",
+      "function": "具体用途待核实",
+      "need": "用途待明确",
+      "tag": "日常实用",
+      "outcome": "KEEP"
+    },
+    {
+      "id": "replacementblade",
+      "regex": "^cuchilla(?:s)?(?: con recambios| desechables)",
+      "product_type": "刀片或刃具（使用对象未明）",
+      "category_l1": "未确定",
+      "category_l2": "刃具用途待定",
+      "function": "切割或剃刮（具体用途未明）",
+      "need": "用途待明确",
+      "tag": "日常实用",
+      "outcome": "KEEP"
+    },
+    {
+      "id": "searchfinder",
+      "regex": "^(?:tarjeta )?smart\\s*finders?\\b",
+      "product_type": "查找辅助商品（技术形态未明）",
+      "category_l1": "未确定",
+      "category_l2": "查找用品用途待核实",
+      "function": "查找辅助（名称用途，不推断GPS或蓝牙）",
+      "need": "查找辅助",
+      "tag": "日常实用",
+      "outcome": "KEEP"
+    },
+    {
+      "id": "titlepetals",
+      "regex": "^pétalos de (?:flores|rosa)",
+      "product_type": "花瓣类商品（用途和材质未明）",
+      "category_l1": "未确定",
+      "category_l2": "花瓣用途待明确",
+      "function": "具体用途待核实",
+      "need": "用途待明确",
+      "tag": "日常实用",
+      "outcome": "KEEP"
+    },
+    {
+      "id": "teaambig",
+      "regex": "^(?:juego|set) de té",
+      "product_type": "茶具主题组合（真实器具或游戏用品未明）",
+      "category_l1": "未确定",
+      "category_l2": "茶具主题用途待定",
+      "function": "具体用途待核实",
+      "need": "用途待明确",
+      "tag": "日常实用",
+      "outcome": "KEEP"
+    },
+    {
+      "id": "surprisepack",
+      "regex": "^(?:bolsa|caja|bola|huevo) sorpresa",
+      "product_type": "惊喜包装商品（内含物未明）",
+      "category_l1": "未确定",
+      "category_l2": "惊喜商品用途待定",
+      "function": "具体用途待核实",
+      "need": "用途待明确",
+      "tag": "日常实用",
+      "outcome": "KEEP"
+    }
+  ],
+  "scope": "Only remaining candidates inside original 487; no sample expansion; optional missing details do not imply unresolved object",
+  "human_confirmation": false
+}

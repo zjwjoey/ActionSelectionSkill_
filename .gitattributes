@@ -1,0 +1,5 @@
+# Preserve exact source bytes for the packaged SHA256 manifest across platforms.
+* -text whitespace=cr-at-eol
+*.joblib binary
+*.xlsx binary
+*.png binary

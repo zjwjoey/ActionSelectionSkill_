@@ -1,0 +1,26 @@
+{
+  "version": "name-semantics-v10-context-guard",
+  "action_pattern_candidates": {
+    "日常实用": "An ordinary functional use is supported; does not imply actual use frequency",
+    "生活便利": "A plausible convenience use from product identity",
+    "收纳整理": "Storage, grouping or arranging objects",
+    "清洁维护": "Cleaning or maintenance function",
+    "家居装饰": "Visual or scent decoration of living space",
+    "兴趣创作": "Crafting or personal creative activity; exclude ordinary games and hardware installation",
+    "休闲游戏": "Ordinary play or gaming use supported by title/object; does not imply creativity",
+    "设施铺设": "Installation of named surfaces or fixtures; not a hobby inference",
+    "礼赠场景": "Explicit regalo/gift wording; does not establish intended recipient or care use",
+    "季节气候": "Weather-related use such as ice removal; not a festival label",
+    "运动场景": "Explicit sport-related object or use",
+    "季节节庆": "Explicit seasonal or festival reference",
+    "派对布置": "Party-related decoration or table arrangement",
+    "个人护理": "Personal cosmetic or care function",
+    "服饰搭配": "Wearing or clothing accessory use",
+    "宠物照护": "Explicit animal-specific care or feeding",
+    "数码连接": "Power, data or audio-device connectivity",
+    "出行应急": "Travel or emergency function"
+  },
+  "interpretation": "These are tentative use-pattern labels. No hot-selling, profit, purchase motivation or Action strategy score is produced.",
+  "multiple_labels": true,
+  "insufficient_title_may_have_empty_labels": true
+}

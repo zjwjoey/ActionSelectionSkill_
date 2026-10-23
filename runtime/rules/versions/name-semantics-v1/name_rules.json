@@ -1,0 +1,15 @@
+{
+  "version": "name-semantics-v1",
+  "semantic_inputs": ["name_es_original", "name_es_normalized"],
+  "normalization": ["Unicode NFC", "trim outer whitespace", "collapse repeated whitespace"],
+  "preserve": ["Spanish accents", "numbers", "units", "models", "brands", "negation", "compatibility qualifiers"],
+  "original_category_use": "sampling and after-the-fact comparison only",
+  "price_use": "stored only; no score, valuation or price-based filter. Extreme price difference checks are a future interface and are not executed.",
+  "forbidden_claims": ["unmentioned material", "unmentioned size", "quality", "sales", "consumption frequency", "Action purchasing motivation", "margin", "procurement value"],
+  "source_quality": "Non-Spanish Chinese-only names remain unchanged and are information-insufficient for this Spanish-only pilot. Brand-only names do not establish product identity.",
+  "classification": "Use title-supported product identity as primary; common functional use may be labelled as inference. Preserve ambiguity. Proposed taxonomy is provisional, not a forced complete catalog.",
+  "review": "AI statuses are only 待审核 or 信息不足. 已确认 requires explicit supplied human feedback and matching annotation hash.",
+  "execution_limit": 100,
+  "model_training": "none",
+  "external_collection": "disabled"
+}

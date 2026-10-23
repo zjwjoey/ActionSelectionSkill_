@@ -1,0 +1,21 @@
+ActionSelectionSkill 当前分享版（2026-10-23）
+
+解压后只有一个Skill目录：action-selection。将整个目录交给接收方，或放入其Skill目录；不要只发送SKILL.md。
+
+直接交给AI使用：让AI读取SKILL.md，依据包内参照与规则分析新商品，另存结果。没有语言模型微调权重。
+
+本地检索（已用Python 3.12验证）：
+  python -m pip install -r requirements.txt
+  python scripts/share_tool.py verify
+  python scripts/share_tool.py info
+  python scripts/share_tool.py search --title "Pulverizador de aceite para cocina" --top 5
+  python scripts/share_tool.py reference --sku 3222901
+
+检索输出不是筛选决定，需要AI继续判断主体、同类关系和经营范围。脚本不需要API密钥。
+
+包内包含：10037条Action参照、10037条语义候选、类型/用途/需求关联、当前规则与源程序、最新300/500条实验及3条用户反馈。
+未包含：原始Master、生产数据库、大型SQLite备份、运行虚拟环境、node_modules、密封50条和账号配置。
+
+当前可以做辅助初筛，正式准确率尚未独立验证。用不到候选保留原记录供复核，不直接删商品。
+
+manifest.json保存每个文件的SHA256，可用verify检查。修改包内文件后会出现校验差异，应另存新版本。

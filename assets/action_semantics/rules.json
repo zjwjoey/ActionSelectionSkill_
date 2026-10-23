@@ -1,0 +1,5539 @@
+[
+  {
+    "id": "g23_shaving_oil",
+    "regex": "^aceite de afeitar\\b",
+    "product_type": "剃须油",
+    "function": "辅助剃须时涂抹",
+    "need": "剃须润滑"
+  },
+  {
+    "id": "g23_aroma_oil",
+    "regex": "^aceite de aromaterapia\\b",
+    "product_type": "芳香油",
+    "function": "按适用方式释放香气",
+    "need": "芳香气味使用"
+  },
+  {
+    "id": "g23_oil_spray",
+    "regex": "^aceite de oliva en espray\\b",
+    "product_type": "喷雾橄榄油",
+    "function": "喷洒橄榄油作为食物配料",
+    "need": "食物用油喷洒"
+  },
+  {
+    "id": "g23_travel_adapter",
+    "regex": "^adaptador de viaje\\b",
+    "product_type": "旅行适配器（接口待核）",
+    "function": "",
+    "need": ""
+  },
+  {
+    "id": "g23_mount_adhesive",
+    "regex": "^adhesivo de montaje\\b",
+    "product_type": "安装胶",
+    "function": "粘接安装物件",
+    "need": "安装粘接"
+  },
+  {
+    "id": "g23_knit_needles",
+    "regex": "^agujas de tejer\\b",
+    "product_type": "编织针",
+    "function": "手工针织",
+    "need": "针织工具"
+  },
+  {
+    "id": "g23_ac",
+    "regex": "^aire acondicionado\\b",
+    "product_type": "空调设备",
+    "function": "调节空气温度（规格待核）",
+    "need": "空气温度调节"
+  },
+  {
+    "id": "g23_wire_decor",
+    "regex": "^alambre de decoraci[oó]n\\b",
+    "product_type": "装饰用金属丝",
+    "function": "弯折固定装饰造型",
+    "need": "装饰造型固定"
+  },
+  {
+    "id": "g23_eye_pad",
+    "regex": "^almohadillas para los ojos\\b",
+    "product_type": "眼部敷垫",
+    "function": "敷于眼部周围（不推断效果）",
+    "need": "眼周敷用护理"
+  },
+  {
+    "id": "g23_espadrille",
+    "regex": "^alpargatas\\b",
+    "product_type": "帆布草编式鞋",
+    "function": "足部穿着",
+    "need": "便鞋穿着"
+  },
+  {
+    "id": "g23_hair_ampoule",
+    "regex": "^ampollas de aceite de arg[aá]n para el cabello\\b",
+    "product_type": "护发油安瓶",
+    "function": "将标题指定护发油用于头发",
+    "need": "头发油护理"
+  },
+  {
+    "id": "g23_pet_treat",
+    "regex": "^aperitivo para perro\\b",
+    "product_type": "犬用零食",
+    "function": "喂给犬作为零食",
+    "need": "犬类零食喂食"
+  },
+  {
+    "id": "g23_wall_motion",
+    "regex": "^aplique con sensor de movimiento\\b",
+    "product_type": "动作感应壁灯",
+    "function": "感应动作后供光（安装条件待核）",
+    "need": "感应壁面照明"
+  },
+  {
+    "id": "g23_humidity_absorb",
+    "regex": "^atrapa humedades\\b",
+    "product_type": "吸湿用品",
+    "function": "用于吸收环境湿气（效果待核）",
+    "need": "环境吸湿"
+  },
+  {
+    "id": "g23_headband",
+    "regex": "^banda para la cabeza(?! recargable)\\b",
+    "product_type": "头带",
+    "function": "佩戴于头部",
+    "need": "头部带状佩戴"
+  },
+  {
+    "id": "g23_bath_boat",
+    "regex": "^barquitos para el ba[ñn]o\\b",
+    "product_type": "沐浴小船玩具",
+    "function": "沐浴时进行小船玩耍",
+    "need": "沐浴船形玩耍"
+  },
+  {
+    "id": "g23_protein_wafer",
+    "regex": "^(?:barquillos de prote[ií]nas|barrita de barquillo de prote[ií]nas)\\b",
+    "product_type": "标称蛋白质威化",
+    "function": "作为威化食品食用（不推断营养效果）",
+    "need": "威化零食食用"
+  },
+  {
+    "id": "g23_protein_bar",
+    "regex": "^barra de prote[ií]nas\\b",
+    "product_type": "标称蛋白质棒",
+    "function": "作为条状食品食用（不推断营养效果）",
+    "need": "条状营养食品食用"
+  },
+  {
+    "id": "g23_caramel_bar",
+    "regex": "^barrita de (?:caramelo|frutos secos y caramelo)\\b",
+    "product_type": "焦糖条状食品",
+    "function": "食用标题指定焦糖食品",
+    "need": "焦糖零食食用"
+  },
+  {
+    "id": "g23_lip_blush",
+    "regex": "^barra de labios y colorete\\b",
+    "product_type": "口红及腮红两用彩妆",
+    "function": "修饰唇部和面颊",
+    "need": "唇颊彩妆"
+  },
+  {
+    "id": "g23_contour_highlight",
+    "regex": "^barra de contorno e iluminador\\b",
+    "product_type": "修容及高光彩妆棒",
+    "function": "进行面部修容和高光上妆",
+    "need": "面部修容高光"
+  },
+  {
+    "id": "g23_bird_chew",
+    "regex": "^barritas masticables para periquitos\\b",
+    "product_type": "虎皮鹦鹉咀嚼棒",
+    "function": "供虎皮鹦鹉啄食咀嚼",
+    "need": "虎皮鹦鹉啄食"
+  },
+  {
+    "id": "g23_baseball_bundle",
+    "regex": "^bate de b[eé]isbol con pelota\\b",
+    "product_type": "棒球棒及球组合",
+    "function": "进行棒球击球活动",
+    "need": "棒球击打活动"
+  },
+  {
+    "id": "g23_hinge",
+    "regex": "^bisagras\\b",
+    "product_type": "铰链",
+    "function": "连接可转动部件",
+    "need": "部件铰接"
+  },
+  {
+    "id": "g23_cardstock_pad",
+    "regex": "^bloc de cartulinas de colores\\b",
+    "product_type": "彩色卡纸本",
+    "function": "裁切拼贴彩色卡纸",
+    "need": "彩色卡纸创作"
+  },
+  {
+    "id": "g23_sanding_block",
+    "regex": "^bloque de lijado manual\\b",
+    "product_type": "手动打磨块",
+    "function": "手工打磨表面",
+    "need": "手动表面打磨"
+  },
+  {
+    "id": "g23_yoga_block",
+    "regex": "^bloque de yoga\\b",
+    "product_type": "瑜伽砖",
+    "function": "辅助瑜伽姿势支撑",
+    "need": "瑜伽姿势支撑"
+  },
+  {
+    "id": "g23_construction_blocks",
+    "regex": "^(?:bloques de construcci[oó]n|fichas de construcci[oó]n mini|flores de bloques de construcci[oó]n)\\b",
+    "product_type": "积木拼搭用品",
+    "function": "拼搭标题指定造型",
+    "need": "积木拼搭活动"
+  },
+  {
+    "id": "g23_christmas_ball",
+    "regex": "^bola de Navidad\\b",
+    "product_type": "圣诞球饰",
+    "function": "陈设悬挂圣诞球形装饰",
+    "need": "圣诞球饰陈设"
+  },
+  {
+    "id": "g23_massage_ball",
+    "regex": "^bola de masaje el[eé]ctrica\\b",
+    "product_type": "电动按摩球",
+    "function": "滚动或接触身体进行按摩（效果待核）",
+    "need": "身体球形按摩"
+  },
+  {
+    "id": "g23_discoball",
+    "regex": "^bola disco(?! y luz)\\b",
+    "product_type": "迪斯科球饰",
+    "function": "布置迪斯科球形装饰（光源依标题保留）",
+    "need": "迪斯科球装饰"
+  },
+  {
+    "id": "g23_puzzleball",
+    "regex": "^bola m[aá]gica rompecabezas\\b",
+    "product_type": "球形益智玩具",
+    "function": "进行球形拼解活动",
+    "need": "球形谜题解答"
+  },
+  {
+    "id": "g23_craft_miniball",
+    "regex": "^bola en miniatura para manualidades\\b",
+    "product_type": "微型手工球材料",
+    "function": "用于球形手工装饰",
+    "need": "小球手工创作"
+  },
+  {
+    "id": "g23_toiletry_bag",
+    "regex": "^bolsa de aseo\\b",
+    "product_type": "洗漱收纳包",
+    "function": "收纳携带洗漱用品",
+    "need": "洗漱用品携带"
+  },
+  {
+    "id": "g23_beach_bag",
+    "regex": "^bolsa de playa\\b",
+    "product_type": "沙滩包",
+    "function": "携带沙滩活动物品",
+    "need": "沙滩物品携带"
+  },
+  {
+    "id": "g23_textile_bag",
+    "regex": "^bolsa de (?:lona|tela)\\b",
+    "product_type": "布袋",
+    "function": "装载携带物品",
+    "need": ""
+  },
+  {
+    "id": "g23_vacuum_store_bag",
+    "regex": "^bolsa de almacenamiento con bolsa al vac[ií]o\\b",
+    "product_type": "带真空袋的收纳袋",
+    "function": "配套压缩收纳物品",
+    "need": "真空袋收纳"
+  },
+  {
+    "id": "g23_freezer_bags",
+    "regex": "^bolsas de congelado\\b",
+    "product_type": "冷冻食品袋",
+    "function": "装袋冷冻保存食物",
+    "need": "冷冻食物装袋"
+  },
+  {
+    "id": "g23_shipping_bags",
+    "regex": "^bolsas de env[ií]o\\b",
+    "product_type": "寄送包装袋",
+    "function": "装袋寄送物品",
+    "need": "物品寄送包装"
+  },
+  {
+    "id": "g23_sandwich_bags",
+    "regex": "^bolsas para bocadillos\\b",
+    "product_type": "三明治食品袋",
+    "function": "装入携带三明治",
+    "need": "三明治包装携带"
+  },
+  {
+    "id": "g23_party_bags",
+    "regex": "^bolsas (?:de fiesta|para repartir en Halloween)\\b",
+    "product_type": "派对分发袋",
+    "function": "装载分发派对小物",
+    "need": "派对小物分发"
+  },
+  {
+    "id": "g23_handbag",
+    "regex": "^bolso\\b",
+    "product_type": "包袋",
+    "function": "随身携带物品",
+    "need": ""
+  },
+  {
+    "id": "g23_hand_pump",
+    "regex": "^bomba (?:de mano|manual doble acci[oó]n)\\b",
+    "product_type": "手动泵（介质待核）",
+    "function": "",
+    "need": ""
+  },
+  {
+    "id": "g23_bath_store_jar",
+    "regex": "^bote de almacenamiento para ba[ñn]o\\b",
+    "product_type": "浴室收纳罐",
+    "function": "收纳浴室小物",
+    "need": "浴室小物收纳"
+  },
+  {
+    "id": "g23_charcoal_briquette",
+    "regex": "^briquetas de carboncillo\\b",
+    "product_type": "炭块燃料",
+    "function": "作为炭燃料使用",
+    "need": "炭火燃料补充"
+  },
+  {
+    "id": "g23_charge_data",
+    "regex": "^cable de silicona de carga y datos\\b",
+    "product_type": "充电数据线",
+    "function": "连接适配设备充电并传输数据",
+    "need": "设备充电及数据连接"
+  },
+  {
+    "id": "g23_bunting",
+    "regex": "^cadena de banderines\\b",
+    "product_type": "三角旗串",
+    "function": "悬挂旗串布置空间",
+    "need": "旗串装饰"
+  },
+  {
+    "id": "g23_foodstorage_box",
+    "regex": "^caja de conse(?:r)?vaci[oó]n de (?:frigor[ií]fico|vidrio)\\b",
+    "product_type": "食品保存盒",
+    "function": "盛装保存食品",
+    "need": "食品盒装保存"
+  },
+  {
+    "id": "g23_snack_rotate_box",
+    "regex": "^caja de aperitivos giratoria\\b",
+    "product_type": "旋转零食盒",
+    "function": "分放取用零食",
+    "need": "零食分区取用"
+  },
+  {
+    "id": "g23_lidded_box",
+    "regex": "^caja de pl[aá]stico con tapa\\b",
+    "product_type": "带盖塑料收纳箱",
+    "function": "装入并盖合物品",
+    "need": ""
+  },
+  {
+    "id": "g23_teabox",
+    "regex": "^caja de t[eé]s\\b",
+    "product_type": "茶相关盒装商品（内容待核）",
+    "function": "",
+    "need": ""
+  },
+  {
+    "id": "g23_bead_box",
+    "regex": "^caja de cuentas\\b",
+    "product_type": "盒装串珠材料",
+    "function": "用于串珠手工",
+    "need": "串珠创作"
+  },
+  {
+    "id": "g23_wall_boxes",
+    "regex": "^cajas de pared de madera\\b",
+    "product_type": "木制墙面置物盒",
+    "function": "墙面安装置物（安装件待核）",
+    "need": "墙面盒式置物"
+  },
+  {
+    "id": "g23_pet_bed",
+    "regex": "^cama (?:de lujo )?para mascotas\\b",
+    "product_type": "宠物床",
+    "function": "供宠物休息躺卧",
+    "need": "宠物躺卧休息"
+  },
+  {
+    "id": "g23_pencilcap",
+    "regex": "^capuch[oó]n blando de l[aá]piz\\b",
+    "product_type": "软质铅笔帽",
+    "function": "套住铅笔端部",
+    "need": "铅笔端部套覆"
+  },
+  {
+    "id": "g23_wheelbarrow",
+    "regex": "^carretilla\\b",
+    "product_type": "手推搬运车",
+    "function": "推运物料",
+    "need": "物料手推搬运"
+  },
+  {
+    "id": "g23_plant_trolley",
+    "regex": "^carro para plantas\\b",
+    "product_type": "植物搬运托车",
+    "function": "承托移动植物容器",
+    "need": "盆栽移动"
+  },
+  {
+    "id": "g23_wallet",
+    "regex": "^cartera de piel\\b",
+    "product_type": "皮革钱包",
+    "function": "收纳随身钱币卡片",
+    "need": "钱卡随身收纳"
+  },
+  {
+    "id": "g23_minihouse_craft",
+    "regex": "^casa en miniatura de manualidades\\b",
+    "product_type": "微缩房屋手工材料",
+    "function": "制作微缩房屋",
+    "need": "微缩房屋制作"
+  },
+  {
+    "id": "g23_fishbait",
+    "regex": "^cebo de pesca deportiva\\b",
+    "product_type": "钓鱼饵料",
+    "function": "在钓鱼时投放饵料",
+    "need": "钓鱼诱饵投放"
+  },
+  {
+    "id": "g23_bathbrush",
+    "regex": "^cepillo de ba[ñn]o\\b",
+    "product_type": "浴室用刷（对象待核）",
+    "function": "",
+    "need": ""
+  },
+  {
+    "id": "g23_scrubbrush_dispenser",
+    "regex": "^cepillo de fregar con dispensador de jab[oó]n\\b",
+    "product_type": "带皂液分配器刷洗刷",
+    "function": "施放皂液并刷洗",
+    "need": "皂液刷洗"
+  },
+  {
+    "id": "g23_thermal_stylingbrush",
+    "regex": "^cepillo de moldeado t[eé]rmico\\b",
+    "product_type": "热造型梳",
+    "function": "加热辅助头发造型",
+    "need": "头发热造型"
+  },
+  {
+    "id": "g23_wethair_brush",
+    "regex": "^cepillo para cabello mojado\\b",
+    "product_type": "湿发梳",
+    "function": "梳理湿发",
+    "need": "湿发梳理"
+  },
+  {
+    "id": "g23_scalpbrush",
+    "regex": "^cepillo para el cuero cabelludo\\b",
+    "product_type": "头皮刷",
+    "function": "接触梳刷头皮（效果待核）",
+    "need": "头皮刷理"
+  },
+  {
+    "id": "g23_carwheelbrush",
+    "regex": "^cepillo para ruedas de coche\\b",
+    "product_type": "汽车车轮刷",
+    "function": "刷洗汽车车轮",
+    "need": "车轮刷洗"
+  },
+  {
+    "id": "g23_lashbrush",
+    "regex": "^cepillos de silicona para pesta[ñn]as\\b",
+    "product_type": "硅胶睫毛刷",
+    "function": "梳理睫毛",
+    "need": "睫毛梳理"
+  },
+  {
+    "id": "g23_laundrybasket",
+    "regex": "^cesto para ropa sucia\\b",
+    "product_type": "脏衣篮",
+    "function": "集中放置待洗衣物",
+    "need": "待洗衣物收集"
+  },
+  {
+    "id": "g23_doubletape",
+    "regex": "^cinta de doble cara\\b",
+    "product_type": "双面胶带",
+    "function": "双面粘接物件",
+    "need": "双面粘接"
+  },
+  {
+    "id": "g23_repairtape",
+    "regex": "^cinta (?:de reparaci[oó]n impermeable|para obras y reparaciones)\\b",
+    "product_type": "修补胶带",
+    "function": "粘贴修补物件（防水为标题标称）",
+    "need": "胶带修补"
+  },
+  {
+    "id": "g23_sealingtape",
+    "regex": "^cinta de sellado\\b",
+    "product_type": "密封带",
+    "function": "封合接缝",
+    "need": "接缝封合"
+  },
+  {
+    "id": "g23_bucklestrap",
+    "regex": "^cintas de sujeci[oó]n con hebilla\\b",
+    "product_type": "带扣固定带",
+    "function": "扣紧绑固物品",
+    "need": "物品带扣绑固"
+  },
+  {
+    "id": "g23_headwristbands",
+    "regex": "^cinta para la cabeza y mu[ñn]equeras\\b",
+    "product_type": "头带及护腕组合",
+    "function": "分别佩戴于头部和腕部",
+    "need": "头腕带状佩戴"
+  },
+  {
+    "id": "g23_dollstroller",
+    "regex": "^cochecito de mu[ñn]ecas\\b",
+    "product_type": "娃娃推车",
+    "function": "推运玩偶进行角色游戏",
+    "need": "娃娃推车玩耍"
+  },
+  {
+    "id": "g23_toycars",
+    "regex": "^coches de juguete\\b",
+    "product_type": "玩具车",
+    "function": "进行车辆造型玩耍",
+    "need": "车辆主题玩耍"
+  },
+  {
+    "id": "g23_toykitchen",
+    "regex": "^cocina de juguete\\b",
+    "product_type": "玩具厨房",
+    "function": "模拟厨房活动",
+    "need": "厨房角色游戏"
+  },
+  {
+    "id": "g23_stuntkite",
+    "regex": "^cometa acrob[aá]tica\\b",
+    "product_type": "特技风筝",
+    "function": "操控风筝飞行",
+    "need": "风筝操控"
+  },
+  {
+    "id": "g23_choc_rabbit",
+    "regex": "^conejos de Pascua de chocolate\\b",
+    "product_type": "兔形巧克力",
+    "function": "食用巧克力",
+    "need": "巧克力零食"
+  },
+  {
+    "id": "g23_childclothes",
+    "regex": "^(?:conjunto de ropa infantil|conjunto de f[uú]tbol para ni[ñn]os)\\b",
+    "product_type": "儿童服装套装",
+    "function": "成套穿着儿童服装",
+    "need": "儿童成套衣着"
+  },
+  {
+    "id": "g23_sportsclothes",
+    "regex": "^conjunto (?:deportivo|de jogging de algod[oó]n para beb[eé])\\b",
+    "product_type": "运动服套装",
+    "function": "成套穿着（对象依标题保留）",
+    "need": "运动成套衣着"
+  },
+  {
+    "id": "g23_trainingcones",
+    "regex": "^conos de entrenamiento\\b",
+    "product_type": "训练标志锥",
+    "function": "布置训练标记",
+    "need": "训练路线标记"
+  },
+  {
+    "id": "g23_gameconsole",
+    "regex": "^(?:consola de videojuegos|videoconsola retro)\\b",
+    "product_type": "电子游戏机",
+    "function": "运行适配电子游戏",
+    "need": "电子游戏操作"
+  },
+  {
+    "id": "g23_takeawaycontainer",
+    "regex": "^contenedor de alimentos para llevar\\b",
+    "product_type": "外带食物容器",
+    "function": "盛装携带食品",
+    "need": "餐食外带"
+  },
+  {
+    "id": "g23_phone_lanyard",
+    "regex": "^cord[oó]n para tel[eé]fono\\b",
+    "product_type": "手机挂绳",
+    "function": "挂带携带适配手机",
+    "need": "手机挂带携带"
+  },
+  {
+    "id": "g23_ratchetstrap",
+    "regex": "^correa de tensi[oó]n con cierre de trinquete\\b",
+    "product_type": "棘轮拉紧带",
+    "function": "通过棘轮拉紧固定物品",
+    "need": "棘轮绑固"
+  },
+  {
+    "id": "g23_makejewelry",
+    "regex": "^crea (?:tus propias joyas y accesorios|tus pulseras)\\b",
+    "product_type": "首饰手工套件",
+    "function": "制作标题指定首饰",
+    "need": "首饰手工制作"
+  },
+  {
+    "id": "g23_makeepoxycoaster",
+    "regex": "^crea tus propios posavasos de epoxi\\b",
+    "product_type": "环氧杯垫制作材料",
+    "function": "制作环氧杯垫",
+    "need": "杯垫手工制作"
+  },
+  {
+    "id": "g23_makewoodflower",
+    "regex": "^crea tus propias flores de madera\\b",
+    "product_type": "木花制作材料",
+    "function": "制作木制花朵",
+    "need": "木花手工制作"
+  },
+  {
+    "id": "g23_makechristmasfigure",
+    "regex": "^(?:crea tus propias figuras navide[ñn]as|haz tu propia figura navide[ñn]a de espuma)\\b",
+    "product_type": "圣诞造型手工套件",
+    "function": "制作标题指定圣诞造型",
+    "need": "圣诞造型制作"
+  },
+  {
+    "id": "g23_makechristmaspendant",
+    "regex": "^crea tus propios colgantes navide[ñn]os\\b",
+    "product_type": "圣诞挂饰制作材料",
+    "function": "制作圣诞挂饰",
+    "need": "圣诞挂饰制作"
+  },
+  {
+    "id": "g23_makegingerhouse",
+    "regex": "^crea tu propia casa de galletas\\b",
+    "product_type": "饼干屋制作套件",
+    "function": "制作饼干屋",
+    "need": "饼干屋制作"
+  },
+  {
+    "id": "g23_make_marbletrack",
+    "regex": "^crea tu propia pista de canicas\\b",
+    "product_type": "弹珠轨道制作套件",
+    "function": "制作弹珠轨道",
+    "need": "弹珠轨道制作"
+  },
+  {
+    "id": "g23_eyecream",
+    "regex": "^crema de ojos\\b",
+    "product_type": "眼霜",
+    "function": "涂抹眼周皮肤（效果未核实）",
+    "need": "眼周皮肤护理"
+  },
+  {
+    "id": "g23_curlcream",
+    "regex": "^crema para definir rizos\\b",
+    "product_type": "卷发造型霜",
+    "function": "用于卷发造型",
+    "need": "卷发造型"
+  },
+  {
+    "id": "g23_pedalbin",
+    "regex": "^cubo de pedal\\b",
+    "product_type": "脚踏垃圾桶",
+    "function": "通过踏板开盖收集垃圾",
+    "need": "脚踏垃圾收集"
+  },
+  {
+    "id": "g23_puzzlecube",
+    "regex": "^cubo rompecabezas\\b",
+    "product_type": "方块益智玩具",
+    "function": "进行方块拼解",
+    "need": "方块谜题解答"
+  },
+  {
+    "id": "g23_rocailles",
+    "regex": "^cuentas de rocaille en torre de almacenamiento\\b",
+    "product_type": "收纳塔装米珠",
+    "function": "使用米珠开展串珠创作",
+    "need": "米珠串珠创作"
+  },
+  {
+    "id": "g23_bungeehooks",
+    "regex": "^cuerdas el[aá]sticas con ganchos\\b",
+    "product_type": "带钩弹力绳",
+    "function": "钩挂绑固物品",
+    "need": "弹力绳绑固"
+  },
+  {
+    "id": "g23_instantcamera",
+    "regex": "^c[aá]mara de impresi[oó]n instant[aá]nea\\b",
+    "product_type": "即时打印相机",
+    "function": "拍照并打印照片",
+    "need": "即时照片打印"
+  },
+  {
+    "id": "g23_dash_rear_camera",
+    "regex": "^c[aá]mara de salpicadero con c[aá]mara trasera\\b",
+    "product_type": "带后摄的行车摄像设备",
+    "function": "记录车辆前后视野（能力待核）",
+    "need": "车辆影像记录"
+  },
+  {
+    "id": "g23_securitycamera",
+    "regex": "^c[aá]mara de seguridad\\b",
+    "product_type": "安防摄像机",
+    "function": "摄取监控区域影像",
+    "need": "区域影像监控"
+  },
+  {
+    "id": "g23_fishoil_capsule",
+    "regex": "^c[aá]psulas de aceite de pescado\\b",
+    "product_type": "鱼油胶囊",
+    "function": "以胶囊形式摄入标题指定鱼油（不推断效果）",
+    "need": "鱼油胶囊摄入"
+  },
+  {
+    "id": "g23_collagen_capsule",
+    "regex": "^(?:c[aá]psulas de complejo de col[aá]geno|comprimidos de col[aá]geno)\\b",
+    "product_type": "标称胶原成分片剂或胶囊",
+    "function": "摄入标题指定成分（不推断效果）",
+    "need": "胶原成分口服补充"
+  },
+  {
+    "id": "g23_cardigan",
+    "regex": "^c[aá]rdigan\\b",
+    "product_type": "开衫",
+    "function": "上身穿着",
+    "need": "开衫穿着"
+  },
+  {
+    "id": "g23_miniroom_diy",
+    "regex": "^DIY habitaci[oó]n en miniatura\\b",
+    "product_type": "微缩房间手工套件",
+    "function": "制作微缩房间",
+    "need": "微缩场景制作"
+  },
+  {
+    "id": "g23_lipliner_balm",
+    "regex": "^delineador de labios y b[aá]lsamo labial\\b",
+    "product_type": "唇线笔及润唇膏组合",
+    "function": "描绘唇线并涂抹润唇膏",
+    "need": "唇线修饰与唇部护理"
+  },
+  {
+    "id": "g23_glassdepilator",
+    "regex": "^depiladora de cristal\\b",
+    "product_type": "玻璃脱毛器",
+    "function": "接触皮肤处理体毛（效果未核实）",
+    "need": "体毛处理"
+  },
+  {
+    "id": "g23_descaler",
+    "regex": "^descalcificador\\b",
+    "product_type": "除垢用品",
+    "function": "用于去除水垢（适用物体待核）",
+    "need": "水垢去除"
+  },
+  {
+    "id": "g23_metaldetector",
+    "regex": "^detector de metales\\b",
+    "product_type": "金属探测器",
+    "function": "探测金属（精度未核）",
+    "need": "金属探测"
+  },
+  {
+    "id": "g23_grindingdisc",
+    "regex": "^disco de amolar\\b",
+    "product_type": "磨削盘",
+    "function": "配合适配工具磨削",
+    "need": "工具磨削作业"
+  },
+  {
+    "id": "g23_exfoliatingpad",
+    "regex": "^discos t[oó]nicos exfoliantes\\b",
+    "product_type": "去角质爽肤棉片",
+    "function": "擦拭皮肤（功效未核实）",
+    "need": "面部棉片擦拭护理"
+  },
+  {
+    "id": "g23_dates",
+    "regex": "^d[aá]tiles\\b",
+    "product_type": "椰枣",
+    "function": "食用椰枣",
+    "need": "椰枣食用"
+  },
+  {
+    "id": "g23_blackheadtool",
+    "regex": "^eliminador de puntos negros\\b",
+    "product_type": "黑头护理用品（机制待核）",
+    "function": "用于黑头护理（效果未核）",
+    "need": "黑头护理"
+  },
+  {
+    "id": "g23_mosquito_device",
+    "regex": "^enchufe antimosquitos con recambio\\b",
+    "product_type": "带替换装插电驱蚊用品",
+    "function": "配套使用驱蚊装置及耗材（效果未核）",
+    "need": "插电驱蚊"
+  },
+  {
+    "id": "g23_aircooler",
+    "regex": "^enfriador de aire\\b",
+    "product_type": "空气冷却器",
+    "function": "用于空气降温（机制待核）",
+    "need": "空气降温"
+  },
+  {
+    "id": "g23_dashboardsponge",
+    "regex": "^esponja abrillantadora para salpicaderos\\b",
+    "product_type": "仪表台抛光海绵",
+    "function": "擦拭护理仪表台（效果未核）",
+    "need": "仪表台擦拭护理"
+  },
+  {
+    "id": "g23_hairshine_spray",
+    "regex": "^espray abrillantador de cabello\\b",
+    "product_type": "头发亮泽喷雾",
+    "function": "喷涂头发作外观护理（效果未核）",
+    "need": "头发外观护理"
+  },
+  {
+    "id": "g23_catnip_spray",
+    "regex": "^espray de hierba gatera\\b",
+    "product_type": "标题称hierba gatera的草本喷雾",
+    "function": "",
+    "need": ""
+  },
+  {
+    "id": "g23_acrylicspray",
+    "regex": "^espray de pintura acr[ií]lica\\b",
+    "product_type": "丙烯颜料喷漆",
+    "function": "喷涂丙烯颜料",
+    "need": "丙烯喷涂"
+  },
+  {
+    "id": "g23_general_clean_spray",
+    "regex": "^espray limpiador multiusos\\b",
+    "product_type": "多用途清洁喷雾",
+    "function": "喷涂清洁适用表面",
+    "need": ""
+  },
+  {
+    "id": "g23_hand_clean_spray",
+    "regex": "^espray limpiador para manos\\b",
+    "product_type": "手部清洁喷雾",
+    "function": "用于手部清洁（不推断杀菌率）",
+    "need": "手部清洁"
+  },
+  {
+    "id": "g23_curlmousse",
+    "regex": "^espuma para definir los rizos\\b",
+    "product_type": "卷发造型摩丝",
+    "function": "用于卷发造型",
+    "need": "卷发造型"
+  },
+  {
+    "id": "g23_hairmousse",
+    "regex": "^espuma para el pelo\\b",
+    "product_type": "头发摩丝",
+    "function": "用于头发造型",
+    "need": "摩丝头发造型"
+  },
+  {
+    "id": "g23_puttyknife",
+    "regex": "^esp[aá]tulas de masilla\\b",
+    "product_type": "腻子刮刀",
+    "function": "涂刮腻子",
+    "need": "腻子涂刮"
+  },
+  {
+    "id": "g23_chargingstation",
+    "regex": "^estaci[oó]n de carga\\b",
+    "product_type": "充电座",
+    "function": "为标题指定适配设备充电",
+    "need": "设备座式充电"
+  },
+  {
+    "id": "g23_gardenstatue",
+    "regex": "^estatua de jard[ií]n\\b",
+    "product_type": "花园雕像",
+    "function": "陈设于花园",
+    "need": "花园雕像陈设"
+  },
+  {
+    "id": "g23_grillmat",
+    "regex": "^estera de parrilla\\b",
+    "product_type": "烧烤垫",
+    "function": "在适配烤架上铺垫",
+    "need": "烤架铺垫"
+  },
+  {
+    "id": "g23_cuttingmat_glass",
+    "regex": "^esterilla para cortar vidrio\\b",
+    "product_type": "切玻璃作业垫",
+    "function": "铺垫玻璃切割作业面",
+    "need": "玻璃切割垫面"
+  },
+  {
+    "id": "g23_tree_topstar",
+    "regex": "^estrella para la punta del [aá]rbol de Navidad\\b",
+    "product_type": "圣诞树顶星",
+    "function": "装饰圣诞树顶",
+    "need": "圣诞树顶装饰"
+  },
+  {
+    "id": "g23_luggage_tag",
+    "regex": "^etiqueta de equipaje\\b",
+    "product_type": "行李标签",
+    "function": "标识行李",
+    "need": "行李识别"
+  },
+  {
+    "id": "g23_artificial_ficus",
+    "regex": "^ficus artificial\\b",
+    "product_type": "仿真榕树",
+    "function": "陈设仿真植物",
+    "need": "仿真植物陈设"
+  },
+  {
+    "id": "g23_paper_wire_flower",
+    "regex": "^flores de papel con alambre\\b",
+    "product_type": "带金属丝纸花",
+    "function": "布置纸花造型",
+    "need": "纸花陈设"
+  },
+  {
+    "id": "g23_duvetcover",
+    "regex": "^funda de edred[oó]n\\b",
+    "product_type": "被套",
+    "function": "套覆被芯",
+    "need": "被芯套覆"
+  },
+  {
+    "id": "g23_saddlecover",
+    "regex": "^funda de sill[ií]n\\b",
+    "product_type": "鞍座套",
+    "function": "套覆适配鞍座",
+    "need": "鞍座套覆"
+  },
+  {
+    "id": "g23_carseatcover",
+    "regex": "^fundas para asientos de coche\\b",
+    "product_type": "汽车座椅套",
+    "function": "套覆汽车座椅",
+    "need": "汽车座椅套覆"
+  },
+  {
+    "id": "g23_carwindowcover",
+    "regex": "^fundas protectoras para ventanillas de coche\\b",
+    "product_type": "汽车车窗保护罩",
+    "function": "覆盖适配汽车车窗",
+    "need": "车窗覆盖"
+  },
+  {
+    "id": "g23_partyglasses",
+    "regex": "^gafas de fiesta\\b",
+    "product_type": "派对眼镜饰品",
+    "function": "派对装扮佩戴",
+    "need": "派对面部装扮"
+  },
+  {
+    "id": "g23_clean_chamois",
+    "regex": "^gamuzas de limpieza\\b",
+    "product_type": "清洁擦布",
+    "function": "擦拭适用表面",
+    "need": ""
+  },
+  {
+    "id": "g23_choker",
+    "regex": "^gargantilla\\b",
+    "product_type": "颈链",
+    "function": "佩戴于颈部",
+    "need": "颈部饰品佩戴"
+  },
+  {
+    "id": "g23_lightergas",
+    "regex": "^gas para encendedor\\b",
+    "product_type": "打火机补充气",
+    "function": "补充适配打火机燃气",
+    "need": "打火机燃料补充"
+  },
+  {
+    "id": "g23_wcgel",
+    "regex": "^gel de WC\\b",
+    "product_type": "马桶用凝胶",
+    "function": "用于马桶清洁护理（具体效果待核）",
+    "need": "马桶清洁护理"
+  },
+  {
+    "id": "g23_carclean_gel",
+    "regex": "^gel de limpieza para coches\\b",
+    "product_type": "汽车清洁凝胶",
+    "function": "清洁车辆适用部位",
+    "need": "车辆凝胶清洁"
+  },
+  {
+    "id": "g23_haircurl_gel",
+    "regex": "^gel rizador para el cabello\\b",
+    "product_type": "卷发造型凝胶",
+    "function": "用于卷发造型",
+    "need": "卷发造型"
+  },
+  {
+    "id": "g23_hairties",
+    "regex": "^gomas trenzadas para el pelo\\b",
+    "product_type": "编织发圈",
+    "function": "束起头发",
+    "need": "头发束扎"
+  },
+  {
+    "id": "g23_plantdripper",
+    "regex": "^gotero de agua para plantas\\b",
+    "product_type": "植物滴水器",
+    "function": "向植物滴灌供水",
+    "need": "植物滴水供水"
+  },
+  {
+    "id": "g23_christmas_lightgarland",
+    "regex": "^guirnalda (?:de luz navide[ñn]a|de (?:pinos|ramas de pino) con LED)\\b",
+    "product_type": "圣诞灯串花环",
+    "function": "布置灯光花环",
+    "need": "圣诞灯光花环装饰"
+  },
+  {
+    "id": "g23_paper_garland",
+    "regex": "^guirnalda (?:de panal|de papel de aluminio)\\b",
+    "product_type": "装饰纸花串",
+    "function": "悬挂花串装饰",
+    "need": "纸花串布置"
+  },
+  {
+    "id": "g23_make_soapbomb",
+    "regex": "^haz tu jab[oó]n y bombas de ba[ñn]o\\b",
+    "product_type": "肥皂及浴球制作材料",
+    "function": "制作肥皂和浴球",
+    "need": "肥皂浴球手工制作"
+  },
+  {
+    "id": "g23_make_bathbomb",
+    "regex": "^haz tu propia bomba efervescente\\b",
+    "product_type": "泡腾浴球制作材料",
+    "function": "制作泡腾浴球",
+    "need": "浴球手工制作"
+  },
+  {
+    "id": "g23_make_musicbox",
+    "regex": "^haz tu propia caja de m[uú]sica\\b",
+    "product_type": "音乐盒制作材料",
+    "function": "制作音乐盒",
+    "need": "音乐盒手工制作"
+  },
+  {
+    "id": "g23_make_slime",
+    "regex": "^(?:haz tu propio moco|kit para hacermoco)\\b",
+    "product_type": "史莱姆制作套件",
+    "function": "制作史莱姆玩料",
+    "need": "史莱姆制作"
+  },
+  {
+    "id": "g23_make_gummies",
+    "regex": "^haz tus propias gominolas\\b",
+    "product_type": "软糖制作套件",
+    "function": "制作软糖",
+    "need": "软糖制作"
+  },
+  {
+    "id": "g23_catnip",
+    "regex": "^hierba gatera\\b",
+    "product_type": "标题称hierba gatera的猫用草本",
+    "function": "",
+    "need": ""
+  },
+  {
+    "id": "g23_decor_egg",
+    "regex": "^(?:huevo de pascua decorativo|huevo decorativo de Pascua)\\b",
+    "product_type": "复活节蛋饰",
+    "function": "陈设复活节蛋形装饰",
+    "need": "复活节蛋饰陈设"
+  },
+  {
+    "id": "g23_raincoat",
+    "regex": "^(?:impermeable con bolsa para guardar|poncho para lluvia)\\b",
+    "product_type": "雨衣",
+    "function": "雨天覆盖身体（防水效果未核）",
+    "need": "雨天身体遮蔽"
+  },
+  {
+    "id": "g23_thermalprinter",
+    "regex": "^impresora t[eé]rmica\\b",
+    "product_type": "热敏打印机",
+    "function": "在适配耗材上打印",
+    "need": "热敏打印"
+  },
+  {
+    "id": "g23_magnet_fishing",
+    "regex": "^im[aá]n de pesca con cuerda\\b",
+    "product_type": "带绳磁吸打捞器",
+    "function": "用磁铁及绳索打捞金属物",
+    "need": "磁吸打捞"
+  },
+  {
+    "id": "g23_electric_inflator",
+    "regex": "^inflador el[eé]ctrico\\b",
+    "product_type": "电动充气泵",
+    "function": "给适配物品充气",
+    "need": "电动充气"
+  },
+  {
+    "id": "g23_greenhouse",
+    "regex": "^invernadero con tapa\\b",
+    "product_type": "带盖育苗温室",
+    "function": "覆盖栽培植物（栽培效果未核）",
+    "need": "覆盖育苗栽培"
+  },
+  {
+    "id": "g23_oralirrigator",
+    "regex": "^irrigador dental\\b",
+    "product_type": "冲牙器",
+    "function": "冲洗牙齿间隙（功效未核）",
+    "need": "口腔水流清洁"
+  },
+  {
+    "id": "g23_gallsoap",
+    "regex": "^jab[oó]n de hiel de buey\\b",
+    "product_type": "牛胆皂",
+    "function": "清洗适配织物污渍（效果未核）",
+    "need": "织物皂洗去渍"
+  },
+  {
+    "id": "g23_datesyrup",
+    "regex": "^jarabe de d[aá]til\\b",
+    "product_type": "椰枣糖浆",
+    "function": "作为食物糖浆配料",
+    "need": "椰枣糖浆调味"
+  },
+  {
+    "id": "g23_jeggings",
+    "regex": "^jeggings\\b",
+    "product_type": "牛仔式打底裤",
+    "function": "下身穿着",
+    "need": "贴身裤装穿着"
+  },
+  {
+    "id": "g23_connectfour",
+    "regex": "^juego de 4 en raya\\b",
+    "product_type": "四连棋游戏",
+    "function": "进行四连棋对弈",
+    "need": "四连棋对弈"
+  },
+  {
+    "id": "g23_seekgame",
+    "regex": "^juego de (?:busca y encuentra|buscar y encontrar)\\b",
+    "product_type": "寻找配对游戏",
+    "function": "按规则寻找目标",
+    "need": "视觉寻找游戏"
+  },
+  {
+    "id": "g23_badmintongame",
+    "regex": "^juego de Speed b[aá]dminton\\b",
+    "product_type": "快速羽毛球套装",
+    "function": "进行羽毛球活动",
+    "need": "羽毛球活动"
+  },
+  {
+    "id": "g23_coloringactivity",
+    "regex": "^(?:juego de actividades y colorear|kit de actividades y colorear|kit de colores y pegatinas)\\b",
+    "product_type": "涂色活动套装",
+    "function": "进行涂色及标题指定活动",
+    "need": "涂色手工活动"
+  },
+  {
+    "id": "g23_blockset",
+    "regex": "^(?:juego de bloques de construcci[oó]n|set de construcci[oó]n)\\b",
+    "product_type": "拼搭套装",
+    "function": "拼搭构造物",
+    "need": "拼搭活动"
+  },
+  {
+    "id": "g23_embroideryset",
+    "regex": "^juego de bordado\\b",
+    "product_type": "刺绣套装",
+    "function": "开展刺绣活动",
+    "need": "刺绣制作"
+  },
+  {
+    "id": "g23_chiselset",
+    "regex": "^juego de cinceles\\b",
+    "product_type": "凿子套装",
+    "function": "配合标题指定材料或工具凿削",
+    "need": "凿削作业"
+  },
+  {
+    "id": "g23_hairbandset",
+    "regex": "^juego de cintas para el pelo\\b",
+    "product_type": "发带套装",
+    "function": "束拢佩戴头发",
+    "need": "发带束发"
+  },
+  {
+    "id": "g23_croquet",
+    "regex": "^juego de croquet\\b",
+    "product_type": "槌球游戏套装",
+    "function": "进行槌球游戏",
+    "need": "槌球活动"
+  },
+  {
+    "id": "g23_calculationgame",
+    "regex": "^juego de c[aá]lculo\\b",
+    "product_type": "计算游戏用品",
+    "function": "进行计算练习游戏",
+    "need": "计算游戏练习"
+  },
+  {
+    "id": "g23_grindingdiscset",
+    "regex": "^juego de discos de desbaste\\b",
+    "product_type": "粗磨盘套装",
+    "function": "配合适配工具粗磨",
+    "need": "表面粗磨"
+  },
+  {
+    "id": "g23_fuseset",
+    "regex": "^juego de fusibles\\b",
+    "product_type": "保险丝套装",
+    "function": "更换适配电路保险丝（规格待核）",
+    "need": "电路保险丝替换"
+  },
+  {
+    "id": "g23_crochetset",
+    "regex": "^(?:(?:juego|set) de ganchillo|kit de ganchillo para hacer una figurita navide[ñn]a|teje tu propio ramo a ganchillo)\\b",
+    "product_type": "钩针编织套件",
+    "function": "开展钩针编织并保留标题指定作品",
+    "need": "钩针编织"
+  },
+  {
+    "id": "g23_golfset",
+    "regex": "^juego de golf\\b",
+    "product_type": "高尔夫活动套装",
+    "function": "进行高尔夫击球活动（规格待核）",
+    "need": "高尔夫击球活动"
+  },
+  {
+    "id": "g23_wirelessswitch",
+    "regex": "^juego de interruptores sin cable\\b",
+    "product_type": "无线开关套装",
+    "function": "控制适配设备开关",
+    "need": "无线开关控制"
+  },
+  {
+    "id": "g23_ringthrow",
+    "regex": "^juego de lanzar anillos\\b",
+    "product_type": "套圈游戏用品",
+    "function": "进行抛环套圈游戏",
+    "need": "抛环套圈"
+  },
+  {
+    "id": "g23_filescraper",
+    "regex": "^juego de limas y raspadores\\b",
+    "product_type": "锉刀及刮削工具套装",
+    "function": "锉削刮削表面",
+    "need": "锉刮修整"
+  },
+  {
+    "id": "g23_bikeclean",
+    "regex": "^juego de limpieza de bicicletas\\b",
+    "product_type": "自行车清洁套装",
+    "function": "清洁自行车",
+    "need": "自行车清洗"
+  },
+  {
+    "id": "g23_manicureset",
+    "regex": "^juego de manicura\\b",
+    "product_type": "美甲护理套装",
+    "function": "护理修整指甲",
+    "need": "指甲修整护理"
+  },
+  {
+    "id": "g23_makeupset",
+    "regex": "^(?:juego de maquillaje|miniset de maquillaje en estuche)\\b",
+    "product_type": "彩妆套装",
+    "function": "进行彩妆上妆",
+    "need": "彩妆上妆"
+  },
+  {
+    "id": "g23_whiteboardmarkers",
+    "regex": "^juego de marcaadores para pizarra blanca\\b",
+    "product_type": "白板笔套装",
+    "function": "在适配白板上书写",
+    "need": "白板书写"
+  },
+  {
+    "id": "g23_mosaicset",
+    "regex": "^juego de mosaico\\b",
+    "product_type": "马赛克拼贴套装",
+    "function": "拼贴马赛克图案",
+    "need": "马赛克拼贴"
+  },
+  {
+    "id": "g23_beadset",
+    "regex": "^juego de perlas y cuentas\\b",
+    "product_type": "珠子套装",
+    "function": "开展串珠创作",
+    "need": "串珠创作"
+  },
+  {
+    "id": "g23_bathfishing",
+    "regex": "^juego de pesca para la ba[ñn]era\\b",
+    "product_type": "浴缸钓鱼游戏",
+    "function": "沐浴时进行钓鱼主题游戏",
+    "need": "沐浴钓鱼玩耍"
+  },
+  {
+    "id": "g23_boules",
+    "regex": "^juego de petanca\\b",
+    "product_type": "法式滚球套装",
+    "function": "进行法式滚球活动",
+    "need": "法式滚球活动"
+  },
+  {
+    "id": "g23_pinball",
+    "regex": "^juego de pinball\\b",
+    "product_type": "弹球游戏",
+    "function": "进行弹球游戏",
+    "need": "弹球游戏"
+  },
+  {
+    "id": "g23_pingpong",
+    "regex": "^juego de ping pong\\b",
+    "product_type": "乒乓球套装",
+    "function": "进行乒乓球活动",
+    "need": "乒乓球活动"
+  },
+  {
+    "id": "g23_anti_static_tweezers",
+    "regex": "^juego de pinzas antiest[aá]ticas\\b",
+    "product_type": "防静电镊子套装",
+    "function": "夹取小件（防静电性能未核）",
+    "need": "小件镊取"
+  },
+  {
+    "id": "g23_skateprotection",
+    "regex": "^juego de protecci[oó]n para patines\\b",
+    "product_type": "滑行护具套装",
+    "function": "滑行时佩戴护具（防护等级未核）",
+    "need": "滑行护具佩戴"
+  },
+  {
+    "id": "g23_musicquiz",
+    "regex": "^juego de quiz musical\\b",
+    "product_type": "音乐问答游戏",
+    "function": "进行音乐主题问答",
+    "need": "音乐问答活动"
+  },
+  {
+    "id": "g23_paintscraper",
+    "regex": "^juego de rascadores de pintura\\b",
+    "product_type": "油漆刮刀套装",
+    "function": "刮除适用表面涂层",
+    "need": "漆层刮除"
+  },
+  {
+    "id": "g23_reactiongame",
+    "regex": "^juego de reacci[oó]n\\b",
+    "product_type": "反应游戏用品",
+    "function": "按标题指定机制进行反应游戏",
+    "need": "反应游戏活动"
+  },
+  {
+    "id": "g23_diamondpainting",
+    "regex": "^(?:juego de tarjetas de pintura de diamantes|juego para pintar con diamantes)\\b",
+    "product_type": "钻石画拼贴套装",
+    "function": "进行钻石画拼贴",
+    "need": "钻石画拼贴"
+  },
+  {
+    "id": "g23_tennisset",
+    "regex": "^juego de tenis\\b",
+    "product_type": "网球活动套装",
+    "function": "进行网球击球活动",
+    "need": "网球击球活动"
+  },
+  {
+    "id": "g23_oneteaset",
+    "regex": "^juego de t[eé] para 1 persona\\b",
+    "product_type": "单人茶具套装",
+    "function": "盛装饮用茶",
+    "need": "单人茶饮用"
+  },
+  {
+    "id": "g23_toyutensils",
+    "regex": "^juego de utensilios de juguete\\b",
+    "product_type": "玩具用具套装",
+    "function": "模拟用具使用",
+    "need": "用具角色游戏"
+  },
+  {
+    "id": "g23_rc_boat",
+    "regex": "^(?:kayak teledirigido|lancha motora teledirigida)\\b",
+    "product_type": "遥控船玩具",
+    "function": "遥控船形物体运动",
+    "need": "遥控船操控"
+  },
+  {
+    "id": "g23_fishingalarm",
+    "regex": "^kit de alarma de mordedura de pesca\\b",
+    "product_type": "钓鱼咬钩报警套装",
+    "function": "监测钓鱼咬钩信号（性能待核）",
+    "need": "钓鱼咬钩提示"
+  },
+  {
+    "id": "g23_pooltest",
+    "regex": "^kit de an[aá]lisis de pH y cloro\\b",
+    "product_type": "酸碱度及氯检测套装",
+    "function": "检测水样酸碱度和氯指标",
+    "need": "水质酸碱及氯检测"
+  },
+  {
+    "id": "g23_basketballset",
+    "regex": "^kit de baloncesto\\b",
+    "product_type": "篮球活动套装",
+    "function": "进行篮球活动（组件待核）",
+    "need": "篮球活动"
+  },
+  {
+    "id": "g23_divingset",
+    "regex": "^kit de buceo\\b",
+    "product_type": "潜水用品套装",
+    "function": "用于潜水活动（配置等级待核）",
+    "need": "潜水配套"
+  },
+  {
+    "id": "g23_lashextension",
+    "regex": "^kit de extensi[oó]n(?:es)? de pesta[ñn]as\\b",
+    "product_type": "睫毛延长套装",
+    "function": "施作睫毛延长（适用方式待核）",
+    "need": "睫毛延长装扮"
+  },
+  {
+    "id": "g23_razor_starter",
+    "regex": "^kit de inicio cuchilla de afeitar\\b",
+    "product_type": "剃须刀入门套装",
+    "function": "剃除胡须或体毛（依适用部位）",
+    "need": "剃毛操作"
+  },
+  {
+    "id": "g23_3dpenkit",
+    "regex": "^kit de inicio para bol[ií]grafo 3D\\b",
+    "product_type": "3D画笔入门套装",
+    "function": "进行适配3D笔创作",
+    "need": "立体笔绘制"
+  },
+  {
+    "id": "g23_plasticinekit",
+    "regex": "^kit de juego de plastilina\\b",
+    "product_type": "橡皮泥游戏套装",
+    "function": "进行橡皮泥塑形",
+    "need": "橡皮泥塑形"
+  },
+  {
+    "id": "g23_miniaturekit",
+    "regex": "^kit de miniaturas DIY\\b",
+    "product_type": "微缩模型手工套装",
+    "function": "制作微缩场景",
+    "need": "微缩场景制作"
+  },
+  {
+    "id": "g23_kraftkit",
+    "regex": "^kit de papel kraft\\b",
+    "product_type": "牛皮纸手工套件",
+    "function": "进行牛皮纸创作",
+    "need": "牛皮纸手工制作"
+  },
+  {
+    "id": "g23_pedicurekit",
+    "regex": "^kit de pedicura\\b",
+    "product_type": "足部指甲护理套装",
+    "function": "修整护理趾甲",
+    "need": "趾甲修整护理"
+  },
+  {
+    "id": "g23_fakeblood",
+    "regex": "^kit de sangre falsa\\b",
+    "product_type": "假血装扮套装",
+    "function": "布置仿血造型",
+    "need": "仿血装扮"
+  },
+  {
+    "id": "g23_catchball",
+    "regex": "^kit lanzar y atrapar la pelota\\b",
+    "product_type": "抛接球套装",
+    "function": "抛出并接住球",
+    "need": "抛接球活动"
+  },
+  {
+    "id": "g23_browkit",
+    "regex": "^kit (?:para cejas|para el cuidado de las cejas)\\b",
+    "product_type": "眉部护理套装",
+    "function": "整理护理眉部",
+    "need": "眉部修整护理"
+  },
+  {
+    "id": "g23_adhesivesealant",
+    "regex": "^kit sellador adhesivo\\b",
+    "product_type": "黏合密封胶",
+    "function": "粘接并封合接缝",
+    "need": "粘接密封"
+  },
+  {
+    "id": "g23_catballmaze",
+    "regex": "^laberinto de bolas para gatos\\b",
+    "product_type": "猫用球轨迷宫",
+    "function": "供猫拨动轨道球玩耍",
+    "need": "猫轨道球玩耍"
+  },
+  {
+    "id": "g23_haircolor_lacquer",
+    "regex": "^laca de color para el pelo\\b",
+    "product_type": "头发染色喷雾",
+    "function": "临时改变头发外观颜色（持久性待核）",
+    "need": "头发着色装扮"
+  },
+  {
+    "id": "g23_catmilk",
+    "regex": "^leche para gatos\\b",
+    "product_type": "猫用奶",
+    "function": "供猫饮用",
+    "need": "猫用奶饮用"
+  },
+  {
+    "id": "g23_magneticletters",
+    "regex": "^letras magn[eé]ticas\\b",
+    "product_type": "磁性字母",
+    "function": "磁吸排列字母",
+    "need": "字母拼排"
+  },
+  {
+    "id": "g23_fashiondesignbook",
+    "regex": "^libro de dise[ñn]o de moda\\b",
+    "product_type": "服装设计书",
+    "function": "",
+    "need": ""
+  },
+  {
+    "id": "g23_scratchbook",
+    "regex": "^libro de rascar\\b",
+    "product_type": "刮画本",
+    "function": "刮绘图案",
+    "need": "刮画创作"
+  },
+  {
+    "id": "g23_powderlemonade",
+    "regex": "^limonada en polvo\\b",
+    "product_type": "粉末柠檬饮料",
+    "function": "冲调饮用（不推断附加成分效果）",
+    "need": "粉末饮料冲调"
+  },
+  {
+    "id": "g23_fruitlemonade",
+    "regex": "^limonada de frutas\\b",
+    "product_type": "果味柠檬饮料",
+    "function": "作为饮料饮用",
+    "need": "果味饮料饮用"
+  },
+  {
+    "id": "g23_disco_light",
+    "regex": "^luz de discoteca giratoria\\b",
+    "product_type": "旋转迪斯科灯",
+    "function": "旋转投射装饰灯光",
+    "need": "派对旋转灯光"
+  },
+  {
+    "id": "g23_window_insulationfilm",
+    "regex": "^l[aá]mina aislante para ventanas\\b",
+    "product_type": "窗用隔热膜",
+    "function": "覆贴窗面（隔热性能未核）",
+    "need": "窗面隔热覆贴"
+  },
+  {
+    "id": "g23_dishliquid",
+    "regex": "^l[ií]quido lavavajillas\\b",
+    "product_type": "洗洁精",
+    "function": "清洗餐具",
+    "need": "餐具清洗"
+  },
+  {
+    "id": "g23_artwoodhand",
+    "regex": "^mano de madera para dibujar\\b",
+    "product_type": "绘画木手模型",
+    "function": "作为手部绘画参考",
+    "need": "手部绘画参照"
+  },
+  {
+    "id": "g23_bathmitt",
+    "regex": "^manoplas de ba[ñn]o\\b",
+    "product_type": "沐浴擦洗手套",
+    "function": "沐浴时擦洗身体",
+    "need": "身体擦洗"
+  },
+  {
+    "id": "g23_bodybutter",
+    "regex": "^manteca corporal\\b",
+    "product_type": "身体护理膏",
+    "function": "涂抹身体皮肤",
+    "need": "身体皮肤涂抹护理"
+  },
+  {
+    "id": "g23_peanutbutter",
+    "regex": "^mantequilla de cacahuete\\b",
+    "product_type": "花生酱",
+    "function": "涂抹或搭配食物食用",
+    "need": "花生酱配餐"
+  },
+  {
+    "id": "g23_smallblanket",
+    "regex": "^mantita de peluche\\b",
+    "product_type": "绒面小毯",
+    "function": "覆盖或铺垫",
+    "need": ""
+  },
+  {
+    "id": "g23_razors",
+    "regex": "^maquinillas de afeitar\\b",
+    "product_type": "剃须刀",
+    "function": "剃除适用部位毛发",
+    "need": "剃毛操作"
+  },
+  {
+    "id": "g23_decorapple",
+    "regex": "^manzana (?:con purpurina|de purpurina con LED|de vidrio con (?:led|luz)|decorativa)\\b",
+    "product_type": "苹果造型装饰",
+    "function": "陈设苹果造型饰物",
+    "need": "苹果造型陈设"
+  },
+  {
+    "id": "g23_decorbutterfly",
+    "regex": "^mariposa decorativa\\b",
+    "product_type": "蝴蝶装饰",
+    "function": "陈设蝴蝶造型饰物",
+    "need": "蝴蝶造型陈设"
+  },
+  {
+    "id": "g23_legfootmask",
+    "regex": "^mascarilla para piernas y pies\\b",
+    "product_type": "腿足敷膜",
+    "function": "敷用腿部和足部（效果未核）",
+    "need": "腿足敷膜护理"
+  },
+  {
+    "id": "g23_pulseoximeter",
+    "regex": "^medidor de frecuencia card[ií]aca y saturaci[oó]n\\b",
+    "product_type": "心率及血氧饱和度测量设备",
+    "function": "测量心率和血氧（精度及医疗资格未核）",
+    "need": "心率血氧读数测量"
+  },
+  {
+    "id": "g23_memorydomino",
+    "regex": "^memory o domin[oó]\\b",
+    "product_type": "记忆配对或多米诺游戏",
+    "function": "进行标题列出的游戏（具体款式待核）",
+    "need": "记忆配对或多米诺活动"
+  },
+  {
+    "id": "g23_chocpeanutmix",
+    "regex": "^mezcla de cacahuetes y chocolate\\b",
+    "product_type": "花生巧克力混合食品",
+    "function": "食用花生巧克力混合食品",
+    "need": "花生巧克力零食"
+  },
+  {
+    "id": "g23_biscuitmix",
+    "regex": "^mezcla de galletas\\b",
+    "product_type": "饼干什锦",
+    "function": "食用什锦饼干",
+    "need": "饼干零食"
+  },
+  {
+    "id": "g23_mochimix",
+    "regex": "^mezcla mochi de frutas\\b",
+    "product_type": "果味麻薯什锦",
+    "function": "食用麻薯",
+    "need": "麻薯零食"
+  },
+  {
+    "id": "g23_colorpencilmini",
+    "regex": "^mini l[aá]pices de color\\b",
+    "product_type": "迷你彩色铅笔",
+    "function": "彩色绘画书写",
+    "need": "彩铅绘画"
+  },
+  {
+    "id": "g23_minicake",
+    "regex": "^mini pastelitos\\b",
+    "product_type": "迷你糕点",
+    "function": "食用糕点",
+    "need": "糕点食用"
+  },
+  {
+    "id": "g23_minidoll",
+    "regex": "^minimu[ñn]eca\\b",
+    "product_type": "迷你玩偶",
+    "function": "进行玩偶玩耍",
+    "need": "玩偶玩耍"
+  },
+  {
+    "id": "g23_miniumbrella",
+    "regex": "^miniparaguas\\b",
+    "product_type": "迷你雨伞",
+    "function": "撑开遮挡雨水（抗风性能未核）",
+    "need": "便携雨天遮挡"
+  },
+  {
+    "id": "g23_firstpuzzle",
+    "regex": "^mis primeros rompecabezas\\b",
+    "product_type": "入门拼图玩具",
+    "function": "进行拼图活动",
+    "need": "拼图活动"
+  },
+  {
+    "id": "g23_spicegrinder",
+    "regex": "^molinillo de especias\\b",
+    "product_type": "香料研磨器",
+    "function": "研磨香料",
+    "need": "香料研磨"
+  },
+  {
+    "id": "g23_choccoin",
+    "regex": "^moneda chocolate\\b",
+    "product_type": "硬币形巧克力",
+    "function": "食用巧克力",
+    "need": "巧克力零食"
+  },
+  {
+    "id": "g23_paintcoverall",
+    "regex": "^mono de pintura\\b",
+    "product_type": "涂装连体衣",
+    "function": "涂装作业时穿着（防护等级未核）",
+    "need": "涂装作业衣着"
+  },
+  {
+    "id": "g23_rcmonstertruck",
+    "regex": "^monster truck (?:RC con mando a distancia|con control por radio)\\b",
+    "product_type": "遥控大脚车玩具",
+    "function": "遥控车辆行驶",
+    "need": "遥控车辆操控"
+  },
+  {
+    "id": "g23_multimeter",
+    "regex": "^mult[ií]metro digital\\b",
+    "product_type": "数字万用表",
+    "function": "测量适用电气参数（量程待核）",
+    "need": "电气参数测量"
+  },
+  {
+    "id": "g23_halloweenmask",
+    "regex": "^m[aá]scara de Halloween\\b",
+    "product_type": "万圣节面具",
+    "function": "面部节庆装扮",
+    "need": "万圣节面部装扮"
+  },
+  {
+    "id": "g23_ninjamasksword",
+    "regex": "^m[aá]scara ninja y espada\\b",
+    "product_type": "忍者面具与剑组合",
+    "function": "进行忍者主题装扮",
+    "need": "忍者角色装扮"
+  },
+  {
+    "id": "g23_nachos_salsa",
+    "regex": "^nachos con salsa\\b",
+    "product_type": "配酱玉米片",
+    "function": "搭配酱料食用玉米片",
+    "need": "玉米片蘸酱食用"
+  },
+  {
+    "id": "g23_odor_spray",
+    "regex": "^neutralizador de olores(?: en espray)?\\b",
+    "product_type": "除味用品",
+    "function": "用于气味处理（效果未核）",
+    "need": "环境气味处理"
+  },
+  {
+    "id": "g23_electriccooler",
+    "regex": "^nevera el[eé]ctrica\\b",
+    "product_type": "电冷藏箱",
+    "function": "电力冷藏适用物品",
+    "need": "物品电冷藏"
+  },
+  {
+    "id": "g23_nougat",
+    "regex": "^(?:nougat blando|turr[oó]n)\\b",
+    "product_type": "牛轧糖",
+    "function": "食用牛轧糖",
+    "need": "牛轧糖食用"
+  },
+  {
+    "id": "g23_paintpalette",
+    "regex": "^paleta de pintor\\b",
+    "product_type": "绘画调色板",
+    "function": "调配绘画颜料",
+    "need": "绘画调色"
+  },
+  {
+    "id": "g23_flosssticks",
+    "regex": "^palillos de hilo dental\\b",
+    "product_type": "牙线棒",
+    "function": "清理牙缝（效果未核）",
+    "need": "牙缝清洁"
+  },
+  {
+    "id": "g23_maizsticks",
+    "regex": "^palitos de ma[ií]z\\b",
+    "product_type": "玉米条零食",
+    "function": "食用玉米条",
+    "need": "玉米条食用"
+  },
+  {
+    "id": "g23_dogchew",
+    "regex": "^palitos masticables para perros\\b",
+    "product_type": "犬用咀嚼棒",
+    "function": "供犬咀嚼",
+    "need": "犬类咀嚼"
+  },
+  {
+    "id": "g23_garlicbread",
+    "regex": "^pan con ajo\\b",
+    "product_type": "蒜味面包",
+    "function": "食用蒜味面包",
+    "need": "面包食用"
+  },
+  {
+    "id": "g23_naan",
+    "regex": "^pan naan\\b",
+    "product_type": "馕饼",
+    "function": "搭配餐食食用馕饼",
+    "need": "馕饼配餐"
+  },
+  {
+    "id": "g23_wallpanels",
+    "regex": "^panel(?:es)? (?:de (?:pared de fieltro|fieltro para paredes|madera para pared)|de pared con purpurina)\\b",
+    "product_type": "墙面饰板",
+    "function": "铺装墙面（安装条件待核）",
+    "need": "墙面饰板铺装"
+  },
+  {
+    "id": "g23_paintpanels",
+    "regex": "^paneles de (?:lienzo|pintura)\\b",
+    "product_type": "绘画板",
+    "function": "承载绘画颜料",
+    "need": "板面绘画"
+  },
+  {
+    "id": "g23_coloredpaper",
+    "regex": "^papel de colores\\b",
+    "product_type": "彩色纸",
+    "function": "彩纸剪贴创作",
+    "need": "彩纸手工创作"
+  },
+  {
+    "id": "g23_thermalpaper",
+    "regex": "^papel de impresi[oó]n t[eé]rmica\\b",
+    "product_type": "热敏打印纸",
+    "function": "供适配热敏打印机打印",
+    "need": "热敏打印耗材"
+  },
+  {
+    "id": "g23_canvaspaper",
+    "regex": "^papel de lienzo\\b",
+    "product_type": "画布纹绘画纸",
+    "function": "承载绘画",
+    "need": "纸面绘画"
+  },
+  {
+    "id": "g23_scrapbookpaper",
+    "regex": "^papel para Scrapbook\\b",
+    "product_type": "剪贴簿用纸",
+    "function": "制作剪贴簿页面",
+    "need": "剪贴簿创作"
+  },
+  {
+    "id": "g23_decoupagepaper",
+    "regex": "^papel para decoupage\\b",
+    "product_type": "蝶古巴特拼贴纸",
+    "function": "进行表面纸艺拼贴",
+    "need": "纸艺表面拼贴"
+  },
+  {
+    "id": "g23_almondpack",
+    "regex": "^paquete XL de almendras\\b",
+    "product_type": "包装杏仁",
+    "function": "食用杏仁",
+    "need": "杏仁食用"
+  },
+  {
+    "id": "g23_beachparasol",
+    "regex": "^parasol de playa\\b",
+    "product_type": "沙滩遮阳伞",
+    "function": "沙滩活动遮阳（防护等级未核）",
+    "need": "沙滩遮阳"
+  },
+  {
+    "id": "g23_heatpatch",
+    "regex": "^parches t[eé]rmicos\\b",
+    "product_type": "发热贴",
+    "function": "向贴敷部位提供热用辅助（效果未核）",
+    "need": "局部热敷"
+  },
+  {
+    "id": "g23_dogpasta",
+    "regex": "^pasta para perros\\b",
+    "product_type": "犬用pasta制品（形态待核）",
+    "function": "",
+    "need": ""
+  },
+  {
+    "id": "g23_choccake",
+    "regex": "^pastelitos de chocolate\\b",
+    "product_type": "巧克力糕点",
+    "function": "食用巧克力糕点",
+    "need": "糕点食用"
+  },
+  {
+    "id": "g23_mintlozenges",
+    "regex": "^pastillas de menta\\b",
+    "product_type": "薄荷糖片",
+    "function": "含食薄荷糖片",
+    "need": "薄荷糖食用"
+  },
+  {
+    "id": "g23_wctablets",
+    "regex": "^pastillas para el inodoro\\b",
+    "product_type": "马桶清洁片",
+    "function": "用于马桶清洁护理（性能未核）",
+    "need": "马桶清洁护理"
+  },
+  {
+    "id": "g23_dolldiaper",
+    "regex": "^pa[ñn]ales para mu[ñn]eco\\b",
+    "product_type": "玩偶尿布",
+    "function": "给玩偶换尿布游戏",
+    "need": "娃娃照料游戏"
+  },
+  {
+    "id": "g23_laundryperfume",
+    "regex": "^perfume para colada\\b",
+    "product_type": "衣物香氛",
+    "function": "用于衣物赋香（持久性未核）",
+    "need": "衣物赋香"
+  },
+  {
+    "id": "g23_roomperfume",
+    "regex": "^perfume para interiores\\b",
+    "product_type": "室内香氛",
+    "function": "用于室内赋香",
+    "need": "室内赋香"
+  },
+  {
+    "id": "g23_actionfigures",
+    "regex": "^personajes? de acci[oó]n\\b",
+    "product_type": "动作人偶",
+    "function": "进行人物造型玩耍",
+    "need": "人偶角色玩耍"
+  },
+  {
+    "id": "g23_petitfours",
+    "regex": "^petit fours\\b",
+    "product_type": "小型糕点",
+    "function": "食用小型糕点",
+    "need": "糕点食用"
+  },
+  {
+    "id": "g23_decorstones",
+    "regex": "^piedras decorativas\\b",
+    "product_type": "装饰石",
+    "function": "陈设装饰石料",
+    "need": "石料装饰陈设"
+  },
+  {
+    "id": "g23_catdryfood",
+    "regex": "^pienso seco para gatos\\b",
+    "product_type": "猫用干粮",
+    "function": "喂食猫干粮",
+    "need": "猫干粮喂食"
+  },
+  {
+    "id": "g23_clothingpins",
+    "regex": "^pines para ropa\\b",
+    "product_type": "服装装饰别针",
+    "function": "别于衣物装饰",
+    "need": "衣物别针装饰"
+  },
+  {
+    "id": "g23_paintwoodfigures",
+    "regex": "^pinta tus propias figuras de madera\\b",
+    "product_type": "木造型涂色套件",
+    "function": "给木制造型涂色",
+    "need": "木造型涂色"
+  },
+  {
+    "id": "g23_paintnumbers",
+    "regex": "^pintar por n[uú]meros\\b",
+    "product_type": "数字填色用品",
+    "function": "按数字指示填色",
+    "need": "数字填色"
+  },
+  {
+    "id": "g23_hairclip",
+    "regex": "^pinza de pelo\\b",
+    "product_type": "发夹",
+    "function": "夹持头发",
+    "need": "头发夹持"
+  },
+  {
+    "id": "g23_bbqtongs",
+    "regex": "^pinzas para barbacoa\\b",
+    "product_type": "烧烤夹",
+    "function": "夹取烧烤食物",
+    "need": "烧烤食物夹取"
+  },
+  {
+    "id": "g23_bagclips",
+    "regex": "^pinzas para cerrar bolsas de conservas\\b",
+    "product_type": "食品袋封口夹",
+    "function": "夹合食品保存袋",
+    "need": "食品袋封口"
+  },
+  {
+    "id": "g23_heartlollipop",
+    "regex": "^piruleta de coraz[oó]n\\b",
+    "product_type": "心形棒棒糖",
+    "function": "食用棒棒糖",
+    "need": "棒棒糖食用"
+  },
+  {
+    "id": "g23_labelgun",
+    "regex": "^pistola de etiquetado\\b",
+    "product_type": "贴标枪",
+    "function": "施放物品标签",
+    "need": "物品贴标"
+  },
+  {
+    "id": "g23_plane_launcher",
+    "regex": "^pistola lanzadora para aviones\\b",
+    "product_type": "玩具飞机发射器",
+    "function": "发射适配玩具飞机",
+    "need": "玩具飞机发射"
+  },
+  {
+    "id": "g23_dualboard",
+    "regex": "^pizarra de tiza y pizarra blanca\\b",
+    "product_type": "黑板白板两用板",
+    "function": "用粉笔或适配白板笔书写",
+    "need": "双面板书写"
+  },
+  {
+    "id": "g23_foamglider",
+    "regex": "^planeador de espuma\\b",
+    "product_type": "泡沫滑翔机玩具",
+    "function": "投掷滑翔飞行",
+    "need": "滑翔机飞行玩耍"
+  },
+  {
+    "id": "g23_icepops",
+    "regex": "^polos de hielo\\b",
+    "product_type": "冰棒食品",
+    "function": "冷冻后食用（保存方式待核）",
+    "need": "冰棒食用"
+  },
+  {
+    "id": "g23_dentalpowder",
+    "regex": "^polvo blanqueador dental\\b",
+    "product_type": "牙齿美白粉",
+    "function": "用于牙齿外观护理（效果未核）",
+    "need": "牙齿外观护理"
+  },
+  {
+    "id": "g23_cup_phoneholder",
+    "regex": "^portavasos con soporte para smartphone\\b",
+    "product_type": "带手机支架杯托",
+    "function": "放置杯子并支撑手机",
+    "need": "杯子手机同时置放"
+  },
+  {
+    "id": "g23_footballgoal",
+    "regex": "^porter[ií]a de f[uú]tbol\\b",
+    "product_type": "足球球门",
+    "function": "作为足球射门目标",
+    "need": "足球射门练习"
+  },
+  {
+    "id": "g23_cakemix",
+    "regex": "^preparado para pasteles\\b",
+    "product_type": "糕点预拌料",
+    "function": "制作标题指定糕点",
+    "need": "糕点制作"
+  },
+  {
+    "id": "g23_mattressprotector",
+    "regex": "^protector de colch[oó]n\\b",
+    "product_type": "床垫保护垫",
+    "function": "覆盖床垫表面（附加性能未核）",
+    "need": "床垫表面覆盖"
+  },
+  {
+    "id": "g23_bootprotector",
+    "regex": "^protector de maletero\\b",
+    "product_type": "汽车后备厢保护垫",
+    "function": "覆盖后备厢表面",
+    "need": "后备厢表面覆盖"
+  },
+  {
+    "id": "g23_poolfloormat",
+    "regex": "^protector de suelo para piscina\\b",
+    "product_type": "泳池地面保护垫",
+    "function": "铺于泳池底部地面",
+    "need": "泳池底部铺垫"
+  },
+  {
+    "id": "g23_chairlegprotector",
+    "regex": "^protectores de patas de silla\\b",
+    "product_type": "椅脚保护套垫",
+    "function": "套贴于椅脚",
+    "need": "椅脚套垫"
+  },
+  {
+    "id": "g23_dustdoor",
+    "regex": "^puerta antipolvo con cremallera\\b",
+    "product_type": "拉链防尘门帘",
+    "function": "封隔出入口并通过拉链通行（性能未核）",
+    "need": "施工出入口隔尘"
+  },
+  {
+    "id": "g23_pouf",
+    "regex": "^puf\\b",
+    "product_type": "坐墩",
+    "function": "提供坐面或足部承托（依规格）",
+    "need": "坐墩承坐"
+  },
+  {
+    "id": "g23_ceramicbird",
+    "regex": "^p[aá]jaro de cer[aá]mica\\b",
+    "product_type": "陶瓷鸟摆件",
+    "function": "陈设鸟形陶瓷造型",
+    "need": "鸟形摆件陈设"
+  },
+  {
+    "id": "g23_oilburner",
+    "regex": "^quemador de aceite con fragancias\\b",
+    "product_type": "配香氛油的香薰炉",
+    "function": "加热香氛油释放香气（使用条件待核）",
+    "need": "香氛油散香"
+  },
+  {
+    "id": "g23_kitchentorch",
+    "regex": "^quemador de crema catalana\\b",
+    "product_type": "甜点表面焦糖化工具",
+    "function": "加热甜点表面形成焦糖层",
+    "need": "甜点表面焦糖化"
+  },
+  {
+    "id": "g23_ramen",
+    "regex": "^ramen coreano\\b",
+    "product_type": "韩式拉面",
+    "function": "烹调食用拉面",
+    "need": "拉面餐食"
+  },
+  {
+    "id": "g23_gardenrake",
+    "regex": "^rastrillo de jard[ií]n\\b",
+    "product_type": "园艺耙",
+    "function": "耙理园艺土料或落叶",
+    "need": "园艺耙理"
+  },
+  {
+    "id": "g23_taperefill",
+    "regex": "^recambio de cinta adhesiva\\b",
+    "product_type": "胶带替换装",
+    "function": "补充适配胶带耗材",
+    "need": "胶带耗材补充"
+  },
+  {
+    "id": "g23_cleanerrefill",
+    "regex": "^recambio de limpiador multiusos\\b",
+    "product_type": "多用途清洁剂补充装",
+    "function": "补充适配清洁用品",
+    "need": "清洁剂补充"
+  },
+  {
+    "id": "g23_electricfreshrefill",
+    "regex": "^recambio para ambientador el[eé]ctrico\\b",
+    "product_type": "电香氛器替换装",
+    "function": "补充适配电香氛器耗材",
+    "need": "电香氛器耗材补充"
+  },
+  {
+    "id": "g23_brushrefill",
+    "regex": "^recambio para cepillo de fregar\\b",
+    "product_type": "刷洗刷替换头",
+    "function": "更换适配刷洗刷头",
+    "need": "刷洗刷耗材替换"
+  },
+  {
+    "id": "g23_moprefill",
+    "regex": "^recambio para fregona\\b",
+    "product_type": "拖把替换件",
+    "function": "更换适配拖把部件",
+    "need": "拖把耗材替换"
+  },
+  {
+    "id": "g23_yogurtcontainer",
+    "regex": "^recipiente para yogur\\b",
+    "product_type": "酸奶容器",
+    "function": "盛放酸奶",
+    "need": "酸奶盛装"
+  },
+  {
+    "id": "g23_towingnet",
+    "regex": "^red de remolque\\b",
+    "product_type": "拖车货物网",
+    "function": "网覆固定拖车货物",
+    "need": "拖车货物网覆"
+  },
+  {
+    "id": "g23_softdrink",
+    "regex": "^refresco\\b",
+    "product_type": "软饮料",
+    "function": "作为软饮料饮用",
+    "need": "软饮料饮用"
+  },
+  {
+    "id": "g23_eyelashcurler",
+    "regex": "^rizador de pesta[ñn]as\\b",
+    "product_type": "睫毛夹",
+    "function": "卷翘睫毛（效果未核）",
+    "need": "睫毛卷翘"
+  },
+  {
+    "id": "g23_bodymassageroller",
+    "regex": "^rodillo para masaje corporal\\b",
+    "product_type": "身体按摩滚轮",
+    "function": "滚动接触身体进行按摩（效果未核）",
+    "need": "身体滚轮按摩"
+  },
+  {
+    "id": "g23_giftribbon",
+    "regex": "^rollo de cinta para envolver regalos\\b",
+    "product_type": "礼品包装缎带",
+    "function": "绑扎装饰礼品包装",
+    "need": "礼品缎带包装"
+  },
+  {
+    "id": "g23_waferroll",
+    "regex": "^rollos de gofre\\b",
+    "product_type": "威化卷",
+    "function": "食用威化卷",
+    "need": "威化零食食用"
+  },
+  {
+    "id": "g23_dollclothes",
+    "regex": "^ropa para mu[ñn]ecas\\b",
+    "product_type": "娃娃服装",
+    "function": "给玩偶换装",
+    "need": "娃娃换装"
+  },
+  {
+    "id": "g23_catsausages",
+    "regex": "^salchichas para gatos\\b",
+    "product_type": "猫用香肠",
+    "function": "喂给猫食用",
+    "need": "猫类香肠喂食"
+  },
+  {
+    "id": "g23_shoedryer",
+    "regex": "^secador de zapatos\\b",
+    "product_type": "鞋烘干器",
+    "function": "干燥适用鞋具",
+    "need": "鞋具干燥"
+  },
+  {
+    "id": "g23_choc_selection",
+    "regex": "^selecci[oó]n de chocolate\\b",
+    "product_type": "巧克力组合",
+    "function": "食用巧克力",
+    "need": "巧克力零食"
+  },
+  {
+    "id": "g23_punchneedle",
+    "regex": "^set de punch needle\\b",
+    "product_type": "戳绣套装",
+    "function": "进行戳绣",
+    "need": "戳绣制作"
+  },
+  {
+    "id": "g23_watercolorset",
+    "regex": "^set de acuarela\\b",
+    "product_type": "水彩套装",
+    "function": "绘制水彩画",
+    "need": "水彩绘画"
+  },
+  {
+    "id": "g23_travelshaveset",
+    "regex": "^set de afeitado de viaje\\b",
+    "product_type": "旅行剃须套装",
+    "function": "旅行时剃须",
+    "need": "旅行剃须"
+  },
+  {
+    "id": "g23_compressionstore",
+    "regex": "^set de almacenamiento en compresi[oó]n\\b",
+    "product_type": "压缩收纳套装",
+    "function": "压缩收纳物品",
+    "need": "物品压缩收纳"
+  },
+  {
+    "id": "g23_tanapplication",
+    "regex": "^set de aplicaci[oó]n de autobronceador\\b",
+    "product_type": "自晒美黑产品涂抹套装",
+    "function": "辅助涂抹自晒美黑产品",
+    "need": "美黑产品涂布"
+  },
+  {
+    "id": "g23_bowlingset",
+    "regex": "^set de bolos\\b",
+    "product_type": "保龄球游戏套装",
+    "function": "进行保龄球击倒活动",
+    "need": "保龄球游戏"
+  },
+  {
+    "id": "g23_haircareset",
+    "regex": "^set de cuidado del cabello\\b",
+    "product_type": "护发套装",
+    "function": "进行头发护理（不推断效果）",
+    "need": "头发护理"
+  },
+  {
+    "id": "g23_facecareset",
+    "regex": "^set de cuidado facial\\b",
+    "product_type": "面部护理套装",
+    "function": "进行面部皮肤护理",
+    "need": "面部皮肤护理"
+  },
+  {
+    "id": "g23_lipcareset",
+    "regex": "^set de cuidado labial\\b",
+    "product_type": "唇部护理套装",
+    "function": "进行唇部护理",
+    "need": "唇部护理"
+  },
+  {
+    "id": "g23_catnipgrow",
+    "regex": "^set de cultivo de hierba gatera\\b",
+    "product_type": "猫用草本栽培套装",
+    "function": "栽培标题指定猫用草本（物种待核）",
+    "need": "猫用草本栽培"
+  },
+  {
+    "id": "g23_cutterset",
+    "regex": "^set de c[uú]ters\\b",
+    "product_type": "美工刀套装",
+    "function": "切割适配材料",
+    "need": "手工刀切割"
+  },
+  {
+    "id": "g23_dressupset",
+    "regex": "^set de disfraces para ni[ñn]a\\b",
+    "product_type": "儿童角色装扮套装",
+    "function": "进行角色装扮",
+    "need": "儿童角色装扮"
+  },
+  {
+    "id": "g23_writingset",
+    "regex": "^set de escritura\\b",
+    "product_type": "书写套装",
+    "function": "书写记录",
+    "need": "书写记录"
+  },
+  {
+    "id": "g23_eraser_sharpener",
+    "regex": "^set de gomas y sacapuntas\\b",
+    "product_type": "橡皮及卷笔刀组合",
+    "function": "擦除铅笔痕迹并削笔",
+    "need": "铅笔擦改与削笔"
+  },
+  {
+    "id": "g23_toytoolset",
+    "regex": "^set de herramientas de juguete\\b",
+    "product_type": "玩具工具套装",
+    "function": "模拟工具作业",
+    "need": "工具角色游戏"
+  },
+  {
+    "id": "g23_handsoaplotion",
+    "regex": "^set de jab[oó]n y loci[oó]n de manos\\b",
+    "product_type": "洗手皂及护手液组合",
+    "function": "清洗及涂护双手",
+    "need": "手部清洗与护理"
+  },
+  {
+    "id": "g23_beachgameset",
+    "regex": "^set de juegos de playa\\b",
+    "product_type": "沙滩游戏套装",
+    "function": "进行沙滩游戏（配置待核）",
+    "need": "沙滩游戏活动"
+  },
+  {
+    "id": "g23_karaokeset",
+    "regex": "^set de karaoke\\b",
+    "product_type": "卡拉OK套装",
+    "function": "配套进行歌唱活动",
+    "need": "卡拉OK歌唱"
+  },
+  {
+    "id": "g23_knittingyarnset",
+    "regex": "^set de lana para tejer\\b",
+    "product_type": "编织毛线套装",
+    "function": "用于针织或编织",
+    "need": "毛线编织"
+  },
+  {
+    "id": "g23_footfileset",
+    "regex": "^set de limas para pies\\b",
+    "product_type": "足部磨锉套装",
+    "function": "磨锉足部皮肤（效果未核）",
+    "need": "足部磨锉护理"
+  },
+  {
+    "id": "g23_saltpeppergrinder",
+    "regex": "^set de molinillos de sal y pimienta\\b",
+    "product_type": "盐及胡椒研磨器组合",
+    "function": "研磨盐和胡椒",
+    "need": "盐胡椒研磨"
+  },
+  {
+    "id": "g23_toymedical",
+    "regex": "^set (?:de )?(?:m[eé]dico|veterinario) de juguete\\b",
+    "product_type": "医疗角色玩具套装",
+    "function": "模拟标题指定医疗角色活动",
+    "need": "医疗角色游戏"
+  },
+  {
+    "id": "g23_beachtennis",
+    "regex": "^set de palas de tenis playa\\b",
+    "product_type": "沙滩网球拍套装",
+    "function": "进行沙滩击球活动",
+    "need": "沙滩拍球活动"
+  },
+  {
+    "id": "g23_combset",
+    "regex": "^set de peines\\b",
+    "product_type": "梳子套装",
+    "function": "梳理头发",
+    "need": "头发梳理"
+  },
+  {
+    "id": "g23_peelerset",
+    "regex": "^set de peladores\\b",
+    "product_type": "削皮器套装",
+    "function": "削除食材外皮",
+    "need": "食材削皮"
+  },
+  {
+    "id": "g23_index_tabs",
+    "regex": "^set de pesta[ñn]as de [ií]ndice\\b",
+    "product_type": "索引标签套装",
+    "function": "标记文档页码位置",
+    "need": "文档索引标记"
+  },
+  {
+    "id": "g23_toypizza",
+    "regex": "^set de pizza de juguete\\b",
+    "product_type": "披萨玩具套装",
+    "function": "模拟披萨制作或供应",
+    "need": "披萨角色游戏"
+  },
+  {
+    "id": "g23_carpolishset",
+    "regex": "^set de pulido para el coche\\b",
+    "product_type": "汽车抛光套装",
+    "function": "抛光适配汽车表面（效果未核）",
+    "need": "汽车表面抛光"
+  },
+  {
+    "id": "g23_bikereflectors",
+    "regex": "^set de reflectores para bicicleta\\b",
+    "product_type": "自行车反光件套装",
+    "function": "安装适配自行车反光件（性能未核）",
+    "need": "自行车反光标示"
+  },
+  {
+    "id": "g23_rulerset",
+    "regex": "^set de reglas\\b",
+    "product_type": "直尺套装",
+    "function": "测量绘制直线",
+    "need": "直线测绘"
+  },
+  {
+    "id": "g23_hairrollerset",
+    "regex": "^set de rulos (?:de pelo sin calor|para el pelo)\\b",
+    "product_type": "卷发筒套装",
+    "function": "卷绕头发造型",
+    "need": "卷发筒造型"
+  },
+  {
+    "id": "g23_tapasserving",
+    "regex": "^(?:set de servicio de tapas con cuencos de vidrio|set para tapas)\\b",
+    "product_type": "小吃盛放套装",
+    "function": "盛放供应小吃",
+    "need": "小吃盛装"
+  },
+  {
+    "id": "g23_nailtattoos",
+    "regex": "^set de tatuajes de u[ñn]as\\b",
+    "product_type": "指甲纹样贴套装",
+    "function": "装饰指甲表面",
+    "need": "指甲纹样装饰"
+  },
+  {
+    "id": "g23_backdropset",
+    "regex": "^set de tel[oó]n de fondo\\b",
+    "product_type": "背景布置套装",
+    "function": "布置背景",
+    "need": "背景布置"
+  },
+  {
+    "id": "g23_electricmanipedi",
+    "regex": "^set el[eé]ctrico de manicura y pedicura\\b",
+    "product_type": "电动手足美甲套装",
+    "function": "修整手足指甲",
+    "need": "手足指甲修整"
+  },
+  {
+    "id": "g23_decor_mushroom",
+    "regex": "^seta (?:con iluminaci[oó]n led|decorativa)\\b",
+    "product_type": "蘑菇造型装饰",
+    "function": "陈设蘑菇造型饰物",
+    "need": "蘑菇造型陈设"
+  },
+  {
+    "id": "g23_ricetreat",
+    "regex": "^snacks de arroz\\b",
+    "product_type": "米制零食",
+    "function": "食用米制零食",
+    "need": "米制零食食用"
+  },
+  {
+    "id": "g23_catsoup",
+    "regex": "^sopa para gato\\b",
+    "product_type": "猫用汤食",
+    "function": "喂给猫食用",
+    "need": "猫类汤食喂食"
+  },
+  {
+    "id": "g23_leafblower_vacuum",
+    "regex": "^soplador y aspirador de hojas\\b",
+    "product_type": "吹叶吸叶两用设备",
+    "function": "吹拢或吸集落叶",
+    "need": "落叶收集"
+  },
+  {
+    "id": "g23_wirelesscharge_stand",
+    "regex": "^soporte de carga inal[aá]mbrico\\b",
+    "product_type": "无线充电支架",
+    "function": "支撑并无线充电适配设备",
+    "need": "设备支架无线充电"
+  },
+  {
+    "id": "g23_toothbrushholder",
+    "regex": "^soporte de cepillos de dientes\\b",
+    "product_type": "牙刷架",
+    "function": "放置牙刷",
+    "need": "牙刷置放"
+  },
+  {
+    "id": "g23_tapeholder",
+    "regex": "^soporte de cinta adhesiva\\b",
+    "product_type": "胶带座",
+    "function": "支撑取用胶带",
+    "need": "胶带取用"
+  },
+  {
+    "id": "g23_showerholder",
+    "regex": "^soporte de ducha\\b",
+    "product_type": "淋浴支架",
+    "function": "固定适配淋浴喷头",
+    "need": "淋浴喷头固定"
+  },
+  {
+    "id": "g23_carmobileholder",
+    "regex": "^soporte de m[oó]vil para coche\\b",
+    "product_type": "车载手机支架",
+    "function": "在车内支撑适配手机",
+    "need": "车内手机支撑"
+  },
+  {
+    "id": "g23_incenseholder",
+    "regex": "^soporte para incienso\\b",
+    "product_type": "香座",
+    "function": "承托燃香（使用方式待核）",
+    "need": "燃香承托"
+  },
+  {
+    "id": "g23_controllerholder",
+    "regex": "^soporte para juegos y mandos\\b",
+    "product_type": "游戏及手柄收纳架",
+    "function": "放置游戏与手柄",
+    "need": "游戏手柄置放"
+  },
+  {
+    "id": "g23_gluegunstand",
+    "regex": "^soporte para pistola de pegamento\\b",
+    "product_type": "胶枪支架",
+    "function": "支撑适配胶枪",
+    "need": "胶枪支撑"
+  },
+  {
+    "id": "g23_dusterhandle",
+    "regex": "^soporte para plumero est[aá]tico\\b",
+    "product_type": "静电掸支架",
+    "function": "配装适配静电掸头",
+    "need": "静电掸配套"
+  },
+  {
+    "id": "g23_bouncyball",
+    "regex": "^superpelota saltarina\\b",
+    "product_type": "弹跳球",
+    "function": "进行弹跳球玩耍",
+    "need": "弹跳球活动"
+  },
+  {
+    "id": "g23_cheeseboard",
+    "regex": "^tabla de queso con tapa\\b",
+    "product_type": "带盖奶酪板",
+    "function": "盛放遮盖奶酪",
+    "need": "奶酪盛放"
+  },
+  {
+    "id": "g23_drawingtablet",
+    "regex": "^tableta de dibujo\\b",
+    "product_type": "绘画板",
+    "function": "在板面绘画（技术类型待核）",
+    "need": "板面绘画"
+  },
+  {
+    "id": "g23_earplugs",
+    "regex": "^tapones con reducci[oó]n de ruido\\b",
+    "product_type": "降噪耳塞",
+    "function": "佩戴于耳部降低声响（性能未核）",
+    "need": "耳部隔声佩戴"
+  },
+  {
+    "id": "g23_christmascard",
+    "regex": "^tarjeta de Navidad\\b",
+    "product_type": "圣诞贺卡",
+    "function": "书写或赠送节庆祝语",
+    "need": "圣诞祝语传递"
+  },
+  {
+    "id": "g23_flashcards",
+    "regex": "^tarjetas flash\\b",
+    "product_type": "flash卡片（类型待核）",
+    "function": "",
+    "need": ""
+  },
+  {
+    "id": "g23_cheesecake",
+    "regex": "^tarta de queso\\b",
+    "product_type": "芝士蛋糕",
+    "function": "食用芝士蛋糕",
+    "need": "糕点食用"
+  },
+  {
+    "id": "g23_cocopotsoil",
+    "regex": "^tierra para macetas?\\b",
+    "product_type": "盆栽土",
+    "function": "承载盆栽根系",
+    "need": "盆栽基质栽培"
+  },
+  {
+    "id": "g23_videodoorbell",
+    "regex": "^timbre de v[ií]deo\\b",
+    "product_type": "视频门铃",
+    "function": "提示来访并查看门口影像（功能条件待核）",
+    "need": "门口来访影像提示"
+  },
+  {
+    "id": "g23_carledstrip",
+    "regex": "^tira de luces LED para coche\\b",
+    "product_type": "汽车LED灯带",
+    "function": "在适配车内部位布置灯光",
+    "need": "汽车装饰灯光"
+  },
+  {
+    "id": "g23_depilatorystrip",
+    "regex": "^tiras depilatorias\\b",
+    "product_type": "脱毛条",
+    "function": "处理体毛（效果未核）",
+    "need": "体毛处理"
+  },
+  {
+    "id": "g23_insecttrap",
+    "regex": "^trampas para insectos\\b",
+    "product_type": "捕虫器",
+    "function": "捕捉昆虫（适用虫类待核）",
+    "need": "昆虫捕捉"
+  },
+  {
+    "id": "g23_magictricks",
+    "regex": "^trucos de magia\\b",
+    "product_type": "魔术活动用品",
+    "function": "进行魔术表演",
+    "need": "魔术表演"
+  },
+  {
+    "id": "g23_tea",
+    "regex": "^t[eé] (?:puro Ceil[aá]n|de oto[ñn]o)\\b",
+    "product_type": "茶饮原料",
+    "function": "冲泡茶饮",
+    "need": "茶冲泡"
+  },
+  {
+    "id": "g23_kinesiologytape",
+    "regex": "^venda de sujeci[oó]n kinesiol[oó]gica\\b",
+    "product_type": "肌内效贴布",
+    "function": "贴覆身体部位提供标题标称支撑（功效未核）",
+    "need": "运动贴布贴覆"
+  },
+  {
+    "id": "g23_doublesuction",
+    "regex": "^ventosa doble\\b",
+    "product_type": "双吸盘提取工具",
+    "function": "吸附搬动适配平面物体（载荷待核）",
+    "need": "吸盘提取"
+  },
+  {
+    "id": "g23_decorwoodchips",
+    "regex": "^virutas de madera decorativas\\b",
+    "product_type": "装饰木屑",
+    "function": "铺陈装饰木屑",
+    "need": "木屑装饰"
+  },
+  {
+    "id": "g23_canvas_shoes",
+    "regex": "^zapatillas de lona\\b",
+    "product_type": "帆布鞋",
+    "function": "足部穿着",
+    "need": "帆布鞋穿着"
+  },
+  {
+    "id": "g23_scrapbook",
+    "regex": "^[aá]lbum de recortes\\b",
+    "product_type": "剪贴簿",
+    "function": "整理拼贴剪贴素材",
+    "need": "剪贴簿创作"
+  },
+  {
+    "id": "g23_discoball_light_bundle",
+    "regex": "^bola disco y luz omnidireccional\\b",
+    "product_type": "迪斯科球及全向灯组合",
+    "function": "布置迪斯科球装饰及全向灯光",
+    "need": "迪斯科球与全向灯光布置"
+  },
+  {
+    "id": "br23_safetyvest",
+    "regex": "^chalecos? de seguridad\\b",
+    "product_type": "安全背心",
+    "function": "穿着作安全识别",
+    "need": "安全识别穿着"
+  },
+  {
+    "id": "br23_reflectivevest",
+    "regex": "^chalecos? reflectantes?\\b",
+    "product_type": "反光背心",
+    "function": "穿着提供反光识别",
+    "need": "反光穿着识别"
+  },
+  {
+    "id": "br23_lifejacket",
+    "regex": "^chalecos? salvavidas\\b",
+    "product_type": "救生衣",
+    "function": "穿着作水上浮力辅助",
+    "need": "水上浮力辅助"
+  },
+  {
+    "id": "br23_loungewear",
+    "regex": "^conjuntos? para estar en casa\\b",
+    "product_type": "家居服套装",
+    "function": "居家穿着",
+    "need": "居家衣着"
+  },
+  {
+    "id": "br23_fleecejacket",
+    "regex": "^chaquetas? (?:polar|de lana)\\b",
+    "product_type": "保暖外套",
+    "function": "作为保暖外层穿着",
+    "need": "上身保暖"
+  },
+  {
+    "id": "br23_softshell",
+    "regex": "^chaquetas? softshell\\b",
+    "product_type": "软壳外套",
+    "function": "作为户外外层穿着",
+    "need": "户外上身外层穿着"
+  },
+  {
+    "id": "br23_sweatshirt",
+    "regex": "^sudaderas?\\b(?!\\s+manta)",
+    "product_type": "卫衣",
+    "function": "作为上身日常衣物穿着",
+    "need": "上身日常穿着"
+  },
+  {
+    "id": "br23_blankethoodie",
+    "regex": "^sudaderas? manta\\b",
+    "product_type": "毯式卫衣",
+    "function": "居家包裹身体保暖",
+    "need": "居家包裹保暖"
+  },
+  {
+    "id": "br23_fleecevest",
+    "regex": "^chalecos? polar\\b",
+    "product_type": "绒面背心",
+    "function": "作为无袖保暖层穿着",
+    "need": "躯干保暖"
+  },
+  {
+    "id": "br23_broomhandle",
+    "regex": "^palos? de escoba\\b",
+    "product_type": "扫帚杆",
+    "function": "装配扫帚头供握持",
+    "need": "扫帚杆更换"
+  },
+  {
+    "id": "br23_broomhead",
+    "regex": "^cepillos? de escoba\\b",
+    "product_type": "扫帚头",
+    "function": "装配扫帚杆扫除地面碎屑",
+    "need": "地面扫除"
+  },
+  {
+    "id": "br23_dusterrefill",
+    "regex": "^recambios? plumero\\b",
+    "product_type": "除尘掸替换头",
+    "function": "替换除尘掸工作头",
+    "need": "掸头更换"
+  },
+  {
+    "id": "br23_duster",
+    "regex": "^plumeros?\\b",
+    "product_type": "除尘掸",
+    "function": "掸除表面浮尘",
+    "need": "表面除尘"
+  },
+  {
+    "id": "br23_vanitytowel",
+    "regex": "^toallas? de tocador\\b",
+    "product_type": "盥洗毛巾",
+    "function": "盥洗后擦干手脸",
+    "need": "盥洗擦干"
+  },
+  {
+    "id": "br23_hairtowel",
+    "regex": "^toallas? para el pelo\\b",
+    "product_type": "干发巾",
+    "function": "洗发后包裹擦干头发",
+    "need": "洗发后干发"
+  },
+  {
+    "id": "br23_beachtowelbag",
+    "regex": "^toalla y bolsa de playa\\b",
+    "product_type": "沙滩巾与袋组合",
+    "function": "沙滩铺垫擦干并携带用品",
+    "need": "沙滩铺垫与携物"
+  },
+  {
+    "id": "br23_beachtowel",
+    "regex": "^toallas? de playa\\b",
+    "product_type": "沙滩巾",
+    "function": "海滩活动时擦干或铺垫",
+    "need": "沙滩擦干铺垫"
+  },
+  {
+    "id": "br23_sportstowel",
+    "regex": "^toallas? de deporte\\b",
+    "product_type": "运动毛巾",
+    "function": "运动时擦汗",
+    "need": "运动擦汗"
+  },
+  {
+    "id": "br23_cottonpads",
+    "regex": "^discos? de algod[oó]n\\b",
+    "product_type": "化妆棉",
+    "function": "蘸取清洁或护肤液擦拭皮肤",
+    "need": "美容棉擦拭"
+  },
+  {
+    "id": "br23_microwavepopcorn",
+    "regex": "^palomitas\\b.*\\bmicroondas\\b",
+    "product_type": "微波爆米花",
+    "function": "微波加热制作爆米花",
+    "need": "爆米花制作"
+  },
+  {
+    "id": "br23_popcorn",
+    "regex": "^palomitas\\b(?!.*\\bmicroondas\\b)",
+    "product_type": "爆米花",
+    "function": "食用爆米花",
+    "need": "爆米花零食"
+  },
+  {
+    "id": "br23_cerealbar",
+    "regex": "^barritas? de cereales\\b",
+    "product_type": "谷物棒",
+    "function": "食用谷物棒",
+    "need": "谷物零食"
+  },
+  {
+    "id": "br23_chips",
+    "regex": "^patatas fritas\\b(?! voladoras)",
+    "product_type": "薯片类零食",
+    "function": "食用脆片零食",
+    "need": "脆片零食"
+  },
+  {
+    "id": "br23_instantpasta",
+    "regex": "^pasta instant[aá]nea\\b",
+    "product_type": "速食意面",
+    "function": "简易加热冲泡后食用",
+    "need": "速食面食"
+  },
+  {
+    "id": "br23_tacotortilla",
+    "regex": "^tortillas de taco\\b",
+    "product_type": "塔可饼",
+    "function": "包裹塔可馅料食用",
+    "need": "塔可制作"
+  },
+  {
+    "id": "br23_pastry",
+    "regex": "^(?:hojaldres|cruasanes|brownies|pastelitos?|pasteles|pastel(?! de arroz))\\b",
+    "product_type": "糕点",
+    "function": "食用糕点",
+    "need": "糕点零食"
+  },
+  {
+    "id": "br23_ricecake",
+    "regex": "^pastel de arroz instant[aá]neo\\b",
+    "product_type": "速食年糕",
+    "function": "简易烹制年糕食用",
+    "need": "速食年糕餐食"
+  },
+  {
+    "id": "br23_waferroll",
+    "regex": "^rollitos de gofre\\b",
+    "product_type": "威化卷",
+    "function": "食用威化卷",
+    "need": "威化零食"
+  },
+  {
+    "id": "br23_flatbread",
+    "regex": "^panes planos\\b",
+    "product_type": "扁面包",
+    "function": "作为面包食用",
+    "need": "面包餐食"
+  },
+  {
+    "id": "br23_dishbrush",
+    "regex": "^cepillo(?:s)? (?:lavavajillas|lavaplatos)\\b",
+    "product_type": "洗碗刷",
+    "function": "刷洗餐具",
+    "need": "餐具刷洗"
+  },
+  {
+    "id": "br23_facialbrush",
+    "regex": "^cepillo(?:s)? de limpieza facial\\b",
+    "product_type": "洁面刷",
+    "function": "辅助清洁面部",
+    "need": "面部刷洗"
+  },
+  {
+    "id": "br23_electricbrush",
+    "regex": "^cepillo(?:s)? de limpieza (?:inal[aá]mbrico|el[eé]ctrico)\\b",
+    "product_type": "电动清洁刷",
+    "function": "电驱动刷洗表面",
+    "need": "电动表面刷洗"
+  },
+  {
+    "id": "br23_homewipes",
+    "regex": "^toallitas h[uú]medas para el hogar\\b",
+    "product_type": "家居清洁湿巾",
+    "function": "擦拭家居表面",
+    "need": "家居表面湿擦"
+  },
+  {
+    "id": "br23_makeupwipes",
+    "regex": "^toallitas desmaquillantes\\b",
+    "product_type": "卸妆湿巾",
+    "function": "擦除面部彩妆",
+    "need": "卸妆"
+  },
+  {
+    "id": "br23_facewipes",
+    "regex": "^toallitas de limpieza facial\\b",
+    "product_type": "洁面湿巾",
+    "function": "擦拭清洁面部",
+    "need": "面部湿擦"
+  },
+  {
+    "id": "br23_carwipes",
+    "regex": "^toallitas (?:h[uú]medas|limpiadoras) para el coche\\b",
+    "product_type": "汽车清洁湿巾",
+    "function": "擦拭车辆表面",
+    "need": "车辆表面湿擦"
+  },
+  {
+    "id": "br23_intimatewipes",
+    "regex": "^toallitas [ií]ntimas\\b",
+    "product_type": "私密部位湿巾",
+    "function": "作私密部位外部擦拭",
+    "need": "私密部位擦拭"
+  },
+  {
+    "id": "br23_tanningwipes",
+    "regex": "^toallitas autobronceadoras\\b",
+    "product_type": "美黑湿巾",
+    "function": "涂抹美黑用品",
+    "need": "皮肤美黑外观"
+  },
+  {
+    "id": "br23_dryersheets",
+    "regex": "^toallitas para secadora\\b",
+    "product_type": "烘干机衣物护理片",
+    "function": "配合滚筒烘干护理衣物",
+    "need": "烘干衣物护理"
+  },
+  {
+    "id": "br23_petwipes",
+    "regex": "^toallitas h[uú]medas para mascotas\\b",
+    "product_type": "宠物湿巾",
+    "function": "擦拭宠物体表",
+    "need": "宠物体表擦拭"
+  },
+  {
+    "id": "br23_handfacewipes",
+    "regex": "^toallitas para manos y cara\\b",
+    "product_type": "手脸湿巾",
+    "function": "擦拭手部和面部",
+    "need": "手脸擦拭"
+  },
+  {
+    "id": "br23_hairwipes",
+    "regex": "^toallitas limpiadoras para el pelo\\b",
+    "product_type": "头发清洁巾",
+    "function": "擦拭清洁头发",
+    "need": "头发擦拭清洁"
+  },
+  {
+    "id": "br23_handwipes",
+    "regex": "^toallitas higi[eé]nicas para la limpieza de manos\\b",
+    "product_type": "手部清洁巾",
+    "function": "擦拭清洁双手",
+    "need": "手部擦拭清洁"
+  },
+  {
+    "id": "br23_floorwipes",
+    "regex": "^toallitas h[uú]medas para el suelo\\b",
+    "product_type": "地板湿巾",
+    "function": "擦拭清洁地板",
+    "need": "地板湿擦"
+  },
+  {
+    "id": "br23_bbqwipes",
+    "regex": "^toallitas limpiadoras para barbacoa\\b",
+    "product_type": "烧烤炉清洁巾",
+    "function": "擦拭烧烤炉",
+    "need": "烧烤器具擦拭"
+  },
+  {
+    "id": "br23_glasseswipes",
+    "regex": "^toallitas para limpiar las gafas\\b",
+    "product_type": "眼镜擦拭巾",
+    "function": "擦拭眼镜镜片",
+    "need": "眼镜擦拭"
+  },
+  {
+    "id": "br23_builderbucket",
+    "regex": "^cubo para obras\\b",
+    "product_type": "施工桶",
+    "function": "施工时盛装搬运材料",
+    "need": "施工材料盛装"
+  },
+  {
+    "id": "br23_browpencil",
+    "regex": "^l[aá]piz para cejas\\b",
+    "product_type": "眉笔",
+    "function": "描画眉形",
+    "need": "眉部彩妆"
+  },
+  {
+    "id": "br23_penmultimeter",
+    "regex": "^mult[ií]metro digital tipo l[aá]piz\\b",
+    "product_type": "笔式数字万用表",
+    "function": "测量电气参数",
+    "need": "电气测量"
+  },
+  {
+    "id": "br23_permanentmarker",
+    "regex": "^(?:marcadores|rotuladores) permanentes\\b",
+    "product_type": "持久记号笔",
+    "function": "作持久标记",
+    "need": "持久标记书写"
+  },
+  {
+    "id": "br23_calligraphymarker",
+    "regex": "^(?:marcadores|rotuladores) para (?:hacer )?caligraf[ií]a\\b",
+    "product_type": "书法笔",
+    "function": "进行书法字形书写",
+    "need": "书法书写"
+  },
+  {
+    "id": "br23_acrylicmarker",
+    "regex": "^(?:marcadores|rotuladores) (?:de pintura acr[ií]lica|acr[ií]licos|de pincel acr[ií]licos)\\b",
+    "product_type": "丙烯画笔型马克笔",
+    "function": "以丙烯颜料绘画",
+    "need": "丙烯绘画"
+  },
+  {
+    "id": "br23_chalkmarker",
+    "regex": "^marcadores de tiza\\b",
+    "product_type": "液体粉笔笔",
+    "function": "作粉笔式书写标记",
+    "need": "粉笔式标记"
+  },
+  {
+    "id": "br23_whiteboardmarker",
+    "regex": "^(?:marcadores|rotuladores) (?:dobles )?(?:para |de )pizarra blanca\\b",
+    "product_type": "白板笔",
+    "function": "在白板书写",
+    "need": "白板书写"
+  },
+  {
+    "id": "br23_porcelainmarker",
+    "regex": "^rotuladores dobles para porcelana\\b",
+    "product_type": "瓷器彩绘笔",
+    "function": "在瓷器表面彩绘",
+    "need": "瓷器彩绘"
+  },
+  {
+    "id": "br23_watercolormarker",
+    "regex": "^rotuladores acuarelables\\b",
+    "product_type": "水彩效果马克笔",
+    "function": "作水彩效果绘画",
+    "need": "水彩绘画"
+  },
+  {
+    "id": "br23_watercolorpencilbrush",
+    "regex": "^l[aá]pices y pinceles de acuarela\\b",
+    "product_type": "水彩铅笔与画笔组合",
+    "function": "用水彩铅笔和画笔绘画",
+    "need": "水彩绘画"
+  },
+  {
+    "id": "br23_glittermarkerbundle",
+    "regex": "^marcadores y pegamento con purpurina\\b",
+    "product_type": "闪光笔与闪光胶组合",
+    "function": "书写并粘贴闪光装饰",
+    "need": "闪光绘画粘贴"
+  },
+  {
+    "id": "br23_penmaking",
+    "regex": "^haz tus propios bol[ií]grafos\\b",
+    "product_type": "制笔活动套装",
+    "function": "制作自己的笔",
+    "need": "制笔活动"
+  },
+  {
+    "id": "br23_feltmarker",
+    "regex": "^(?:marcadores|rotuladores)\\b(?!.*\\b(?:caligraf[ií]a|pizarra|porcelana|acr[ií]lic|tiza|pegamento)\\b)",
+    "product_type": "彩绘记号笔",
+    "function": "书写和着色",
+    "need": "记号笔书写着色"
+  },
+  {
+    "id": "br23_earthglobe",
+    "regex": "^globo terr[aá]queo\\b",
+    "product_type": "地球仪",
+    "function": "展示地理位置",
+    "need": "地球地理展示"
+  },
+  {
+    "id": "br23_balloonarch",
+    "regex": "^(?:set de )?arco de globos\\b",
+    "product_type": "气球拱门组合",
+    "function": "布置气球拱门",
+    "need": "气球拱门布置"
+  },
+  {
+    "id": "br23_birthdayballoonbundle",
+    "regex": "^guirnalda y globos de cumplea[ñn]os\\b",
+    "product_type": "生日挂串与气球组合",
+    "function": "布置生日场景",
+    "need": "生日场景布置"
+  },
+  {
+    "id": "br23_solarballoon",
+    "regex": "^globo aeroest[aá]tico con energ[ií]a solar\\b",
+    "product_type": "太阳能气球（机理未核）",
+    "function": "",
+    "need": ""
+  },
+  {
+    "id": "br23_balloon",
+    "regex": "^globos?\\b(?!\\s+(?:terr[aá]queo|solar|aeroest[aá]tico|de boxeo|de agua)\\b)",
+    "product_type": "装饰气球",
+    "function": "充气布置活动场景",
+    "need": "气球场景布置"
+  },
+  {
+    "id": "br23_xmastreeskirt",
+    "regex": "^alfombra para [aá]rbol de Navidad\\b",
+    "product_type": "圣诞树底围垫",
+    "function": "覆盖装饰圣诞树底部",
+    "need": "圣诞树底部布置"
+  },
+  {
+    "id": "br23_outdoorrug",
+    "regex": "^alfombra de exterior\\b",
+    "product_type": "户外地毯",
+    "function": "铺设户外地面",
+    "need": "户外地面铺垫"
+  },
+  {
+    "id": "br23_tentrug",
+    "regex": "^alfombra de tienda\\b",
+    "product_type": "帐篷地垫",
+    "function": "铺设帐篷地面",
+    "need": "帐篷地面铺垫"
+  },
+  {
+    "id": "br23_inductionmat",
+    "regex": "^alfombrillas protectoras para inducci[oó]n\\b",
+    "product_type": "电磁炉保护垫",
+    "function": "覆盖保护电磁炉表面",
+    "need": "电磁炉表面保护"
+  },
+  {
+    "id": "br23_cuttingmat",
+    "regex": "^alfombrilla de corte\\b",
+    "product_type": "切割垫",
+    "function": "垫护手工切割工作面",
+    "need": "切割工作面保护"
+  },
+  {
+    "id": "br23_foampuzzlemat",
+    "regex": "^alfombrilla de puzle de espuma\\b",
+    "product_type": "泡沫拼接地垫",
+    "function": "拼接铺垫地面",
+    "need": "拼接地面铺垫"
+  },
+  {
+    "id": "br23_plantclips",
+    "regex": "^abrazaderas para plantas\\b",
+    "product_type": "植物固定夹",
+    "function": "固定植物枝茎",
+    "need": "植物枝茎固定"
+  },
+  {
+    "id": "br23_breadbasket",
+    "regex": "^cestas? de pan\\b",
+    "product_type": "面包篮",
+    "function": "盛放面包",
+    "need": "面包盛放"
+  },
+  {
+    "id": "br23_airfryerbasket",
+    "regex": "^cestas? (?:de silicona )?para freidora de aire\\b",
+    "product_type": "空气炸锅内篮",
+    "function": "在空气炸锅内盛放食材",
+    "need": "空气炸锅食材承托"
+  },
+  {
+    "id": "br23_shelfbasket",
+    "regex": "^cestas? colgantes? para colocar debajo de un estante\\b",
+    "product_type": "搁板下挂篮",
+    "function": "利用搁板下空间收物",
+    "need": "搁板下收纳"
+  },
+  {
+    "id": "br23_catbasket",
+    "regex": "^cestas? para gatos\\b",
+    "product_type": "猫窝篮",
+    "function": "供猫休息",
+    "need": "猫休憩"
+  },
+  {
+    "id": "br23_fruitbasket",
+    "regex": "^cestas? (?:para la fruta|de fruta)\\b",
+    "product_type": "果篮",
+    "function": "盛放水果",
+    "need": "水果盛放"
+  },
+  {
+    "id": "br23_toyshoppingbasket",
+    "regex": "^cestas? de la compra de juguete\\b",
+    "product_type": "玩具购物篮",
+    "function": "开展购物角色游戏",
+    "need": "购物角色游戏"
+  },
+  {
+    "id": "br23_mixingbowl",
+    "regex": "^boles para mezclar\\b",
+    "product_type": "搅拌碗",
+    "function": "混合食材",
+    "need": "食材混合"
+  },
+  {
+    "id": "br23_kitchencleaner",
+    "regex": "^(?:limpiador de cocina|desengrasante cocina)\\b",
+    "product_type": "厨房清洁剂",
+    "function": "清洁厨房表面",
+    "need": "厨房表面清洁"
+  },
+  {
+    "id": "br23_whitelaundrystain",
+    "regex": "^quitamanchas\\b.*\\b(?:ropa blanca|blanco|color)\\b",
+    "product_type": "衣物去渍剂",
+    "function": "处理衣物污渍",
+    "need": "衣物去渍"
+  },
+  {
+    "id": "br23_laundrycolor",
+    "regex": "^detergente\\b(?!.*\\b(?:coche|coches|lavavajillas|vajilla|platos|suelo|suelos|cocina)\\b).*\\b(?:blanco(?: y color)?|white & color|color|colour|negro)\\b",
+    "product_type": "衣物洗涤剂",
+    "function": "清洗名称限定色系衣物",
+    "need": "衣物洗涤"
+  },
+  {
+    "id": "br23_shoewhitener",
+    "regex": "^blanqueador para zapatillas\\b",
+    "product_type": "鞋面增白剂",
+    "function": "处理鞋面增白",
+    "need": "鞋面增白护理"
+  },
+  {
+    "id": "br23_facialcleanser",
+    "regex": "^(?:espuma limpiadora facial|limpiador facial|gel limpiador facial)\\b",
+    "product_type": "洁面清洁剂",
+    "function": "清洁面部皮肤",
+    "need": "面部清洁"
+  },
+  {
+    "id": "br23_textilecleaner",
+    "regex": "^limpiador textil\\b",
+    "product_type": "织物清洁剂",
+    "function": "清洁织物",
+    "need": "织物清洁"
+  },
+  {
+    "id": "br23_teethwhitening",
+    "regex": "^kit blanqueador dental\\b",
+    "product_type": "牙齿美白用品套装",
+    "function": "作牙齿美白护理",
+    "need": "牙齿美白护理"
+  },
+  {
+    "id": "br23_bbqcleaner",
+    "regex": "^limpiador de barbacoas\\b",
+    "product_type": "烧烤炉清洁剂",
+    "function": "清洁烧烤炉",
+    "need": "烧烤器具清洁"
+  },
+  {
+    "id": "br23_washercleaner",
+    "regex": "^limpialavadoras\\b",
+    "product_type": "洗衣机清洁剂",
+    "function": "清洁洗衣机内部",
+    "need": "洗衣机清洁"
+  },
+  {
+    "id": "br23_toiletcleaner",
+    "regex": "^(?:espuma limpiadora para (?:el )?inodoros?|limpiador de inodoros)\\b",
+    "product_type": "马桶清洁剂",
+    "function": "清洁马桶",
+    "need": "马桶清洁"
+  },
+  {
+    "id": "br23_makeupbrushwasher",
+    "regex": "^limpiador el[eé]ctrico de brochas de maquillaje\\b",
+    "product_type": "电动化妆刷清洗器",
+    "function": "清洗化妆刷",
+    "need": "化妆刷清洗"
+  },
+  {
+    "id": "br23_airfryercleaner",
+    "regex": "^limpiador de freidora de aire\\b",
+    "product_type": "空气炸锅清洁剂",
+    "function": "清洁空气炸锅",
+    "need": "空气炸锅清洁"
+  },
+  {
+    "id": "br23_showercleaner",
+    "regex": "^limpiador de ducha\\b",
+    "product_type": "淋浴区清洁剂",
+    "function": "清洁淋浴设施",
+    "need": "淋浴设施清洁"
+  },
+  {
+    "id": "br23_porevacuum",
+    "regex": "^limpiador de poros al vac[ií]o\\b",
+    "product_type": "毛孔真空清洁仪",
+    "function": "辅助清理毛孔",
+    "need": "毛孔清洁护理"
+  },
+  {
+    "id": "br23_screencleaner",
+    "regex": "^limpiador de pantalla\\b",
+    "product_type": "屏幕清洁用品",
+    "function": "清洁屏幕表面",
+    "need": "屏幕清洁"
+  },
+  {
+    "id": "br23_handcleanerspray",
+    "regex": "^espray limpiador de manos\\b",
+    "product_type": "手部清洁喷雾",
+    "function": "喷涂清洁双手",
+    "need": "手部清洁"
+  },
+  {
+    "id": "br23_carcleanerwax",
+    "regex": "^limpiador de coches\\b.*\\bcon cera\\b",
+    "product_type": "含蜡汽车清洁用品",
+    "function": "清洁并打蜡护理车辆",
+    "need": "车辆清洁打蜡"
+  },
+  {
+    "id": "br23_steamcleaner",
+    "regex": "^limpiador a vapor\\b",
+    "product_type": "蒸汽清洁机",
+    "function": "用蒸汽清洁表面",
+    "need": "蒸汽表面清洁"
+  },
+  {
+    "id": "br23_hobcleaner",
+    "regex": "^limpiador de placas de cocina\\b",
+    "product_type": "炉灶面清洁剂",
+    "function": "清洁灶具面板",
+    "need": "灶面清洁"
+  },
+  {
+    "id": "br23_cattreat",
+    "regex": "^golosinas para gatos\\b",
+    "product_type": "猫零食",
+    "function": "作为猫的零食喂食",
+    "need": "猫零食喂食"
+  },
+  {
+    "id": "br23_chewinggum",
+    "regex": "^chicles\\b",
+    "product_type": "口香糖",
+    "function": "咀嚼口香糖",
+    "need": "口香糖咀嚼"
+  },
+  {
+    "id": "br23_gummies",
+    "regex": "^(?:golosinas|gominolas)\\b(?!.*\\b(?:gatos|perros|mascotas|cabello|u[ñn]as|biotic|good night|happy weight|bronceadoras|multivitam[ií]nicas|vitaminas|complemento|suplemento)\\b)",
+    "product_type": "糖果",
+    "function": "食用糖果",
+    "need": "糖果零食"
+  },
+  {
+    "id": "br23_lollipop",
+    "regex": "^(?:caramelo de palo|d[uú]o de caramelos de palo|piruleta)\\b",
+    "product_type": "棒棒糖",
+    "function": "食用棒棒糖",
+    "need": "糖果零食"
+  },
+  {
+    "id": "br23_sugareggs",
+    "regex": "^huevos de Pascua azucarados\\b",
+    "product_type": "复活节蛋形糖果",
+    "function": "食用糖果",
+    "need": "糖果零食"
+  },
+  {
+    "id": "br23_memorialcandle",
+    "regex": "^velas? (?:de cementerio|para sepultura|sepulcrales|conmemorativa)\\b",
+    "product_type": "纪念蜡烛",
+    "function": "供纪念场景点燃陈设",
+    "need": "纪念场景烛光"
+  },
+  {
+    "id": "br23_birthdaycandle",
+    "regex": "^velas? de cumplea[ñn]os\\b",
+    "product_type": "生日蜡烛",
+    "function": "布置生日庆祝烛光",
+    "need": "生日烛光布置"
+  },
+  {
+    "id": "br23_ledcandle",
+    "regex": "^velas?\\b.*\\bled\\b",
+    "product_type": "LED蜡烛灯",
+    "function": "提供仿烛灯光",
+    "need": "仿烛光布置"
+  },
+  {
+    "id": "br23_movingbox",
+    "regex": "^cajas? mudanzas\\b",
+    "product_type": "搬家包装箱",
+    "function": "包装搬运家居物品",
+    "need": "搬家包装"
+  },
+  {
+    "id": "br23_fridgecontainer",
+    "regex": "^contenedor(?:es)? para frigor[ií]fico\\b",
+    "product_type": "冰箱收纳容器",
+    "function": "在冰箱内整理物品",
+    "need": "冰箱内部整理"
+  },
+  {
+    "id": "br23_foodbox",
+    "regex": "^cajas de comida\\b",
+    "product_type": "食物盒",
+    "function": "盛放食物",
+    "need": "食物盛装"
+  },
+  {
+    "id": "br23_giftdecor",
+    "regex": "^decoraci[oó]n para regalo\\b",
+    "product_type": "礼物装饰件",
+    "function": "装饰礼物包装",
+    "need": "礼物包装装饰"
+  },
+  {
+    "id": "br23_balloondecor",
+    "regex": "^(?:set|kit) de decoraci[oó]n de globos\\b",
+    "product_type": "气球布置套装",
+    "function": "组织气球场景布置",
+    "need": "气球场景布置"
+  },
+  {
+    "id": "br23_partybackdrop",
+    "regex": "^decoraci[oó]n festiva para fondo\\b",
+    "product_type": "节庆背景装饰",
+    "function": "布置节庆背景",
+    "need": "节庆背景布置"
+  },
+  {
+    "id": "br23_partydecor",
+    "regex": "^set de decoraci[oó]n para fiestas\\b",
+    "product_type": "派对布置套装",
+    "function": "布置派对场景",
+    "need": "派对场景布置"
+  },
+  {
+    "id": "br23_gardensolardecor",
+    "regex": "^decoraci[oó]n solar para jard[ií]n\\b",
+    "product_type": "太阳能庭院装饰",
+    "function": "布置庭院灯光装饰",
+    "need": "庭院装饰照明"
+  },
+  {
+    "id": "br23_cupcakedecor",
+    "regex": "^set de decoraci[oó]n para cupcakes\\b",
+    "product_type": "纸杯蛋糕装饰套装",
+    "function": "装饰纸杯蛋糕",
+    "need": "纸杯蛋糕装饰"
+  },
+  {
+    "id": "br23_honey",
+    "regex": "^miel de abeja\\b",
+    "product_type": "蜂蜜",
+    "function": "作为甜味食品食用",
+    "need": "食品甜味调配"
+  },
+  {
+    "id": "br23_mayonnaise",
+    "regex": "^mayonesa\\b",
+    "product_type": "蛋黄酱",
+    "function": "为食品调味",
+    "need": "蛋黄酱调味"
+  },
+  {
+    "id": "br23_bananachips",
+    "regex": "^chips de pl[aá]tano\\b",
+    "product_type": "香蕉脆片",
+    "function": "食用香蕉脆片",
+    "need": "水果脆片零食"
+  },
+  {
+    "id": "br23_proteinchips",
+    "regex": "^chips de prote[ií]na\\b",
+    "product_type": "蛋白质脆片",
+    "function": "食用脆片零食",
+    "need": "脆片零食"
+  },
+  {
+    "id": "br23_cornchips",
+    "regex": "^chips de ma[ií]z\\b",
+    "product_type": "玉米脆片",
+    "function": "食用玉米脆片",
+    "need": "玉米脆片零食"
+  },
+  {
+    "id": "br23_freezedriedcandy",
+    "regex": "^chuches liofilizadas\\b",
+    "product_type": "冻干糖果",
+    "function": "食用糖果",
+    "need": "糖果零食"
+  },
+  {
+    "id": "br23_cheesesnack",
+    "regex": "^snacks de queso\\b",
+    "product_type": "奶酪零食",
+    "function": "食用奶酪零食",
+    "need": "奶酪零食"
+  },
+  {
+    "id": "br23_jelly",
+    "regex": "^gelatina\\b",
+    "product_type": "果冻类食品",
+    "function": "食用果冻",
+    "need": "果冻零食"
+  },
+  {
+    "id": "br23_hotsauce",
+    "regex": "^salsas picantes\\b",
+    "product_type": "辣酱",
+    "function": "为食品添加辣味",
+    "need": "食品辣味调配"
+  },
+  {
+    "id": "br23_hummus",
+    "regex": "^humus\\b",
+    "product_type": "鹰嘴豆泥",
+    "function": "作为蘸酱或佐餐食品食用",
+    "need": "蘸食佐餐"
+  },
+  {
+    "id": "br23_bubblewand",
+    "regex": "^(?:espada de burbujas|varitas para hacer pompas de jab[oó]n)\\b",
+    "product_type": "泡泡棒",
+    "function": "吹出泡泡玩耍",
+    "need": "吹泡泡游戏"
+  },
+  {
+    "id": "br23_bubbleblower",
+    "regex": "^soplador de pompas\\b",
+    "product_type": "泡泡吹制器",
+    "function": "吹出泡泡玩耍",
+    "need": "吹泡泡游戏"
+  },
+  {
+    "id": "br23_bubbles",
+    "regex": "^pompas de jab[oó]n\\b",
+    "product_type": "吹泡泡用品",
+    "function": "吹出肥皂泡玩耍",
+    "need": "吹泡泡游戏"
+  },
+  {
+    "id": "br23_seedtray",
+    "regex": "^bandejas de cultivo\\b",
+    "product_type": "育苗盘",
+    "function": "分格育苗",
+    "need": "育苗栽培"
+  },
+  {
+    "id": "br23_cutlerytray",
+    "regex": "^bandejas? para cubiertos\\b",
+    "product_type": "餐具收纳盘",
+    "function": "分放餐具",
+    "need": "餐具收纳"
+  },
+  {
+    "id": "br23_pizzatray",
+    "regex": "^bandejas? para pizza\\b",
+    "product_type": "披萨烤盘",
+    "function": "承托披萨烘烤",
+    "need": "披萨烘烤"
+  },
+  {
+    "id": "br23_oventray",
+    "regex": "^bandejas? de horno\\b",
+    "product_type": "烤盘",
+    "function": "承托食物入炉烘烤",
+    "need": "烤箱烘烤"
+  },
+  {
+    "id": "br23_snacktray",
+    "regex": "^bandejas? para aperitivos\\b",
+    "product_type": "小食托盘",
+    "function": "盛放供应小食",
+    "need": "小食盛放"
+  },
+  {
+    "id": "br23_caketray",
+    "regex": "^bandejas? de vidrio para tartas\\b",
+    "product_type": "蛋糕托盘",
+    "function": "承托展示蛋糕",
+    "need": "蛋糕承托展示"
+  },
+  {
+    "id": "br23_documenttray",
+    "regex": "^bandejas? de madera para documentos\\b",
+    "product_type": "文件托盘",
+    "function": "归置文件",
+    "need": "桌面文件整理"
+  },
+  {
+    "id": "br23_barstool",
+    "regex": "^taburetes? de bar\\b",
+    "product_type": "吧台凳",
+    "function": "在吧台高度坐用",
+    "need": "吧台就座"
+  },
+  {
+    "id": "br23_stool",
+    "regex": "^taburetes?\\b(?! de bar\\b)",
+    "product_type": "凳子",
+    "function": "提供单人座位",
+    "need": "临时就座"
+  },
+  {
+    "id": "br23_sideTable",
+    "regex": "^mesita auxiliar\\b",
+    "product_type": "边桌",
+    "function": "提供小型辅助置物桌面",
+    "need": "辅助桌面置物"
+  },
+  {
+    "id": "br23_papercraftroses",
+    "regex": "^rosas de papel\\b",
+    "product_type": "纸制花饰",
+    "function": "制作或布置纸花装饰",
+    "need": "纸花装饰"
+  },
+  {
+    "id": "br23_craftsticks",
+    "regex": "^palitos para manualidades\\b",
+    "product_type": "手工用棒材",
+    "function": "拼接手工结构",
+    "need": "棒材拼搭手工"
+  },
+  {
+    "id": "br23_adhesiverhinestones",
+    "regex": "^diamantes autoadhesivos\\b",
+    "product_type": "自粘仿钻贴饰",
+    "function": "粘贴装饰表面",
+    "need": "仿钻粘贴装饰"
+  },
+  {
+    "id": "br23_craftbeads",
+    "regex": "^abalorios para manualidades\\b",
+    "product_type": "手工珠饰",
+    "function": "串联制作珠饰",
+    "need": "珠饰制作"
+  },
+  {
+    "id": "br23_craftcard",
+    "regex": "^cartulina de colores\\b",
+    "product_type": "彩色卡纸",
+    "function": "剪裁拼贴纸艺",
+    "need": "卡纸纸艺"
+  },
+  {
+    "id": "br23_canvas",
+    "regex": "^telas de lienzo\\b",
+    "product_type": "画布材料",
+    "function": "承载绘画颜料",
+    "need": "画布绘画"
+  },
+  {
+    "id": "br23_craftpaper",
+    "regex": "^papel de manualidades\\b",
+    "product_type": "手工纸",
+    "function": "剪裁折叠拼贴纸艺",
+    "need": "纸艺制作"
+  },
+  {
+    "id": "br23_driedapricot",
+    "regex": "^albaricoques secos\\b",
+    "product_type": "杏干",
+    "function": "食用果干",
+    "need": "果干零食"
+  },
+  {
+    "id": "br23_pinenuts",
+    "regex": "^pi[ñn]ones\\b",
+    "product_type": "松子",
+    "function": "食用松子",
+    "need": "坚果零食"
+  },
+  {
+    "id": "br23_raisins",
+    "regex": "^pasas\\b",
+    "product_type": "葡萄干",
+    "function": "食用葡萄干",
+    "need": "果干零食"
+  },
+  {
+    "id": "br23_dates",
+    "regex": "^d[aá]tiles\\b",
+    "product_type": "椰枣",
+    "function": "食用椰枣",
+    "need": "椰枣食用"
+  },
+  {
+    "id": "br23_waterpistol",
+    "regex": "^pistolas de agua\\b",
+    "product_type": "玩具水枪",
+    "function": "进行喷水玩耍",
+    "need": "喷水游戏"
+  },
+  {
+    "id": "br23_bikelights",
+    "regex": "^(?:luces|set de luces)\\b.*\\bbicicletas?\\b",
+    "product_type": "自行车灯",
+    "function": "为骑行提供灯光识别",
+    "need": "自行车灯光配置"
+  },
+  {
+    "id": "br23_makeuplamp",
+    "regex": "^l[aá]mpara para maquillaje\\b",
+    "product_type": "化妆照明灯",
+    "function": "补光辅助化妆",
+    "need": "化妆补光"
+  },
+  {
+    "id": "br23_cabinetlight",
+    "regex": "^iluminaci[oó]n (?:para armario|de armario|de caj[oó]n)\\b",
+    "product_type": "柜内照明灯",
+    "function": "照亮柜内或抽屉空间",
+    "need": "柜内局部照明"
+  },
+  {
+    "id": "br23_tvstrip",
+    "regex": "^tiras? led para tv\\b",
+    "product_type": "电视背光灯带",
+    "function": "在电视周围提供背景光",
+    "need": "电视背景补光"
+  },
+  {
+    "id": "br23_carlight",
+    "regex": "^(?:luces? (?:led )?para (?:el )?coche|iluminaci[oó]n de puerta para el coche|luz ambiental multicolor para el coche)\\b",
+    "product_type": "汽车辅助灯光用品",
+    "function": "为车内或车门区域配置灯光",
+    "need": "车辆辅助灯光"
+  },
+  {
+    "id": "br23_dashboardstrip",
+    "regex": "^tira(?: de)? led para (?:el )?salpicadero\\b",
+    "product_type": "仪表台灯带",
+    "function": "布置汽车仪表台灯光",
+    "need": "仪表台氛围灯光"
+  },
+  {
+    "id": "br23_selfielight",
+    "regex": "^anillo de luz\\b.*\\b(?:selfi|selfies)\\b",
+    "product_type": "自拍环形补光灯",
+    "function": "为自拍补光",
+    "need": "自拍补光"
+  },
+  {
+    "id": "br23_desklamp",
+    "regex": "^l[aá]mpara de escritorio\\b",
+    "product_type": "书桌灯",
+    "function": "照亮书桌工作区域",
+    "need": "书桌局部照明"
+  },
+  {
+    "id": "br23_worklight",
+    "regex": "^l[aá]mpara de trabajo\\b",
+    "product_type": "工作灯",
+    "function": "照亮作业区域",
+    "need": "作业区域照明"
+  },
+  {
+    "id": "br23_discolight",
+    "regex": "^(?:luces de discoteca|l[aá]mpara(?: led)? (?:disco|de discoteca))\\b",
+    "product_type": "舞会效果灯",
+    "function": "提供舞会灯光效果",
+    "need": "舞会灯光布置"
+  },
+  {
+    "id": "br23_walllamp",
+    "regex": "^(?:l[aá]mpara (?:solar |led (?:recargable )?)?de pared|l[aá]mpara led recargable para pared|iluminaci[oó]n de pared|aplique con luz led)\\b",
+    "product_type": "壁灯",
+    "function": "提供墙面安装灯光",
+    "need": "墙装照明"
+  },
+  {
+    "id": "br23_monitorlight",
+    "regex": "^barra de luz para pantalla\\b",
+    "product_type": "屏幕挂灯",
+    "function": "照亮屏幕前工作区域",
+    "need": "屏幕前工作补光"
+  },
+  {
+    "id": "br23_campinglampbundle",
+    "regex": "^l[aá]mpara de camping y cable de luz\\b",
+    "product_type": "露营灯与灯串组合",
+    "function": "提供露营区域及灯串照明",
+    "need": "露营组合照明"
+  },
+  {
+    "id": "br23_campinglamp",
+    "regex": "^l[aá]mpara de camping\\b(?! y cable)",
+    "product_type": "露营灯",
+    "function": "在露营时提供光照",
+    "need": "露营照明"
+  },
+  {
+    "id": "br23_readinglamp",
+    "regex": "^l[aá]mpara de lectura\\b",
+    "product_type": "阅读灯",
+    "function": "照亮阅读区域",
+    "need": "阅读补光"
+  },
+  {
+    "id": "br23_tracklighting",
+    "regex": "^iluminaci[oó]n de carril\\b",
+    "product_type": "轨道照明灯",
+    "function": "沿安装轨道配置灯光",
+    "need": "轨道照明配置"
+  },
+  {
+    "id": "br23_floorlamp",
+    "regex": "^l[aá]mpara de pie\\b",
+    "product_type": "落地灯",
+    "function": "落地放置提供局部照明",
+    "need": "落地照明配置"
+  },
+  {
+    "id": "br23_ceilinglight",
+    "regex": "^(?:focos de techo|l[aá]mpara (?:led )?de techo)\\b",
+    "product_type": "顶装灯具",
+    "function": "从顶部提供照明",
+    "need": "室内顶部照明"
+  },
+  {
+    "id": "br23_nightlamp",
+    "regex": "^l[aá]mpara de noche\\b",
+    "product_type": "小夜灯",
+    "function": "夜间提供局部光照",
+    "need": "夜间局部照明"
+  },
+  {
+    "id": "br23_plantlight",
+    "regex": "^foco para plantas\\b",
+    "product_type": "植物补光灯",
+    "function": "为植物提供补光",
+    "need": "植物补光"
+  },
+  {
+    "id": "br23_gardenlight",
+    "regex": "^luces? (?:para el jard[ií]n|de jard[ií]n)\\b",
+    "product_type": "庭院灯",
+    "function": "提供庭院灯光",
+    "need": "庭院照明"
+  },
+  {
+    "id": "br23_outdoorlight",
+    "regex": "^(?:iluminaci[oó]n exterior|l[aá]mpara de exterior|tira led para exteriores)\\b",
+    "product_type": "户外灯具",
+    "function": "照亮户外区域",
+    "need": "户外区域照明"
+  },
+  {
+    "id": "br23_naillamp",
+    "regex": "^l[aá]mpara led uv para u[ñn]as\\b",
+    "product_type": "美甲固化灯",
+    "function": "照射固化适配美甲材料",
+    "need": "美甲材料固化"
+  },
+  {
+    "id": "br23_mosquitolamp",
+    "regex": "^l[aá]mpara antimosquitos\\b",
+    "product_type": "灭蚊灯",
+    "function": "用于蚊虫控制",
+    "need": "蚊虫控制"
+  },
+  {
+    "id": "br23_xmaslights",
+    "regex": "^(?:iluminaci[oó]n navide[ñn]a|luces? (?:de Navidad|navide[ñn]as)|l[aá]mpara navide[ñn]a)\\b(?!.*pintura)",
+    "product_type": "圣诞灯饰",
+    "function": "布置圣诞灯光",
+    "need": "圣诞灯光布置"
+  },
+  {
+    "id": "br23_iciclelights",
+    "regex": "^(?:iluminaci[oó]n (?:led )?de car[aá]mbanos|grupo de luces led con forma de car[aá]mbanos)\\b",
+    "product_type": "冰柱造型灯串",
+    "function": "布置冰柱形灯光",
+    "need": "冰柱灯饰布置"
+  },
+  {
+    "id": "br23_curtainlights",
+    "regex": "^iluminaci[oó]n de cortina\\b",
+    "product_type": "帘幕灯串",
+    "function": "布置帘幕形灯光",
+    "need": "帘幕灯饰布置"
+  },
+  {
+    "id": "br23_lightchain",
+    "regex": "^(?:cadena de luces|hilo de luz|guirnalda luminosa|guirnala de luces)\\b",
+    "product_type": "灯串",
+    "function": "以串状灯光布置场景",
+    "need": "灯串场景布置"
+  },
+  {
+    "id": "br23_gaminglight",
+    "regex": "^(?:tira led (?:de monitor|universal para gaming)|l[aá]mpara led ne[oó]n para gaming|iluminaci[oó]n de pared 3d para gaming)\\b",
+    "product_type": "游戏环境灯饰",
+    "function": "布置游戏环境灯光",
+    "need": "游戏环境灯光"
+  },
+  {
+    "id": "br23_kubb",
+    "regex": "^juego de bolos escandinavos\\b",
+    "product_type": "库布投掷游戏",
+    "function": "投掷木块开展库布游戏",
+    "need": "库布投掷游戏"
+  },
+  {
+    "id": "br23_bowling",
+    "regex": "^juego de bolos\\b(?! escandinavos)",
+    "product_type": "保龄球游戏用品",
+    "function": "进行击倒球瓶游戏",
+    "need": "球瓶击倒游戏"
+  },
+  {
+    "id": "br23_cards",
+    "regex": "^(?:juego de cartas|baraja de cartas)\\b(?!.*pintura)",
+    "product_type": "纸牌游戏用品",
+    "function": "进行纸牌游戏",
+    "need": "纸牌游戏"
+  },
+  {
+    "id": "br23_memorygame",
+    "regex": "^juego de memoria\\b",
+    "product_type": "记忆配对游戏",
+    "function": "进行记忆配对",
+    "need": "记忆配对游戏"
+  },
+  {
+    "id": "br23_racetrack",
+    "regex": "^(?:circuito de carreras|pista de carreras)\\b",
+    "product_type": "玩具赛车轨道",
+    "function": "让玩具车辆在轨道行驶",
+    "need": "轨道赛车游戏"
+  },
+  {
+    "id": "br23_toycashregister",
+    "regex": "^caja registradora de juguete\\b",
+    "product_type": "玩具收银机",
+    "function": "模拟收银活动",
+    "need": "收银角色游戏"
+  },
+  {
+    "id": "br23_toyappliance",
+    "regex": "^(?:microondas|radio|nevera|escoba) de juguete\\b",
+    "product_type": "家电家务角色玩具",
+    "function": "模拟名称所指家电家务活动",
+    "need": "家务角色游戏"
+  },
+  {
+    "id": "br23_toyshoppingcart",
+    "regex": "^carrito de la compra de juguete\\b",
+    "product_type": "玩具购物车",
+    "function": "模拟购物活动",
+    "need": "购物角色游戏"
+  },
+  {
+    "id": "br23_toycars",
+    "regex": "^coches de juguete\\b",
+    "product_type": "玩具车",
+    "function": "进行车辆造型玩耍",
+    "need": "车辆主题玩耍"
+  },
+  {
+    "id": "br23_toyanimals",
+    "regex": "^(?:animales de juguete|animal de juguete|figura de juguete de insectos|set de juego animales)\\b",
+    "product_type": "动物造型玩具",
+    "function": "进行动物场景游戏",
+    "need": "动物场景游戏"
+  },
+  {
+    "id": "br23_plush",
+    "regex": "^juguete de peluche\\b",
+    "product_type": "毛绒玩具",
+    "function": "抱持或玩耍毛绒玩具",
+    "need": "毛绒陪伴玩耍"
+  },
+  {
+    "id": "br23_bathtoy",
+    "regex": "^juguetes? de (?:ba[ñn]era|ba[ñn]o)\\b",
+    "product_type": "洗澡玩具",
+    "function": "沐浴时玩耍",
+    "need": "沐浴玩耍"
+  },
+  {
+    "id": "br23_fidget",
+    "regex": "^juguete fidget\\b",
+    "product_type": "手指摆弄玩具",
+    "function": "用手指反复摆弄",
+    "need": "手指摆弄玩耍"
+  },
+  {
+    "id": "br23_clayset",
+    "regex": "^set de juego de plastilina\\b",
+    "product_type": "彩泥游戏套装",
+    "function": "捏塑彩泥造型",
+    "need": "彩泥造型"
+  },
+  {
+    "id": "br23_sandtoy",
+    "regex": "^juguetes? (?:de|para) arena\\b",
+    "product_type": "沙地玩具",
+    "function": "挖取塑造沙子",
+    "need": "沙地塑形游戏"
+  },
+  {
+    "id": "br23_toyvet",
+    "regex": "^set de juguete de veterinario\\b",
+    "product_type": "兽医角色玩具",
+    "function": "模拟兽医活动",
+    "need": "兽医角色游戏"
+  },
+  {
+    "id": "br23_toycastle",
+    "regex": "^set castillo de juguete\\b",
+    "product_type": "玩具城堡",
+    "function": "进行城堡场景游戏",
+    "need": "城堡场景游戏"
+  },
+  {
+    "id": "br23_puzzle",
+    "regex": "^(?:construye un rompecabezas|mini puzle|bola rompecabezas)\\b",
+    "product_type": "益智拼合玩具",
+    "function": "进行拼合解谜",
+    "need": "拼合解谜游戏"
+  },
+  {
+    "id": "br23_toymixer",
+    "regex": "^set de juguete de batidora de cocina\\b",
+    "product_type": "玩具厨房搅拌机套装",
+    "function": "模拟厨房搅拌烹饪",
+    "need": "厨房角色游戏"
+  },
+  {
+    "id": "br23_divingtoy",
+    "regex": "^juguetes de buceo\\b",
+    "product_type": "潜水拾取玩具",
+    "function": "开展水下玩耍",
+    "need": "潜水玩耍"
+  },
+  {
+    "id": "br23_pitstoptoy",
+    "regex": "^set de juego de parada en boxes de coches de carreras\\b",
+    "product_type": "赛车维修站场景玩具",
+    "function": "模拟赛车进站维修",
+    "need": "赛车维修角色游戏"
+  },
+  {
+    "id": "br23_toyhouse",
+    "regex": "^casita de juguete\\b",
+    "product_type": "玩具小屋",
+    "function": "进行房屋场景游戏",
+    "need": "房屋场景游戏"
+  },
+  {
+    "id": "br23_dogtoy",
+    "regex": "^juguete navide[ñn]o para perros\\b",
+    "product_type": "狗玩具",
+    "function": "供狗玩耍",
+    "need": "犬类玩耍"
+  },
+  {
+    "id": "br23_breakfastplate",
+    "regex": "^platos? (?:de |para el )?(?:desayuno|esayuno)\\b",
+    "product_type": "早餐盘",
+    "function": "盛放早餐食物",
+    "need": "早餐盛放"
+  },
+  {
+    "id": "br23_servingplate",
+    "regex": "^platos? (?:para servir|de servir|de cristal con pie para servir)\\b",
+    "product_type": "上菜盘",
+    "function": "盛放供应菜肴",
+    "need": "菜肴上桌盛放"
+  },
+  {
+    "id": "br23_partyplate",
+    "regex": "^platos? (?:para|de) fiesta\\b",
+    "product_type": "派对餐盘",
+    "function": "在聚会中盛放食物",
+    "need": "聚会餐食盛放"
+  },
+  {
+    "id": "br23_pizzaplate",
+    "regex": "^platos? para pizza\\b",
+    "product_type": "披萨盘",
+    "function": "盛放披萨",
+    "need": "披萨盛放"
+  },
+  {
+    "id": "br23_cakeplate",
+    "regex": "^platos? para tarta\\b",
+    "product_type": "蛋糕盘",
+    "function": "盛放蛋糕",
+    "need": "蛋糕盛放"
+  },
+  {
+    "id": "br23_pastaplate",
+    "regex": "^platos? para pasta\\b",
+    "product_type": "意面盘",
+    "function": "盛放意面",
+    "need": "意面盛放"
+  },
+  {
+    "id": "br23_snackplate",
+    "regex": "^platos? (?:para aperitivos|de aperitivos|petit four)\\b",
+    "product_type": "小食盘",
+    "function": "盛放小食",
+    "need": "小食盛放"
+  },
+  {
+    "id": "br23_decorplate",
+    "regex": "^platos? decorativos?\\b",
+    "product_type": "装饰盘",
+    "function": "陈列盘形装饰",
+    "need": "盘形陈列装饰"
+  },
+  {
+    "id": "br23_wateringcan",
+    "regex": "^regaderas?\\b",
+    "product_type": "浇水壶",
+    "function": "向植物浇水",
+    "need": "植物浇灌"
+  },
+  {
+    "id": "br23_anklet",
+    "regex": "^pulseras? de tobillo\\b",
+    "product_type": "脚链",
+    "function": "脚踝佩戴装饰",
+    "need": "脚踝装饰"
+  },
+  {
+    "id": "br23_teethingring",
+    "regex": "^anillo mordedor\\b",
+    "product_type": "磨牙咬环",
+    "function": "供婴幼儿抓握啃咬",
+    "need": "婴幼儿啃咬"
+  },
+  {
+    "id": "br23_massagering",
+    "regex": "^anillo de masaje corporal\\b",
+    "product_type": "身体按摩环",
+    "function": "作身体按摩",
+    "need": "身体按摩"
+  },
+  {
+    "id": "br23_reflectivesportbracelet",
+    "regex": "^pulseras deportivas reflectantes\\b",
+    "product_type": "运动反光腕带",
+    "function": "运动时佩戴作可见识别",
+    "need": "运动可见识别"
+  },
+  {
+    "id": "br23_gummyrings",
+    "regex": "^anillos de melocot[oó]n\\b",
+    "product_type": "桃味环形软糖",
+    "function": "食用软糖",
+    "need": "糖果零食"
+  },
+  {
+    "id": "br23_jewelrymaking",
+    "regex": "^haz tus propias joyas\\b",
+    "product_type": "首饰制作套装",
+    "function": "制作首饰",
+    "need": "首饰制作"
+  },
+  {
+    "id": "br23_braceletmaking",
+    "regex": "^crea tus propias pulseras\\b",
+    "product_type": "手链制作套装",
+    "function": "制作手链",
+    "need": "手链制作"
+  },
+  {
+    "id": "br23_fingerring",
+    "regex": "^anillos?\\b(?!\\s+(?:mordedor|de masaje|de melocot[oó]n|selfie|de luz|para)\\b)",
+    "product_type": "戒指",
+    "function": "手指佩戴装饰",
+    "need": "手指装饰"
+  },
+  {
+    "id": "br23_bracelet",
+    "regex": "^pulseras?\\b(?!\\s+(?:de tobillo|de citronela|deportivas)\\b)",
+    "product_type": "手链",
+    "function": "腕部佩戴装饰",
+    "need": "腕部装饰"
+  },
+  {
+    "id": "br23_facetoner",
+    "regex": "^t[oó]nico facial\\b",
+    "product_type": "面部爽肤水",
+    "function": "面部皮肤日常护理",
+    "need": "面部皮肤护理"
+  },
+  {
+    "id": "br23_faceserum",
+    "regex": "^s[eé]rum de leche facial\\b",
+    "product_type": "面部精华",
+    "function": "面部皮肤日常护理",
+    "need": "面部皮肤护理"
+  },
+  {
+    "id": "br23_bitecream",
+    "regex": "^crema para picaduras\\b",
+    "product_type": "叮咬部位护理霜",
+    "function": "护理叮咬部位皮肤",
+    "need": "叮咬部位护理"
+  },
+  {
+    "id": "br23_contactgrill",
+    "regex": "^parrilla de contacto\\b",
+    "product_type": "接触式烤炉",
+    "function": "双面接触加热食材",
+    "need": "接触式烘烤"
+  },
+  {
+    "id": "br23_bbqgrill",
+    "regex": "^parrilla de barbacoa\\b",
+    "product_type": "烧烤架",
+    "function": "承托食材烧烤",
+    "need": "烧烤食材承托"
+  },
+  {
+    "id": "br23_airfryer",
+    "regex": "^freidora de aire\\b(?!.*\\b(?:juguete|miniatura)\\b)",
+    "product_type": "空气炸锅",
+    "function": "热风烹制食物",
+    "need": "空气炸制烹饪"
+  },
+  {
+    "id": "br23_raclette",
+    "regex": "^raclette\\b",
+    "product_type": "拉克莱特烤炉",
+    "function": "桌上加热奶酪或食材",
+    "need": "桌上烤制餐食"
+  },
+  {
+    "id": "br23_paninigrill",
+    "regex": "^parrilla para panini\\b",
+    "product_type": "帕尼尼烤炉",
+    "function": "压烤三明治",
+    "need": "三明治压烤"
+  },
+  {
+    "id": "br23_clogs",
+    "regex": "^zuecos\\b",
+    "product_type": "包头便鞋",
+    "function": "日常穿着包头便鞋",
+    "need": "便鞋穿着"
+  },
+  {
+    "id": "br23_sandals",
+    "regex": "^sandalias\\b",
+    "product_type": "凉鞋",
+    "function": "脚部通风式穿着",
+    "need": "凉鞋穿着"
+  },
+  {
+    "id": "br23_sportshoes",
+    "regex": "^zapatillas deportivas\\b",
+    "product_type": "运动鞋",
+    "function": "运动时穿着",
+    "need": "运动鞋履穿着"
+  },
+  {
+    "id": "br23_waffles",
+    "regex": "^mini gofres\\b",
+    "product_type": "小华夫饼",
+    "function": "食用华夫饼",
+    "need": "糕点零食"
+  },
+  {
+    "id": "br23_muffins",
+    "regex": "^(?:minimagdalenas|magdalenas)\\b",
+    "product_type": "小蛋糕",
+    "function": "食用小蛋糕",
+    "need": "糕点零食"
+  },
+  {
+    "id": "br23_ovendish",
+    "regex": "^fuentes? para horno\\b",
+    "product_type": "烤箱烤皿",
+    "function": "盛装食物入炉烘烤",
+    "need": "烤箱烘烤"
+  },
+  {
+    "id": "br23_eyepencil",
+    "regex": "^(?:l[aá]pices de ojos|delineadores de ojos)\\b",
+    "product_type": "眼线笔",
+    "function": "描画眼线",
+    "need": "眼线彩妆"
+  },
+  {
+    "id": "br23_eyeshadow",
+    "regex": "^minipaleta de sombras de ojos\\b",
+    "product_type": "眼影盘",
+    "function": "为眼睑着色",
+    "need": "眼影彩妆"
+  },
+  {
+    "id": "br23_bronzerhighlighter",
+    "regex": "^bronceador e iluminador\\b",
+    "product_type": "修容与高光组合",
+    "function": "修饰面部明暗色泽",
+    "need": "面部明暗彩妆"
+  },
+  {
+    "id": "br23_settingpowder",
+    "regex": "^polvos fijadores\\b",
+    "product_type": "定妆粉",
+    "function": "固定面部彩妆",
+    "need": "面部定妆"
+  },
+  {
+    "id": "br23_highlighter",
+    "regex": "^iluminador\\b(?!.*\\b(?:c[aá]mara|fotograf[ií]a|video|v[ií]deo|led|pantalla)\\b)",
+    "product_type": "高光彩妆",
+    "function": "为面部增加高光",
+    "need": "面部高光彩妆"
+  },
+  {
+    "id": "br23_primer",
+    "regex": "^(?:prebase|preparador facial)\\b",
+    "product_type": "妆前打底用品",
+    "function": "为后续彩妆打底",
+    "need": "妆前打底"
+  },
+  {
+    "id": "br23_lipoil",
+    "regex": "^aceite labial\\b",
+    "product_type": "唇油",
+    "function": "涂抹唇部护理或修饰色泽",
+    "need": "唇部护理修饰"
+  },
+  {
+    "id": "br23_blusher",
+    "regex": "^colorete en polvo\\b",
+    "product_type": "粉状腮红",
+    "function": "为面颊着色",
+    "need": "面颊彩妆"
+  },
+  {
+    "id": "br23_bronzer",
+    "regex": "^bronceador\\b(?! e iluminador)(?!.*\\b(?:corporal|solar|piel|autobronceador|spf)\\b)",
+    "product_type": "古铜色彩妆",
+    "function": "修饰面部古铜色泽",
+    "need": "面部古铜色彩妆"
+  },
+  {
+    "id": "br23_highlighteyeshadow",
+    "regex": "^paleta de iluminadores y sombras de ojos\\b",
+    "product_type": "高光与眼影盘",
+    "function": "修饰面部高光及眼影",
+    "need": "高光眼影彩妆"
+  },
+  {
+    "id": "br23_browmascara",
+    "regex": "^m[aá]scara para cejas\\b",
+    "product_type": "染眉膏",
+    "function": "修饰眉毛色泽与形态",
+    "need": "眉部彩妆"
+  },
+  {
+    "id": "br23_lipgloss",
+    "regex": "^brillo de labios\\b",
+    "product_type": "唇彩",
+    "function": "为嘴唇增加色泽与光泽",
+    "need": "唇部彩妆"
+  },
+  {
+    "id": "br23_hairrootpowder",
+    "regex": "^polvo para las ra[ií]ces del pelo\\b",
+    "product_type": "发根修饰粉",
+    "function": "修饰发根外观",
+    "need": "发根外观修饰"
+  },
+  {
+    "id": "br23_hairband",
+    "regex": "^diadema\\b",
+    "product_type": "头箍",
+    "function": "佩戴固定或装饰头发",
+    "need": "头部佩戴装饰"
+  },
+  {
+    "id": "br23_nuts",
+    "regex": "^(?:frutos secos|cacahuetes|nueces|almendras|anacardos|paquete de nueces)\\b",
+    "product_type": "坚果食品",
+    "function": "食用坚果",
+    "need": "坚果零食"
+  },
+  {
+    "id": "br23_nougat",
+    "regex": "^turr[oó]n\\b",
+    "product_type": "牛轧糖",
+    "function": "食用牛轧糖",
+    "need": "牛轧糖食用"
+  },
+  {
+    "id": "br23_kitchenscale",
+    "regex": "^(?:b[aá]scula|balanza)\\b.*\\bde cocina\\b",
+    "product_type": "厨房秤",
+    "function": "称量烹饪食材",
+    "need": "食材称重"
+  },
+  {
+    "id": "br23_fishscale",
+    "regex": "^b[aá]scula de peces\\b.*\\by cinta m[eé]trica\\b",
+    "product_type": "鱼秤与卷尺组合",
+    "function": "称重并测量渔获",
+    "need": "渔获称量"
+  },
+  {
+    "id": "br23_luggagescale",
+    "regex": "^b[aá]scula para equipaje\\b",
+    "product_type": "行李秤",
+    "function": "称量行李",
+    "need": "行李称重"
+  },
+  {
+    "id": "br23_showershelf",
+    "regex": "^(?:estanter[ií]a|estante) de ducha\\b",
+    "product_type": "淋浴置物架",
+    "function": "放置淋浴用品",
+    "need": "淋浴用品收纳"
+  },
+  {
+    "id": "br23_bathshelf",
+    "regex": "^(?:estanter[ií]a|estante) de ba[ñn]o\\b",
+    "product_type": "浴室置物架",
+    "function": "收纳浴室用品",
+    "need": "浴室用品收纳"
+  },
+  {
+    "id": "br23_insulatedbottle",
+    "regex": "^botella (?:t[eé]rmica|aislante)\\b",
+    "product_type": "保温瓶",
+    "function": "携带并保温饮品",
+    "need": "饮品保温携带"
+  },
+  {
+    "id": "br23_waterbottle",
+    "regex": "^botella de agua\\b",
+    "product_type": "水瓶",
+    "function": "盛装携带饮水",
+    "need": "饮水携带"
+  },
+  {
+    "id": "br23_canteen",
+    "regex": "^cantimplora\\b",
+    "product_type": "便携水壶",
+    "function": "携带饮水",
+    "need": "饮水携带"
+  },
+  {
+    "id": "br23_strawbottle",
+    "regex": "^botella(?: de acero inoxidable)? con pajita\\b",
+    "product_type": "吸管饮水瓶",
+    "function": "通过吸管饮水",
+    "need": "吸管饮水"
+  },
+  {
+    "id": "br23_spraybottle",
+    "regex": "^botella con pulverizador\\b",
+    "product_type": "喷雾瓶",
+    "function": "盛装并喷洒液体",
+    "need": "液体喷雾"
+  },
+  {
+    "id": "br23_shaker",
+    "regex": "^botella de batidos\\b",
+    "product_type": "奶昔摇摇杯",
+    "function": "混合携带奶昔饮品",
+    "need": "奶昔混合携带"
+  },
+  {
+    "id": "br23_energybar",
+    "regex": "^barritas? energ[eé]ticas?\\b",
+    "product_type": "能量棒",
+    "function": "食用能量棒",
+    "need": "能量棒零食"
+  },
+  {
+    "id": "br23_proteinbar",
+    "regex": "^barritas? proteicas\\b",
+    "product_type": "蛋白棒",
+    "function": "食用蛋白棒",
+    "need": "蛋白棒零食"
+  },
+  {
+    "id": "br23_bodyserum",
+    "regex": "^s[eé]rum corporal\\b",
+    "product_type": "身体精华",
+    "function": "身体皮肤日常护理",
+    "need": "身体皮肤护理"
+  },
+  {
+    "id": "br23_serumprimer",
+    "regex": "^s[eé]rum prebase\\b",
+    "product_type": "精华式妆前乳",
+    "function": "妆前护理打底",
+    "need": "妆前打底"
+  },
+  {
+    "id": "br23_ingrownhairserum",
+    "regex": "^s[eé]rum para vello encarnado\\b",
+    "product_type": "内生毛护理精华",
+    "function": "护理内生毛相关部位皮肤",
+    "need": "内生毛部位护理"
+  },
+  {
+    "id": "br23_waxstamp",
+    "regex": "^(?:juego|set) de sellos de cera\\b",
+    "product_type": "火漆印章套装",
+    "function": "制作火漆印记",
+    "need": "火漆封缄装饰"
+  },
+  {
+    "id": "br23_stampdie",
+    "regex": "^sellos y troqueles\\b",
+    "product_type": "印章与切模组合",
+    "function": "压印并裁切纸艺图案",
+    "need": "纸艺压印裁切"
+  },
+  {
+    "id": "br23_stamps",
+    "regex": "^(?:juego|set) de sellos\\b(?! de cera)",
+    "product_type": "印章套装",
+    "function": "盖印装饰图案",
+    "need": "图案盖印"
+  },
+  {
+    "id": "br23_arcade",
+    "regex": "^(?:minim[aá]quina de arcade|m[aá]quina recreativa mini)\\b",
+    "product_type": "迷你街机",
+    "function": "进行电子游戏",
+    "need": "街机电子游戏"
+  },
+  {
+    "id": "br23_consolegame",
+    "regex": "^juego Nintendo Switch\\b",
+    "product_type": "游戏主机游戏软件",
+    "function": "在适配主机进行电子游戏",
+    "need": "主机电子游戏"
+  },
+  {
+    "id": "br23_cookie",
+    "regex": "^cookie bars\\b",
+    "product_type": "饼干食品",
+    "function": "食用饼干",
+    "need": "饼干零食"
+  },
+  {
+    "id": "br23_toyvacuum",
+    "regex": "^aspirador de juguete\\b",
+    "product_type": "玩具吸尘器",
+    "function": "模拟家务吸尘",
+    "need": "家务角色游戏"
+  },
+  {
+    "id": "br23_carvacuum",
+    "regex": "^aspirador inal[aá]mbrico para coche\\b",
+    "product_type": "车用吸尘器",
+    "function": "吸除车内灰尘碎屑",
+    "need": "车内吸尘"
+  },
+  {
+    "id": "br23_wetdryvacuum",
+    "regex": "^aspiradora para h[uú]medo y seco\\b",
+    "product_type": "干湿两用吸尘器",
+    "function": "吸取干湿污物",
+    "need": "干湿吸污"
+  },
+  {
+    "id": "br23_vacuum",
+    "regex": "^aspirador(?:a)?\\b(?! de juguete| inal[aá]mbrico para coche| para h[uú]medo y seco)",
+    "product_type": "吸尘器",
+    "function": "吸除灰尘碎屑",
+    "need": "吸尘清洁"
+  },
+  {
+    "id": "br23_eyelashes",
+    "regex": "^pesta[ñn]as postizas\\b",
+    "product_type": "假睫毛",
+    "function": "佩戴修饰睫毛外观",
+    "need": "睫毛外观修饰"
+  },
+  {
+    "id": "br23_facecleanset",
+    "regex": "^(?:kit|set) de limpieza facial\\b",
+    "product_type": "面部清洁套装",
+    "function": "辅助清洁面部",
+    "need": "面部清洁"
+  },
+  {
+    "id": "br23_glassescleanset",
+    "regex": "^set de limpieza de gafas\\b",
+    "product_type": "眼镜清洁套装",
+    "function": "清洁眼镜",
+    "need": "眼镜清洁"
+  },
+  {
+    "id": "br23_carcleanset",
+    "regex": "^kit de limpieza (?:de|para) coches?\\b",
+    "product_type": "汽车清洁套装",
+    "function": "清洁车辆",
+    "need": "车辆清洁"
+  },
+  {
+    "id": "br23_bbqcleanset",
+    "regex": "^kit de limpieza de barbacoas y parrillas\\b",
+    "product_type": "烧烤器具清洁套装",
+    "function": "清洁烧烤炉和烤架",
+    "need": "烧烤器具清洁"
+  },
+  {
+    "id": "br23_acnecleanset",
+    "regex": "^set de limpieza y parches de granos\\b",
+    "product_type": "清洁用品与痘痘贴组合",
+    "function": "清洁皮肤并贴护痘痘部位",
+    "need": "痘痘部位护理"
+  },
+  {
+    "id": "br23_xmasballs",
+    "regex": "^(?:mini |set de )?bolas de Navidad\\b(?!.*pintar)",
+    "product_type": "圣诞装饰球",
+    "function": "布置圣诞球饰",
+    "need": "圣诞球饰布置"
+  },
+  {
+    "id": "br23_snowglobe",
+    "regex": "^bola de nieve\\b",
+    "product_type": "雪景球摆件",
+    "function": "展示雪景球场景",
+    "need": "雪景球陈列"
+  },
+  {
+    "id": "br23_xmasscene",
+    "regex": "^escena de Navidad\\b",
+    "product_type": "圣诞场景摆件",
+    "function": "陈设圣诞场景",
+    "need": "圣诞场景布置"
+  },
+  {
+    "id": "br23_trunkorganizer",
+    "regex": "^organizador de maletero\\b",
+    "product_type": "汽车后备箱收纳器",
+    "function": "整理后备箱物品",
+    "need": "汽车后备箱整理"
+  },
+  {
+    "id": "br23_fridgeorganizer",
+    "regex": "^organizador(?:es)? (?:(?:giratorio )?para |de )(?:nevera|frigor[ií]ficos?)\\b",
+    "product_type": "冰箱收纳器",
+    "function": "整理冰箱内部物品",
+    "need": "冰箱内部整理"
+  },
+  {
+    "id": "br23_makeuporganizer",
+    "regex": "^organizador para maquillaje\\b",
+    "product_type": "彩妆收纳器",
+    "function": "整理彩妆用品",
+    "need": "彩妆用品收纳"
+  },
+  {
+    "id": "br23_deskorganizer",
+    "regex": "^organizador(?:es)? (?:de escritorio|con portabol[ií]grafos)\\b",
+    "product_type": "桌面文具收纳器",
+    "function": "整理桌面文具",
+    "need": "桌面文具整理"
+  },
+  {
+    "id": "br23_craftorganizer",
+    "regex": "^organizador de manualidades\\b",
+    "product_type": "手工材料收纳器",
+    "function": "整理手工材料",
+    "need": "手工材料整理"
+  },
+  {
+    "id": "br23_brushorganizer",
+    "regex": "^organizador de brochas de maquillaje\\b",
+    "product_type": "化妆刷收纳器",
+    "function": "整理化妆刷",
+    "need": "化妆刷收纳"
+  },
+  {
+    "id": "br23_kitchenorganizer",
+    "regex": "^organizador de cocina\\b",
+    "product_type": "厨房收纳器",
+    "function": "整理厨房用品",
+    "need": "厨房用品收纳"
+  },
+  {
+    "id": "br23_carorganizer",
+    "regex": "^organizador para coche\\b",
+    "product_type": "车内收纳器",
+    "function": "整理车内物品",
+    "need": "车内物品整理"
+  },
+  {
+    "id": "br23_decorativemoss",
+    "regex": "^musgo decorativo\\b",
+    "product_type": "装饰苔藓材料",
+    "function": "布置苔藓装饰",
+    "need": "苔藓装饰布置"
+  },
+  {
+    "id": "br23_praline",
+    "regex": "^pralin[eé]s\\b",
+    "product_type": "夹心巧克力",
+    "function": "食用夹心巧克力",
+    "need": "巧克力零食"
+  },
+  {
+    "id": "br23_chocolateballs",
+    "regex": "^minibolitas de chocolate\\b",
+    "product_type": "巧克力球",
+    "function": "食用巧克力",
+    "need": "巧克力零食"
+  },
+  {
+    "id": "br23_saladbowl",
+    "regex": "^ensaladera\\b",
+    "product_type": "沙拉碗",
+    "function": "盛放或拌合沙拉",
+    "need": "沙拉盛放拌合"
+  },
+  {
+    "id": "br23_beadset",
+    "regex": "^(?:juego|set) de cuentas\\b",
+    "product_type": "串珠套装",
+    "function": "串联珠子制作珠饰",
+    "need": "珠饰制作"
+  },
+  {
+    "id": "br23_browrazor",
+    "regex": "^cuchillas para cejas\\b",
+    "product_type": "修眉刀片",
+    "function": "修整眉周毛发",
+    "need": "眉毛修整"
+  },
+  {
+    "id": "br23_slimekit",
+    "regex": "^(?:(?:Magic Potions Surprise )?haz tu propio moco|set m[aá]gico para hacer slime)\\b",
+    "product_type": "史莱姆制作套件",
+    "function": "制作史莱姆玩料",
+    "need": "史莱姆制作"
+  },
+  {
+    "id": "br23_squishycraft",
+    "regex": "^kit laboratorio squishy diy\\b",
+    "product_type": "软捏玩具制作套装",
+    "function": "制作软捏玩具",
+    "need": "软捏玩具制作"
+  },
+  {
+    "id": "br23_wallshelf",
+    "regex": "^(?:estante (?:redondo )?de pared|juego de baldas de pared)\\b",
+    "product_type": "墙面搁板",
+    "function": "利用墙面置物",
+    "need": "墙面置物"
+  },
+  {
+    "id": "br23_throwinggame",
+    "regex": "^juego de lanzamiento\\b",
+    "product_type": "投掷游戏用品",
+    "function": "进行投掷游戏",
+    "need": "投掷游戏"
+  },
+  {
+    "id": "br23_beachgames",
+    "regex": "^kit de juegos para la playa\\b",
+    "product_type": "海滩游戏套装",
+    "function": "开展海滩游戏",
+    "need": "海滩玩耍"
+  },
+  {
+    "id": "br23_crochetbasket",
+    "regex": "^set para cesta de ganchillo\\b",
+    "product_type": "钩编篮制作套装",
+    "function": "钩编篮子",
+    "need": "钩编篮制作"
+  },
+  {
+    "id": "br23_fashiondesign",
+    "regex": "^set de dise[ñn]o de moda\\b",
+    "product_type": "服装设计创作套装",
+    "function": "开展服装设计活动",
+    "need": "服装设计活动"
+  },
+  {
+    "id": "br23_paintkeyring",
+    "regex": "^pinta tu propio llavero\\b",
+    "product_type": "钥匙扣彩绘套装",
+    "function": "彩绘钥匙扣",
+    "need": "钥匙扣彩绘"
+  },
+  {
+    "id": "br23_paintfigure",
+    "regex": "^pinta tu (?:propia )?(?:figura|figurilla)\\b",
+    "product_type": "摆件彩绘套装",
+    "function": "为摆件着色",
+    "need": "摆件彩绘"
+  },
+  {
+    "id": "br23_drawingkit",
+    "regex": "^(?:kit de dibujo|(?:juego|kit) (?:de |para )?(?:dibujar y colorear|colorear y dibujar))\\b",
+    "product_type": "绘画涂色套装",
+    "function": "绘画与涂色",
+    "need": "绘画涂色"
+  },
+  {
+    "id": "br23_paintnumbers",
+    "regex": "^pintar siguiendo los n[uú]meros\\b",
+    "product_type": "数字涂色套装",
+    "function": "按编号涂色",
+    "need": "数字涂色"
+  },
+  {
+    "id": "br23_paintmug",
+    "regex": "^pinta tu propia taza\\b",
+    "product_type": "杯子彩绘套装",
+    "function": "彩绘杯子",
+    "need": "杯子彩绘"
+  },
+  {
+    "id": "br23_paintvase",
+    "regex": "^pinta tu propio jarr[oó]n\\b",
+    "product_type": "花瓶彩绘套装",
+    "function": "彩绘花瓶",
+    "need": "花瓶彩绘"
+  },
+  {
+    "id": "br23_paintbowl",
+    "regex": "^pinta tu propio cuenco\\b",
+    "product_type": "碗彩绘套装",
+    "function": "彩绘碗",
+    "need": "碗彩绘"
+  },
+  {
+    "id": "br23_woodbouquet",
+    "regex": "^(?:crea tu propio ramo de madera|kit de construcci[oó]n de ramo de madera)\\b",
+    "product_type": "木制花束制作套装",
+    "function": "拼装木制花束",
+    "need": "木制花束拼装"
+  },
+  {
+    "id": "br23_xmaslanterncraft",
+    "regex": "^crea tu propio farolillo navide[ñn]o\\b",
+    "product_type": "圣诞灯笼制作套装",
+    "function": "制作圣诞灯笼",
+    "need": "圣诞灯笼制作"
+  },
+  {
+    "id": "br23_summerdress",
+    "regex": "^vestido de verano\\b",
+    "product_type": "夏季连衣裙",
+    "function": "夏季穿着连衣裙",
+    "need": "夏季连衣裙穿着"
+  },
+  {
+    "id": "br23_dress",
+    "regex": "^vestido\\b(?! de verano)",
+    "product_type": "连衣裙",
+    "function": "作为连体裙装穿着",
+    "need": "连衣裙穿着"
+  },
+  {
+    "id": "br23_dicegame",
+    "regex": "^juego de dados\\b",
+    "product_type": "骰子游戏用品",
+    "function": "进行骰子游戏",
+    "need": "骰子游戏"
+  },
+  {
+    "id": "br23_karaoke",
+    "regex": "^juego de karaoke\\b",
+    "product_type": "卡拉OK设备组合",
+    "function": "伴奏演唱",
+    "need": "卡拉OK演唱"
+  },
+  {
+    "id": "br23_lipmask",
+    "regex": "^(?:set de )?mascarilla labial\\b",
+    "product_type": "唇膜",
+    "function": "敷护唇部",
+    "need": "唇部敷护"
+  },
+  {
+    "id": "br23_facemask",
+    "regex": "^(?:mascarill(?:a)? facial|m[aá]scaras faciales)\\b",
+    "product_type": "面膜",
+    "function": "敷护面部",
+    "need": "面部敷护"
+  },
+  {
+    "id": "br23_footmask",
+    "regex": "^mascarilla t[eé]rmica para pies\\b",
+    "product_type": "足部热敷膜",
+    "function": "温热敷护足部",
+    "need": "足部温热敷护"
+  },
+  {
+    "id": "br23_armhandmask",
+    "regex": "^mascarilla para brazos y manos\\b",
+    "product_type": "手臂与手部护理膜",
+    "function": "敷护手臂和手部",
+    "need": "手臂手部敷护"
+  },
+  {
+    "id": "br23_chinmask",
+    "regex": "^mascarillas elevadoras de ment[oó]n\\b",
+    "product_type": "下巴护理膜",
+    "function": "敷护下巴部位",
+    "need": "下巴部位敷护"
+  },
+  {
+    "id": "br23_xmashousecraft",
+    "regex": "^construye tu propia casa de Navidad\\b",
+    "product_type": "圣诞房屋制作套件",
+    "function": "搭建圣诞房屋造型",
+    "need": "圣诞房屋搭建"
+  },
+  {
+    "id": "br23_pots",
+    "regex": "^(?:cacerolas|ollas)\\b",
+    "product_type": "汤锅炖锅",
+    "function": "加热煮炖食材",
+    "need": "煮炖烹饪"
+  },
+  {
+    "id": "br23_craftmat",
+    "regex": "^tapete para manualidades\\b",
+    "product_type": "手工操作垫",
+    "function": "铺垫手工工作面",
+    "need": "手工工作面保护"
+  },
+  {
+    "id": "br23_babyblanket",
+    "regex": "^manta para beb[eé]\\b",
+    "product_type": "婴儿毯",
+    "function": "覆盖婴儿身体保暖",
+    "need": "婴儿覆盖保暖"
+  },
+  {
+    "id": "br23_colorbag",
+    "regex": "^colorea tu propia bolsa\\b",
+    "product_type": "可涂色包袋",
+    "function": "在包袋上涂色",
+    "need": "包袋涂色"
+  },
+  {
+    "id": "br23_sandicecream",
+    "regex": "^juego de helados para arena\\b",
+    "product_type": "冰淇淋造型沙模套装",
+    "function": "用沙制作冰淇淋造型",
+    "need": "沙地塑形游戏"
+  },
+  {
+    "id": "br23_clockmaking",
+    "regex": "^haz tu propio reloj\\b",
+    "product_type": "时钟制作套装",
+    "function": "组装制作时钟",
+    "need": "时钟制作"
+  },
+  {
+    "id": "br23_chocbunny",
+    "regex": "^conejo de Pascua de chocolate\\b",
+    "product_type": "兔形巧克力",
+    "function": "食用巧克力",
+    "need": "巧克力零食"
+  },
+  {
+    "id": "br23_nailfile",
+    "regex": "^limas? de u[ñn]as\\b",
+    "product_type": "指甲锉",
+    "function": "修整指甲边缘",
+    "need": "指甲修整"
+  },
+  {
+    "id": "br23_browtrimmer",
+    "regex": "^recortacejas\\b",
+    "product_type": "修眉器",
+    "function": "修整眉毛",
+    "need": "眉毛修整"
+  },
+  {
+    "id": "br23_footfile",
+    "regex": "^lima el[eé]ctrica recargable para pies\\b",
+    "product_type": "电动足部磨皮器",
+    "function": "修整足部角质",
+    "need": "足部角质修整"
+  },
+  {
+    "id": "br23_rctoy",
+    "regex": "^(?:rata teledirigida|coches de choque teledirigidos|robots teledirigidos)\\b",
+    "product_type": "遥控玩具",
+    "function": "遥控名称所指玩具行动",
+    "need": "遥控行动游戏"
+  },
+  {
+    "id": "br23_epoxycraft",
+    "regex": "^kit de epoxi para manualidades\\b",
+    "product_type": "环氧树脂手工套装",
+    "function": "制作树脂手工作品",
+    "need": "树脂浇注手工"
+  },
+  {
+    "id": "br23_spinningtop",
+    "regex": "^peonza\\b",
+    "product_type": "陀螺",
+    "function": "使陀螺旋转玩耍",
+    "need": "陀螺旋转游戏"
+  },
+  {
+    "id": "br23_thermalstrawmug",
+    "regex": "^jarrita t[eé]rmica con pajita\\b",
+    "product_type": "保温吸管杯",
+    "function": "保温携带饮品并用吸管饮用",
+    "need": "保温吸管饮水"
+  },
+  {
+    "id": "br23_marbletrack",
+    "regex": "^circuito de canicas\\b",
+    "product_type": "弹珠轨道",
+    "function": "让弹珠沿轨道滚动",
+    "need": "弹珠轨道游戏"
+  },
+  {
+    "id": "br23_claytools",
+    "regex": "^kit de herramientas de arcilla\\b",
+    "product_type": "黏土工具套装",
+    "function": "塑形修整黏土",
+    "need": "黏土塑形"
+  },
+  {
+    "id": "br23_chenillestems",
+    "regex": "^alambres de hilo de chenilla\\b",
+    "product_type": "雪尼尔扭绳",
+    "function": "弯折制作手工作品",
+    "need": "扭绳造型手工"
+  },
+  {
+    "id": "br23_plantfertilizer",
+    "regex": "^abono\\b",
+    "product_type": "植物肥料",
+    "function": "为植物施肥",
+    "need": "植物施肥"
+  },
+  {
+    "id": "br23_icepop",
+    "regex": "^polos de helado\\b",
+    "product_type": "冰棒",
+    "function": "冷冻后食用冰棒",
+    "need": "冰棒冷食"
+  },
+  {
+    "id": "br23_freezedriedstrawberry",
+    "regex": "^fresas liofilizadas\\b",
+    "product_type": "冻干草莓食品",
+    "function": "食用冻干草莓",
+    "need": "果干零食"
+  },
+  {
+    "id": "br23_chalkbox",
+    "regex": "^tizas en caja de almacenamiento\\b",
+    "product_type": "粉笔附收纳盒",
+    "function": "用粉笔书写绘画并收存",
+    "need": "粉笔书写绘画"
+  },
+  {
+    "id": "br23_toolcase",
+    "regex": "^maletines de herramientas\\b",
+    "product_type": "工具箱",
+    "function": "整理携带工具",
+    "need": "工具收纳携带"
+  },
+  {
+    "id": "br23_marshmallow",
+    "regex": "^nubes\\b",
+    "product_type": "棉花糖",
+    "function": "食用棉花糖",
+    "need": "糖果零食"
+  },
+  {
+    "id": "br23_tubecandy",
+    "regex": "^candy tubes\\b",
+    "product_type": "管状糖果",
+    "function": "食用糖果",
+    "need": "糖果零食"
+  },
+  {
+    "id": "br23_friedonion",
+    "regex": "^cebolla frita\\b",
+    "product_type": "炸洋葱食品",
+    "function": "作为配菜或佐料食用",
+    "need": "洋葱佐餐配料"
+  },
+  {
+    "id": "br23_pretzelpieces",
+    "regex": "^trozos de pretzel\\b",
+    "product_type": "椒盐脆饼块",
+    "function": "食用脆饼",
+    "need": "椒盐脆饼零食"
+  },
+  {
+    "id": "br23_crackermix",
+    "regex": "^cracker mix\\b",
+    "product_type": "薄脆饼干组合",
+    "function": "食用薄脆饼干",
+    "need": "饼干零食"
+  },
+  {
+    "id": "br23_minicrackers",
+    "regex": "^minicrackers\\b",
+    "product_type": "迷你薄脆饼干",
+    "function": "食用薄脆饼干",
+    "need": "饼干零食"
+  },
+  {
+    "id": "br23_cantuccini",
+    "regex": "^cantuccini\\b",
+    "product_type": "意式脆饼",
+    "function": "食用脆饼",
+    "need": "饼干零食"
+  },
+  {
+    "id": "br23_proteinpancake",
+    "regex": "^tortitas proteicas\\b",
+    "product_type": "蛋白质薄饼",
+    "function": "食用薄饼",
+    "need": "薄饼餐食"
+  },
+  {
+    "id": "br23_candymixbag",
+    "regex": "^bolsa mezcla golosinas\\b",
+    "product_type": "袋装混合糖果",
+    "function": "食用糖果",
+    "need": "糖果零食"
+  },
+  {
+    "id": "br23_chocolatemix",
+    "regex": "^mezcla de chocolate navide[ñn]o\\b",
+    "product_type": "圣诞巧克力组合",
+    "function": "食用巧克力",
+    "need": "巧克力零食"
+  },
+  {
+    "id": "br23_peanutrocks",
+    "regex": "^rocas de cacahuete\\b",
+    "product_type": "花生糖块",
+    "function": "食用花生糖块",
+    "need": "花生糖零食"
+  },
+  {
+    "id": "br23_mixedpeanutsnuts",
+    "regex": "^mezcla de cacahuetes y frutos secos\\b",
+    "product_type": "花生坚果混合食品",
+    "function": "食用混合坚果",
+    "need": "坚果零食"
+  },
+  {
+    "id": "br23_nutsmix",
+    "regex": "^nuts\\b.*\\bmix\\b",
+    "product_type": "坚果混合食品",
+    "function": "食用混合坚果",
+    "need": "坚果零食"
+  },
+  {
+    "id": "br23_colorstick",
+    "regex": "^barra de maquillaje\\b",
+    "product_type": "棒状彩妆",
+    "function": "涂抹面部彩妆",
+    "need": "面部上妆"
+  },
+  {
+    "id": "br23_liquidmakeup",
+    "regex": "^maquillaje l[ií]quido\\b",
+    "product_type": "液体底妆",
+    "function": "涂抹面部底妆",
+    "need": "面部底妆"
+  },
+  {
+    "id": "br23_multipurposecleaner",
+    "regex": "^(?:limpiador|detergente) multiusos\\b",
+    "product_type": "多表面清洁剂",
+    "function": "清洁可适用的家居表面",
+    "need": "家居表面清洁"
+  },
+  {
+    "id": "br23_degreaser",
+    "regex": "^desengrasante\\b(?! cocina)",
+    "product_type": "去油污剂",
+    "function": "清除表面油污",
+    "need": "表面去油污"
+  },
+  {
+    "id": "br23_towelhammam",
+    "regex": "^toalla de hammam\\b",
+    "product_type": "土耳其浴巾",
+    "function": "洗浴后包裹擦干身体",
+    "need": "沐浴后擦干"
+  },
+  {
+    "id": "br23_diamondxmasballs",
+    "regex": "^bolas de Navidad para pintar con diamantes\\b",
+    "product_type": "钻石画圣诞球制作用品",
+    "function": "粘钻制作圣诞装饰球",
+    "need": "圣诞球粘钻制作"
+  },
+  {
+    "id": "br23_diamondcards",
+    "regex": "^juego de cartas de pintura con diamantes\\b",
+    "product_type": "卡片钻石画套装",
+    "function": "在卡片上粘钻制作图案",
+    "need": "卡片粘钻制作"
+  },
+  {
+    "id": "br23_diamondwooddecor",
+    "regex": "^decoraci[oó]n de madera de pintura con diamantes\\b",
+    "product_type": "木板钻石画装饰套装",
+    "function": "在木板上粘钻制作装饰",
+    "need": "木板粘钻制作"
+  },
+  {
+    "id": "br23_diamondxmaslamp",
+    "regex": "^l[aá]mpara navide[ñn]a de pintura con diamantes\\b",
+    "product_type": "圣诞灯钻石画套装",
+    "function": "粘钻制作圣诞灯饰",
+    "need": "圣诞灯饰粘钻制作"
+  },
+  {
+    "id": "br23_drawstickerkit",
+    "regex": "^kit de colorear y pegatinas\\b",
+    "product_type": "涂色与贴纸套装",
+    "function": "涂色并贴纸装饰",
+    "need": "涂色贴纸创作"
+  },
+  {
+    "id": "br23_paintbear",
+    "regex": "^crea tu propio oso pintado\\b",
+    "product_type": "熊形彩绘制作套装",
+    "function": "制作彩绘熊形摆件",
+    "need": "摆件彩绘"
+  },
+  {
+    "id": "br23_paper3dfigures",
+    "regex": "^figuras de papel con pegatinas 3d\\b",
+    "product_type": "纸质图形与立体贴纸",
+    "function": "拼贴纸质立体装饰",
+    "need": "立体纸艺拼贴"
+  },
+  {
+    "id": "br23_featherpompomcraft",
+    "regex": "^plumas y pompones para manualidades\\b",
+    "product_type": "羽毛与绒球手工材料",
+    "function": "拼贴手工作品",
+    "need": "羽毛绒球拼贴"
+  },
+  {
+    "id": "br23_glitter",
+    "regex": "^purpurina\\b(?!.*\\b(?:cabello|cuerpo|cara|piel|cosm[eé]tica)\\b)",
+    "product_type": "闪粉",
+    "function": "为手工作品添加闪光装饰",
+    "need": "闪粉装饰"
+  },
+  {
+    "id": "br23_designpad",
+    "regex": "^bloc de (?:dise[ñn]o|manualidades)\\b",
+    "product_type": "设计手工纸本",
+    "function": "利用纸本图案开展剪裁设计",
+    "need": "纸本设计手工"
+  },
+  {
+    "id": "br23_toyexcavator",
+    "regex": "^juguete de excavadora\\b",
+    "product_type": "玩具挖掘机",
+    "function": "模拟挖掘施工活动",
+    "need": "工程车辆角色游戏"
+  },
+  {
+    "id": "br23_toyplane",
+    "regex": "^set de juguete de avi[oó]n\\b",
+    "product_type": "玩具飞机套装",
+    "function": "模拟飞机活动",
+    "need": "飞机角色游戏"
+  },
+  {
+    "id": "br23_popupanimal",
+    "regex": "^juguete de animales pop-up\\b",
+    "product_type": "动物弹出玩具",
+    "function": "操作弹出动物部件",
+    "need": "弹出机关玩耍"
+  },
+  {
+    "id": "br23_toyracecarset",
+    "regex": "^set de juego de coches de carreras\\b",
+    "product_type": "赛车玩具套装",
+    "function": "进行赛车模拟游戏",
+    "need": "玩具赛车游戏"
+  },
+  {
+    "id": "br23_lasergame",
+    "regex": "^set de juego l[aá]ser\\b",
+    "product_type": "激光游戏套装",
+    "function": "进行激光对战游戏",
+    "need": "激光对战游戏"
+  },
+  {
+    "id": "br23_festivelights",
+    "regex": "^iluminaci[oó]n festiva\\b",
+    "product_type": "节庆灯饰",
+    "function": "布置节庆灯光",
+    "need": "节庆灯光布置"
+  },
+  {
+    "id": "br23_xmaslightliteral",
+    "regex": "^luz de Navidad\\b",
+    "product_type": "圣诞灯饰",
+    "function": "布置圣诞灯光",
+    "need": "圣诞灯光布置"
+  },
+  {
+    "id": "br23_ledstrip",
+    "regex": "^tiras?(?: de)? led\\b",
+    "product_type": "LED灯带",
+    "function": "沿线性安装路径布置灯光",
+    "need": "线性灯带布置"
+  },
+  {
+    "id": "br23_solarpendant",
+    "regex": "^flexo solar colgante\\b",
+    "product_type": "太阳能悬挂灯",
+    "function": "悬挂提供光照",
+    "need": "悬挂照明"
+  },
+  {
+    "id": "br23_birthdayneon",
+    "regex": "^l[aá]mpara de ne[oó]n Happy Birthday\\b",
+    "product_type": "生日文字霓虹灯饰",
+    "function": "布置生日灯光文字",
+    "need": "生日灯光布置"
+  },
+  {
+    "id": "br23_ledreindeer",
+    "regex": "^reno (?:con )?led\\b",
+    "product_type": "驯鹿造型灯饰",
+    "function": "布置驯鹿造型灯光",
+    "need": "驯鹿灯饰布置"
+  },
+  {
+    "id": "br23_ledstar",
+    "regex": "^estrella led\\b",
+    "product_type": "星形灯饰",
+    "function": "布置星形灯光",
+    "need": "星形灯饰布置"
+  },
+  {
+    "id": "br23_ledtree",
+    "regex": "^[aá]rbol led\\b",
+    "product_type": "树形灯饰",
+    "function": "布置树形灯光",
+    "need": "树形灯饰布置"
+  },
+  {
+    "id": "br23_ledangel",
+    "regex": "^[aá]ngel led\\b",
+    "product_type": "天使造型灯饰",
+    "function": "布置天使造型灯光",
+    "need": "天使灯饰布置"
+  },
+  {
+    "id": "br23_webdecor",
+    "regex": "^decoraci[oó]n de telara[ñn]a\\b",
+    "product_type": "蛛网造型装饰",
+    "function": "布置蛛网主题场景",
+    "need": "蛛网主题布置"
+  },
+  {
+    "id": "br23_santadecor",
+    "regex": "^pap[aá] Noel decorativo\\b",
+    "product_type": "圣诞老人装饰摆件",
+    "function": "布置圣诞老人场景",
+    "need": "圣诞场景布置"
+  },
+  {
+    "id": "br23_easterrabbitdecor",
+    "regex": "^conejo de Pascua decorativo\\b",
+    "product_type": "复活节兔装饰",
+    "function": "布置复活节场景",
+    "need": "复活节场景布置"
+  },
+  {
+    "id": "br23_halloweenspider",
+    "regex": "^ara[ñn]as decorativas de Halloween\\b",
+    "product_type": "万圣节蜘蛛装饰",
+    "function": "布置万圣节蜘蛛场景",
+    "need": "万圣节场景布置"
+  },
+  {
+    "id": "br23_autumndecor",
+    "regex": "^(?:(?:surtido de )?decoraci[oó]n|figura decorativa) (?:oto[ñn]al|de oto[ñn]o)\\b",
+    "product_type": "秋季主题装饰",
+    "function": "布置秋季主题场景",
+    "need": "秋季场景布置"
+  },
+  {
+    "id": "br23_decorativetile",
+    "regex": "^azulejo decorativo\\b",
+    "product_type": "装饰瓷砖",
+    "function": "展示瓷砖表面图案",
+    "need": "瓷砖图案展示"
+  },
+  {
+    "id": "br23_christmascandle",
+    "regex": "^velas de Navidad\\b",
+    "product_type": "圣诞蜡烛",
+    "function": "布置圣诞烛光",
+    "need": "圣诞烛光布置"
+  },
+  {
+    "id": "br23_puzzlecube",
+    "regex": "^cubo rompecabezas\\b",
+    "product_type": "方块益智玩具",
+    "function": "进行方块拼解",
+    "need": "方块谜题解答"
+  }
+]

@@ -1,0 +1,9 @@
+{
+  "version": "name-semantics-v1",
+  "status": "provisional observed-title taxonomy; revisions require a new rules version",
+  "levels": ["category_l1: primary domain", "category_l2: functional group", "product_type: named object"],
+  "principles": ["Main purpose takes precedence over source merchandising department", "No original category passed to semantic analyst", "General types remain general if title does not specify subtype", "未确定 is allowed", "Additional uses belong in labels, not invented primary types"],
+  "category_l1_candidates": ["厨房与餐饮", "家居日用", "家居装饰", "清洁维护", "工具五金", "汽车用品", "园艺户外", "泳池用品", "食品饮料", "个人护理", "服饰配件", "手工创作", "派对用品", "节庆用品", "玩具游戏", "宠物用品", "数码配件", "文具与规划", "旅行用品", "照明与应急", "未确定"],
+  "category_l2_policy": "Derived from the 100 reviewed titles; open candidates, not 15 source departments copied into predictions.",
+  "confidence": {"高": "Object and usual use are explicit", "中": "General type is supported; subtype or context needs review", "低": "Brand-only, language corruption, polysemy or insufficient object identity"}
+}

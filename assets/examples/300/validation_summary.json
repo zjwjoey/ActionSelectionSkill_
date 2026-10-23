@@ -1,0 +1,56 @@
+{
+  "cohorts": {
+    "random": {
+      "n": 200,
+      "states": {
+        "纳入候选": 107,
+        "待复核": 92,
+        "暂不纳入": 1
+      },
+      "pending_reasons": {
+        "OPERATING_BOUNDARY_UNCONFIRMED": 46,
+        "DEPENDENCY_REVIEW": 16,
+        "INFORMATION_INSUFFICIENT": 4,
+        "REFERENCE_ABSENT": 19,
+        "REFERENCE_TOO_BROAD": 3,
+        "REFERENCE_COVERAGE_INCOMPLETE": 4
+      }
+    },
+    "boundary": {
+      "n": 50,
+      "states": {
+        "待复核": 32,
+        "纳入候选": 18
+      },
+      "pending_reasons": {
+        "OPERATING_BOUNDARY_UNCONFIRMED": 18,
+        "DEPENDENCY_REVIEW": 9,
+        "REFERENCE_ABSENT": 4,
+        "REFERENCE_COVERAGE_INCOMPLETE": 1
+      }
+    },
+    "dependency": {
+      "n": 50,
+      "states": {
+        "待复核": 35,
+        "纳入候选": 15
+      },
+      "pending_reasons": {
+        "DEPENDENCY_REVIEW": 17,
+        "OPERATING_BOUNDARY_UNCONFIRMED": 7,
+        "REFERENCE_ABSENT": 9,
+        "REFERENCE_COVERAGE_INCOMPLETE": 2
+      }
+    }
+  },
+  "total": {
+    "纳入候选": 140,
+    "待复核": 159,
+    "暂不纳入": 1
+  },
+  "human_gold": 0,
+  "accuracy": null,
+  "false_exclusion_rate": null,
+  "full_rescreen": false,
+  "frozen_unchanged": true
+}

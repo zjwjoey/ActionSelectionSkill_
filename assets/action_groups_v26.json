@@ -1,0 +1,767 @@
+[
+  {
+    "group_id": "G01",
+    "name": "表面擦拭",
+    "function_hypothesis": "清除表面污渍",
+    "need_hypothesis": "表面擦拭与日常清洁",
+    "typical_scenario_hypothesis": "家庭或日常使用；具体场景以原名为准",
+    "member_count": 4,
+    "specific_type_count": 7,
+    "examples": [
+      {
+        "sku": "100241",
+        "name_es_original": "Paño de microfibra para el suelo Spargo",
+        "source_row_id": "row_a7342e7428965a6cb6d1251d"
+      },
+      {
+        "sku": "102235",
+        "name_es_original": "Paños de microfibra Spargo",
+        "source_row_id": "row_ff21a6de09e332f0906ab6be"
+      },
+      {
+        "sku": "220140",
+        "name_es_original": "Bayetas de limpieza Action",
+        "source_row_id": "row_38ac62e3272b03a884a3ee4b"
+      },
+      {
+        "sku": "2525626",
+        "name_es_original": "Gamuzas de limpiezas XXL Spargo",
+        "source_row_id": "row_4edeb70f5f1df10d62f44e86"
+      }
+    ],
+    "boundary": "同组不代表同款；安装方式、宿主依赖和特殊用途仍需核对",
+    "uncertainty": "仅原文锚点可核实；类型/功能/需求仍为AI候选。旧分组成员未经逐条语义核验，不用于直接定级。",
+    "historical_member_count": 50,
+    "authority": "CODEX_REVIEWED_LITERAL_ANCHORS_NOT_HUMAN_GOLD"
+  },
+  {
+    "group_id": "G02",
+    "name": "家庭清洁工具",
+    "function_hypothesis": "家庭清扫",
+    "need_hypothesis": "清除灰尘污物及废物整理",
+    "typical_scenario_hypothesis": "家庭或日常使用；具体场景以原名为准",
+    "member_count": 3,
+    "specific_type_count": 21,
+    "examples": [
+      {
+        "sku": "1221151",
+        "name_es_original": "Palo de escoba de madera",
+        "source_row_id": "row_d5d0ec832faaebb5dfd11afa"
+      },
+      {
+        "sku": "2507070",
+        "name_es_original": "Plumero de microfibras XL Spargo",
+        "source_row_id": "row_10fe9e68cc5aaef8bf6218e3"
+      },
+      {
+        "sku": "2517533",
+        "name_es_original": "Cepillo de escoba del hogar",
+        "source_row_id": "row_e22b1a80eb772016a45507b8"
+      }
+    ],
+    "boundary": "同组不代表同款；安装方式、宿主依赖和特殊用途仍需核对",
+    "uncertainty": "仅原文锚点可核实；类型/功能/需求仍为AI候选。旧分组成员未经逐条语义核验，不用于直接定级。",
+    "historical_member_count": 96,
+    "authority": "CODEX_REVIEWED_LITERAL_ANCHORS_NOT_HUMAN_GOLD"
+  },
+  {
+    "group_id": "G03",
+    "name": "洗衣与衣物护理",
+    "function_hypothesis": "洗涤与晾晒衣物",
+    "need_hypothesis": "辅助衣物清洁与维护",
+    "typical_scenario_hypothesis": "家庭或日常使用；具体场景以原名为准",
+    "member_count": 5,
+    "specific_type_count": 13,
+    "examples": [
+      {
+        "sku": "220085",
+        "name_es_original": "Cuerda para tender la ropa",
+        "source_row_id": "row_cb6bacf4a669f6065e38ee56"
+      },
+      {
+        "sku": "2502244",
+        "name_es_original": "Tendedero puerta",
+        "source_row_id": "row_d653def6d5e5ea548707f13f"
+      },
+      {
+        "sku": "2517861",
+        "name_es_original": "Tabla de planchar",
+        "source_row_id": "row_4a12e616e2c4fb8d98481de3"
+      },
+      {
+        "sku": "2554513",
+        "name_es_original": "Cesta de la colada de ratán Curver",
+        "source_row_id": "row_820f48455a5cc3ea1cdb276b"
+      },
+      {
+        "sku": "2503772",
+        "name_es_original": "Bolsas para lavadora",
+        "source_row_id": "row_d5eeccb33475325413d11c53"
+      }
+    ],
+    "boundary": "同组不代表同款；安装方式、宿主依赖和特殊用途仍需核对",
+    "uncertainty": "仅原文锚点可核实；类型/功能/需求仍为AI候选。旧分组成员未经逐条语义核验，不用于直接定级。",
+    "historical_member_count": 36,
+    "authority": "CODEX_REVIEWED_LITERAL_ANCHORS_NOT_HUMAN_GOLD"
+  },
+  {
+    "group_id": "G04",
+    "name": "空间收纳整理",
+    "function_hypothesis": "分区存放物品",
+    "need_hypothesis": "整理有限空间中的物品",
+    "typical_scenario_hypothesis": "家庭或日常使用；具体场景以原名为准",
+    "member_count": 4,
+    "specific_type_count": 26,
+    "examples": [
+      {
+        "sku": "2533351",
+        "name_es_original": "Organizador de bolígrafos",
+        "source_row_id": "row_f4eae24842f3a2d8c28492c9"
+      },
+      {
+        "sku": "2533849",
+        "name_es_original": "Caja de almacenaje con cierre de clip",
+        "source_row_id": "row_60e429f346faf346f2393aa1"
+      },
+      {
+        "sku": "2534642",
+        "name_es_original": "Bolsas de almacenaje al vacío",
+        "source_row_id": "row_2a8f067ce6ab5adbe16e1f60"
+      },
+      {
+        "sku": "2553666",
+        "name_es_original": "Cesta de almacenaje",
+        "source_row_id": "row_5dba8e83b55dc0d3e32ed76a"
+      }
+    ],
+    "boundary": "同组不代表同款；安装方式、宿主依赖和特殊用途仍需核对",
+    "uncertainty": "仅原文锚点可核实；类型/功能/需求仍为AI候选。旧分组成员未经逐条语义核验，不用于直接定级。",
+    "historical_member_count": 168,
+    "authority": "CODEX_REVIEWED_LITERAL_ANCHORS_NOT_HUMAN_GOLD"
+  },
+  {
+    "group_id": "G05",
+    "name": "厨房备餐工具",
+    "function_hypothesis": "处理食材",
+    "need_hypothesis": "切分处理与准备食物",
+    "typical_scenario_hypothesis": "家庭或日常使用；具体场景以原名为准",
+    "member_count": 2,
+    "specific_type_count": 7,
+    "examples": [
+      {
+        "sku": "2546434",
+        "name_es_original": "Rallador",
+        "source_row_id": "row_83357a2ef49fbac341952c8e"
+      },
+      {
+        "sku": "3008431",
+        "name_es_original": "Set de peladores Excellent Houseware",
+        "source_row_id": "row_a55cf01e6cab288c63997cc8"
+      }
+    ],
+    "boundary": "同组不代表同款；安装方式、宿主依赖和特殊用途仍需核对",
+    "uncertainty": "仅原文锚点可核实；类型/功能/需求仍为AI候选。旧分组成员未经逐条语义核验，不用于直接定级。",
+    "historical_member_count": 17,
+    "authority": "CODEX_REVIEWED_LITERAL_ANCHORS_NOT_HUMAN_GOLD"
+  },
+  {
+    "group_id": "G06",
+    "name": "锅具与烘焙",
+    "function_hypothesis": "烹饪与烘烤",
+    "need_hypothesis": "加热食材与制作烘焙食品",
+    "typical_scenario_hypothesis": "家庭或日常使用；具体场景以原名为准",
+    "member_count": 4,
+    "specific_type_count": 10,
+    "examples": [
+      {
+        "sku": "2520260",
+        "name_es_original": "Sartén Tomado Superior",
+        "source_row_id": "row_9056e2581c303028acd917bd"
+      },
+      {
+        "sku": "2525119",
+        "name_es_original": "Cacerola Tomado Superior",
+        "source_row_id": "row_ebe8335bb6881a491145900a"
+      },
+      {
+        "sku": "2533753",
+        "name_es_original": "Cazo Tomado Superior",
+        "source_row_id": "row_bbc8f07e4ce8c0369ab4e01f"
+      },
+      {
+        "sku": "2550245",
+        "name_es_original": "Papel de horno Dumil",
+        "source_row_id": "row_6f4a65288e0d188471551097"
+      }
+    ],
+    "boundary": "同组不代表同款；安装方式、宿主依赖和特殊用途仍需核对",
+    "uncertainty": "仅原文锚点可核实；类型/功能/需求仍为AI候选。旧分组成员未经逐条语义核验，不用于直接定级。",
+    "historical_member_count": 77,
+    "authority": "CODEX_REVIEWED_LITERAL_ANCHORS_NOT_HUMAN_GOLD"
+  },
+  {
+    "group_id": "G07",
+    "name": "食品存放",
+    "function_hypothesis": "保存和携带食品",
+    "need_hypothesis": "食品分装存放与携带",
+    "typical_scenario_hypothesis": "家庭或日常使用；具体场景以原名为准",
+    "member_count": 2,
+    "specific_type_count": 2,
+    "examples": [
+      {
+        "sku": "3002315",
+        "name_es_original": "Fiambrera",
+        "source_row_id": "row_2edefaef49333b1d30f90a9c"
+      },
+      {
+        "sku": "3215355",
+        "name_es_original": "Contenedor de alimentos para llevar Starplast",
+        "source_row_id": "row_24fc14089ad426c97e70d67a"
+      }
+    ],
+    "boundary": "同组不代表同款；安装方式、宿主依赖和特殊用途仍需核对",
+    "uncertainty": "仅原文锚点可核实；类型/功能/需求仍为AI候选。旧分组成员未经逐条语义核验，不用于直接定级。",
+    "historical_member_count": 14,
+    "authority": "CODEX_REVIEWED_LITERAL_ANCHORS_NOT_HUMAN_GOLD"
+  },
+  {
+    "group_id": "G08",
+    "name": "餐桌与饮水用品",
+    "function_hypothesis": "进餐和饮水",
+    "need_hypothesis": "日常进餐饮水与餐桌使用",
+    "typical_scenario_hypothesis": "家庭或日常使用；具体场景以原名为准",
+    "member_count": 4,
+    "specific_type_count": 39,
+    "examples": [
+      {
+        "sku": "2513804",
+        "name_es_original": "Vasos de fiesta",
+        "source_row_id": "row_a348af8cee9ec294035d4701"
+      },
+      {
+        "sku": "2523277",
+        "name_es_original": "Posavasos",
+        "source_row_id": "row_524c8a994f9f036033106901"
+      },
+      {
+        "sku": "3014877",
+        "name_es_original": "Cubiertos",
+        "source_row_id": "row_64049ae7cb2180b3b3b90007"
+      },
+      {
+        "sku": "3009438",
+        "name_es_original": "Cucharas de postre",
+        "source_row_id": "row_5a3127e21049955d4cde55b5"
+      }
+    ],
+    "boundary": "同组不代表同款；安装方式、宿主依赖和特殊用途仍需核对",
+    "uncertainty": "仅原文锚点可核实；类型/功能/需求仍为AI候选。旧分组成员未经逐条语义核验，不用于直接定级。",
+    "historical_member_count": 366,
+    "authority": "CODEX_REVIEWED_LITERAL_ANCHORS_NOT_HUMAN_GOLD"
+  },
+  {
+    "group_id": "G09",
+    "name": "家用小电器",
+    "function_hypothesis": "家庭辅助处理",
+    "need_hypothesis": "家庭食物处理或日常家务",
+    "typical_scenario_hypothesis": "家庭或日常使用；具体场景以原名为准",
+    "member_count": 3,
+    "specific_type_count": 8,
+    "examples": [
+      {
+        "sku": "3011080",
+        "name_es_original": "Espumador de leche DAY",
+        "source_row_id": "row_0a083bce19965a2c8e7c11d6"
+      },
+      {
+        "sku": "3201736",
+        "name_es_original": "Cafetera Tomado Superior",
+        "source_row_id": "row_70cd26f20e79991fbe1f769a"
+      },
+      {
+        "sku": "3212789",
+        "name_es_original": "Freidora de aire Petra Dual View",
+        "source_row_id": "row_01b20ba95fbce8513b00c115"
+      }
+    ],
+    "boundary": "同组不代表同款；安装方式、宿主依赖和特殊用途仍需核对",
+    "uncertainty": "仅原文锚点可核实；类型/功能/需求仍为AI候选。旧分组成员未经逐条语义核验，不用于直接定级。",
+    "historical_member_count": 16,
+    "authority": "CODEX_REVIEWED_LITERAL_ANCHORS_NOT_HUMAN_GOLD"
+  },
+  {
+    "group_id": "G10",
+    "name": "家庭空气与温度",
+    "function_hypothesis": "空气流动和温度调节",
+    "need_hypothesis": "局部空气流动与环境舒适",
+    "typical_scenario_hypothesis": "家庭或日常使用；具体场景以原名为准",
+    "member_count": 4,
+    "specific_type_count": 3,
+    "examples": [
+      {
+        "sku": "2534279",
+        "name_es_original": "Ventilador Kinzo",
+        "source_row_id": "row_7086113f438d49b56d23c8b4"
+      },
+      {
+        "sku": "2580178",
+        "name_es_original": "Calentador eléctrico FERM",
+        "source_row_id": "row_2f67e60867e8e24d5ab23b32"
+      },
+      {
+        "sku": "3004974",
+        "name_es_original": "Aire acondicionado Kinzo",
+        "source_row_id": "row_eee10a437e5ed4a45d85999a"
+      },
+      {
+        "sku": "3215453",
+        "name_es_original": "Enfriador de aire Nedis",
+        "source_row_id": "row_b3b85ee2966d31cafc25e376"
+      }
+    ],
+    "boundary": "同组不代表同款；安装方式、宿主依赖和特殊用途仍需核对",
+    "uncertainty": "仅原文锚点可核实；类型/功能/需求仍为AI候选。旧分组成员未经逐条语义核验，不用于直接定级。",
+    "historical_member_count": 16,
+    "authority": "CODEX_REVIEWED_LITERAL_ANCHORS_NOT_HUMAN_GOLD"
+  },
+  {
+    "group_id": "G11",
+    "name": "照明",
+    "function_hypothesis": "提供照明",
+    "need_hypothesis": "局部或便携照明",
+    "typical_scenario_hypothesis": "家庭或日常使用；具体场景以原名为准",
+    "member_count": 3,
+    "specific_type_count": 16,
+    "examples": [
+      {
+        "sku": "2582385",
+        "name_es_original": "Iluminación para armario con sensor",
+        "source_row_id": "row_e3dcfa14f0eaaf9fce6659b8"
+      },
+      {
+        "sku": "3002463",
+        "name_es_original": "Linterna",
+        "source_row_id": "row_3067541f33ce19671fd8ee45"
+      },
+      {
+        "sku": "3006425",
+        "name_es_original": "Tiras LED para TV Grundig",
+        "source_row_id": "row_a3452757249c2db96983dfb2"
+      }
+    ],
+    "boundary": "同组不代表同款；安装方式、宿主依赖和特殊用途仍需核对",
+    "uncertainty": "仅原文锚点可核实；类型/功能/需求仍为AI候选。旧分组成员未经逐条语义核验，不用于直接定级。",
+    "historical_member_count": 122,
+    "authority": "CODEX_REVIEWED_LITERAL_ANCHORS_NOT_HUMAN_GOLD"
+  },
+  {
+    "group_id": "G12",
+    "name": "装饰与节庆",
+    "function_hypothesis": "装点空间",
+    "need_hypothesis": "家庭空间与节日布置",
+    "typical_scenario_hypothesis": "家庭或日常使用；具体场景以原名为准",
+    "member_count": 3,
+    "specific_type_count": 65,
+    "examples": [
+      {
+        "sku": "2508148",
+        "name_es_original": "Globos XL",
+        "source_row_id": "row_b9149e34dd060db32d4fde07"
+      },
+      {
+        "sku": "2533083",
+        "name_es_original": "Marco de fotos Love",
+        "source_row_id": "row_ea06b0d6fc2093b79e097c2a"
+      },
+      {
+        "sku": "2539018",
+        "name_es_original": "Mariposa decorativa",
+        "source_row_id": "row_139401d45538a9bf04274b7a"
+      }
+    ],
+    "boundary": "同组不代表同款；安装方式、宿主依赖和特殊用途仍需核对",
+    "uncertainty": "仅原文锚点可核实；类型/功能/需求仍为AI候选。旧分组成员未经逐条语义核验，不用于直接定级。",
+    "historical_member_count": 494,
+    "authority": "CODEX_REVIEWED_LITERAL_ANCHORS_NOT_HUMAN_GOLD"
+  },
+  {
+    "group_id": "G13",
+    "name": "蜡烛与空间芳香",
+    "function_hypothesis": "烛光或空间芳香",
+    "need_hypothesis": "室内氛围与空间气味",
+    "typical_scenario_hypothesis": "家庭或日常使用；具体场景以原名为准",
+    "member_count": 4,
+    "specific_type_count": 12,
+    "examples": [
+      {
+        "sku": "2530452",
+        "name_es_original": "Ambientador Fresssh",
+        "source_row_id": "row_a1600eb492bfcce357a1299e"
+      },
+      {
+        "sku": "2531079",
+        "name_es_original": "Vela de cementerio roja",
+        "source_row_id": "row_f139db4e663fa59a118be5aa"
+      },
+      {
+        "sku": "2547088",
+        "name_es_original": "Vela perfumada Air Wick Essential Oils Antitabaco",
+        "source_row_id": "row_7e63521df0124857c522ba5a"
+      },
+      {
+        "sku": "2562212",
+        "name_es_original": "Ambientador de coche Little Joe",
+        "source_row_id": "row_205d7e6ff0528da96a9b31ef"
+      }
+    ],
+    "boundary": "同组不代表同款；安装方式、宿主依赖和特殊用途仍需核对",
+    "uncertainty": "仅原文锚点可核实；类型/功能/需求仍为AI候选。旧分组成员未经逐条语义核验，不用于直接定级。",
+    "historical_member_count": 210,
+    "authority": "CODEX_REVIEWED_LITERAL_ANCHORS_NOT_HUMAN_GOLD"
+  },
+  {
+    "group_id": "G14",
+    "name": "艺术与手工",
+    "function_hypothesis": "制作与创作",
+    "need_hypothesis": "手工制作和绘画创作",
+    "typical_scenario_hypothesis": "家庭或日常使用；具体场景以原名为准",
+    "member_count": 2,
+    "specific_type_count": 57,
+    "examples": [
+      {
+        "sku": "2507446",
+        "name_es_original": "Paneles de pintura Van Bleiswijck",
+        "source_row_id": "row_7d29d0189040add129be82d5"
+      },
+      {
+        "sku": "2525235",
+        "name_es_original": "Bloc de dibujo para adultos",
+        "source_row_id": "row_e946d9f2b601ae9197d4c21d"
+      }
+    ],
+    "boundary": "同组不代表同款；安装方式、宿主依赖和特殊用途仍需核对",
+    "uncertainty": "仅原文锚点可核实；类型/功能/需求仍为AI候选。旧分组成员未经逐条语义核验，不用于直接定级。",
+    "historical_member_count": 270,
+    "authority": "CODEX_REVIEWED_LITERAL_ANCHORS_NOT_HUMAN_GOLD"
+  },
+  {
+    "group_id": "G15",
+    "name": "家用纺织与服饰",
+    "function_hypothesis": "覆盖穿着与擦干",
+    "need_hypothesis": "家用织物与日常穿着",
+    "typical_scenario_hypothesis": "家庭或日常使用；具体场景以原名为准",
+    "member_count": 4,
+    "specific_type_count": 41,
+    "examples": [
+      {
+        "sku": "131502",
+        "name_es_original": "Toalla de tocador Capetown aqua",
+        "source_row_id": "row_3df8bf0088afdafd26abaa04"
+      },
+      {
+        "sku": "131602",
+        "name_es_original": "Toalla de manos Capetown aqua",
+        "source_row_id": "row_ebc14d5f3a45783447e2a689"
+      },
+      {
+        "sku": "2511446",
+        "name_es_original": "Bóxers Ziki",
+        "source_row_id": "row_99edd3d01c7542b7ce21ab9f"
+      },
+      {
+        "sku": "2520562",
+        "name_es_original": "Mallas térmicas Kate Legwear 100 denier",
+        "source_row_id": "row_768a3fcba67384cd1c60cad6"
+      }
+    ],
+    "boundary": "同组不代表同款；安装方式、宿主依赖和特殊用途仍需核对",
+    "uncertainty": "仅原文锚点可核实；类型/功能/需求仍为AI候选。旧分组成员未经逐条语义核验，不用于直接定级。",
+    "historical_member_count": 787,
+    "authority": "CODEX_REVIEWED_LITERAL_ANCHORS_NOT_HUMAN_GOLD"
+  },
+  {
+    "group_id": "G16",
+    "name": "家用五金与工具",
+    "function_hypothesis": "家庭维修与固定",
+    "need_hypothesis": "日常修整安装与固定",
+    "typical_scenario_hypothesis": "家庭或日常使用；具体场景以原名为准",
+    "member_count": 3,
+    "specific_type_count": 55,
+    "examples": [
+      {
+        "sku": "1200021",
+        "name_es_original": "Mini set de barnizado",
+        "source_row_id": "row_91d9e4439bf07407d0ad1ecd"
+      },
+      {
+        "sku": "1221158",
+        "name_es_original": "Rodillos para barnizar",
+        "source_row_id": "row_38bb049bcf0fee0e4e95977a"
+      },
+      {
+        "sku": "2505686",
+        "name_es_original": "Martillo de carpintero Werckmann",
+        "source_row_id": "row_716a4d90cb3b77f60253f191"
+      }
+    ],
+    "boundary": "同组不代表同款；安装方式、宿主依赖和特殊用途仍需核对",
+    "uncertainty": "仅原文锚点可核实；类型/功能/需求仍为AI候选。旧分组成员未经逐条语义核验，不用于直接定级。",
+    "historical_member_count": 154,
+    "authority": "CODEX_REVIEWED_LITERAL_ANCHORS_NOT_HUMAN_GOLD"
+  },
+  {
+    "group_id": "G17",
+    "name": "园艺",
+    "function_hypothesis": "照料植物",
+    "need_hypothesis": "家庭种植与园艺维护",
+    "typical_scenario_hypothesis": "家庭或日常使用；具体场景以原名为准",
+    "member_count": 4,
+    "specific_type_count": 16,
+    "examples": [
+      {
+        "sku": "2518668",
+        "name_es_original": "Guantes de jardín Garden Touch",
+        "source_row_id": "row_2205927b1de4757cff7281ca"
+      },
+      {
+        "sku": "2533698",
+        "name_es_original": "Alambre de jardín My Garden",
+        "source_row_id": "row_07487cfe9d7c691fb745d177"
+      },
+      {
+        "sku": "2540582",
+        "name_es_original": "Rastrillo de hojas Garden Touch",
+        "source_row_id": "row_736dc097987c92fb2381c3e0"
+      },
+      {
+        "sku": "2540583",
+        "name_es_original": "Rastrillo de jardín Garden Touch",
+        "source_row_id": "row_94e2767ce2a4e793764e9656"
+      }
+    ],
+    "boundary": "同组不代表同款；安装方式、宿主依赖和特殊用途仍需核对",
+    "uncertainty": "仅原文锚点可核实；类型/功能/需求仍为AI候选。旧分组成员未经逐条语义核验，不用于直接定级。",
+    "historical_member_count": 101,
+    "authority": "CODEX_REVIEWED_LITERAL_ANCHORS_NOT_HUMAN_GOLD"
+  },
+  {
+    "group_id": "G18",
+    "name": "玩具与游戏",
+    "function_hypothesis": "玩耍与娱乐",
+    "need_hypothesis": "玩耍与休闲活动",
+    "typical_scenario_hypothesis": "家庭或日常使用；具体场景以原名为准",
+    "member_count": 4,
+    "specific_type_count": 87,
+    "examples": [
+      {
+        "sku": "2531851",
+        "name_es_original": "Coche en miniatura Welly Nex",
+        "source_row_id": "row_4b17d311c65ba18c4a7b7846"
+      },
+      {
+        "sku": "2539177",
+        "name_es_original": "Pompas de jabón",
+        "source_row_id": "row_ea4999377d7397e6db2ee99d"
+      },
+      {
+        "sku": "2547238",
+        "name_es_original": "Botella mágica de muñecos Dolly Star",
+        "source_row_id": "row_04e021673ff22906f22eb895"
+      },
+      {
+        "sku": "2552541",
+        "name_es_original": "Pistolas de agua",
+        "source_row_id": "row_12b7d7153759bb46c6779cc3"
+      }
+    ],
+    "boundary": "同组不代表同款；安装方式、宿主依赖和特殊用途仍需核对",
+    "uncertainty": "仅原文锚点可核实；类型/功能/需求仍为AI候选。旧分组成员未经逐条语义核验，不用于直接定级。",
+    "historical_member_count": 253,
+    "authority": "CODEX_REVIEWED_LITERAL_ANCHORS_NOT_HUMAN_GOLD"
+  },
+  {
+    "group_id": "G19",
+    "name": "个人护理",
+    "function_hypothesis": "日常个人护理",
+    "need_hypothesis": "清洁梳理和个人整理",
+    "typical_scenario_hypothesis": "家庭或日常使用；具体场景以原名为准",
+    "member_count": 2,
+    "specific_type_count": 76,
+    "examples": [
+      {
+        "sku": "2001236",
+        "name_es_original": "Discos de algodón Alvira",
+        "source_row_id": "row_66a82a694d5afa4f02e93f1d"
+      },
+      {
+        "sku": "2500945",
+        "name_es_original": "Aftershave Axe África",
+        "source_row_id": "row_5ff5b1e204b3c6fdf2e2e275"
+      }
+    ],
+    "boundary": "同组不代表同款；安装方式、宿主依赖和特殊用途仍需核对",
+    "uncertainty": "仅原文锚点可核实；类型/功能/需求仍为AI候选。旧分组成员未经逐条语义核验，不用于直接定级。",
+    "historical_member_count": 409,
+    "authority": "CODEX_REVIEWED_LITERAL_ANCHORS_NOT_HUMAN_GOLD"
+  },
+  {
+    "group_id": "G20",
+    "name": "宠物用品",
+    "function_hypothesis": "照料宠物",
+    "need_hypothesis": "家庭宠物喂养玩耍与护理",
+    "typical_scenario_hypothesis": "家庭或日常使用；具体场景以原名为准",
+    "member_count": 4,
+    "specific_type_count": 42,
+    "examples": [
+      {
+        "sku": "2523820",
+        "name_es_original": "Bolsas para excrementos de perro Dumil",
+        "source_row_id": "row_52f480799ba0adc0b5694cca"
+      },
+      {
+        "sku": "2525184",
+        "name_es_original": "Grava para ahuyentar a los gatos",
+        "source_row_id": "row_85f2f71832fd0b1ce2e63c07"
+      },
+      {
+        "sku": "2536552",
+        "name_es_original": "Aperitivos para perros Pedigree Dentastix",
+        "source_row_id": "row_2493940151eb25c5b5a056a6"
+      },
+      {
+        "sku": "2538645",
+        "name_es_original": "Golosinas para gatos Crunch Whiskas",
+        "source_row_id": "row_4d0075e308fa5952157de916"
+      }
+    ],
+    "boundary": "同组不代表同款；安装方式、宿主依赖和特殊用途仍需核对",
+    "uncertainty": "仅原文锚点可核实；类型/功能/需求仍为AI候选。旧分组成员未经逐条语义核验，不用于直接定级。",
+    "historical_member_count": 171,
+    "authority": "CODEX_REVIEWED_LITERAL_ANCHORS_NOT_HUMAN_GOLD"
+  },
+  {
+    "group_id": "G21",
+    "name": "文具与办公",
+    "function_hypothesis": "记录与书写",
+    "need_hypothesis": "日常书写记录及文件整理",
+    "typical_scenario_hypothesis": "家庭或日常使用；具体场景以原名为准",
+    "member_count": 4,
+    "specific_type_count": 30,
+    "examples": [
+      {
+        "sku": "2507907",
+        "name_es_original": "Marcadores Stanger",
+        "source_row_id": "row_45ee65999f5516139ab06c7c"
+      },
+      {
+        "sku": "2508891",
+        "name_es_original": "Bloc de notas Office Essentials",
+        "source_row_id": "row_e6bc95ebd07549cf46067e79"
+      },
+      {
+        "sku": "2513068",
+        "name_es_original": "Rollos de cintas correctoras Office Essentials",
+        "source_row_id": "row_c9cd4789693bab9510caed51"
+      },
+      {
+        "sku": "2514838",
+        "name_es_original": "Archivador de fuelle",
+        "source_row_id": "row_64b17a41b16d474467139ce1"
+      }
+    ],
+    "boundary": "同组不代表同款；安装方式、宿主依赖和特殊用途仍需核对",
+    "uncertainty": "仅原文锚点可核实；类型/功能/需求仍为AI候选。旧分组成员未经逐条语义核验，不用于直接定级。",
+    "historical_member_count": 299,
+    "authority": "CODEX_REVIEWED_LITERAL_ANCHORS_NOT_HUMAN_GOLD"
+  },
+  {
+    "group_id": "G22",
+    "name": "旅行与运动",
+    "function_hypothesis": "出行与运动",
+    "need_hypothesis": "日常出行与休闲运动",
+    "typical_scenario_hypothesis": "家庭或日常使用；具体场景以原名为准",
+    "member_count": 4,
+    "specific_type_count": 25,
+    "examples": [
+      {
+        "sku": "2525329",
+        "name_es_original": "Etiqueta de equipaje",
+        "source_row_id": "row_61d39fd5a1eee3c1a6a33412"
+      },
+      {
+        "sku": "2545575",
+        "name_es_original": "Correa de maleta",
+        "source_row_id": "row_5e87d7ddc5416e0f37388bd6"
+      },
+      {
+        "sku": "2546873",
+        "name_es_original": "Mochila",
+        "source_row_id": "row_4925dabcb4a8eb8c069b80ba"
+      },
+      {
+        "sku": "2549732",
+        "name_es_original": "Maleta rígida Spilbergen Brussel",
+        "source_row_id": "row_516217537f827bced24df61f"
+      }
+    ],
+    "boundary": "同组不代表同款；安装方式、宿主依赖和特殊用途仍需核对",
+    "uncertainty": "仅原文锚点可核实；类型/功能/需求仍为AI候选。旧分组成员未经逐条语义核验，不用于直接定级。",
+    "historical_member_count": 80,
+    "authority": "CODEX_REVIEWED_LITERAL_ANCHORS_NOT_HUMAN_GOLD"
+  },
+  {
+    "group_id": "G23",
+    "name": "消费电子配件",
+    "function_hypothesis": "连接与供电",
+    "need_hypothesis": "个人设备连接供电与使用",
+    "typical_scenario_hypothesis": "家庭或日常使用；具体场景以原名为准",
+    "member_count": 3,
+    "specific_type_count": 27,
+    "examples": [
+      {
+        "sku": "2534669",
+        "name_es_original": "Pila Panasonic",
+        "source_row_id": "row_8cc8466d249578da41f5329a"
+      },
+      {
+        "sku": "2536381",
+        "name_es_original": "Cargador de coche de 2 puertos Sologic",
+        "source_row_id": "row_f9c7eaf58eda1b3b9dfa93ae"
+      },
+      {
+        "sku": "2572330",
+        "name_es_original": "Cable de carga y datos Re-load USB-C",
+        "source_row_id": "row_343c3147379a9f3c1735e369"
+      }
+    ],
+    "boundary": "同组不代表同款；安装方式、宿主依赖和特殊用途仍需核对",
+    "uncertainty": "仅原文锚点可核实；类型/功能/需求仍为AI候选。旧分组成员未经逐条语义核验，不用于直接定级。",
+    "historical_member_count": 209,
+    "authority": "CODEX_REVIEWED_LITERAL_ANCHORS_NOT_HUMAN_GOLD"
+  },
+  {
+    "group_id": "G24",
+    "name": "食品与饮料",
+    "function_hypothesis": "饮食消费",
+    "need_hypothesis": "日常食品与饮料消费",
+    "typical_scenario_hypothesis": "家庭或日常使用；具体场景以原名为准",
+    "member_count": 2,
+    "specific_type_count": 72,
+    "examples": [
+      {
+        "sku": "2049010",
+        "name_es_original": "Galletas de manzana Patisserie",
+        "source_row_id": "row_2140415428e4d863b816e616"
+      },
+      {
+        "sku": "2500388",
+        "name_es_original": "Caramelos ácidos Roshen",
+        "source_row_id": "row_e779f94ff1f6cfd4a826d003"
+      }
+    ],
+    "boundary": "同组不代表同款；安装方式、宿主依赖和特殊用途仍需核对",
+    "uncertainty": "仅原文锚点可核实；类型/功能/需求仍为AI候选。旧分组成员未经逐条语义核验，不用于直接定级。",
+    "historical_member_count": 353,
+    "authority": "CODEX_REVIEWED_LITERAL_ANCHORS_NOT_HUMAN_GOLD"
+  }
+]

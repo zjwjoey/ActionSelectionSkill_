@@ -1,0 +1,13 @@
+{
+  "source_records": 25152,
+  "eligible_records_before_selection": 19955,
+  "eligible_conservative_unique_samples": 17376,
+  "new_samples": 500,
+  "remaining_after_selection": 16876,
+  "title_overlap": 0,
+  "asin_hint_overlap": 0,
+  "source_identity": "URL records and ASIN hints, not verified buyable SKU count",
+  "previous_full_mechanical_v0_pass": true,
+  "selection": "random_without_replacement",
+  "human_labels_for_new500": 0
+}

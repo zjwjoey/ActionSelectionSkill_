@@ -1,0 +1,50 @@
+{
+  "group": "c",
+  "review_ids": "P351-P500",
+  "reviewed": 150,
+  "authority": "AI_SEMANTIC_REVIEW_NOT_HUMAN_GOLD",
+  "rules_changed": false,
+  "owner_three_old_cases_generalized": false,
+  "findings": [
+    {
+      "type": "INFORMATION_INSUFFICIENT",
+      "ids": ["P426", "P431", "P452", "P489"],
+      "observation": "切线工具与闩钩混称、无明确主体的Solución Total施工材料、60K无液体芳香设备、损坏的SelanhäNger热转印标题。保持unknown，不用品牌常识补出具体材料、钥匙扣、电子烟或工具结构。"
+    },
+    {
+      "type": "TOP8_RETRIEVAL_MATERIAL_HOST_NOISE",
+      "ids": ["P355", "P360", "P362", "P371", "P380", "P384", "P389", "P406", "P408", "P411", "P419", "P441", "P446", "P451", "P460", "P471", "P481", "P488", "P496"],
+      "observation": "不锈钢对应饰品、玻璃保险丝对应玻璃杯、Minipimer对应杯子、浴室柜对应短袜、电路控制器对应灯饰等表层匹配持续出现。逐条语义判断拒绝了这些错误候选。"
+    },
+    {
+      "type": "BETTER_REFERENCE_RECOVERED_WITHIN_FROZEN_INDEX",
+      "ids": ["P355", "P371", "P372", "P376", "P379", "P390", "P393", "P416", "P419", "P427", "P430", "P441", "P453", "P458", "P459", "P462", "P466", "P468", "P469", "P480", "P481", "P488", "P497"],
+      "observation": "在不修改索引情况下补充查找了真实Action参照，如淋浴搁架、钥匙柜、烤面包机、油醋瓶、餐肉刀、刺绣套装和吸尘器吸嘴。所有保存参照都通过SKU、来源行、原标题绑定校验，相关类型不宣称完全同形或兼容。"
+    },
+    {
+      "type": "WHOLE_OBJECT_AND_PARTS_SEPARATED",
+      "ids": ["P352", "P360", "P378", "P380", "P385", "P386", "P388", "P411", "P414", "P421", "P440", "P442", "P459", "P460", "P466", "P471", "P476", "P482", "P494", "P496"],
+      "observation": "密封圈、CPAP绑带保护垫、梯具平台、电池、遥控器、滤芯、配电构件与驱动刷头保留配件身份；未继承宿主机器的边界。"
+    },
+    {
+      "type": "ORDINARY_VACUUM_NOT_ROBOT_BY_BRAND",
+      "ids": ["P379", "P403", "P475", "P483"],
+      "observation": "本组四个吸尘清洁设备具有明确日常清洁主体和真实Action设备参照，未因品牌、深度清洁、自清洁或Trineo词误判机器人或雪橇。"
+    },
+    {
+      "type": "UNCONFIRMED_BOUNDARY_STAYS_REVIEW",
+      "ids": ["P381", "P384", "P397", "P405", "P413", "P418", "P425", "P435", "P445", "P446", "P465", "P479", "P481", "P484", "P486", "P493"],
+      "observation": "家电、完整家具、化学燃料、长木料、商业坚果烘烤机等依冻结的未确认经营边界保持复核；没有把旧3条Owner决定自动外推。商业烘烤机未满足冻结的明确工业整机字面证明，不能为增加排除数量而放宽。"
+    },
+    {
+      "type": "REFERENCE_COVERAGE_LIMIT",
+      "ids": ["P355"],
+      "observation": "Action分餐夹仅覆盖冰夹加食物铲组合中的夹具部分，记录partial_bundle并由程序保持待复核。"
+    }
+  ],
+  "actual_decisions": {"纳入候选": 68, "待复核": 82, "暂不纳入": 0},
+  "pending_reason_counts": {"OPERATING_BOUNDARY_UNCONFIRMED": 33, "DEPENDENCY_REVIEW": 22, "REFERENCE_COVERAGE_INCOMPLETE": 1, "REFERENCE_ABSENT": 22, "INFORMATION_INSUFFICIENT": 4},
+  "human_labels": 0,
+  "accuracy": null,
+  "interpretation": "150条随机试用子集的实际AI候选状态分布；没有合格排除案例不代表排除能力已通过。需汇总全500并另行人工核查。"
+}

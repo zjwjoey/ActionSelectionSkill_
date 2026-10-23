@@ -1,0 +1,20 @@
+{
+  "version":"boundary-v0",
+  "status":"CANDIDATE_EXPERIMENT_ONLY",
+  "semantic_library":"frozen-v2.6/action10037",
+  "output_states":["纳入候选","待复核","暂不纳入"],
+  "scope_states":["范围内","灰区","范围外","未知"],
+  "core":["厨房日用品","清洁","收纳","装饰","文具","园艺","宠物","玩具手工","简单工具","生活小电器"],
+  "gray":["动力工具","复杂小电器","自动化清洁设备","陶艺机器","完整家具","专用配件","安装部件","形态不明设备"],
+  "outside_candidates":["明确大家电整机","分体固定空调","固定储水热水器","明确工业机器","固定烟囱排烟系统","标题明确三项复杂自动基站功能的清洁机器人"],
+  "rules":[
+    {"id":"WHOLE_MAJOR_APPLIANCE","conditions":"clear sold subject in washer/dryer/fridge/dishwasher; no earlier accessory head","counterexamples":["laundry bag","fridge magnet","appliance cover"],"human_support":[],"status":"CANDIDATE"},
+    {"id":"COMPLEX_AUTOMATIC_CLEANER","conditions":"whole robot cleaner plus >=3 explicit system-feature families: emptying, washing, station, mapping","counterexamples":["handheld vacuum","ordinary stick vacuum","robot dust bag","ambiguous short name"],"human_support":[],"status":"CANDIDATE"},
+    {"id":"MACHINE_FORM_REVIEW","conditions":"electric tool/pottery wheel/unknown machine form stays gray unless explicit supported outside boundary","counterexamples":["manual pottery clay","ordinary hand tool","mini device without confirmed system scale"],"human_support":[],"status":"CANDIDATE"},
+    {"id":"BOUNDARY_BEFORE_REFERENCE","conditions":"real Action reference cannot override gray/outside scope","counterexamples":["ordinary steam iron versus vertical steamer needs type assessment","clay versus powered pottery wheel"],"human_support":[],"status":"CANDIDATE"}
+  ],
+  "no_price_inference":true,
+  "no_keyword_only_exclusion":true,
+  "human_gold":0,
+  "full_run_mode":"EXPERIMENTAL_ONLY_AFTER_500_AND_200_GATES"
+}

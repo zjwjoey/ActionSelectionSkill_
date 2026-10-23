@@ -1,0 +1,38 @@
+{
+  "total": 10037,
+  "target_skus": 2992,
+  "frozen_unchanged": 7045,
+  "rules": 791,
+  "before": {
+    "SPECIFIC_SEMANTIC_CANDIDATE": 6777,
+    "FEATURE_TOO_BROAD": 1602,
+    "RULE_COVERAGE_GAP": 1390,
+    "INFORMATION_INSUFFICIENT": 268
+  },
+  "after": {
+    "SPECIFIC_SEMANTIC_CANDIDATE": 8338,
+    "RULE_COVERAGE_GAP": 884,
+    "FEATURE_TOO_BROAD": 547,
+    "INFORMATION_INSUFFICIENT": 268
+  },
+  "target_after": {
+    "SPECIFIC_SEMANTIC_CANDIDATE": 1561,
+    "RULE_COVERAGE_GAP": 884,
+    "FEATURE_TOO_BROAD": 547
+  },
+  "human_gold": 0,
+  "accuracy": null,
+  "website_facts_in_title_results": 0,
+  "run_id": "semantic23_d5df918ae3d1e308",
+  "new_specific_candidates_in_2992": 1561,
+  "retained_unresolved_in_2992": 1431,
+  "v23_target_statuses": {
+    "SPECIFIC_SEMANTIC_CANDIDATE": 1561,
+    "RULE_COVERAGE_GAP": 884,
+    "FEATURE_TOO_BROAD": 547
+  },
+  "result_payloads_changed": 2992,
+  "website_evidence_records": 5,
+  "sealed_titles_read": 0,
+  "source_anomalies_included": 0
+}

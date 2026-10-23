@@ -1,0 +1,59 @@
+{
+  "group": "B",
+  "range": "P201-P350",
+  "reviewed_original_titles": 150,
+  "authority": "AI_TITLE_INTERPRETATION_NOT_HUMAN_GOLD",
+  "frozen_method_changed": false,
+  "owner_three_case_decisions_generalized": false,
+  "findings": [
+    {
+      "code": "RETRIEVAL_SUBJECT_NOISE_CONTINUES",
+      "examples": ["P202", "P204", "P209", "P222", "P223", "P226", "P241", "P247", "P248", "P291", "P303", "P336", "P349"],
+      "observation": "材料、功率描述、触屏、主体所服务的物品和品牌通用词仍会盖过商品主体：钢制容器检出首饰，烤面包机和炸锅检出屏幕保护膜，螺纹杆检出香薰棒，研钵的mano检出护手霜，书桌检出桌面整理盒。",
+      "handling": "真实语言识别后补查冻结Action10037中的具体类型；不相关top8未强行使用，找不到具体参照则待复核。",
+      "rule_change_this_round": false
+    },
+    {
+      "code": "SOURCE_INSUFFICIENCY_PRESERVED",
+      "examples": ["P237", "P277", "P293", "P294", "P300"],
+      "observation": "缺商品名的型号功率标题、用途不明的片材分配器、未明宿主的obturador、咖啡与杯/克重混杂、未明驱动方式的Cafetera均不能凭品牌或常识补齐。",
+      "handling": "统一unknown形态与dependency，scope未知；保留信息不足原因。"
+    },
+    {
+      "code": "ACTUAL_SOLD_OBJECT_OVERRIDES_HOST_WORD",
+      "examples": ["P206", "P210", "P213", "P231", "P253", "P271", "P279", "P288", "P311", "P312", "P313", "P322", "P340"],
+      "observation": "咖啡撒粉器不是相机、压痕板不是礼盒、烤面包袋不是烤面包机、金属铸锭模具不是工业整机、替换刷辊和点火线圈不是宿主、晾晒网不是电烘干机、一盘蜡烛不是独立托盘。",
+      "handling": "逐条记录原文主体字面片段，并将宿主配件或专业用途边界保持独立复核。"
+    },
+    {
+      "code": "GENERAL_HARDWARE_VS_FIXED_INSTALLATION",
+      "examples": ["P207", "P222", "P235", "P248", "P258", "P280", "P295", "P311", "P317", "P335", "P337", "P342"],
+      "observation": "通用挂钩、层板托架和标准电源线与需适配的轨道、升降机构、接线端子不同。不能因为出现安装或螺钉就判完整系统，也不能因无钻孔就忽略真实宿主依赖。",
+      "handling": "按冻结形态契约区分通用附件、指定宿主配件、需安装的组件；未新增SKU规则。"
+    },
+    {
+      "code": "OPERATING_BOUNDARY_REVIEW_IS_NOT_UNDERSTANDING_FAILURE",
+      "examples": ["P204", "P219", "P223", "P226", "P228", "P233", "P242", "P250", "P260", "P267", "P283", "P284", "P285", "P286", "P290", "P291", "P303", "P305", "P309", "P310", "P318", "P326", "P328", "P329", "P334", "P336", "P346"],
+      "observation": "多数小家电、完整家具、大型陈设及门机系统的主体已明确，但冻结经营边界要求待复核。旧3条Owner裁定没有作为新样本的通用排除政策。",
+      "handling": "保持相应经营边界代码，不因待复核数量高而强制纳入或排除。"
+    },
+    {
+      "code": "BOUNDED_REFERENCE_AND_BUNDLE_REVIEW",
+      "examples": ["P202", "P218", "P221", "P234", "P240", "P261", "P274", "P287", "P292", "P295", "P296", "P327"],
+      "observation": "部分套装只有一个部件得到参照；另有保温食品容器对通名保温容器、生日皇冠对节庆头箍、独立镜灯对带灯化妆镜等相近需求参照。不能把相关需求当完全相同商品结构。",
+      "handling": "套装部分覆盖进入复核；相近需求逐条写明结构和供货差异，供人工审核参照是否有用。"
+    },
+    {
+      "code": "CLAIMS_NOT_VERIFIED_FACTS",
+      "examples": ["P208", "P228", "P243", "P256", "P267", "P290", "P308", "P320", "P342"],
+      "observation": "传感器10年与电池1年、承重、无烟无味、耐洗、低耗电、臭氧净化、20年保质、耐化学材料与吸盘/胶粘结构均保留为来源声称或冲突待核。",
+      "handling": "没有将营销性能当验收事实，没有补造安全认证或使用条件。"
+    },
+    {
+      "code": "NO_REQUIRED_EXCLUSION_PERCENTAGE",
+      "examples": [],
+      "observation": "本组无符合冻结三类明确整机排除证据的最终排除项。零排除不能证明排除能力，也不能为了三态分布而补造排除。",
+      "handling": "正式准确率和误排除率仍为空，人工标签为0。"
+    }
+  ]
+}
