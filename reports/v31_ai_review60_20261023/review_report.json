@@ -1,0 +1,94 @@
+{
+  "code_sha": "bdaf82f371c6329ca5d6e1c46544c434effe06e9",
+  "reviewed": 60,
+  "focus20": 20,
+  "semantic_reference_corrections": 16,
+  "decision_changes": 10,
+  "focus20_after": {
+    "保留": 12,
+    "观察": 8
+  },
+  "review60_before": {
+    "保留": 28,
+    "观察": 32
+  },
+  "review60_after": {
+    "保留": 18,
+    "观察": 42
+  },
+  "amended300": {
+    "观察": 158,
+    "保留": 142
+  },
+  "unreviewed_unchanged": 240,
+  "human_confirmed": 0,
+  "accuracy": null,
+  "sample_expanded": false,
+  "main_merged": false,
+  "frozen_contract_unchanged": true,
+  "original_files_sha256": {
+    "F:\\ActionSelectionSkill\\repository_sync\\ActionSelectionSkill_\\work\\v31_20261023\\inputs300.jsonl": "ce8d8ad1df7c9ed43bf03e8a2bcf7f7fcf1e061330e566629dcf338162f8123c",
+    "F:\\ActionSelectionSkill\\repository_sync\\ActionSelectionSkill_\\work\\v31_20261023\\analysis300.jsonl": "146b55ebc77df855b67c68afe1a88800f2b72b2ab950c4507d6b01eac7a85263",
+    "F:\\ActionSelectionSkill\\repository_sync\\ActionSelectionSkill_\\work\\v31_20261023\\results300.jsonl": "4a8f06ca26e921e4da0e31b523c830208b6cfecec056b95d81f2db3416df860c",
+    "F:\\ActionSelectionSkill\\repository_sync\\ActionSelectionSkill_\\work\\v31_20261023\\human_review60.csv": "38a83928e1f2f1a398f8044edda981202cbe3de3325bd05bac2075f17b6c943e",
+    "F:\\ActionSelectionSkill\\repository_sync\\ActionSelectionSkill_\\work\\v31_20261023\\outputs\\v31_pilot300_20261023\\ActionSelectionSkill_V3.1_300条结果与60条人工校准.xlsx": "2e7c5810fcf907b6c3c33c5e1931e08fc163c67b0cd7400cd05ba8bede4ebec0"
+  },
+  "summary": {
+    "run_id": "v3-d6204e66ab94ab3bf088",
+    "records": 60,
+    "decisions": {
+      "保留": 18,
+      "观察": 42,
+      "用不到": 0
+    },
+    "understanding": {
+      "UNDERSTOOD_CANDIDATE": 55,
+      "INFORMATION_INSUFFICIENT": 5
+    },
+    "semantic_completed": 60,
+    "semantic_pending": 0,
+    "provider_calls": 0,
+    "reused_analyses": 0,
+    "new_data_rows": 120,
+    "errors": 0,
+    "accuracy": null,
+    "integrity": {
+      "integrity": "ok",
+      "foreign_keys": 0
+    },
+    "output": "F:\\ActionSelectionSkill\\repository_sync\\ActionSelectionSkill_\\work\\v31_20261023\\review60\\runs\\v3-d6204e66ab94ab3bf088\\attempt_u0x_5_9u",
+    "parent_run": "v3-ca34f3eddbe4c8c39ec4"
+  },
+  "resume": {
+    "run_id": "v3-d6204e66ab94ab3bf088",
+    "records": 60,
+    "decisions": {
+      "保留": 18,
+      "观察": 42,
+      "用不到": 0
+    },
+    "understanding": {
+      "UNDERSTOOD_CANDIDATE": 55,
+      "INFORMATION_INSUFFICIENT": 5
+    },
+    "semantic_completed": 60,
+    "semantic_pending": 0,
+    "provider_calls": 0,
+    "reused_analyses": 60,
+    "new_data_rows": 0,
+    "errors": 0,
+    "accuracy": null,
+    "integrity": {
+      "integrity": "ok",
+      "foreign_keys": 0
+    },
+    "output": "F:\\ActionSelectionSkill\\repository_sync\\ActionSelectionSkill_\\work\\v31_20261023\\review60\\runs\\v3-d6204e66ab94ab3bf088\\attempt_wedg5vxk",
+    "parent_run": "v3-ca34f3eddbe4c8c39ec4"
+  },
+  "pending_reasons": {
+    "REFERENCE_NOT_SUFFICIENT": 17,
+    "DEPENDENCY_SCOPE_UNCONFIRMED": 9,
+    "OPERATING_SCOPE_UNCONFIRMED": 11,
+    "INFORMATION_INSUFFICIENT": 5
+  }
+}
