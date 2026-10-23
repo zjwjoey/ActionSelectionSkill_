@@ -15,7 +15,7 @@ from runtime.v31.workflow import execute,contract,rescreen
 from runtime.v31.rules import propose,validate_rule,release,active_release
 from runtime.v31.core import CHANNEL
 
-RULE_PROMPT='''You are proposing AI-only experimental merchandise boundary rules, not human policy. Use ONLY supplied real development sources and TWO blind AI analyses. Find shared whole-product business features rather than brands, model numbers, SKU keywords or missing Action matches. Proposed decision may be 保留/观察/用不到. Exclusion needs at least TWO positive title-evidenced feature conditions and a clear whole sold object. Never exclude a machine's ordinary accessories or consumables by a host mention. Need >=2 different product support_ids and >=2 counterexample_ids from this batch. Examples should include manual/small ordinary alternatives, parts, and less automated variants where available. Support must have two consistent boundary opinions (范围外 for 用不到; 范围内 for 保留), clear subjects, and satisfy the proposed predicate in BOTH rounds. Conditions may list reusable Chinese subject families observed in both passes, forms, and features_all. No regex or SKU-specific conditions. If evidence is insufficient return rules=[] and explain blockers. Technical validation is NOT accuracy. Maximum two proposed rules; do not invent support.'''
+RULE_PROMPT='''You are proposing AI-only experimental merchandise boundary rules, not human policy. Use ONLY supplied real development sources and TWO blind AI analyses. Find shared whole-product business features rather than brands, model numbers, SKU keywords or missing Action matches. Proposed decision may be 保留/观察/用不到. Exclusion needs at least TWO positive title-evidenced feature conditions with different literal anchors and a clear whole sold object. Never exclude a machine's ordinary accessories or consumables by a host mention. Need >=2 different product support_ids and >=2 counterexample_ids from this batch. Examples should include manual/small ordinary alternatives, parts, and less automated variants where available. Support must have two consistent boundary opinions (范围外 for 用不到; 范围内 for 保留), clear subjects, and satisfy the proposed predicate in BOTH rounds. Conditions list forms and features_all; families may list reusable Chinese subject families observed in both passes. When positive typed identity features already establish subject type, families may be [] to avoid treating Chinese wording variants as different objects. This requires >=2 distinct positive features and one identity feature: robot_cleaner,major_appliance,large_complete_furniture,manual_tool,ordinary_consumable,ordinary_accessory. Context/need or absence of references alone never defines identity. Retain rules still require concrete same/related Action references with whole coverage; do not propose blanket daily-goods retention. No regex or SKU-specific conditions. If evidence is insufficient return rules=[] and explain blockers. Technical validation is NOT accuracy. Maximum two proposed rules; do not invent support.'''
 
 def generate_rules(state,folder,execution):
     rows=[r for _,r in state.all('result') if r['execution_id']==execution]
@@ -33,8 +33,21 @@ def generate_rules(state,folder,execution):
     rest=[m for m in material if m not in outside]
     groups={}
     for m in rest:groups.setdefault((m['initial']['form'],m['initial']['subject_family']),[]).append(m)
-    diverse=[v[0] for _,v in sorted(groups.items())]
-    material=(outside[:45]+diverse[:35])[:80]
+    families={m[k]['subject_family'] for m in outside for k in ['initial','review']}
+    near=[m for m in rest if any(m[k]['subject_family'] in families or any(f['name']=='robot_cleaner' for f in m[k]['features']) for k in ['initial','review'])]
+    # Include forms in round-robin order, rather than filling all controls with
+    # alphabetically early bundle groups and omitting ordinary/manual machines.
+    form_groups={}
+    for (form,family),values in sorted(groups.items()):form_groups.setdefault(form,[]).append(values[0])
+    diverse=[]
+    while any(form_groups.values()):
+        for form in sorted(form_groups):
+            if form_groups[form]:diverse.append(form_groups[form].pop(0))
+    material=[];seen=set()
+    for m in outside[:35]+near[:25]+diverse:
+        if m['record_id'] in seen:continue
+        seen.add(m['record_id']);material.append(m)
+        if len(material)==80:break
     folder=Path(folder);folder.mkdir(parents=True,exist_ok=True)
     request={'instruction':RULE_PROMPT,'examples':material}
     (folder/'request.json').write_text(canonical(request),encoding='utf-8')

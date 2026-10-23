@@ -42,6 +42,10 @@ def execute(root,raw_rows,db,output,catalog,mode='queue',analysis=None,review=No
         # silently reuse a prior run's results even when the source is unchanged.
         execution=state.put('execution',{'run':run_id,'analysis_provider':first.identity,'review_provider':second.identity,'batch_size':batch_size})
         completed=[];pending=[];errors=[];owners={}
+        # These records are content-addressed and verified when loaded. Use an
+        # immutable in-process snapshot rather than re-reading every prior request
+        # for every product (quadratic SQL/JSON work during a cache-only replay).
+        request_cache={v['key']:v['request'] for _,v in state.all('request')}
         for f in state.store.all('v3_feedback'):
             evidence(root,f);key=(f['record_id'],f['source_hash'])
             if key in owners and owners[key]['decision']!=f['decision']:raise ValueError('CONFLICTING_FORMAL_OWNER_FEEDBACK')
@@ -53,9 +57,10 @@ def execute(root,raw_rows,db,output,catalog,mode='queue',analysis=None,review=No
             chunk=rows[start:start+max(1,min(50,batch_size))];requests=[]
             for row in chunk:
                 request_key=digest({'row':row,'catalog':frozen['v3']})
-                found=[p for _,p in state.all('request') if p['key']==request_key]
-                req=found[0]['request'] if found else dict(row,action_candidates=[{'sku':c['sku'],'name_es_original':c['name_es_original']} for c in catalog.retrieve(row['title_original'],limit=6)])
-                if not found:state.put('request',{'key':request_key,'request':req})
+                req=request_cache.get(request_key)
+                if req is None:
+                    req=dict(row,action_candidates=[{'sku':c['sku'],'name_es_original':c['name_es_original']} for c in catalog.retrieve(row['title_original'],limit=6)])
+                    state.put('request',{'key':request_key,'request':req});request_cache[request_key]=req
                 requests.append(req)
             try:
                 def bounded_model(provider,role):

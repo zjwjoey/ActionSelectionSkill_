@@ -24,7 +24,7 @@ python scripts/share_tool.py experiment-screen --input products.jsonl --mode cod
 
 规则JSON需要`channel=AI_EXPERIMENTAL_BOUNDARY`、`authority=AI_CANDIDATE`、`version`、`decision`、`rationale`、`conditions`、`support_ids`、`counterexample_ids`。
 
-`conditions`包含可复用的`families`、售卖形态`forms`、具备原题字面证据的`features_all`。不接受SKU、品牌、型号正则或“找不到参照”作为条件。用不到规则要求完整销售主体及至少两项正向事实条件，机器规则不能作用于宿主配件。
+`conditions`包含可复用的`families`、售卖形态`forms`、具备原题字面证据的`features_all`。若受控的正向主体身份特征已定义商品类型，`families`可为空，避免中文自由标签的措辞阻断同类泛化；仍须至少两项正向特征，单一用途或场景不够。不接受SKU、品牌、型号正则或“找不到参照”作为条件。用不到规则要求完整销售主体及至少两个不同原文字面锚点，机器规则不能作用于宿主配件。
 
 ```sh
 python scripts/share_tool.py experiment-propose --file candidate.json

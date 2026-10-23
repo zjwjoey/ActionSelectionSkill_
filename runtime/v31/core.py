@@ -6,6 +6,12 @@ CHANNEL='AI_EXPERIMENTAL_BOUNDARY'
 FEATURES={'autonomous_navigation','automatic_maintenance','robot_cleaner','industrial_context',
           'heavy_duty_machine','large_complete_furniture','powered_furniture','major_appliance',
           'host_dependency','manual_tool','ordinary_consumable','ordinary_accessory','household_good'}
+SUBJECT_IDENTITY_FEATURES={'robot_cleaner','major_appliance','large_complete_furniture','manual_tool','ordinary_consumable','ordinary_accessory'}
+
+def sale_role(form):
+    # A universal accessory is an independently sold ordinary good, not a
+    # proprietary host component. Keep bundles and all machine roles distinct.
+    return 'independent_ordinary_good' if form in {'ordinary_good','universal_accessory'} else form
 
 def source(raw):
     rid=str(raw.get('record_id') or '').strip();title=str(raw.get('title_original') or '').strip()
@@ -34,7 +40,7 @@ def validate(row,a,catalog):
 def matches(rule,a):
     c=rule['conditions'];features={x['name'] for x in a['features']}
     supported=(a['information_status']=='clear' and a['form'] in c['forms']
-            and a['subject_family'] in c['families'] and set(c['features_all'])<=features)
+            and (not c['families'] or a['subject_family'] in c['families']) and set(c['features_all'])<=features)
     if supported and rule['decision']=='用不到':
         anchors={x['span'].strip().casefold() for x in a['features'] if x['name'] in c['features_all']}
         # Two semantic labels citing the same keyword are not two independent
@@ -80,7 +86,7 @@ def reconcile(row,first,second,catalog,rules=(),formal=None,owner=None):
         # that the models recognized different sold objects. Disjoint literal
         # subject spans and different sold forms remain actual unresolved risks.
         fspan=first['subject_span'].casefold();sspan=second['subject_span'].casefold()
-        if any(first[k]!=second[k] for k in ['form','information_status']) or not (fspan in sspan or sspan in fspan):layers.append('subject')
+        if sale_role(first['form'])!=sale_role(second['form']) or first['information_status']!=second['information_status'] or not (fspan in sspan or sspan in fspan):layers.append('subject')
         def ref_grade(a):
             if a['relation']=='none':return ('none',)
             strength='eligible' if a['match_strength'] in {'强','中'} else 'insufficient'
@@ -102,5 +108,6 @@ def reconcile(row,first,second,catalog,rules=(),formal=None,owner=None):
                 boundary_review='DISPUTED' if 'boundary' in layers else 'AI_AGREEMENT_NOT_GOLD',
                 review_completed=not missing,initial_analysis=first,review_analysis=second,
                 taxonomy_variation=bool(first and second and first['subject_family']!=second['subject_family']),
+                ordinary_role_granularity_variation=bool(first and second and first['form']!=second['form'] and sale_role(first['form'])==sale_role(second['form'])),
                 reference_sku_variation=bool(first and second and first['action_sku']!=second['action_sku']),
                 reference_disagreement_resolved_by_boundary=bool(resolved_by_boundary))

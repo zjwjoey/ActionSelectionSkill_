@@ -177,5 +177,34 @@ class Experimental(unittest.TestCase):
             self.assertEqual(m.repair_feedback([self.row],'critic'),{})
             self.assertEqual(m.repair_feedback([self.row],'understand'),{self.row['record_id']:['SUBJECT_SPAN_NOT_LITERAL']})
         finally:s.close()
+    def test_typed_subject_rule_not_bound_to_chinese_family_wording(self):
+        s=State(self.dir/'typed.db')
+        try:
+            c=dict(self.rule['conditions'],families=[]);r=propose(s,dict(self.rule,conditions=c))
+            self.assertTrue(matches(r,dict(self.a,subject_family='另一种正确的清洁设备表述')))
+            self.assertFalse(matches(r,dict(self.a,form='host_component')))
+        finally:s.close()
+    def test_need_only_rule_without_type_scope_rejected(self):
+        s=State(self.dir/'need.db')
+        try:
+            c=dict(self.rule['conditions'],families=[],features_all=['household_good','host_dependency'])
+            with self.assertRaisesRegex(ValueError,'IDENTITY'):propose(s,dict(self.rule,conditions=c))
+        finally:s.close()
+    def test_ordinary_and_universal_role_granularity_not_subject_error(self):
+        a=dict(self.a,form='ordinary_good',operating_context='daily',boundary='范围内',relation='same_type',coverage='subject',match_strength='强')
+        b=dict(a,form='universal_accessory');r=reconcile(self.row,a,b,self.catalog)
+        self.assertEqual(r['decision'],'保留');self.assertNotIn('subject',r['disagreement_layers'])
+        self.assertTrue(r['ordinary_role_granularity_variation'])
+        self.assertEqual(reconcile(self.row,a,dict(b,form='host_component'),self.catalog)['decision'],'观察')
+    def test_bulk_event_read_uses_one_select_and_verifies_hashes(self):
+        s=State(self.dir/'bulk.db')
+        try:
+            keys=[s.put('fixture',{'n':i}) for i in range(5)];sql=[];s.db.set_trace_callback(sql.append)
+            self.assertEqual(len(s.all('fixture')),5)
+            self.assertEqual(sum(q.lstrip().upper().startswith('SELECT') for q in sql),1)
+            s.db.set_trace_callback(None)
+            s.db.execute('UPDATE v31_events SET payload=? WHERE id=?',(json.dumps({'n':'tampered'}),keys[0]));s.db.commit()
+            with self.assertRaisesRegex(ValueError,'HASH_MISMATCH'):s.all('fixture')
+        finally:s.close()
 
 if __name__=='__main__':unittest.main()

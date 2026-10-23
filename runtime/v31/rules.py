@@ -1,14 +1,17 @@
 """AI-only experimental rule evidence; never writes V3 human policy tables."""
 from runtime.v3.core import digest,LABELS,FORMS
-from .core import CHANNEL,FEATURES,matches,project,validate
+from .core import CHANNEL,FEATURES,SUBJECT_IDENTITY_FEATURES,matches,project,validate
 
 def propose(state,spec):
     r=dict(spec);c=r.get('conditions',{})
     if r.get('channel')!=CHANNEL or r.get('authority')!='AI_CANDIDATE':raise ValueError('AI_EXPERIMENTAL_CHANNEL_REQUIRED')
     if r.get('decision') not in LABELS or not r.get('rationale') or not str(r.get('version','')).strip():raise ValueError('RULE_METADATA_REQUIRED')
-    if set(c)!={'families','forms','features_all'} or any(not isinstance(c[k],list) or not c[k] or any(not isinstance(v,str) or not v.strip() or v=='*' for v in c[k]) for k in c):raise ValueError('BOUNDED_SEMANTIC_CONDITIONS_REQUIRED')
+    if set(c)!={'families','forms','features_all'} or any(not isinstance(c[k],list) or (not c[k] and k!='families') or any(not isinstance(v,str) or not v.strip() or v=='*' for v in c[k]) for k in c):raise ValueError('BOUNDED_SEMANTIC_CONDITIONS_REQUIRED')
     if not set(c['features_all'])<=FEATURES:raise ValueError('RULE_UNKNOWN_FEATURE')
     if not set(c['forms'])<=FORMS:raise ValueError('RULE_INVALID_FORM')
+    # A literal, typed identity fact can define product scope without relying on
+    # unconstrained Chinese family phrasing. A context/need-only rule cannot.
+    if not c['families'] and (not (set(c['features_all'])&SUBJECT_IDENTITY_FEATURES) or len(set(c['features_all']))<2):raise ValueError('FAMILY_OR_TYPED_SUBJECT_IDENTITY_REQUIRED')
     # Exclusion must be a positive bounded machine/whole-object condition, never
     # a missing reference, keyword, model number, brand or negative condition.
     if r['decision']=='用不到' and (not set(c['forms'])<={'whole_machine','whole_system','ordinary_good'} or len(set(c['features_all']))<2):raise ValueError('EXCLUSION_REQUIRES_COMPOUND_WHOLE_SUBJECT_CONDITION')
