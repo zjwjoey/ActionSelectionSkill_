@@ -1,0 +1,71 @@
+{
+  "version": "v3.0-candidate",
+  "date": "2026-10-23",
+  "branch": "feat/v3-unified-screening",
+  "base_sha": "3a427ef223613c140faaffc94a64f1390693e828",
+  "code_contract_hash": "db1370e2b61b5134ecfdaeb72eb7e20071fe7ecefd85efd1d97d8a038830ab36",
+  "single_skill_entry": true,
+  "action_references": 10037,
+  "semantic_candidates": 10037,
+  "original_types_preserved": 1918,
+  "conservative_canonical_types": 1912,
+  "singleton_original_types_preserved": 997,
+  "frozen_files_verified": 201,
+  "frozen_file_changes": 0,
+  "master_or_original_research_db_modified": false,
+  "full_amazon_screening_run": false,
+  "tests": {
+    "command": "python -X utf8 -m unittest discover -s tests -v",
+    "passed": 68,
+    "failed": 0,
+    "test_authority": "PROGRAM_CONTRACT_FIXTURES_NOT_SELECTION_ACCURACY"
+  },
+  "portable_checks": {
+    "separate_copy_and_working_directory": true,
+    "commands_passed": 4,
+    "requires_original_large_database": false,
+    "records": 11,
+    "resume_new_data_rows": 0,
+    "integrity": {
+      "integrity": "ok",
+      "foreign_keys": 0
+    }
+  },
+  "development_replay": {
+    "records": 11,
+    "previously_exposed": true,
+    "decisions": {
+      "保留": 5,
+      "观察": 4,
+      "用不到": 2
+    },
+    "semantic_errors": 0,
+    "command_provider_calls": 0,
+    "semantic_authority": "SOURCE_BOUND_EXISTING_AI_PLUS_CODEX_REVIEW",
+    "owner_selection_choices": 3,
+    "owner_choices_generalized": false,
+    "general_operating_rules_published": 0,
+    "final_run_id": "v3-d1a62e011ba3960e90c6"
+  },
+  "delivered": [
+    "batch_screen",
+    "source_bound_actual_semantic_provider_protocol",
+    "enriched_action_type_and_need_retrieval",
+    "bounded_type_aliases",
+    "separate_understanding_and_operating_status",
+    "cache_resume_conflict_detection",
+    "human_feedback_candidate_counterexample_release_chain",
+    "incremental_impact_and_rescreen",
+    "independent_human_evaluation_gates"
+  ],
+  "limitations": [
+    "No independently human-verified selection accuracy yet",
+    "Type hierarchy normalization is conservative and not a completed human taxonomy",
+    "Generic operating boundaries require actual reviewed positive/counterexample labels and publication approval",
+    "External AI command requires a real configured adapter; queue mode performs no AI inference",
+    "Known exposure tracking requires complete external experiment registration"
+  ],
+  "ci_status_at_report": "PENDING_REMOTE_EXACT_HEAD",
+  "main_merged": false,
+  "production_deployment": false
+}

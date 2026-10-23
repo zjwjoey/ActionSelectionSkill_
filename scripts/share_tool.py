@@ -7,6 +7,10 @@ def readlines(p):
   for s in f:
    if s.strip():yield json.loads(s)
 def main():
+ if len(sys.argv)>1 and sys.argv[1] in {'knowledge','screen','feedback-bootstrap','feedback-import','rule-propose','rule-validate','rule-publish','impact','rescreen','evaluate'}:
+  sys.path.insert(0,str(ROOT))
+  from runtime.v3.cli import main as v3_main
+  return v3_main(sys.argv[1:],ROOT)
  parser=argparse.ArgumentParser();parser.add_argument('command',choices=['info','verify','search','reference']);parser.add_argument('--title');parser.add_argument('--sku');parser.add_argument('--top',type=int,default=5);args=parser.parse_args()
  if args.command=='verify':
   manifest=json.loads((ROOT/'manifest.json').read_text(encoding='utf-8'));bad=[]

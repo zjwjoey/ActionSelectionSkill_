@@ -1,7 +1,7 @@
 {
   "package": "ActionSelectionSkill",
   "date": "2026-10-23",
-  "boundary_method": "V0.3 frozen candidate",
+  "boundary_method": "V3 candidate; V0.3 historical data frozen",
   "action_reference_count": 10037,
   "semantic_candidates": 10037,
   "owner_selection_decisions": 3,
@@ -16,7 +16,30 @@
   "master_included": false,
   "full_learning_database_included": false,
   "source_skill_sha256": "6218634ce80e20c1a83ae0a2d37ec0069672ce81f0269411b2343474136c1445",
+  "package_version": "v3.0-candidate",
+  "independent_selection_accuracy": null,
+  "frozen_asset_files_verified": 201,
   "files": {
+    ".gitattributes": {
+      "sha256": "f3f79ddd430375150502ed4dc701062c3dc9f10cb046bb444d96d1f2eaf85ae5",
+      "bytes": 153
+    },
+    ".github/workflows/ci.yml": {
+      "sha256": "bdbfe593ce8e0a16a02894a1d3ea661b3fa0f92b31677077606846b692a5b66a",
+      "bytes": 500
+    },
+    ".gitignore": {
+      "sha256": "457e312d771032c1ad17a21893bb16c66bdab3135029a95448343bed63291f23",
+      "bytes": 186
+    },
+    "README.md": {
+      "sha256": "5c7015948a8213b4514a96035434f9543da484bffc89acaddb7d0c6df5fcd393",
+      "bytes": 2846
+    },
+    "SKILL.md": {
+      "sha256": "065d52865bfed46c8b6d83a2d78b4b23c24eaf98be386ad490f9c178772d6284",
+      "bytes": 4139
+    },
     "assets/action_groups_v26.json": {
       "sha256": "e9e11376e6318b7e01ad358c56533516e3391ca7dd9b7713c6d20f867abf0ce4",
       "bytes": 29144
@@ -105,6 +128,26 @@
       "sha256": "010ce1f7e7559526a2cb5be729a5b03cbf2ec2ed88af8e395fea829f2e62dee0",
       "bytes": 3583
     },
+    "examples/v3_development/README.md": {
+      "sha256": "d7afb007521ffba23f3686331374dcc93efc207bfd0653e29cd74a7a4d43527c",
+      "bytes": 397
+    },
+    "examples/v3_development/analysis.jsonl": {
+      "sha256": "633835847e403da6ba3d2c991203c7789e64fbf4754e499e2dec6ee12825b181",
+      "bytes": 9770
+    },
+    "examples/v3_development/comparison_inputs.jsonl": {
+      "sha256": "3b71d9c53a5bd8c992981381c42a96f5b21ec7dee2c907066e9353c122b38536",
+      "bytes": 3067
+    },
+    "examples/v3_development/inputs.jsonl": {
+      "sha256": "432d5afe21cf0739c96f353ac7a132a2f279c0227ac4a3f7904e7588bb894f7d",
+      "bytes": 13271
+    },
+    "examples/v3_development/results.jsonl": {
+      "sha256": "1d23309d033f85fea745d3de2c2d8b2eae7c80897c94de5c24b9f2ffecf34259",
+      "bytes": 4723
+    },
     "references/current_method.md": {
       "sha256": "c5a5c4a6193cc96ae5aed456b74e7bd376dadc96807044bb00c2bac947d9e41d",
       "bytes": 1786
@@ -173,9 +216,29 @@
       "sha256": "6218634ce80e20c1a83ae0a2d37ec0069672ce81f0269411b2343474136c1445",
       "bytes": 15715
     },
+    "references/v3_workflow.md": {
+      "sha256": "d3b243a1ea6d9154ae91d32a24c1761594282eb65a20dc0e94a6f0d519821e7a",
+      "bytes": 7231
+    },
+    "releases/v0.3/manifest.json": {
+      "sha256": "55544c23cf1ab372b177cd0e3e210e961b073c49c8ce9c18e757daac1ac54802",
+      "bytes": 34907
+    },
+    "releases/v0.3/skill_entry.txt": {
+      "sha256": "d9af09d1997946fc54cd6f6dafc9b9ae2c4b7b58e2b3ff27b494c7a05184edce",
+      "bytes": 3357
+    },
+    "reports/v3_candidate_acceptance_20261023.json": {
+      "sha256": "5db7169c50d8f048215b314e2ea70d7207dbe642eb0c1a1ed1189edc43ee100d",
+      "bytes": 2594
+    },
     "requirements.txt": {
       "sha256": "ec4e1721c4d8aaa05564c108a8f63c5a0079bf89c40f1520f1a388f7c44fe98f",
       "bytes": 119
+    },
+    "rules/v3_type_aliases.json": {
+      "sha256": "35f5d483aa37644be0a4ed52d6355b760d219329bb259f9aac11450629aaedf0",
+      "bytes": 2400
     },
     "runtime/rules/action_semantic22_rules.tsv": {
       "sha256": "a3cceefac546f16086d8e47baaa5ea44720120c42d65895d8dd80a1bcb087d98",
@@ -817,13 +880,61 @@
       "sha256": "f39c918fc0f2d1a37f216bac42b005cb1bfb98f4228884a1ce104d567edaffb4",
       "bytes": 2491
     },
-    "scripts/share_tool.py": {
-      "sha256": "e5d1e292cd57c864ce35365b80913de78cfd6e4e6d0acc2d42f1a046dd1e7ee9",
-      "bytes": 2144
+    "runtime/v3/__init__.py": {
+      "sha256": "51c484f17e21596be345e2a85d5fe4951cdcde9f20b0003af5bd6ca38582cd09",
+      "bytes": 55
     },
-    "SKILL.md": {
-      "sha256": "d9af09d1997946fc54cd6f6dafc9b9ae2c4b7b58e2b3ff27b494c7a05184edce",
-      "bytes": 3357
+    "runtime/v3/catalog.py": {
+      "sha256": "6f7f5344f998be5db1addcaa9ae3ccd219ee36fee65a8273d9e72fd8d1a25f13",
+      "bytes": 14857
+    },
+    "runtime/v3/cli.py": {
+      "sha256": "7b547e12b009f0b66b4bb187ccc3d7c2a6fc390576142b3f905259b1295e749c",
+      "bytes": 3466
+    },
+    "runtime/v3/core.py": {
+      "sha256": "8e5b0abe9807c5198f74938dd6118c57a603dc5fba3c50683b130b868e5d0402",
+      "bytes": 7289
+    },
+    "runtime/v3/evaluation.py": {
+      "sha256": "aaa2fb54cefffb68ba18c568536e2448da0e744bc6cc23462540ac88e1c103bf",
+      "bytes": 2390
+    },
+    "runtime/v3/feedback.py": {
+      "sha256": "3f3ddaa88a6221ff63161c91168becd45f4ce67eabb4aff2d8f48f641066cd9c",
+      "bytes": 10723
+    },
+    "runtime/v3/store.py": {
+      "sha256": "603f1a0eded8c31ee6564f17ac0d16cb39888987b2ea8640b2f837841cd4222d",
+      "bytes": 2823
+    },
+    "runtime/v3/workflow.py": {
+      "sha256": "97cc2ff5bb40e9da1703ffd93cc8edf26d8611623cb88de730b32cf345a67306",
+      "bytes": 11831
+    },
+    "scripts/build_manifest.py": {
+      "sha256": "6f3692d8b9f0745e988a7d2854fad00ed1b7b8d3c375d4047f6b3d820179f203",
+      "bytes": 1358
+    },
+    "scripts/share_tool.py": {
+      "sha256": "8016f39ea0fbdad6ceb00da2e622d92fe9d56611c885e344fa513c562d728b5c",
+      "bytes": 2439
+    },
+    "tests/test_v3_acceptance.py": {
+      "sha256": "ba6d6bcf143c5839ee2da72342d12cfedcc9b68c7c9bc106e874254006d9e010",
+      "bytes": 13272
+    },
+    "tests/test_v3_catalog.py": {
+      "sha256": "dc7dc3372b096c5f27288491deaea37de79d3aec7f09ee4d6afe8a4ea4f4c96c",
+      "bytes": 13468
+    },
+    "tests/test_v3_feedback.py": {
+      "sha256": "5b34cfe1977ec192430a9333414aef590668de91764fe2469db8b0a9379db49f",
+      "bytes": 14880
+    },
+    "tests/test_v3_workflow.py": {
+      "sha256": "a45d80f88dd3d13f6cafbce568f2a6125b5c81e300208c0809f7a217809c443d",
+      "bytes": 8576
     },
     "使用说明.txt": {
       "sha256": "5ac3e893a6d63c05ee64b9b93e32e4293a36c5073560eb79445261f869009ce8",

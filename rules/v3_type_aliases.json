@@ -1,0 +1,17 @@
+{
+  "version": "v3-type-aliases-1",
+  "authority": "AI_CANDIDATE_NORMALIZATION_NOT_HUMAN_TAXONOMY",
+  "description": "Exact type-label normalization only. Original labels and modifiers remain traceable; equal needs never merge types. Unlisted types retain their original label.",
+  "aliases": [
+    {"original_type": "厨房定时器", "canonical_type": "厨房计时器", "attributes": [], "reason": "同一计时器商品类型的同义表述"},
+    {"original_type": "汽车座套", "canonical_type": "汽车座椅套", "attributes": [], "reason": "汽车座椅套的名称展开"},
+    {"original_type": "扫帚刷头", "canonical_type": "扫帚头", "attributes": [], "reason": "同一替换刷头类型；不与完整扫帚合并"},
+    {"original_type": "球形巧克力", "canonical_type": "巧克力球", "attributes": [], "reason": "同一球形食品类型的词序差异"},
+    {"original_type": "玩具水枪", "canonical_type": "水枪玩具", "attributes": [], "reason": "同一玩具类型的词序差异；不合并清洗水枪"},
+    {"original_type": "20denier及膝袜", "canonical_type": "及膝袜", "attributes": [{"kind": "specification_literal", "value": "20denier", "source": "original_type", "evidence": "20denier"}], "reason": "将字面纤度标注作为规格保留"},
+    {"original_type": "XL上菜板", "canonical_type": "上菜板", "attributes": [{"kind": "size_label_literal", "value": "XL", "source": "original_type", "evidence": "XL"}], "reason": "XL仅保留为名称尺寸标签，不推断实际尺寸"},
+    {"original_type": "LEGO Technic推土机模型", "canonical_type": "推土机模型", "attributes": [{"kind": "brand_or_series_literal", "value": "LEGO Technic", "source": "original_type", "evidence": "LEGO Technic"}], "reason": "分离明确品牌系列修饰，仍保留模型主体"},
+    {"original_type": "Turbo Fire飞镖发射玩具", "canonical_type": "飞镖发射玩具", "attributes": [{"kind": "brand_or_series_literal", "value": "Turbo Fire", "source": "original_type", "evidence": "Turbo Fire"}], "reason": "分离品牌或系列字面修饰，不推断商标归属"},
+    {"original_type": "Twix饮料", "canonical_type": "饮料", "attributes": [{"kind": "brand_or_series_literal", "value": "Twix", "source": "original_type", "evidence": "Twix"}], "reason": "品牌与主体分离；不据此推断饮料成分或同款关系"}
+  ]
+}
