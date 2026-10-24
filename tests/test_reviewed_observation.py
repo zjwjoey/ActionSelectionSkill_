@@ -41,7 +41,19 @@ class ReviewedObservation(unittest.TestCase):
     def test_unknown_not_auto_retain(self):self.assertEqual(self.result(a=dict(self.a,information_status='insufficient'))['decision'],'观察')
     def test_gray_scope_not_auto_retain(self):self.assertEqual(self.result(a=dict(self.a,boundary='灰区'))['decision'],'观察')
     def test_different_type_keys_stay_observe(self):
-        b=copy.deepcopy(self.a);b['screening_evidence']['type_key']='不同物体'
+        b=copy.deepcopy(self.a);b['screening_evidence']['type_key']='不同物体';b['subject_span']='cocina'
+        self.assertEqual(self.result(b=b)['decision'],'观察')
+    def test_synonym_type_labels_do_not_override_identical_source_subject(self):
+        b=copy.deepcopy(self.a);b['screening_evidence']['type_key']='瓷餐碗'
+        self.assertEqual(self.result(b=b)['decision'],'保留')
+    def test_attribute_granularity_does_not_override_nested_subject_spans(self):
+        b=copy.deepcopy(self.a);b['subject_span']='cuencos';b['screening_evidence']['type_key']='餐碗'
+        self.assertEqual(self.result(b=b)['decision'],'保留')
+    def test_generic_pack_word_is_not_identity_evidence(self):
+        a=copy.deepcopy(self.a);a['subject_span']='Juego';b=copy.deepcopy(a);b['screening_evidence']['type_key']='其他组合'
+        self.assertEqual(self.result(a,b)['decision'],'观察')
+    def test_synonyms_cannot_clear_actual_blocker(self):
+        b=copy.deepcopy(self.a);b['screening_evidence'].update(type_key='餐碗',scope='boundary_unresolved',blockers=[dict(code='source_conflict',span='cocina',reason='合成来源冲突')])
         self.assertEqual(self.result(b=b)['decision'],'观察')
     def test_mixed_uncovered_bundle_stays_observe(self):
         a=copy.deepcopy(self.a);a['form']='bundle';a['screening_evidence']['structure']='mixed_components'

@@ -1,14 +1,14 @@
 """Opt-in reviewed observation contract. Never creates an exclusion or human label."""
-import copy, unicodedata
+import copy, unicodedata,re
 from .core import validate
 from .model import schema
 
-VERSION='v3.1-reviewed-observation-1'
+VERSION='v3.1-reviewed-observation-2'
 BLOCKERS={'subject_unclear','mixed_bundle','host_dependency','operating_boundary','custom_order','safety_claim_dependency','source_conflict'}
 STRUCTURES={'single','homogeneous_multipack','mixed_components','unknown'}
 
 INSTRUCTION='''
-REVIEWED OBSERVATION CONTRACT v1. Provide extra screening_evidence for each record.
+REVIEWED OBSERVATION CONTRACT v2. Provide extra screening_evidence for each record.
 type_key: short reusable precise Chinese sold-product type, no brand/model/dimensions/pack count. Use stable common Chinese types, not a broad need. E.g. a pack of porcelain bowls and one porcelain bowl have type_key 瓷碗. A coffee cup and coffee tamper do NOT share type_key. A vacuum bag is not a vacuum. Do not force similarity.
 structure: single / homogeneous_multipack / mixed_components / unknown. Homogeneous multipack means multiple units of the SAME complete type, not a tool kit with different functions. structure_span must be a literal title substring supporting this judgement. A tiny incidental pouch/spoon does not automatically make the main subject unknown; if distinct material components truly drive the purchase, mixed_components. Retain uncertainties instead of inventing contents.
 scope: daily_independent / boundary_unresolved / outside_candidate / unknown. Ordinary clearly identified daily household materials and universal manual accessories may be candidates EVEN IF no Action counterpart exists. Missing reference, unknown reference specifications, different pack count, variant/material or unverified generic marketing performance alone are NOT operating blockers. Do not mark the SAME type as one model's ordinary_good vs another's bundle only because of unit count.
@@ -38,6 +38,19 @@ def validate_review(row,a,catalog):
 
 def norm(s):return ' '.join(unicodedata.normalize('NFKC',s).casefold().split())
 
+def literal_identity_agrees(a,b):
+    """Literal sold-object agreement, not equality of Chinese taxonomy wording.
+
+    Generic kit/pack/part labels cannot anchor identity. This only resolves
+    naming granularity after the caller separately checks form, scope,
+    composition, uncertainty and source-bound evidence in both readings.
+    """
+    left,right=norm(a['subject_span']),norm(b['subject_span'])
+    if not (left in right or right in left):return False
+    common=left if len(left)<=len(right) else right
+    generic={'kit','set','juego','pack','conjunto','producto','articulo','artículo','pieza','piezas','accesorio','accesorios','herramienta','herramientas','de','del','para','con','un','una','el','la','los','las','y'}
+    return any(len(w)>=4 and w not in generic for w in re.findall(r'[^\W\d_]+',common))
+
 def reviewed_projection(row,a,b,catalog,baseline):
     out=copy.deepcopy(baseline)
     out.update(review_contract=VERSION,baseline_decision=baseline['decision'],reviewed_adjustment=False,formal_publication=False)
@@ -61,7 +74,10 @@ def reviewed_projection(row,a,b,catalog,baseline):
     else:
         ordinary={'ordinary_good','universal_accessory','bundle'}
         safe=all(x['information_status']=='clear' and x['form'] in ordinary and x['operating_context']=='daily' and x['boundary']=='范围内' for x in [a,b])
-        consistent=norm(ea['type_key'])==norm(eb['type_key'])
+        key_equal=norm(ea['type_key'])==norm(eb['type_key'])
+        span_equal=literal_identity_agrees(a,b)
+        consistent=key_equal or span_equal
+        out['type_wording_variation_resolved']=not key_equal and span_equal
         composition=all(e['structure'] in {'single','homogeneous_multipack'} and e['scope']=='daily_independent' for e in [ea,eb])
         # Explicit constrained operating categories may intentionally stay gray.
         protected=baseline.get('calibration_rules') and baseline['decision']=='观察'
