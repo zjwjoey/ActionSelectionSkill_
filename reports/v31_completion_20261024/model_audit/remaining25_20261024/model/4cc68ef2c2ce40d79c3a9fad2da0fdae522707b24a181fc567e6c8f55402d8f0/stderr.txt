@@ -1,0 +1,2 @@
+2026-10-24T05:19:57.911224Z  WARN codex_core::shell_snapshot: Failed to create shell snapshot for powershell: Shell snapshot not supported yet for PowerShell
+2026-10-24T05:19:58.012671Z ERROR codex_core::session::session: failed to load skill C:\Users\Administrator\.codex\skills\action-verification\SKILL.md: missing YAML frontmatter delimited by ---

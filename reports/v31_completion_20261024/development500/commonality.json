@@ -1,0 +1,2774 @@
+{
+  "authority": "PROGRAM_GROUPING_OF_AI_CANDIDATES_NOT_GOLD",
+  "rows": 500,
+  "completed_both": 500,
+  "form_variations": {
+    "bundle → ordinary_good": 8,
+    "ordinary_good → bundle": 7,
+    "ordinary_good → universal_accessory": 4,
+    "universal_accessory → ordinary_good": 3,
+    "ordinary_good → whole_machine": 2,
+    "host_component → ordinary_good": 2,
+    "whole_machine → bundle": 1,
+    "ordinary_good → unknown": 1,
+    "bundle → universal_accessory": 1,
+    "unknown → ordinary_good": 1,
+    "universal_accessory → installed_component": 1,
+    "unknown → host_component": 1,
+    "host_component → installed_component": 1,
+    "ordinary_good → host_component": 1,
+    "whole_system → bundle": 1,
+    "universal_accessory → host_component": 1,
+    "installed_component → whole_machine": 1,
+    "ordinary_good → installed_component": 1,
+    "host_component → universal_accessory": 1
+  },
+  "reference_variations": {
+    "specific_need/partial → none/unknown": 9,
+    "same_type/subject → related_type/subject": 6,
+    "related_type/subject → same_type/subject": 5,
+    "specific_need/subject → specific_need/unknown": 4,
+    "related_type/subject → related_type/partial": 3,
+    "specific_need/unknown → none/unknown": 3,
+    "related_type/subject → specific_need/subject": 2,
+    "category_only/unknown → none/unknown": 2,
+    "category_only/unknown → specific_need/unknown": 2,
+    "specific_need/partial → specific_need/unknown": 2,
+    "related_type/partial → same_type/partial": 2,
+    "category_only/partial → none/unknown": 2,
+    "related_type/subject → none/unknown": 2,
+    "related_type/subject → specific_need/partial": 2,
+    "none/unknown → category_only/unknown": 2,
+    "host_only/partial → related_type/partial": 2,
+    "related_type/partial → specific_need/partial": 2,
+    "host_only/partial → none/unknown": 2,
+    "related_type/partial → related_type/subject": 1,
+    "specific_need/partial → category_only/unknown": 1,
+    "related_type/partial → same_type/subject": 1,
+    "category_only/unknown → related_type/unknown": 1,
+    "category_only/subject → none/unknown": 1,
+    "specific_need/subject → specific_need/partial": 1,
+    "same_type/partial → same_type/subject": 1,
+    "specific_need/unknown → host_only/unknown": 1,
+    "related_type/subject → category_only/subject": 1,
+    "host_only/subject → host_only/unknown": 1,
+    "none/unknown → specific_need/partial": 1,
+    "related_type/partial → none/unknown": 1,
+    "specific_need/partial → host_only/partial": 1,
+    "specific_need/subject → host_only/partial": 1,
+    "specific_need/partial → related_type/partial": 1,
+    "specific_need/subject → related_type/subject": 1,
+    "related_type/partial → related_type/unknown": 1,
+    "related_type/subject → host_only/partial": 1,
+    "related_type/unknown → related_type/partial": 1,
+    "category_only/subject → category_only/unknown": 1
+  },
+  "boundary_variations": {
+    "灰区 → 范围内": 12,
+    "范围内 → 灰区": 5,
+    "未知 → 范围内": 1,
+    "范围内 → 未知": 1
+  },
+  "examples": {
+    "reference:related_type/partial → related_type/subject": [
+      {
+        "record_id": "B0_84bacc4c6b66_000038",
+        "source_hash": "52375db8e4ae7435cdc543259f2cf2298243dab7bb5146d7361f2499ab22ebbc",
+        "title": "100 Piezas 10mm²-18mm Terminales Eléctricos, Terminales Termocontraibles | Punteras Electricas, Crimp Terminal con Soldadura, para Conexión de Cables, Engarzado DIY e Industrial(Rojo)",
+        "first_subject": "热缩电气端子百件装",
+        "review_subject": "电线连接端子组",
+        "first_span": "100 Piezas 10mm²-18mm Terminales Eléctricos, Terminales Termocontraibles",
+        "review_span": "100 Piezas 10mm²-18mm Terminales Eléctricos",
+        "first_features": [
+          {
+            "name": "ordinary_accessory",
+            "span": "Terminales Eléctricos"
+          },
+          {
+            "name": "industrial_context",
+            "span": "DIY e Industrial"
+          }
+        ],
+        "review_features": [
+          {
+            "name": "ordinary_accessory",
+            "span": "Terminales Eléctricos"
+          },
+          {
+            "name": "industrial_context",
+            "span": "DIY e Industrial"
+          }
+        ]
+      }
+    ],
+    "boundary:灰区 → 范围内": [
+      {
+        "record_id": "B0_84bacc4c6b66_000084",
+        "source_hash": "6274cfd145f1d120728760fd3ed0ad8f411d27a3c77ef5418588a41dac6dba78",
+        "title": "Prensa de Calor para Camisetas 22.8x22.8cm/9\"x9\" Portátil DIY Prensa Termica con Temporizador, Calentamiento Rápido&Apagado Automático Máquina de Transferencia de Calorpara Ropa y Manualidades",
+        "first_subject": "便携式DIY热压机",
+        "review_subject": "便携手工热压机",
+        "first_span": "Prensa de Calor para Camisetas",
+        "review_span": "Prensa de Calor para Camisetas",
+        "first_features": [],
+        "review_features": [
+          {
+            "name": "household_good",
+            "span": "Portátil DIY Prensa Termica"
+          }
+        ]
+      },
+      {
+        "record_id": "B0_84bacc4c6b66_003846",
+        "source_hash": "708b20a8bf8cf328af10e9190943c7a38bbd4842677fbb12459cebd2287e4fc2",
+        "title": "CREATE/WINDCALM/Ventilador de techo ABS con luz blanco con Wifi y mando / 40W, Silencioso, Ø132 cm, 6 velocidades, 3 temperaturas de luz, temporizador, función verano-invierno",
+        "first_subject": "带灯无线遥控吊扇",
+        "review_subject": "带灯遥控联网吊扇",
+        "first_span": "Ventilador de techo ABS con luz",
+        "review_span": "Ventilador de techo ABS con luz",
+        "first_features": [
+          {
+            "name": "household_good",
+            "span": "Ventilador de techo ABS con luz"
+          }
+        ],
+        "review_features": [
+          {
+            "name": "household_good",
+            "span": "Ventilador de techo ABS con luz"
+          }
+        ]
+      },
+      {
+        "record_id": "B0_84bacc4c6b66_007770",
+        "source_hash": "1ee3a7bb236bebdc02388a0252c1693caaddd50bb357f28edd38c308183f7693",
+        "title": "ugee Filamento PLA Set 1,75mm, 7 Col., 250g/0,55lb por bobina, Casa/Escuela | 1,75kg/3,86lb Total, 7 Colores, Extrusión Suave, Sin Enredos, Bajo Olor, ±0,02mm, 190–220°C, Para Impresoras FDM",
+        "first_subject": "七色PLA打印线材套装",
+        "review_subject": "PLA三维打印线材套装",
+        "first_span": "Filamento PLA Set 1,75mm",
+        "review_span": "Filamento PLA Set 1,75mm",
+        "first_features": [
+          {
+            "name": "ordinary_consumable",
+            "span": "Filamento PLA"
+          },
+          {
+            "name": "host_dependency",
+            "span": "Para Impresoras FDM"
+          }
+        ],
+        "review_features": [
+          {
+            "name": "ordinary_consumable",
+            "span": "Filamento PLA"
+          },
+          {
+            "name": "host_dependency",
+            "span": "Para Impresoras FDM"
+          }
+        ]
+      },
+      {
+        "record_id": "B0_84bacc4c6b66_007974",
+        "source_hash": "4ce07ab8aeff4726e8789e8dec79fa6cae9730efb126cdd8789ae393da1aba43",
+        "title": "Grifo Fregadero Monomando Extraíble 360° de Acero Inoxidable Negro | Ducha 2 en 1, Chorro y Rociador, Cartucho Cerámico Antigoteo, Agua Fría y Caliente, Cabezal Giratorio",
+        "first_subject": "抽拉式单柄厨房水龙头",
+        "review_subject": "抽拉式单柄厨房龙头",
+        "first_span": "Grifo Fregadero Monomando Extraíble 360°",
+        "review_span": "Grifo Fregadero Monomando Extraíble 360°",
+        "first_features": [
+          {
+            "name": "household_good",
+            "span": "Grifo Fregadero Monomando Extraíble"
+          }
+        ],
+        "review_features": []
+      },
+      {
+        "record_id": "B0_84bacc4c6b66_008062",
+        "source_hash": "d98c18dea65d6407a747096c5fed5a36530791c22c8b02056efe9b636d936e30",
+        "title": "2 Fundas de Repuesto para Fregona Leifheit Profi XL Micro Duo / Cotton Plus | 48 x 16 cm, Mopas de Repuesto para Fregona Leifheit Profi XL Micro Duo/Cotton Plus, Lavable a 60 °C para Todo Tipo de Suelos",
+        "first_subject": "拖把替换布套两件装",
+        "review_subject": "两片装拖把替换布",
+        "first_span": "2 Fundas de Repuesto para Fregona Leifheit Profi XL Micro Duo / Cotton Plus",
+        "review_span": "2 Fundas de Repuesto para Fregona Leifheit Profi XL Micro Duo / Cotton Plus",
+        "first_features": [
+          {
+            "name": "host_dependency",
+            "span": "Fundas de Repuesto para Fregona Leifheit Profi XL"
+          },
+          {
+            "name": "ordinary_accessory",
+            "span": "Mopas de Repuesto"
+          }
+        ],
+        "review_features": [
+          {
+            "name": "ordinary_accessory",
+            "span": "Fundas de Repuesto para Fregona"
+          },
+          {
+            "name": "host_dependency",
+            "span": "para Fregona Leifheit Profi XL"
+          }
+        ]
+      }
+    ],
+    "reference:same_type/subject → related_type/subject": [
+      {
+        "record_id": "B0_84bacc4c6b66_000518",
+        "source_hash": "f7164c98f7af118ebd83f14e707a3e3ac9040ef50d320bdf6952e5099e3dcd28",
+        "title": "ARTISTRO 24 Marcadores de Tela de Doble Punta - Kit de Decoración Textil - Permanente para Ropa - Rotuladores Sin Manchas para Camisetas, Bolsas, Textiles, Lienzos y Más (Punta de Pincel y Punta Fina)",
+        "first_subject": "双头织物马克笔",
+        "review_subject": "双头织物彩绘笔",
+        "first_span": "24 Marcadores de Tela de Doble Punta",
+        "review_span": "24 Marcadores de Tela de Doble Punta",
+        "first_features": [
+          {
+            "name": "ordinary_consumable",
+            "span": "Marcadores de Tela de Doble Punta"
+          }
+        ],
+        "review_features": [
+          {
+            "name": "ordinary_consumable",
+            "span": "Marcadores de Tela de Doble Punta"
+          }
+        ]
+      },
+      {
+        "record_id": "B0_84bacc4c6b66_005013",
+        "source_hash": "368b5c6f42cee2adf59fef3a01728f75538e35a2d5edf1dbed9f170ed0bc26b8",
+        "title": "Connex COX881004 - Espátula japonesa set 4 piezas",
+        "first_subject": "日式刮板四件套",
+        "review_subject": "日式刮刀四件套",
+        "first_span": "Espátula japonesa set 4 piezas",
+        "review_span": "Espátula japonesa set 4 piezas",
+        "first_features": [
+          {
+            "name": "manual_tool",
+            "span": "Espátula japonesa"
+          }
+        ],
+        "review_features": [
+          {
+            "name": "manual_tool",
+            "span": "Espátula japonesa"
+          }
+        ]
+      },
+      {
+        "record_id": "B0_84bacc4c6b66_008484",
+        "source_hash": "be71304a2ac29cfeddcd87db866f4dc389d78c80e27600fe8cecb169aafb7bae",
+        "title": "Genérico Luz Dragon Nook, luz estante para libros con respiración dragón | Lámpara dragón impresa en 3D, luz estantería dragón que , luz dragones que brillan en el estante",
+        "first_subject": "龙造型书架装饰灯",
+        "review_subject": "龙形书架装饰灯",
+        "first_span": "Lámpara dragón impresa en 3D",
+        "review_span": "Lámpara dragón impresa en 3D",
+        "first_features": [
+          {
+            "name": "household_good",
+            "span": "luz estante para libros"
+          }
+        ],
+        "review_features": [
+          {
+            "name": "household_good",
+            "span": "Lámpara dragón impresa en 3D"
+          }
+        ]
+      },
+      {
+        "record_id": "B0_84bacc4c6b66_010856",
+        "source_hash": "5ecf7b223ef6d4b19f60758b557bc161af4c55126ace17357c9c869a40777c48",
+        "title": "Joejis Absorbe Olores Nevera - Dura 12 meses, carbón de bambú premium sin aroma ambientador nevera - Efectivo desodorante frigorifico (2 pack)",
+        "first_subject": "竹炭冰箱除味包",
+        "review_subject": "竹炭冰箱除味包两件装",
+        "first_span": "Absorbe Olores Nevera",
+        "review_span": "Absorbe Olores Nevera",
+        "first_features": [
+          {
+            "name": "ordinary_consumable",
+            "span": "carbón de bambú premium sin aroma ambientador nevera"
+          }
+        ],
+        "review_features": [
+          {
+            "name": "ordinary_consumable",
+            "span": "Absorbe Olores Nevera"
+          }
+        ]
+      },
+      {
+        "record_id": "B0_84bacc4c6b66_012076",
+        "source_hash": "611fc8c3ec0c54155c910cb1a7c14f3a7f93bb57915a6f9db533b3280d2c48c5",
+        "title": "Lavea® Juego de 2 Fundas de Almohada - 40x80 - Verde Oliva | Funda de almohada 100% Microfibra, Funda de cojín, Sin plancha y sin arrugas con cremallera",
+        "first_subject": "微纤维枕套",
+        "review_subject": "枕套",
+        "first_span": "Juego de 2 Fundas de Almohada - 40x80",
+        "review_span": "Juego de 2 Fundas de Almohada",
+        "first_features": [
+          {
+            "name": "household_good",
+            "span": "Fundas de Almohada"
+          }
+        ],
+        "review_features": [
+          {
+            "name": "household_good",
+            "span": "Fundas de Almohada"
+          }
+        ]
+      }
+    ],
+    "form:whole_machine → bundle": [
+      {
+        "record_id": "B0_84bacc4c6b66_000540",
+        "source_hash": "670c8ce18cb9699ac68517f82f3ac52f724d5df7769c581382fb37ce97af2b0f",
+        "title": "ASHATA Set de Tetera Turca de Acero Inoxidable, Tetera Turca con Infusor y Tapa, 1L y 2L Creador de té de té, Parte de Calefacción Oculta, hasta 12 Tazas, para Casa (Enchufe de la UE 220V)",
+        "first_subject": "电热土耳其茶壶套装",
+        "review_subject": "土耳其式电热茶壶套装",
+        "first_span": "Set de Tetera Turca de Acero Inoxidable",
+        "review_span": "Set de Tetera Turca de Acero Inoxidable",
+        "first_features": [
+          {
+            "name": "household_good",
+            "span": "para Casa"
+          }
+        ],
+        "review_features": []
+      }
+    ],
+    "form:ordinary_good → universal_accessory": [
+      {
+        "record_id": "B0_84bacc4c6b66_000607",
+        "source_hash": "2cdf9acd1b5f45319276091957da58dc8fbce04fe5ecb5a129f407104533e6ad",
+        "title": "AX Waber Elevador de monitor doble, longitud y ángulo ajustables, soporte de madera para 2 monitores con almacenamiento",
+        "first_subject": "双显示器木质增高架",
+        "review_subject": "双显示器木制增高架",
+        "first_span": "Elevador de monitor doble",
+        "review_span": "Elevador de monitor doble",
+        "first_features": [
+          {
+            "name": "ordinary_accessory",
+            "span": "soporte de madera para 2 monitores con almacenamiento"
+          }
+        ],
+        "review_features": [
+          {
+            "name": "ordinary_accessory",
+            "span": "Elevador de monitor doble"
+          }
+        ]
+      },
+      {
+        "record_id": "B0_84bacc4c6b66_013417",
+        "source_hash": "8f9f07166d7680d3ac0843564364788d5ad174c33899b06a9aabe99a6326277a",
+        "title": "MgcTolBox 20 Ganchos para Colgar, Ganchos en Forma de S, Ganchos Metal para Cocina, Baño, Armario, Oficina, Jardín （Largo, Negro）",
+        "first_subject": "S形金属挂钩",
+        "review_subject": "S形金属挂钩二十件装",
+        "first_span": "20 Ganchos para Colgar, Ganchos en Forma de S",
+        "review_span": "20 Ganchos para Colgar",
+        "first_features": [
+          {
+            "name": "ordinary_accessory",
+            "span": "Ganchos en Forma de S"
+          }
+        ],
+        "review_features": [
+          {
+            "name": "ordinary_accessory",
+            "span": "Ganchos en Forma de S"
+          }
+        ]
+      },
+      {
+        "record_id": "B0_84bacc4c6b66_024826",
+        "source_hash": "d00a1f9d8b5161fbc06598ce91430e3441f9d68e2e606269ef8d3fa4ac87671f",
+        "title": "shinfly 13mm-3m Organizador de Cables, Manguito de Cable Auto, Recoge Cables Mesa Escritorio, Cierre Ocultar Cubre Cables para TV PC, Blanco",
+        "first_subject": "线缆收束套管",
+        "review_subject": "白色线缆整理套管",
+        "first_span": "Organizador de Cables, Manguito de Cable",
+        "review_span": "Organizador de Cables, Manguito de Cable",
+        "first_features": [
+          {
+            "name": "ordinary_accessory",
+            "span": "Organizador de Cables, Manguito de Cable"
+          }
+        ],
+        "review_features": [
+          {
+            "name": "ordinary_accessory",
+            "span": "Organizador de Cables, Manguito de Cable"
+          }
+        ]
+      },
+      {
+        "record_id": "B0_84bacc4c6b66_024871",
+        "source_hash": "db308fba555c4ad1f5478d2b67e694e401bf506ced6ca60b10f754a1df35d5a0",
+        "title": "SOULWIT 3 Pcs Organizador de Cable USB de Silicona, Autoadhesivos - Negro | Cable de Carga Para Escritorio, Mesita de Noche, Cable de Ratón, Cable de PC Para Oficina y Hogar",
+        "first_subject": "自粘硅胶理线器",
+        "review_subject": "自粘硅胶理线器三件装",
+        "first_span": "3 Pcs Organizador de Cable USB de Silicona",
+        "review_span": "3 Pcs Organizador de Cable USB de Silicona",
+        "first_features": [
+          {
+            "name": "ordinary_accessory",
+            "span": "Organizador de Cable USB de Silicona"
+          }
+        ],
+        "review_features": [
+          {
+            "name": "ordinary_accessory",
+            "span": "Organizador de Cable USB de Silicona"
+          }
+        ]
+      }
+    ],
+    "reference:related_type/subject → specific_need/subject": [
+      {
+        "record_id": "B0_84bacc4c6b66_000765",
+        "source_hash": "31671cbbb8ccab2b413919b6c827260e89c39069da5b793bc3edefea64f2c990",
+        "title": "4 PCS Filtros de Carbón Activado, Filtro Desodorante de Maceta de Arena para Gatos, Esponjas Filtrantes para Neutralizar Olores en Compostadores de Cocina.",
+        "first_subject": "活性炭除味滤片",
+        "review_subject": "活性炭除味滤棉",
+        "first_span": "4 PCS Filtros de Carbón Activado",
+        "review_span": "4 PCS Filtros de Carbón Activado",
+        "first_features": [
+          {
+            "name": "ordinary_consumable",
+            "span": "Filtros de Carbón Activado"
+          },
+          {
+            "name": "host_dependency",
+            "span": "Filtro Desodorante de Maceta de Arena para Gatos"
+          }
+        ],
+        "review_features": [
+          {
+            "name": "ordinary_consumable",
+            "span": "Filtros de Carbón Activado"
+          },
+          {
+            "name": "host_dependency",
+            "span": "para Neutralizar Olores en Compostadores de Cocina"
+          }
+        ]
+      },
+      {
+        "record_id": "B0_84bacc4c6b66_016876",
+        "source_hash": "7993bc2daae55f68eb6071c27ca8577b3f520d4e538904d968d336beff3cb6bf",
+        "title": "Rayher Caja clasificadora con asa, Surtido, 3 compartimentos, 23,1x15,6x18,5cm",
+        "first_subject": "三格手提分类箱",
+        "review_subject": "带提手分格收纳盒",
+        "first_span": "Caja clasificadora con asa",
+        "review_span": "Caja clasificadora con asa",
+        "first_features": [],
+        "review_features": [
+          {
+            "name": "household_good",
+            "span": "Caja clasificadora con asa"
+          }
+        ]
+      }
+    ],
+    "reference:specific_need/partial → category_only/unknown": [
+      {
+        "record_id": "B0_84bacc4c6b66_001189",
+        "source_hash": "f04e283752337f5e619f2246a9e435051ac40a2a60882c01df05cb011deea8b0",
+        "title": "Almohadilla de Silicona para Bolígrafos con Prensa Térmica 12 Ranuras | 1 Juego Rojo, Superficie Texturizada Fina, 24,50x10,30x1,00cm, Uso para Sublimación",
+        "first_subject": "十二槽笔杆热转印硅胶垫",
+        "review_subject": "十二槽笔用热压硅胶垫",
+        "first_span": "Almohadilla de Silicona para Bolígrafos con Prensa Térmica 12 Ranuras",
+        "review_span": "Almohadilla de Silicona para Bolígrafos con Prensa Térmica 12 Ranuras",
+        "first_features": [
+          {
+            "name": "host_dependency",
+            "span": "para Bolígrafos con Prensa Térmica"
+          }
+        ],
+        "review_features": [
+          {
+            "name": "host_dependency",
+            "span": "para Bolígrafos con Prensa Térmica"
+          }
+        ]
+      }
+    ],
+    "form:bundle → ordinary_good": [
+      {
+        "record_id": "B0_84bacc4c6b66_001389",
+        "source_hash": "ca61076b80fa184121a8a1b985e986d640ecc2b1fa2d4a02a2a7ca97dd0179cf",
+        "title": "Amazon Basics Vajilla para 4 personas (16 piezas), diseño de rayas, color negro",
+        "first_subject": "16件餐具套装",
+        "review_subject": "餐具套装",
+        "first_span": "Vajilla para 4 personas (16 piezas)",
+        "review_span": "Vajilla para 4 personas (16 piezas)",
+        "first_features": [
+          {
+            "name": "household_good",
+            "span": "Vajilla para 4 personas (16 piezas)"
+          }
+        ],
+        "review_features": []
+      },
+      {
+        "record_id": "B0_84bacc4c6b66_001515",
+        "source_hash": "512b649ea3d0abd1386ecc200ccad1a66e24f27324525752204f6266bd17fe60",
+        "title": "8 Packs Ambientador Nevera,Refrigerator Deodorizer,Desodorante Para Frigorífico,Contiene Un Desodorante Con Carbón Activo Que Elimina Eficazmente Los Malos Olores",
+        "first_subject": "活性炭冰箱除味用品",
+        "review_subject": "冰箱活性炭除味剂",
+        "first_span": "8 Packs Ambientador Nevera",
+        "review_span": "8 Packs Ambientador Nevera",
+        "first_features": [
+          {
+            "name": "ordinary_consumable",
+            "span": "Ambientador Nevera"
+          }
+        ],
+        "review_features": [
+          {
+            "name": "ordinary_consumable",
+            "span": "Ambientador Nevera"
+          }
+        ]
+      },
+      {
+        "record_id": "B0_84bacc4c6b66_004028",
+        "source_hash": "650a7664b7e74d2d6919b76ad3b7db9afa8545d17ab44daf766ffaaa85185297",
+        "title": "Juego de 2 Funda de Cojín de Otoño,Patrón de Hojas de Arce y Calabazas | 2 Piezas Funda de Cojín Decorativo,Funda de Almohada,Funda Cojín Calabaza para Sofá,Salón,Dormitorio,Patio",
+        "first_subject": "两件装装饰靠垫套",
+        "review_subject": "两件装靠垫套",
+        "first_span": "Juego de 2 Funda de Cojín",
+        "review_span": "Juego de 2 Funda de Cojín",
+        "first_features": [
+          {
+            "name": "household_good",
+            "span": "Funda de Cojín"
+          }
+        ],
+        "review_features": [
+          {
+            "name": "household_good",
+            "span": "Funda de Cojín"
+          }
+        ]
+      },
+      {
+        "record_id": "B0_84bacc4c6b66_005724",
+        "source_hash": "428015bd41b57b0ec8d05bb8278990a00628223923c45f99950dc854687c770b",
+        "title": "DYIOTF Fundas Cojines 45x45 Juego de 2, Funda Cojin Gamer Decorativa para Sofa, Fundas de Cojines de Lino con Temática de Videojuegos para Decoracion de Habitacion Juvenil, Sin Relleno",
+        "first_subject": "游戏主题靠垫套两件装",
+        "review_subject": "两件装游戏图案靠垫套",
+        "first_span": "Fundas Cojines 45x45 Juego de 2",
+        "review_span": "Fundas Cojines 45x45 Juego de 2",
+        "first_features": [
+          {
+            "name": "household_good",
+            "span": "Fundas Cojines"
+          }
+        ],
+        "review_features": [
+          {
+            "name": "household_good",
+            "span": "Fundas Cojines"
+          }
+        ]
+      },
+      {
+        "record_id": "B0_84bacc4c6b66_008246",
+        "source_hash": "366ac554a72f53a087caa7be12ca1c71cbe43742668120753171c0167d0c76b3",
+        "title": "GRANNY SAYS Cajas Tela Almacenaje, Pack de 3 Cajas Almacenaje Ropa, Cajas de Tela Almacenaje Ropa Armario, Cajas Almacenaje Carton, Cajas Organizadoras Ropa, Cajas Almacenaje con Tapa, Blanco Caqui",
+        "first_subject": "带盖布艺收纳盒三件装",
+        "review_subject": "三件装带盖布艺衣物收纳箱",
+        "first_span": "Cajas Tela Almacenaje, Pack de 3",
+        "review_span": "Pack de 3 Cajas Almacenaje Ropa",
+        "first_features": [
+          {
+            "name": "household_good",
+            "span": "Cajas Tela Almacenaje"
+          }
+        ],
+        "review_features": [
+          {
+            "name": "household_good",
+            "span": "Cajas Tela Almacenaje"
+          }
+        ]
+      }
+    ],
+    "form:universal_accessory → ordinary_good": [
+      {
+        "record_id": "B0_84bacc4c6b66_001552",
+        "source_hash": "c377610e93462d93722d9f381df8d91ece5c5177ceb90cd9193e69ec947a7c06",
+        "title": "Amig - Cerradura Portátil para Puerta - Instalación Fácil sin Agujeros - Protección Adicional para Casa, Hotel, Dormitorio - Bloqueo de Seguridad para Picaporte - Pestillo Antirrobo",
+        "first_subject": "免打孔便携门锁",
+        "review_subject": "免打孔便携门锁",
+        "first_span": "Cerradura Portátil para Puerta",
+        "review_span": "Cerradura Portátil para Puerta",
+        "first_features": [
+          {
+            "name": "ordinary_accessory",
+            "span": "Cerradura Portátil para Puerta"
+          }
+        ],
+        "review_features": [
+          {
+            "name": "ordinary_accessory",
+            "span": "Cerradura Portátil para Puerta"
+          }
+        ]
+      },
+      {
+        "record_id": "B0_84bacc4c6b66_015840",
+        "source_hash": "59c016022da4bc1d7fa558e3ab025f7ae39bab231f5d904a56d0d14f31b49228",
+        "title": "60 Piezas de Spinners Giratorios Dorados para Tarjetas 572.5, Giro 360° | Para Manualidades de Papel DIY, Scrapbooking, Joyería, Arte de Uñas, Mini Cojinetes de Metal para Tarjetas de Felicitación",
+        "first_subject": "手工用金属旋转轴承",
+        "review_subject": "卡片金属旋转配件",
+        "first_span": "60 Piezas de Spinners Giratorios Dorados para Tarjetas 572.5",
+        "review_span": "60 Piezas de Spinners Giratorios Dorados para Tarjetas",
+        "first_features": [
+          {
+            "name": "ordinary_accessory",
+            "span": "Mini Cojinetes de Metal para Tarjetas de Felicitación"
+          }
+        ],
+        "review_features": [
+          {
+            "name": "ordinary_accessory",
+            "span": "Mini Cojinetes de Metal para Tarjetas de Felicitación"
+          }
+        ]
+      },
+      {
+        "record_id": "B0_84bacc4c6b66_020565",
+        "source_hash": "4d6e1c41894d6f3c2362107acde190af30c3668f243bad194f15f89ee8473e57",
+        "title": "Uadme Tapete de Prensa de Calor, Alfombrilla Protectora Resistente al Calor, Tapete para Manualidades, Planchado, Aislantes, Transfers (13x13x1,8cm)",
+        "first_subject": "手工热压隔热垫",
+        "review_subject": "热压转印隔热垫",
+        "first_span": "Tapete de Prensa de Calor",
+        "review_span": "Tapete de Prensa de Calor",
+        "first_features": [
+          {
+            "name": "ordinary_accessory",
+            "span": "Tapete para Manualidades"
+          }
+        ],
+        "review_features": []
+      }
+    ],
+    "boundary:范围内 → 灰区": [
+      {
+        "record_id": "B0_84bacc4c6b66_002069",
+        "source_hash": "b35aa00e9af5d5de8a8b4f62834e8cd6aa707227f15401e5978808f48b1f0edf",
+        "title": "BAILROP 10 Tiradores Cocina Negros 128mm - Tiradores Armarios Muebles | Distancia entre agujeros 128 mm. Tirador cuadrado de 140 mm de largo para puertas de cocina, de 64 a 192 mm.",
+        "first_subject": "黑色家具拉手",
+        "review_subject": "黑色橱柜拉手十件装",
+        "first_span": "10 Tiradores Cocina Negros 128mm",
+        "review_span": "10 Tiradores Cocina Negros 128mm",
+        "first_features": [
+          {
+            "name": "ordinary_accessory",
+            "span": "Tiradores Armarios Muebles"
+          }
+        ],
+        "review_features": [
+          {
+            "name": "ordinary_accessory",
+            "span": "Tiradores Armarios Muebles"
+          }
+        ]
+      },
+      {
+        "record_id": "B0_84bacc4c6b66_008347",
+        "source_hash": "418ea782ac28ee36ef8c6bb319acf1fa7beb16a6250bdea3afca6f487401b76f",
+        "title": "Gaethra Prensa Termica, Mini Impresora Para Camisetas Con 3 Ajustes De Calor, PortáTil DIY Plancha Sublimacion, Ideal Para Camisetas, Sombreros, Zapatos Y Bolsos.",
+        "first_subject": "便携迷你热压转印机",
+        "review_subject": "便携迷你热压机",
+        "first_span": "Prensa Termica, Mini Impresora Para Camisetas Con 3 Ajustes De Calor",
+        "review_span": "Prensa Termica",
+        "first_features": [],
+        "review_features": []
+      },
+      {
+        "record_id": "B0_84bacc4c6b66_008682",
+        "source_hash": "2280745934114fb0f6ddf10e0075351ca95a5b4f508b9e31d4a89d198742ddcb",
+        "title": "4 Piezas Pomos de Cerámica Vintage para Muebles | Tiradores Redondos, Manillas Decorativas para Cajones, Armarios de Cocina y Puertas, Fácil de Instalar con Tornillos (3.4cm)",
+        "first_subject": "陶瓷家具旋钮",
+        "review_subject": "陶瓷家具旋钮拉手",
+        "first_span": "4 Piezas Pomos de Cerámica Vintage para Muebles",
+        "review_span": "4 Piezas Pomos de Cerámica Vintage para Muebles",
+        "first_features": [
+          {
+            "name": "ordinary_accessory",
+            "span": "Pomos de Cerámica Vintage para Muebles"
+          }
+        ],
+        "review_features": [
+          {
+            "name": "ordinary_accessory",
+            "span": "Pomos de Cerámica Vintage para Muebles"
+          }
+        ]
+      },
+      {
+        "record_id": "B0_84bacc4c6b66_017379",
+        "source_hash": "f165bd22561ce43358663d12520714567cd5bbead6e32804ac36207b967dbbe1",
+        "title": "Ronyme Mochila de Limpieza Profesional Mochila Herramientas Bolsa Almacenamiento Organizador Impermeable con Gran Capacidad 20-, Estilo Elástico, Array, Negro Elástico",
+        "first_subject": "清洁工具收纳背包",
+        "review_subject": "清洁工具背包",
+        "first_span": "Mochila de Limpieza Profesional",
+        "review_span": "Mochila de Limpieza Profesional",
+        "first_features": [
+          {
+            "name": "ordinary_accessory",
+            "span": "Mochila Herramientas Bolsa Almacenamiento Organizador"
+          }
+        ],
+        "review_features": [
+          {
+            "name": "ordinary_accessory",
+            "span": "Mochila Herramientas Bolsa Almacenamiento Organizador"
+          }
+        ]
+      },
+      {
+        "record_id": "B0_84bacc4c6b66_017520",
+        "source_hash": "26996b35544048b3ff0b9179e94792dfeaad8bf20cd05ee6a7dd293370d0e711",
+        "title": "Rundago 4 Piezas Pomos de Cerámica Vintage para Muebles, Tiradores Redondos, Manillas Decorativas para Cajones, Armarios de Cocina y Puertas, Fácil de Instalar con Tornillos (3.4cm) (negro)",
+        "first_subject": "陶瓷家具旋钮",
+        "review_subject": "黑色陶瓷家具旋钮拉手",
+        "first_span": "4 Piezas Pomos de Cerámica Vintage para Muebles",
+        "review_span": "4 Piezas Pomos de Cerámica Vintage para Muebles",
+        "first_features": [
+          {
+            "name": "ordinary_accessory",
+            "span": "Pomos de Cerámica Vintage para Muebles"
+          }
+        ],
+        "review_features": [
+          {
+            "name": "ordinary_accessory",
+            "span": "Pomos de Cerámica Vintage para Muebles"
+          }
+        ]
+      }
+    ],
+    "form:ordinary_good → whole_machine": [
+      {
+        "record_id": "B0_84bacc4c6b66_002407",
+        "source_hash": "f45a839fdfad5d4d7dc99dcdb75cb7abd0e11257fb5e5e391e0a9446578b8cbd",
+        "title": "BRILONER - Mini Lámpara de Mesa LED Inalámbrica, Lámpara de Noche Regulable Táctil, Lámpara de Escritorio, USB-C, Lámpara de Camping, Luz Blanca Cálida y RGB, 7x7 cm, Plata",
+        "first_subject": "无线触摸调光台灯",
+        "review_subject": "无线触控LED迷你台灯",
+        "first_span": "Mini Lámpara de Mesa LED Inalámbrica",
+        "review_span": "Mini Lámpara de Mesa LED Inalámbrica",
+        "first_features": [
+          {
+            "name": "household_good",
+            "span": "Mini Lámpara de Mesa LED Inalámbrica"
+          }
+        ],
+        "review_features": [
+          {
+            "name": "household_good",
+            "span": "Mini Lámpara de Mesa LED Inalámbrica"
+          }
+        ]
+      },
+      {
+        "record_id": "B0_84bacc4c6b66_007928",
+        "source_hash": "a7587b77e0a5001cbca6eb608c28b51943f4d41d3cc0dd135e186dbd895e94cc",
+        "title": "Folpus Fuente de Cascada de Escritorio Flujo de Agua Batería USB/AA Fengshui para",
+        "first_subject": "桌面流水喷泉",
+        "review_subject": "桌面瀑布喷泉",
+        "first_span": "Fuente de Cascada de Escritorio",
+        "review_span": "Fuente de Cascada de Escritorio",
+        "first_features": [
+          {
+            "name": "household_good",
+            "span": "Fuente de Cascada de Escritorio"
+          }
+        ],
+        "review_features": [
+          {
+            "name": "household_good",
+            "span": "Fuente de Cascada de Escritorio"
+          }
+        ]
+      }
+    ],
+    "reference:specific_need/subject → specific_need/unknown": [
+      {
+        "record_id": "B0_84bacc4c6b66_002564",
+        "source_hash": "8d275c6f6071fed1204c4cc5c15ea435322bf54a31088afbac2b69b46e4c8646",
+        "title": "Barrera para Agua de Ducha Barrera de Agua para la Ducha Blanco 1.7M | Barrera de Agua de Ducha Silicona para Mampara de Ducha o Borde de la Bañera del lavabo Corta Bien y se Adapta Perfectamente",
+        "first_subject": "硅胶挡水条",
+        "review_subject": "硅胶淋浴挡水条",
+        "first_span": "Barrera para Agua de Ducha",
+        "review_span": "Barrera de Agua de Ducha Silicona",
+        "first_features": [
+          {
+            "name": "ordinary_accessory",
+            "span": "Barrera de Agua de Ducha Silicona"
+          }
+        ],
+        "review_features": [
+          {
+            "name": "ordinary_accessory",
+            "span": "Barrera de Agua de Ducha Silicona"
+          }
+        ]
+      },
+      {
+        "record_id": "B0_84bacc4c6b66_003711",
+        "source_hash": "f00cf34bc8c50d9938bdc8339facf3b4a742d59e8c84b516da11be9c976f658a",
+        "title": "CLEANmaxx Limpiador de tapicería Pro Power, 600 W, color azul, potente aspiradora de lavado con doble depósito y autolimpieza, ideal para tapicería de sofá, coche, alfombra, fuerte eliminación de",
+        "first_subject": "双水箱织物清洗机",
+        "review_subject": "织物洗吸机",
+        "first_span": "aspiradora de lavado",
+        "review_span": "aspiradora de lavado",
+        "first_features": [
+          {
+            "name": "automatic_maintenance",
+            "span": "autolimpieza"
+          }
+        ],
+        "review_features": [
+          {
+            "name": "automatic_maintenance",
+            "span": "autolimpieza"
+          },
+          {
+            "name": "household_good",
+            "span": "aspiradora de lavado"
+          }
+        ]
+      },
+      {
+        "record_id": "B0_84bacc4c6b66_006654",
+        "source_hash": "997130f0ba4bf4cce4eb8fb4d2f9388c85eb5adefcc7a471d0fe0c4762db0bb3",
+        "title": "EVVO Limpiatapicerías AM68 1000/1200 W, Pulveriza y Aspira, Sofá y Coche | Depósitos Separados, Secado Rápido, Accesorios Incluidos y Limpieza Profunda de Hogar y Coche",
+        "first_subject": "织物喷吸清洗机",
+        "review_subject": "织物洗吸机",
+        "first_span": "Limpiatapicerías AM68",
+        "review_span": "Limpiatapicerías AM68 1000/1200 W",
+        "first_features": [],
+        "review_features": [
+          {
+            "name": "household_good",
+            "span": "Limpieza Profunda de Hogar y Coche"
+          }
+        ]
+      },
+      {
+        "record_id": "B0_84bacc4c6b66_023847",
+        "source_hash": "3304cfb770de0241ddb71403189465a6bbfb64987015a047e121ea636096aba8",
+        "title": "Kit de arco de 2 piezas para puerta, kit de arco de espuma 3D, kit de esquina de arco de espuma ligera, kit de medio círculo para pintar interiores, para crear decoración interior, antideformación",
+        "first_subject": "门洞泡沫拱形装饰套件",
+        "review_subject": "泡沫门拱装饰构件套装",
+        "first_span": "Kit de arco de 2 piezas para puerta",
+        "review_span": "Kit de arco de 2 piezas para puerta, kit de arco de espuma 3D",
+        "first_features": [],
+        "review_features": []
+      }
+    ],
+    "form:ordinary_good → bundle": [
+      {
+        "record_id": "B0_84bacc4c6b66_002689",
+        "source_hash": "131597f4c2b272211fdbddbe3541cfa3b2096ee8cd23a1a5762d75bcc30f3b1c",
+        "title": "BelleStyle Juguetes de Baño, 4 Piezas Juguete Bañera Silicona para Bebes Niños 1 2 3 4 Años, Juguetes de Agua Antimoho Animales de Juguete Flotantes Juego de Ducha para Niños Pequeños 6 9 12 Meses",
+        "first_subject": "四件硅胶漂浮洗澡玩具",
+        "review_subject": "硅胶漂浮洗浴玩具套装",
+        "first_span": "4 Piezas Juguete Bañera Silicona",
+        "review_span": "4 Piezas Juguete Bañera Silicona",
+        "first_features": [
+          {
+            "name": "household_good",
+            "span": "Juguetes de Baño"
+          }
+        ],
+        "review_features": [
+          {
+            "name": "household_good",
+            "span": "Juguetes de Baño"
+          }
+        ]
+      },
+      {
+        "record_id": "B0_84bacc4c6b66_004010",
+        "source_hash": "47ce65bca45fa27102d3d4ebf8965dc12da6ec05c89c6b3ebdd071a79b13e086",
+        "title": "Cajas de Almacenamiento con Tapa 2.8L, Pack de 6 Organizadores con Asas | Plastico Duro Apilable, Cajas de Almacenaje Estrechas con Tapa, Organizador para Armario y Baño, Cubos para Cocina y Cajon",
+        "first_subject": "带盖塑料收纳盒六件装",
+        "review_subject": "2.8升带盖塑料收纳盒六件装",
+        "first_span": "Cajas de Almacenamiento con Tapa 2.8L, Pack de 6",
+        "review_span": "Cajas de Almacenamiento con Tapa 2.8L, Pack de 6 Organizadores con Asas",
+        "first_features": [
+          {
+            "name": "household_good",
+            "span": "Cajas de Almacenamiento con Tapa"
+          }
+        ],
+        "review_features": [
+          {
+            "name": "household_good",
+            "span": "Cajas de Almacenamiento con Tapa"
+          }
+        ]
+      },
+      {
+        "record_id": "B0_84bacc4c6b66_011128",
+        "source_hash": "cdc22311515ff841205c21417f1758673605cc7a3bd9363e5e82a874895521ec",
+        "title": "KICHLY Organizadores para la despensa - Juego de 8 -Compartimentos de almacenamiento para la cocina, despensa, armarios, encimeras y refrigerador - sin BPA (Transparente)",
+        "first_subject": "八件透明厨房收纳盒",
+        "review_subject": "八件厨房储物收纳盒",
+        "first_span": "Organizadores para la despensa - Juego de 8",
+        "review_span": "Organizadores para la despensa - Juego de 8",
+        "first_features": [
+          {
+            "name": "household_good",
+            "span": "Organizadores para la despensa"
+          }
+        ],
+        "review_features": [
+          {
+            "name": "household_good",
+            "span": "Compartimentos de almacenamiento para la cocina"
+          }
+        ]
+      },
+      {
+        "record_id": "B0_84bacc4c6b66_011405",
+        "source_hash": "79be9cd5c7e7123b3fef9b349ae1c46a7fbfcd7ca0befad14b5d3b52671d2e8e",
+        "title": "Kiatuniya Funda de Cojín Terciopelo 40x40 Otoño Hojas de Arce y Calabaza | Decorativo Funda de Cojíns Otoñal Modernas Cuadrado Fundas de Almohada para Patio Balcón Jardín Sofá Juego de 2",
+        "first_subject": "绒面靠垫套两件装",
+        "review_subject": "秋季图案绒面靠垫套两件装",
+        "first_span": "Funda de Cojín Terciopelo 40x40",
+        "review_span": "Funda de Cojín Terciopelo 40x40",
+        "first_features": [
+          {
+            "name": "household_good",
+            "span": "Funda de Cojín"
+          }
+        ],
+        "review_features": [
+          {
+            "name": "household_good",
+            "span": "Funda de Cojín"
+          }
+        ]
+      },
+      {
+        "record_id": "B0_84bacc4c6b66_014000",
+        "source_hash": "b8c50e5eaf0039e46706d7cac871bb2f0e83176bcf8276886f9710c45a1a4306",
+        "title": "NEWSONA 3 Piezas Organizador Ropa Transparente 35L – Cajas Plegables para Armario o Debajo de la Cama – Bolsa Almacenamiento Mantas y Juguetes",
+        "first_subject": "三件透明折叠衣物收纳箱袋",
+        "review_subject": "三件透明折叠衣物收纳袋",
+        "first_span": "3 Piezas Organizador Ropa Transparente 35L",
+        "review_span": "3 Piezas Organizador Ropa Transparente 35L",
+        "first_features": [
+          {
+            "name": "household_good",
+            "span": "Organizador Ropa Transparente"
+          }
+        ],
+        "review_features": [
+          {
+            "name": "household_good",
+            "span": "Organizador Ropa Transparente 35L"
+          }
+        ]
+      }
+    ],
+    "reference:specific_need/partial → none/unknown": [
+      {
+        "record_id": "B0_84bacc4c6b66_002900",
+        "source_hash": "c3e2bcfade588bf293cbd46c7d3c459ef971057fb715029ac6d4940d1db802ae",
+        "title": "BLACK+DECKER Batería de Litio 18 V, 2,0 Ah, BL2018-XJ | Batería POWERCONNECT compacta, compatible con herramientas BLACK+DECKER de 18 V",
+        "first_subject": "18伏工具锂电池",
+        "review_subject": "电动工具锂电池",
+        "first_span": "Batería de Litio 18 V, 2,0 Ah",
+        "review_span": "Batería de Litio 18 V, 2,0 Ah",
+        "first_features": [
+          {
+            "name": "host_dependency",
+            "span": "compatible con herramientas BLACK+DECKER de 18 V"
+          }
+        ],
+        "review_features": [
+          {
+            "name": "host_dependency",
+            "span": "compatible con herramientas BLACK+DECKER de 18 V"
+          }
+        ]
+      },
+      {
+        "record_id": "B0_84bacc4c6b66_004408",
+        "source_hash": "ecf2580bbd7850805c3b8a7ec697a5f4b7869089bd9e944a84088bba86510d31",
+        "title": "Cecotec Robot Limpiacristales con App Conga Windroid W10 DoubleSpray | Pulveriza, Limpia y Seca, 12 Mopas y Doble Spray, 4 Modos, Mando, Tanque de Agua 50ml, Motor Digital, Radio de Acción 7,5m",
+        "first_subject": "擦窗机器人",
+        "review_subject": "擦窗机器人",
+        "first_span": "Robot Limpiacristales",
+        "review_span": "Robot Limpiacristales",
+        "first_features": [
+          {
+            "name": "robot_cleaner",
+            "span": "Robot Limpiacristales"
+          }
+        ],
+        "review_features": [
+          {
+            "name": "robot_cleaner",
+            "span": "Robot Limpiacristales"
+          }
+        ]
+      },
+      {
+        "record_id": "B0_84bacc4c6b66_007446",
+        "source_hash": "637cd5d181f4b3afae5041788d77d04ea8abc46208bf78ca4429bc60b00bb2f8",
+        "title": "FAVOOSTY Botellero para 32 Botellas, Soporte para Copas, Negro | Estantería para Vinos Independiente con Tablero de Madera, Expositor de Vinos de 8 Niveles para Cocina, Bar, Restaurante",
+        "first_subject": "独立式酒瓶酒杯收纳架",
+        "review_subject": "独立式多层酒架",
+        "first_span": "Botellero para 32 Botellas, Soporte para Copas",
+        "review_span": "Estantería para Vinos Independiente con Tablero de Madera",
+        "first_features": [
+          {
+            "name": "large_complete_furniture",
+            "span": "Estantería para Vinos Independiente con Tablero de Madera"
+          }
+        ],
+        "review_features": [
+          {
+            "name": "large_complete_furniture",
+            "span": "Estantería para Vinos Independiente con Tablero de Madera"
+          }
+        ]
+      },
+      {
+        "record_id": "B0_84bacc4c6b66_008347",
+        "source_hash": "418ea782ac28ee36ef8c6bb319acf1fa7beb16a6250bdea3afca6f487401b76f",
+        "title": "Gaethra Prensa Termica, Mini Impresora Para Camisetas Con 3 Ajustes De Calor, PortáTil DIY Plancha Sublimacion, Ideal Para Camisetas, Sombreros, Zapatos Y Bolsos.",
+        "first_subject": "便携迷你热压转印机",
+        "review_subject": "便携迷你热压机",
+        "first_span": "Prensa Termica, Mini Impresora Para Camisetas Con 3 Ajustes De Calor",
+        "review_span": "Prensa Termica",
+        "first_features": [],
+        "review_features": []
+      },
+      {
+        "record_id": "B0_84bacc4c6b66_011881",
+        "source_hash": "0529ea17b4c1818e57f1b0109866a77a672d814a9dc3da9400b79b8d54f65516",
+        "title": "Domo PAK Living Funda Protectora para estanterías de 90 cm x 40 cm x 185-195 cm",
+        "first_subject": "置物架保护罩",
+        "review_subject": "置物架保护罩",
+        "first_span": "Funda Protectora para estanterías",
+        "review_span": "Funda Protectora para estanterías",
+        "first_features": [
+          {
+            "name": "host_dependency",
+            "span": "para estanterías"
+          }
+        ],
+        "review_features": [
+          {
+            "name": "host_dependency",
+            "span": "para estanterías"
+          }
+        ]
+      }
+    ],
+    "reference:related_type/subject → related_type/partial": [
+      {
+        "record_id": "B0_84bacc4c6b66_003041",
+        "source_hash": "00bab478d21b499a36e7073e8f86fade2e6f81d6c3083106e3b3a4547a68293a",
+        "title": "2 Juegos de 6 Colores Popcorn Pen, Bolígrafos Mágicos Hinchados | Bolígrafos Popcorn, Bolígrafo 3D para Niños, 3D Pen, Ideales para Tarjetas, Álbumes y Manualidades",
+        "first_subject": "膨胀效果彩笔套组",
+        "review_subject": "膨胀效果彩笔套装",
+        "first_span": "2 Juegos de 6 Colores Popcorn Pen, Bolígrafos Mágicos Hinchados",
+        "review_span": "2 Juegos de 6 Colores Popcorn Pen, Bolígrafos Mágicos Hinchados",
+        "first_features": [],
+        "review_features": []
+      },
+      {
+        "record_id": "B0_84bacc4c6b66_005717",
+        "source_hash": "29642169e3401b5c6e2039151f2831e1f6b4116bf7e0ed3dc6730ae65eeee277",
+        "title": "DUSPAK 3D Hinchables Popcorn Pen,12 colores para crear dibujos con relieve usando aire caliente, ideales para tarjetas, álbumes y manualidades",
+        "first_subject": "热风膨胀立体绘画笔",
+        "review_subject": "热风膨胀立体绘画笔",
+        "first_span": "3D Hinchables Popcorn Pen",
+        "review_span": "3D Hinchables Popcorn Pen",
+        "first_features": [
+          {
+            "name": "ordinary_consumable",
+            "span": "12 colores para crear dibujos con relieve"
+          }
+        ],
+        "review_features": []
+      },
+      {
+        "record_id": "B0_84bacc4c6b66_023812",
+        "source_hash": "0a4ccf79a3cc5c740f6bd4db474fed3bd33fc9d8e139dae356b18978a5dc4058",
+        "title": "Nicho de ducha LED empotrable con acero inoxidable, impermeable, no necesita azulejos, armario de pared para almacenamiento de baño y decoración del hogar",
+        "first_subject": "不锈钢LED嵌入式淋浴壁龛",
+        "review_subject": "带LED不锈钢嵌入式淋浴壁龛",
+        "first_span": "Nicho de ducha LED empotrable con acero inoxidable",
+        "review_span": "Nicho de ducha LED empotrable con acero inoxidable",
+        "first_features": [
+          {
+            "name": "household_good",
+            "span": "almacenamiento de baño"
+          }
+        ],
+        "review_features": []
+      }
+    ],
+    "reference:category_only/unknown → none/unknown": [
+      {
+        "record_id": "B0_84bacc4c6b66_003404",
+        "source_hash": "98339109f7afcd0c889cf673fc572012a6e031791db9bacf056c4bf5cba5678f",
+        "title": "Braun Minipimer MQ10 Black - Accesorio batidora de varilla, color negro",
+        "first_subject": "手持搅拌机配件",
+        "review_subject": "搅拌机附件",
+        "first_span": "Accesorio batidora de varilla",
+        "review_span": "Accesorio batidora de varilla",
+        "first_features": [
+          {
+            "name": "host_dependency",
+            "span": "Accesorio batidora de varilla"
+          }
+        ],
+        "review_features": [
+          {
+            "name": "host_dependency",
+            "span": "Accesorio batidora de varilla"
+          }
+        ]
+      },
+      {
+        "record_id": "B0_84bacc4c6b66_007342",
+        "source_hash": "8acac2344f3b54ca572b645ca240b825284f2522a139f31e0dcbe38ffaab582b",
+        "title": "Brendo Exprimidor de Limón Premium de Acero Inoxidable - Exprimidor Manual de Cítricos Apto para Lavavajillas, Espremedor de Naranjas Citrinos Limas Zumo Frutas Prensa Manual Accesorio Bar de Cócteles",
+        "first_subject": "不锈钢手动柑橘压汁器",
+        "review_subject": "不锈钢手动柑橘压汁器",
+        "first_span": "Exprimidor Manual de Cítricos",
+        "review_span": "Exprimidor Manual de Cítricos",
+        "first_features": [
+          {
+            "name": "manual_tool",
+            "span": "Exprimidor Manual de Cítricos"
+          }
+        ],
+        "review_features": [
+          {
+            "name": "manual_tool",
+            "span": "Exprimidor Manual de Cítricos"
+          }
+        ]
+      }
+    ],
+    "reference:related_type/partial → same_type/subject": [
+      {
+        "record_id": "B0_84bacc4c6b66_003662",
+        "source_hash": "8296dde9f67b5e1afd170958aabea3345a86a21224de7d62b3a37af44710afa5",
+        "title": "CEWUDA 100 unidades de ramo de flores secas de paja naturales, flores secas, colas de conejo, decoración de otoño, hierba de piedras preciosas, flores para bodas, centros de mesa, hogar, fiesta, mesa",
+        "first_subject": "天然干花装饰束",
+        "review_subject": "天然干花花束材料",
+        "first_span": "100 unidades de ramo de flores secas de paja naturales",
+        "review_span": "100 unidades de ramo de flores secas de paja naturales",
+        "first_features": [
+          {
+            "name": "household_good",
+            "span": "flores secas"
+          }
+        ],
+        "review_features": [
+          {
+            "name": "household_good",
+            "span": "flores secas"
+          }
+        ]
+      }
+    ],
+    "reference:category_only/unknown → specific_need/unknown": [
+      {
+        "record_id": "B0_84bacc4c6b66_004725",
+        "source_hash": "b96fad45bc2c1e5dcb9e348b2bf768576b8f956499dae476aa8143d9821c6688",
+        "title": "Claveles hechos a ganchillo, regalo para mamá, regalo del Día de la Madre, regalo de Navidad, regalo de cumpleaños",
+        "first_subject": "钩织康乃馨",
+        "review_subject": "钩织康乃馨",
+        "first_span": "Claveles hechos a ganchillo",
+        "review_span": "Claveles hechos a ganchillo",
+        "first_features": [],
+        "review_features": [
+          {
+            "name": "household_good",
+            "span": "Claveles hechos a ganchillo"
+          }
+        ]
+      },
+      {
+        "record_id": "B0_84bacc4c6b66_020488",
+        "source_hash": "11447137998784bcbb85485d88771aff5177b11f5eedd15fbc65de579e992f70",
+        "title": "UBBOY Rosa Eterna bajo Campana Cristal, LED – Pack Regalo Mujer con Tarjeta | Caja regalo & tarjeta incluidas, campana 22cm sobre base madera – Regalo romántico para San Valentín, Aniversario, Cumpleaños",
+        "first_subject": "玻璃罩玫瑰灯饰礼品套装",
+        "review_subject": "玻璃罩玫瑰灯饰礼品套装",
+        "first_span": "Rosa Eterna bajo Campana Cristal, LED – Pack Regalo Mujer con Tarjeta",
+        "review_span": "Rosa Eterna bajo Campana Cristal, LED – Pack Regalo Mujer con Tarjeta",
+        "first_features": [
+          {
+            "name": "household_good",
+            "span": "Rosa Eterna bajo Campana Cristal"
+          }
+        ],
+        "review_features": [
+          {
+            "name": "household_good",
+            "span": "Rosa Eterna bajo Campana Cristal"
+          }
+        ]
+      }
+    ],
+    "form:ordinary_good → unknown": [
+      {
+        "record_id": "B0_84bacc4c6b66_005014",
+        "source_hash": "a4d5e10bb16f1178d051c72c129b4f78cdef227410c2c44251c8ff149ccad5b5",
+        "title": "Cono, altura: 35 cm, diámetro: 16 cm, 1 unidad.",
+        "first_subject": "用途未明的锥体",
+        "review_subject": "锥形物品（用途未知）",
+        "first_span": "Cono",
+        "review_span": "Cono, altura: 35 cm, diámetro: 16 cm, 1 unidad.",
+        "first_features": [],
+        "review_features": []
+      }
+    ],
+    "reference:category_only/unknown → related_type/unknown": [
+      {
+        "record_id": "B0_84bacc4c6b66_005014",
+        "source_hash": "a4d5e10bb16f1178d051c72c129b4f78cdef227410c2c44251c8ff149ccad5b5",
+        "title": "Cono, altura: 35 cm, diámetro: 16 cm, 1 unidad.",
+        "first_subject": "用途未明的锥体",
+        "review_subject": "锥形物品（用途未知）",
+        "first_span": "Cono",
+        "review_span": "Cono, altura: 35 cm, diámetro: 16 cm, 1 unidad.",
+        "first_features": [],
+        "review_features": []
+      }
+    ],
+    "form:bundle → universal_accessory": [
+      {
+        "record_id": "B0_84bacc4c6b66_005091",
+        "source_hash": "6fef5ae3c05ae2ff1ad75d6816615780597eabfc234346ff765b6b31870e844d",
+        "title": "Corodo Beige Clips 20 Piezas Pinzas para Perchas Fino de Terciopelo | Clip de Dedo Fuerte Antideslizante, Clip de Suspensión Flocado Que Ahorra Espacio en el Armario, Adecuado para Ropa Fina",
+        "first_subject": "植绒衣架夹二十件装",
+        "review_subject": "二十件装衣架夹",
+        "first_span": "Clips 20 Piezas Pinzas para Perchas",
+        "review_span": "Clips 20 Piezas Pinzas para Perchas",
+        "first_features": [
+          {
+            "name": "ordinary_accessory",
+            "span": "Pinzas para Perchas"
+          }
+        ],
+        "review_features": [
+          {
+            "name": "ordinary_accessory",
+            "span": "Pinzas para Perchas"
+          }
+        ]
+      }
+    ],
+    "form:host_component → ordinary_good": [
+      {
+        "record_id": "B0_84bacc4c6b66_005501",
+        "source_hash": "38e6b0a295f619db3bf220d560e2919800379e4d6ffd3b1f4ab06f63e539dd46",
+        "title": "DEEPLEE Filamento PLA Basic 1.75 mm, Pack 2 x 1 kg, Blanco | Precisión ±0.02 mm, enrollado preciso, baja obstrucción, fácil de imprimir, compatible con FDM",
+        "first_subject": "PLA打印线材",
+        "review_subject": "PLA三维打印丝材",
+        "first_span": "Filamento PLA Basic 1.75 mm",
+        "review_span": "Filamento PLA Basic 1.75 mm",
+        "first_features": [
+          {
+            "name": "ordinary_consumable",
+            "span": "Filamento PLA Basic"
+          },
+          {
+            "name": "host_dependency",
+            "span": "compatible con FDM"
+          }
+        ],
+        "review_features": [
+          {
+            "name": "ordinary_consumable",
+            "span": "Filamento PLA Basic 1.75 mm"
+          },
+          {
+            "name": "host_dependency",
+            "span": "compatible con FDM"
+          }
+        ]
+      },
+      {
+        "record_id": "B0_84bacc4c6b66_023061",
+        "source_hash": "d83e4adbe10acb2a09c3fa53de80f866bc7de524cc90f9f1bf5b0a9bb8b87301",
+        "title": "Imex El Zorro 71417 - Cesta Quemador de Pellet, Hierro fundido, 49 x 25 x 17 cm, Gris",
+        "first_subject": "颗粒燃料燃烧篮",
+        "review_subject": "铸铁颗粒燃烧篮",
+        "first_span": "Cesta Quemador de Pellet",
+        "review_span": "Cesta Quemador de Pellet",
+        "first_features": [
+          {
+            "name": "ordinary_accessory",
+            "span": "Cesta Quemador de Pellet"
+          }
+        ],
+        "review_features": []
+      }
+    ],
+    "reference:specific_need/partial → specific_need/unknown": [
+      {
+        "record_id": "B0_84bacc4c6b66_005547",
+        "source_hash": "bf0eeeb704aed2ebb9f20839b1863fccc2ad2ade44e8128a2e291cdde7a38c6f",
+        "title": "DESPOINA Kit Tallado Calabazas de Halloween, 7 Herramientas y 8 Plantillas | Pumpkin Carving Tools DIY para Niños y Adultos, para Linternas y Decoraciones Creativas de Halloween",
+        "first_subject": "南瓜雕刻工具模板套装",
+        "review_subject": "南瓜雕刻工具模板套装",
+        "first_span": "Kit Tallado Calabazas de Halloween, 7 Herramientas y 8 Plantillas",
+        "review_span": "Kit Tallado Calabazas de Halloween, 7 Herramientas y 8 Plantillas",
+        "first_features": [
+          {
+            "name": "manual_tool",
+            "span": "Herramientas"
+          },
+          {
+            "name": "ordinary_accessory",
+            "span": "Plantillas"
+          }
+        ],
+        "review_features": [
+          {
+            "name": "manual_tool",
+            "span": "Herramientas"
+          },
+          {
+            "name": "ordinary_accessory",
+            "span": "Plantillas"
+          }
+        ]
+      },
+      {
+        "record_id": "B0_84bacc4c6b66_006486",
+        "source_hash": "d9d448a2b322a5ca460faf4e4a6f124576c2062d85b19f3dc7f238948e4ff3a2",
+        "title": "ECOVACS WINBOT W3 OMNI Robot Limpiacristales con Estación Multifunción, Autolavado de Mopa, Limpieza Inteligente de Bordes, Atomizador Triple, Control vía App, Protección de 12 Fases",
+        "first_subject": "带维护站擦窗机器人系统",
+        "review_subject": "带基站擦窗机器人系统",
+        "first_span": "Robot Limpiacristales con Estación Multifunción",
+        "review_span": "Robot Limpiacristales con Estación Multifunción",
+        "first_features": [
+          {
+            "name": "robot_cleaner",
+            "span": "Robot Limpiacristales"
+          },
+          {
+            "name": "automatic_maintenance",
+            "span": "Autolavado de Mopa"
+          }
+        ],
+        "review_features": [
+          {
+            "name": "robot_cleaner",
+            "span": "Robot Limpiacristales"
+          },
+          {
+            "name": "automatic_maintenance",
+            "span": "Autolavado de Mopa"
+          }
+        ]
+      }
+    ],
+    "reference:category_only/subject → none/unknown": [
+      {
+        "record_id": "B0_84bacc4c6b66_006102",
+        "source_hash": "7afc133214a4c873cb3d912a79d1d37bc9beced029cc2e1e2a2a201997b251cd",
+        "title": "Desodorizador Recargable USB Compatible con Ozoori con 2 Modos | Desodorante USB para Refrigerador, Eliminador de Olores para Frigorífico, Congelador, Armario y Coche",
+        "first_subject": "USB充电除臭器",
+        "review_subject": "USB充电除味器",
+        "first_span": "Desodorizador Recargable USB",
+        "review_span": "Desodorizador Recargable USB",
+        "first_features": [],
+        "review_features": [
+          {
+            "name": "household_good",
+            "span": "Desodorante USB para Refrigerador"
+          }
+        ]
+      }
+    ],
+    "reference:specific_need/unknown → none/unknown": [
+      {
+        "record_id": "B0_84bacc4c6b66_006364",
+        "source_hash": "983aed2263de278a69405d0233bb07ab841057a5cb43c3bd61505b8945e0c720",
+        "title": "Domigard Enrollador de hilo eléctrico, enrollador de lana con guía de hilo, enrollador automático de bolas de hilo, velocidad continua y gran capacidad de hasta 10 oz para hacer ganchillo y tejer",
+        "first_subject": "电动纱线绕团机",
+        "review_subject": "电动纱线绕线器",
+        "first_span": "Enrollador de hilo eléctrico",
+        "review_span": "Enrollador de hilo eléctrico",
+        "first_features": [],
+        "review_features": []
+      },
+      {
+        "record_id": "B0_84bacc4c6b66_009451",
+        "source_hash": "c92ac266ee157b25a8f24f1e19eaea24f5e4e353539c8ef2b65219a6eef5f3c5",
+        "title": "Halorin Linoldruck Set, Lino-Schneid und Druckset, Linoschnitt für Linoleum Blockdruck Druckgrafik-Set mit Linoldruckplatte Roller Linolschnitzer Übertragungspapieren ideal für Anfänger Hobby DIY",
+        "first_subject": "油毡版画雕刻印刷套装",
+        "review_subject": "油毡雕刻印刷套装",
+        "first_span": "Lino-Schneid und Druckset",
+        "review_span": "Lino-Schneid und Druckset",
+        "first_features": [
+          {
+            "name": "manual_tool",
+            "span": "Linolschnitzer"
+          }
+        ],
+        "review_features": [
+          {
+            "name": "manual_tool",
+            "span": "Linolschnitzer"
+          }
+        ]
+      },
+      {
+        "record_id": "B0_84bacc4c6b66_013097",
+        "source_hash": "ba9a6dc09b6673380bbd1aa4621214f077d2ab5f9be4f9fb1138d8b20102dc99",
+        "title": "Kit para Hacer Jabones Manualidades con Flores Unicornio Molde Regalos Niña | Colores, Aceites Esenciales Experimentos Juego Fabrica de Jabones Kits de Ciencias Regalos Niña Niños 5-10+ Años",
+        "first_subject": "儿童手工制皂套装",
+        "review_subject": "儿童手工制皂套装",
+        "first_span": "Kit para Hacer Jabones Manualidades",
+        "review_span": "Kit para Hacer Jabones Manualidades",
+        "first_features": [],
+        "review_features": []
+      }
+    ],
+    "reference:specific_need/subject → specific_need/partial": [
+      {
+        "record_id": "B0_84bacc4c6b66_006820",
+        "source_hash": "ce300870976ed48d465fb5f235003f3102afec2596edbdc1a8f36546c895e675",
+        "title": "Elan Base de Corte A3 Autocicatrizante Verde, Tabla Cortar Costura 44x30 cm",
+        "first_subject": "自愈式缝纫裁切垫",
+        "review_subject": "缝纫自愈切割垫",
+        "first_span": "Base de Corte A3 Autocicatrizante Verde",
+        "review_span": "Base de Corte A3 Autocicatrizante Verde, Tabla Cortar Costura 44x30 cm",
+        "first_features": [
+          {
+            "name": "ordinary_accessory",
+            "span": "Tabla Cortar Costura"
+          }
+        ],
+        "review_features": []
+      }
+    ],
+    "form:unknown → ordinary_good": [
+      {
+        "record_id": "B0_84bacc4c6b66_006898",
+        "source_hash": "84797a6681db1a41790d61b7ff42ea5018cc420598330898bc216ab17c087b91",
+        "title": "Cajas Mágica De Eliminación De Polvo De Purificación De Aire Interior | 200g Cajas Mágica De Aire Multifuncional Con Recolección Automática De Polvo Fórmula De Extracto De Plantas Para Hogar",
+        "first_subject": "形态未明的除尘净化盒",
+        "review_subject": "室内除尘净化盒",
+        "first_span": "Cajas Mágica De Eliminación De Polvo De Purificación De Aire Interior",
+        "review_span": "Cajas Mágica De Eliminación De Polvo De Purificación De Aire Interior",
+        "first_features": [],
+        "review_features": [
+          {
+            "name": "household_good",
+            "span": "Para Hogar"
+          }
+        ]
+      }
+    ],
+    "boundary:未知 → 范围内": [
+      {
+        "record_id": "B0_84bacc4c6b66_006898",
+        "source_hash": "84797a6681db1a41790d61b7ff42ea5018cc420598330898bc216ab17c087b91",
+        "title": "Cajas Mágica De Eliminación De Polvo De Purificación De Aire Interior | 200g Cajas Mágica De Aire Multifuncional Con Recolección Automática De Polvo Fórmula De Extracto De Plantas Para Hogar",
+        "first_subject": "形态未明的除尘净化盒",
+        "review_subject": "室内除尘净化盒",
+        "first_span": "Cajas Mágica De Eliminación De Polvo De Purificación De Aire Interior",
+        "review_span": "Cajas Mágica De Eliminación De Polvo De Purificación De Aire Interior",
+        "first_features": [],
+        "review_features": [
+          {
+            "name": "household_good",
+            "span": "Para Hogar"
+          }
+        ]
+      }
+    ],
+    "reference:same_type/partial → same_type/subject": [
+      {
+        "record_id": "B0_84bacc4c6b66_007023",
+        "source_hash": "1ebcc24bae05df9ac552d3a1b02bfe5d30a72235947f1547815eacec1c19ff1d",
+        "title": "3 Velas LED Marfil con Luces Hada Envolventes, Efecto Llama Parpadeante Realista, 1 Mando, Material de Cera Natural, Tamaños Surtidos, Reutilizables y Ecológicas para Decoración Interior y Exterior",
+        "first_subject": "遥控LED蜡烛灯串套装",
+        "review_subject": "遥控LED蜡烛套装",
+        "first_span": "3 Velas LED Marfil con Luces Hada Envolventes, Efecto Llama Parpadeante Realista, 1 Mando",
+        "review_span": "3 Velas LED Marfil con Luces Hada Envolventes, Efecto Llama Parpadeante Realista, 1 Mando",
+        "first_features": [
+          {
+            "name": "household_good",
+            "span": "para Decoración Interior y Exterior"
+          }
+        ],
+        "review_features": [
+          {
+            "name": "household_good",
+            "span": "Velas LED"
+          }
+        ]
+      }
+    ],
+    "form:universal_accessory → installed_component": [
+      {
+        "record_id": "B0_84bacc4c6b66_007463",
+        "source_hash": "6f2e9262da894b39ecc791d65e5770064432fd0464d2e0775836422299a240ed",
+        "title": "FEELSO Alcachofa de Ducha con Filtro de 15 Capas, Alta Presión, Antical | Alcachofa Ducha con 3+1 Modos de Chorro, Cabezal de Ducha con Botón de Pausa y Ahorro de Agua para Agua Dura, Gris",
+        "first_subject": "带过滤层的淋浴喷头",
+        "review_subject": "过滤花洒头",
+        "first_span": "Alcachofa de Ducha con Filtro de 15 Capas",
+        "review_span": "Alcachofa de Ducha con Filtro de 15 Capas",
+        "first_features": [
+          {
+            "name": "ordinary_accessory",
+            "span": "Alcachofa de Ducha con Filtro de 15 Capas"
+          }
+        ],
+        "review_features": [
+          {
+            "name": "ordinary_accessory",
+            "span": "Alcachofa de Ducha con Filtro de 15 Capas"
+          }
+        ]
+      }
+    ],
+    "reference:related_type/subject → same_type/subject": [
+      {
+        "record_id": "B0_84bacc4c6b66_009390",
+        "source_hash": "803402914d8a0dd5fe6347766787efaf671d8c19a344988106b3a50fbdbdb0ff",
+        "title": "Habitdesign Zapatero Armario Basic, Mueble Auxiliar Acabado en Color Roble Canadian, Medidas: 108 x 55 x 36 cm",
+        "first_subject": "鞋类收纳柜",
+        "review_subject": "鞋类收纳柜",
+        "first_span": "Zapatero Armario Basic, Mueble Auxiliar",
+        "review_span": "Zapatero Armario Basic",
+        "first_features": [
+          {
+            "name": "large_complete_furniture",
+            "span": "Zapatero Armario Basic, Mueble Auxiliar"
+          }
+        ],
+        "review_features": [
+          {
+            "name": "large_complete_furniture",
+            "span": "Zapatero Armario Basic, Mueble Auxiliar"
+          }
+        ]
+      },
+      {
+        "record_id": "B0_84bacc4c6b66_010842",
+        "source_hash": "375167a4dd9dfe28293d09bacd08585c2dc285c02ba7eee53fcdf39c6139bf29",
+        "title": "Jimmy BX7 Pro Aspirador Anti-ácaros 700W, Aspirador de mão con Esterilização UV Lamp e Ultra-sónica, Sensor Inteligente de Sujidade, para Colchões, Cama e Sofás",
+        "first_subject": "手持床褥吸尘器",
+        "review_subject": "手持床褥除螨吸尘器",
+        "first_span": "Aspirador Anti-ácaros 700W, Aspirador de mão",
+        "review_span": "Aspirador Anti-ácaros 700W, Aspirador de mão",
+        "first_features": [
+          {
+            "name": "household_good",
+            "span": "para Colchões, Cama e Sofás"
+          }
+        ],
+        "review_features": [
+          {
+            "name": "household_good",
+            "span": "para Colchões, Cama e Sofás"
+          }
+        ]
+      },
+      {
+        "record_id": "B0_84bacc4c6b66_013413",
+        "source_hash": "4abc97538bc86f79f1ed9094328cc1528565ecb2990241f79d459add14b89b5b",
+        "title": "Mewaii Luz Nocturna Infantil Dinosaurio de Silicona – Lampara Quitamiedos, 3 Niveles de Brillo, 4 Sonidos Relajantes, Batería Recargable 1200 mAh, Ideal para Bebés y Niños",
+        "first_subject": "硅胶恐龙声光夜灯",
+        "review_subject": "恐龙造型音效夜灯",
+        "first_span": "Luz Nocturna Infantil Dinosaurio de Silicona",
+        "review_span": "Luz Nocturna Infantil Dinosaurio de Silicona",
+        "first_features": [
+          {
+            "name": "household_good",
+            "span": "Luz Nocturna Infantil"
+          }
+        ],
+        "review_features": [
+          {
+            "name": "household_good",
+            "span": "Luz Nocturna Infantil"
+          }
+        ]
+      },
+      {
+        "record_id": "B0_84bacc4c6b66_017422",
+        "source_hash": "482edcbce7bf9b27b24d381d476489d8bc37e2927dcfaa4963fbf99293b351fd",
+        "title": "Rotuladores de Burbujas 3D Popcorn Pen, Bubble Drawing Pens para DIY, Kit de 6 Colores para Dibujo Creativo y Manualidades, Bolígrafo 3D para Niños y Tarjetas de Felicitación",
+        "first_subject": "六色立体泡泡绘画笔套装",
+        "review_subject": "立体泡泡绘画笔六色套装",
+        "first_span": "Rotuladores de Burbujas 3D Popcorn Pen",
+        "review_span": "Rotuladores de Burbujas 3D Popcorn Pen",
+        "first_features": [],
+        "review_features": []
+      },
+      {
+        "record_id": "B0_84bacc4c6b66_023942",
+        "source_hash": "25a7d5df8b5b80a36236104afc342d2d753baeebfd85eb39216bcd1ea0b69df6",
+        "title": "flintronic Temporizador Visual para Niño,Temporizador de Escritorio, 60 Minuto Temporizadorr de Cuenta Regresiva, Herramienta de Gestión del Tiempo para Niño Adult, Temporizadorr Silencio",
+        "first_subject": "桌面视觉倒计时器",
+        "review_subject": "可视倒计时器",
+        "first_span": "Temporizador Visual para Niño,Temporizador de Escritorio",
+        "review_span": "Temporizador Visual para Niño",
+        "first_features": [],
+        "review_features": []
+      }
+    ],
+    "reference:related_type/partial → same_type/partial": [
+      {
+        "record_id": "B0_84bacc4c6b66_010027",
+        "source_hash": "3278ee3ffad98ec8a15f846ccb6aa0d6313e393f662f9ae4fd645b32c8f6ccf8",
+        "title": "INKEE SURPRISE - Set de 5 bolas de baño Peppa Pig con sorpresa, bomba de baño, juguetes Peppa Pig para la bañera, con aroma a fresa y efecto espuma",
+        "first_subject": "含惊喜玩具的浴球套装",
+        "review_subject": "含惊喜玩具浴球套装",
+        "first_span": "Set de 5 bolas de baño Peppa Pig con sorpresa",
+        "review_span": "Set de 5 bolas de baño Peppa Pig con sorpresa",
+        "first_features": [
+          {
+            "name": "ordinary_consumable",
+            "span": "bolas de baño"
+          }
+        ],
+        "review_features": [
+          {
+            "name": "ordinary_consumable",
+            "span": "bolas de baño"
+          }
+        ]
+      },
+      {
+        "record_id": "B0_84bacc4c6b66_022700",
+        "source_hash": "ffb23b8b103adeda1097e70dcf7769a717324b91344e8477c1d23ad67402ffa8",
+        "title": "Yme Velas de Té LED Recargables USB con Base de Carga, 12 Piezas Vela LED Efecto Llama Velas Electricas Decorativas con Mando a Distancia para Halloween Navidad Fiesta Hogar Cara Decoración",
+        "first_subject": "带充电底座和遥控的LED茶蜡灯套装",
+        "review_subject": "带充电底座遥控LED茶蜡套装",
+        "first_span": "Velas de Té LED Recargables USB con Base de Carga, 12 Piezas",
+        "review_span": "Velas de Té LED Recargables USB con Base de Carga",
+        "first_features": [
+          {
+            "name": "household_good",
+            "span": "Velas de Té LED Recargables USB con Base de Carga"
+          }
+        ],
+        "review_features": [
+          {
+            "name": "household_good",
+            "span": "Velas Electricas Decorativas"
+          }
+        ]
+      }
+    ],
+    "reference:specific_need/unknown → host_only/unknown": [
+      {
+        "record_id": "B0_84bacc4c6b66_010450",
+        "source_hash": "7f51597ed8e9fdc4eada0b3f02b6a774d57ed27e444d6b38f2bae041044aa82a",
+        "title": "30 Piezas Ganchos Adhesivos para Cuadros, Kit de Colgado sin Taladrar, Ganchos Invisibles Autoadhesivos para Platos, Fotos, Marcos y Decoración de Pared, Alta Resistencia (Transparente)",
+        "first_subject": "自粘挂钩",
+        "review_subject": "自粘挂钩",
+        "first_span": "30 Piezas Ganchos Adhesivos para Cuadros",
+        "review_span": "30 Piezas Ganchos Adhesivos para Cuadros",
+        "first_features": [
+          {
+            "name": "ordinary_accessory",
+            "span": "Ganchos Adhesivos para Cuadros"
+          }
+        ],
+        "review_features": [
+          {
+            "name": "ordinary_accessory",
+            "span": "Ganchos Adhesivos para Cuadros"
+          }
+        ]
+      }
+    ],
+    "reference:category_only/partial → none/unknown": [
+      {
+        "record_id": "B0_84bacc4c6b66_011712",
+        "source_hash": "5e0333c250e5364cb8c05a8b626625ac9755f8329df9e2df7032a6dc6ee12d44",
+        "title": "LANMINGLEL Corto Cable di prolunga Spina Europea con Interruptor, Blanco,Cable Europeo,2 x 0,75 mm², 2,5 A, 250 V, para TV, Ordenador, Monitor, proyector (Blanco, 100, Centímetros)",
+        "first_subject": "带开关电源延长线",
+        "review_subject": "带开关电源延长线",
+        "first_span": "Cable di prolunga Spina Europea con Interruptor",
+        "review_span": "Cable di prolunga Spina Europea con Interruptor",
+        "first_features": [
+          {
+            "name": "ordinary_accessory",
+            "span": "Cable di prolunga Spina Europea con Interruptor"
+          }
+        ],
+        "review_features": [
+          {
+            "name": "ordinary_accessory",
+            "span": "Cable di prolunga Spina Europea con Interruptor"
+          }
+        ]
+      },
+      {
+        "record_id": "B0_84bacc4c6b66_013130",
+        "source_hash": "a9514bcc8fdc4f043b253d309d8a2396cbe124397bba0fdbe1c508e1ed074aff",
+        "title": "PastaSet, Máquina para pasta manual con accesorios incluidos para Raviolis y Espaguetis",
+        "first_subject": "手动面食机及附件套装",
+        "review_subject": "手动面条机配件套装",
+        "first_span": "Máquina para pasta manual con accesorios incluidos",
+        "review_span": "Máquina para pasta manual con accesorios incluidos para Raviolis y Espaguetis",
+        "first_features": [
+          {
+            "name": "manual_tool",
+            "span": "Máquina para pasta manual"
+          }
+        ],
+        "review_features": [
+          {
+            "name": "manual_tool",
+            "span": "Máquina para pasta manual"
+          }
+        ]
+      }
+    ],
+    "reference:related_type/subject → none/unknown": [
+      {
+        "record_id": "B0_84bacc4c6b66_012147",
+        "source_hash": "e0f255204c50c24f349e1995362acab0b031b1dcfd1417b3faefc8270a34aadd",
+        "title": "Leopacat Cafetera Turca,  600 ML Calentador de Mantequilla Acero Inoxidable | Jarra de Leche Derretir con Mango de Boquilla para Chocolate Caliente Hacer Café Leche Art, Cappuccino",
+        "first_subject": "不锈钢土耳其咖啡壶",
+        "review_subject": "不锈钢土耳其咖啡壶",
+        "first_span": "Cafetera Turca,  600 ML Calentador de Mantequilla Acero Inoxidable",
+        "review_span": "Cafetera Turca,  600 ML Calentador de Mantequilla Acero Inoxidable",
+        "first_features": [
+          {
+            "name": "household_good",
+            "span": "Cafetera Turca"
+          }
+        ],
+        "review_features": [
+          {
+            "name": "household_good",
+            "span": "Cafetera Turca"
+          }
+        ]
+      },
+      {
+        "record_id": "B0_84bacc4c6b66_014713",
+        "source_hash": "c4e4a84d42da1e2d7cf6170b45c9cacde5ba53d3b7b43f63be031326405936bf",
+        "title": "Coca-Cola - Letrero de metal en relieve en forma de flecha con Coca-Cola fría para la cocina o la sala de entretenimiento",
+        "first_subject": "浮雕金属装饰牌",
+        "review_subject": "箭头金属装饰牌",
+        "first_span": "Letrero de metal en relieve en forma de flecha",
+        "review_span": "Letrero de metal en relieve en forma de flecha",
+        "first_features": [
+          {
+            "name": "household_good",
+            "span": "Letrero de metal en relieve"
+          }
+        ],
+        "review_features": [
+          {
+            "name": "household_good",
+            "span": "Letrero de metal en relieve en forma de flecha"
+          }
+        ]
+      }
+    ],
+    "reference:related_type/subject → specific_need/partial": [
+      {
+        "record_id": "B0_84bacc4c6b66_012347",
+        "source_hash": "57c8fb12628cbb35e77615f2a6a238fc23b7beeccc86c8be36d6b55d9922d181",
+        "title": "Linda's Essentials Protector Cajones Cocina - Protector Antideslizante de Armarios y Muebles - Rollo Cubre Cajon Transparente - 30 x 150 cm",
+        "first_subject": "透明防滑抽屉衬垫卷",
+        "review_subject": "抽屉防滑衬垫卷",
+        "first_span": "Protector Cajones Cocina",
+        "review_span": "Protector Cajones Cocina",
+        "first_features": [
+          {
+            "name": "household_good",
+            "span": "Protector Cajones Cocina"
+          }
+        ],
+        "review_features": [
+          {
+            "name": "household_good",
+            "span": "Protector Cajones Cocina"
+          }
+        ]
+      },
+      {
+        "record_id": "B0_84bacc4c6b66_013653",
+        "source_hash": "34404f14d24494e669c5ab116e24dc8e99d9f65fbb46a7c885dd836d6d2336d7",
+        "title": "Moliuoly Correa de hombro para desbrozadora y cortacésped | Correa de transporte ajustable; Con mosquetón de metal y cierre rápido; Todas las marcas de cortasetos",
+        "first_subject": "园林工具肩背带",
+        "review_subject": "园艺工具通用肩带",
+        "first_span": "Correa de hombro para desbrozadora y cortacésped",
+        "review_span": "Correa de hombro para desbrozadora y cortacésped",
+        "first_features": [
+          {
+            "name": "host_dependency",
+            "span": "Correa de hombro para desbrozadora y cortacésped"
+          }
+        ],
+        "review_features": [
+          {
+            "name": "host_dependency",
+            "span": "Correa de hombro para desbrozadora y cortacésped"
+          }
+        ]
+      }
+    ],
+    "reference:related_type/subject → category_only/subject": [
+      {
+        "record_id": "B0_84bacc4c6b66_013006",
+        "source_hash": "74c839ab992449b5e6696616da0186dd5d51baf3dde2b079c76d507fcc07848f",
+        "title": "Mailfull 10 adhesivos 3D para azulejos, para cocina, baño, color beige | Azulejos autoadhesivos gruesos desmontables impermeables para baño, cocina, decoración de pared, resistente al agua",
+        "first_subject": "自粘立体瓷砖装饰贴",
+        "review_subject": "三维自粘瓷砖装饰贴",
+        "first_span": "10 adhesivos 3D para azulejos",
+        "review_span": "10 adhesivos 3D para azulejos",
+        "first_features": [
+          {
+            "name": "household_good",
+            "span": "Azulejos autoadhesivos"
+          }
+        ],
+        "review_features": [
+          {
+            "name": "household_good",
+            "span": "Azulejos autoadhesivos"
+          }
+        ]
+      }
+    ],
+    "form:unknown → host_component": [
+      {
+        "record_id": "B0_84bacc4c6b66_013406",
+        "source_hash": "1eae054dd1e3814eddade537e9989527a4ff648d7dc0feafa35ccd59c995ea2e",
+        "title": "Metaltex Reductor Gas, Acero Inoxidable, Pack de 2 Unidades",
+        "first_subject": "燃气缩减件（具体类型不明）",
+        "review_subject": "燃气缩减配件",
+        "first_span": "Reductor Gas",
+        "review_span": "Reductor Gas, Acero Inoxidable",
+        "first_features": [],
+        "review_features": [
+          {
+            "name": "host_dependency",
+            "span": "Reductor Gas"
+          }
+        ]
+      }
+    ],
+    "reference:none/unknown → category_only/unknown": [
+      {
+        "record_id": "B0_84bacc4c6b66_013746",
+        "source_hash": "4a7ea47802c036cd4037bca2d52060ae2f6d091a78608f2266efeb6314169c1a",
+        "title": "Motor puertas garaje seccionales basculantes 0-12 m² – Alcance 50 m | Accesorio para garaje, cierre automático, sistema de seguridad con detección de obstáculos, CarGate 800 TRIO, MGA0011",
+        "first_subject": "车库门驱动电机",
+        "review_subject": "车库门驱动电机",
+        "first_span": "Motor puertas garaje seccionales basculantes",
+        "review_span": "Motor puertas garaje seccionales basculantes",
+        "first_features": [
+          {
+            "name": "host_dependency",
+            "span": "Motor puertas garaje seccionales basculantes"
+          }
+        ],
+        "review_features": [
+          {
+            "name": "host_dependency",
+            "span": "Motor puertas garaje seccionales basculantes"
+          }
+        ]
+      },
+      {
+        "record_id": "B0_84bacc4c6b66_017441",
+        "source_hash": "bd2e41912c4539fcac1fcef7f2c7e2b66c381c79d9e8715501b4eadf391e109c",
+        "title": "Rowenta Clean It Hot & Cold, Aspiradora tapicerías 1150W, 5 Acc, Negro | Tecnología Powerheat, Limpieza 3 en 1 para tapicerías y moquetas, Elimina manchas y suciedad, Accesorio mascotas, IN7022",
+        "first_subject": "软包清洁机",
+        "review_subject": "软包织物清洁机",
+        "first_span": "Aspiradora tapicerías 1150W",
+        "review_span": "Aspiradora tapicerías 1150W",
+        "first_features": [],
+        "review_features": [
+          {
+            "name": "household_good",
+            "span": "Aspiradora tapicerías 1150W"
+          }
+        ]
+      }
+    ],
+    "reference:host_only/partial → related_type/partial": [
+      {
+        "record_id": "B0_84bacc4c6b66_014392",
+        "source_hash": "a322894a7f85540fc7403c0294526e7defb035f35262490d6987019c3477a6f5",
+        "title": "Nuovoware Portabotellas, 750 ml, Negro",
+        "first_subject": "瓶子承载用品",
+        "review_subject": "瓶子承载用品",
+        "first_span": "Portabotellas",
+        "review_span": "Portabotellas",
+        "first_features": [
+          {
+            "name": "ordinary_accessory",
+            "span": "Portabotellas"
+          }
+        ],
+        "review_features": [
+          {
+            "name": "ordinary_accessory",
+            "span": "Portabotellas"
+          }
+        ]
+      },
+      {
+        "record_id": "B0_84bacc4c6b66_015938",
+        "source_hash": "b513c4b7a6e46759ca434f0ef0412a0d7e3b6321e0ca18dfd13a2e6bd7009fa4",
+        "title": "Soporte Pared para Tabla de Planchar Metálico, Ahorra Espacio (Negro) | Gancho metálico antigrañidos | Fácil montaje en pared o puerta (tornillos incl.) | Soporte vertical para cualquier tabla T/Y",
+        "first_subject": "金属熨衣板壁挂架",
+        "review_subject": "金属熨衣板壁挂架",
+        "first_span": "Soporte Pared para Tabla de Planchar Metálico",
+        "review_span": "Soporte Pared para Tabla de Planchar Metálico",
+        "first_features": [
+          {
+            "name": "host_dependency",
+            "span": "Soporte Pared para Tabla de Planchar"
+          },
+          {
+            "name": "ordinary_accessory",
+            "span": "Gancho metálico"
+          }
+        ],
+        "review_features": [
+          {
+            "name": "host_dependency",
+            "span": "Soporte Pared para Tabla de Planchar"
+          }
+        ]
+      }
+    ],
+    "form:host_component → installed_component": [
+      {
+        "record_id": "B0_84bacc4c6b66_015938",
+        "source_hash": "b513c4b7a6e46759ca434f0ef0412a0d7e3b6321e0ca18dfd13a2e6bd7009fa4",
+        "title": "Soporte Pared para Tabla de Planchar Metálico, Ahorra Espacio (Negro) | Gancho metálico antigrañidos | Fácil montaje en pared o puerta (tornillos incl.) | Soporte vertical para cualquier tabla T/Y",
+        "first_subject": "金属熨衣板壁挂架",
+        "review_subject": "金属熨衣板壁挂架",
+        "first_span": "Soporte Pared para Tabla de Planchar Metálico",
+        "review_span": "Soporte Pared para Tabla de Planchar Metálico",
+        "first_features": [
+          {
+            "name": "host_dependency",
+            "span": "Soporte Pared para Tabla de Planchar"
+          },
+          {
+            "name": "ordinary_accessory",
+            "span": "Gancho metálico"
+          }
+        ],
+        "review_features": [
+          {
+            "name": "host_dependency",
+            "span": "Soporte Pared para Tabla de Planchar"
+          }
+        ]
+      }
+    ],
+    "reference:host_only/subject → host_only/unknown": [
+      {
+        "record_id": "B0_84bacc4c6b66_016090",
+        "source_hash": "f87e230b3c8242bd2013baad8cf3ac4719edbfdb39b3fa8f3397c14a00f1b6b1",
+        "title": "Portavasos Festival 4 Piezas, Cuelga Vasos Festival con Cinta de 1.5x45cm, Sujeta Vasos Portátil y Reutilizable para Conciertos, Fiestas y Eventos al Aire Libre - Negro",
+        "first_subject": "活动用挂绳杯托",
+        "review_subject": "节庆杯子携带挂带",
+        "first_span": "Portavasos Festival 4 Piezas",
+        "review_span": "Portavasos Festival 4 Piezas",
+        "first_features": [
+          {
+            "name": "ordinary_accessory",
+            "span": "Sujeta Vasos Portátil y Reutilizable"
+          }
+        ],
+        "review_features": [
+          {
+            "name": "ordinary_accessory",
+            "span": "Sujeta Vasos Portátil y Reutilizable"
+          }
+        ]
+      }
+    ],
+    "reference:none/unknown → specific_need/partial": [
+      {
+        "record_id": "B0_84bacc4c6b66_016359",
+        "source_hash": "af5044e704a45fe1cd09bdafbacf7a4e9ee71734ce8dd2e62ce6dc4be754cfa7",
+        "title": "Pulidor de vidrio eléctrico para el hogar, pulidor giratorio de copas de | Máquina automática de secado instantáneo de 600 rpm, secado y pulido automático para todos los vasos, para bares",
+        "first_subject": "电动杯具干燥抛光机",
+        "review_subject": "电动杯具烘干抛光机",
+        "first_span": "Pulidor de vidrio eléctrico para el hogar",
+        "review_span": "Pulidor de vidrio eléctrico para el hogar",
+        "first_features": [
+          {
+            "name": "household_good",
+            "span": "para el hogar"
+          }
+        ],
+        "review_features": []
+      }
+    ],
+    "reference:related_type/partial → none/unknown": [
+      {
+        "record_id": "B0_84bacc4c6b66_017041",
+        "source_hash": "0890b866a44e49bf0e3440eb90bec2db404cef3b074105b8d184a756fd6936e3",
+        "title": "3en1 Mueble Bar con Luces LED RGB Regulables,135cm Coffee Bar con Compartimento para Mini Nevera,Armario Lateral con Puertos USB,Portavasos y Cajones,Diseño Moderno para Cocina,Comedor o Sala de Estar",
+        "first_subject": "带灯吧台收纳柜",
+        "review_subject": "带灯及USB接口吧柜",
+        "first_span": "3en1 Mueble Bar con Luces LED RGB Regulables",
+        "review_span": "3en1 Mueble Bar con Luces LED RGB Regulables",
+        "first_features": [
+          {
+            "name": "large_complete_furniture",
+            "span": "Mueble Bar"
+          },
+          {
+            "name": "powered_furniture",
+            "span": "Mueble Bar con Luces LED RGB Regulables"
+          }
+        ],
+        "review_features": [
+          {
+            "name": "large_complete_furniture",
+            "span": "Mueble Bar"
+          }
+        ]
+      }
+    ],
+    "reference:specific_need/partial → host_only/partial": [
+      {
+        "record_id": "B0_84bacc4c6b66_017283",
+        "source_hash": "61511b7307489b82cccdd6cc86edcece1f90dfba8a05b0ef6510ef3849e3cc9c",
+        "title": "Rierousy Silicona sublimación taza prensa accesorios en blanco | Wraps 3 Gruesa Prensa de Taza Manga de Silicona para Imprimir Vasos Compatible con Cricut",
+        "first_subject": "杯子压印用硅胶包套",
+        "review_subject": "杯具热转印硅胶套",
+        "first_span": "Prensa de Taza Manga de Silicona",
+        "review_span": "Manga de Silicona",
+        "first_features": [
+          {
+            "name": "ordinary_accessory",
+            "span": "accesorios"
+          },
+          {
+            "name": "host_dependency",
+            "span": "Prensa de Taza Manga de Silicona"
+          }
+        ],
+        "review_features": [
+          {
+            "name": "host_dependency",
+            "span": "Prensa de Taza Manga de Silicona para Imprimir Vasos Compatible con Cricut"
+          }
+        ]
+      }
+    ],
+    "reference:related_type/partial → specific_need/partial": [
+      {
+        "record_id": "B0_84bacc4c6b66_017694",
+        "source_hash": "2b610bbf8358c747fd21cb469ec751bb80006004d0caaa6312d6a7749822ceb4",
+        "title": "SAYAYO Toallero de Baño Toallero Pulido Doble Barra 40CM | SUS304 Acero Inoxidable, Estante de Almacenamiento, Colgador Trapos Cocina Para Baño y Cocina",
+        "first_subject": "双杆不锈钢毛巾架",
+        "review_subject": "双杆毛巾架",
+        "first_span": "Toallero Pulido Doble Barra 40CM",
+        "review_span": "Toallero Pulido Doble Barra 40CM",
+        "first_features": [
+          {
+            "name": "household_good",
+            "span": "Toallero de Baño"
+          }
+        ],
+        "review_features": [
+          {
+            "name": "household_good",
+            "span": "Toallero de Baño"
+          }
+        ]
+      },
+      {
+        "record_id": "B0_84bacc4c6b66_020099",
+        "source_hash": "48ecc5ee98b8d53ba09fbc3899ab87f014587af67f4a74ae9ff71fadee599425",
+        "title": "Tineco Floor One S9 Artist, Aspiradora y Fregona, Potente Succión",
+        "first_subject": "吸拖清洁机",
+        "review_subject": "吸拖清洁机",
+        "first_span": "Aspiradora y Fregona",
+        "review_span": "Aspiradora y Fregona",
+        "first_features": [],
+        "review_features": [
+          {
+            "name": "household_good",
+            "span": "Aspiradora y Fregona"
+          }
+        ]
+      }
+    ],
+    "form:ordinary_good → host_component": [
+      {
+        "record_id": "B0_84bacc4c6b66_018205",
+        "source_hash": "4c282c2683e6c5b68e179b574661a3528936e0c62ed123003c9a85557429ed20",
+        "title": "SUNLU PETG 2.0 Filamento Impresora 3D, Menos Stringing, Robusto y Liso",
+        "first_subject": "PETG三维打印丝材",
+        "review_subject": "PETG打印丝",
+        "first_span": "PETG 2.0 Filamento Impresora 3D",
+        "review_span": "PETG 2.0 Filamento Impresora 3D",
+        "first_features": [
+          {
+            "name": "ordinary_consumable",
+            "span": "PETG 2.0 Filamento Impresora 3D"
+          },
+          {
+            "name": "host_dependency",
+            "span": "Filamento Impresora 3D"
+          }
+        ],
+        "review_features": [
+          {
+            "name": "ordinary_consumable",
+            "span": "PETG 2.0 Filamento Impresora 3D"
+          },
+          {
+            "name": "host_dependency",
+            "span": "Filamento Impresora 3D"
+          }
+        ]
+      }
+    ],
+    "form:whole_system → bundle": [
+      {
+        "record_id": "B0_84bacc4c6b66_018233",
+        "source_hash": "eb0df5d0c556cebcbc2dfd155b5796f1577429458fefdb61b7576d476a611cfd",
+        "title": "SURFOU Timbre Inalámbrico Exterior Impermeable 400M, 1 Receptor + 1 Tx | Campainha Sem Fios, 55 Melodías, 5 Volúmenes hasta 110dB, LED, -30°C a 70°C, Batería 1-3 Años, Interior y Exterior",
+        "first_subject": "无线门铃套装",
+        "review_subject": "无线门铃套装",
+        "first_span": "Timbre Inalámbrico Exterior Impermeable 400M, 1 Receptor + 1 Tx",
+        "review_span": "Timbre Inalámbrico Exterior Impermeable 400M, 1 Receptor + 1 Tx",
+        "first_features": [],
+        "review_features": []
+      }
+    ],
+    "reference:specific_need/subject → host_only/partial": [
+      {
+        "record_id": "B0_84bacc4c6b66_018474",
+        "source_hash": "efe1e2088bb6e4f27dfe32bdc60c66e9fcdb474061e5e55b9fd2b0f69b623139",
+        "title": "Anillos De Servilleta Plata, Servilleteros De Mesa, Anillos Servilleta De Metal, 12 Piezas, para Reuniones Familiares, Bodas, Cumpleaños, Decoración De Mesa",
+        "first_subject": "金属餐巾环十二件装",
+        "review_subject": "金属餐巾环",
+        "first_span": "Anillos Servilleta De Metal, 12 Piezas",
+        "review_span": "Anillos De Servilleta Plata",
+        "first_features": [
+          {
+            "name": "household_good",
+            "span": "Servilleteros De Mesa"
+          }
+        ],
+        "review_features": [
+          {
+            "name": "household_good",
+            "span": "Servilleteros De Mesa"
+          }
+        ]
+      }
+    ],
+    "form:universal_accessory → host_component": [
+      {
+        "record_id": "B0_84bacc4c6b66_018904",
+        "source_hash": "54348e26e1c6aa6dbef521dcf4146e9a7b12c3497a692498e7ac7c518a413b87",
+        "title": "Soporte Alcachofa Ducha Ventosa 7cm Giratorio 360° Sin Taladrar Baño Hogar | ABS cromado anticorrosivo, alta succión hasta 3kg, rotación flexible, compatible cabezales ducha estándar para caravana baño",
+        "first_subject": "吸盘式旋转花洒支架",
+        "review_subject": "吸盘式旋转花洒支架",
+        "first_span": "Soporte Alcachofa Ducha Ventosa 7cm Giratorio 360°",
+        "review_span": "Soporte Alcachofa Ducha Ventosa 7cm Giratorio 360°",
+        "first_features": [
+          {
+            "name": "ordinary_accessory",
+            "span": "Soporte Alcachofa Ducha"
+          },
+          {
+            "name": "household_good",
+            "span": "Baño Hogar"
+          }
+        ],
+        "review_features": [
+          {
+            "name": "ordinary_accessory",
+            "span": "Soporte Alcachofa Ducha"
+          },
+          {
+            "name": "host_dependency",
+            "span": "compatible cabezales ducha estándar"
+          }
+        ]
+      }
+    ],
+    "reference:specific_need/partial → related_type/partial": [
+      {
+        "record_id": "B0_84bacc4c6b66_018992",
+        "source_hash": "9557edb6e80c25f04323fc103f020060179e6dd83e9107321e9b35e5d0cde649",
+        "title": "Spindle Top Whorl - Kit de hilatura de hilo giratorio a mano para principiantes, hilado de fibra vegetal",
+        "first_subject": "手纺纺锤套件",
+        "review_subject": "手纺纱入门套件",
+        "first_span": "Kit de hilatura de hilo giratorio a mano",
+        "review_span": "Kit de hilatura de hilo giratorio a mano para principiantes",
+        "first_features": [
+          {
+            "name": "manual_tool",
+            "span": "hilatura de hilo giratorio a mano"
+          }
+        ],
+        "review_features": [
+          {
+            "name": "manual_tool",
+            "span": "hilatura de hilo giratorio a mano"
+          }
+        ]
+      }
+    ],
+    "reference:specific_need/subject → related_type/subject": [
+      {
+        "record_id": "B0_84bacc4c6b66_019222",
+        "source_hash": "eca760604bf1499ff36c6c7985a881590f70bdfbc56bdf52e0c3b1f4ce38ce1f",
+        "title": "Recambios Cepillo Motorizado para Dreame R20/R30/T20/T30/R10 Pro/T20 Pro | con luz LED, Cepillo Cabezal de turbina para Moquetas y Suelos Duros",
+        "first_subject": "带LED灯的吸尘器替换刷头",
+        "review_subject": "带LED的吸尘器电动替换刷头",
+        "first_span": "Recambios Cepillo Motorizado",
+        "review_span": "Recambios Cepillo Motorizado",
+        "first_features": [
+          {
+            "name": "host_dependency",
+            "span": "para Dreame R20/R30/T20/T30/R10 Pro/T20 Pro"
+          }
+        ],
+        "review_features": [
+          {
+            "name": "host_dependency",
+            "span": "para Dreame R20/R30/T20/T30/R10 Pro/T20 Pro"
+          }
+        ]
+      }
+    ],
+    "boundary:范围内 → 未知": [
+      {
+        "record_id": "B0_84bacc4c6b66_019248",
+        "source_hash": "0e0d3117610f3b6117fad3844566345e0bf62f348bbf655c83dbb24381e77a69",
+        "title": "S&P TD160/100 - Ventilador (160m/hr, 10,1 cm)",
+        "first_subject": "风扇",
+        "review_subject": "风扇",
+        "first_span": "Ventilador (160m/hr, 10,1 cm)",
+        "review_span": "Ventilador (160m/hr, 10,1 cm)",
+        "first_features": [],
+        "review_features": []
+      }
+    ],
+    "form:installed_component → whole_machine": [
+      {
+        "record_id": "B0_84bacc4c6b66_020462",
+        "source_hash": "8dd629e625553baa1a3c27080e2334b38532085d7de4eb8608b8ef48761f5331",
+        "title": "Turbionaire Trend HRV 100 WMW Unidad De VMC Descentralizada Con Recuperación De Calor De Cerámica, WiFi, Sensor De Humedad, Remoto, 8 Velocidades, Doble Flujo, 100 mm, Garantía De 3 Años",
+        "first_subject": "分散式热回收通风单元",
+        "review_subject": "分散式热回收通风机组",
+        "first_span": "Unidad De VMC Descentralizada Con Recuperación De Calor De Cerámica",
+        "review_span": "Unidad De VMC Descentralizada Con Recuperación De Calor De Cerámica",
+        "first_features": [],
+        "review_features": []
+      }
+    ],
+    "reference:related_type/partial → related_type/unknown": [
+      {
+        "record_id": "B0_84bacc4c6b66_020609",
+        "source_hash": "18ff8689915f8e1532c13f32b3b57a4089a803cbb1ae9147554dbd77463f359f",
+        "title": "Umbra Exhibit Galería de Fotos Pared Ajustable, Set de 5, Negro",
+        "first_subject": "可调照片墙五件套",
+        "review_subject": "可调墙面照片展示套装",
+        "first_span": "Galería de Fotos Pared Ajustable, Set de 5",
+        "review_span": "Galería de Fotos Pared Ajustable, Set de 5",
+        "first_features": [
+          {
+            "name": "household_good",
+            "span": "Galería de Fotos Pared Ajustable"
+          }
+        ],
+        "review_features": [
+          {
+            "name": "household_good",
+            "span": "Galería de Fotos Pared Ajustable"
+          }
+        ]
+      }
+    ],
+    "reference:related_type/subject → host_only/partial": [
+      {
+        "record_id": "B0_84bacc4c6b66_020788",
+        "source_hash": "cb7ef5ae6e7a87b01ea011a84d5e0044dfe30d88e5dad551c7ca3e84ce863df0",
+        "title": "VABNEER 100 Piezas de Mecha de Vela de Algodón, para Fabricación de Velas DIY (10cm/4in)",
+        "first_subject": "棉烛芯百件装",
+        "review_subject": "棉质蜡烛芯",
+        "first_span": "100 Piezas de Mecha de Vela de Algodón",
+        "review_span": "100 Piezas de Mecha de Vela de Algodón",
+        "first_features": [
+          {
+            "name": "ordinary_consumable",
+            "span": "Mecha de Vela de Algodón"
+          }
+        ],
+        "review_features": [
+          {
+            "name": "ordinary_consumable",
+            "span": "Mecha de Vela de Algodón"
+          }
+        ]
+      }
+    ],
+    "reference:host_only/partial → none/unknown": [
+      {
+        "record_id": "B0_84bacc4c6b66_021166",
+        "source_hash": "7af4e909582e45b53c01d8b64aa12691a4d44ce5f963dd724f4563d46025b8ad",
+        "title": "VacniQ C688 aspiradora limpiadora 4 en 1, 25000 Pa, 1800 W. Calefacción, desinfección, pantalla LED y avisos vocales. Ideal para sofás, alfombras, asientos auto, colchones, cojines mascotas",
+        "first_subject": "多功能吸尘清洁机",
+        "review_subject": "多功能织物清洁吸尘器",
+        "first_span": "aspiradora limpiadora 4 en 1",
+        "review_span": "aspiradora limpiadora 4 en 1",
+        "first_features": [],
+        "review_features": []
+      },
+      {
+        "record_id": "B0_84bacc4c6b66_021265",
+        "source_hash": "8795cb0c1fec247e34b0b6579d18a51dfcf8b527cfdb00fce3c966ba1bdcbf0b",
+        "title": "Vax SpotWash Duo Quitamanchas para alfombras y tapicería con herramienta para mascotas, accesorios multi-superficie y solución para limpiar escaleras, sofás, coches y superficies duras",
+        "first_subject": "地毯软包去渍清洁套装",
+        "review_subject": "地毯软包去污设备套装",
+        "first_span": "Quitamanchas para alfombras y tapicería con herramienta para mascotas, accesorios multi-superficie y solución",
+        "review_span": "Quitamanchas para alfombras y tapicería con herramienta para mascotas, accesorios multi-superficie y solución",
+        "first_features": [],
+        "review_features": []
+      }
+    ],
+    "reference:related_type/unknown → related_type/partial": [
+      {
+        "record_id": "B0_84bacc4c6b66_021549",
+        "source_hash": "506a36486c294559712ea839235d7790d55b71f9b294b71e200b2f532a8319f1",
+        "title": "Vinabo Temporizador Enchufe Digital Programable, Toma programable de Ciclo Alternativo y repetitivo, Temporizador de Cuenta Regresiva, Toma Temporizador programable con LCD, Ahorro de Electricidad",
+        "first_subject": "数字可编程定时插座",
+        "review_subject": "数字可编程定时插座",
+        "first_span": "Temporizador Enchufe Digital Programable",
+        "review_span": "Temporizador Enchufe Digital Programable",
+        "first_features": [],
+        "review_features": []
+      }
+    ],
+    "form:ordinary_good → installed_component": [
+      {
+        "record_id": "B0_84bacc4c6b66_021930",
+        "source_hash": "542b6f9d457147fcce04f0ae3e5f7ccf6ba39dd4e1bab4207427a2a09a607b9b",
+        "title": "WOLTU Estante de Pared Tablero Flotante Libre de CD DVD Libro Tablero de Madera 50x22,9x3,8cm, Blanco, RG9477ws",
+        "first_subject": "木质悬浮墙架",
+        "review_subject": "浮动墙面置物板",
+        "first_span": "Estante de Pared Tablero Flotante",
+        "review_span": "Estante de Pared Tablero Flotante",
+        "first_features": [
+          {
+            "name": "household_good",
+            "span": "Estante de Pared"
+          }
+        ],
+        "review_features": [
+          {
+            "name": "household_good",
+            "span": "Estante de Pared"
+          }
+        ]
+      }
+    ],
+    "reference:category_only/subject → category_only/unknown": [
+      {
+        "record_id": "B0_84bacc4c6b66_023448",
+        "source_hash": "5229e9b298aef25b96408d6142b0da16ee7960596427a2d9d7717196bed6c638",
+        "title": "Juego de recorte de cerámica con 6 herramientas de cerámica de metal, formas de bucle surtidas, asas texturizadas para tallado de arcilla, refinamiento de detalles, pasatiempos de estudio, recorte de",
+        "first_subject": "陶艺修坯工具套装",
+        "review_subject": "陶艺金属环形修坯工具套装",
+        "first_span": "Juego de recorte de cerámica con 6 herramientas de cerámica de metal",
+        "review_span": "Juego de recorte de cerámica con 6 herramientas de cerámica de metal",
+        "first_features": [
+          {
+            "name": "manual_tool",
+            "span": "herramientas de cerámica de metal"
+          },
+          {
+            "name": "manual_tool",
+            "span": "asas texturizadas para tallado de arcilla"
+          }
+        ],
+        "review_features": [
+          {
+            "name": "manual_tool",
+            "span": "herramientas de cerámica de metal"
+          }
+        ]
+      }
+    ],
+    "form:host_component → universal_accessory": [
+      {
+        "record_id": "B0_84bacc4c6b66_023691",
+        "source_hash": "9f9ce3152e2dd1d8a1b76271d93cdeb6376ea55d89313f3bec1e9608c7d43b89",
+        "title": "Mando a distancia universal para puerta y garaje, 250-915 MHz, 4 en 1 | Multifunción compatible con Rolling Code para Came TOP432EE/NA/EV mando a distancia, copia, puertas, persianas, copiador",
+        "first_subject": "门及车库通用遥控器",
+        "review_subject": "门与车库门通用遥控器",
+        "first_span": "Mando a distancia universal para puerta y garaje",
+        "review_span": "Mando a distancia universal para puerta y garaje",
+        "first_features": [
+          {
+            "name": "host_dependency",
+            "span": "para puerta y garaje"
+          }
+        ],
+        "review_features": [
+          {
+            "name": "host_dependency",
+            "span": "para puerta y garaje"
+          }
+        ]
+      }
+    ]
+  },
+  "both_outside_candidates": [
+    {
+      "record_id": "B0_84bacc4c6b66_006381",
+      "source_hash": "1d2ca987bed9966f5786315108a372e696aa9558307b785a44b8cde40eace41a",
+      "title": "Máquina de prensa térmica, 10T 1200W 220V 0-400°F 0-999s LCD Manometer Doppelseitig Heizpresse Heißpressmaschine Transferpresse Rosin Kolophonium Pressmaschine Dual Manuell Hydraulisch für DIY",
+      "first_subject": "手动液压热压机",
+      "review_subject": "手动液压双面热压机",
+      "first_span": "Máquina de prensa térmica",
+      "review_span": "Máquina de prensa térmica",
+      "first_features": [
+        {
+          "name": "heavy_duty_machine",
+          "span": "Máquina de prensa térmica, 10T 1200W 220V"
+        }
+      ],
+      "review_features": [
+        {
+          "name": "heavy_duty_machine",
+          "span": "Máquina de prensa térmica, 10T 1200W 220V"
+        }
+      ],
+      "first_family": "热压加工设备",
+      "review_family": "热压设备",
+      "first_form": "whole_machine",
+      "review_form": "whole_machine",
+      "unresolved_layers": []
+    },
+    {
+      "record_id": "B0_84bacc4c6b66_006486",
+      "source_hash": "d9d448a2b322a5ca460faf4e4a6f124576c2062d85b19f3dc7f238948e4ff3a2",
+      "title": "ECOVACS WINBOT W3 OMNI Robot Limpiacristales con Estación Multifunción, Autolavado de Mopa, Limpieza Inteligente de Bordes, Atomizador Triple, Control vía App, Protección de 12 Fases",
+      "first_subject": "带维护站擦窗机器人系统",
+      "review_subject": "带基站擦窗机器人系统",
+      "first_span": "Robot Limpiacristales con Estación Multifunción",
+      "review_span": "Robot Limpiacristales con Estación Multifunción",
+      "first_features": [
+        {
+          "name": "robot_cleaner",
+          "span": "Robot Limpiacristales"
+        },
+        {
+          "name": "automatic_maintenance",
+          "span": "Autolavado de Mopa"
+        }
+      ],
+      "review_features": [
+        {
+          "name": "robot_cleaner",
+          "span": "Robot Limpiacristales"
+        },
+        {
+          "name": "automatic_maintenance",
+          "span": "Autolavado de Mopa"
+        }
+      ],
+      "first_family": "自动清洁系统",
+      "review_family": "清洁设备",
+      "first_form": "whole_system",
+      "review_form": "whole_system",
+      "unresolved_layers": [
+        "reference"
+      ]
+    },
+    {
+      "record_id": "B0_84bacc4c6b66_021347",
+      "source_hash": "64da60fc04c920cf4111e427f01f0eddcf435a86243f0284d3530f380239476b",
+      "title": "Verso CS Lite Estufa de leña con horno y termómetro, placa de cocción de 7,7 kW de potencia calorífica, estufa multifuncional para cocinar y calentar, estufa de leña eficiente",
+      "first_subject": "带烤箱及温度计的燃木炉",
+      "review_subject": "带烤箱及温度计的燃木炉",
+      "first_span": "Estufa de leña con horno y termómetro",
+      "review_span": "Estufa de leña con horno y termómetro",
+      "first_features": [
+        {
+          "name": "major_appliance",
+          "span": "Estufa de leña con horno"
+        }
+      ],
+      "review_features": [
+        {
+          "name": "major_appliance",
+          "span": "Estufa de leña con horno y termómetro"
+        }
+      ],
+      "first_family": "供暖炉具",
+      "review_family": "供暖烹饪炉具",
+      "first_form": "whole_machine",
+      "review_form": "whole_machine",
+      "unresolved_layers": []
+    },
+    {
+      "record_id": "B0_84bacc4c6b66_022285",
+      "source_hash": "70800c36ad8904d17aadd45a3f21967e73850abf382f6988fc9b647ddab0f964",
+      "title": "XIAOMI H40 Robot Aspirador con Auto-Vaciado, Aspiración 10000 Pa | Estación Compacta Bolsa 4L, Hasta 90 Días Sin Intervención, Anti-Tangle, Control App y voz",
+      "first_subject": "自动集尘扫地机器人系统",
+      "review_subject": "带自动集尘站的扫地机器人系统",
+      "first_span": "Robot Aspirador con Auto-Vaciado",
+      "review_span": "Robot Aspirador con Auto-Vaciado",
+      "first_features": [
+        {
+          "name": "robot_cleaner",
+          "span": "Robot Aspirador"
+        },
+        {
+          "name": "automatic_maintenance",
+          "span": "Auto-Vaciado"
+        }
+      ],
+      "review_features": [
+        {
+          "name": "robot_cleaner",
+          "span": "Robot Aspirador"
+        },
+        {
+          "name": "automatic_maintenance",
+          "span": "Auto-Vaciado"
+        }
+      ],
+      "first_family": "地面清洁系统",
+      "review_family": "自动地面清洁系统",
+      "first_form": "whole_system",
+      "review_form": "whole_system",
+      "unresolved_layers": []
+    }
+  ],
+  "information_insufficient": [
+    {
+      "record_id": "B0_84bacc4c6b66_003404",
+      "source_hash": "98339109f7afcd0c889cf673fc572012a6e031791db9bacf056c4bf5cba5678f",
+      "title": "Braun Minipimer MQ10 Black - Accesorio batidora de varilla, color negro",
+      "first_subject": "手持搅拌机配件",
+      "review_subject": "搅拌机附件",
+      "first_span": "Accesorio batidora de varilla",
+      "review_span": "Accesorio batidora de varilla",
+      "first_features": [
+        {
+          "name": "host_dependency",
+          "span": "Accesorio batidora de varilla"
+        }
+      ],
+      "review_features": [
+        {
+          "name": "host_dependency",
+          "span": "Accesorio batidora de varilla"
+        }
+      ]
+    },
+    {
+      "record_id": "B0_84bacc4c6b66_005014",
+      "source_hash": "a4d5e10bb16f1178d051c72c129b4f78cdef227410c2c44251c8ff149ccad5b5",
+      "title": "Cono, altura: 35 cm, diámetro: 16 cm, 1 unidad.",
+      "first_subject": "用途未明的锥体",
+      "review_subject": "锥形物品（用途未知）",
+      "first_span": "Cono",
+      "review_span": "Cono, altura: 35 cm, diámetro: 16 cm, 1 unidad.",
+      "first_features": [],
+      "review_features": []
+    },
+    {
+      "record_id": "B0_84bacc4c6b66_006898",
+      "source_hash": "84797a6681db1a41790d61b7ff42ea5018cc420598330898bc216ab17c087b91",
+      "title": "Cajas Mágica De Eliminación De Polvo De Purificación De Aire Interior | 200g Cajas Mágica De Aire Multifuncional Con Recolección Automática De Polvo Fórmula De Extracto De Plantas Para Hogar",
+      "first_subject": "形态未明的除尘净化盒",
+      "review_subject": "室内除尘净化盒",
+      "first_span": "Cajas Mágica De Eliminación De Polvo De Purificación De Aire Interior",
+      "review_span": "Cajas Mágica De Eliminación De Polvo De Purificación De Aire Interior",
+      "first_features": [],
+      "review_features": [
+        {
+          "name": "household_good",
+          "span": "Para Hogar"
+        }
+      ]
+    },
+    {
+      "record_id": "B0_84bacc4c6b66_007178",
+      "source_hash": "a42599ae7df7d0749ad03b8f2d9c206296d47f203409d853a84b824fb7b8ab86",
+      "title": "Essdee Bloque impresión Essentials Kit",
+      "first_subject": "版画印制套装",
+      "review_subject": "版画印制套件",
+      "first_span": "Bloque impresión Essentials Kit",
+      "review_span": "Bloque impresión Essentials Kit",
+      "first_features": [],
+      "review_features": []
+    },
+    {
+      "record_id": "B0_84bacc4c6b66_009960",
+      "source_hash": "0898a1bb0cf4f697d6ecb7efca0a234decd68de2abb0f139725c886c85c7071f",
+      "title": "IBILI 716012 Aro INOX, Plata, 12 x 4.5 cm",
+      "first_subject": "不锈钢环",
+      "review_subject": "不锈钢环",
+      "first_span": "Aro INOX",
+      "review_span": "Aro INOX",
+      "first_features": [],
+      "review_features": []
+    },
+    {
+      "record_id": "B0_84bacc4c6b66_011089",
+      "source_hash": "6b7e936abf58b8d33c50dc1367d69b0b93db2c8ba296151eb2f6741b56344ec2",
+      "title": "Honey Can Do KCH-02989 Protector de bolsas de acero inoxidable, plateado, M",
+      "first_subject": "袋保护器（用途待明）",
+      "review_subject": "袋保护用品（具体形态待明）",
+      "first_span": "Protector de bolsas de acero inoxidable",
+      "review_span": "Protector de bolsas de acero inoxidable",
+      "first_features": [],
+      "review_features": []
+    },
+    {
+      "record_id": "B0_84bacc4c6b66_012358",
+      "source_hash": "5e55c9c50dd2ebc189ad9e17c746ab31b4326f1a0c167e62627032da9d0b078c",
+      "title": "Linnkyfloa para Acero Inoxidable IP55 Exterior para Acero Inoxidable IP55(Concealed Install)",
+      "first_subject": "主体不明",
+      "review_subject": "未知",
+      "first_span": "Linnkyfloa para Acero Inoxidable IP55 Exterior para Acero Inoxidable IP55(Concealed Install)",
+      "review_span": "Linnkyfloa para Acero Inoxidable IP55 Exterior para Acero Inoxidable IP55(Concealed Install)",
+      "first_features": [],
+      "review_features": []
+    },
+    {
+      "record_id": "B0_84bacc4c6b66_013003",
+      "source_hash": "14a23fae074163dc4519251506cd4604a8202fdbafb61fe89532bca94c9d10b8",
+      "title": "Deshumidificador Eléctrico, Deshumidificador (Rosa)",
+      "first_subject": "电动除湿器",
+      "review_subject": "电动除湿机",
+      "first_span": "Deshumidificador Eléctrico",
+      "review_span": "Deshumidificador Eléctrico",
+      "first_features": [],
+      "review_features": []
+    },
+    {
+      "record_id": "B0_84bacc4c6b66_013406",
+      "source_hash": "1eae054dd1e3814eddade537e9989527a4ff648d7dc0feafa35ccd59c995ea2e",
+      "title": "Metaltex Reductor Gas, Acero Inoxidable, Pack de 2 Unidades",
+      "first_subject": "燃气缩减件（具体类型不明）",
+      "review_subject": "燃气缩减配件",
+      "first_span": "Reductor Gas",
+      "review_span": "Reductor Gas, Acero Inoxidable",
+      "first_features": [],
+      "review_features": [
+        {
+          "name": "host_dependency",
+          "span": "Reductor Gas"
+        }
+      ]
+    },
+    {
+      "record_id": "B0_84bacc4c6b66_016006",
+      "source_hash": "5f7f024fba59e043eabc266c3f9764eab9724eb6018ec70971193b64d6fd74e1",
+      "title": "Kit de arte de tela Poking, hecho a mano, 3D para adultos | Accesorios para manualidades, juego de arte de tela poking DIY hecho a mano 3D para adultos, creativo, arte textil hobby",
+      "first_subject": "立体布艺手工套装",
+      "review_subject": "立体布艺手工套装",
+      "first_span": "Kit de arte de tela Poking",
+      "review_span": "Kit de arte de tela Poking",
+      "first_features": [],
+      "review_features": []
+    },
+    {
+      "record_id": "B0_84bacc4c6b66_017609",
+      "source_hash": "7437c2d1b1532e9359554fe4141c2d8d9250d7fa59480f6f84c716e36d3d1ff9",
+      "title": "Russell Hobbs 000294468000 24360 – 70, 2400 W, 1.7 Litros, Plástico, Blanco",
+      "first_subject": "未知商品",
+      "review_subject": "未知",
+      "first_span": "Russell Hobbs 000294468000 24360 – 70, 2400 W, 1.7 Litros, Plástico, Blanco",
+      "review_span": "Russell Hobbs 000294468000 24360 – 70, 2400 W, 1.7 Litros, Plástico, Blanco",
+      "first_features": [],
+      "review_features": []
+    },
+    {
+      "record_id": "B0_84bacc4c6b66_019248",
+      "source_hash": "0e0d3117610f3b6117fad3844566345e0bf62f348bbf655c83dbb24381e77a69",
+      "title": "S&P TD160/100 - Ventilador (160m/hr, 10,1 cm)",
+      "first_subject": "风扇",
+      "review_subject": "风扇",
+      "first_span": "Ventilador (160m/hr, 10,1 cm)",
+      "review_span": "Ventilador (160m/hr, 10,1 cm)",
+      "first_features": [],
+      "review_features": []
+    },
+    {
+      "record_id": "B0_84bacc4c6b66_020609",
+      "source_hash": "18ff8689915f8e1532c13f32b3b57a4089a803cbb1ae9147554dbd77463f359f",
+      "title": "Umbra Exhibit Galería de Fotos Pared Ajustable, Set de 5, Negro",
+      "first_subject": "可调照片墙五件套",
+      "review_subject": "可调墙面照片展示套装",
+      "first_span": "Galería de Fotos Pared Ajustable, Set de 5",
+      "review_span": "Galería de Fotos Pared Ajustable, Set de 5",
+      "first_features": [
+        {
+          "name": "household_good",
+          "span": "Galería de Fotos Pared Ajustable"
+        }
+      ],
+      "review_features": [
+        {
+          "name": "household_good",
+          "span": "Galería de Fotos Pared Ajustable"
+        }
+      ]
+    },
+    {
+      "record_id": "B0_84bacc4c6b66_024147",
+      "source_hash": "bf775ad98d75cebfb886ebfd0f5767ff8cfa493ba7a6c7888391ec0206c66cce",
+      "title": "Tabla de cortar acero inoxidable ·Gancho · Espátula · Canal recoge líquidos | Doble cara · Antideslizante · No absorbe olores · 33×22×1 cm · Más gruesa · Fácil limpieza · No porosa · Antibacteriana",
+      "first_subject": "不锈钢砧板，可能含配件",
+      "review_subject": "不锈钢砧板及待明确配件",
+      "first_span": "Tabla de cortar acero inoxidable ·Gancho · Espátula · Canal recoge líquidos",
+      "review_span": "Tabla de cortar acero inoxidable ·Gancho · Espátula · Canal recoge líquidos",
+      "first_features": [
+        {
+          "name": "household_good",
+          "span": "Tabla de cortar acero inoxidable"
+        }
+      ],
+      "review_features": [
+        {
+          "name": "household_good",
+          "span": "Tabla de cortar acero inoxidable"
+        }
+      ]
+    }
+  ],
+  "formal_accuracy": null,
+  "confirmed_errors": null
+}

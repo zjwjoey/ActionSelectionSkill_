@@ -1,0 +1,39 @@
+{
+  "attempt_requests": 3,
+  "completed_process_requests": [
+    "ecb7b2072dc79d2c7e5c3cce0fe608a1dbf5d32c7d4dc548a5eee0191ff50d0c"
+  ],
+  "cancelled_requests": [
+    {
+      "request_hash": "1869eca83ab3fe01d5b1f06328c1fc5178f6a096abf95e750c989e476e46d586",
+      "files": [
+        {
+          "name": "request.json",
+          "sha256": "1869eca83ab3fe01d5b1f06328c1fc5178f6a096abf95e750c989e476e46d586"
+        },
+        {
+          "name": "schema.json",
+          "sha256": "4a64550264a2084aa60ad3ad24aff666ce5e823f9fb3c39fe41b8d2e75b07a92"
+        }
+      ],
+      "status": "CANCELLED_NOT_COUNTED_COMPLETE"
+    },
+    {
+      "request_hash": "3b046f0ad3449bbf0bbabe701266c3bbf9012ee12d8612c341393db0e6fcdc5f",
+      "files": [
+        {
+          "name": "request.json",
+          "sha256": "3b046f0ad3449bbf0bbabe701266c3bbf9012ee12d8612c341393db0e6fcdc5f"
+        },
+        {
+          "name": "schema.json",
+          "sha256": "0a9d4099742b8925bc3652e04200b980a5b89b28ecb8045ebee7f27d915416ba"
+        }
+      ],
+      "status": "CANCELLED_NOT_COUNTED_COMPLETE"
+    }
+  ],
+  "completed_product_results_from_interrupted_run": 0,
+  "remaining25_completed": 25,
+  "old175_recomputed_for_final_results": false
+}

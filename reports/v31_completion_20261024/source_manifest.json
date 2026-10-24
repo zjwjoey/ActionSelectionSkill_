@@ -1,0 +1,35 @@
+{
+  "source_path": "F:\\AmazonESBestseller\\交付文件\\20261022\\今日快照合并_214818_82be\\今日快照_合并去重_25152条.csv",
+  "sha256": "84bacc4c6b66ab7aa1fd7f704d7c3c50a0a195539050fc8e6180f5f0129f68d4",
+  "source_records": 25152,
+  "source_fields": [
+    "product_title_es",
+    "amazon_category_l1"
+  ],
+  "sample_records": 500,
+  "cohorts": {
+    "random": 300,
+    "boundary": 100,
+    "difficult": 100
+  },
+  "smoke_is_development_subset": 50,
+  "known_exposure_overlap": 0,
+  "prior_exposed_titles": 5422,
+  "frozen_v3": {
+    "assets/action_reference10037.jsonl": "16666989932fdc84abbb8b8e6c929cef070fe613354f0954de2b56b8f6d7fdbc",
+    "assets/action_semantics/results.jsonl": "babe815c08a2b6eb8806cdc23fd6bbe2209e4d999accd213c5824054ce389ad8",
+    "assets/action_semantics/product_type_library.json": "90bf1c11a4b1e51222bded9eef7899ca6500056835377a9f8215c9fd03fc6a14",
+    "assets/action_semantics/related_need_groups.json": "24581f79c05705b8984159254fc1c04286bdf4cd3158795022e25fd613526e78",
+    "rules/v3_type_aliases.json": "35f5d483aa37644be0a4ed52d6355b760d219329bb259f9aac11450629aaedf0",
+    "runtime/v3/__init__.py": "51c484f17e21596be345e2a85d5fe4951cdcde9f20b0003af5bd6ca38582cd09",
+    "runtime/v3/catalog.py": "6f7f5344f998be5db1addcaa9ae3ccd219ee36fee65a8273d9e72fd8d1a25f13",
+    "runtime/v3/cli.py": "7b547e12b009f0b66b4bb187ccc3d7c2a6fc390576142b3f905259b1295e749c",
+    "runtime/v3/core.py": "8e5b0abe9807c5198f74938dd6118c57a603dc5fba3c50683b130b868e5d0402",
+    "runtime/v3/evaluation.py": "aaa2fb54cefffb68ba18c568536e2448da0e744bc6cc23462540ac88e1c103bf",
+    "runtime/v3/feedback.py": "3f3ddaa88a6221ff63161c91168becd45f4ce67eabb4aff2d8f48f641066cd9c",
+    "runtime/v3/store.py": "603f1a0eded8c31ee6564f17ac0d16cb39888987b2ea8640b2f837841cd4222d",
+    "runtime/v3/workflow.py": "97cc2ff5bb40e9da1703ffd93cc8edf26d8611623cb88de730b32cf345a67306"
+  },
+  "sample_seed": 2026102331500,
+  "sealed_data_used": false
+}

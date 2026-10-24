@@ -1,0 +1,22 @@
+{
+  "previous_local_full_suite": {
+    "tests": 103,
+    "status": "PASS",
+    "artifact": "../v31_autonomous_20261023/local_full_tests.log"
+  },
+  "new_targeted_suite": {
+    "tests": 38,
+    "status": "PASS",
+    "new_segment_tests": 3
+  },
+  "expected_ci_full_tests": 106,
+  "code_contract_unchanged": true,
+  "business_rule_unchanged": true,
+  "original_200_completed_across_two_real_executions": 200,
+  "pending": 0,
+  "human_gold_added": 0,
+  "ubuntu_ci": "PENDING_EXACT_HEAD",
+  "windows_ci": "PENDING_EXACT_HEAD",
+  "main_merged": false,
+  "full_25152_performed": false
+}

@@ -216,4 +216,28 @@ class Experimental(unittest.TestCase):
         with patch('runtime.v31.model.subprocess.run',return_value=SimpleNamespace(returncode=0,stdout='',stderr='Logged in using ChatGPT')):
             require_chatgpt_login('fixture-exe')
 
+    def report_segments_fixture(self):
+        from types import SimpleNamespace
+        row2=source(dict(self.raw,record_id='fixture2'))
+        a2=dict(self.a,record_id='fixture2',source_hash=row2['source_hash'])
+        r1=dict(reconcile(self.row,self.a,self.a,self.catalog),run_id='run1',execution_id='exec1')
+        r2=dict(reconcile(row2,a2,a2,self.catalog),run_id='run2',execution_id='exec2')
+        runs={'run1':{'sources':[self.row,row2],'purpose':'independent','contract':{'frozen':True},'release':'release'},'run2':{'sources':[row2],'purpose':'independent','contract':{'frozen':True},'release':'release'}}
+        rows=[('r1',r1),('r2',r2)]
+        return SimpleNamespace(all=lambda kind:rows if kind=='result' else [],get=lambda key,kind:runs[key]),runs,rows
+    def test_report_disjoint_execution_segments_preserve_two_passes(self):
+        from scripts.v31_report import export_run
+        state,_,_=self.report_segments_fixture()
+        r=export_run(state,'exec1',self.dir/'report',segments=['exec2'])
+        self.assertEqual(r['sources'],2);self.assertEqual(r['both_model_passes_completed'],2)
+        self.assertEqual(r['pending'],0);self.assertIsNone(r['formal_accuracy'])
+    def test_report_overlapping_segments_rejected(self):
+        from scripts.v31_report import export_run
+        state,_,_=self.report_segments_fixture()
+        with self.assertRaisesRegex(ValueError,'OVERLAPPING'):export_run(state,'exec1',self.dir/'report',segments=['exec1'])
+    def test_report_changed_segment_contract_rejected(self):
+        from scripts.v31_report import export_run
+        state,runs,_=self.report_segments_fixture();runs['run2']['contract']={'frozen':False}
+        with self.assertRaisesRegex(ValueError,'INCOMPATIBLE'):export_run(state,'exec1',self.dir/'report',segments=['exec2'])
+
 if __name__=='__main__':unittest.main()

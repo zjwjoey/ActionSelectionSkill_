@@ -1,0 +1,35 @@
+{
+  "blockers": [
+    "未发现同时满足两轮至少两个正向特征、具体同类或相关Action参考及主体完整覆盖的保留规则；不提出日用品泛化保留。",
+    "大型燃木炉与液压热压机各仅有一个已标注正向特征，不能合并为满足双特征要求的排除规则。"
+  ],
+  "rules": [
+    {
+      "authority": "AI_CANDIDATE",
+      "channel": "AI_EXPERIMENTAL_BOUNDARY",
+      "conditions": {
+        "families": [],
+        "features_all": [
+          "robot_cleaner",
+          "automatic_maintenance"
+        ],
+        "forms": [
+          "whole_system"
+        ]
+      },
+      "counterexample_ids": [
+        "B0_84bacc4c6b66_004274",
+        "B0_84bacc4c6b66_004408",
+        "B0_84bacc4c6b66_001409",
+        "B0_84bacc4c6b66_019222"
+      ],
+      "decision": "用不到",
+      "rationale": "仅对完整售卖的清洁机器人及自动维护站系统提出实验性范围外规则。两条支持记录在两轮中均主体明确、判为范围外，并同时具有机器人身份与自动维护特征：擦窗系统由“Robot Limpiacristales”和“Autolavado de Mopa”分别锚定；扫地系统由“Robot Aspirador”和“Auto-Vaciado”分别锚定。导航扫地机器人、未明确自动维护的擦窗机器人、普通有袋吸尘器及单独替换刷头作为边界反例；不能因机器人宿主名称将配件或耗材纳入排除。本规则仅为AI候选，不代表人工经营政策。",
+      "support_ids": [
+        "B0_84bacc4c6b66_006486",
+        "B0_84bacc4c6b66_022285"
+      ],
+      "version": "experimental-v1"
+    }
+  ]
+}

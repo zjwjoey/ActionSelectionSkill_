@@ -1,0 +1,24 @@
+{
+  "parent_execution": "execution-21658fae123ccab67aa94786",
+  "parent_payload_hashes_unchanged": true,
+  "restored_records": 500,
+  "restored_decisions": {
+    "观察": 340,
+    "保留": 160
+  },
+  "incremental_resume_identical": true,
+  "new_model_calls": 0,
+  "formal_tables_unchanged_during_rollback": true,
+  "formal_table_fingerprints": {
+    "v3_runs": "79ac108c36dea645f3410681fd4b6c0711a8140c25669eb350eeb7816b7f4d94",
+    "v3_sources": "f0a06feb5bcf04f25559abdeb85549eb8a44e8a62dd7848a7c54a737258a26ff",
+    "v3_analyses": "21859ce0038ded69a3949f92c6994bafed34f051f4d2ef78afdb74442b95c237",
+    "v3_results": "620d9832a627d694f0efb74e1fe8d66a152e977ec8d5f1e86386a60e15af87f3",
+    "v3_feedback": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "v3_rule_candidates": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "v3_rule_validation": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "v3_rule_releases": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "v31_events": "99a849fcab34b8de061e0791c2a4487d03fe84aedb5883e313d97d88abf228fc"
+  },
+  "scope": "Real immutable parent projection restored to separate file; no deletion or database overwrite."
+}

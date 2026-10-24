@@ -1,0 +1,4 @@
+{"type":"thread.started","thread_id":"01a168ee-527f-7d83-9d2f-8cb7ea16af9f"}
+{"type":"turn.started"}
+{"type":"item.completed","item":{"id":"item_0","type":"agent_message","text":"{\"analyses\":[{\"action_sku\":\"\",\"boundary\":\"未知\",\"coverage\":\"unknown\",\"features\":[],\"form\":\"unknown\",\"functions\":[],\"information_status\":\"insufficient\",\"match_strength\":\"未知\",\"needs\":[],\"operating_context\":\"unknown\",\"reason\":\"标题缺少可识别的商品主体；不锈钢、IP55及暗装字样不足以确定品类。候选仅有材质词重合，不能证明同类。\",\"record_id\":\"B0_84bacc4c6b66_012358\",\"reference_span\":\"\",\"relation\":\"none\",\"source_hash\":\"5e55c9c50dd2ebc189ad9e17c746ab31b4326f1a0c167e62627032da9d0b078c\",\"subject_family\":\"未知\",\"subject_span\":\"\",\"subject_type\":\"未知商品\",\"unknowns\":[\"实际售卖主体及用途\",\"para所指的适配对象\",\"IP55及暗装描述对应的具体部件\"]}]}"}}
+{"type":"turn.completed","usage":{"input_tokens":16803,"cached_input_tokens":0,"cache_write_input_tokens":0,"output_tokens":248,"reasoning_output_tokens":28}}

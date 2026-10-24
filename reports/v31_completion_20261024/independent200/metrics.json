@@ -1,0 +1,174 @@
+{
+  "execution": "execution-a8a7741ae1105096e8edeac9",
+  "execution_segments": [
+    "execution-a8a7741ae1105096e8edeac9",
+    "execution-2e37d033f88b0bd0d8108989"
+  ],
+  "purpose": "independent",
+  "sources": 200,
+  "output_rows": 200,
+  "both_model_passes_completed": 200,
+  "pending": 0,
+  "decisions": {
+    "保留": 80,
+    "观察": 120
+  },
+  "paired_v3_baseline": {
+    "保留": 95,
+    "观察": 105
+  },
+  "paired_comparison_not_independent_AB": true,
+  "disagreements": 36,
+  "disagreement_layers": {
+    "subject": 13,
+    "boundary": 6,
+    "reference": 27
+  },
+  "known_subject_candidates": 198,
+  "reference_relation": {
+    "same_type": 81,
+    "specific_need": 11,
+    "related_type": 45,
+    "none": 55,
+    "category_only": 7,
+    "host_only": 1
+  },
+  "rule_conflicts": 0,
+  "observation_reasons": {
+    "UNRESOLVED_AI_DISAGREEMENT": 36,
+    "REFERENCE_NOT_SUFFICIENT": 34,
+    "OPERATING_SCOPE_UNCONFIRMED": 25,
+    "INFORMATION_INSUFFICIENT": 2,
+    "DEPENDENCY_SCOPE_UNCONFIRMED": 23
+  },
+  "unknown_subjects": 2,
+  "changes": [
+    {
+      "record_id": "B0_84bacc4c6b66_000142",
+      "title": "4smile ganchos adhesivos para pared, set de 4 unidades, negro - Colgadores adhesivos resistentes e impermeables, colgador toalla baño de acero inoxidable - Ganchos adhesivos, toallero sin taladrar",
+      "v3_paired": "保留",
+      "v31_final": "观察",
+      "reason": "UNRESOLVED_AI_DISAGREEMENT",
+      "experimental_rules": []
+    },
+    {
+      "record_id": "B0_84bacc4c6b66_001730",
+      "title": "Arcos 2900 Cuchillo Chef Nitrum Acero Amarillo 200 mm",
+      "v3_paired": "保留",
+      "v31_final": "观察",
+      "reason": "UNRESOLVED_AI_DISAGREEMENT",
+      "experimental_rules": []
+    },
+    {
+      "record_id": "B0_84bacc4c6b66_002286",
+      "title": "BONTEC Elevador Monitor de Madera para Monitor, Soporte Monitor de Escritorio de 1 Nivel con Gestion de Cables y Ranura para Movil (Blanco)",
+      "v3_paired": "保留",
+      "v31_final": "观察",
+      "reason": "UNRESOLVED_AI_DISAGREEMENT",
+      "experimental_rules": []
+    },
+    {
+      "record_id": "B0_84bacc4c6b66_005495",
+      "title": "DECORA, 0062612 Bandeja Profesional Redonda Ø 20 x 10 cm de altura, de Aluminio Anodizado, Sin Puntos de Soldadura, Diseño Profesional",
+      "v3_paired": "保留",
+      "v31_final": "观察",
+      "reason": "UNRESOLVED_AI_DISAGREEMENT",
+      "experimental_rules": []
+    },
+    {
+      "record_id": "B0_84bacc4c6b66_008644",
+      "title": "AULE Globos Numeros 5 Plateado: 40 Pulgadas Globo 5 Años Cumpleaños",
+      "v3_paired": "保留",
+      "v31_final": "观察",
+      "reason": "UNRESOLVED_AI_DISAGREEMENT",
+      "experimental_rules": []
+    },
+    {
+      "record_id": "B0_84bacc4c6b66_008820",
+      "title": "Grupo Erik Snoopy Lampara mesita de noche - Snoopy regalos",
+      "v3_paired": "保留",
+      "v31_final": "观察",
+      "reason": "UNRESOLVED_AI_DISAGREEMENT",
+      "experimental_rules": []
+    },
+    {
+      "record_id": "B0_84bacc4c6b66_012025",
+      "title": "Laneetal Soporte para Leña, 100x40x25 cm, Estante para Leña de Chimenea | Leñero Interior y Exterior de Metal, Estanteria de Almacenamiento de Madera, Negro",
+      "v3_paired": "保留",
+      "v31_final": "观察",
+      "reason": "OPERATING_SCOPE_UNCONFIRMED",
+      "experimental_rules": []
+    },
+    {
+      "record_id": "B0_84bacc4c6b66_012826",
+      "title": "MIULEE Cortinas Cocina Cortinas Lino 65An x 60Al(cm) 2 Paneles Azul | Pasabarras Visillos Rusticas Cortos Translucidas para Ventanas Pequeñas Baño Armario Comedor Café Bistro",
+      "v3_paired": "保留",
+      "v31_final": "观察",
+      "reason": "UNRESOLVED_AI_DISAGREEMENT",
+      "experimental_rules": []
+    },
+    {
+      "record_id": "B0_84bacc4c6b66_017544",
+      "title": "Russell Hobbs Soup Maker & Blender - Robot de cocina 2 en 1",
+      "v3_paired": "保留",
+      "v31_final": "观察",
+      "reason": "UNRESOLVED_AI_DISAGREEMENT",
+      "experimental_rules": []
+    },
+    {
+      "record_id": "B0_84bacc4c6b66_018044",
+      "title": "SONGMICS Armario de Tela, 3 Barras de Ropa, Estantes, 130 x 45 x 167 cm",
+      "v3_paired": "保留",
+      "v31_final": "观察",
+      "reason": "OPERATING_SCOPE_UNCONFIRMED",
+      "experimental_rules": []
+    },
+    {
+      "record_id": "B0_84bacc4c6b66_018070",
+      "title": "SONGMICS Silla de Malla, Silla de Oficina giratoria, Altura Ajustable, Función de inclinación, Respaldo y Asiento de Malla Transpirable, para Estudio, Oficina, Carga de 120 kg, Gris OBN022G01",
+      "v3_paired": "保留",
+      "v31_final": "观察",
+      "reason": "OPERATING_SCOPE_UNCONFIRMED",
+      "experimental_rules": []
+    },
+    {
+      "record_id": "B0_84bacc4c6b66_019212",
+      "title": "T-LOVENDO.ES Silla de Oficina Ergonómica, de Escritorio, Ejecutiva, Giratoria con Ruedas, de Juegos de Malla Transpirable, con Reposacabezas y Apoyabrazos Ajustable, Soporte Lumbar para Oficina, Casa",
+      "v3_paired": "保留",
+      "v31_final": "观察",
+      "reason": "UNRESOLVED_AI_DISAGREEMENT",
+      "experimental_rules": []
+    },
+    {
+      "record_id": "B0_84bacc4c6b66_021401",
+      "title": "Vicloon Prensador de café, 51mm Tamper de Acero Inoxidable, Premium Tamper, Café Tamper, Prensadores de Café, Prensador Cafe para prensar café Espresso, Imprescindible para Los Baristas",
+      "v3_paired": "保留",
+      "v31_final": "观察",
+      "reason": "REFERENCE_NOT_SUFFICIENT",
+      "experimental_rules": []
+    },
+    {
+      "record_id": "B0_84bacc4c6b66_024630",
+      "title": "powerking Armario de almacenamiento de baño de 2 niveles, organizador independiente con puertas, armario de almacenamiento impermeable blanco para dormitorio, inodoro, sala de estar, cocina, balcón",
+      "v3_paired": "保留",
+      "v31_final": "观察",
+      "reason": "OPERATING_SCOPE_UNCONFIRMED",
+      "experimental_rules": []
+    },
+    {
+      "record_id": "B0_84bacc4c6b66_024774",
+      "title": "roborock Robot Aspirador QV 35A 8000Pa de succión, Blanco",
+      "v3_paired": "保留",
+      "v31_final": "观察",
+      "reason": "OPERATING_SCOPE_UNCONFIRMED",
+      "experimental_rules": []
+    }
+  ],
+  "new_human_gold": 0,
+  "formal_accuracy": null,
+  "false_exclusion_rate": null,
+  "retain_recall": null,
+  "note": "AI differences and validation are experimental technical evidence. No independent human accuracy claim. Titles are not verified purchasable SKU identities.",
+  "subject_metric_basis": "known_subject_candidates and unknown_subjects use second-pass validated understanding status, not confirmed correctness",
+  "either_pass_information_insufficient": 2
+}
