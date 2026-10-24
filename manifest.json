@@ -1,17 +1,22 @@
 {
   "package": "ActionSelectionSkill",
   "date": "2026-10-23",
-  "boundary_method": "V3 formal policy frozen; opt-in AI_EXPERIMENTAL_BOUNDARY",
+  "boundary_method": "V3 candidate; V0.3 historical data frozen",
   "action_reference_count": 10037,
   "semantic_candidates": 10037,
   "owner_selection_decisions": 3,
+  "new500_results": {
+    "保留": 229,
+    "观察": 271,
+    "用不到": 0
+  },
   "model_weights_finetuned": false,
   "measured_selection_accuracy": null,
   "sealed50_included": false,
   "master_included": false,
   "full_learning_database_included": false,
   "source_skill_sha256": "6218634ce80e20c1a83ae0a2d37ec0069672ce81f0269411b2343474136c1445",
-  "package_version": "v3.1-ai-experimental-candidate",
+  "package_version": "v3.0-candidate",
   "independent_selection_accuracy": null,
   "frozen_asset_files_verified": 201,
   "files": {
@@ -32,8 +37,8 @@
       "bytes": 4577
     },
     "SKILL.md": {
-      "sha256": "06da30f07703c2df3fb6c3819eec4fe56e6e4c38ac0028c9dd04e543205a5dca",
-      "bytes": 5579
+      "sha256": "d61bf5af5e2fc3304a32f02a33375f43dd8eedcb6c0a95cd8d2537bea302b7a7",
+      "bytes": 6028
     },
     "assets/action_groups_v26.json": {
       "sha256": "e9e11376e6318b7e01ad358c56533516e3391ca7dd9b7713c6d20f867abf0ce4",
@@ -210,6 +215,10 @@
     "references/original_skill_entry.txt": {
       "sha256": "6218634ce80e20c1a83ae0a2d37ec0069672ce81f0269411b2343474136c1445",
       "bytes": 15715
+    },
+    "references/reviewed_observation.md": {
+      "sha256": "50c7e561a3f6aa2698a525f51f61c72fb62d950210564e8f52907ca368b09a66",
+      "bytes": 2295
     },
     "references/v31_autonomous.md": {
       "sha256": "19ee8841c9794da28e68cac617bf89c2f50aa7ba0bcc8c03268b4a757922dcd9",
@@ -3555,6 +3564,10 @@
       "sha256": "ec4e1721c4d8aaa05564c108a8f63c5a0079bf89c40f1520f1a388f7c44fe98f",
       "bytes": 119
     },
+    "rules/owner_calibration40_experimental.json": {
+      "sha256": "0d2a7be521c2648b298057c81da7d0eedb391d0e765328362445f38d8a19cee8",
+      "bytes": 20875
+    },
     "rules/v3_type_aliases.json": {
       "sha256": "35f5d483aa37644be0a4ed52d6355b760d219329bb259f9aac11450629aaedf0",
       "bytes": 2400
@@ -4235,21 +4248,33 @@
       "sha256": "e49a396565bbbd385671a3428aa7a649ad569e67ee50a8bfa6905046a68f62ba",
       "bytes": 75
     },
+    "runtime/v31/calibration.py": {
+      "sha256": "a603aebf68a7f0c7fe44c7b771dfc769ead4f6c22087a910635d37a76eded9e4",
+      "bytes": 2027
+    },
     "runtime/v31/cli.py": {
-      "sha256": "faf86c5f365c651f105379367d6e84426ee1f6da881862195eb8e1afbba3a6e5",
-      "bytes": 2527
+      "sha256": "d7fea39d3362dfd44bf7241fd4a0808411ee3a99b57de8c5c9797b373a09834c",
+      "bytes": 2900
     },
     "runtime/v31/core.py": {
       "sha256": "a1a9b988fde9f843d1ab65b442a9dd348799f0023ffad1fdea8a6c3e0a2f0409",
       "bytes": 8716
     },
     "runtime/v31/model.py": {
-      "sha256": "acdd07ba59a2813883ae7384b58ec50284a5276518d9e4d7470ccab3bf1053f2",
-      "bytes": 13859
+      "sha256": "cc0b66a47210c2bfae661d727dc4fa762cc32184232f939b1e26c13eeb412460",
+      "bytes": 14654
     },
     "runtime/v31/qualification.py": {
       "sha256": "acca0c0480ad300a2f7a9ce05c0306f23b258134a9bb3edef036e2b0e8799dc6",
       "bytes": 1721
+    },
+    "runtime/v31/reviewed.py": {
+      "sha256": "361de6cc48816ac290895683ca992b7b5bc4d14e559b303d58bfe36a12f005da",
+      "bytes": 8801
+    },
+    "runtime/v31/reviewed_workflow.py": {
+      "sha256": "7331760b8c618ec89cea3ee7ccfe0800a86259dde0ed6f20d662608ce0a2429d",
+      "bytes": 6465
     },
     "runtime/v31/rules.py": {
       "sha256": "75e8be49f1ab967aea326588f5b20f4c80e923a6fa742709ddc461ff8871ad3d",
@@ -4287,6 +4312,10 @@
       "sha256": "1a8bb2f6ee93821a1ee5867fcbb929dcf114067361c5798dcd3b05f912c6a683",
       "bytes": 9210
     },
+    "tests/test_reviewed_observation.py": {
+      "sha256": "9d20cadf62dbb4d267e424981d692937c577c71ac812c09b04db7229b2d4473f",
+      "bytes": 7629
+    },
     "tests/test_v31_experimental.py": {
       "sha256": "c90788d23d89536d8859b3fa6d09a822e9645a880bceb742f50ab9e90e8db782",
       "bytes": 18577
@@ -4311,12 +4340,5 @@
       "sha256": "5ac3e893a6d63c05ee64b9b93e32e4293a36c5073560eb79445261f869009ce8",
       "bytes": 1344
     }
-  },
-  "legacy_v03_500_results": {
-    "保留": 229,
-    "观察": 271,
-    "用不到": 0
-  },
-  "entry_skill_sha256": "06da30f07703c2df3fb6c3819eec4fe56e6e4c38ac0028c9dd04e543205a5dca",
-  "ai_experimental_results_are_not_human_gold": true
+  }
 }

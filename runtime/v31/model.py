@@ -38,9 +38,13 @@ features contain ONLY present title-supported named facts, each with literal ori
 '''
 
 class Model:
-    def __init__(self,state,directory,mode='codex',notes=None,timeout=600):
+    def __init__(self,state,directory,mode='codex',notes=None,timeout=600,instruction=None,schema_factory=None,validator=None):
         self.state=state;self.dir=Path(directory);self.dir.mkdir(parents=True,exist_ok=True);self.mode=mode;self.timeout=timeout
         self.note_path=notes
+        self.instruction=instruction
+        self.make_schema=schema_factory or schema
+        self.validator=validator
+        self.analysis_contract=digest({'instruction':instruction,'schema':self.make_schema()}) if instruction is not None or schema_factory is not None else None
         self.notes={r['record_id']:r for r in load_rows(notes)} if notes else {}
         if notes and len(self.notes)!=len(load_rows(notes)):raise ValueError('DUPLICATE_MODEL_FILE_ID')
         self.exe=shutil.which('codex') if mode=='codex' else None
@@ -51,14 +55,15 @@ class Model:
         hashes={r['record_id']:r['source_hash'] for r in requests};feedback={}
         for _,p in self.state.all('model_invalid'):
             if p.get('role')!=role or p.get('provider')!=self.identity:continue
+            if p.get('analysis_contract')!=self.analysis_contract:continue
             for rid,item in p.get('error_by_id',{}).items():
                 if hashes.get(rid)==item.get('source_hash'):feedback.setdefault(rid,set()).add(item['error'])
         return {rid:sorted(errors) for rid,errors in feedback.items()}
     def run(self,requests,role,catalog=None):
         if role not in {'understand','critic'}:raise ValueError('INVALID_MODEL_ROLE')
-        prompt=INSTRUCTION+('\nIndependent adversarial review: actively identify counterexamples, wrong sold subjects and broad references. You are NOT given first-pass decisions or analysis.' if role=='critic' else '\nFirst-pass interpretation: identify actual subject before considering match or business boundary.')
+        prompt=(self.instruction if self.instruction is not None else INSTRUCTION)+('\nIndependent adversarial review: actively identify counterexamples, wrong sold subjects and broad references. You are NOT given first-pass decisions or analysis.' if role=='critic' else '\nFirst-pass interpretation: identify actual subject before considering match or business boundary.')
         all_requests=requests
-        cache_key=lambda r:digest({'provider':self.identity,'role':role,'prompt':prompt,'schema':schema(),'request':r})
+        cache_key=lambda r:digest({'provider':self.identity,'role':role,'prompt':prompt,'schema':self.make_schema(),'request':r})
         records={p['cache_key']:p['analysis'] for _,p in self.state.all('model_record')}
         reused={r['record_id']:records[cache_key(r)] for r in requests if cache_key(r) in records}
         self.reused_keys.update(cache_key(r) for r in requests if r['record_id'] in reused);self.reused=len(self.reused_keys)
@@ -69,7 +74,7 @@ class Model:
         # semantic cache binding deliberately remains valid.
         transport_hint='subject_span must NEVER be empty. If the title does not identify an object, keep form unknown and information_status insufficient, and copy the ENTIRE original title as the literal evidence span. Never invent a product type to satisfy the schema. A repeated product name may first occur after de/para in a misleading grammatical fragment. If the actual sold object is independently named in a later clause, quote a longer UNIQUE literal snippet from that independent clause, including its qualifier, so evidence binding locates the correct occurrence. Never expand a compatibility host into a sold machine, or change the sold form merely to pass validation.'
         own_feedback=self.repair_feedback(requests,role)
-        body={'provider':self.identity,'role':role,'prompt':prompt,'requests':requests,'schema':schema(requests),'transport_hint':transport_hint,'own_validation_feedback':own_feedback}
+        body={'provider':self.identity,'role':role,'prompt':prompt,'requests':requests,'schema':self.make_schema(requests),'transport_hint':transport_hint,'own_validation_feedback':own_feedback}
         key=digest(body);cached=[v for _,v in self.state.all('model_response') if v['request_hash']==key]
         if cached:
             self.reused_keys.update(cache_key(r) for r in requests);self.reused=len(self.reused_keys);merged={a['record_id']:a for a in cached[0]['analyses']}|reused
@@ -115,16 +120,18 @@ class Model:
             try:
                 if a.get('record_id') not in expected or expected[a['record_id']]!=a.get('source_hash') or a['record_id'] in accepted:raise ValueError('MODEL_SOURCE_BINDING_MISMATCH')
                 row=next(r for r in requests if r['record_id']==a['record_id'])
+                if a.get('action_sku') and 'action_candidates' in row and a['action_sku'] not in {c['sku'] for c in row['action_candidates']}:raise ValueError('REFERENCE_NOT_IN_SUPPLIED_CANDIDATES')
                 if catalog is not None:
                     from .core import validate
                     validate(row,a,catalog)
+                    if self.validator:self.validator(row,a,catalog)
                 accepted[a['record_id']]=a
                 self.state.put('model_record',{'cache_key':cache_key(row),'request_hash':key,'provider':self.identity,'role':role,'analysis':a})
             except (ValueError,KeyError,TypeError) as exc:
                 invalid.append(str(exc))
                 if a.get('record_id') in expected:error_by_id[a['record_id']]={'source_hash':expected[a['record_id']],'error':str(exc)}
         if len(accepted)!=len(expected) or invalid:
-            self.state.put('model_invalid',{'request_hash':key,'accepted':list(accepted),'errors':invalid,'expected_records':len(expected),'provider':self.identity,'role':role,'error_by_id':error_by_id})
+            self.state.put('model_invalid',{'request_hash':key,'accepted':list(accepted),'errors':invalid,'expected_records':len(expected),'provider':self.identity,'role':role,'error_by_id':error_by_id,'analysis_contract':self.analysis_contract})
             raise ValueError('MODEL_BATCH_SOURCE_OR_SCHEMA_MISMATCH_RETRY_ONLY_UNCACHED_ROWS')
         self.state.put('model_response',{'request_hash':key,'provider':self.identity,'role':role,'analyses':values})
         return [reused.get(r['record_id']) or accepted[r['record_id']] for r in all_requests]

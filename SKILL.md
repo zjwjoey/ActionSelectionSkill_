@@ -44,6 +44,8 @@ Action候选同时提供原名、来源行、类型、属性及需求假设。�
 
 ## AI自主实验通道
 
+本次64条复核后的观察修复入口为 `experiment-compare-reviewed --input products.jsonl --mode codex`，详见[观察修复契约](references/reviewed_observation.md)。它对同一份双轮分析保存旧校准判断和新判断，修复同类多件装粒度、弱参照阻断与通用配件问题；定制、主体冲突和未确认经营边界继续观察。原命令及历史结果保留，未经验证不替换正式筛选结果。
+
 需要自主模型分析、复核或边界实验时，读[自主实验运行契约](references/v31_autonomous.md)。使用显式`experiment-*`命令；原V3正式命令及人工门禁保持独立。
 
 - 实际执行：`experiment-screen --input products.jsonl --mode codex`。先确认现有ChatGPT登录的Codex CLI可运行；没有可用模型时保留队列和失败证据，不自行购买或切换付费API。

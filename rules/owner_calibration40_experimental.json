@@ -1,0 +1,843 @@
+{
+  "version": "V3.1-owner-calibration40-20261024-frozen",
+  "channel": "OWNER_CALIBRATED_EXPERIMENT_NOT_FORMAL",
+  "business_goal": "Daily household variety merchandise; explicit owner exclusions only by bounded subject types; unknown and unresolved dependencies remain observe",
+  "rules": [
+    {
+      "id": "CAL40-C01",
+      "canonical_type": "煎锅",
+      "aliases": [
+        "不粘煎锅",
+        "煎锅"
+      ],
+      "decision": "保留",
+      "forms": [
+        "bundle",
+        "ordinary_good",
+        "universal_accessory"
+      ],
+      "support_ids": [
+        "C01"
+      ],
+      "authority": "OWNER_CALIBRATED_EXPERIMENT",
+      "formal_publication": false,
+      "not_gold": true
+    },
+    {
+      "id": "CAL40-C02",
+      "canonical_type": "靠垫套",
+      "aliases": [
+        "长方形靠垫套两件装",
+        "靠垫套",
+        "靠垫套两件装"
+      ],
+      "decision": "保留",
+      "forms": [
+        "bundle",
+        "ordinary_good",
+        "universal_accessory"
+      ],
+      "support_ids": [
+        "C02"
+      ],
+      "authority": "OWNER_CALIBRATED_EXPERIMENT",
+      "formal_publication": false,
+      "not_gold": true
+    },
+    {
+      "id": "CAL40-C03",
+      "canonical_type": "披萨烤盘",
+      "aliases": [
+        "带手柄的披萨烤盘",
+        "带硅胶手柄的穿孔披萨烤盘",
+        "打孔圆形披萨烤盘",
+        "披萨烤盘"
+      ],
+      "decision": "保留",
+      "forms": [
+        "bundle",
+        "ordinary_good",
+        "universal_accessory"
+      ],
+      "support_ids": [
+        "C03"
+      ],
+      "authority": "OWNER_CALIBRATED_EXPERIMENT",
+      "formal_publication": false,
+      "not_gold": true
+    },
+    {
+      "id": "CAL40-C04",
+      "canonical_type": "布质托特包",
+      "aliases": [
+        "布质托特包",
+        "带拉链内袋的布质托特包",
+        "拉链布质托特包"
+      ],
+      "decision": "保留",
+      "forms": [
+        "bundle",
+        "ordinary_good",
+        "universal_accessory"
+      ],
+      "support_ids": [
+        "C04"
+      ],
+      "authority": "OWNER_CALIBRATED_EXPERIMENT",
+      "formal_publication": false,
+      "not_gold": true
+    },
+    {
+      "id": "CAL40-C05",
+      "canonical_type": "厨房果蔬收纳架",
+      "aliases": [
+        "两层果蔬收纳架",
+        "两层果蔬调料收纳架",
+        "厨房果蔬收纳架"
+      ],
+      "decision": "保留",
+      "forms": [
+        "bundle",
+        "ordinary_good",
+        "universal_accessory"
+      ],
+      "support_ids": [
+        "C05"
+      ],
+      "authority": "OWNER_CALIBRATED_EXPERIMENT",
+      "formal_publication": false,
+      "not_gold": true
+    },
+    {
+      "id": "CAL40-C06",
+      "canonical_type": "家用毯",
+      "aliases": [
+        "家用毯",
+        "聚酯家用毯",
+        "聚酯纤维家用毯",
+        "聚酯纤维毯"
+      ],
+      "decision": "保留",
+      "forms": [
+        "bundle",
+        "ordinary_good",
+        "universal_accessory"
+      ],
+      "support_ids": [
+        "C06"
+      ],
+      "authority": "OWNER_CALIBRATED_EXPERIMENT",
+      "formal_publication": false,
+      "not_gold": true
+    },
+    {
+      "id": "CAL40-C07",
+      "canonical_type": "手工活动眼睛装饰件",
+      "aliases": [
+        "手工活动眼睛装饰件",
+        "自粘活动眼睛装饰件",
+        "自粘活动眼睛贴件"
+      ],
+      "decision": "保留",
+      "forms": [
+        "bundle",
+        "ordinary_good",
+        "universal_accessory"
+      ],
+      "support_ids": [
+        "C07"
+      ],
+      "authority": "OWNER_CALIBRATED_EXPERIMENT",
+      "formal_publication": false,
+      "not_gold": true
+    },
+    {
+      "id": "CAL40-C08",
+      "canonical_type": "清洁工具壁挂架",
+      "aliases": [
+        "扫把拖把壁挂架",
+        "清洁工具壁挂架",
+        "自粘扫帚拖把壁挂架",
+        "自粘扫把拖把壁挂架"
+      ],
+      "decision": "保留",
+      "forms": [
+        "bundle",
+        "ordinary_good",
+        "universal_accessory"
+      ],
+      "support_ids": [
+        "C08"
+      ],
+      "authority": "OWNER_CALIBRATED_EXPERIMENT",
+      "formal_publication": false,
+      "not_gold": true
+    },
+    {
+      "id": "CAL40-C09",
+      "canonical_type": "餐具收纳托盘",
+      "aliases": [
+        "抽屉餐具收纳托盘",
+        "餐具收纳托盘"
+      ],
+      "decision": "保留",
+      "forms": [
+        "bundle",
+        "ordinary_good",
+        "universal_accessory"
+      ],
+      "support_ids": [
+        "C09"
+      ],
+      "authority": "OWNER_CALIBRATED_EXPERIMENT",
+      "formal_publication": false,
+      "not_gold": true
+    },
+    {
+      "id": "CAL40-C10",
+      "canonical_type": "钻石画套装",
+      "aliases": [
+        "书架图案钻石画套装",
+        "钻石画套装"
+      ],
+      "decision": "保留",
+      "forms": [
+        "bundle",
+        "ordinary_good",
+        "universal_accessory"
+      ],
+      "support_ids": [
+        "C10"
+      ],
+      "authority": "OWNER_CALIBRATED_EXPERIMENT",
+      "formal_publication": false,
+      "not_gold": true
+    },
+    {
+      "id": "CAL40-C11",
+      "canonical_type": "通用清洁布",
+      "aliases": [
+        "微纤维清洁布多件装",
+        "超细纤维清洁布16条装",
+        "超细纤维清洁布十六条装",
+        "通用清洁布"
+      ],
+      "decision": "保留",
+      "forms": [
+        "bundle",
+        "ordinary_good",
+        "universal_accessory"
+      ],
+      "support_ids": [
+        "C11"
+      ],
+      "authority": "OWNER_CALIBRATED_EXPERIMENT",
+      "formal_publication": false,
+      "not_gold": true
+    },
+    {
+      "id": "CAL40-C12",
+      "canonical_type": "厨具套装",
+      "aliases": [
+        "厨具套装",
+        "木制厨具六件套",
+        "木制厨具套装"
+      ],
+      "decision": "保留",
+      "forms": [
+        "bundle",
+        "ordinary_good",
+        "universal_accessory"
+      ],
+      "support_ids": [
+        "C12"
+      ],
+      "authority": "OWNER_CALIBRATED_EXPERIMENT",
+      "formal_publication": false,
+      "not_gold": true
+    },
+    {
+      "id": "CAL40-C13",
+      "canonical_type": "拖把桶套装",
+      "aliases": [
+        "拖把桶套装",
+        "脚踏脱水拖把桶套装",
+        "踏板桶拖把套装"
+      ],
+      "decision": "保留",
+      "forms": [
+        "bundle",
+        "ordinary_good",
+        "universal_accessory"
+      ],
+      "support_ids": [
+        "C13"
+      ],
+      "authority": "OWNER_CALIBRATED_EXPERIMENT",
+      "formal_publication": false,
+      "not_gold": true
+    },
+    {
+      "id": "CAL40-C14",
+      "canonical_type": "饼干切模",
+      "aliases": [
+        "万圣节饼干切模",
+        "饼干切模"
+      ],
+      "decision": "保留",
+      "forms": [
+        "bundle",
+        "ordinary_good",
+        "universal_accessory"
+      ],
+      "support_ids": [
+        "C14"
+      ],
+      "authority": "OWNER_CALIBRATED_EXPERIMENT",
+      "formal_publication": false,
+      "not_gold": true
+    },
+    {
+      "id": "CAL40-C15",
+      "canonical_type": "装饰灯串",
+      "aliases": [
+        "南瓜造型万圣节灯串",
+        "电池式南瓜灯串",
+        "装饰灯串"
+      ],
+      "decision": "保留",
+      "forms": [
+        "bundle",
+        "ordinary_good",
+        "universal_accessory"
+      ],
+      "support_ids": [
+        "C15"
+      ],
+      "authority": "OWNER_CALIBRATED_EXPERIMENT",
+      "formal_publication": false,
+      "not_gold": true
+    },
+    {
+      "id": "CAL40-C16",
+      "canonical_type": "普通家用吸尘器",
+      "aliases": [
+        "卧式吸尘器",
+        "普通家用吸尘器"
+      ],
+      "decision": "保留",
+      "forms": [
+        "bundle",
+        "ordinary_good",
+        "universal_accessory",
+        "whole_machine"
+      ],
+      "support_ids": [
+        "C16"
+      ],
+      "authority": "OWNER_CALIBRATED_EXPERIMENT",
+      "formal_publication": false,
+      "not_gold": true
+    },
+    {
+      "id": "CAL40-C17",
+      "canonical_type": "便携咖啡机",
+      "aliases": [
+        "便携咖啡机",
+        "便携电动浓缩咖啡机"
+      ],
+      "decision": "保留",
+      "forms": [
+        "bundle",
+        "ordinary_good",
+        "universal_accessory",
+        "whole_machine"
+      ],
+      "support_ids": [
+        "C17"
+      ],
+      "authority": "OWNER_CALIBRATED_EXPERIMENT",
+      "formal_publication": false,
+      "not_gold": true
+    },
+    {
+      "id": "CAL40-C18",
+      "canonical_type": "植物奶制作机",
+      "aliases": [
+        "植物奶制作机"
+      ],
+      "decision": "观察",
+      "forms": [
+        "whole_machine"
+      ],
+      "support_ids": [
+        "C18"
+      ],
+      "authority": "OWNER_CALIBRATED_EXPERIMENT",
+      "formal_publication": false,
+      "not_gold": true
+    },
+    {
+      "id": "CAL40-C19",
+      "canonical_type": "电热水壶",
+      "aliases": [
+        "电热水壶"
+      ],
+      "decision": "保留",
+      "forms": [
+        "bundle",
+        "ordinary_good",
+        "universal_accessory",
+        "whole_machine"
+      ],
+      "support_ids": [
+        "C19"
+      ],
+      "authority": "OWNER_CALIBRATED_EXPERIMENT",
+      "formal_publication": false,
+      "not_gold": true
+    },
+    {
+      "id": "CAL40-C20",
+      "canonical_type": "家用暖风机",
+      "aliases": [
+        "家用暖风机",
+        "电暖风机"
+      ],
+      "decision": "保留",
+      "forms": [
+        "bundle",
+        "ordinary_good",
+        "universal_accessory",
+        "whole_machine"
+      ],
+      "support_ids": [
+        "C20"
+      ],
+      "authority": "OWNER_CALIBRATED_EXPERIMENT",
+      "formal_publication": false,
+      "not_gold": true
+    },
+    {
+      "id": "CAL40-C21",
+      "canonical_type": "感应垃圾桶",
+      "aliases": [
+        "感应垃圾桶",
+        "感应式厨房垃圾桶",
+        "红外感应厨房垃圾桶",
+        "红外感应垃圾桶"
+      ],
+      "decision": "保留",
+      "forms": [
+        "bundle",
+        "ordinary_good",
+        "universal_accessory"
+      ],
+      "support_ids": [
+        "C21"
+      ],
+      "authority": "OWNER_CALIBRATED_EXPERIMENT",
+      "formal_publication": false,
+      "not_gold": true
+    },
+    {
+      "id": "CAL40-C22",
+      "canonical_type": "手动管路试压泵",
+      "aliases": [
+        "手动水压试压泵",
+        "手动管路试压泵"
+      ],
+      "decision": "观察",
+      "forms": [
+        "ordinary_good",
+        "whole_machine"
+      ],
+      "support_ids": [
+        "C22"
+      ],
+      "authority": "OWNER_CALIBRATED_EXPERIMENT",
+      "formal_publication": false,
+      "not_gold": true
+    },
+    {
+      "id": "CAL40-C23",
+      "canonical_type": "咖啡研磨器",
+      "aliases": [
+        "单剂量咖啡研磨器",
+        "单剂量咖啡研磨机",
+        "咖啡研磨器"
+      ],
+      "decision": "观察",
+      "forms": [
+        "whole_machine"
+      ],
+      "support_ids": [
+        "C23"
+      ],
+      "authority": "OWNER_CALIBRATED_EXPERIMENT",
+      "formal_publication": false,
+      "not_gold": true
+    },
+    {
+      "id": "CAL40-C24",
+      "canonical_type": "空气炸锅",
+      "aliases": [
+        "便携空气炸锅",
+        "空气炸锅"
+      ],
+      "decision": "保留",
+      "forms": [
+        "bundle",
+        "ordinary_good",
+        "universal_accessory",
+        "whole_machine"
+      ],
+      "support_ids": [
+        "C24"
+      ],
+      "authority": "OWNER_CALIBRATED_EXPERIMENT",
+      "formal_publication": false,
+      "not_gold": true
+    },
+    {
+      "id": "CAL40-C25",
+      "canonical_type": "带磨豆奶泡的咖啡机",
+      "aliases": [
+        "多功能咖啡机",
+        "带磨豆及奶泡功能咖啡机",
+        "带磨豆及奶泡功能的咖啡机",
+        "带磨豆奶泡的咖啡机"
+      ],
+      "decision": "观察",
+      "forms": [
+        "whole_machine"
+      ],
+      "support_ids": [
+        "C25"
+      ],
+      "authority": "OWNER_CALIBRATED_EXPERIMENT",
+      "formal_publication": false,
+      "not_gold": true
+    },
+    {
+      "id": "CAL40-C26",
+      "canonical_type": "工业设备信号灯",
+      "aliases": [
+        "24伏三色工业警示灯",
+        "工业三色LED信号灯",
+        "工业设备信号灯"
+      ],
+      "decision": "用不到",
+      "forms": [
+        "installed_component",
+        "host_component",
+        "ordinary_good"
+      ],
+      "support_ids": [
+        "C26"
+      ],
+      "authority": "OWNER_CALIBRATED_EXPERIMENT",
+      "formal_publication": false,
+      "not_gold": true,
+      "industrial": true,
+      "literal_fact_patterns": [
+        "\\bindustrial\\b"
+      ]
+    },
+    {
+      "id": "CAL40-C27",
+      "canonical_type": "工业配电漏电保护开关",
+      "aliases": [
+        "工业漏电保护开关",
+        "工业配电漏电保护开关",
+        "漏电保护开关"
+      ],
+      "decision": "用不到",
+      "forms": [
+        "installed_component",
+        "host_component",
+        "ordinary_good"
+      ],
+      "support_ids": [
+        "C27"
+      ],
+      "authority": "OWNER_CALIBRATED_EXPERIMENT",
+      "formal_publication": false,
+      "not_gold": true,
+      "industrial": true,
+      "literal_fact_patterns": [
+        "\\bindustrial\\b"
+      ]
+    },
+    {
+      "id": "CAL40-C28",
+      "canonical_type": "大型燃木炉",
+      "aliases": [
+        "大型燃木炉",
+        "带烤箱大型燃木炉",
+        "带烤箱的大型燃木炉"
+      ],
+      "decision": "用不到",
+      "forms": [
+        "whole_machine",
+        "whole_system"
+      ],
+      "support_ids": [
+        "C28"
+      ],
+      "authority": "OWNER_CALIBRATED_EXPERIMENT",
+      "formal_publication": false,
+      "not_gold": true,
+      "literal_fact_patterns": [
+        "estufa",
+        "le[nñ]a",
+        "grande"
+      ]
+    },
+    {
+      "id": "CAL40-C29",
+      "canonical_type": "完整办公椅",
+      "aliases": [
+        "可调网布办公转椅",
+        "可调高旋转网布办公椅",
+        "完整办公椅"
+      ],
+      "decision": "观察",
+      "forms": [
+        "ordinary_good"
+      ],
+      "support_ids": [
+        "C29"
+      ],
+      "authority": "OWNER_CALIBRATED_EXPERIMENT",
+      "formal_publication": false,
+      "not_gold": true
+    },
+    {
+      "id": "CAL40-C30",
+      "canonical_type": "扫地机器人与基站系统",
+      "aliases": [
+        "带一体基站的机器人吸尘器",
+        "扫地机器人",
+        "扫地机器人与基站系统",
+        "扫地机器人及一体基站"
+      ],
+      "decision": "用不到",
+      "forms": [
+        "whole_machine",
+        "whole_system"
+      ],
+      "support_ids": [
+        "C30"
+      ],
+      "authority": "OWNER_CALIBRATED_EXPERIMENT",
+      "formal_publication": false,
+      "not_gold": true,
+      "literal_fact_patterns": [
+        "robot.*(?:aspirad|freg|limpia)",
+        "\\b(?:base|estaci[oó]n)\\b"
+      ],
+      "negative_fact_patterns": [
+        "\\b(?:sin|without)\\s+(?:base|estaci[oó]n)",
+        "\\bno\\s+(?:incluye|incluida)\\s+(?:la\\s+)?(?:base|estaci[oó]n)",
+        "(?:base|estaci[oó]n)\\s+no\\s+incluida"
+      ]
+    },
+    {
+      "id": "CAL40-C31",
+      "canonical_type": "组成不明的修补套装",
+      "aliases": [
+        "复合地板修补套装",
+        "组成不明的修补套装"
+      ],
+      "decision": "观察",
+      "forms": [
+        "bundle"
+      ],
+      "support_ids": [
+        "C31"
+      ],
+      "authority": "OWNER_CALIBRATED_EXPERIMENT",
+      "formal_publication": false,
+      "not_gold": true
+    },
+    {
+      "id": "CAL40-C32",
+      "canonical_type": "机器人专用替换电池",
+      "aliases": [
+        "专用镍氢替换电池",
+        "吸尘器替换电池",
+        "扫地机器人专用镍氢替换电池",
+        "机器人专用替换电池"
+      ],
+      "decision": "观察",
+      "forms": [
+        "host_component"
+      ],
+      "support_ids": [
+        "C32"
+      ],
+      "authority": "OWNER_CALIBRATED_EXPERIMENT",
+      "formal_publication": false,
+      "not_gold": true
+    },
+    {
+      "id": "CAL40-C33",
+      "canonical_type": "空气炸锅配件套装",
+      "aliases": [
+        "空气炸锅烘烤配件套装",
+        "空气炸锅烹饪配件套装",
+        "空气炸锅配件套装"
+      ],
+      "decision": "观察",
+      "forms": [
+        "bundle"
+      ],
+      "support_ids": [
+        "C33"
+      ],
+      "authority": "OWNER_CALIBRATED_EXPERIMENT",
+      "formal_publication": false,
+      "not_gold": true
+    },
+    {
+      "id": "CAL40-C34",
+      "canonical_type": "专用炸锅烤架",
+      "aliases": [
+        "专用炸锅烤架",
+        "空气炸锅不锈钢网架",
+        "空气炸锅专用烤架"
+      ],
+      "decision": "观察",
+      "forms": [
+        "host_component"
+      ],
+      "support_ids": [
+        "C34"
+      ],
+      "authority": "OWNER_CALIBRATED_EXPERIMENT",
+      "formal_publication": false,
+      "not_gold": true
+    },
+    {
+      "id": "CAL40-C35",
+      "canonical_type": "商品主体信息不足",
+      "aliases": [
+        "商品主体信息不足",
+        "未知"
+      ],
+      "decision": "观察",
+      "forms": [
+        "unknown"
+      ],
+      "support_ids": [
+        "C35"
+      ],
+      "authority": "OWNER_CALIBRATED_EXPERIMENT",
+      "formal_publication": false,
+      "not_gold": true
+    },
+    {
+      "id": "CAL40-C36",
+      "canonical_type": "唱片展示架",
+      "aliases": [
+        "唱片展示架",
+        "黑胶唱片展示架"
+      ],
+      "decision": "保留",
+      "forms": [
+        "bundle",
+        "ordinary_good",
+        "universal_accessory"
+      ],
+      "support_ids": [
+        "C36"
+      ],
+      "authority": "OWNER_CALIBRATED_EXPERIMENT",
+      "formal_publication": false,
+      "not_gold": true
+    },
+    {
+      "id": "CAL40-C37",
+      "canonical_type": "家具支撑脚",
+      "aliases": [
+        "家具支撑脚",
+        "金属家具支撑脚",
+        "金属家具支撑腿",
+        "金属家具脚四件装"
+      ],
+      "decision": "观察",
+      "forms": [
+        "installed_component"
+      ],
+      "support_ids": [
+        "C37"
+      ],
+      "authority": "OWNER_CALIBRATED_EXPERIMENT",
+      "formal_publication": false,
+      "not_gold": true
+    },
+    {
+      "id": "CAL40-C38",
+      "canonical_type": "压力锅密封圈",
+      "aliases": [
+        "压力锅密封圈",
+        "压力锅硅胶密封圈"
+      ],
+      "decision": "观察",
+      "forms": [
+        "host_component"
+      ],
+      "support_ids": [
+        "C38"
+      ],
+      "authority": "OWNER_CALIBRATED_EXPERIMENT",
+      "formal_publication": false,
+      "not_gold": true
+    },
+    {
+      "id": "CAL40-C39",
+      "canonical_type": "机器人专用替换布",
+      "aliases": [
+        "带支架的擦窗机器人替换布",
+        "带支架的擦窗机替换擦布",
+        "机器人专用替换布"
+      ],
+      "decision": "观察",
+      "forms": [
+        "host_component"
+      ],
+      "support_ids": [
+        "C39"
+      ],
+      "authority": "OWNER_CALIBRATED_EXPERIMENT",
+      "formal_publication": false,
+      "not_gold": true
+    },
+    {
+      "id": "CAL40-C40",
+      "canonical_type": "洗衣洗鞋袋",
+      "aliases": [
+        "洗衣洗鞋袋",
+        "洗鞋袋与附书组合",
+        "洗鞋袋及书籍组合",
+        "洗鞋袋及附书"
+      ],
+      "decision": "保留",
+      "forms": [
+        "bundle",
+        "ordinary_good",
+        "universal_accessory"
+      ],
+      "support_ids": [
+        "C40"
+      ],
+      "authority": "OWNER_CALIBRATED_EXPERIMENT",
+      "formal_publication": false,
+      "not_gold": true
+    }
+  ],
+  "independent_human_semantic_gold": 0,
+  "approved_calibration_decisions": 40,
+  "rule_changes_during_validation": false
+}
