@@ -1,0 +1,11 @@
+{
+  "records": 100,
+  "human_input_cells_blank": 300,
+  "source_and_frozen_code_preserved": "PASS",
+  "xlsx_zip": "PASS",
+  "formula_error_scan": "PASS",
+  "visual_inspection": "PASS",
+  "workbook_sha256": "31d9dc8b31c8b5e58f93fb9f25553cf4c29597af62e2cfc6853c47a62fbd4069",
+  "workbook_path": "F:\\ActionSelectionSkill\\repository_sync\\ActionSelectionSkill_\\work\\next100_20261027\\outputs\\ActionSelectionSkill_新100条_广泛需求优先_AB匿名审核.xlsx",
+  "actual_accuracy": null
+}

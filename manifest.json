@@ -272,6 +272,42 @@
       "sha256": "eda459f58abf670a83b110e41f77993e46a4478b1e559a57a8bc22956d494781",
       "bytes": 2323
     },
+    "reports/assistant_next100_20261027/ai_review.json": {
+      "sha256": "ebc304472af4142b9cb539be81b7c22897b96c1742610bd86d208e104b46c0aa",
+      "bytes": 7251
+    },
+    "reports/assistant_next100_20261027/comparison100.jsonl": {
+      "sha256": "297377920ca75ccb77c0253ec3a60de809d686ca9397b3025f06b0b8f779243e",
+      "bytes": 503983
+    },
+    "reports/assistant_next100_20261027/delivery_verification.json": {
+      "sha256": "e425bc31b157ca72044b77bcbe93a21e124d8568855f8a9a114be87841c10ec7",
+      "bytes": 504
+    },
+    "reports/assistant_next100_20261027/evidence.json": {
+      "sha256": "9f8425299c10e2bd8b70dbf1c5463abe3baf0aad359aff8e31428764765c25b9",
+      "bytes": 42166
+    },
+    "reports/assistant_next100_20261027/final_report.md": {
+      "sha256": "c643bcc9d18940daf8426bc69a3d4933c8c74d71bb008986044dfb6b1f4be4e3",
+      "bytes": 8856
+    },
+    "reports/assistant_next100_20261027/metrics.json": {
+      "sha256": "225c1e9242ad2c094823acaddeacf30f055846b8345718efd4dc14b6c02fca4b",
+      "bytes": 3704
+    },
+    "reports/assistant_next100_20261027/owner_feedback.json": {
+      "sha256": "69189b6b4efce84ce96ac7bff620a2a9b74beb95b43bf8b1f7359feeeba73b74",
+      "bytes": 16303
+    },
+    "reports/assistant_next100_20261027/prompt_ordinary.txt": {
+      "sha256": "9fcd3fc0ede23e0c2ab064c5fd4a0fff544fea0a708d3cd02b50d028ae2744aa",
+      "bytes": 3042
+    },
+    "reports/assistant_next100_20261027/prompt_skill.txt": {
+      "sha256": "ce91fb7266e763beb22c5dfe80de18188c2d1157873d9402a27a83278fe2ff32",
+      "bytes": 15474
+    },
     "reports/assistant_training_v1_20261027/data/actual_model_calls.json": {
       "sha256": "6d896e6257c44af38a7c644cf307a63afe8ccafe7ade6a6b3a069ce4540f4e7e",
       "bytes": 6308

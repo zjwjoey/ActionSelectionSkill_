@@ -1,0 +1,148 @@
+{
+  "frozen_code_sha": "e8f70004d8e0d719cbd139c2a93a1e3e9ac6da95",
+  "sample_records": 100,
+  "counts": {
+    "ordinary": {
+      "保留": 53,
+      "用不到": 28,
+      "观察": 19
+    },
+    "skill": {
+      "保留": 50,
+      "用不到": 29,
+      "观察": 21
+    }
+  },
+  "strata": {
+    "random": {
+      "records": 60,
+      "A": {
+        "保留": 31,
+        "用不到": 20,
+        "观察": 9
+      },
+      "B": {
+        "保留": 30,
+        "用不到": 21,
+        "观察": 9
+      }
+    },
+    "boundary": {
+      "records": 25,
+      "A": {
+        "保留": 12,
+        "用不到": 7,
+        "观察": 6
+      },
+      "B": {
+        "保留": 10,
+        "用不到": 7,
+        "观察": 8
+      }
+    },
+    "confusing": {
+      "records": 15,
+      "A": {
+        "保留": 10,
+        "观察": 4,
+        "用不到": 1
+      },
+      "B": {
+        "保留": 10,
+        "观察": 4,
+        "用不到": 1
+      }
+    }
+  },
+  "decision_differences": 11,
+  "human_gold": 0,
+  "accuracy": null,
+  "human_confirmed_improvement": false,
+  "new_category_bans": false,
+  "prior28_feedback_recorded": true,
+  "same_inputs_and_six_candidates": "PASS",
+  "request_file_hashes": {
+    "0000.jsonl": "ee1e43a77af4755899c1699d35feea4d6333a1de17de365540e70bc0e5a36cea",
+    "0025.jsonl": "10512af6f97e1c9e547e64df76b36caf6d637848ffdfd41902f4fc13b396ac84",
+    "0050.jsonl": "b6a2bb7955580e1d5427be6496a7dc28fab4a8f2c5abea361fb1cc402c52b5ba",
+    "0075.jsonl": "1aaeee6c8fb1e7f32103550f031215b35a2dea81c5c4ea60552bd1e1c04cb70a"
+  },
+  "old_protected_files_checked": 1125,
+  "protected_hash_mismatches": [],
+  "integrity": {
+    "ordinary": {
+      "integrity": "ok",
+      "foreign_keys": 0
+    },
+    "skill": {
+      "integrity": "ok",
+      "foreign_keys": 0
+    }
+  },
+  "summaries": {
+    "ordinary": {
+      "run_id": "assistant_run-a6631c20de94418cf5c69d83",
+      "arm": "ordinary",
+      "completed": 100,
+      "pending": 0,
+      "calls_this_attempt": 4,
+      "cached_records": 0,
+      "elapsed_seconds_this_attempt": 483.69,
+      "errors": [],
+      "integrity": {
+        "integrity": "ok",
+        "foreign_keys": 0
+      },
+      "human_gold": 0,
+      "accuracy": null,
+      "formal_publication": false,
+      "provider": "codex-cli-chatgpt-v1:1103e9e09c71fa2cd0afd6d8f3b9a2d63174fe8efd7cb5bd09f1cb14ef58a098"
+    },
+    "skill": {
+      "run_id": "assistant_run-8a0efd8ea2ae24103c0de851",
+      "arm": "skill",
+      "completed": 100,
+      "pending": 0,
+      "calls_this_attempt": 4,
+      "cached_records": 0,
+      "elapsed_seconds_this_attempt": 518.11,
+      "errors": [],
+      "integrity": {
+        "integrity": "ok",
+        "foreign_keys": 0
+      },
+      "human_gold": 0,
+      "accuracy": null,
+      "formal_publication": false,
+      "provider": "codex-cli-chatgpt-v1:1103e9e09c71fa2cd0afd6d8f3b9a2d63174fe8efd7cb5bd09f1cb14ef58a098"
+    }
+  },
+  "actual_call_counts": {
+    "ordinary": 4,
+    "skill": 4
+  },
+  "usage": {
+    "ordinary": {
+      "cache_write_input_tokens": 0,
+      "cached_input_tokens": 0,
+      "input_tokens": 96723,
+      "output_tokens": 24637,
+      "reasoning_output_tokens": 174
+    },
+    "skill": {
+      "cache_write_input_tokens": 0,
+      "cached_input_tokens": 0,
+      "input_tokens": 111646,
+      "output_tokens": 24808,
+      "reasoning_output_tokens": 116
+    }
+  },
+  "fees": null,
+  "root_review_usage": "not exposed, not included in CLI counts",
+  "master_writes": 0,
+  "main_merge": false,
+  "schema_retries": {
+    "ordinary": 0,
+    "skill": 0
+  }
+}

@@ -1,0 +1,847 @@
+{
+  "sampling_and_freeze": {
+    "created_before_model_calls_utc": "2026-10-27T06:15:15.932766+00:00",
+    "code_sha": "e8f70004d8e0d719cbd139c2a93a1e3e9ac6da95",
+    "prompt_hashes": {
+      "ordinary": "9fcd3fc0ede23e0c2ab064c5fd4a0fff544fea0a708d3cd02b50d028ae2744aa",
+      "skill": "ce91fb7266e763beb22c5dfe80de18188c2d1157873d9402a27a83278fe2ff32"
+    },
+    "source_file": "F:\\AmazonESBestseller\\交付文件\\20261022\\今日快照合并_214818_82be\\今日快照_合并去重_25152条.csv",
+    "source_sha256": "84bacc4c6b66ab7aa1fd7f704d7c3c50a0a195539050fc8e6180f5f0129f68d4",
+    "original_records": 25152,
+    "known_exposure_ids": 7048,
+    "known_exposure_titles": 6972,
+    "eligible_pool": 16665,
+    "new_sample": 100,
+    "strata": {
+      "random": 60,
+      "boundary": 25,
+      "confusing": 15
+    },
+    "seed": 202610271403,
+    "id_overlap": 0,
+    "normalized_title_overlap": 0,
+    "asin_overlap": 0,
+    "historical_exposure_files": [
+      {
+        "file": "F:\\ActionSelectionSkill\\v2\\runs\\v252_development_draft.jsonl",
+        "sha256": "d663d0a1e0b0046999680e2ee45faad8f37f0bb704131bba61a76fc08a5204ef"
+      },
+      {
+        "file": "F:\\ActionSelectionSkill\\v2\\runs\\action_assortment_v2_20261022\\blind_review200.jsonl",
+        "sha256": "4b04252825a2848c81e810408b6c4427f370502ada8c868b02e398d40335a8d6"
+      },
+      {
+        "file": "F:\\ActionSelectionSkill\\v2\\runs\\action_assortment_v2_20261022\\blind_review200_v23.jsonl",
+        "sha256": "d4031aebbd028be437ac8a930597d03b9d120ab44d54016f237332f9e40fbb84"
+      },
+      {
+        "file": "F:\\ActionSelectionSkill\\v2\\runs\\action_assortment_v2_20261022\\independent200_inputs.jsonl",
+        "sha256": "f9630fe17dc70455db13b2255d24c339a1518dbe1d10d728ac22342160ac0c5c"
+      },
+      {
+        "file": "F:\\ActionSelectionSkill\\v2\\runs\\action_assortment_v2_20261022\\independent200_results.jsonl",
+        "sha256": "f329bcd579772f062b8699c6e36ddeb91d35a5dac9999c9a0627145a907b32ca"
+      },
+      {
+        "file": "F:\\ActionSelectionSkill\\v2\\runs\\action_assortment_v2_20261022\\technical500_inputs.jsonl",
+        "sha256": "efbed97eca7f7e4924581ab20232b492df661246f3fc1bb8abaed48acce441a0"
+      },
+      {
+        "file": "F:\\ActionSelectionSkill\\v2\\runs\\action_assortment_v2_20261022\\technical500_results.jsonl",
+        "sha256": "1c042c3e0a4b77e03792c780a11a0f5876732201135ded9f356cba8960d7d29f"
+      },
+      {
+        "file": "F:\\ActionSelectionSkill\\v2\\runs\\action_assortment_v2_20261022\\three_scheme700_comparison.jsonl",
+        "sha256": "efc8aff8cb1363d7c8ae92e593120f5a3e89f6c7402b7050db35963c98d63cb1"
+      },
+      {
+        "file": "F:\\ActionSelectionSkill\\v2\\runs\\action_assortment_v2_20261022\\three_scheme700_comparison_v23.jsonl",
+        "sha256": "391dcda89170a1a2cbbeb616f02f59bed8dfdab700feb803105f88b5d4e24652"
+      },
+      {
+        "file": "F:\\ActionSelectionSkill\\v2\\runs\\amazon_boundary_v24_20261022\\inputs_500.jsonl",
+        "sha256": "0fbf3a6dc51a6f271ebf6c506956d48c126710a8d6ccbf39b1cd5375bb22c660"
+      },
+      {
+        "file": "F:\\ActionSelectionSkill\\v2\\runs\\amazon_boundary_v24_20261022\\results_500.jsonl",
+        "sha256": "3fd8b1e69362b9b6091c1a3110c21a9bdb502f6910fb96b6a36fb27205bad933"
+      },
+      {
+        "file": "F:\\ActionSelectionSkill\\v2\\runs\\amazon_boundary_v25_20261022\\inputs_100.jsonl",
+        "sha256": "40d30f2f6fe0decaf3416d64f0886c30edfceb5c2a2c788f8ba50e97507cf1da"
+      },
+      {
+        "file": "F:\\ActionSelectionSkill\\v2\\runs\\amazon_boundary_v25_20261022\\paired_results_100.jsonl",
+        "sha256": "41f51b6ee9f3455dda4a5787acd988da593e7903ef5d6256b483fd1db65b6714"
+      },
+      {
+        "file": "F:\\ActionSelectionSkill\\v2\\runs\\amazon_v251_ai_calibration_20261022\\bridge_projected_262.jsonl",
+        "sha256": "138bbe2baa2d57beccd96c4348ae31a1d5ccb7bbb31a199f569eb6c6eb81d571"
+      },
+      {
+        "file": "F:\\ActionSelectionSkill\\v2\\runs\\amazon_v251_ai_calibration_20261022\\inputs_150.jsonl",
+        "sha256": "35842add423478b583392f4ba29ba2a170d3f21fffbd401c0bd538595e5ea041"
+      },
+      {
+        "file": "F:\\ActionSelectionSkill\\v2\\runs\\boundary_v01_20261023\\base_200.jsonl",
+        "sha256": "c1671699ad24c8ba695d22330a347ba00950d6014b99686627253ec0393153ce"
+      },
+      {
+        "file": "F:\\ActionSelectionSkill\\v2\\runs\\boundary_v01_20261023\\base_300.jsonl",
+        "sha256": "a7d149d682295d77cdf54decd4e3231e0ed3418febd090825582916ca8027188"
+      },
+      {
+        "file": "F:\\ActionSelectionSkill\\v2\\runs\\boundary_v01_20261023\\inputs_calibration60.jsonl",
+        "sha256": "2e0a0e65021e196d81acf047839c202234803f9320df7fd6ffed3f3cbdadbedf"
+      },
+      {
+        "file": "F:\\ActionSelectionSkill\\v2\\runs\\boundary_v01_20261023\\inputs_semantic200.jsonl",
+        "sha256": "3ca22dfa036622ab6960ba4e2f8bee96d9ea306c459b8f2c479c2853af3f1e84"
+      },
+      {
+        "file": "F:\\ActionSelectionSkill\\v2\\runs\\boundary_v01_20261023\\inputs_validation300.jsonl",
+        "sha256": "b5a05e3e616f5ef7a795198ef5e30e745fba2995073642cdedf38d13ef9baa14"
+      },
+      {
+        "file": "F:\\ActionSelectionSkill\\v2\\runs\\boundary_v01_20261023\\results_200_semantic.jsonl",
+        "sha256": "2042d8a2f8ff4d958225630d8fffe7579e00b31179d4c0565429f98d1130b09d"
+      },
+      {
+        "file": "F:\\ActionSelectionSkill\\v2\\runs\\boundary_v01_20261023\\results_300_local.jsonl",
+        "sha256": "bf2ba7e780fab5d2c4955021d97543868d860ea37ee3b64943609b4b6148f6b3"
+      },
+      {
+        "file": "F:\\ActionSelectionSkill\\v2\\runs\\boundary_v01_20261023\\results_300_semantic.jsonl",
+        "sha256": "a081bf66784ac38359594b67adfce7482cedb14aa949a6cca71b024a3867d774"
+      },
+      {
+        "file": "F:\\ActionSelectionSkill\\v2\\runs\\boundary_v01_20261023\\semantic200_bound.jsonl",
+        "sha256": "d6bc175f1a18151cfc2a4e1d975ca6fcb9dcc9b183b0ed7f6b35dcec9257616b"
+      },
+      {
+        "file": "F:\\ActionSelectionSkill\\v2\\runs\\boundary_v01_20261023\\validation300_bound.jsonl",
+        "sha256": "2710aead29fc494466d86a97664df4f116e17e89e1cd4c296d5af21bb9455ea7"
+      },
+      {
+        "file": "F:\\ActionSelectionSkill\\v2\\runs\\boundary_v02_20261023\\audits60.jsonl",
+        "sha256": "8e53e5a3ac9f6ab5c8ae9f2d2dab526534c27b3034d9e7f0213d45e40a7c43a0"
+      },
+      {
+        "file": "F:\\ActionSelectionSkill\\v2\\runs\\boundary_v02_20261023\\results60.jsonl",
+        "sha256": "8c75e79420dd850421a5971c06d80e4e8d42261527cce600e5fd1ecea7ecf556"
+      },
+      {
+        "file": "F:\\ActionSelectionSkill\\v2\\runs\\boundary_v03_20261023\\development60_bound.jsonl",
+        "sha256": "c5772c9525217782c461e0411c27a8aed161cac1e927e183e5d00b51d2016ec4"
+      },
+      {
+        "file": "F:\\ActionSelectionSkill\\v2\\runs\\boundary_v03_20261023\\development60_results.jsonl",
+        "sha256": "425a2571ac334058f3d385ea9ceb7dc11c4d0735266d7d97e32ef4f0873a2dd1"
+      },
+      {
+        "file": "F:\\ActionSelectionSkill\\v2\\runs\\boundary_v03_20261023\\inputs_validation300.jsonl",
+        "sha256": "845ca92ca8b32868b7c45adacac1b3054b172b364768ffea21f49343b0fb462a"
+      },
+      {
+        "file": "F:\\ActionSelectionSkill\\v2\\runs\\boundary_v03_20261023\\jobs_a.jsonl",
+        "sha256": "187507207b460265cff1ab22b228ab533f90e472971bd2cd1dc626b1ca482109"
+      },
+      {
+        "file": "F:\\ActionSelectionSkill\\v2\\runs\\boundary_v03_20261023\\jobs_b.jsonl",
+        "sha256": "34c43ce05049a3a83d12e97dbe4e1232838734f327e00772f94ae3522590802f"
+      },
+      {
+        "file": "F:\\ActionSelectionSkill\\v2\\runs\\boundary_v03_20261023\\jobs_c.jsonl",
+        "sha256": "6f56a8569f2037b17732fbfa3dcff61899dbc2c589bff3c01a0ab0f2f9d40ceb"
+      },
+      {
+        "file": "F:\\ActionSelectionSkill\\v2\\runs\\boundary_v03_20261023\\validation300_bound.jsonl",
+        "sha256": "aa36fb0719a0e65c01266fb8d901de5f429b8323cf0ef96dfffc9150518d62bc"
+      },
+      {
+        "file": "F:\\ActionSelectionSkill\\v2\\runs\\boundary_v03_20261023\\validation300_results.jsonl",
+        "sha256": "bf07f2d51fc6251fe634aa699247b196454050374672350dbfca85462940706c"
+      },
+      {
+        "file": "F:\\ActionSelectionSkill\\v2\\runs\\boundary_v03_pilot500_20261023\\audits500.jsonl",
+        "sha256": "71a5f7ecd1290d489ac1224484d04895cdf6be20e40da4d510b901af58786736"
+      },
+      {
+        "file": "F:\\ActionSelectionSkill\\v2\\runs\\boundary_v03_pilot500_20261023\\inputs500.jsonl",
+        "sha256": "08752fd972bc3cbbb34ae09de43d0bcad72df92ef061d82339a9b0f220387ddb"
+      },
+      {
+        "file": "F:\\ActionSelectionSkill\\v2\\runs\\boundary_v03_pilot500_20261023\\jobs_a.jsonl",
+        "sha256": "3ad6c0128a9a8eef9dc87074feeaae7e56418d72556b7fb09504ffe3c7f32df0"
+      },
+      {
+        "file": "F:\\ActionSelectionSkill\\v2\\runs\\boundary_v03_pilot500_20261023\\jobs_b.jsonl",
+        "sha256": "f3bce0007d91235fd7839ea21b5399918467040e7d915f7fffb261e0d006fcc0"
+      },
+      {
+        "file": "F:\\ActionSelectionSkill\\v2\\runs\\boundary_v03_pilot500_20261023\\jobs_c.jsonl",
+        "sha256": "2148da2d400bc11086f43a983268e6200aa6fbc3685f2e076cca7fb142a282a7"
+      },
+      {
+        "file": "F:\\ActionSelectionSkill\\v2\\runs\\boundary_v03_pilot500_20261023\\results500.jsonl",
+        "sha256": "aabba80843350c79c810f1ba0e8f9677db58fee709a195824182c0920e94819d"
+      },
+      {
+        "file": "F:\\ActionSelectionSkill\\v2\\runs\\boundary_v0_20261023\\full_exclusion_queue.jsonl",
+        "sha256": "9a2e0a0121bff1d4c0c4313f25ba78419d636a9635b399fbe860bd641c92ac26"
+      },
+      {
+        "file": "F:\\ActionSelectionSkill\\v2\\runs\\boundary_v0_20261023\\inputs_200.jsonl",
+        "sha256": "1aaa35854f06c7478778db7d4c2dcb09d75df3f5e8e65f8f51e7d07b4197b454"
+      },
+      {
+        "file": "F:\\ActionSelectionSkill\\v2\\runs\\boundary_v0_20261023\\inputs_49.jsonl",
+        "sha256": "6de2abeb9e703149fb8bd8a18c7802115a2543163deb1be7057dfe756288fb0c"
+      },
+      {
+        "file": "F:\\ActionSelectionSkill\\v2\\runs\\boundary_v0_20261023\\inputs_500.jsonl",
+        "sha256": "13e1b1c96c1e2cb068064a59efb8d64499fb4d9d76acb65febc9e00555e26f1d"
+      },
+      {
+        "file": "F:\\ActionSelectionSkill\\v2\\runs\\boundary_v0_20261023\\local_v26_fast_200.jsonl",
+        "sha256": "52ebfb0fc81f79a8889b97a612e6e4a391ae14221ed0cf39bd9aab05c6c53b3e"
+      },
+      {
+        "file": "F:\\ActionSelectionSkill\\v2\\runs\\boundary_v0_20261023\\local_v26_fast_500.jsonl",
+        "sha256": "cf93ec1be157bac7440992000311ff9ed4d4404497ca7367b81257743531595a"
+      },
+      {
+        "file": "F:\\ActionSelectionSkill\\v2\\runs\\boundary_v0_20261023\\results_200_initial.jsonl",
+        "sha256": "7cdec05440eddc534873fd4c3ab4c5b44c3fcd11f1c40c23fc3686d72b39461e"
+      },
+      {
+        "file": "F:\\ActionSelectionSkill\\v2\\runs\\boundary_v0_20261023\\results_200_semantic.jsonl",
+        "sha256": "4c64c560b60cdb806c6ed91d4dd0108540df3d71b6af01da1995f2f8c6777305"
+      },
+      {
+        "file": "F:\\ActionSelectionSkill\\v2\\runs\\boundary_v0_20261023\\results_500_initial.jsonl",
+        "sha256": "1afa330915a21250221624447317774e4d7a19243b4559c95463773a9512ca3c"
+      },
+      {
+        "file": "F:\\ActionSelectionSkill\\v2\\runs\\boundary_v0_20261023\\results_500_semantic.jsonl",
+        "sha256": "5bb44042e1ab1f4ed05093bf3da9a4712639fe2d3a9831116d2890ef087c4b31"
+      },
+      {
+        "file": "F:\\ActionSelectionSkill\\v2\\runs\\boundary_v0_20261023\\semantic_200.jsonl",
+        "sha256": "1f7c07cf0c5e60ed08b79e878fef7a5c9f791ee6ecd355d77aa7f4b53fb5c2ea"
+      },
+      {
+        "file": "F:\\ActionSelectionSkill\\v2\\runs\\boundary_v0_20261023\\semantic_49.jsonl",
+        "sha256": "2c40cd524c686417e9b8f4c7a6ea276d19c39ac3456481a22ff2f2b661b6d59d"
+      },
+      {
+        "file": "F:\\ActionSelectionSkill\\v2\\runs\\boundary_v0_20261023\\semantic_500.jsonl",
+        "sha256": "d341ac1fab9fbbdcafb793933950d6019252cfd97751dfacd4d27d5c25b69e82"
+      },
+      {
+        "file": "F:\\ActionSelectionSkill\\v2\\runs\\semantic_v26_20261023\\baseline_200.jsonl",
+        "sha256": "9d8ec21eb3bcb8d3b545a6109951998e126bac5122ebcd79e0b7abf405659df2"
+      },
+      {
+        "file": "F:\\ActionSelectionSkill\\v2\\runs\\semantic_v26_20261023\\deep_queue.jsonl",
+        "sha256": "2a5db2ec5282cb56e8185cd1b8a5a1ff10fd3ff10ceb8ac849f445e073f6796e"
+      },
+      {
+        "file": "F:\\ActionSelectionSkill\\v2\\runs\\semantic_v26_20261023\\development_60_inputs.jsonl",
+        "sha256": "b72c2740324d8bcfb3c9535daa8c066c90c276412a2d1f22add41ca5245ebe6d"
+      },
+      {
+        "file": "F:\\ActionSelectionSkill\\v2\\runs\\semantic_v26_20261023\\dev_deep_results.jsonl",
+        "sha256": "901c9499c4fb1c4f7eefc14add230aa88141ee74387d5fcde71e3b05f8633ce0"
+      },
+      {
+        "file": "F:\\ActionSelectionSkill\\v2\\runs\\semantic_v26_20261023\\inputs_200.jsonl",
+        "sha256": "f06525d4884d30341ee8eff386ea5ca72dc04648b50417214def2047bc38fd5e"
+      },
+      {
+        "file": "F:\\ActionSelectionSkill\\v2\\runs\\semantic_v26_20261023\\new_deep_results.jsonl",
+        "sha256": "7b3adafaca7adbf49816848e9cf8940dbfdcbe19b3600cd4aa34aed6acacf9ef"
+      },
+      {
+        "file": "F:\\ActionSelectionSkill\\v2\\runs\\semantic_v26_20261023\\results_200.jsonl",
+        "sha256": "01f4c9619e4a3483a3b917af0183f9889cad865286479bec42db8112f2908ba1"
+      },
+      {
+        "file": "F:\\ActionSelectionSkill\\v2\\runs\\subject_v2510_20261023\\ai_review_50_bound.jsonl",
+        "sha256": "f7747bca8c60ecf11e69d60fc7dd3347aebb5fd1b525f8aad6eb784ada981d94"
+      },
+      {
+        "file": "F:\\ActionSelectionSkill\\v2\\runs\\subject_v2510_20261023\\exposed_v257_regression100.jsonl",
+        "sha256": "900ecfa4ebb3b2a3a281a3444189bce886c7b1c75b256d697fdd38d914bb984b"
+      },
+      {
+        "file": "F:\\ActionSelectionSkill\\v2\\runs\\subject_v2510_20261023\\exposed_v258_regression100.jsonl",
+        "sha256": "c998109396f56fa18676c069eb49729b988bda4d6ebf39ee36ff8eea08f3072b"
+      },
+      {
+        "file": "F:\\ActionSelectionSkill\\v2\\runs\\subject_v2510_20261023\\exposed_v259_regression100.jsonl",
+        "sha256": "59607e524e334fb103e5a2f6cdfbef15d3f8c095d693048f73ae8c24ffb3a8e3"
+      },
+      {
+        "file": "F:\\ActionSelectionSkill\\v2\\runs\\subject_v2510_20261023\\inputs_50.jsonl",
+        "sha256": "a0685a067d55a73b72ffbc4066dc03a33d2ecc49d966be6074eeb0512f5d88b5"
+      },
+      {
+        "file": "F:\\ActionSelectionSkill\\v2\\runs\\subject_v2510_20261023\\results_50.jsonl",
+        "sha256": "61c3ba3e49a7a7eeadf182874d0ea55f6a536177af14d54a635ec9977fa5264f"
+      },
+      {
+        "file": "F:\\ActionSelectionSkill\\v2\\runs\\subject_v2511_20261023\\exposed_v2510_regression50.jsonl",
+        "sha256": "7b4b1feb896c50b80c327317f316020a12212e89455ab741977dc3cdd9e60870"
+      },
+      {
+        "file": "F:\\ActionSelectionSkill\\v2\\runs\\subject_v2511_20261023\\exposed_v257_regression100.jsonl",
+        "sha256": "e7c89cd17c693a3ec468e87225f938a2d830fefea86956b68073a860c7e8ee81"
+      },
+      {
+        "file": "F:\\ActionSelectionSkill\\v2\\runs\\subject_v2511_20261023\\exposed_v258_regression100.jsonl",
+        "sha256": "868da06833404fe7b7ce23ea520f25884de9909077bed778fe1ab89d05265709"
+      },
+      {
+        "file": "F:\\ActionSelectionSkill\\v2\\runs\\subject_v2511_20261023\\exposed_v259_regression100.jsonl",
+        "sha256": "13fe5709508f0ac98e2c6d94e5f88762116b0b80f8fe6420b92455b654ebec13"
+      },
+      {
+        "file": "F:\\ActionSelectionSkill\\v2\\runs\\subject_v2511_20261023\\inputs_20.jsonl",
+        "sha256": "fe1c80e9bceb114ac09c21545681c5692da14824e1c6dc5eabbfd1a996319cd6"
+      },
+      {
+        "file": "F:\\ActionSelectionSkill\\v2\\runs\\subject_v2511_20261023\\results_20.jsonl",
+        "sha256": "b90b05135b97acd44e8808e12a03b95f3cf4e53b7796e662ef517ab1880ca072"
+      },
+      {
+        "file": "F:\\ActionSelectionSkill\\v2\\runs\\subject_v2512_20261023\\exposed_v2510_regression50.jsonl",
+        "sha256": "3870be3c51a4db48d7e9dc2b683d8a8cf0b958485ac10ec6405858a06596cf4f"
+      },
+      {
+        "file": "F:\\ActionSelectionSkill\\v2\\runs\\subject_v2512_20261023\\exposed_v2511_regression20.jsonl",
+        "sha256": "43c9492380e5b81e70b596dcb10af027b5948046aa8efe63b3831c6aaa7cca22"
+      },
+      {
+        "file": "F:\\ActionSelectionSkill\\v2\\runs\\subject_v2512_20261023\\exposed_v257_regression100.jsonl",
+        "sha256": "953468781ae75bc715ab572b96ce889a741c7f21e3261cbba18f7855443365a5"
+      },
+      {
+        "file": "F:\\ActionSelectionSkill\\v2\\runs\\subject_v2512_20261023\\exposed_v258_regression100.jsonl",
+        "sha256": "b70da552672b3decd7d648d1ba24585b21c8308ad6c96bcb4b974f5de1812da1"
+      },
+      {
+        "file": "F:\\ActionSelectionSkill\\v2\\runs\\subject_v2512_20261023\\exposed_v259_regression100.jsonl",
+        "sha256": "4570a35e1cd189451c6634753a517e6b33d6e0bcaae05ed869381ee7eb11cf1f"
+      },
+      {
+        "file": "F:\\ActionSelectionSkill\\v2\\runs\\subject_v2512_20261023\\inputs_20.jsonl",
+        "sha256": "d27bd04502bf142d5e2c99595f2c56279c505af95e93fa3d4305bc31d71b5e16"
+      },
+      {
+        "file": "F:\\ActionSelectionSkill\\v2\\runs\\subject_v2512_20261023\\results_20.jsonl",
+        "sha256": "ee93ced056ef8babe7f73512482969512d9967684561237fe061a547e1367167"
+      },
+      {
+        "file": "F:\\ActionSelectionSkill\\v2\\runs\\subject_v2513_20261023\\ai_review_20_bound.jsonl",
+        "sha256": "ab8f74baa3b017ec59a0c4d1a3b82b0d092a566806ea497bc742b45b4dc6292d"
+      },
+      {
+        "file": "F:\\ActionSelectionSkill\\v2\\runs\\subject_v2513_20261023\\exposed_v2510_regression50.jsonl",
+        "sha256": "b5278161d90f6f76d283c53235de98c3d220ee55ab4e6d01ffd23d8fe90be9da"
+      },
+      {
+        "file": "F:\\ActionSelectionSkill\\v2\\runs\\subject_v2513_20261023\\exposed_v2511_regression20.jsonl",
+        "sha256": "0538101f39e9f40a1beeb2cc37dbbbc90af20edd5bccd53010703adf97357473"
+      },
+      {
+        "file": "F:\\ActionSelectionSkill\\v2\\runs\\subject_v2513_20261023\\exposed_v2512_regression20.jsonl",
+        "sha256": "3a800183374c2b88c8ec728b74b48e5815ac3ec1b5c914a285f534cb755e6905"
+      },
+      {
+        "file": "F:\\ActionSelectionSkill\\v2\\runs\\subject_v2513_20261023\\exposed_v257_regression100.jsonl",
+        "sha256": "102a61bfd5944b23b655edadd4b4dc7f48d45d957e49dd914f7f3351947b0da9"
+      },
+      {
+        "file": "F:\\ActionSelectionSkill\\v2\\runs\\subject_v2513_20261023\\exposed_v258_regression100.jsonl",
+        "sha256": "9f08b3440bc24aba20e283bb83cf8baa963f9fd9873a8ee8a3842b3af0c8bc30"
+      },
+      {
+        "file": "F:\\ActionSelectionSkill\\v2\\runs\\subject_v2513_20261023\\exposed_v259_regression100.jsonl",
+        "sha256": "76946e4138f2a1b5b72c5d4d7275fd59c16dcaf4fb45f62ff0ddd303bbd5bebe"
+      },
+      {
+        "file": "F:\\ActionSelectionSkill\\v2\\runs\\subject_v2513_20261023\\inputs_20.jsonl",
+        "sha256": "b7efe0081934c7db4d610b8344e4402e4efe26305219af70bb37b5bcff874ee3"
+      },
+      {
+        "file": "F:\\ActionSelectionSkill\\v2\\runs\\subject_v2513_20261023\\results_20.jsonl",
+        "sha256": "1a94b4a3f7a652d576b185d7e214ba9bc9b52c3e263f2c20f2069b7358147459"
+      },
+      {
+        "file": "F:\\ActionSelectionSkill\\v2\\runs\\subject_v252_20261023\\inputs_100.jsonl",
+        "sha256": "ac3b206eb390e71d24c29875b9c514c762f54e059cc2fab324ef44f5be562dbf"
+      },
+      {
+        "file": "F:\\ActionSelectionSkill\\v2\\runs\\subject_v252_20261023\\results_100.jsonl",
+        "sha256": "3cfa8a1ef6485821c58699765cb30d1952487d04234d3c4757d008bf181bd16e"
+      },
+      {
+        "file": "F:\\ActionSelectionSkill\\v2\\runs\\subject_v253_20261023\\development_150.jsonl",
+        "sha256": "8054e512085a4b568f40e50fd052076851fba4103ffbce8edea258575c948ed0"
+      },
+      {
+        "file": "F:\\ActionSelectionSkill\\v2\\runs\\subject_v253_20261023\\exposed_regression_100.jsonl",
+        "sha256": "09ca2feca39f2b59310f2b9541650bf2e11986171f4a97bdb046c5eefd5ca8cb"
+      },
+      {
+        "file": "F:\\ActionSelectionSkill\\v2\\runs\\subject_v253_20261023\\inputs_100.jsonl",
+        "sha256": "4d8e07727ccf444a31274ac9dd5d91b65404200207c34b302a606adb9175d7fc"
+      },
+      {
+        "file": "F:\\ActionSelectionSkill\\v2\\runs\\subject_v253_20261023\\results_100.jsonl",
+        "sha256": "ba1b5d77be8085594f00173c2b9b069d7fb2e4db0c8bfafde3f133c952465b8f"
+      },
+      {
+        "file": "F:\\ActionSelectionSkill\\v2\\runs\\subject_v254_20261023\\development_150.jsonl",
+        "sha256": "251f08c6e6545b01252fc5174e465b931f1cc9b3c0c76f99f79c15f148f8f4f3"
+      },
+      {
+        "file": "F:\\ActionSelectionSkill\\v2\\runs\\subject_v254_20261023\\exposed_regression_100.jsonl",
+        "sha256": "c5636db56483f5143eb2f310ab41ea24cf39166098dbb190705f4eade5d76b47"
+      },
+      {
+        "file": "F:\\ActionSelectionSkill\\v2\\runs\\subject_v254_20261023\\exposed_v253_regression_100.jsonl",
+        "sha256": "abfa3cfea46fb70a79ee9062315f1326b57f8530361778c6963ce1e69aacfd77"
+      },
+      {
+        "file": "F:\\ActionSelectionSkill\\v2\\runs\\subject_v254_20261023\\inputs_100.jsonl",
+        "sha256": "66bb69a9c99233a2fe6144c14289429041106783f1069b2ccc088ed8663699b4"
+      },
+      {
+        "file": "F:\\ActionSelectionSkill\\v2\\runs\\subject_v254_20261023\\results_100.jsonl",
+        "sha256": "010cba322babd1d6f2bdae0a8ae8dce2fa90dff10ae462ce890b4e8f3b64ca95"
+      },
+      {
+        "file": "F:\\ActionSelectionSkill\\v2\\runs\\subject_v255_20261023\\development_150.jsonl",
+        "sha256": "24b3bcbf9a8a78a90fb9ef32ef7ead2324bffe98b3a2a925c0d5c488ac2c98f0"
+      },
+      {
+        "file": "F:\\ActionSelectionSkill\\v2\\runs\\subject_v255_20261023\\exposed_regression_100.jsonl",
+        "sha256": "492666e3721c0b5c49e87d2bd65f3caaa35c0aed8297dedbf5a6eb31ee4d8132"
+      },
+      {
+        "file": "F:\\ActionSelectionSkill\\v2\\runs\\subject_v255_20261023\\exposed_v253_regression_100.jsonl",
+        "sha256": "cabdacf68451f0641198fc5fb951c545e716a6f1f49d1e1359d2d8341cf896c3"
+      },
+      {
+        "file": "F:\\ActionSelectionSkill\\v2\\runs\\subject_v255_20261023\\exposed_v254_regression_100.jsonl",
+        "sha256": "52f23e550104f9e016c9aca869d42799ae6b5ffd01c527d3984d758ef8298011"
+      },
+      {
+        "file": "F:\\ActionSelectionSkill\\v2\\runs\\subject_v255_20261023\\inputs_100.jsonl",
+        "sha256": "d31526364d2ea1f1a38fc8694452cbb3a3ef070fd90fce66489a2f58dadae970"
+      },
+      {
+        "file": "F:\\ActionSelectionSkill\\v2\\runs\\subject_v255_20261023\\results_100.jsonl",
+        "sha256": "677aca05a521152fdda3dbcc278613c69a11ce11ba87cdd1e5378163d4268620"
+      },
+      {
+        "file": "F:\\ActionSelectionSkill\\v2\\runs\\subject_v256_20261023\\ai_audit_50_bound.jsonl",
+        "sha256": "91ffd70d8d3dbb69ab4057d2061a6b70f954e4f4b6f51f27bac5ba5f803c2119"
+      },
+      {
+        "file": "F:\\ActionSelectionSkill\\v2\\runs\\subject_v256_20261023\\exposed_v252_regression_100.jsonl",
+        "sha256": "b8d1138cf08a13bc300086caec95a8e4998bee2e4def412f9f82a0076926f65b"
+      },
+      {
+        "file": "F:\\ActionSelectionSkill\\v2\\runs\\subject_v256_20261023\\exposed_v253_regression_100.jsonl",
+        "sha256": "638ce5693c6a860b2fa2245a828313666ed5e0694c72b178946e884477b05382"
+      },
+      {
+        "file": "F:\\ActionSelectionSkill\\v2\\runs\\subject_v256_20261023\\exposed_v254_regression_100.jsonl",
+        "sha256": "7d54a876ab8c5192446b8c98719a08109a647b568ebc810e840b4382ab319e1d"
+      },
+      {
+        "file": "F:\\ActionSelectionSkill\\v2\\runs\\subject_v256_20261023\\exposed_v255_regression_100.jsonl",
+        "sha256": "302ee95d6bffabf48161cbaa9bed1c6fb330b59c1944535adf46d2d1733a1db1"
+      },
+      {
+        "file": "F:\\ActionSelectionSkill\\v2\\runs\\subject_v256_20261023\\inputs_50.jsonl",
+        "sha256": "2f31a3174d432f37c1a7f42dd22c96d32d7c655ad2cc6eccce9ac0500f4922ff"
+      },
+      {
+        "file": "F:\\ActionSelectionSkill\\v2\\runs\\subject_v256_20261023\\results_50.jsonl",
+        "sha256": "b8733ad23653877e9e595e24928f5603831ae3e886d19b16eb094c84fc16d31e"
+      },
+      {
+        "file": "F:\\ActionSelectionSkill\\v2\\runs\\subject_v257_20261023\\inputs_100.jsonl",
+        "sha256": "9ccebb8ef3f21ba10647bb8aa5510e969e1cb11f9438071fec639208c74b0a31"
+      },
+      {
+        "file": "F:\\ActionSelectionSkill\\v2\\runs\\subject_v257_20261023\\results_100.jsonl",
+        "sha256": "7a8039397e6faa63a5eb852c80f2ab2bb5a8bd9a8059cd17a1fb41bf7da26478"
+      },
+      {
+        "file": "F:\\ActionSelectionSkill\\v2\\runs\\subject_v258_20261023\\exposed_v257_regression100.jsonl",
+        "sha256": "b8c7299119e243f4954573dc63e8333f1b20c67703712ea20630584ea5808533"
+      },
+      {
+        "file": "F:\\ActionSelectionSkill\\v2\\runs\\subject_v258_20261023\\inputs_100.jsonl",
+        "sha256": "27d1dcbd62e2127bf17b05d2d2e1fffd447909e6624cbbc3561469a4801f5151"
+      },
+      {
+        "file": "F:\\ActionSelectionSkill\\v2\\runs\\subject_v258_20261023\\results_100.jsonl",
+        "sha256": "bfca3b4eebb22d1df2e062c7acc3783dd49ad1d5bed1935fe60d9c0b80537eb1"
+      },
+      {
+        "file": "F:\\ActionSelectionSkill\\v2\\runs\\subject_v259_20261023\\exposed_v257_regression100.jsonl",
+        "sha256": "073dd549b29fea54720da94ec5a886933363d06fee00bb4f8e31ef0227a6cb81"
+      },
+      {
+        "file": "F:\\ActionSelectionSkill\\v2\\runs\\subject_v259_20261023\\exposed_v258_regression100.jsonl",
+        "sha256": "f0bbb65da35711527f3a22ef970b2468f97e853df976e5bfcc58c5c2e1e62196"
+      },
+      {
+        "file": "F:\\ActionSelectionSkill\\v2\\runs\\subject_v259_20261023\\inputs_100.jsonl",
+        "sha256": "976078b3c9de877570c69a7d6441d2cbc86d1356fd4bb5f061f50e0b42425d2a"
+      },
+      {
+        "file": "F:\\ActionSelectionSkill\\v2\\runs\\subject_v259_20261023\\results_100.jsonl",
+        "sha256": "a18138d13eab4f318a461a307f34ec279f853acd507588f41c55ba31a7873712"
+      },
+      {
+        "file": "F:\\ActionSelectionSkill\\v2\\runs\\action_assortment_v2_20261022\\prototype_1_before_technical_gate\\technical500_inputs.jsonl",
+        "sha256": "ea123e7526ac3ae455ef72288c4468d0604c8398f4cb82d8022f1c4b910efb87"
+      },
+      {
+        "file": "F:\\ActionSelectionSkill\\v2\\runs\\action_assortment_v2_20261022\\prototype_1_before_technical_gate\\technical500_results.jsonl",
+        "sha256": "e33a5002b40d2eff505126ed5fec802dd2f0b354454bfcadf2e5e1d7b43c2c22"
+      },
+      {
+        "file": "F:\\ActionSelectionSkill\\v2\\runs\\action_assortment_v2_20261022\\prototype_2_validation_before_model_dependency_fix\\blind_review200.jsonl",
+        "sha256": "78a74f5329ed95783c2ed49ae3b4dbe01ff028838e18cba4b021c4286573d55b"
+      },
+      {
+        "file": "F:\\ActionSelectionSkill\\v2\\runs\\action_assortment_v2_20261022\\prototype_2_validation_before_model_dependency_fix\\technical500_results.jsonl",
+        "sha256": "e793d034ac27d2cce8ed756d805490baa4587dd19b3947a8edd1c161572577df"
+      },
+      {
+        "file": "F:\\ActionSelectionSkill\\v2\\runs\\action_assortment_v2_20261022\\prototype_2_validation_before_model_dependency_fix\\three_scheme500_comparison.jsonl",
+        "sha256": "eefc6570dd3189d04f4466756c23a5a3d4a98464549ff94ca5c28a23112394de"
+      },
+      {
+        "file": "F:\\ActionSelectionSkill\\v2\\runs\\amazon_boundary_v25_20261022\\amazon-boundary-v25-2109ef657ef8dc8f\\inputs_100.jsonl",
+        "sha256": "50fbb2be5e79ecfff95fcf52538233971232312e0af38ab8493a27e992e3fedb"
+      },
+      {
+        "file": "F:\\ActionSelectionSkill\\v2\\runs\\amazon_boundary_v25_20261022\\amazon-boundary-v25-2109ef657ef8dc8f\\paired_results_100.jsonl",
+        "sha256": "56558c5d26f343c76b1ab50521c7bb04df1bab453ca4def2c3eb4517ec9f68a8"
+      },
+      {
+        "file": "F:\\ActionSelectionSkill\\v2\\runs\\amazon_boundary_v25_20261022\\amazon-boundary-v25-3432774195d04029\\inputs_100.jsonl",
+        "sha256": "40d30f2f6fe0decaf3416d64f0886c30edfceb5c2a2c788f8ba50e97507cf1da"
+      },
+      {
+        "file": "F:\\ActionSelectionSkill\\v2\\runs\\amazon_boundary_v25_20261022\\amazon-boundary-v25-3432774195d04029\\paired_results_100.jsonl",
+        "sha256": "88266121c3fe73fea36b1e01023da805952836f5f570e0cf5148122c4882e550"
+      },
+      {
+        "file": "F:\\ActionSelectionSkill\\v2\\runs\\amazon_boundary_v25_20261022\\amazon-boundary-v25-a37aa5a4d67dfb96\\inputs_100.jsonl",
+        "sha256": "40d30f2f6fe0decaf3416d64f0886c30edfceb5c2a2c788f8ba50e97507cf1da"
+      },
+      {
+        "file": "F:\\ActionSelectionSkill\\v2\\runs\\amazon_boundary_v25_20261022\\amazon-boundary-v25-a37aa5a4d67dfb96\\paired_results_100.jsonl",
+        "sha256": "99922b4d4c4f917e32429c0d611d97b2ed7a331caedfcc0c7be5ea0ddfe7d935"
+      },
+      {
+        "file": "F:\\ActionSelectionSkill\\v2\\runs\\amazon_boundary_v25_20261022\\amazon-boundary-v25-a9d165b9fae1355b\\inputs_100.jsonl",
+        "sha256": "40d30f2f6fe0decaf3416d64f0886c30edfceb5c2a2c788f8ba50e97507cf1da"
+      },
+      {
+        "file": "F:\\ActionSelectionSkill\\v2\\runs\\amazon_boundary_v25_20261022\\amazon-boundary-v25-a9d165b9fae1355b\\paired_results_100.jsonl",
+        "sha256": "88266121c3fe73fea36b1e01023da805952836f5f570e0cf5148122c4882e550"
+      },
+      {
+        "file": "F:\\ActionSelectionSkill\\v2\\runs\\amazon_boundary_v25_20261022\\amazon-boundary-v25-dc8dcf36f1f5182f\\inputs_100.jsonl",
+        "sha256": "40d30f2f6fe0decaf3416d64f0886c30edfceb5c2a2c788f8ba50e97507cf1da"
+      },
+      {
+        "file": "F:\\ActionSelectionSkill\\v2\\runs\\amazon_boundary_v25_20261022\\amazon-boundary-v25-dc8dcf36f1f5182f\\paired_results_100.jsonl",
+        "sha256": "377c57e42957b7f73cdbbdb3367a5ebe924133667bce1656eb3fc25cfc9f479e"
+      },
+      {
+        "file": "F:\\ActionSelectionSkill\\v2\\runs\\amazon_boundary_v25_20261022\\amazon-boundary-v25-efdbda94e21152ca\\inputs_100.jsonl",
+        "sha256": "40d30f2f6fe0decaf3416d64f0886c30edfceb5c2a2c788f8ba50e97507cf1da"
+      },
+      {
+        "file": "F:\\ActionSelectionSkill\\v2\\runs\\amazon_boundary_v25_20261022\\amazon-boundary-v25-efdbda94e21152ca\\paired_results_100.jsonl",
+        "sha256": "a91276221c919bf0119a212df4a23c2e93dd2d3eb6bc6fccf7f1862f14f9df89"
+      },
+      {
+        "file": "F:\\ActionSelectionSkill\\v2\\runs\\boundary_v03_20261023\\attempt1_before_final_b\\validation300_bound.jsonl",
+        "sha256": "55e12933bc96632a9c549a38a6387c67fcc4aae9e873a5f03bf78ad0116bb94c"
+      },
+      {
+        "file": "F:\\ActionSelectionSkill\\v2\\runs\\boundary_v03_20261023\\attempt1_before_final_b\\validation300_results.jsonl",
+        "sha256": "7fb438d227e055237f0720dd0070bef2e58034dd4b51f97916955aa331acbaec"
+      },
+      {
+        "file": "F:\\ActionSelectionSkill\\v2\\runs\\boundary_v0_20261023\\development_attempt1\\local_v26_fast_500.jsonl",
+        "sha256": "cf93ec1be157bac7440992000311ff9ed4d4404497ca7367b81257743531595a"
+      },
+      {
+        "file": "F:\\ActionSelectionSkill\\v2\\runs\\boundary_v0_20261023\\development_attempt1\\results_500_initial.jsonl",
+        "sha256": "c7e90294f81a10e7a9283e0bedb99dc37ca2bdef8aa567131eb10f343da98c8f"
+      },
+      {
+        "file": "F:\\ActionSelectionSkill\\v2\\runs\\boundary_v0_20261023\\development_attempt2\\results_500_semantic.jsonl",
+        "sha256": "3e29c7a46ea48010b3ed2e41b880ed62775b891541a08daad37418f97b7ea222"
+      },
+      {
+        "file": "F:\\ActionSelectionSkill\\v2\\runs\\boundary_v0_20261023\\development_attempt2\\semantic_500.jsonl",
+        "sha256": "1c591a440d231de910d845c205efc70898d419e77452570f87cbcf7629c7508e"
+      },
+      {
+        "file": "F:\\ActionSelectionSkill\\outputs\\p3_ab100_20261022\\codex_review100_20261022_v1\\codex_review100.jsonl",
+        "sha256": "4feb4c556c0c9bfb8574496fe136bb1819ca393817c57172df863fa140f96a1f"
+      },
+      {
+        "file": "F:\\ActionSelectionSkill\\outputs\\p3_ab100_20261022\\codex_review100_20261022_v1\\focus42.jsonl",
+        "sha256": "bbebe61d6cc70da8b086de720ba2e95f4e51707360ea3cbf8b7a0256f0499819"
+      },
+      {
+        "file": "F:\\ActionSelectionSkill\\outputs\\p3_ab100_20261022\\codex_review100_20261022_v1\\pending_source3.jsonl",
+        "sha256": "c61de659ad89abd274bfbe2fed320ab5fe08fe1709c579b203337160a0a42e8a"
+      },
+      {
+        "file": "F:\\ActionSelectionSkill\\outputs\\p3_ab100_20261022\\codex_review100_20261022_v1\\returned_text_corrections5.jsonl",
+        "sha256": "a14f1c9cbee119b9c3220005e9cf2046a3a6d8c62b54acb29d513dfbb19e7f26"
+      },
+      {
+        "file": "F:\\ActionSelectionSkill\\outputs\\share_20261023\\action-selection\\assets\\examples\\300\\inputs_validation300.jsonl",
+        "sha256": "845ca92ca8b32868b7c45adacac1b3054b172b364768ffea21f49343b0fb462a"
+      },
+      {
+        "file": "F:\\ActionSelectionSkill\\outputs\\share_20261023\\action-selection\\assets\\examples\\300\\validation300_results.jsonl",
+        "sha256": "bf07f2d51fc6251fe634aa699247b196454050374672350dbfca85462940706c"
+      },
+      {
+        "file": "F:\\ActionSelectionSkill\\outputs\\share_20261023\\action-selection\\assets\\examples\\500\\inputs500.jsonl",
+        "sha256": "08752fd972bc3cbbb34ae09de43d0bcad72df92ef061d82339a9b0f220387ddb"
+      },
+      {
+        "file": "F:\\ActionSelectionSkill\\outputs\\share_20261023\\action-selection\\assets\\examples\\500\\results500.jsonl",
+        "sha256": "aabba80843350c79c810f1ba0e8f9677db58fee709a195824182c0920e94819d"
+      },
+      {
+        "file": "F:\\ActionSelectionSkill\\repository_sync\\ActionSelectionSkill_\\work\\comparison300_20261024\\inputs300.jsonl",
+        "sha256": "38d6c69f34fa916e8f86f6cc5e2d38dcc0e10d21d8a0bc1bc095e96fc25415aa"
+      },
+      {
+        "file": "F:\\ActionSelectionSkill\\repository_sync\\ActionSelectionSkill_\\work\\reviewed_new300_20261024\\inputs300.jsonl",
+        "sha256": "c11998f200620473cc01ae03b4dd61be5ff883256b23d5409309710d95ffa36d"
+      },
+      {
+        "file": "F:\\ActionSelectionSkill\\repository_sync\\ActionSelectionSkill_\\work\\reviewed_new300_v2_20261024\\inputs300.jsonl",
+        "sha256": "fc27e8d52077db5bf201c0162b4536a0ef253a937c3c08ef6c7b884b75d82a9e"
+      },
+      {
+        "file": "F:\\ActionSelectionSkill\\repository_sync\\ActionSelectionSkill_\\work\\assistant_training_v1_20261027\\train150.jsonl",
+        "sha256": "b27f333a13da08fb7692577f67b545a29658bd9c821f159197b2eaf305a2bfed"
+      },
+      {
+        "file": "F:\\ActionSelectionSkill\\repository_sync\\ActionSelectionSkill_\\work\\assistant_training_v1_20261027\\test100.jsonl",
+        "sha256": "4d067098522253de4d09bea825c8aed7c8562cb1cdc792d3bb7f1f456a7378ab"
+      },
+      {
+        "file": "F:\\ActionSelectionSkill\\repository_sync\\ActionSelectionSkill_\\work\\assistant_training_v1_20261027\\regression_sources.jsonl",
+        "sha256": "506f05a5e0de87cda3030875959c9e997c846ba6f06c9786442ccf14a6ac968b"
+      },
+      {
+        "file": "F:\\ActionSelectionSkill\\repository_sync\\ActionSelectionSkill_\\work\\assistant_training_v1_20261027\\regression2_sources.jsonl",
+        "sha256": "f9ae44884f9a14827b8648a57c5eac470c383f24e9801414b31c5f20fa886069"
+      }
+    ],
+    "sealed_Action50_accessed": false,
+    "human_gold": 0,
+    "new_category_approvals": 0,
+    "master_writes": 0,
+    "main_merge": false,
+    "same_operating_goal_for_both": true,
+    "same_batch_feedback_hash": "bfa20c11e1c8f66c0e8cdb086bbe2e34b36e2ac2a82431bf4b925612189bfc50",
+    "input_hash": "b77b610d2cf8b0eaec963cbf9e83fb6344d3cf920a63a40ec953383cc65f8959"
+  },
+  "freeze_file_sha256": "fd9a0f6792eaf19ae305f6d8a3c860e785f31973d83e0969fba95fc88eaf3a67",
+  "actual_calls": {
+    "ordinary": [
+      {
+        "api_key_used": false,
+        "elapsed_seconds": 109.94,
+        "events_sha256": "e3295aee01fea74d453ed640fe51af655de08aead901ef23d853f756d1107593",
+        "fresh_context": true,
+        "initial_answers_visible": false,
+        "model": "CLI_DEFAULT_RECORDED_IN_STDERR",
+        "records": 25,
+        "request_hash": "a08cd0d73b48689240247d8d75d0ffeeb15ad9f2bdef943b2d22f5706a340b88",
+        "role": "understand",
+        "usage": [
+          {
+            "cache_write_input_tokens": 0,
+            "cached_input_tokens": 0,
+            "input_tokens": 24247,
+            "output_tokens": 5840,
+            "reasoning_output_tokens": 47
+          }
+        ]
+      },
+      {
+        "api_key_used": false,
+        "elapsed_seconds": 109.08,
+        "events_sha256": "f3429d25e2a6be4c4050596474ed10fd4d337ce55dfb7dddebc7d2c8301db54b",
+        "fresh_context": true,
+        "initial_answers_visible": false,
+        "model": "CLI_DEFAULT_RECORDED_IN_STDERR",
+        "records": 25,
+        "request_hash": "f8eb699f4d9b43dcbe351561c36eacb508b41fb9f937c002416a533642fa3482",
+        "role": "understand",
+        "usage": [
+          {
+            "cache_write_input_tokens": 0,
+            "cached_input_tokens": 0,
+            "input_tokens": 24206,
+            "output_tokens": 6056,
+            "reasoning_output_tokens": 12
+          }
+        ]
+      },
+      {
+        "api_key_used": false,
+        "elapsed_seconds": 112.94,
+        "events_sha256": "b72f98193c42afa01d742115b0e88ddcd75abf5b565667f93b4ce3e04f268fe1",
+        "fresh_context": true,
+        "initial_answers_visible": false,
+        "model": "CLI_DEFAULT_RECORDED_IN_STDERR",
+        "records": 25,
+        "request_hash": "ca8ad1ac3ef3129bc54f87e21451968b84398f48bd2e18c3a44cf7d591be0c32",
+        "role": "understand",
+        "usage": [
+          {
+            "cache_write_input_tokens": 0,
+            "cached_input_tokens": 0,
+            "input_tokens": 24201,
+            "output_tokens": 6519,
+            "reasoning_output_tokens": 86
+          }
+        ]
+      },
+      {
+        "api_key_used": false,
+        "elapsed_seconds": 99.38,
+        "events_sha256": "e3513f6dd517aa1c7a5b80b718d412338b7f3ecdea08cdbb6e02f67dbafa1ae5",
+        "fresh_context": true,
+        "initial_answers_visible": false,
+        "model": "CLI_DEFAULT_RECORDED_IN_STDERR",
+        "records": 25,
+        "request_hash": "9a1f513b854a88dd8b9fe3a48c51c861b8fc07d4f1d13d2f8275edf89dd25bf2",
+        "role": "understand",
+        "usage": [
+          {
+            "cache_write_input_tokens": 0,
+            "cached_input_tokens": 0,
+            "input_tokens": 24069,
+            "output_tokens": 6222,
+            "reasoning_output_tokens": 29
+          }
+        ]
+      }
+    ],
+    "skill": [
+      {
+        "api_key_used": false,
+        "elapsed_seconds": 110.05,
+        "events_sha256": "52eccd079919c716f3d026be3a620b91ff2694eeb55c1e9b74470462f5c5efdf",
+        "fresh_context": true,
+        "initial_answers_visible": false,
+        "model": "CLI_DEFAULT_RECORDED_IN_STDERR",
+        "records": 25,
+        "request_hash": "418e2ce16560c94e3ae3af841de8896c6d204efa694c49bca12300067bd36ae1",
+        "role": "understand",
+        "usage": [
+          {
+            "cache_write_input_tokens": 0,
+            "cached_input_tokens": 0,
+            "input_tokens": 27517,
+            "output_tokens": 5913,
+            "reasoning_output_tokens": 41
+          }
+        ]
+      },
+      {
+        "api_key_used": false,
+        "elapsed_seconds": 113.95,
+        "events_sha256": "0ea809ed80a95fdf294b5ec0822eec1f7c149e0c6580bf6bda6bf46f76c5df83",
+        "fresh_context": true,
+        "initial_answers_visible": false,
+        "model": "CLI_DEFAULT_RECORDED_IN_STDERR",
+        "records": 25,
+        "request_hash": "9b8b06781e42a21f253955f853776079747709a526d83ac42f3e36e558ecb942",
+        "role": "understand",
+        "usage": [
+          {
+            "cache_write_input_tokens": 0,
+            "cached_input_tokens": 0,
+            "input_tokens": 27482,
+            "output_tokens": 6134,
+            "reasoning_output_tokens": 16
+          }
+        ]
+      },
+      {
+        "api_key_used": false,
+        "elapsed_seconds": 123.31,
+        "events_sha256": "a09ca82a4fd3489d692f2f1aec6142079d7d8d595bcd71eb3aecd3f7ecd94805",
+        "fresh_context": true,
+        "initial_answers_visible": false,
+        "model": "CLI_DEFAULT_RECORDED_IN_STDERR",
+        "records": 25,
+        "request_hash": "69d63287833d727431f961e59f0a164c04ce74c02d5ef159e2a92006886f9355",
+        "role": "understand",
+        "usage": [
+          {
+            "cache_write_input_tokens": 0,
+            "cached_input_tokens": 0,
+            "input_tokens": 29310,
+            "output_tokens": 6444,
+            "reasoning_output_tokens": 45
+          }
+        ]
+      },
+      {
+        "api_key_used": false,
+        "elapsed_seconds": 116.62,
+        "events_sha256": "f47aca7db3448d6d6c21c92f3e488ce53e103b0d177990c7b185bbf0f69e1871",
+        "fresh_context": true,
+        "initial_answers_visible": false,
+        "model": "CLI_DEFAULT_RECORDED_IN_STDERR",
+        "records": 25,
+        "request_hash": "cdd577f697cc544e345f9fd7a0e9debc06dca60cb8977f1f67f30ebbcd58f91f",
+        "role": "understand",
+        "usage": [
+          {
+            "cache_write_input_tokens": 0,
+            "cached_input_tokens": 0,
+            "input_tokens": 27337,
+            "output_tokens": 6317,
+            "reasoning_output_tokens": 14
+          }
+        ]
+      }
+    ]
+  },
+  "prompt_files": {
+    "ordinary": "prompt_ordinary.txt",
+    "skill": "prompt_skill.txt"
+  }
+}
