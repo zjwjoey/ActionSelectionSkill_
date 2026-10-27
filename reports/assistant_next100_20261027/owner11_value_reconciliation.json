@@ -1,0 +1,75 @@
+{
+  "scope": "11 disagreement records reviewed by Owner after AI opinions exposed; calibration only",
+  "recorded_at_utc": "2026-10-27T06:35:54.946361+00:00",
+  "owner_business_labels": 11,
+  "independent_blind_gold": 0,
+  "counts": {
+    "A": {
+      "Owner一致": 4,
+      "误保留": 3,
+      "误排除": 0,
+      "观察": 4
+    },
+    "B": {
+      "Owner一致": 4,
+      "误保留": 1,
+      "误排除": 0,
+      "观察": 6
+    }
+  },
+  "record_ids": {
+    "A": {
+      "Owner一致": [
+        "T003",
+        "T023",
+        "T040",
+        "T060"
+      ],
+      "观察": [
+        "T024",
+        "T032",
+        "T033",
+        "T054"
+      ],
+      "误保留": [
+        "T027",
+        "T068",
+        "T079"
+      ]
+    },
+    "B": {
+      "观察": [
+        "T003",
+        "T027",
+        "T040",
+        "T060",
+        "T068",
+        "T079"
+      ],
+      "误保留": [
+        "T023"
+      ],
+      "Owner一致": [
+        "T024",
+        "T032",
+        "T033",
+        "T054"
+      ]
+    }
+  },
+  "whole100_accuracy": null,
+  "other89_owner_reviewed": false,
+  "source_hashes": {
+    "comparison100.jsonl": "297377920ca75ccb77c0253ec3a60de809d686ca9397b3025f06b0b8f779243e",
+    "final_report.md": "c643bcc9d18940daf8426bc69a3d4933c8c74d71bb008986044dfb6b1f4be4e3",
+    "metrics.json": "225c1e9242ad2c094823acaddeacf30f055846b8345718efd4dc14b6c02fca4b",
+    "ai_review.json": "ebc304472af4142b9cb539be81b7c22897b96c1742610bd86d208e104b46c0aa",
+    "owner_decisions11.json": "abe32d508329b667e54266f4567e263594a173588ac2a91dfecaf70faf4d7c55"
+  },
+  "skill_changes": 0,
+  "new_model_calls": 0,
+  "new_samples": 0,
+  "master_writes": 0,
+  "main_merge": false,
+  "report_sha256": "88ca82b41c3ba6c833c3da7c62f3b44ca53a7d10159f1c1c7bdb72f4e3e39ce4"
+}

@@ -1,0 +1,206 @@
+{
+  "user_quote": "t40我觉得可以保留，其他都用不到",
+  "recorded_at_utc": "2026-10-27T06:32:12.470137+00:00",
+  "authority": "EXPLICIT_USER_BUSINESS_DECISION",
+  "scope": "本轮11条分歧商品；T40规范化为T040；其他指其余10条，不是全部100条或全部品类。",
+  "confirmed_count": 11,
+  "decisions": {
+    "保留": 1,
+    "用不到": 10
+  },
+  "records": [
+    {
+      "review_id": "T003",
+      "source": {
+        "category_l1_original": "Hogar y cocina",
+        "record_id": "B0_84bacc4c6b66_013840",
+        "source_hash": "d8c1a5745e8f614dbcd5331c4d1eff99275adff9710ff4df1e42ff92a62f0e7d",
+        "source_version": "amazon-merged-20261022-84bacc4c6b66ab7a",
+        "title_original": "Hicarer Kit de Movimiento de Reloj de péndulo de Cuarzo con 2 Pares de | Mecanismo de repuesto con péndulo para reparación de relojes de pared, funciona con pilas, manecillas doradas y negras"
+      },
+      "owner_business_decision": "用不到",
+      "business_decision_confirmed": true,
+      "factual_identity_independently_verified": false,
+      "calibration_only": true,
+      "independent_blind_test_label": false,
+      "original_A": "用不到",
+      "original_B": "观察"
+    },
+    {
+      "review_id": "T023",
+      "source": {
+        "category_l1_original": "Hogar y cocina",
+        "record_id": "B0_84bacc4c6b66_022301",
+        "source_hash": "d684864b2505e581010e46224186e47fd8560fe197d19f0251c53dcccb0c534d",
+        "source_version": "amazon-merged-20261022-84bacc4c6b66ab7a",
+        "title_original": "XLLGYL1 Set 27 Herramientas para Cerámica y Arcilla | Madera y metal, diseño a doble cara, con bolsa; para modelar arcilla, Fimo, porcelana fría; para principiantes y artistas"
+      },
+      "owner_business_decision": "用不到",
+      "business_decision_confirmed": true,
+      "factual_identity_independently_verified": false,
+      "calibration_only": true,
+      "independent_blind_test_label": false,
+      "original_A": "用不到",
+      "original_B": "保留"
+    },
+    {
+      "review_id": "T024",
+      "source": {
+        "category_l1_original": "Bricolaje y herramientas",
+        "record_id": "B0_84bacc4c6b66_017686",
+        "source_hash": "116f5d8e1086878e6bba15d13ba3940fa0096c3be1be544dd522f92f1349dc32",
+        "source_version": "amazon-merged-20261022-84bacc4c6b66ab7a",
+        "title_original": "SATKIT Máscara Respiración Doble Cartucho con Gafas Kit Pintura Anti Gases"
+      },
+      "owner_business_decision": "用不到",
+      "business_decision_confirmed": true,
+      "factual_identity_independently_verified": false,
+      "calibration_only": true,
+      "independent_blind_test_label": false,
+      "original_A": "观察",
+      "original_B": "用不到"
+    },
+    {
+      "review_id": "T027",
+      "source": {
+        "category_l1_original": "Hogar y cocina",
+        "record_id": "B0_84bacc4c6b66_007886",
+        "source_hash": "865af04d86b45d27b81b089129e76c9e63e03ef2fdac6532241acf88cf583523",
+        "source_version": "amazon-merged-20261022-84bacc4c6b66ab7a",
+        "title_original": "Floordirekt Alfombra de pasillo 67 x 600 cm, color rojo | Alfombra de pasillo hecha a medida para cocina, pasillo y sala de estar"
+      },
+      "owner_business_decision": "用不到",
+      "business_decision_confirmed": true,
+      "factual_identity_independently_verified": false,
+      "calibration_only": true,
+      "independent_blind_test_label": false,
+      "original_A": "保留",
+      "original_B": "观察"
+    },
+    {
+      "review_id": "T032",
+      "source": {
+        "category_l1_original": "Bricolaje y herramientas",
+        "record_id": "B0_84bacc4c6b66_014932",
+        "source_hash": "eb23eb8a766fc18da30a5a91e3ae4e7717a8174dcb6cb32dcae447136ad67613",
+        "source_version": "amazon-merged-20261022-84bacc4c6b66ab7a",
+        "title_original": "Outsunny Caseta de Jardín Exterior 1,37 m² 163x90x179 cm Gris Oscuro | Cobertizo de Jardín Exterior Metálico, Puerta con Pestillo, Ranuras de Ventilación, para Almacenamiento de Herramientas"
+      },
+      "owner_business_decision": "用不到",
+      "business_decision_confirmed": true,
+      "factual_identity_independently_verified": false,
+      "calibration_only": true,
+      "independent_blind_test_label": false,
+      "original_A": "观察",
+      "original_B": "用不到"
+    },
+    {
+      "review_id": "T033",
+      "source": {
+        "category_l1_original": "Bricolaje y herramientas",
+        "record_id": "B0_84bacc4c6b66_009006",
+        "source_hash": "efec36ced143469c69f8cb97d81365a071f10e9b88fb90cd4048e1b12ba9e499",
+        "source_version": "amazon-merged-20261022-84bacc4c6b66ab7a",
+        "title_original": "HENGBIRD Transformador LED 12V 100W Fuente de alimentación, 230V a 12V, Fuente de alimentación conmutada, Compacta, Voltaje constante extremo, Delgada 23mm, 8.3A, AC 230V a DC 12V"
+      },
+      "owner_business_decision": "用不到",
+      "business_decision_confirmed": true,
+      "factual_identity_independently_verified": false,
+      "calibration_only": true,
+      "independent_blind_test_label": false,
+      "original_A": "观察",
+      "original_B": "用不到"
+    },
+    {
+      "review_id": "T040",
+      "source": {
+        "category_l1_original": "",
+        "record_id": "B0_84bacc4c6b66_004307",
+        "source_hash": "6ea9551b025375c66e4ceba037e32bdf7ef04f4071e4bb8b6fd2c72af34ddad2",
+        "source_version": "amazon-merged-20261022-84bacc4c6b66ab7a",
+        "title_original": "Cecotec Panificadora Bread&Co 1000 Delicious. 19 Programas, 1 Kg, 15 Horas programables, Cubeta Apta para lavavajillas, Recetario"
+      },
+      "owner_business_decision": "保留",
+      "business_decision_confirmed": true,
+      "factual_identity_independently_verified": false,
+      "calibration_only": true,
+      "independent_blind_test_label": false,
+      "original_A": "保留",
+      "original_B": "观察"
+    },
+    {
+      "review_id": "T054",
+      "source": {
+        "category_l1_original": "",
+        "record_id": "B0_84bacc4c6b66_015292",
+        "source_hash": "d0e87c10ad97657b9cda7e4c528dc49806ed4964b3dc36dfbecc1f95934841dd",
+        "source_version": "amazon-merged-20261022-84bacc4c6b66ab7a",
+        "title_original": "Luz de escritorio Pac Man & Ghosts - Producto oficial, reactiva al sonido con 3 modos de luz, alimentado por USB o baterías, decoración retro para sala de juegos, regalo para gamers"
+      },
+      "owner_business_decision": "用不到",
+      "business_decision_confirmed": true,
+      "factual_identity_independently_verified": false,
+      "calibration_only": true,
+      "independent_blind_test_label": false,
+      "original_A": "观察",
+      "original_B": "用不到"
+    },
+    {
+      "review_id": "T060",
+      "source": {
+        "category_l1_original": "",
+        "record_id": "B0_84bacc4c6b66_013311",
+        "source_hash": "d19aeedf11f6cea499d9c12f0989a7a46654b0136cc9950c3992ec1b7c90f681",
+        "source_version": "amazon-merged-20261022-84bacc4c6b66ab7a",
+        "title_original": "Melchioni Family | Deshidratador Eléctrico BABELE, Deshidratador de Alimentos Multiusos, 5 Bandejas Apilables y Extraíbles, Potencia 250W, Temperatura Regulable 40–70°C"
+      },
+      "owner_business_decision": "用不到",
+      "business_decision_confirmed": true,
+      "factual_identity_independently_verified": false,
+      "calibration_only": true,
+      "independent_blind_test_label": false,
+      "original_A": "用不到",
+      "original_B": "观察"
+    },
+    {
+      "review_id": "T068",
+      "source": {
+        "category_l1_original": "",
+        "record_id": "B0_84bacc4c6b66_001893",
+        "source_hash": "51a51ee1b573fb2cb360be0645a7a806431f338923164c1c5c5e090ff39df6c5",
+        "source_version": "amazon-merged-20261022-84bacc4c6b66ab7a",
+        "title_original": "dreame Aqua10 Ultra Roller Complete, Robot Aspirador con Mopa AquaRoll"
+      },
+      "owner_business_decision": "用不到",
+      "business_decision_confirmed": true,
+      "factual_identity_independently_verified": false,
+      "calibration_only": true,
+      "independent_blind_test_label": false,
+      "original_A": "保留",
+      "original_B": "观察"
+    },
+    {
+      "review_id": "T079",
+      "source": {
+        "category_l1_original": "Bricolaje y herramientas",
+        "record_id": "B0_84bacc4c6b66_014740",
+        "source_hash": "910cf1bb4d59be52782c54c598871bd808f694f9a4b83d2a8e8d2284d65cfa61",
+        "source_version": "amazon-merged-20261022-84bacc4c6b66ab7a",
+        "title_original": "Orbegozo H 55 Estufa Gas Butano, 3000 W, Negro"
+      },
+      "owner_business_decision": "用不到",
+      "business_decision_confirmed": true,
+      "factual_identity_independently_verified": false,
+      "calibration_only": true,
+      "independent_blind_test_label": false,
+      "original_A": "保留",
+      "original_B": "观察"
+    }
+  ],
+  "original_comparison_sha256": "297377920ca75ccb77c0253ec3a60de809d686ca9397b3025f06b0b8f779243e",
+  "sample_previously_exposed": true,
+  "formal_accuracy_claim": null,
+  "category_wide_policy_created": false,
+  "master_writes": 0,
+  "raw_AB_results_changed": false
+}
