@@ -37,8 +37,8 @@
       "bytes": 4577
     },
     "SKILL.md": {
-      "sha256": "006d79c1a7482b52051e175357d23a43bcc0db7cadef0f38bdab2f8114b241fb",
-      "bytes": 2986
+      "sha256": "0cfd613f23edfd7af9e1d4a0f9fc153ec535af42c4c8c37a43b5b3548ccffadd",
+      "bytes": 3090
     },
     "assets/action_groups_v26.json": {
       "sha256": "e9e11376e6318b7e01ad358c56533516e3391ca7dd9b7713c6d20f867abf0ce4",
@@ -221,12 +221,12 @@
       "bytes": 2630
     },
     "references/selection_cases.json": {
-      "sha256": "888f8b56296a449eb3fbfa007cd5c2633d97e9c4dcc355b90f6e5f599ddc9ab1",
-      "bytes": 4332
+      "sha256": "1e80d1458001c7781e084bd6d78d1aabc0af8b191680a7874cb838f107bce60f",
+      "bytes": 4427
     },
     "references/selection_playbook.md": {
-      "sha256": "2e06aa4a0111326b586fa0463d4a8337480840f266a861ba4f76c4e739c49828",
-      "bytes": 5167
+      "sha256": "8c11797fcf777196df8f28d7158f17f8a6d7016509fb2fc12073fb02b657ce78",
+      "bytes": 7122
     },
     "references/v31_autonomous.md": {
       "sha256": "19ee8841c9794da28e68cac617bf89c2f50aa7ba0bcc8c03268b4a757922dcd9",
@@ -431,6 +431,14 @@
     "reports/assistant_training_v1_20261027/training_changes.md": {
       "sha256": "708f73e986ef7f06ca3607e5c712250c8e8de01e5f8f24fb9b0925ad0415d5a0",
       "bytes": 1787
+    },
+    "reports/business_v14_20261027/training_contract.json": {
+      "sha256": "3f3cb1d55abe2b861d57b0e0dd44c0f15e9db29169485deb5ac0841efaffb5c0",
+      "bytes": 30203
+    },
+    "reports/business_v14_20261027/training_plan.md": {
+      "sha256": "c383df53ee537a1449d4b983863a0caf4d9408fbbba35b09fb0b5a3fb8dec7ec",
+      "bytes": 2463
     },
     "reports/v31_ai_review60_20261023/ActionSelectionSkill_V3.1_60条AI复核与修正.xlsx": {
       "sha256": "f2218b43b117f846e7cae6eaabae88e4253309d451de414d7c70d693a8696948",

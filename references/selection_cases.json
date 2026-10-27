@@ -1,9 +1,9 @@
-{"version":"selection-teaching-v1.3","authority":"AI_TEACHING_NOT_HUMAN_GOLD","cases":[
+{"version":"selection-teaching-v1.4","authority":"AI_TEACHING_NOT_HUMAN_GOLD","cases":[
 {"input":"Gasador de agua con botellas frente a Botella de agua","lesson":"只对附带水瓶作同类比较，整套coverage为partial；不能把同类枚举理解为整套匹配，也不能仅换related_type就算提升。","counterexample":"明确的两套气泡水机可比较整机类型，但仍不证明附件接口相同。"},
 {"input":"Organizador Gorras frente a Organizador","lesson":"泛称整理器不能证明帽子收纳的具体类型或组件，保留category_only及unknown；不影响独立研究清楚的帽挂。","counterexample":"两边原名都明确帽挂时，可以支持具体同类。"},
 {"input":"Título incompleto: para Estufa de 2 Tazas ... Doble Cabezal ... Olla Moka para","lesson":"残缺或混杂标题不能只取尾部Olla Moka就确定交付完整壶；保留主体疑问，不臆造配件身份。","counterexample":"完整的Cafetera moka 2 tazas 100ml明确主体，缺颜色不必观察。"},
 {"input":"Detector de monóxido de carbono con certificado declarado","lesson":"型号认证未验证属于采购验真；若经营安全用品范围未批准，单列经营问题，不伪称主体不清或已证不合格。","counterexample":"原名同时指检测仪与替换传感器且无法确定售物时，确有主体疑问。"},
-{"input":"Mecanismo de reloj de cuarzo con agujas para DIY","lesson":"普通DIY机芯组件可以研究，轴长未明只留后续选型参数，不保证通用，也不自动认定专用系统。","counterexample":"明确某型号清洁机的电动地刷、门机协议遥控器和配套光伏接头仍有真实宿主/系统依赖。"},
+{"input":"Mecanismo de reloj de cuarzo con agujas para DIY","lesson":"可识别为钟表维修组件，轴长未明不证明专用系统；但不能因此默认保留。当前已有机芯用不到的具体经营反馈，需判断实际维修使用路径。","counterexample":"普通独立挂钟是成品日用品，不继承替换机芯结论；专用机型地刷、门机协议或光伏接头也不能只凭外观简单放行。"},
 {"input":"Extractor de tornillos frente a Tornillos","lesson":"参照螺丝是工作对象，不是取出器的同类或共同需求；没有工具参照仍可研究明确的维修工具。","counterexample":"两款明确的螺丝取出器属于同类，不能将所有工具一概降为无参照。"},
 {"input":"Comprobador de pilas frente a Pilas AA","lesson":"被测电池不是电池测试器同类；工具与耗材角色分开。","counterexample":"Comprobador de pilas与明确电池测试器可以同类。"},
 {"input":"Fuente de mesa frente a Fuente","lesson":"参照名称多义，不能只因同词认定喷泉相近；诚实标记未知关系，不必阻断已知日用装饰主体。","counterexample":"两边都明确Fuente decorativa con agua时有更强类型证据。"},
