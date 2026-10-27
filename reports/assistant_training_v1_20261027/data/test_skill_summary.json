@@ -1,0 +1,18 @@
+{
+  "run_id": "assistant_run-faa3529736475a0060f3101a",
+  "arm": "skill",
+  "completed": 100,
+  "pending": 0,
+  "calls_this_attempt": 4,
+  "cached_records": 0,
+  "elapsed_seconds_this_attempt": 431.06,
+  "errors": [],
+  "integrity": {
+    "integrity": "ok",
+    "foreign_keys": 0
+  },
+  "human_gold": 0,
+  "accuracy": null,
+  "formal_publication": false,
+  "provider": "codex-cli-chatgpt-v1:1103e9e09c71fa2cd0afd6d8f3b9a2d63174fe8efd7cb5bd09f1cb14ef58a098"
+}

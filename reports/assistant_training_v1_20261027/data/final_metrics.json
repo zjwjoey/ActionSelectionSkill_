@@ -1,0 +1,89 @@
+{
+  "frozen_code_sha": "3785fdecd6dc3d8d42da45a74d20e4416dab624f",
+  "training_new_records": 150,
+  "historical_counterexamples": 3,
+  "training_candidate_counts": {
+    "保留": 111,
+    "观察": 39
+  },
+  "training_reexecuted_distinct": 26,
+  "targeted_revisions": 2,
+  "independent_records": 100,
+  "independent_strata": {
+    "random": {
+      "records": 60,
+      "A": {
+        "观察": 10,
+        "保留": 48,
+        "用不到": 2
+      },
+      "B": {
+        "保留": 48,
+        "观察": 11,
+        "用不到": 1
+      }
+    },
+    "boundary": {
+      "records": 25,
+      "A": {
+        "保留": 18,
+        "观察": 7
+      },
+      "B": {
+        "保留": 18,
+        "观察": 7
+      }
+    },
+    "confusing": {
+      "records": 15,
+      "A": {
+        "保留": 13,
+        "观察": 2
+      },
+      "B": {
+        "保留": 13,
+        "观察": 2
+      }
+    }
+  },
+  "A": {
+    "观察": 19,
+    "保留": 79,
+    "用不到": 2
+  },
+  "B": {
+    "保留": 79,
+    "观察": 20,
+    "用不到": 1
+  },
+  "decision_differences": 9,
+  "input_conditions_identical": true,
+  "protected_hash_mismatches": [],
+  "cli_process_calls": 17,
+  "cli_usage_totals": {
+    "input_tokens": 427490,
+    "cached_input_tokens": 0,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 95893,
+    "reasoning_output_tokens": 672
+  },
+  "fees": null,
+  "main_conversation_usage": "not exposed; not included in CLI usage",
+  "human_gold": 0,
+  "formal_accuracy": null,
+  "new_skill_better_than_ordinary_AI": "NOT_ESTABLISHED_WITHOUT_INDEPENDENT_LABELS",
+  "master_writes": 0,
+  "main_merge": false,
+  "calibration_owner_inputs_filled": 0,
+  "no_full_snapshot_run": true,
+  "accepted_analysis_records": 383,
+  "requested_record_attempts_including_schema_retries": 384,
+  "stage_elapsed_seconds": {
+    "train_initial": 583.86,
+    "regression_revision1": 97.08,
+    "regression_revision2": 48.77,
+    "test_ordinary": 404.47,
+    "test_skill": 431.06
+  },
+  "scope_calibration_items": 28
+}

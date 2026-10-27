@@ -1,0 +1,16 @@
+{
+  "created_before_test_sampling_utc": "2026-10-27T04:30:20.147818+00:00",
+  "code_sha": "3785fdecd6dc3d8d42da45a74d20e4416dab624f",
+  "version": "assistant-training-v1.2",
+  "prompt_sha256": {
+    "ordinary": "894b0eb7a480128fc61b33d30c3a7609d2e2633b894c8a28bb293b4b3bcd69f2",
+    "skill": "79691d353afefa65810b81b05875334f6c8eaca55e72c1761769eaccde8948ab"
+  },
+  "same_title_category_id_reference_candidates": true,
+  "independent_fresh_contexts": true,
+  "training_revisions": 2,
+  "human_gold": 0,
+  "main_merge": false,
+  "protected_files": 1091,
+  "protected_mismatches": []
+}

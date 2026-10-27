@@ -1,0 +1,478 @@
+[
+  {
+    "review_id": "L003",
+    "source": {
+      "category_l1_original": "Bricolaje y herramientas",
+      "record_id": "B0_84bacc4c6b66_006106",
+      "source_hash": "deb12975077e398f93728b692a5a1beb31633b7acaff59a0caa4406eefd07b7e",
+      "source_version": "amazon-merged-20261022-84bacc4c6b66ab7a",
+      "title_original": "Flux para Soldar Estaño con Malla Desoldadora 1m,2 Pieces Flux soldar, Flux Soldadura Electronica, Flux, con Varilla de Empuje, Flujo sin Limpieza para Soldadura Electrónica BGA LED SMD PCB (10 ml)"
+    },
+    "ai_decision": "保留",
+    "ai_reason": "销售助焊剂及拆焊辅材，非电子工业整机，可作维修耗材扩展；所给参照无有效对应。",
+    "question": "电子焊接助焊剂及拆焊辅材是否纳入DIY维修耗材研究？",
+    "human_decision": null,
+    "reviewer": null,
+    "approval_reason": null,
+    "authority": "AI_PROPOSAL_NOT_OWNER_CONFIRMATION"
+  },
+  {
+    "review_id": "L007",
+    "source": {
+      "category_l1_original": "",
+      "record_id": "B0_84bacc4c6b66_008905",
+      "source_hash": "0a378c067d54786c0eaf6a74b5762bd967092baf1a318e49a682c610b060e2aa",
+      "source_version": "amazon-merged-20261022-84bacc4c6b66ab7a",
+      "title_original": "H.Koenig ALP1800 - Fondue, capacidad de 2 l, 800 W, color rojo"
+    },
+    "ai_decision": "保留",
+    "ai_reason": "标题明确为2升800瓦Fondue，适合作家用小电器扩展研究；巧克力Fondue为相近类型。",
+    "question": "家用电热Fondue是否纳入厨房小电器扩展？",
+    "human_decision": null,
+    "reviewer": null,
+    "approval_reason": null,
+    "authority": "AI_PROPOSAL_NOT_OWNER_CONFIRMATION"
+  },
+  {
+    "review_id": "L008",
+    "source": {
+      "category_l1_original": "Bricolaje y herramientas",
+      "record_id": "B0_84bacc4c6b66_000777",
+      "source_hash": "13dc252fabe6be5e23489db035d45f797dfd2362862084b15471300dab201910",
+      "source_version": "amazon-merged-20261022-84bacc4c6b66ab7a",
+      "title_original": "Cable Solar Y Adaptador 4/1 6mm², Adaptador Enchufe Y PV4 / T, Adapter IP68 1500V, (M/FFFF, F/MMMM), Para Sistema Solar, Panel Solar, Fotovoltaico, Resistente UV (60cm)"
+    },
+    "ai_decision": "观察",
+    "ai_reason": "销售光伏分支连接线，参照是太阳能板宿主；系统连接条件及安装件经营范围待明确。",
+    "question": "光伏安装连接件是否纳入，何种适配与安装条件必须先确认？",
+    "human_decision": null,
+    "reviewer": null,
+    "approval_reason": null,
+    "authority": "AI_PROPOSAL_NOT_OWNER_CONFIRMATION"
+  },
+  {
+    "review_id": "L009",
+    "source": {
+      "category_l1_original": "Hogar y cocina",
+      "record_id": "B0_84bacc4c6b66_009804",
+      "source_hash": "a32091300ef0f62e5dca5f2023695f3362c5eb93ba40f8d8c701fb6f4da1276e",
+      "source_version": "amazon-merged-20261022-84bacc4c6b66ab7a",
+      "title_original": "Honiako - Nicho de Ducha con luz LED, Nicho de Baño de Acero Inoxidable 304, Nicho de Pared Doble con Suelo Inclinado, Impermeable con Estante, Gran Capacidad [70 x 28 x 12,5 cm]"
+    },
+    "ai_decision": "观察",
+    "ai_reason": "带灯淋浴壁龛涉及墙体安装与电气接入，普通壁架仅共享收纳需求。",
+    "question": "带灯墙体壁龛这种固定施工产品是否纳入？",
+    "human_decision": null,
+    "reviewer": null,
+    "approval_reason": null,
+    "authority": "AI_PROPOSAL_NOT_OWNER_CONFIRMATION"
+  },
+  {
+    "review_id": "L011",
+    "source": {
+      "category_l1_original": "Bricolaje y herramientas",
+      "record_id": "B0_84bacc4c6b66_001205",
+      "source_hash": "8453298ae0ffc83164ec53762a2add7eae35d8a1e65d1f8fa21b120f701eeeb1",
+      "source_version": "amazon-merged-20261022-84bacc4c6b66ab7a",
+      "title_original": "Alonefire SV110 Mini Linterna UV 365nm Profesional Recargable USB C Potente Luz Negra Detector de Orina para Resina, Pesca, Escorpión, Minerales, Pegamento, Ámbar con Batería Integrada"
+    },
+    "ai_decision": "保留",
+    "ai_reason": "主体是可充电紫外手电，可作工具扩展；普通手电参照不证明紫外检测效果。",
+    "question": "紫外检测手电是否作为普通工具扩展，哪些专用用途除外？",
+    "human_decision": null,
+    "reviewer": null,
+    "approval_reason": null,
+    "authority": "AI_PROPOSAL_NOT_OWNER_CONFIRMATION"
+  },
+  {
+    "review_id": "L014",
+    "source": {
+      "category_l1_original": "Hogar y cocina",
+      "record_id": "B0_84bacc4c6b66_002292",
+      "source_hash": "6a3a014dcb4dc2030d8f3363907ac3678a1d07d193ae91237a09b9b8e74f3e49",
+      "source_version": "amazon-merged-20261022-84bacc4c6b66ab7a",
+      "title_original": "BONTEC Estantes de Pared, Paquete de 2 Balda de Pared de Baño Resistentes de 16 Pulgadas, Fácil de Instalar, Diseño Minimalista, Soporta 10kg Cada Uno, Blanco"
+    },
+    "ai_decision": "保留",
+    "ai_reason": "普通壁架两件装，有同类参照；承重为标题宣称。",
+    "question": "普通成品壁架与完整柜体的经营界线如何划分？",
+    "human_decision": null,
+    "reviewer": null,
+    "approval_reason": null,
+    "authority": "AI_PROPOSAL_NOT_OWNER_CONFIRMATION"
+  },
+  {
+    "review_id": "L019",
+    "source": {
+      "category_l1_original": "Bricolaje y herramientas",
+      "record_id": "B0_84bacc4c6b66_012819",
+      "source_hash": "18ec34b39e20605181981d3b6dc8a9c3e59c4c6ee049c3677870db7aa6540671",
+      "source_version": "amazon-merged-20261022-84bacc4c6b66ab7a",
+      "title_original": "MISEMIYA - UNIFORME SANITARIO UNISEX UNIFORMES SANITARIOS MÉDICOS CON PANTALON BLANCO 817-8312-BLANCO"
+    },
+    "ai_decision": "保留",
+    "ai_reason": "医护制服是服装用品，可作工作服扩展；普通裤装参照仅覆盖部分，不推定防护性能。",
+    "question": "非防护宣称的医护工作服是否纳入服装扩展？",
+    "human_decision": null,
+    "reviewer": null,
+    "approval_reason": null,
+    "authority": "AI_PROPOSAL_NOT_OWNER_CONFIRMATION"
+  },
+  {
+    "review_id": "L031",
+    "source": {
+      "category_l1_original": "Hogar y cocina",
+      "record_id": "B0_84bacc4c6b66_011023",
+      "source_hash": "f4320896b3db1215f6da330c358bd865945d8d778eebf4002e28f2492b41e41d",
+      "source_version": "amazon-merged-20261022-84bacc4c6b66ab7a",
+      "title_original": "Kärcher Kit de cepillos redondos, contiene dos cepillos negros y dos amarillos, perfecto para usarlos en distintos lugares, apta para limpiadoras a vapor de Kärcher"
+    },
+    "ai_decision": "观察",
+    "ai_reason": "销售蒸汽清洁机用圆刷，非清洁整机；普通缝隙刷仅有清洁需求关联，专用适配经营尚需明确。",
+    "question": "清洁机专用替换刷是否纳入耗配件研究？",
+    "human_decision": null,
+    "reviewer": null,
+    "approval_reason": null,
+    "authority": "AI_PROPOSAL_NOT_OWNER_CONFIRMATION"
+  },
+  {
+    "review_id": "L034",
+    "source": {
+      "category_l1_original": "Hogar y cocina",
+      "record_id": "B0_84bacc4c6b66_021711",
+      "source_hash": "e2f244c0d503999bdffcf4e2c1a26ea4174750975de6010cad46a98a1cef750c",
+      "source_version": "amazon-merged-20261022-84bacc4c6b66ab7a",
+      "title_original": "WEILAOK Pasta de Grabado para Vidrio, Glass Etching Cream, Acido para Grabar Vidrio, Crea Arte Hermoso en Minutos, Personaliza tu Artesanía en Superficies de vidrio, 80g"
+    },
+    "ai_decision": "观察",
+    "ai_reason": "销售玻璃蚀刻膏而非玻璃器皿；手工用途明确，但酸性蚀刻材料的操作条件会影响普通零售研究边界。",
+    "question": "玻璃酸性蚀刻膏是否纳入家庭手工材料研究？",
+    "human_decision": null,
+    "reviewer": null,
+    "approval_reason": null,
+    "authority": "AI_PROPOSAL_NOT_OWNER_CONFIRMATION"
+  },
+  {
+    "review_id": "L038",
+    "source": {
+      "category_l1_original": "Bricolaje y herramientas",
+      "record_id": "B0_84bacc4c6b66_018089",
+      "source_hash": "c71f2db696bd0e850b85593682965004fc9cb072dd4c9b709f8b63821c600a35",
+      "source_version": "amazon-merged-20261022-84bacc4c6b66ab7a",
+      "title_original": "SONOFF Mini Duo - Interruptor inteligente Zigbee de 2 canales, Zigbee 3.0, carga total de 16 A, control remoto mediante concentrador Zigbee, requiere cable neutro, compatible con Alexa/Google (2"
+    },
+    "ai_decision": "观察",
+    "ai_reason": "销售需零线及Zigbee网关的双路智能开关，非USB配件；固定接线组件的经营边界待明确。",
+    "question": "固定接线智能开关是否纳入？",
+    "human_decision": null,
+    "reviewer": null,
+    "approval_reason": null,
+    "authority": "AI_PROPOSAL_NOT_OWNER_CONFIRMATION"
+  },
+  {
+    "review_id": "L042",
+    "source": {
+      "category_l1_original": "Bricolaje y herramientas",
+      "record_id": "B0_84bacc4c6b66_024951",
+      "source_hash": "98e57cb98df94f96d1ecb959fcd1e2282b69ef77c4161781e3bd8cb5aa3a5f30",
+      "source_version": "amazon-merged-20261022-84bacc4c6b66ab7a",
+      "title_original": "6 tiradores aislados para puerta de valla, mango de plástico resistente, mango de puerta eléctrico, tirador de puerta de pasto, asas aisladas para valla eléctrica, tiradores de valla de pasto, ganchos"
+    },
+    "ai_decision": "观察",
+    "ai_reason": "销售电围栏绝缘门把手，非普通门把手；具体电围栏适配及专业围栏配件经营边界待明。",
+    "question": "牧场电围栏配件是否属于当前研究范围？",
+    "human_decision": null,
+    "reviewer": null,
+    "approval_reason": null,
+    "authority": "AI_PROPOSAL_NOT_OWNER_CONFIRMATION"
+  },
+  {
+    "review_id": "L045",
+    "source": {
+      "category_l1_original": "Bricolaje y herramientas",
+      "record_id": "B0_84bacc4c6b66_024761",
+      "source_hash": "f68324dd28e3364497fb4a5480398529457444f5aa5dd3eec1c5c90b9829d137",
+      "source_version": "amazon-merged-20261022-84bacc4c6b66ab7a",
+      "title_original": "Ring Intercom Audio | Haz que tu interfono sea más inteligente | Transmisión de audio, llaves virtuales y acceso a distancia | Instalación por cuenta propia"
+    },
+    "ai_decision": "观察",
+    "ai_reason": "标题表明为现有对讲机增加智能功能的安装设备；手工DIY候选无有效参照，兼容和安装范围未明。",
+    "question": "楼宇对讲改装组件是否纳入？",
+    "human_decision": null,
+    "reviewer": null,
+    "approval_reason": null,
+    "authority": "AI_PROPOSAL_NOT_OWNER_CONFIRMATION"
+  },
+  {
+    "review_id": "L051",
+    "source": {
+      "category_l1_original": "",
+      "record_id": "B0_84bacc4c6b66_000329",
+      "source_hash": "5287c3caad0bc01fdf0c23cfd81ed90120e67f31a4e8a348869874a9f2107407",
+      "source_version": "amazon-merged-20261022-84bacc4c6b66ab7a",
+      "title_original": "AKTIVE Silla plegable de playa 49x58x80 cm, con cojín, Silla plegable tipo mochila, respaldo reclinable, con dos bolsillos, color azul pastel (53983)"
+    },
+    "ai_decision": "观察",
+    "ai_reason": "主体为完整折叠沙滩椅且有同类参照；完整家具经营边界仍需明确。",
+    "question": "便携完整折叠沙滩椅是否可与大型家具区别研究？",
+    "human_decision": null,
+    "reviewer": null,
+    "approval_reason": null,
+    "authority": "AI_PROPOSAL_NOT_OWNER_CONFIRMATION"
+  },
+  {
+    "review_id": "L053",
+    "source": {
+      "category_l1_original": "",
+      "record_id": "B0_84bacc4c6b66_021854",
+      "source_hash": "b179e2820e650391b3b29e2935250b2926ecb0c055a89316491d7b7cd67edcfa",
+      "source_version": "amazon-merged-20261022-84bacc4c6b66ab7a",
+      "title_original": "WMF Premium - Olla Rápida Ø 22 cm de Diámetro de 6 litros y Medio, con Protección contra Llamas, Acero Inoxidable Cromargan Apta para Inducción"
+    },
+    "ai_decision": "保留",
+    "ai_reason": "主体为6.5升压力锅，属于厨房锅具；普通锅参照不证明压力结构或安全宣称。",
+    "question": "炉用压力锅是否纳入普通厨房用品研究？",
+    "human_decision": null,
+    "reviewer": null,
+    "approval_reason": null,
+    "authority": "AI_PROPOSAL_NOT_OWNER_CONFIRMATION"
+  },
+  {
+    "review_id": "L055",
+    "source": {
+      "category_l1_original": "",
+      "record_id": "B0_84bacc4c6b66_009984",
+      "source_hash": "69c04de6bd32a94832d1dd1c85b73c6d171757238ac368a719a706bb52a258ec",
+      "source_version": "amazon-merged-20261022-84bacc4c6b66ab7a",
+      "title_original": "ICO Cartuchos de Nitrógeno Premium - Pack de 10 Cartuchos N2 de 2g Grado Alimentario para Café Cold Brew Nitro, Cócteles, Cerveza Negra y Té"
+    },
+    "ai_decision": "观察",
+    "ai_reason": "销售氮气小气弹，非墨盒；适用充气器及此类气体耗材的经营范围未明确。",
+    "question": "饮品氮气气弹是否纳入耗材研究？",
+    "human_decision": null,
+    "reviewer": null,
+    "approval_reason": null,
+    "authority": "AI_PROPOSAL_NOT_OWNER_CONFIRMATION"
+  },
+  {
+    "review_id": "L059",
+    "source": {
+      "category_l1_original": "Bricolaje y herramientas",
+      "record_id": "B0_84bacc4c6b66_021351",
+      "source_hash": "5e638a754e80b58dc02094b19aeb09ca6d70e73d83f524cac280fabf75e85bc7",
+      "source_version": "amazon-merged-20261022-84bacc4c6b66ab7a",
+      "title_original": "VertexOval 4X Mando Garaje Universal Slim, Duplicador de Puerta de Garaje para Código Fijo y Rolling Code (433.92MHz), Control Remoto con Botones ABCD y Borde Metálico"
+    },
+    "ai_decision": "观察",
+    "ai_reason": "车库门遥控器虽称通用，仍涉及门机编码适配；普通通用遥控器参照不能证明兼容。",
+    "question": "车库门协议遥控器是否纳入专用配件研究？",
+    "human_decision": null,
+    "reviewer": null,
+    "approval_reason": null,
+    "authority": "AI_PROPOSAL_NOT_OWNER_CONFIRMATION"
+  },
+  {
+    "review_id": "L073",
+    "source": {
+      "category_l1_original": "Bricolaje y herramientas",
+      "record_id": "B0_84bacc4c6b66_012088",
+      "source_hash": "d033bf36c222fb292b9bf701b791cbdbf41e4e0cc991649b2c2b2b387b0c6bd4",
+      "source_version": "amazon-merged-20261022-84bacc4c6b66ab7a",
+      "title_original": "9kg Leña de Haya, Troncos Medios, para hornos de leña | Madera de haya"
+    },
+    "ai_decision": "保留",
+    "ai_reason": "销售9公斤山毛榉薪柴，非炉具；可作生活燃料扩展，木制品候选不构成有效参照。",
+    "question": "生活取暖薪柴是否纳入，还是保持观察？",
+    "human_decision": null,
+    "reviewer": null,
+    "approval_reason": null,
+    "authority": "AI_PROPOSAL_NOT_OWNER_CONFIRMATION"
+  },
+  {
+    "review_id": "L079",
+    "source": {
+      "category_l1_original": "Hogar y cocina",
+      "record_id": "B0_84bacc4c6b66_023725",
+      "source_hash": "25a76b1e069c93c17c18e609c82859b40ccbc1c28a1d6aec20d09bc06bca53be",
+      "source_version": "amazon-merged-20261022-84bacc4c6b66ab7a",
+      "title_original": "dreame Z30, Aspirador sin Cable, 28 000 PA /310 AW, Luz LED CelesTect | Herramienta Para Aseo de Mascotas, Diseño Antienredos, Control Inteligente de la Succión, Eficiencia de Filtrado del 99,99%"
+    },
+    "ai_decision": "保留",
+    "ai_reason": "销售无线吸尘器，LED候选不能作为整机参照；家用清洁小电器可研究，性能宣称未验证。",
+    "question": "普通无线吸尘器是否纳入家用小电器扩展？",
+    "human_decision": null,
+    "reviewer": null,
+    "approval_reason": null,
+    "authority": "AI_PROPOSAL_NOT_OWNER_CONFIRMATION"
+  },
+  {
+    "review_id": "L093",
+    "source": {
+      "category_l1_original": "Hogar y cocina",
+      "record_id": "B0_84bacc4c6b66_000472",
+      "source_hash": "268bbb7997079a40501c98837954dd1b9b394e1d0c5e7113d1cabfdf2dfb26c8",
+      "source_version": "amazon-merged-20261022-84bacc4c6b66ab7a",
+      "title_original": "ARCSUN Clevio RoboClean Osmo Limpiacristales Robot – Control IA, 3 Modos Auto, Pulizia umida e secca con spruzzatore a ultrasuoni, ideale per vetri, piastrelle e specchi, Senza sforzo."
+    },
+    "ai_decision": "观察",
+    "ai_reason": "销售擦窗机器人，手动擦窗器仅共享需求；自动化及高处使用边界需单独明确，不能由参照证明性能。",
+    "question": "擦窗机器人等自动化清洁设备是否纳入？",
+    "human_decision": null,
+    "reviewer": null,
+    "approval_reason": null,
+    "authority": "AI_PROPOSAL_NOT_OWNER_CONFIRMATION"
+  },
+  {
+    "review_id": "L097",
+    "source": {
+      "category_l1_original": "Bricolaje y herramientas",
+      "record_id": "B0_84bacc4c6b66_007250",
+      "source_hash": "2195d90bca02ba8f99beb48356294d5e0d2b701229d47e54f5803ea2be7f3755",
+      "source_version": "amazon-merged-20261022-84bacc4c6b66ab7a",
+      "title_original": "Estufa De Leña Redonda, Temperatura de los humos: 292ºC, Potencia 6,7Kw Para Calentar Una Superficie De 50 M², Estufa Grande Chapa Para Leña, Estufa De Leña, Estufa De Carbon y Leña (Negra)"
+    },
+    "ai_decision": "观察",
+    "ai_reason": "明确为6.7千瓦燃木取暖炉，涉及排烟安装；固定供暖设备经营范围未定。",
+    "question": "需排烟安装的燃木炉整机是否在范围之外？",
+    "human_decision": null,
+    "reviewer": null,
+    "approval_reason": null,
+    "authority": "AI_PROPOSAL_NOT_OWNER_CONFIRMATION"
+  },
+  {
+    "review_id": "L115",
+    "source": {
+      "category_l1_original": "Hogar y cocina",
+      "record_id": "B0_84bacc4c6b66_022079",
+      "source_hash": "26e96fdad0192083a1f853d7719159e5f940c6d7a698e928d380f354fe6db5f1",
+      "source_version": "amazon-merged-20261022-84bacc4c6b66ab7a",
+      "title_original": "Wenrescry 10 piezas de accesorios de limpieza a vapor de microfibra, fundas de repuesto para limpiador a vapor de mano, paños de rizo lavables a máquina, cubierta de rizo de algodón"
+    },
+    "ai_decision": "观察",
+    "ai_reason": "主体为清洁器替换布套，泛称配件不能建立有效参照；通用套用还是专用适配尚未明确。",
+    "question": "未指定品牌的清洁器布套，需何种适配证据才纳入？",
+    "human_decision": null,
+    "reviewer": null,
+    "approval_reason": null,
+    "authority": "AI_PROPOSAL_NOT_OWNER_CONFIRMATION"
+  },
+  {
+    "review_id": "L116",
+    "source": {
+      "category_l1_original": "Hogar y cocina",
+      "record_id": "B0_84bacc4c6b66_000358",
+      "source_hash": "432239b933fa507f6890428d10389d346f5061f9dbba2b233b1554632374db34",
+      "source_version": "amazon-merged-20261022-84bacc4c6b66ab7a",
+      "title_original": "ALVYNX Isla de cocina móvil, carrito de cocina, mesa de comedor extensible, armario de bufé, armario de cocina con ruedas y compartimento para contenedor de residuos, toallero y regletas"
+    },
+    "ai_decision": "观察",
+    "ai_reason": "所售为带轮厨房岛柜完整家具；便携炉及厨房布无有效参照，完整家具需范围澄清。",
+    "question": "完整移动厨房岛柜家具是否纳入？",
+    "human_decision": null,
+    "reviewer": null,
+    "approval_reason": null,
+    "authority": "AI_PROPOSAL_NOT_OWNER_CONFIRMATION"
+  },
+  {
+    "review_id": "L121",
+    "source": {
+      "category_l1_original": "Bricolaje y herramientas",
+      "record_id": "B0_84bacc4c6b66_022082",
+      "source_hash": "053fa74d21ad8bac5e3d38566b7e7e564fed1199228308b22cba7e3943bfba7d",
+      "source_version": "amazon-merged-20261022-84bacc4c6b66ab7a",
+      "title_original": "10x Wessper 10\" Filtros de Cartuchos para Sedimentos de Polipropileno Hilado, polo alimentado por agua y filtración de partículas"
+    },
+    "ai_decision": "观察",
+    "ai_reason": "销售10英寸聚丙烯沉积滤芯；Action水过滤器仅支持相近类型，不能证明滤壳适配或使用场景。",
+    "question": "通用尺寸水路滤芯与专用滤芯的研究界线？",
+    "human_decision": null,
+    "reviewer": null,
+    "approval_reason": null,
+    "authority": "AI_PROPOSAL_NOT_OWNER_CONFIRMATION"
+  },
+  {
+    "review_id": "L131",
+    "source": {
+      "category_l1_original": "Hogar y cocina",
+      "record_id": "B0_84bacc4c6b66_024386",
+      "source_hash": "90458a02272376b5685e1374eee1e3077b02b4d84810de4cfb49927fe9468933",
+      "source_version": "amazon-merged-20261022-84bacc4c6b66ab7a",
+      "title_original": "Kit de movimiento de reloj de cuarzo silencioso, 5 ejes, manecillas de | Movimiento de barrido silencioso, sin ruido de tictac, para una sincronización precisa de cuarzo, ideal para estudio de"
+    },
+    "ai_decision": "保留",
+    "ai_reason": "石英钟机芯套件主体明确，可作普通DIY候选；泛称Reloj不能确定有效参照，残缺后缀不单独阻断研究。",
+    "question": "普通钟表DIY机芯是否按尺寸待选的研究候选处理？",
+    "human_decision": null,
+    "reviewer": null,
+    "approval_reason": null,
+    "authority": "AI_PROPOSAL_NOT_OWNER_CONFIRMATION"
+  },
+  {
+    "review_id": "L147",
+    "source": {
+      "category_l1_original": "Hogar y cocina",
+      "record_id": "B0_84bacc4c6b66_020258",
+      "source_hash": "c2cd67b6333e3e049433d66e33cb64c7a7b62b48d896947ad2cc0f2d1378e51f",
+      "source_version": "amazon-merged-20261022-84bacc4c6b66ab7a",
+      "title_original": "Tostador de café eléctrico, 1200 W, 500 g, temperatura ajustable"
+    },
+    "ai_decision": "保留",
+    "ai_reason": "500克电动咖啡烘焙机主体清楚，可作厨房电器扩展；标题无工业整机依据，咖啡豆仅为需求参照。",
+    "question": "咖啡烘焙机这种专用厨房设备是否纳入扩展？",
+    "human_decision": null,
+    "reviewer": null,
+    "approval_reason": null,
+    "authority": "AI_PROPOSAL_NOT_OWNER_CONFIRMATION"
+  },
+  {
+    "review_id": "V008",
+    "source": {
+      "category_l1_original": "Bricolaje y herramientas",
+      "record_id": "B0_84bacc4c6b66_008999",
+      "source_hash": "099fc3a72bf648c0febe99b19e5f85165853d72c57feb99c2e09f948194fb8c0",
+      "source_version": "amazon-merged-20261022-84bacc4c6b66ab7a",
+      "title_original": "Heiman Detector de Monóxido de Carbono con Pantalla LCD, Sensor de 10 Años y Certificado EN 50291 - Alarma 85 dB, Instalación Fácil, Pilas Incluidas, botón de Prueba"
+    },
+    "ai_decision": "观察",
+    "ai_reason": "一氧化碳报警器有明确同类参照，但用途依赖关键安全保证；认证和传感器寿命仅为标题宣称，需定向核实。",
+    "question": "家居安全报警器是否可先保留研究，认证核验放在何阶段？",
+    "human_decision": null,
+    "reviewer": null,
+    "approval_reason": null,
+    "authority": "POST_TEST_AI_PROPOSAL_NOT_OWNER_CONFIRMATION"
+  },
+  {
+    "review_id": "V017",
+    "source": {
+      "category_l1_original": "Bricolaje y herramientas",
+      "record_id": "B0_84bacc4c6b66_020931",
+      "source_hash": "3d986fac7dd3621d70af7602156acf5f1028db18a0b2f5a49ff6ece90c4ca3a1",
+      "source_version": "amazon-merged-20261022-84bacc4c6b66ab7a",
+      "title_original": "VAYALT Distribuidor de pared precableado, distribuidor de corriente para obras con interruptor FI, 25 A+LS, interruptor de protección 16 A, 2 enchufes Schuko de 230 V, carcasa resistente al agua IP67"
+    },
+    "ai_decision": "观察",
+    "ai_reason": "预接线壁装配电箱含保护开关及插座，是专业安装电气组件；未足以认定大型系统，安装方式和经营边界需澄清，候选无有效参照。",
+    "question": "工地配电箱属于明确用不到还是安装方式待确认的观察项？",
+    "human_decision": null,
+    "reviewer": null,
+    "approval_reason": null,
+    "authority": "POST_TEST_AI_PROPOSAL_NOT_OWNER_CONFIRMATION"
+  },
+  {
+    "review_id": "V064",
+    "source": {
+      "category_l1_original": "Bricolaje y herramientas",
+      "record_id": "B0_84bacc4c6b66_015161",
+      "source_hash": "3f12925cc79788b34687dfa0b541fbac6cb7427e3e1c18f7e41759a476be4d83",
+      "source_version": "amazon-merged-20261022-84bacc4c6b66ab7a",
+      "title_original": "POPP® Electric Interruptor diferencial industrial TIPO AC corriente residual alterna 2 Polo 25A 30mA SERIE MSL8 (1P+N, 25A 30mA)"
+    },
+    "ai_decision": "观察",
+    "ai_reason": "主体是固定电路用漏电保护开关，非插座开关；工业字样不足以排除，但专业安装及安全保护经营边界待确认。",
+    "question": "原名明确工业漏电保护器时，是否统一列出当前货盘之外？",
+    "human_decision": null,
+    "reviewer": null,
+    "approval_reason": null,
+    "authority": "POST_TEST_AI_PROPOSAL_NOT_OWNER_CONFIRMATION"
+  }
+]

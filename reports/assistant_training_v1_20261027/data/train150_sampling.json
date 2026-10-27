@@ -1,0 +1,27 @@
+{
+  "records": 150,
+  "groups": {
+    "random": 80,
+    "boundary": 40,
+    "confusing": 30
+  },
+  "seed": 202610271501,
+  "source_records": 25152,
+  "source_file": "F:\\AmazonESBestseller\\交付文件\\20261022\\今日快照合并_214818_82be\\今日快照_合并去重_25152条.csv",
+  "source_sha256": "84bacc4c6b66ab7aa1fd7f704d7c3c50a0a195539050fc8e6180f5f0129f68d4",
+  "known_exposure_ids": 6798,
+  "known_exposure_titles": 6722,
+  "eligible_pool": 16990,
+  "id_overlap": 0,
+  "title_overlap": 0,
+  "asin_overlap": 0,
+  "inputs_sha256": "b27f333a13da08fb7692577f67b545a29658bd9c821f159197b2eaf305a2bfed",
+  "sealed_Action50_accessed": false,
+  "model_input_fields": [
+    "record_id",
+    "title_original",
+    "category_l1_original",
+    "source_version"
+  ],
+  "url_retained_for_audit_not_model_input": true
+}
