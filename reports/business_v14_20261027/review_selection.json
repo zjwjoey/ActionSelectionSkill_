@@ -1,0 +1,236 @@
+{
+  "all_disagreements": [
+    "U009",
+    "U021",
+    "U022",
+    "U039",
+    "U047",
+    "U053"
+  ],
+  "agreement_risk20": [
+    {
+      "review_id": "U076",
+      "common_decision": "保留",
+      "risk_reasons": [
+        "弱参照或仅用途关系",
+        "配件/安装/整机/组合形态",
+        "决策一致但参照解释分歧",
+        "原定向边界/易混淆层"
+      ],
+      "cohort": "confusing",
+      "source_category": "Hogar y cocina"
+    },
+    {
+      "review_id": "U075",
+      "common_decision": "保留",
+      "risk_reasons": [
+        "配件/安装/整机/组合形态",
+        "决策一致但参照解释分歧",
+        "原定向边界/易混淆层"
+      ],
+      "cohort": "confusing",
+      "source_category": ""
+    },
+    {
+      "review_id": "U070",
+      "common_decision": "保留",
+      "risk_reasons": [
+        "弱参照或仅用途关系",
+        "决策一致但参照解释分歧",
+        "原定向边界/易混淆层"
+      ],
+      "cohort": "confusing",
+      "source_category": "Hogar y cocina"
+    },
+    {
+      "review_id": "U080",
+      "common_decision": "保留",
+      "risk_reasons": [
+        "弱参照或仅用途关系",
+        "决策一致但参照解释分歧",
+        "原定向边界/易混淆层"
+      ],
+      "cohort": "confusing",
+      "source_category": ""
+    },
+    {
+      "review_id": "U069",
+      "common_decision": "保留",
+      "risk_reasons": [
+        "配件/安装/整机/组合形态",
+        "决策一致但参照解释分歧",
+        "原定向边界/易混淆层"
+      ],
+      "cohort": "confusing",
+      "source_category": ""
+    },
+    {
+      "review_id": "U061",
+      "common_decision": "保留",
+      "risk_reasons": [
+        "弱参照或仅用途关系",
+        "决策一致但参照解释分歧",
+        "原定向边界/易混淆层"
+      ],
+      "cohort": "boundary",
+      "source_category": "Hogar y cocina"
+    },
+    {
+      "review_id": "U056",
+      "common_decision": "保留",
+      "risk_reasons": [
+        "弱参照或仅用途关系",
+        "配件/安装/整机/组合形态",
+        "原定向边界/易混淆层"
+      ],
+      "cohort": "boundary",
+      "source_category": ""
+    },
+    {
+      "review_id": "U013",
+      "common_decision": "保留",
+      "risk_reasons": [
+        "弱参照或仅用途关系",
+        "决策一致但参照解释分歧"
+      ],
+      "cohort": "random",
+      "source_category": "Hogar y cocina"
+    },
+    {
+      "review_id": "U071",
+      "common_decision": "用不到",
+      "risk_reasons": [
+        "弱参照或仅用途关系",
+        "配件/安装/整机/组合形态",
+        "决策一致但参照解释分歧",
+        "原定向边界/易混淆层"
+      ],
+      "cohort": "confusing",
+      "source_category": "Hogar y cocina"
+    },
+    {
+      "review_id": "U078",
+      "common_decision": "用不到",
+      "risk_reasons": [
+        "弱参照或仅用途关系",
+        "决策一致但参照解释分歧",
+        "原定向边界/易混淆层"
+      ],
+      "cohort": "confusing",
+      "source_category": "Hogar y cocina"
+    },
+    {
+      "review_id": "U057",
+      "common_decision": "用不到",
+      "risk_reasons": [
+        "弱参照或仅用途关系",
+        "配件/安装/整机/组合形态",
+        "原定向边界/易混淆层"
+      ],
+      "cohort": "boundary",
+      "source_category": "Bricolaje y herramientas"
+    },
+    {
+      "review_id": "U001",
+      "common_decision": "用不到",
+      "risk_reasons": [
+        "弱参照或仅用途关系",
+        "配件/安装/整机/组合形态"
+      ],
+      "cohort": "random",
+      "source_category": "Bricolaje y herramientas"
+    },
+    {
+      "review_id": "U024",
+      "common_decision": "用不到",
+      "risk_reasons": [
+        "弱参照或仅用途关系",
+        "配件/安装/整机/组合形态"
+      ],
+      "cohort": "random",
+      "source_category": "Hogar y cocina"
+    },
+    {
+      "review_id": "U049",
+      "common_decision": "用不到",
+      "risk_reasons": [
+        "决策一致但参照解释分歧"
+      ],
+      "cohort": "random",
+      "source_category": "Hogar y cocina"
+    },
+    {
+      "review_id": "U008",
+      "common_decision": "观察",
+      "risk_reasons": [
+        "弱参照或仅用途关系",
+        "配件/安装/整机/组合形态",
+        "决策一致但参照解释分歧"
+      ],
+      "cohort": "random",
+      "source_category": "Hogar y cocina"
+    },
+    {
+      "review_id": "U064",
+      "common_decision": "观察",
+      "risk_reasons": [
+        "弱参照或仅用途关系",
+        "配件/安装/整机/组合形态",
+        "原定向边界/易混淆层"
+      ],
+      "cohort": "boundary",
+      "source_category": "Bricolaje y herramientas"
+    },
+    {
+      "review_id": "U079",
+      "common_decision": "观察",
+      "risk_reasons": [
+        "弱参照或仅用途关系",
+        "配件/安装/整机/组合形态",
+        "原定向边界/易混淆层"
+      ],
+      "cohort": "confusing",
+      "source_category": "Jardín"
+    },
+    {
+      "review_id": "U072",
+      "common_decision": "观察",
+      "risk_reasons": [
+        "弱参照或仅用途关系",
+        "配件/安装/整机/组合形态",
+        "原定向边界/易混淆层"
+      ],
+      "cohort": "confusing",
+      "source_category": "Hogar y cocina"
+    },
+    {
+      "review_id": "U031",
+      "common_decision": "观察",
+      "risk_reasons": [
+        "弱参照或仅用途关系",
+        "配件/安装/整机/组合形态",
+        "决策一致但参照解释分歧"
+      ],
+      "cohort": "random",
+      "source_category": "Hogar y cocina"
+    },
+    {
+      "review_id": "U004",
+      "common_decision": "保留",
+      "risk_reasons": [
+        "弱参照或仅用途关系",
+        "配件/安装/整机/组合形态"
+      ],
+      "cohort": "random",
+      "source_category": "Hogar y cocina"
+    }
+  ],
+  "quota_shortage": {
+    "保留": 0,
+    "用不到": 2,
+    "观察": 0
+  },
+  "authority": "DIAGNOSTIC_RISK_SAMPLE_NOT_POPULATION_ACCURACY",
+  "model_results_already_frozen": true,
+  "human_gold": 0
+}

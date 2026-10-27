@@ -1,0 +1,11 @@
+{
+  "records": 80,
+  "human_input_cells_blank": 240,
+  "source_and_frozen_code_preserved": "PASS",
+  "xlsx_zip": "PASS",
+  "formula_error_scan": "PASS",
+  "visual_inspection": "PASS",
+  "workbook_sha256": "51523e17470298849d644aff381af889ede5dcd21ab9a13b265e024c0f309f4a",
+  "workbook_path": "F:\\ActionSelectionSkill\\repository_sync\\ActionSelectionSkill_\\work\\business_v14_20261027\\outputs\\ActionSelectionSkill_V14_新80条_经营方法验证.xlsx",
+  "actual_accuracy": null
+}
