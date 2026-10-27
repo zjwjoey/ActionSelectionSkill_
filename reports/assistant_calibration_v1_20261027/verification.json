@@ -1,0 +1,49 @@
+{
+  "original_baseline_sha": "2b07fc858a97be7d05a522d7a8cb7c3f5ef02550",
+  "branch": "feat/selection-assistant-calibration-v1",
+  "original_main_sha": "3a427ef223613c140faaffc94a64f1390693e828",
+  "operating_groups": 8,
+  "operating_records": 28,
+  "disagreement_reviews": 9,
+  "agreement_reviews": 20,
+  "reference_difference_union": 40,
+  "reference_difference_counts": {
+    "relation": 30,
+    "coverage": 23,
+    "action_sku": 10
+  },
+  "original_source_and_answers_preserved": "PASS",
+  "human_fields_empty": "PASS",
+  "all_prior_unchanged_files_verified": 1110,
+  "protected_report_code_reference_files": 218,
+  "source_hashes": {
+    "test_ordinary_prompt.txt": "894b0eb7a480128fc61b33d30c3a7609d2e2633b894c8a28bb293b4b3bcd69f2",
+    "test_skill_prompt.txt": "79691d353afefa65810b81b05875334f6c8eaca55e72c1761769eaccde8948ab",
+    "independent_comparison100.jsonl": "ecd02465108d6df8774a880089fddfe3c14cdd8ff568dcb6d9c50e0e04b35b0d",
+    "operating_calibration28.json": "4f3848daf0b9cb7753dda7277e6046377f87ec14d9965d31f98dccabcf640d21"
+  },
+  "concentrated_revision_rounds": 1,
+  "specialist_test": "9 passed",
+  "skill_structure": "PASS",
+  "git_diff_check": "PASS",
+  "new_cli_model_calls": 0,
+  "new_samples": 0,
+  "owner_approvals": 0,
+  "master_writes": 0,
+  "main_merge": false,
+  "local_full_tests": "NOT_REPEATED_FOR_INSTRUCTION_ONLY_CHANGE",
+  "ci_status": "Check remote exact commit separately; not part of semantic acceptance",
+  "identical_request_files_sha256": {
+    "0000.jsonl": "689d06b7ebde1782a303b9bde6267b158d4efd41f7d0bc3bfa4b03dc58f9e2e2",
+    "0025.jsonl": "adeaa7f169d9dc0ae6930131322b2be25fa2db8532ce830a226fd632a3191e6c",
+    "0050.jsonl": "dc0a8f2b66b6b6f44d5615619640f6e1a7d07806f12397ebaeb19eb1fc97f701",
+    "0075.jsonl": "88001c68c9ffbee379c31a1ec4e008c9c5edb50c3d0b786568e9620df7cee3fb"
+  },
+  "identical_source_and_six_candidates_records": 100,
+  "quoted_skus_in_supplied_candidates": "PASS",
+  "revised_instruction_hashes": {
+    "SKILL.md": "006d79c1a7482b52051e175357d23a43bcc0db7cadef0f38bdab2f8114b241fb",
+    "references/selection_playbook.md": "2e06aa4a0111326b586fa0463d4a8337480840f266a861ba4f76c4e739c49828",
+    "references/selection_cases.json": "888f8b56296a449eb3fbfa007cd5c2633d97e9c4dcc355b90f6e5f599ddc9ab1"
+  }
+}

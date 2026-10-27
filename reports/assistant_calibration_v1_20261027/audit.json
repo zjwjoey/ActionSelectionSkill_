@@ -1,0 +1,4454 @@
+{
+  "baseline_commit": "2b07fc858a97be7d05a522d7a8cb7c3f5ef02550",
+  "prior_frozen_code": "3785fdecd6dc3d8d42da45a74d20e4416dab624f",
+  "branch": "feat/selection-assistant-calibration-v1",
+  "operating_groups": [
+    {
+      "group_id": "G1",
+      "name": "普通家庭用品与生活小电器的研究准入",
+      "review_ids": [
+        "L007",
+        "L011",
+        "L014",
+        "L019",
+        "L051",
+        "L053",
+        "L079",
+        "V008"
+      ],
+      "principle": "主体明确的普通生活用品及家用电器可建议研究；性能、认证验真后置，不把研究等同采购。",
+      "retain": "厨房Fondue、便携灯、普通壁架、工作服、折叠沙滩椅、压力锅、吸尘器、家居报警器可建议保留。",
+      "observe": "Owner是否纳入安全用品未定时单列经营疑问；实际售物不明先观察。",
+      "outside": "不能只因电动、认证未查或没有Action同款而用不到。",
+      "counterexample": "工业炉不能按普通厨具放行；医用工作服不能假定防护认证。",
+      "owner_question": "是否同意普通家用小电器及家居安全用品进入研究，具体性能认证留待采购验证？",
+      "owner_decision": null,
+      "reviewer": null,
+      "confirmed_at": null,
+      "authority": "AI_PROPOSAL_NOT_OWNER_APPROVAL",
+      "original_skill_counts": {
+        "保留": 6,
+        "观察": 2
+      },
+      "products": [
+        {
+          "review_id": "L007",
+          "title": "H.Koenig ALP1800 - Fondue, capacidad de 2 l, 800 W, color rojo",
+          "subject": "电热Fondue",
+          "original_decision": "保留",
+          "original_reason": "标题明确为2升800瓦Fondue，适合作家用小电器扩展研究；巧克力Fondue为相近类型。"
+        },
+        {
+          "review_id": "L011",
+          "title": "Alonefire SV110 Mini Linterna UV 365nm Profesional Recargable USB C Potente Luz Negra Detector de Orina para Resina, Pesca, Escorpión, Minerales, Pegamento, Ámbar con Batería Integrada",
+          "subject": "充电紫外手电",
+          "original_decision": "保留",
+          "original_reason": "主体是可充电紫外手电，可作工具扩展；普通手电参照不证明紫外检测效果。"
+        },
+        {
+          "review_id": "L014",
+          "title": "BONTEC Estantes de Pared, Paquete de 2 Balda de Pared de Baño Resistentes de 16 Pulgadas, Fácil de Instalar, Diseño Minimalista, Soporta 10kg Cada Uno, Blanco",
+          "subject": "壁挂置物架两件组",
+          "original_decision": "保留",
+          "original_reason": "普通壁架两件装，有同类参照；承重为标题宣称。"
+        },
+        {
+          "review_id": "L019",
+          "title": "MISEMIYA - UNIFORME SANITARIO UNISEX UNIFORMES SANITARIOS MÉDICOS CON PANTALON BLANCO 817-8312-BLANCO",
+          "subject": "含白裤医护制服",
+          "original_decision": "保留",
+          "original_reason": "医护制服是服装用品，可作工作服扩展；普通裤装参照仅覆盖部分，不推定防护性能。"
+        },
+        {
+          "review_id": "L051",
+          "title": "AKTIVE Silla plegable de playa 49x58x80 cm, con cojín, Silla plegable tipo mochila, respaldo reclinable, con dos bolsillos, color azul pastel (53983)",
+          "subject": "折叠沙滩椅",
+          "original_decision": "观察",
+          "original_reason": "主体为完整折叠沙滩椅且有同类参照；完整家具经营边界仍需明确。"
+        },
+        {
+          "review_id": "L053",
+          "title": "WMF Premium - Olla Rápida Ø 22 cm de Diámetro de 6 litros y Medio, con Protección contra Llamas, Acero Inoxidable Cromargan Apta para Inducción",
+          "subject": "压力锅",
+          "original_decision": "保留",
+          "original_reason": "主体为6.5升压力锅，属于厨房锅具；普通锅参照不证明压力结构或安全宣称。"
+        },
+        {
+          "review_id": "L079",
+          "title": "dreame Z30, Aspirador sin Cable, 28 000 PA /310 AW, Luz LED CelesTect | Herramienta Para Aseo de Mascotas, Diseño Antienredos, Control Inteligente de la Succión, Eficiencia de Filtrado del 99,99%",
+          "subject": "无线吸尘器",
+          "original_decision": "保留",
+          "original_reason": "销售无线吸尘器，LED候选不能作为整机参照；家用清洁小电器可研究，性能宣称未验证。"
+        },
+        {
+          "review_id": "V008",
+          "title": "Heiman Detector de Monóxido de Carbono con Pantalla LCD, Sensor de 10 Años y Certificado EN 50291 - Alarma 85 dB, Instalación Fácil, Pilas Incluidas, botón de Prueba",
+          "subject": "一氧化碳报警器",
+          "original_decision": "观察",
+          "original_reason": "一氧化碳报警器有明确同类参照，但用途依赖关键安全保证；认证和传感器寿命仅为标题宣称，需定向核实。"
+        }
+      ]
+    },
+    {
+      "group_id": "G2",
+      "name": "普通DIY组件与清洁辅材",
+      "review_ids": [
+        "L003",
+        "L115",
+        "L131"
+      ],
+      "principle": "按实际形态区别普通维修、手工、清洁小件与复杂主机系统。尺寸待选型不等于主体不明。",
+      "retain": "助焊剂套装、清洁布套、钟表机芯可建议扩展研究，不保证化学性能或通用兼容。",
+      "observe": "标题显示关键专用接口、构成或配方用途不明时观察。",
+      "outside": "不能因宿主名含机器就把布套当机器排除。",
+      "counterexample": "同品牌电动主刷与普通布套不同；仅Kit de reparación不知组件仍观察。",
+      "owner_question": "是否同意这类主体明确的小组件与辅材可先研究，再核对尺寸、配方及接口？",
+      "owner_decision": null,
+      "reviewer": null,
+      "confirmed_at": null,
+      "authority": "AI_PROPOSAL_NOT_OWNER_APPROVAL",
+      "original_skill_counts": {
+        "保留": 2,
+        "观察": 1
+      },
+      "products": [
+        {
+          "review_id": "L003",
+          "title": "Flux para Soldar Estaño con Malla Desoldadora 1m,2 Pieces Flux soldar, Flux Soldadura Electronica, Flux, con Varilla de Empuje, Flujo sin Limpieza para Soldadura Electrónica BGA LED SMD PCB (10 ml)",
+          "subject": "助焊剂及拆焊辅材套装",
+          "original_decision": "保留",
+          "original_reason": "销售助焊剂及拆焊辅材，非电子工业整机，可作维修耗材扩展；所给参照无有效对应。"
+        },
+        {
+          "review_id": "L115",
+          "title": "Wenrescry 10 piezas de accesorios de limpieza a vapor de microfibra, fundas de repuesto para limpiador a vapor de mano, paños de rizo lavables a máquina, cubierta de rizo de algodón",
+          "subject": "蒸汽清洁器替换布套",
+          "original_decision": "观察",
+          "original_reason": "主体为清洁器替换布套，泛称配件不能建立有效参照；通用套用还是专用适配尚未明确。"
+        },
+        {
+          "review_id": "L131",
+          "title": "Kit de movimiento de reloj de cuarzo silencioso, 5 ejes, manecillas de | Movimiento de barrido silencioso, sin ruido de tictac, para una sincronización precisa de cuarzo, ideal para estudio de",
+          "subject": "石英钟机芯套件",
+          "original_decision": "保留",
+          "original_reason": "石英钟机芯套件主体明确，可作普通DIY候选；泛称Reloj不能确定有效参照，残缺后缀不单独阻断研究。"
+        }
+      ]
+    },
+    {
+      "group_id": "G3",
+      "name": "专用宿主零件与来源不完整的耗件",
+      "review_ids": [
+        "L031",
+        "L059",
+        "L121"
+      ],
+      "principle": "指定设备刷头、协议遥控器按实际宿主依赖管理；滤芯应用不明先恢复来源。",
+      "retain": "Owner认可专用配件经营后，来源明确的配件可作为候选，不能保证兼容。",
+      "observe": "当前专用配件经营范围、门机协议或滤芯使用系统不明，保留观察。",
+      "outside": "未经经营确认不能将全部专用配件一律排除。",
+      "counterexample": "通用清洁布与专用卡扣刷头不同；100mm等尺寸不能证明饮水用途。",
+      "owner_question": "是否纳入需要逐型号或系统匹配管理的专用替换配件？",
+      "owner_decision": null,
+      "reviewer": null,
+      "confirmed_at": null,
+      "authority": "AI_PROPOSAL_NOT_OWNER_APPROVAL",
+      "original_skill_counts": {
+        "观察": 3
+      },
+      "products": [
+        {
+          "review_id": "L031",
+          "title": "Kärcher Kit de cepillos redondos, contiene dos cepillos negros y dos amarillos, perfecto para usarlos en distintos lugares, apta para limpiadoras a vapor de Kärcher",
+          "subject": "蒸汽清洁机圆刷套装",
+          "original_decision": "观察",
+          "original_reason": "销售蒸汽清洁机用圆刷，非清洁整机；普通缝隙刷仅有清洁需求关联，专用适配经营尚需明确。"
+        },
+        {
+          "review_id": "L059",
+          "title": "VertexOval 4X Mando Garaje Universal Slim, Duplicador de Puerta de Garaje para Código Fijo y Rolling Code (433.92MHz), Control Remoto con Botones ABCD y Borde Metálico",
+          "subject": "车库门遥控器",
+          "original_decision": "观察",
+          "original_reason": "车库门遥控器虽称通用，仍涉及门机编码适配；普通通用遥控器参照不能证明兼容。"
+        },
+        {
+          "review_id": "L121",
+          "title": "10x Wessper 10\" Filtros de Cartuchos para Sedimentos de Polipropileno Hilado, polo alimentado por agua y filtración de partículas",
+          "subject": "沉积过滤滤芯",
+          "original_decision": "观察",
+          "original_reason": "销售10英寸聚丙烯沉积滤芯；Action水过滤器仅支持相近类型，不能证明滤壳适配或使用场景。"
+        }
+      ]
+    },
+    {
+      "group_id": "G4",
+      "name": "固定安装、电气接入与配电系统",
+      "review_ids": [
+        "L008",
+        "L009",
+        "L038",
+        "L042",
+        "L045",
+        "V017",
+        "V064"
+      ],
+      "principle": "分清普通空盒、连接件、嵌入设施与保护配电产品；安装条件和研究范围分别记录。",
+      "retain": "基础通用五金可提出研究建议；不假定所有安装件都是专业系统。",
+      "observe": "光伏接头、嵌墙龛、需零线开关、电围栏把手、门禁改装在范围未定时观察；官网未给安装方式不能编造。",
+      "outside": "可建议专业施工配电箱和固定电路保护元件超范围，但本轮未批准，执行前仍保留经营未定状态。",
+      "counterexample": "普通插线盘不是工地配电箱；IP防护空盒不等于带保护电路；手把不是围栏主机。",
+      "owner_question": "是否将需系统接入或配电施工管理的安装用品统一留待确认，待确认前不自动排除？",
+      "owner_decision": null,
+      "reviewer": null,
+      "confirmed_at": null,
+      "authority": "AI_PROPOSAL_NOT_OWNER_APPROVAL",
+      "original_skill_counts": {
+        "观察": 7
+      },
+      "products": [
+        {
+          "review_id": "L008",
+          "title": "Cable Solar Y Adaptador 4/1 6mm², Adaptador Enchufe Y PV4 / T, Adapter IP68 1500V, (M/FFFF, F/MMMM), Para Sistema Solar, Panel Solar, Fotovoltaico, Resistente UV (60cm)",
+          "subject": "光伏分支连接线",
+          "original_decision": "观察",
+          "original_reason": "销售光伏分支连接线，参照是太阳能板宿主；系统连接条件及安装件经营范围待明确。"
+        },
+        {
+          "review_id": "L009",
+          "title": "Honiako - Nicho de Ducha con luz LED, Nicho de Baño de Acero Inoxidable 304, Nicho de Pared Doble con Suelo Inclinado, Impermeable con Estante, Gran Capacidad [70 x 28 x 12,5 cm]",
+          "subject": "带灯淋浴壁龛",
+          "original_decision": "观察",
+          "original_reason": "带灯淋浴壁龛涉及墙体安装与电气接入，普通壁架仅共享收纳需求。"
+        },
+        {
+          "review_id": "L038",
+          "title": "SONOFF Mini Duo - Interruptor inteligente Zigbee de 2 canales, Zigbee 3.0, carga total de 16 A, control remoto mediante concentrador Zigbee, requiere cable neutro, compatible con Alexa/Google (2",
+          "subject": "双路Zigbee智能开关",
+          "original_decision": "观察",
+          "original_reason": "销售需零线及Zigbee网关的双路智能开关，非USB配件；固定接线组件的经营边界待明确。"
+        },
+        {
+          "review_id": "L042",
+          "title": "6 tiradores aislados para puerta de valla, mango de plástico resistente, mango de puerta eléctrico, tirador de puerta de pasto, asas aisladas para valla eléctrica, tiradores de valla de pasto, ganchos",
+          "subject": "电围栏绝缘门把手",
+          "original_decision": "观察",
+          "original_reason": "销售电围栏绝缘门把手，非普通门把手；具体电围栏适配及专业围栏配件经营边界待明。"
+        },
+        {
+          "review_id": "L045",
+          "title": "Ring Intercom Audio | Haz que tu interfono sea más inteligente | Transmisión de audio, llaves virtuales y acceso a distancia | Instalación por cuenta propia",
+          "subject": "对讲机智能升级设备",
+          "original_decision": "观察",
+          "original_reason": "标题表明为现有对讲机增加智能功能的安装设备；手工DIY候选无有效参照，兼容和安装范围未明。"
+        },
+        {
+          "review_id": "V017",
+          "title": "VAYALT Distribuidor de pared precableado, distribuidor de corriente para obras con interruptor FI, 25 A+LS, interruptor de protección 16 A, 2 enchufes Schuko de 230 V, carcasa resistente al agua IP67",
+          "subject": "壁装预接线配电箱",
+          "original_decision": "观察",
+          "original_reason": "预接线壁装配电箱含保护开关及插座，是专业安装电气组件；未足以认定大型系统，安装方式和经营边界需澄清，候选无有效参照。"
+        },
+        {
+          "review_id": "V064",
+          "title": "POPP® Electric Interruptor diferencial industrial TIPO AC corriente residual alterna 2 Polo 25A 30mA SERIE MSL8 (1P+N, 25A 30mA)",
+          "subject": "漏电保护开关",
+          "original_decision": "观察",
+          "original_reason": "主体是固定电路用漏电保护开关，非插座开关；工业字样不足以排除，但专业安装及安全保护经营边界待确认。"
+        }
+      ]
+    },
+    {
+      "group_id": "G5",
+      "name": "完整家具与普通小型家居用品",
+      "review_ids": [
+        "L116"
+      ],
+      "principle": "完整厨房岛台属于家具，与壁架、小收纳、折叠便携座椅分开。",
+      "retain": "普通壁架、明确便携的沙滩椅按日用品可建议研究，不推测物流成本。",
+      "observe": "整套厨房岛台在完整家具经营范围未定时观察，带轮不自动证明小型。",
+      "outside": "不能只因标题含mueble或一组多件就排除。",
+      "counterexample": "两块墙板不是成套柜体，桌腿不是整桌。",
+      "owner_question": "是否维持完整家具先观察，小型收纳及便携家居可研究的口径？",
+      "owner_decision": null,
+      "reviewer": null,
+      "confirmed_at": null,
+      "authority": "AI_PROPOSAL_NOT_OWNER_APPROVAL",
+      "original_skill_counts": {
+        "观察": 1
+      },
+      "products": [
+        {
+          "review_id": "L116",
+          "title": "ALVYNX Isla de cocina móvil, carrito de cocina, mesa de comedor extensible, armario de bufé, armario de cocina con ruedas y compartimento para contenedor de residuos, toallero y regletas",
+          "subject": "移动厨房岛柜",
+          "original_decision": "观察",
+          "original_reason": "所售为带轮厨房岛柜完整家具；便携炉及厨房布无有效参照，完整家具需范围澄清。"
+        }
+      ]
+    },
+    {
+      "group_id": "G6",
+      "name": "燃烧取暖整机及燃料",
+      "review_ids": [
+        "L073",
+        "L097"
+      ],
+      "principle": "分别识别整机与木燃料，避免用普通厨房/木制品参照证明适用性。",
+      "retain": "普通炉边手工具与储灰桶可单独建议研究，不由整机范围连带排除。",
+      "observe": "9kg燃料木用途与燃料经营范围待确认；未说明安装的燃木炉也不臆定安装事实。",
+      "outside": "对明确Grande的煤柴炉可建议用不到；不作为已批准全类排除。",
+      "counterexample": "木烤炉燃料不必然仅供取暖；儿童木饰不是燃料证据。",
+      "owner_question": "是否将燃烧取暖整机与燃料排除出本轮日用研究，而保留普通炉边工具另判？",
+      "owner_decision": null,
+      "reviewer": null,
+      "confirmed_at": null,
+      "authority": "AI_PROPOSAL_NOT_OWNER_APPROVAL",
+      "original_skill_counts": {
+        "保留": 1,
+        "观察": 1
+      },
+      "products": [
+        {
+          "review_id": "L073",
+          "title": "9kg Leña de Haya, Troncos Medios, para hornos de leña | Madera de haya",
+          "subject": "山毛榉薪柴",
+          "original_decision": "保留",
+          "original_reason": "销售9公斤山毛榉薪柴，非炉具；可作生活燃料扩展，木制品候选不构成有效参照。"
+        },
+        {
+          "review_id": "L097",
+          "title": "Estufa De Leña Redonda, Temperatura de los humos: 292ºC, Potencia 6,7Kw Para Calentar Una Superficie De 50 M², Estufa Grande Chapa Para Leña, Estufa De Leña, Estufa De Carbon y Leña (Negra)",
+          "subject": "燃木取暖炉",
+          "original_decision": "观察",
+          "original_reason": "明确为6.7千瓦燃木取暖炉，涉及排烟安装；固定供暖设备经营范围未定。"
+        }
+      ]
+    },
+    {
+      "group_id": "G7",
+      "name": "特殊材料及气体耗材",
+      "review_ids": [
+        "L034",
+        "L055"
+      ],
+      "principle": "识别玻璃蚀刻膏和氮气气弹实际用途；未知操作条件不能凭普通颜料或饮料器具补齐。",
+      "retain": "明确普通手工材料仍可研究，不因化学名称就认定危险或专业。",
+      "observe": "蚀刻材料操作要求、气弹使用设备/接口与特殊材料经营范围未明时观察。",
+      "outside": "未获经营范围批准不能仅因含气体/化工词排除。",
+      "counterexample": "普通自粘手工膜不是蚀刻膏；N2不能擅改为CO2或奶油气。",
+      "owner_question": "特殊反应材料与饮品气弹是否仅在具备用途、操作或接口证据后进入研究？",
+      "owner_decision": null,
+      "reviewer": null,
+      "confirmed_at": null,
+      "authority": "AI_PROPOSAL_NOT_OWNER_APPROVAL",
+      "original_skill_counts": {
+        "观察": 2
+      },
+      "products": [
+        {
+          "review_id": "L034",
+          "title": "WEILAOK Pasta de Grabado para Vidrio, Glass Etching Cream, Acido para Grabar Vidrio, Crea Arte Hermoso en Minutos, Personaliza tu Artesanía en Superficies de vidrio, 80g",
+          "subject": "玻璃蚀刻膏",
+          "original_decision": "观察",
+          "original_reason": "销售玻璃蚀刻膏而非玻璃器皿；手工用途明确，但酸性蚀刻材料的操作条件会影响普通零售研究边界。"
+        },
+        {
+          "review_id": "L055",
+          "title": "ICO Cartuchos de Nitrógeno Premium - Pack de 10 Cartuchos N2 de 2g Grado Alimentario para Café Cold Brew Nitro, Cócteles, Cerveza Negra y Té",
+          "subject": "氮气气弹",
+          "original_decision": "观察",
+          "original_reason": "销售氮气小气弹，非墨盒；适用充气器及此类气体耗材的经营范围未明确。"
+        }
+      ]
+    },
+    {
+      "group_id": "G8",
+      "name": "专门加工与自动作业设备",
+      "review_ids": [
+        "L093",
+        "L147"
+      ],
+      "principle": "先认出擦窗机器人与咖啡豆烘焙机，再判断专门作业形态，不因共同清洁/饮品需求认定普通同类。",
+      "retain": "普通吸尘器、手动玻璃清洁器和明确家用常见电器另判，不一概排除。",
+      "observe": "擦窗机器人和烘豆机尚无已批准范围，保留观察，不由功率容量猜家庭或工业。",
+      "outside": "可提出专门加工/复杂系统超范围建议，但不能从一个已判SKU扩展成批准政策。",
+      "counterexample": "咖啡豆不是烘豆机，普通玻璃刷不是擦窗机器人，电动榨汁器不能因电动被误伤。",
+      "owner_question": "是否对专门加工和自动作业整机保持观察，逐类确认后再决定纳入或排除？",
+      "owner_decision": null,
+      "reviewer": null,
+      "confirmed_at": null,
+      "authority": "AI_PROPOSAL_NOT_OWNER_APPROVAL",
+      "original_skill_counts": {
+        "观察": 1,
+        "保留": 1
+      },
+      "products": [
+        {
+          "review_id": "L093",
+          "title": "ARCSUN Clevio RoboClean Osmo Limpiacristales Robot – Control IA, 3 Modos Auto, Pulizia umida e secca con spruzzatore a ultrasuoni, ideale per vetri, piastrelle e specchi, Senza sforzo.",
+          "subject": "擦窗机器人",
+          "original_decision": "观察",
+          "original_reason": "销售擦窗机器人，手动擦窗器仅共享需求；自动化及高处使用边界需单独明确，不能由参照证明性能。"
+        },
+        {
+          "review_id": "L147",
+          "title": "Tostador de café eléctrico, 1200 W, 500 g, temperatura ajustable",
+          "subject": "电动咖啡烘焙机",
+          "original_decision": "保留",
+          "original_reason": "500克电动咖啡烘焙机主体清楚，可作厨房电器扩展；标题无工业整机依据，咖啡豆仅为需求参照。"
+        }
+      ]
+    }
+  ],
+  "reviews29": [
+    {
+      "review_id": "V001",
+      "source": {
+        "category_l1_original": "Bricolaje y herramientas",
+        "record_id": "B0_84bacc4c6b66_011199",
+        "source_hash": "1af95bd2737e5e57569e302f1fb12c661cb4e21d24e49f1d4c5716ddcd154ad4",
+        "source_version": "amazon-merged-20261022-84bacc4c6b66ab7a",
+        "title_original": "KOVEN Soportes de abrazadera para persiana enrollable, 6 pares | Blanco, sin taladro, para ventanas de PVC y madera"
+      },
+      "cohort": "random",
+      "sampling_reason": "全部决策分歧",
+      "different": true,
+      "masked_sides": {
+        "左": {
+          "subject_type": "卷帘夹持支架",
+          "form": "installed_component",
+          "subject_span": "Soportes de abrazadera para persiana enrollable, 6 pares",
+          "relation": "category_only",
+          "coverage": "subject",
+          "action_sku": "3005729",
+          "reference_span": "Soportes para estantes",
+          "reason": "卷帘夹持支架主体明确，可作普通安装五金研究；层板支架仅为宽泛关联，适配尺寸后续核对。",
+          "review_question": "",
+          "decision": "保留",
+          "action_name": "Soportes para estantes"
+        },
+        "右": {
+          "subject_type": "卷帘夹式支架",
+          "form": "installed_component",
+          "subject_span": "Soportes de abrazadera para persiana enrollable",
+          "relation": "none",
+          "coverage": "unknown",
+          "action_sku": "",
+          "reference_span": "",
+          "reason": "售品是卷帘夹式支架，属于特定安装配件，需明确适配与经营范围。",
+          "review_question": "该支架适配哪些卷帘结构，是否纳入专用安装配件研究？",
+          "decision": "观察",
+          "action_name": ""
+        }
+      },
+      "issue_class": "C",
+      "suggestion": "观察",
+      "literal_reason": "Soportes de abrazadera para persiana enrollable 明确卷帘夹具；无机型名不等于已证通用。",
+      "facts_and_reference_check": "两侧均正确识别配件；层板支架仅宽泛五金关联，左未冒称同类。",
+      "method_assessment": "无法客观裁定",
+      "owner_or_information_question": "普通卷帘五金与专用窗饰安装件的研究范围尚未确认；尺寸未知本身不是主体错误。",
+      "human_decision": null,
+      "human_reviewer": null,
+      "authority": "AI_AUXILIARY_NOT_HUMAN_GOLD"
+    },
+    {
+      "review_id": "V006",
+      "source": {
+        "category_l1_original": "Hogar y cocina",
+        "record_id": "B0_84bacc4c6b66_018795",
+        "source_hash": "4fdb34a0084d93ca3238529377364a8d6ece414eff9f6571b6d49265ceb00024",
+        "source_version": "amazon-merged-20261022-84bacc4c6b66ab7a",
+        "title_original": "Smooth-On Psycho Paint Pintura de silicona para pintar silicona, 230 g (8 oz)"
+      },
+      "cohort": "random",
+      "sampling_reason": "全部决策分歧",
+      "different": true,
+      "masked_sides": {
+        "左": {
+          "subject_type": "硅胶用涂料",
+          "form": "ordinary_good",
+          "subject_span": "Pintura de silicona para pintar silicona, 230 g (8 oz)",
+          "relation": "related_type",
+          "coverage": "subject",
+          "action_sku": "3204817",
+          "reference_span": "Pintura acrílica",
+          "reason": "硅胶用涂料主体明确，可作为手工涂装材料扩展研究；丙烯颜料仅是相近涂色材料，不能证明配方或适用性。",
+          "review_question": "",
+          "decision": "保留",
+          "action_name": "Pintura acrílica"
+        },
+        "右": {
+          "subject_type": "硅胶专用涂料",
+          "form": "ordinary_good",
+          "subject_span": "Pintura de silicona para pintar silicona, 230 g (8 oz)",
+          "relation": "related_type",
+          "coverage": "subject",
+          "action_sku": "3204817",
+          "reference_span": "Pintura acrílica",
+          "reason": "这是硅胶专用涂料，丙烯颜料仅为相关涂装品类；使用条件决定其日常DIY适用性。",
+          "review_question": "是否需要专用混配、固化或施工条件，能否用于普通家庭DIY？",
+          "decision": "观察",
+          "action_name": "Pintura acrílica"
+        }
+      },
+      "issue_class": "C",
+      "suggestion": "观察",
+      "literal_reason": "Pintura de silicona para pintar silicona 指硅胶涂料，不是丙烯颜料。",
+      "facts_and_reference_check": "两侧主体正确且未声称同配方；右提出施工条件问题，但标题不能证明必须专业混配。",
+      "method_assessment": "无法客观裁定",
+      "owner_or_information_question": "是否纳入专用基材涂料；实际使用条件标题未给出，不能把专业条件当已证事实。",
+      "human_decision": null,
+      "human_reviewer": null,
+      "authority": "AI_AUXILIARY_NOT_HUMAN_GOLD"
+    },
+    {
+      "review_id": "V008",
+      "source": {
+        "category_l1_original": "Bricolaje y herramientas",
+        "record_id": "B0_84bacc4c6b66_008999",
+        "source_hash": "099fc3a72bf648c0febe99b19e5f85165853d72c57feb99c2e09f948194fb8c0",
+        "source_version": "amazon-merged-20261022-84bacc4c6b66ab7a",
+        "title_original": "Heiman Detector de Monóxido de Carbono con Pantalla LCD, Sensor de 10 Años y Certificado EN 50291 - Alarma 85 dB, Instalación Fácil, Pilas Incluidas, botón de Prueba"
+      },
+      "cohort": "random",
+      "sampling_reason": "全部决策分歧",
+      "different": true,
+      "masked_sides": {
+        "左": {
+          "subject_type": "一氧化碳报警器",
+          "form": "whole_machine",
+          "subject_span": "Detector de Monóxido de Carbono con Pantalla LCD",
+          "relation": "same_type",
+          "coverage": "subject",
+          "action_sku": "3007227",
+          "reference_span": "Detector de monóxido de carbono Smartwares",
+          "reason": "一氧化碳报警器有明确同类参照，但用途依赖关键安全保证；认证和传感器寿命仅为标题宣称，需定向核实。",
+          "review_question": "EN 50291认证是否覆盖该具体型号，且十年传感器寿命有何可核验证据？",
+          "decision": "观察",
+          "action_name": "Detector de monóxido de carbono Smartwares"
+        },
+        "右": {
+          "subject_type": "一氧化碳报警器",
+          "form": "ordinary_good",
+          "subject_span": "Detector de Monóxido de Carbono con Pantalla LCD",
+          "relation": "same_type",
+          "coverage": "subject",
+          "action_sku": "3007227",
+          "reference_span": "Detector de monóxido de carbono Smartwares",
+          "reason": "独立电池式一氧化碳报警器可作家居安全延伸；寿命、认证与声压为未核验标题宣称。",
+          "review_question": "",
+          "decision": "保留",
+          "action_name": "Detector de monóxido de carbono Smartwares"
+        }
+      },
+      "issue_class": "B",
+      "suggestion": "保留",
+      "literal_reason": "Detector de Monóxido de Carbono 与3007227 Detector de monóxido de carbono Smartwares 为明确同类。",
+      "facts_and_reference_check": "两侧主体与参照正确；左仅以型号认证、寿命未核验前置观察，没有提出不同的经营问题。",
+      "method_assessment": "右：减少无效观察",
+      "owner_or_information_question": "这是AI研究准入建议；安全商品政策仍待Owner确认，认证寿命均未被验证。",
+      "human_decision": null,
+      "human_reviewer": null,
+      "authority": "AI_AUXILIARY_NOT_HUMAN_GOLD"
+    },
+    {
+      "review_id": "V009",
+      "source": {
+        "category_l1_original": "Hogar y cocina",
+        "record_id": "B0_84bacc4c6b66_000669",
+        "source_hash": "1d6cc3807c96b15df73f971660a35e31e5634ab18e4328e6e4ef03c107771fc7",
+        "source_version": "amazon-merged-20261022-84bacc4c6b66ab7a",
+        "title_original": "Kit de Accesorios de 11 Piezas Compatible con Stanley Cup, Tapas para Pajitas, Tapa Anti Goteo y Funda de Silicona, Set para Vaso Stanley Quencher 1.2L (40 oz) y 850ml (30 oz), Morado"
+      },
+      "cohort": "random",
+      "sampling_reason": "全部决策分歧",
+      "different": true,
+      "masked_sides": {
+        "左": {
+          "subject_type": "饮水杯硅胶配件套装",
+          "form": "bundle",
+          "subject_span": "Kit de Accesorios de 11 Piezas Compatible con Stanley Cup, Tapas para Pajitas, Tapa Anti Goteo y Funda de Silicona",
+          "relation": "category_only",
+          "coverage": "unknown",
+          "action_sku": "3216736",
+          "reference_span": "Set de accesorios",
+          "reason": "售品是杯用硅胶配件套装，属于普通厨房附件；参考名称过泛，无法确认具体覆盖。",
+          "review_question": "",
+          "decision": "保留",
+          "action_name": "Set de accesorios"
+        },
+        "右": {
+          "subject_type": "专用水杯配件套装",
+          "form": "bundle",
+          "subject_span": "Kit de Accesorios de 11 Piezas Compatible con Stanley Cup, Tapas para Pajitas, Tapa Anti Goteo y Funda de Silicona",
+          "relation": "none",
+          "coverage": "unknown",
+          "action_sku": "",
+          "reference_span": "",
+          "reason": "套装明确含吸管盖、防滴盖和硅胶套，但指定杯型尺寸；泛称配件参照无法确认类型，专用适配经营范围待定。",
+          "review_question": "是否纳入需按Quencher具体杯型及容量区分适配的专用杯配件套装？",
+          "decision": "观察",
+          "action_name": ""
+        }
+      },
+      "issue_class": "C",
+      "suggestion": "观察",
+      "literal_reason": "明确吸管盖、防滴盖、硅胶套及Quencher杯型；Set de accesorios未说明用途。",
+      "facts_and_reference_check": "右不引用泛名更稳健；左已写category_only/unknown，未虚构具体覆盖。",
+      "method_assessment": "无法客观裁定",
+      "owner_or_information_question": "是否经营按具体杯型分适配的生活配件；不能把仅有指定品牌直接等同不可研究。",
+      "human_decision": null,
+      "human_reviewer": null,
+      "authority": "AI_AUXILIARY_NOT_HUMAN_GOLD"
+    },
+    {
+      "review_id": "V017",
+      "source": {
+        "category_l1_original": "Bricolaje y herramientas",
+        "record_id": "B0_84bacc4c6b66_020931",
+        "source_hash": "3d986fac7dd3621d70af7602156acf5f1028db18a0b2f5a49ff6ece90c4ca3a1",
+        "source_version": "amazon-merged-20261022-84bacc4c6b66ab7a",
+        "title_original": "VAYALT Distribuidor de pared precableado, distribuidor de corriente para obras con interruptor FI, 25 A+LS, interruptor de protección 16 A, 2 enchufes Schuko de 230 V, carcasa resistente al agua IP67"
+      },
+      "cohort": "random",
+      "sampling_reason": "全部决策分歧",
+      "different": true,
+      "masked_sides": {
+        "左": {
+          "subject_type": "预接线工地配电箱",
+          "form": "whole_system",
+          "subject_span": "Distribuidor de pared precableado, distribuidor de corriente para obras con interruptor FI",
+          "relation": "none",
+          "coverage": "unknown",
+          "action_sku": "",
+          "reference_span": "",
+          "reason": "预接线工地配电箱整合漏电和过流保护，属于本次实验范围外的专业配电系统。",
+          "review_question": "",
+          "decision": "用不到",
+          "action_name": ""
+        },
+        "右": {
+          "subject_type": "壁装预接线配电箱",
+          "form": "installed_component",
+          "subject_span": "Distribuidor de pared precableado, distribuidor de corriente para obras con interruptor FI",
+          "relation": "none",
+          "coverage": "unknown",
+          "action_sku": "",
+          "reference_span": "",
+          "reason": "预接线壁装配电箱含保护开关及插座，是专业安装电气组件；未足以认定大型系统，安装方式和经营边界需澄清，候选无有效参照。",
+          "review_question": "该配电箱需要固定接线安装还是插接供电，是否纳入需专业安装条件管理的施工配电用品？",
+          "decision": "观察",
+          "action_name": ""
+        }
+      },
+      "issue_class": "C",
+      "suggestion": "观察",
+      "literal_reason": "para obras con interruptor FI 明确施工配电用途；标题没有尺寸与具体接线方式。",
+      "facts_and_reference_check": "两侧主体都非普通插座；左whole_system与右installed_component是粒度差异，非误把配件当整机。",
+      "method_assessment": "无法客观裁定",
+      "owner_or_information_question": "专业施工配电是否排除待Owner确认。本轮保守观察不推翻前轮AI用不到建议，仅区分建议与批准。",
+      "human_decision": null,
+      "human_reviewer": null,
+      "authority": "AI_AUXILIARY_NOT_HUMAN_GOLD"
+    },
+    {
+      "review_id": "V018",
+      "source": {
+        "category_l1_original": "Hogar y cocina",
+        "record_id": "B0_84bacc4c6b66_011540",
+        "source_hash": "aa3f157c738daab0fa73b415e3413dd0e4ba5e162a7007954d36a34ec727ff1a",
+        "source_version": "amazon-merged-20261022-84bacc4c6b66ab7a",
+        "title_original": "KnitPro - KnitPro Acero Inoxidable Negro/Plata 360° Swivel Cable Intercambiable para Aguja de 100cm con Tapas Finales y Cable Key - 1 Conjunto"
+      },
+      "cohort": "random",
+      "sampling_reason": "全部决策分歧",
+      "different": true,
+      "masked_sides": {
+        "左": {
+          "subject_type": "可换头编织针连接线套装",
+          "form": "host_component",
+          "subject_span": "360° Swivel Cable Intercambiable para Aguja de 100cm con Tapas Finales y Cable Key - 1 Conjunto",
+          "relation": "none",
+          "coverage": "unknown",
+          "action_sku": "",
+          "reference_span": "",
+          "reason": "所售为带端帽和钥匙的可换针连接线，并非针或首饰；连接接口依赖未明，候选无有效参照。",
+          "review_question": "连接接口适用于哪些可换头编织针系统，是否属于需专用系统适配管理的配件？",
+          "decision": "观察",
+          "action_name": ""
+        },
+        "右": {
+          "subject_type": "可换编织针连接线套装",
+          "form": "ordinary_good",
+          "subject_span": "360° Swivel Cable Intercambiable para Aguja de 100cm con Tapas Finales y Cable Key",
+          "relation": "none",
+          "coverage": "unknown",
+          "action_sku": "",
+          "reference_span": "",
+          "reason": "售品是编织针连接线套装，属于普通手工附件；钢制首饰参考没有用途对应。",
+          "review_question": "",
+          "decision": "保留",
+          "action_name": ""
+        }
+      },
+      "issue_class": "C",
+      "suggestion": "观察",
+      "literal_reason": "Cable Intercambiable para Aguja con Tapas Finales 是可换编织针连接线；品牌并非通用保证。",
+      "facts_and_reference_check": "两侧主体正确；右可作手工候选，左具体接口问题也真实，不能裁为事实性误判。",
+      "method_assessment": "无法客观裁定",
+      "owner_or_information_question": "可换针接口类生活配件是否纳入；接口兼容未知保留，不凭品牌猜系统细节。",
+      "human_decision": null,
+      "human_reviewer": null,
+      "authority": "AI_AUXILIARY_NOT_HUMAN_GOLD"
+    },
+    {
+      "review_id": "V048",
+      "source": {
+        "category_l1_original": "Bricolaje y herramientas",
+        "record_id": "B0_84bacc4c6b66_007658",
+        "source_hash": "204365aa145d2ffbca13f997e437f1f745dbd3af3f5803907cc7d5765d207c95",
+        "source_version": "amazon-merged-20261022-84bacc4c6b66ab7a",
+        "title_original": "FAMATEL – Caja estanca IP55 | Tapa con tornillos | Con conos | 220x170x85 | Gris"
+      },
+      "cohort": "random",
+      "sampling_reason": "全部决策分歧",
+      "different": true,
+      "masked_sides": {
+        "左": {
+          "subject_type": "带螺钉盖防护箱",
+          "form": "installed_component",
+          "subject_span": "Caja estanca IP55 | Tapa con tornillos | Con conos | 220x170x85",
+          "relation": "none",
+          "coverage": "unknown",
+          "action_sku": "",
+          "reference_span": "",
+          "reason": "标题明确为带螺钉盖及锥形接口的IP55防护箱，可作基础DIY安装用品研究；不能当作普通储物盒，也未见专用系统依赖。",
+          "review_question": "",
+          "decision": "保留",
+          "action_name": ""
+        },
+        "右": {
+          "subject_type": "电气防护接线盒",
+          "form": "installed_component",
+          "subject_span": "Caja estanca IP55 | Tapa con tornillos | Con conos | 220x170x85",
+          "relation": "none",
+          "coverage": "unknown",
+          "action_sku": "",
+          "reference_span": "",
+          "reason": "带螺钉盖和锥形进线结构的IP55电气防护盒，非普通收纳箱，安装件范围待澄清。",
+          "review_question": "该盒用于何种接线安装，通用电气安装盒是否纳入研究范围？",
+          "decision": "观察",
+          "action_name": ""
+        }
+      },
+      "issue_class": "C",
+      "suggestion": "观察",
+      "literal_reason": "Caja estanca IP55 / Tapa con tornillos / Con conos 指防护盒，标题未写内部电路。",
+      "facts_and_reference_check": "两侧均未当普通储物箱；右推测接线应用需保留推测性质，左也不能保证普通通用安装。",
+      "method_assessment": "无法客观裁定",
+      "owner_or_information_question": "通用安装空盒经营范围未确认；不得推定盒内含保护器或已确定接线用途。",
+      "human_decision": null,
+      "human_reviewer": null,
+      "authority": "AI_AUXILIARY_NOT_HUMAN_GOLD"
+    },
+    {
+      "review_id": "V070",
+      "source": {
+        "category_l1_original": "Bricolaje y herramientas",
+        "record_id": "B0_84bacc4c6b66_023279",
+        "source_hash": "36f85d0eb3da8adbd4fc9123b08889f48a9e35a21d7e094d780c75be80e2b9f2",
+        "source_version": "amazon-merged-20261022-84bacc4c6b66ab7a",
+        "title_original": "Cinta de sellado autoadhesiva resistente al calor para estufa de leña, chimeneas de leña y estufas de leña, Junta hermética para alargador de chimenea y ahumadores (2 mm x 15 mm x 3 m)"
+      },
+      "cohort": "boundary",
+      "sampling_reason": "全部决策分歧",
+      "different": true,
+      "masked_sides": {
+        "左": {
+          "subject_type": "炉具自粘密封带",
+          "form": "ordinary_good",
+          "subject_span": "Cinta de sellado autoadhesiva resistente al calor para estufa de leña",
+          "relation": "same_type",
+          "coverage": "subject",
+          "action_sku": "3202390",
+          "reference_span": "Cinta de sellado",
+          "reason": "按尺寸使用的自粘密封带可作普通维修耗材延伸，耐热能力需后续验证。",
+          "review_question": "",
+          "decision": "保留",
+          "action_name": "Cinta de sellado"
+        },
+        "右": {
+          "subject_type": "炉具耐热密封带",
+          "form": "installed_component",
+          "subject_span": "Cinta de sellado autoadhesiva resistente al calor para estufa de leña",
+          "relation": "related_type",
+          "coverage": "subject",
+          "action_sku": "3202390",
+          "reference_span": "Cinta de sellado",
+          "reason": "炉具与烟道用耐热密封带，Action仅有一般密封带；其用途依赖耐温及安装条件，需明确相关经营边界。",
+          "review_question": "是否纳入炉具及烟道密封维护材料，并能确认适用温度和安装部位？",
+          "decision": "观察",
+          "action_name": "Cinta de sellado"
+        }
+      },
+      "issue_class": "C",
+      "suggestion": "观察",
+      "literal_reason": "Cinta de sellado ... para estufa de leña 是炉具密封维护材料，不是炉具整机。",
+      "facts_and_reference_check": "两侧主体正确；一般Cinta de sellado未证明耐热等级。左same_type是宽粒度，不证明同温度用途。",
+      "method_assessment": "无法客观裁定",
+      "owner_or_information_question": "炉具维护材料是否纳入；不因缺耐温检测报告就判内容错误，不从一般胶带补耐温性能。",
+      "human_decision": null,
+      "human_reviewer": null,
+      "authority": "AI_AUXILIARY_NOT_HUMAN_GOLD"
+    },
+    {
+      "review_id": "V074",
+      "source": {
+        "category_l1_original": "Hogar y cocina",
+        "record_id": "B0_84bacc4c6b66_016064",
+        "source_hash": "882fc564ac63994a1935947ca536c52fbee0ab386eab6d96cd34a4098c23a82d",
+        "source_version": "amazon-merged-20261022-84bacc4c6b66ab7a",
+        "title_original": "8 Piezas Placa Portadora Carril para Colgar, Placa Trasera de Fijación Placa Portadora Carril para Colgar Armarios Muebles de Pared"
+      },
+      "cohort": "boundary",
+      "sampling_reason": "全部决策分歧",
+      "different": true,
+      "masked_sides": {
+        "左": {
+          "subject_type": "壁柜挂轨固定板",
+          "form": "installed_component",
+          "subject_span": "8 Piezas Placa Portadora Carril para Colgar, Placa Trasera de Fijación Placa Portadora Carril para Colgar Armarios Muebles de Pared",
+          "relation": "host_only",
+          "coverage": "partial",
+          "action_sku": "3216159",
+          "reference_span": "Armario de pared",
+          "reason": "售卖的是壁柜挂轨承载固定板，参考为壁柜主件；通用性及安装配件范围待明确。",
+          "review_question": "这些固定板是通用壁柜五金还是特定挂轨系统专件，是否纳入安装配件范围？",
+          "decision": "观察",
+          "action_name": "Armario de pared"
+        },
+        "右": {
+          "subject_type": "壁柜悬挂固定板",
+          "form": "installed_component",
+          "subject_span": "8 Piezas Placa Portadora Carril para Colgar, Placa Trasera de Fijación Placa Portadora Carril para Colgar Armarios Muebles de Pared",
+          "relation": "host_only",
+          "coverage": "subject",
+          "action_sku": "3216159",
+          "reference_span": "Armario de pared",
+          "reason": "销售壁柜悬挂固定板多件装，非完整壁柜；未指定专用系统，可作普通家具五金研究，孔位及承载需后续选型核对。",
+          "review_question": "",
+          "decision": "保留",
+          "action_name": "Armario de pared"
+        }
+      },
+      "issue_class": "C",
+      "suggestion": "观察",
+      "literal_reason": "Placa Portadora ... Armarios Muebles de Pared 是壁柜悬挂固定板。",
+      "facts_and_reference_check": "两侧均识别部件及host_only；左partial和右subject均不能表示已由壁柜参照验证五金功能。",
+      "method_assessment": "无法客观裁定",
+      "owner_or_information_question": "安装五金范围及实际系统依赖待定；没有机型词不证明通用，也不证明专用。",
+      "human_decision": null,
+      "human_reviewer": null,
+      "authority": "AI_AUXILIARY_NOT_HUMAN_GOLD"
+    },
+    {
+      "review_id": "V003",
+      "source": {
+        "category_l1_original": "",
+        "record_id": "B0_84bacc4c6b66_018835",
+        "source_hash": "d204d79259728e50bbbfbb7edaf68d17630a93259668159af42cd0eff358f5a5",
+        "source_version": "amazon-merged-20261022-84bacc4c6b66ab7a",
+        "title_original": "SodaStream Gasador de agua Terra, incluye cilindro de Co2 para realizar hasta 60 litros de agua con gas, incluye dos botellas de 1 l y una botella de 0,5 l aptas para lavavajillas, color negro"
+      },
+      "cohort": "random",
+      "sampling_reason": "按原抽样层、来源类目及主题分层的风险覆盖抽查；非总体代表性样本",
+      "different": false,
+      "masked_sides": {
+        "左": {
+          "subject_type": "气泡水机套装",
+          "form": "bundle",
+          "subject_span": "Gasador de agua Terra, incluye cilindro de Co2",
+          "relation": "same_type",
+          "coverage": "partial",
+          "action_sku": "3213797",
+          "reference_span": "Botella de agua",
+          "reason": "气泡水机含气瓶和水瓶，适合作家用饮品器具扩展研究；参照仅对应套装水瓶，60升宣称未验证。",
+          "review_question": "",
+          "decision": "保留",
+          "action_name": "Botella de agua"
+        },
+        "右": {
+          "subject_type": "气泡水机套装",
+          "form": "bundle",
+          "subject_span": "Gasador de agua Terra, incluye cilindro de Co2",
+          "relation": "related_type",
+          "coverage": "partial",
+          "action_sku": "3213797",
+          "reference_span": "Botella de agua",
+          "reason": "售品是气泡水机与气瓶、水瓶套装，可作厨房用品延伸；水瓶参考仅覆盖附件，60升为标题宣称。",
+          "review_question": "",
+          "decision": "保留",
+          "action_name": "Botella de agua"
+        }
+      },
+      "issue_class": "B",
+      "suggestion": "保留",
+      "literal_reason": "Gasador de agua ... incluye cilindro ... botellas 是气泡水机组合；3213797只名为Botella de agua。",
+      "facts_and_reference_check": "两侧均认出整套。左same_type仅可限定到附带水瓶，右related_type也不能当整机同类；二者partial及文字已保留组件限制。",
+      "method_assessment": "双方有局部表达问题",
+      "owner_or_information_question": "保留研究建议不变；需在理由明确比较对象=水瓶，整套与瓶子的关系不等于同类。",
+      "human_decision": null,
+      "human_reviewer": null,
+      "authority": "AI_AUXILIARY_NOT_HUMAN_GOLD"
+    },
+    {
+      "review_id": "V004",
+      "source": {
+        "category_l1_original": "Hogar y cocina",
+        "record_id": "B0_84bacc4c6b66_016841",
+        "source_hash": "816921e19b76e471dcded7b6e3bc30f73868a5f1a311b25977e58604a6bb5baa",
+        "source_version": "amazon-merged-20261022-84bacc4c6b66ab7a",
+        "title_original": "Ravetard bolsas para celofán de sellado automático transparente 8x12cm, 400 Piezas Bolsas de Plástico OPP pequeño con puerto de sellado, prueba de polvo, para Fotos, Manualidades, joyas y regalos"
+      },
+      "cohort": "random",
+      "sampling_reason": "按原抽样层、来源类目及主题分层的风险覆盖抽查；非总体代表性样本",
+      "different": false,
+      "masked_sides": {
+        "左": {
+          "subject_type": "透明自封包装袋",
+          "form": "ordinary_good",
+          "subject_span": "bolsas para celofán de sellado automático transparente 8x12cm",
+          "relation": "related_type",
+          "coverage": "subject",
+          "action_sku": "3208197",
+          "reference_span": "Bolsas de regalo",
+          "reason": "透明自封OPP袋主体明确，可作日常包装耗材研究；礼品袋是相近包装类型，防尘宣称未验证。",
+          "review_question": "",
+          "decision": "保留",
+          "action_name": "Bolsas de regalo"
+        },
+        "右": {
+          "subject_type": "透明自封OPP袋",
+          "form": "ordinary_good",
+          "subject_span": "400 Piezas Bolsas de Plástico OPP pequeño con puerto de sellado",
+          "relation": "related_type",
+          "coverage": "subject",
+          "action_sku": "3208197",
+          "reference_span": "Bolsas de regalo",
+          "reason": "透明自封OPP小袋属于日常包装耗材，与礼品袋用途相关。",
+          "review_question": "",
+          "decision": "保留",
+          "action_name": "Bolsas de regalo"
+        }
+      },
+      "issue_class": "OK",
+      "suggestion": "保留",
+      "literal_reason": "Bolsas de Plástico OPP ... regalos 指透明包装袋。",
+      "facts_and_reference_check": "两侧主体正确；3208197礼品袋是相关包装类型，未声称同材质性能。",
+      "method_assessment": "未见可证实优劣",
+      "owner_or_information_question": "防尘性能未核实，留后续核验，不影响本轮识别。",
+      "human_decision": null,
+      "human_reviewer": null,
+      "authority": "AI_AUXILIARY_NOT_HUMAN_GOLD"
+    },
+    {
+      "review_id": "V005",
+      "source": {
+        "category_l1_original": "",
+        "record_id": "B0_84bacc4c6b66_017487",
+        "source_hash": "4fc46fbbfa33a5c0c3fdf5378d26bcdbeec8112ba1fb533232fc3f3f2bb7fe46",
+        "source_version": "amazon-merged-20261022-84bacc4c6b66ab7a",
+        "title_original": "Rowenta Boquilla Powerglide ZR903801, apta para aspiradoras Silence Force y X-Trem Power con sistema de clic RO64xx, RO63xx, algunos RO68xx, RO83xx, RO76xx, algunos RO69xx, algunos RO69xx, color negro"
+      },
+      "cohort": "random",
+      "sampling_reason": "按原抽样层、来源类目及主题分层的风险覆盖抽查；非总体代表性样本",
+      "different": false,
+      "masked_sides": {
+        "左": {
+          "subject_type": "吸尘器替换吸嘴",
+          "form": "host_component",
+          "subject_span": "Boquilla Powerglide ZR903801",
+          "relation": "same_type",
+          "coverage": "subject",
+          "action_sku": "2504548",
+          "reference_span": "Boquilla aspiradora",
+          "reason": "售品是指定机型卡扣吸嘴，参考同类明确，但专用主机配件范围待定。",
+          "review_question": "是否纳入指定机型吸嘴，且具体兼容哪些子型号？",
+          "decision": "观察",
+          "action_name": "Boquilla aspiradora"
+        },
+        "右": {
+          "subject_type": "专用吸尘器吸头",
+          "form": "host_component",
+          "subject_span": "Boquilla Powerglide ZR903801",
+          "relation": "same_type",
+          "coverage": "subject",
+          "action_sku": "2504548",
+          "reference_span": "Boquilla aspiradora",
+          "reason": "所售为指定系列和卡扣系统的吸尘器吸头；Action有同类吸头，但不能证明适配，专用配件经营范围待明确。",
+          "review_question": "是否纳入需按指定机型和卡扣系统管理适配的吸尘器专用吸头？",
+          "decision": "观察",
+          "action_name": "Boquilla aspiradora"
+        }
+      },
+      "issue_class": "C",
+      "suggestion": "观察",
+      "literal_reason": "Boquilla ... sistema de clic ... 指定系列吸嘴；2504548确为Boquilla aspiradora。",
+      "facts_and_reference_check": "两侧均正确区分吸头与吸尘器，同类功能不证明具体卡扣兼容。",
+      "method_assessment": "未见可证实优劣",
+      "owner_or_information_question": "是否纳入需按主机系统管理的吸嘴范围。",
+      "human_decision": null,
+      "human_reviewer": null,
+      "authority": "AI_AUXILIARY_NOT_HUMAN_GOLD"
+    },
+    {
+      "review_id": "V015",
+      "source": {
+        "category_l1_original": "Hogar y cocina",
+        "record_id": "B0_84bacc4c6b66_021638",
+        "source_hash": "61fa97e2cc49a2baaf25d81ff303fcf1ea1585ac3b492380fea297f2b90df298",
+        "source_version": "amazon-merged-20261022-84bacc4c6b66ab7a",
+        "title_original": "Vulli 523400 - Muñeco de Sophie la jirafa para el baño (colores surtidos) | Evolutiva | colchón hinchable | arco actividades | 3 posiciones | tumbado sentado protegido | cojín incluido | regalo bebé"
+      },
+      "cohort": "random",
+      "sampling_reason": "按原抽样层、来源类目及主题分层的风险覆盖抽查；非总体代表性样本",
+      "different": false,
+      "masked_sides": {
+        "左": {
+          "subject_type": "售品身份不明",
+          "form": "unknown",
+          "subject_span": "Vulli 523400 - Muñeco de Sophie la jirafa para el baño (colores surtidos) | Evolutiva | colchón hinchable | arco actividades | 3 posiciones | tumbado sentado protegido | cojín incluido | regalo bebé",
+          "relation": "related_type",
+          "coverage": "partial",
+          "action_sku": "3016204",
+          "reference_span": "Colchón hinchable",
+          "reason": "标题同时出现洗澡玩偶、充气垫及活动架，无法确认实际售品；充气床参考仅对应其中片段。",
+          "review_question": "实际售品是洗澡玩偶、婴儿充气活动垫，还是组合套装？",
+          "decision": "观察",
+          "action_name": "Colchón hinchable"
+        },
+        "右": {
+          "subject_type": "主体未确定",
+          "form": "unknown",
+          "subject_span": "Vulli 523400 - Muñeco de Sophie la jirafa para el baño (colores surtidos) | Evolutiva | colchón hinchable | arco actividades | 3 posiciones | tumbado sentado protegido | cojín incluido | regalo bebé",
+          "relation": "none",
+          "coverage": "unknown",
+          "action_sku": "",
+          "reference_span": "",
+          "reason": "标题同时描述洗澡玩偶、充气床垫和带活动拱架座垫，无法确定实际售物；不能用床垫参照替标题消歧。",
+          "review_question": "实际交付的是长颈鹿洗澡玩偶，还是含充气床垫、活动拱架和靠垫的婴儿用品组合？",
+          "decision": "观察",
+          "action_name": ""
+        }
+      },
+      "issue_class": "D",
+      "suggestion": "观察",
+      "literal_reason": "同一标题混有Muñeco ... baño、colchón hinchable、arco actividades。",
+      "facts_and_reference_check": "两侧均不强行定主体；右none比左将一个混杂片段绑定床垫更稳健。",
+      "method_assessment": "右：避免未消歧参照",
+      "owner_or_information_question": "实际交付玩偶还是活动垫组合须来源确认，经营规则无法补齐。",
+      "human_decision": null,
+      "human_reviewer": null,
+      "authority": "AI_AUXILIARY_NOT_HUMAN_GOLD"
+    },
+    {
+      "review_id": "V019",
+      "source": {
+        "category_l1_original": "Bricolaje y herramientas",
+        "record_id": "B0_84bacc4c6b66_020668",
+        "source_hash": "c8f40618b32c154cfb4022741f14001e83344d84dedd42dc3b6853a08e285d8c",
+        "source_version": "amazon-merged-20261022-84bacc4c6b66ab7a",
+        "title_original": "3 Piezas Mando Garaje Universal 433 MHz | Duplicador de Control Remoto para Puerta de Garaje, Clonador Inalámbrico de 4 Canales, Mando a Distancia Portátil"
+      },
+      "cohort": "random",
+      "sampling_reason": "按原抽样层、来源类目及主题分层的风险覆盖抽查；非总体代表性样本",
+      "different": false,
+      "masked_sides": {
+        "左": {
+          "subject_type": "车库门遥控器",
+          "form": "host_component",
+          "subject_span": "3 Piezas Mando Garaje Universal 433 MHz",
+          "relation": "category_only",
+          "coverage": "subject",
+          "action_sku": "2540255",
+          "reference_span": "Mando a distancia universal Grundig",
+          "reason": "车库门遥控器依赖门机编码协议，433 MHz及Universal字样不足以证明兼容；通用遥控器参照仅有宽泛类型关联。",
+          "review_question": "支持哪些固定码或滚动码协议及门机型号，是否纳入需协议适配管理的门机配件？",
+          "decision": "观察",
+          "action_name": "Mando a distancia universal Grundig"
+        },
+        "右": {
+          "subject_type": "车库门复制遥控器",
+          "form": "host_component",
+          "subject_span": "3 Piezas Mando Garaje Universal 433 MHz",
+          "relation": "related_type",
+          "coverage": "subject",
+          "action_sku": "2540255",
+          "reference_span": "Mando a distancia universal Grundig",
+          "reason": "433兆赫车库门复制遥控器依赖接收系统，通用遥控参考不能证明协议兼容，专用系统附件范围待定。",
+          "review_question": "支持哪些固定码或滚动码协议，是否纳入车库门系统专用附件？",
+          "decision": "观察",
+          "action_name": "Mando a distancia universal Grundig"
+        }
+      },
+      "issue_class": "C",
+      "suggestion": "观察",
+      "literal_reason": "Mando Garaje Universal 433 MHz 不能证明门机编码协议兼容。",
+      "facts_and_reference_check": "两侧均未当门机；Grundig泛称遥控器不能证明门机用途。左category_only较保守，右related_type仅可指广义遥控器。",
+      "method_assessment": "未见可证实优劣",
+      "owner_or_information_question": "门机协议类专用配件范围及支持协议待确认。",
+      "human_decision": null,
+      "human_reviewer": null,
+      "authority": "AI_AUXILIARY_NOT_HUMAN_GOLD"
+    },
+    {
+      "review_id": "V028",
+      "source": {
+        "category_l1_original": "",
+        "record_id": "B0_84bacc4c6b66_021763",
+        "source_hash": "a981a3e5721612adb1c91ed2b1415b083423ada22470fe4325bfa29c6d69e625",
+        "source_version": "amazon-merged-20261022-84bacc4c6b66ab7a",
+        "title_original": "WMF Lumero - Grill Gourmet 3 en 1, 3 funciones Raclette, Fondue, Grill iluminación LED, Gourmet, hasta 8 personas, hasta 1 L, acero inoxidable, antiadherente"
+      },
+      "cohort": "random",
+      "sampling_reason": "按原抽样层、来源类目及主题分层的风险覆盖抽查；非总体代表性样本",
+      "different": false,
+      "masked_sides": {
+        "左": {
+          "subject_type": "三合一桌面烤炉",
+          "form": "whole_machine",
+          "subject_span": "Grill Gourmet 3 en 1, 3 funciones Raclette, Fondue, Grill",
+          "relation": "same_type",
+          "coverage": "subject",
+          "action_sku": "3225025",
+          "reference_span": "Gourmet/raclette",
+          "reason": "三合一桌面烹饪小家电，与融奶酪烤炉参考直接相关。",
+          "review_question": "",
+          "decision": "保留",
+          "action_name": "Gourmet/raclette"
+        },
+        "右": {
+          "subject_type": "三合一桌面烹饪器",
+          "form": "whole_machine",
+          "subject_span": "Grill Gourmet 3 en 1, 3 funciones Raclette, Fondue, Grill",
+          "relation": "related_type",
+          "coverage": "subject",
+          "action_sku": "3225025",
+          "reference_span": "Gourmet/raclette",
+          "reason": "主体是三合一桌面烹饪器，可作家用小电器扩展研究；Action有Gourmet/raclette参照，但不能证明三种功能均相同。",
+          "review_question": "",
+          "decision": "保留",
+          "action_name": "Gourmet/raclette"
+        }
+      },
+      "issue_class": "B",
+      "suggestion": "保留",
+      "literal_reason": "Raclette, Fondue, Grill三种功能，3225025仅名为Gourmet/raclette。",
+      "facts_and_reference_check": "两侧主体清楚；右更明确说不能覆盖三功能，左同类可指Raclette商品族，不能当全部功能验证。",
+      "method_assessment": "右：功能覆盖说明更清楚",
+      "owner_or_information_question": "无需强制逐功能都有Action同款；具体性能另核实。",
+      "human_decision": null,
+      "human_reviewer": null,
+      "authority": "AI_AUXILIARY_NOT_HUMAN_GOLD"
+    },
+    {
+      "review_id": "V039",
+      "source": {
+        "category_l1_original": "Hogar y cocina",
+        "record_id": "B0_84bacc4c6b66_020949",
+        "source_hash": "c4e00929dc1c910cd4b0478a734d506bd41d1db4deca81a139fdaf9badcb6dce",
+        "source_version": "amazon-merged-20261022-84bacc4c6b66ab7a",
+        "title_original": "VELORA H&L Pizarra de Corcho 50 x 70 cm Madera Natural – Tablero de Corcho con Marco de Madera, Tablón de Anuncios para Oficina, Escuela y Hogar, Montaje Vertical u Horizontal"
+      },
+      "cohort": "random",
+      "sampling_reason": "按原抽样层、来源类目及主题分层的风险覆盖抽查；非总体代表性样本",
+      "different": false,
+      "masked_sides": {
+        "左": {
+          "subject_type": "木框软木公告板",
+          "form": "ordinary_good",
+          "subject_span": "Pizarra de Corcho 50 x 70 cm Madera Natural",
+          "relation": "related_type",
+          "coverage": "partial",
+          "action_sku": "3007380",
+          "reference_span": "Marco de fotos de madera",
+          "reason": "木框软木公告板属于普通家居办公用品，木相框只覆盖相近展示形式。",
+          "review_question": "",
+          "decision": "保留",
+          "action_name": "Marco de fotos de madera"
+        },
+        "右": {
+          "subject_type": "木框软木公告板",
+          "form": "ordinary_good",
+          "subject_span": "Pizarra de Corcho 50 x 70 cm Madera Natural",
+          "relation": "none",
+          "coverage": "unknown",
+          "action_sku": "",
+          "reference_span": "",
+          "reason": "木框软木公告板主体清楚，属于普通家居办公用品；木相框仅共享部分外观结构，无有效功能参照。",
+          "review_question": "",
+          "decision": "保留",
+          "action_name": ""
+        }
+      },
+      "issue_class": "B",
+      "suggestion": "保留",
+      "literal_reason": "Pizarra de Corcho 与Marco de fotos de madera，一个软木公告板一个木相框。",
+      "facts_and_reference_check": "两侧均认识软木板；左相关/partial仅靠木框结构弱，右不强行绑定更合理。",
+      "method_assessment": "右：拒绝宽泛参照",
+      "owner_or_information_question": "不是判软木板没有Action同类，仅本次提供的相框不够。",
+      "human_decision": null,
+      "human_reviewer": null,
+      "authority": "AI_AUXILIARY_NOT_HUMAN_GOLD"
+    },
+    {
+      "review_id": "V041",
+      "source": {
+        "category_l1_original": "Bricolaje y herramientas",
+        "record_id": "B0_84bacc4c6b66_022647",
+        "source_hash": "3dd7d68e6bd7fc6eb226a4d4f0b9507b49cd1e5792ef06af7727da2b49f98147",
+        "source_version": "amazon-merged-20261022-84bacc4c6b66ab7a",
+        "title_original": "Yardwe 10 Piezas Organizador de Estanterías Minoristas Empuje Automático | Plástico, Gestión de Baldas, Compatibilidad Versátil, Supermercados y Exposición Continua de Productos"
+      },
+      "cohort": "random",
+      "sampling_reason": "按原抽样层、来源类目及主题分层的风险覆盖抽查；非总体代表性样本",
+      "different": false,
+      "masked_sides": {
+        "左": {
+          "subject_type": "货架自动推货整理器",
+          "form": "ordinary_good",
+          "subject_span": "10 Piezas Organizador de Estanterías Minoristas Empuje Automático",
+          "relation": "category_only",
+          "coverage": "subject",
+          "action_sku": "3205401",
+          "reference_span": "Organizador",
+          "reason": "明确是十件货架推货整理器，可作为简单陈列用品扩展；普通Organizador只提供宽泛整理关联，不能证明同类。",
+          "review_question": "",
+          "decision": "保留",
+          "action_name": "Organizador"
+        },
+        "右": {
+          "subject_type": "货架自动前推整理件",
+          "form": "bundle",
+          "subject_span": "10 Piezas Organizador de Estanterías Minoristas Empuje Automático",
+          "relation": "category_only",
+          "coverage": "partial",
+          "action_sku": "3205401",
+          "reference_span": "Organizador",
+          "reason": "十件塑料货架前推整理件，属于轻型陈列用品延伸，未显示为大型系统；泛称整理器参考有限。",
+          "review_question": "",
+          "decision": "保留",
+          "action_name": "Organizador"
+        }
+      },
+      "issue_class": "B",
+      "suggestion": "保留",
+      "literal_reason": "Organizador de Estanterías Minoristas Empuje Automático 明确货架推货件；3205401仅Organizador。",
+      "facts_and_reference_check": "两侧主体正确，不是大型自动整机；泛称整理器连具体组件都未明，subject或partial均过于确定，应unknown。",
+      "method_assessment": "双方有局部表达问题",
+      "owner_or_information_question": "简单陈列件可作AI扩展研究建议，非正式经营批准；具体构造未给出。",
+      "human_decision": null,
+      "human_reviewer": null,
+      "authority": "AI_AUXILIARY_NOT_HUMAN_GOLD"
+    },
+    {
+      "review_id": "V043",
+      "source": {
+        "category_l1_original": "Hogar y cocina",
+        "record_id": "B0_84bacc4c6b66_004830",
+        "source_hash": "bc14360ec68f67a688feb8ff72dfbb482b09d4ed62da58988d7dc9e9bc3581aa",
+        "source_version": "amazon-merged-20261022-84bacc4c6b66ab7a",
+        "title_original": "Tapiz árbol de la Vida 150 x 130 cm Colgante de Pared Bohemio Negro | Decoración de Pared Bohemia para Salón, Dormitorio, Hogar"
+      },
+      "cohort": "random",
+      "sampling_reason": "按原抽样层、来源类目及主题分层的风险覆盖抽查；非总体代表性样本",
+      "different": false,
+      "masked_sides": {
+        "左": {
+          "subject_type": "墙面装饰挂毯",
+          "form": "ordinary_good",
+          "subject_span": "Tapiz árbol de la Vida 150 x 130 cm Colgante de Pared Bohemio Negro",
+          "relation": "category_only",
+          "coverage": "subject",
+          "action_sku": "3214944",
+          "reference_span": "Decoración de pared",
+          "reason": "墙挂装饰挂毯主体明确，属于家居日用品；Action墙饰原名仅支持宽泛装饰关联，未明确为挂毯。",
+          "review_question": "",
+          "decision": "保留",
+          "action_name": "Decoración de pared"
+        },
+        "右": {
+          "subject_type": "墙面装饰挂毯",
+          "form": "ordinary_good",
+          "subject_span": "Tapiz árbol de la Vida 150 x 130 cm Colgante de Pared Bohemio Negro",
+          "relation": "same_type",
+          "coverage": "subject",
+          "action_sku": "3214944",
+          "reference_span": "Decoración de pared",
+          "reason": "生命树图案挂毯属于普通墙饰，参考直接覆盖用途。",
+          "review_question": "",
+          "decision": "保留",
+          "action_name": "Decoración de pared"
+        }
+      },
+      "issue_class": "B",
+      "suggestion": "保留",
+      "literal_reason": "Tapiz是挂毯；Decoración de pared仅墙饰泛称。",
+      "facts_and_reference_check": "左category_only较稳健；右same_type没有支持挂毯形态的原名证据。",
+      "method_assessment": "左：纠正不当同类",
+      "owner_or_information_question": "保留决定不需改变，只降低参照断言。",
+      "human_decision": null,
+      "human_reviewer": null,
+      "authority": "AI_AUXILIARY_NOT_HUMAN_GOLD"
+    },
+    {
+      "review_id": "V044",
+      "source": {
+        "category_l1_original": "Bricolaje y herramientas",
+        "record_id": "B0_84bacc4c6b66_023295",
+        "source_hash": "36339625a488ce2f7847d7f2ed896e5c9c61fd1ba12fa067134125c3897fac73",
+        "source_version": "amazon-merged-20261022-84bacc4c6b66ab7a",
+        "title_original": "Rasqueta autonivelante de 56 cm con dientes de 5 mm y guantes | Marco de aluminio reforzado, construcción de acero inoxidable, fijación de remaches, para hormigón y pavimento"
+      },
+      "cohort": "random",
+      "sampling_reason": "按原抽样层、来源类目及主题分层的风险覆盖抽查；非总体代表性样本",
+      "different": false,
+      "masked_sides": {
+        "左": {
+          "subject_type": "地面齿刮板与手套组合",
+          "form": "bundle",
+          "subject_span": "Rasqueta autonivelante de 56 cm con dientes de 5 mm y guantes",
+          "relation": "same_type",
+          "coverage": "partial",
+          "action_sku": "2555736",
+          "reference_span": "Guantes",
+          "reason": "销售手动齿刮板及手套，可作DIY手工具扩展，不是工业整机；Action手套只覆盖组合中的手套。",
+          "review_question": "",
+          "decision": "保留",
+          "action_name": "Guantes"
+        },
+        "右": {
+          "subject_type": "地坪齿刮板套装",
+          "form": "bundle",
+          "subject_span": "Rasqueta autonivelante de 56 cm con dientes de 5 mm y guantes",
+          "relation": "related_type",
+          "coverage": "partial",
+          "action_sku": "2555736",
+          "reference_span": "Guantes",
+          "reason": "带手套的手动地坪齿刮板，可作DIY工具延伸；用途较专门但并非工业整机，参考仅覆盖手套。",
+          "review_question": "",
+          "decision": "保留",
+          "action_name": "Guantes"
+        }
+      },
+      "issue_class": "B",
+      "suggestion": "保留",
+      "literal_reason": "Rasqueta ... con dientes ... y guantes，主体为齿刮板附手套；参照只Guantes。",
+      "facts_and_reference_check": "两侧均认识套装且partial。左same_type若限定手套可成立；右related_type也不能当刮板参照，应明确部件比较。",
+      "method_assessment": "双方有局部表达问题",
+      "owner_or_information_question": "不把手套缺同款或刮板用途较专门直接当整机排除。",
+      "human_decision": null,
+      "human_reviewer": null,
+      "authority": "AI_AUXILIARY_NOT_HUMAN_GOLD"
+    },
+    {
+      "review_id": "V050",
+      "source": {
+        "category_l1_original": "Hogar y cocina",
+        "record_id": "B0_84bacc4c6b66_004475",
+        "source_hash": "7ede8487ff910a3a9350656bf951de46a4da1291b95a1e5d99d0df53551e5ef6",
+        "source_version": "amazon-merged-20261022-84bacc4c6b66ab7a",
+        "title_original": "Cecotec Tostadora de Café en Grano Eléctrica Roaster Booster. 1400W, Accesorio de Café, Tueste Automático o Manual, Tostado Homogéneo, Capacidad de 100-150gr, Tiempo Ajustable 8-15mins"
+      },
+      "cohort": "random",
+      "sampling_reason": "按原抽样层、来源类目及主题分层的风险覆盖抽查；非总体代表性样本",
+      "different": false,
+      "masked_sides": {
+        "左": {
+          "subject_type": "电动咖啡豆烘焙机",
+          "form": "whole_machine",
+          "subject_span": "Tostadora de Café en Grano Eléctrica Roaster Booster. 1400W",
+          "relation": "specific_need",
+          "coverage": "partial",
+          "action_sku": "3222766",
+          "reference_span": "Café en grano Palazzo Regular",
+          "reason": "100至150克容量的独立电动咖啡豆烘焙机，可作厨房小家电延伸；咖啡豆参考仅覆盖处理原料，均匀烘焙宣称未验证。",
+          "review_question": "",
+          "decision": "保留",
+          "action_name": "Café en grano Palazzo Regular"
+        },
+        "右": {
+          "subject_type": "电动咖啡豆烘焙机",
+          "form": "whole_machine",
+          "subject_span": "Tostadora de Café en Grano Eléctrica Roaster Booster. 1400W",
+          "relation": "host_only",
+          "coverage": "subject",
+          "action_sku": "3222766",
+          "reference_span": "Café en grano Palazzo Regular",
+          "reason": "标题独立明确电动咖啡豆烘焙机，100—150克容量支持小型厨房电器扩展研究；不是因Accesorio就判配件。Action咖啡豆仅是加工对象。",
+          "review_question": "",
+          "decision": "保留",
+          "action_name": "Café en grano Palazzo Regular"
+        }
+      },
+      "issue_class": "B",
+      "suggestion": "观察",
+      "literal_reason": "Tostadora de Café en Grano是烘豆机，Café en grano是加工对象。",
+      "facts_and_reference_check": "两侧主体正确；右host_only/加工对象比左specific_need更清楚，但subject不得表示机器覆盖。双方把专门加工机器直接扩展保留仍需经营确认。",
+      "method_assessment": "右：对象角色更清楚；经营结论未裁定",
+      "owner_or_information_question": "烘豆设备是否属于本轮生活小电器范围，标题容量不足以代替经营批准。",
+      "human_decision": null,
+      "human_reviewer": null,
+      "authority": "AI_AUXILIARY_NOT_HUMAN_GOLD"
+    },
+    {
+      "review_id": "V054",
+      "source": {
+        "category_l1_original": "Hogar y cocina",
+        "record_id": "B0_84bacc4c6b66_009290",
+        "source_hash": "50aa41a74d9ae64b7c1ae895c1f497696729eb24688c74ee567b4e9a23d7dc28",
+        "source_version": "amazon-merged-20261022-84bacc4c6b66ab7a",
+        "title_original": "HWGING Máquina de Tejer de Madera con Aguja y Columna Cerrada, Marco de Tejer para Principiantes, para Alfombras, Bufandas, Suéteres, 20x15 Cm"
+      },
+      "cohort": "random",
+      "sampling_reason": "按原抽样层、来源类目及主题分层的风险覆盖抽查；非总体代表性样本",
+      "different": false,
+      "masked_sides": {
+        "左": {
+          "subject_type": "木质编织框配针",
+          "form": "bundle",
+          "subject_span": "Máquina de Tejer de Madera con Aguja y Columna Cerrada, Marco de Tejer para Principiantes",
+          "relation": "same_type",
+          "coverage": "partial",
+          "action_sku": "3219937",
+          "reference_span": "Agujas de tejer",
+          "reason": "标题明确木质编织框及针，属于小型手工用品；Action织针只对应附带针具，不覆盖编织框。",
+          "review_question": "",
+          "decision": "保留",
+          "action_name": "Agujas de tejer"
+        },
+        "右": {
+          "subject_type": "木制编织框",
+          "form": "ordinary_good",
+          "subject_span": "Máquina de Tejer de Madera con Aguja y Columna Cerrada, Marco de Tejer para Principiantes",
+          "relation": "related_type",
+          "coverage": "partial",
+          "action_sku": "3219937",
+          "reference_span": "Agujas de tejer",
+          "reason": "20×15厘米木制编织框适合手作延伸，织针参考只覆盖相关工具。",
+          "review_question": "",
+          "decision": "保留",
+          "action_name": "Agujas de tejer"
+        }
+      },
+      "issue_class": "B",
+      "suggestion": "保留",
+      "literal_reason": "Marco de Tejer ... con Aguja 是编织框含针；Agujas de tejer仅针。",
+      "facts_and_reference_check": "两侧主体正确且partial；同类仅可用于针这一部件，related_type不代表机器或整框。",
+      "method_assessment": "双方有局部表达问题",
+      "owner_or_information_question": "明确比较部件后不需改变手工候选建议；标题Máquina不构成工业设备。",
+      "human_decision": null,
+      "human_reviewer": null,
+      "authority": "AI_AUXILIARY_NOT_HUMAN_GOLD"
+    },
+    {
+      "review_id": "V055",
+      "source": {
+        "category_l1_original": "Bricolaje y herramientas",
+        "record_id": "B0_84bacc4c6b66_006331",
+        "source_hash": "581a9e3f5290317aeb01dd74eb7b43084542a7df4f1bb875ed7f8edde989b129",
+        "source_version": "amazon-merged-20261022-84bacc4c6b66ab7a",
+        "title_original": "Dobladora de acrílico (600 mm, plástico, 1000 W, refrigeración por agua) | Metacrilato PVC termostato bomba de agua herramienta formadora ángulo temperatura regulable banco plegado fusión"
+      },
+      "cohort": "random",
+      "sampling_reason": "按原抽样层、来源类目及主题分层的风险覆盖抽查；非总体代表性样本",
+      "different": false,
+      "masked_sides": {
+        "左": {
+          "subject_type": "亚克力热折弯机",
+          "form": "whole_machine",
+          "subject_span": "Dobladora de acrílico (600 mm, plástico, 1000 W, refrigeración por agua)",
+          "relation": "none",
+          "coverage": "unknown",
+          "action_sku": "",
+          "reference_span": "",
+          "reason": "600毫米、水冷及温控的亚克力折弯加工整机，按实验研究口径超出普通DIY货盘；候选水泵钳和丙烯马克笔无有效参照。",
+          "review_question": "",
+          "decision": "用不到",
+          "action_name": ""
+        },
+        "右": {
+          "subject_type": "亚克力热弯机",
+          "form": "whole_machine",
+          "subject_span": "Dobladora de acrílico (600 mm, plástico, 1000 W, refrigeración por agua)",
+          "relation": "none",
+          "coverage": "unknown",
+          "action_sku": "",
+          "reference_span": "",
+          "reason": "600毫米、1000瓦且水冷的亚克力热弯整机属于专门加工设备，超出本次日常零售实验范围。",
+          "review_question": "",
+          "decision": "用不到",
+          "action_name": ""
+        }
+      },
+      "issue_class": "C",
+      "suggestion": "用不到",
+      "literal_reason": "Dobladora de acrílico、refrigeración por agua、bomba ... herramienta formadora指专门热弯加工设备。",
+      "facts_and_reference_check": "两侧均认出加工整机，非因1000W数字单独排除；与普通DIY手工材料不同。",
+      "method_assessment": "未见可证实优劣",
+      "owner_or_information_question": "按当前实验目标提出范围外建议；非Owner全品类批准，也不声称无人市场。",
+      "human_decision": null,
+      "human_reviewer": null,
+      "authority": "AI_AUXILIARY_NOT_HUMAN_GOLD"
+    },
+    {
+      "review_id": "V064",
+      "source": {
+        "category_l1_original": "Bricolaje y herramientas",
+        "record_id": "B0_84bacc4c6b66_015161",
+        "source_hash": "3f12925cc79788b34687dfa0b541fbac6cb7427e3e1c18f7e41759a476be4d83",
+        "source_version": "amazon-merged-20261022-84bacc4c6b66ab7a",
+        "title_original": "POPP® Electric Interruptor diferencial industrial TIPO AC corriente residual alterna 2 Polo 25A 30mA SERIE MSL8 (1P+N, 25A 30mA)"
+      },
+      "cohort": "boundary",
+      "sampling_reason": "按原抽样层、来源类目及主题分层的风险覆盖抽查；非总体代表性样本",
+      "different": false,
+      "masked_sides": {
+        "左": {
+          "subject_type": "漏电保护开关",
+          "form": "installed_component",
+          "subject_span": "Interruptor diferencial industrial TIPO AC corriente residual alterna 2 Polo 25A 30mA",
+          "relation": "none",
+          "coverage": "unknown",
+          "action_sku": "",
+          "reference_span": "",
+          "reason": "主体是固定电路用漏电保护开关，非插座开关；工业字样不足以排除，但专业安装及安全保护经营边界待确认。",
+          "review_question": "是否纳入需专业固定安装的漏电保护器，并能核实其保护规格与适用电路？",
+          "decision": "观察",
+          "action_name": ""
+        },
+        "右": {
+          "subject_type": "漏电保护器",
+          "form": "installed_component",
+          "subject_span": "Interruptor diferencial industrial TIPO AC corriente residual alterna 2 Polo 25A 30mA SERIE MSL8",
+          "relation": "category_only",
+          "coverage": "partial",
+          "action_sku": "3216807",
+          "reference_span": "Enchufe con interruptor Pro-max",
+          "reason": "这是配电安装用漏电保护器，需明确固定电气安装元件的范围；插座开关参考较弱。",
+          "review_question": "本次是否纳入需配电安装的25A、30mA漏电保护器？",
+          "decision": "观察",
+          "action_name": "Enchufe con interruptor Pro-max"
+        }
+      },
+      "issue_class": "C",
+      "suggestion": "观察",
+      "literal_reason": "Interruptor diferencial ... corriente residual 指漏电保护元件；Enchufe con interruptor为开关插座。",
+      "facts_and_reference_check": "两侧主体正确。左none避免弱引；右category_only虽谨慎，partial不能表示保护元件被插座部分覆盖。",
+      "method_assessment": "左：参照更谨慎；经营结论未裁定",
+      "owner_or_information_question": "专业配电范围需Owner确认，本轮观察不将前轮AI排除建议转成正式规则。",
+      "human_decision": null,
+      "human_reviewer": null,
+      "authority": "AI_AUXILIARY_NOT_HUMAN_GOLD"
+    },
+    {
+      "review_id": "V067",
+      "source": {
+        "category_l1_original": "Hogar y cocina",
+        "record_id": "B0_84bacc4c6b66_014871",
+        "source_hash": "22c520af2927d4e2633c75cd8599441131fa78b21daa01bb7c6993235538e0ac",
+        "source_version": "amazon-merged-20261022-84bacc4c6b66ab7a",
+        "title_original": "3 Piezas Organizador Gorras, Porta gorras, Incluye 8 pinzas para gorras | No es necesario taladrar, Para Guardar Sombreros Y Corbatas, Para Usar Detrás De Puertas O En Armarios, 2 Negras,1 Gris"
+      },
+      "cohort": "boundary",
+      "sampling_reason": "按原抽样层、来源类目及主题分层的风险覆盖抽查；非总体代表性样本",
+      "different": false,
+      "masked_sides": {
+        "左": {
+          "subject_type": "帽子收纳挂具",
+          "form": "bundle",
+          "subject_span": "3 Piezas Organizador Gorras, Porta gorras, Incluye 8 pinzas para gorras",
+          "relation": "same_type",
+          "coverage": "subject",
+          "action_sku": "3205401",
+          "reference_span": "Organizador",
+          "reason": "免钻孔帽子收纳挂具属于普通家居收纳，参考名称较宽泛。",
+          "review_question": "",
+          "decision": "保留",
+          "action_name": "Organizador"
+        },
+        "右": {
+          "subject_type": "帽子收纳挂件套装",
+          "form": "bundle",
+          "subject_span": "3 Piezas Organizador Gorras, Porta gorras, Incluye 8 pinzas para gorras",
+          "relation": "category_only",
+          "coverage": "unknown",
+          "action_sku": "3205401",
+          "reference_span": "Organizador",
+          "reason": "帽子收纳挂件多件装主体清楚，属普通收纳；Action仅泛称整理器，无法确认具体形态。",
+          "review_question": "",
+          "decision": "保留",
+          "action_name": "Organizador"
+        }
+      },
+      "issue_class": "B",
+      "suggestion": "保留",
+      "literal_reason": "帽子收纳挂件，与仅名Organizador之间没有具体结构证据。",
+      "facts_and_reference_check": "右category_only/unknown准确保留局限；左same_type/subject过强。",
+      "method_assessment": "右：纠正不当同类",
+      "owner_or_information_question": "主体明确，不因参照泛称而退回观察。",
+      "human_decision": null,
+      "human_reviewer": null,
+      "authority": "AI_AUXILIARY_NOT_HUMAN_GOLD"
+    },
+    {
+      "review_id": "V071",
+      "source": {
+        "category_l1_original": "Hogar y cocina",
+        "record_id": "B0_84bacc4c6b66_013184",
+        "source_hash": "d32cbecaa2977c6e314316a2aa1aae1bbba3b1692c2e32412c3d8ecc56a26b47",
+        "source_version": "amazon-merged-20261022-84bacc4c6b66ab7a",
+        "title_original": "para Estufa de 2 Tazas, Material de Aleación de Aluminio, Uso Resistente a la Corrosión, Seguridad, Diseño de Doble Cabezal, Olla Moka para (100ml) (Base redonda)"
+      },
+      "cohort": "boundary",
+      "sampling_reason": "按原抽样层、来源类目及主题分层的风险覆盖抽查；非总体代表性样本",
+      "different": false,
+      "masked_sides": {
+        "左": {
+          "subject_type": "摩卡壶",
+          "form": "ordinary_good",
+          "subject_span": "Olla Moka para (100ml) (Base redonda)",
+          "relation": "specific_need",
+          "coverage": "subject",
+          "action_sku": "2557964",
+          "reference_span": "Taza",
+          "reason": "后半句独立指明100毫升圆底摩卡壶，非前段杯数所指的杯；Action杯仅共享咖啡饮用需求，可按普通咖啡器具研究。",
+          "review_question": "",
+          "decision": "保留",
+          "action_name": "Taza"
+        },
+        "右": {
+          "subject_type": "摩卡壶",
+          "form": "ordinary_good",
+          "subject_span": "Olla Moka para (100ml) (Base redonda)",
+          "relation": "specific_need",
+          "coverage": "partial",
+          "action_sku": "2557964",
+          "reference_span": "Taza",
+          "reason": "后段独立名称指向100毫升圆底摩卡壶，属于普通咖啡器具；杯子参考仅关联饮用需求。",
+          "review_question": "",
+          "decision": "保留",
+          "action_name": "Taza"
+        }
+      },
+      "issue_class": "D",
+      "suggestion": "观察",
+      "literal_reason": "标题以para Estufa de 2 Tazas开头，尾部Olla Moka para (100ml)和Doble Cabezal混杂。",
+      "facts_and_reference_check": "两侧均确定为摩卡壶，但销售主体词链残缺；不能仅抓Olla Moka忽略前后冲突。杯子也非壶或其已确认部件。",
+      "method_assessment": "双方共同过早确定主体",
+      "owner_or_information_question": "须确认交付完整壶还是炉用组件；本轮保守AI判断，未查实官网，不伪称已证标题错误。",
+      "human_decision": null,
+      "human_reviewer": null,
+      "authority": "AI_AUXILIARY_NOT_HUMAN_GOLD"
+    },
+    {
+      "review_id": "V079",
+      "source": {
+        "category_l1_original": "Bricolaje y herramientas",
+        "record_id": "B0_84bacc4c6b66_007249",
+        "source_hash": "476c4b89acb9a51492a0afbad8b829d0663138373abf3303cda4ce07f3ff4114",
+        "source_version": "amazon-merged-20261022-84bacc4c6b66ab7a",
+        "title_original": "Estufa de Leña Eco Design Bayonne Premium"
+      },
+      "cohort": "boundary",
+      "sampling_reason": "按原抽样层、来源类目及主题分层的风险覆盖抽查；非总体代表性样本",
+      "different": false,
+      "masked_sides": {
+        "左": {
+          "subject_type": "燃木取暖炉",
+          "form": "whole_machine",
+          "subject_span": "Estufa de Leña Eco Design Bayonne Premium",
+          "relation": "none",
+          "coverage": "unknown",
+          "action_sku": "",
+          "reference_span": "",
+          "reason": "主体为燃木炉，涉及排烟与安装条件，经营边界待明确；候选无有效参照。",
+          "review_question": "该炉是否需要固定烟道及专业安装，此类供暖设备是否纳入研究？",
+          "decision": "观察",
+          "action_name": ""
+        },
+        "右": {
+          "subject_type": "燃木取暖炉",
+          "form": "whole_machine",
+          "subject_span": "Estufa de Leña Eco Design Bayonne Premium",
+          "relation": "none",
+          "coverage": "unknown",
+          "action_sku": "",
+          "reference_span": "",
+          "reason": "实际为燃木炉，涉及烟道和安装条件，需厘清是否属于本次家居延伸范围；手工用品参考无关。",
+          "review_question": "该炉需要怎样的固定安装和排烟设施，是否纳入本次供暖设备研究？",
+          "decision": "观察",
+          "action_name": ""
+        }
+      },
+      "issue_class": "C",
+      "suggestion": "观察",
+      "literal_reason": "Estufa de Leña明确燃木炉，但没有烟道安装和大小信息。",
+      "facts_and_reference_check": "两侧识别正确；不把需专业固定安装推定为已证事实，均保留经营问题。",
+      "method_assessment": "未见可证实优劣",
+      "owner_or_information_question": "燃烧取暖整机是否纳入，实际安装条件另核实。",
+      "human_decision": null,
+      "human_reviewer": null,
+      "authority": "AI_AUXILIARY_NOT_HUMAN_GOLD"
+    },
+    {
+      "review_id": "V087",
+      "source": {
+        "category_l1_original": "Hogar y cocina",
+        "record_id": "B0_84bacc4c6b66_015407",
+        "source_hash": "18682ad93517b5a831088218466f3a4ee05eee1474034a02fed359e0804a6acb",
+        "source_version": "amazon-merged-20261022-84bacc4c6b66ab7a",
+        "title_original": "Pasabahçe Timeless Juego de té de 12 piezas para 6 personas, volumen 132 ml, vasos turco con platillo, cay Bardagi Seti"
+      },
+      "cohort": "confusing",
+      "sampling_reason": "按原抽样层、来源类目及主题分层的风险覆盖抽查；非总体代表性样本",
+      "different": false,
+      "masked_sides": {
+        "左": {
+          "subject_type": "茶杯碟套装",
+          "form": "bundle",
+          "subject_span": "Pasabahçe Timeless Juego de té de 12 piezas para 6 personas, volumen 132 ml, vasos turco con platillo",
+          "relation": "same_type",
+          "coverage": "partial",
+          "action_sku": "2539609",
+          "reference_span": "Vasos de té Pasabahce Aida",
+          "reason": "六人用茶杯碟套装属于日常餐具；参考对应茶杯，未说明杯碟及件数配置。",
+          "review_question": "",
+          "decision": "保留",
+          "action_name": "Vasos de té Pasabahce Aida"
+        },
+        "右": {
+          "subject_type": "茶杯碟套装",
+          "form": "bundle",
+          "subject_span": "Juego de té de 12 piezas para 6 personas, volumen 132 ml, vasos turco con platillo",
+          "relation": "same_type",
+          "coverage": "partial",
+          "action_sku": "2539609",
+          "reference_span": "Vasos de té Pasabahce Aida",
+          "reason": "12件杯碟组合构成明确；参照仅覆盖茶杯，不能代表整套杯碟。",
+          "review_question": "",
+          "decision": "保留",
+          "action_name": "Vasos de té Pasabahce Aida"
+        }
+      },
+      "issue_class": "OK",
+      "suggestion": "保留",
+      "literal_reason": "Juego de té ... vasos ... con platillo明确杯碟组合；参照Vasos de té仅杯。",
+      "facts_and_reference_check": "两侧partial并指明杯子，same_type可限定杯组件，不表示完整套装覆盖，未见具体错误。",
+      "method_assessment": "未见可证实优劣",
+      "owner_or_information_question": "尺寸与配置匹配不由Action同款保证；无需因杯碟组合观察。",
+      "human_decision": null,
+      "human_reviewer": null,
+      "authority": "AI_AUXILIARY_NOT_HUMAN_GOLD"
+    },
+    {
+      "review_id": "V090",
+      "source": {
+        "category_l1_original": "Bricolaje y herramientas",
+        "record_id": "B0_84bacc4c6b66_018416",
+        "source_hash": "bdb66b7b8ec977c8127cdfe5a380b38e84a8bf4604fcc6d2e7b1318cddf16cc9",
+        "source_version": "amazon-merged-20261022-84bacc4c6b66ab7a",
+        "title_original": "Valvula Seguridad Válvula de retención de paraguas grande Cruze 1.4 Válvula de retención de paraguas de silicona fluorada de combustible de caucho 10 piezas válvula reductora"
+      },
+      "cohort": "confusing",
+      "sampling_reason": "按原抽样层、来源类目及主题分层的风险覆盖抽查；非总体代表性样本",
+      "different": false,
+      "masked_sides": {
+        "左": {
+          "subject_type": "疑似专用伞形止回阀",
+          "form": "host_component",
+          "subject_span": "Válvula de retención de paraguas grande Cruze 1.4",
+          "relation": "none",
+          "coverage": "unknown",
+          "action_sku": "",
+          "reference_span": "",
+          "reason": "标题指向Cruze 1.4相关伞形止回阀，而非雨伞；具体适配系统和安装位置不清，需核实专用零件范围。",
+          "review_question": "这10件阀用于Cruze 1.4的哪个系统和安装位置，是否为专用维修零件？",
+          "decision": "观察",
+          "action_name": ""
+        },
+        "右": {
+          "subject_type": "疑似专用止回阀",
+          "form": "host_component",
+          "subject_span": "Válvula de retención de paraguas grande Cruze 1.4",
+          "relation": "none",
+          "coverage": "unknown",
+          "action_sku": "",
+          "reference_span": "",
+          "reason": "标题指向Cruze 1.4用阀件，混有止回与减压描述；paraguas不能据此理解为雨伞商品。",
+          "review_question": "实际是何种阀件、用于哪个部位，是否属于Cruze 1.4专用维修件？",
+          "decision": "观察",
+          "action_name": ""
+        }
+      },
+      "issue_class": "D",
+      "suggestion": "观察",
+      "literal_reason": "Cruze 1.4阀件标题混有止回与减压词。",
+      "facts_and_reference_check": "两侧都没有当雨伞；疑似阀件合理，但具体系统/结构不确定。",
+      "method_assessment": "未见可证实优劣",
+      "owner_or_information_question": "阀门种类及安装位置须来源消歧，不由常识填补。",
+      "human_decision": null,
+      "human_reviewer": null,
+      "authority": "AI_AUXILIARY_NOT_HUMAN_GOLD"
+    },
+    {
+      "review_id": "V096",
+      "source": {
+        "category_l1_original": "Hogar y cocina",
+        "record_id": "B0_84bacc4c6b66_007924",
+        "source_hash": "74fe2e4d197d73472378d9bb3afa43f053eebb379ce256eeee7353573a859fb4",
+        "source_version": "amazon-merged-20261022-84bacc4c6b66ab7a",
+        "title_original": "Fokenzary Herramientas de pintura de diamantes, marco de fotos blanco con plexiglás y cartulina para kits de pintura de diamantes de 30 x 40 cm"
+      },
+      "cohort": "confusing",
+      "sampling_reason": "按原抽样层、来源类目及主题分层的风险覆盖抽查；非总体代表性样本",
+      "different": false,
+      "masked_sides": {
+        "左": {
+          "subject_type": "钻石画展示相框",
+          "form": "universal_accessory",
+          "subject_span": "marco de fotos blanco con plexiglás y cartulina para kits de pintura de diamantes de 30 x 40 cm",
+          "relation": "specific_need",
+          "coverage": "partial",
+          "action_sku": "3205989",
+          "reference_span": "Pintura de diamantes",
+          "reason": "独立命名的所售物为配有机玻璃及卡纸的相框，属于普通展示配件；钻石画参考关联被展示作品。",
+          "review_question": "",
+          "decision": "保留",
+          "action_name": "Pintura de diamantes"
+        },
+        "右": {
+          "subject_type": "钻石画装裱相框",
+          "form": "ordinary_good",
+          "subject_span": "marco de fotos blanco con plexiglás y cartulina para kits de pintura de diamantes de 30 x 40 cm",
+          "relation": "host_only",
+          "coverage": "subject",
+          "action_sku": "3205989",
+          "reference_span": "Pintura de diamantes",
+          "reason": "实际销售带有机玻璃及卡纸的相框；钻石画是装裱对象，参照仅为使用对象，普通画框仍可研究。",
+          "review_question": "",
+          "decision": "保留",
+          "action_name": "Pintura de diamantes"
+        }
+      },
+      "issue_class": "B",
+      "suggestion": "保留",
+      "literal_reason": "marco de fotos是相框；Pintura de diamantes是被装裱作品。",
+      "facts_and_reference_check": "两侧识别相框；右host_only明确使用对象，左specific_need/partial不能证明相框组件已匹配。",
+      "method_assessment": "右：纠正对象角色",
+      "owner_or_information_question": "保留日用画框建议不变；原Action钻石画并不是画框同类。",
+      "human_decision": null,
+      "human_reviewer": null,
+      "authority": "AI_AUXILIARY_NOT_HUMAN_GOLD"
+    }
+  ],
+  "reference_differences": {
+    "relation": [
+      "V001",
+      "V003",
+      "V007",
+      "V009",
+      "V012",
+      "V015",
+      "V019",
+      "V022",
+      "V023",
+      "V028",
+      "V030",
+      "V033",
+      "V039",
+      "V043",
+      "V044",
+      "V049",
+      "V050",
+      "V054",
+      "V057",
+      "V061",
+      "V064",
+      "V066",
+      "V067",
+      "V070",
+      "V073",
+      "V080",
+      "V083",
+      "V091",
+      "V094",
+      "V096"
+    ],
+    "coverage": [
+      "V001",
+      "V002",
+      "V015",
+      "V023",
+      "V030",
+      "V039",
+      "V041",
+      "V042",
+      "V047",
+      "V050",
+      "V061",
+      "V062",
+      "V064",
+      "V067",
+      "V071",
+      "V074",
+      "V077",
+      "V080",
+      "V082",
+      "V083",
+      "V091",
+      "V094",
+      "V096"
+    ],
+    "action_sku": [
+      "V001",
+      "V009",
+      "V015",
+      "V023",
+      "V030",
+      "V039",
+      "V064",
+      "V080",
+      "V083",
+      "V098"
+    ]
+  },
+  "reference_union40": [
+    {
+      "review_id": "V001",
+      "source": {
+        "category_l1_original": "Bricolaje y herramientas",
+        "record_id": "B0_84bacc4c6b66_011199",
+        "source_hash": "1af95bd2737e5e57569e302f1fb12c661cb4e21d24e49f1d4c5716ddcd154ad4",
+        "source_version": "amazon-merged-20261022-84bacc4c6b66ab7a",
+        "title_original": "KOVEN Soportes de abrazadera para persiana enrollable, 6 pares | Blanco, sin taladro, para ventanas de PVC y madera"
+      },
+      "masked_sides": {
+        "左": {
+          "subject_type": "卷帘夹持支架",
+          "form": "installed_component",
+          "subject_span": "Soportes de abrazadera para persiana enrollable, 6 pares",
+          "relation": "category_only",
+          "coverage": "subject",
+          "action_sku": "3005729",
+          "reference_span": "Soportes para estantes",
+          "reason": "卷帘夹持支架主体明确，可作普通安装五金研究；层板支架仅为宽泛关联，适配尺寸后续核对。",
+          "review_question": "",
+          "decision": "保留",
+          "action_name": "Soportes para estantes"
+        },
+        "右": {
+          "subject_type": "卷帘夹式支架",
+          "form": "installed_component",
+          "subject_span": "Soportes de abrazadera para persiana enrollable",
+          "relation": "none",
+          "coverage": "unknown",
+          "action_sku": "",
+          "reference_span": "",
+          "reason": "售品是卷帘夹式支架，属于特定安装配件，需明确适配与经营范围。",
+          "review_question": "该支架适配哪些卷帘结构，是否纳入专用安装配件研究？",
+          "decision": "观察",
+          "action_name": ""
+        }
+      },
+      "assessment": "equivalent",
+      "reason": "两侧均未称层板支架与卷帘夹具同类；none与category_only可并存，subject仅可能指参照对象层级。",
+      "unblinding": {
+        "左": "B",
+        "右": "A"
+      },
+      "authority": "AI_AUXILIARY_NOT_HUMAN_GOLD"
+    },
+    {
+      "review_id": "V002",
+      "source": {
+        "category_l1_original": "Hogar y cocina",
+        "record_id": "B0_84bacc4c6b66_005247",
+        "source_hash": "7e308febc204679a66fdbf2b859f1f295113186f8c22c4a27d9324b8441e9b1c",
+        "source_version": "amazon-merged-20261022-84bacc4c6b66ab7a",
+        "title_original": "Cricut Vinilo Adhesivo Permanente - Rollo de Vinilo para Cricut - 30.5 cm x 3 m - Negro - Vinilo Permanente para Manualidades, Decoración, Ventanas y Paredes"
+      },
+      "masked_sides": {
+        "左": {
+          "subject_type": "永久自粘乙烯基卷材",
+          "form": "ordinary_good",
+          "subject_span": "Vinilo Adhesivo Permanente - Rollo de Vinilo para Cricut",
+          "relation": "specific_need",
+          "coverage": "subject",
+          "action_sku": "3214944",
+          "reference_span": "Decoración de pared",
+          "reason": "所售为自粘乙烯基卷材，属于手工材料；墙饰参照只支持装饰需求，不证明材料同类。",
+          "review_question": "",
+          "decision": "保留",
+          "action_name": "Decoración de pared"
+        },
+        "右": {
+          "subject_type": "永久自粘乙烯基卷材",
+          "form": "ordinary_good",
+          "subject_span": "Vinilo Adhesivo Permanente - Rollo de Vinilo para Cricut",
+          "relation": "specific_need",
+          "coverage": "partial",
+          "action_sku": "3214944",
+          "reference_span": "Decoración de pared",
+          "reason": "永久自粘乙烯基卷材属于手工耗材；墙饰参考仅覆盖装饰用途。",
+          "review_question": "",
+          "decision": "保留",
+          "action_name": "Decoración de pared"
+        }
+      },
+      "assessment": "equivalent",
+      "reason": "墙饰成品与乙烯基卷材共享装饰需求，未证明同材料；subject/partial不是已证纠错。",
+      "unblinding": {
+        "左": "B",
+        "右": "A"
+      },
+      "authority": "AI_AUXILIARY_NOT_HUMAN_GOLD"
+    },
+    {
+      "review_id": "V003",
+      "source": {
+        "category_l1_original": "",
+        "record_id": "B0_84bacc4c6b66_018835",
+        "source_hash": "d204d79259728e50bbbfbb7edaf68d17630a93259668159af42cd0eff358f5a5",
+        "source_version": "amazon-merged-20261022-84bacc4c6b66ab7a",
+        "title_original": "SodaStream Gasador de agua Terra, incluye cilindro de Co2 para realizar hasta 60 litros de agua con gas, incluye dos botellas de 1 l y una botella de 0,5 l aptas para lavavajillas, color negro"
+      },
+      "masked_sides": {
+        "左": {
+          "subject_type": "气泡水机套装",
+          "form": "bundle",
+          "subject_span": "Gasador de agua Terra, incluye cilindro de Co2",
+          "relation": "same_type",
+          "coverage": "partial",
+          "action_sku": "3213797",
+          "reference_span": "Botella de agua",
+          "reason": "气泡水机含气瓶和水瓶，适合作家用饮品器具扩展研究；参照仅对应套装水瓶，60升宣称未验证。",
+          "review_question": "",
+          "decision": "保留",
+          "action_name": "Botella de agua"
+        },
+        "右": {
+          "subject_type": "气泡水机套装",
+          "form": "bundle",
+          "subject_span": "Gasador de agua Terra, incluye cilindro de Co2",
+          "relation": "related_type",
+          "coverage": "partial",
+          "action_sku": "3213797",
+          "reference_span": "Botella de agua",
+          "reason": "售品是气泡水机与气瓶、水瓶套装，可作厨房用品延伸；水瓶参考仅覆盖附件，60升为标题宣称。",
+          "review_question": "",
+          "decision": "保留",
+          "action_name": "Botella de agua"
+        }
+      },
+      "assessment": "both_need_scope",
+      "reason": "两侧均partial且说明水瓶；必须说明same_type只指水瓶部件，不能把不同枚举直接计成优劣。",
+      "unblinding": {
+        "左": "B",
+        "右": "A"
+      },
+      "authority": "AI_AUXILIARY_NOT_HUMAN_GOLD"
+    },
+    {
+      "review_id": "V007",
+      "source": {
+        "category_l1_original": "Hogar y cocina",
+        "record_id": "B0_84bacc4c6b66_006899",
+        "source_hash": "c8af6ca038bd664d5c76a64577adcd999f395e5d0c481a195c990f2c742d5e0c",
+        "source_version": "amazon-merged-20261022-84bacc4c6b66ab7a",
+        "title_original": "Eliminador de Olores Especial para de Automóvil: Elimina Olores y Humedad, Destruye Hongos y Bacterias, Uso Fácil y Rápido - Aire Fresco y Limpio en Tu Coche 150ml, Olor Piruleta - 1 Unidad"
+      },
+      "masked_sides": {
+        "左": {
+          "subject_type": "车用除味剂",
+          "form": "ordinary_good",
+          "subject_span": "Eliminador de Olores Especial para de Automóvil",
+          "relation": "specific_need",
+          "coverage": "subject",
+          "action_sku": "3221863",
+          "reference_span": "Neutralizador de olores para el baño Daili",
+          "reason": "车用除味剂属于日常清洁延伸；浴室除味剂仅共享除味需求，除湿、杀菌及除霉宣称均未验证。",
+          "review_question": "",
+          "decision": "保留",
+          "action_name": "Neutralizador de olores para el baño Daili"
+        },
+        "右": {
+          "subject_type": "车用除味剂",
+          "form": "ordinary_good",
+          "subject_span": "Eliminador de Olores Especial para de Automóvil",
+          "relation": "related_type",
+          "coverage": "subject",
+          "action_sku": "3221863",
+          "reference_span": "Neutralizador de olores para el baño Daili",
+          "reason": "车用除味剂是清洁用品合理延伸；浴室除味剂为相关参考，除湿及杀菌宣称未验证。",
+          "review_question": "",
+          "decision": "保留",
+          "action_name": "Neutralizador de olores para el baño Daili"
+        }
+      },
+      "assessment": "equivalent",
+      "reason": "车用与浴室除味品的相近类型/具体除味需求均可解释，无性能等同。",
+      "unblinding": {
+        "左": "B",
+        "右": "A"
+      },
+      "authority": "AI_AUXILIARY_NOT_HUMAN_GOLD"
+    },
+    {
+      "review_id": "V009",
+      "source": {
+        "category_l1_original": "Hogar y cocina",
+        "record_id": "B0_84bacc4c6b66_000669",
+        "source_hash": "1d6cc3807c96b15df73f971660a35e31e5634ab18e4328e6e4ef03c107771fc7",
+        "source_version": "amazon-merged-20261022-84bacc4c6b66ab7a",
+        "title_original": "Kit de Accesorios de 11 Piezas Compatible con Stanley Cup, Tapas para Pajitas, Tapa Anti Goteo y Funda de Silicona, Set para Vaso Stanley Quencher 1.2L (40 oz) y 850ml (30 oz), Morado"
+      },
+      "masked_sides": {
+        "左": {
+          "subject_type": "饮水杯硅胶配件套装",
+          "form": "bundle",
+          "subject_span": "Kit de Accesorios de 11 Piezas Compatible con Stanley Cup, Tapas para Pajitas, Tapa Anti Goteo y Funda de Silicona",
+          "relation": "category_only",
+          "coverage": "unknown",
+          "action_sku": "3216736",
+          "reference_span": "Set de accesorios",
+          "reason": "售品是杯用硅胶配件套装，属于普通厨房附件；参考名称过泛，无法确认具体覆盖。",
+          "review_question": "",
+          "decision": "保留",
+          "action_name": "Set de accesorios"
+        },
+        "右": {
+          "subject_type": "专用水杯配件套装",
+          "form": "bundle",
+          "subject_span": "Kit de Accesorios de 11 Piezas Compatible con Stanley Cup, Tapas para Pajitas, Tapa Anti Goteo y Funda de Silicona",
+          "relation": "none",
+          "coverage": "unknown",
+          "action_sku": "",
+          "reference_span": "",
+          "reason": "套装明确含吸管盖、防滴盖和硅胶套，但指定杯型尺寸；泛称配件参照无法确认类型，专用适配经营范围待定。",
+          "review_question": "是否纳入需按Quencher具体杯型及容量区分适配的专用杯配件套装？",
+          "decision": "观察",
+          "action_name": ""
+        }
+      },
+      "assessment": "right_more_cautious",
+      "reason": "泛称配件无法确认杯配件；右none更谨慎，但左unknown/category_only已表达不足，非明确事实纠错。",
+      "unblinding": {
+        "左": "A",
+        "右": "B"
+      },
+      "authority": "AI_AUXILIARY_NOT_HUMAN_GOLD"
+    },
+    {
+      "review_id": "V012",
+      "source": {
+        "category_l1_original": "Bricolaje y herramientas",
+        "record_id": "B0_84bacc4c6b66_024646",
+        "source_hash": "7f51ad48c99cad78e70d41bf0c9873ec554522a26e19d879c1867d2044a83aca",
+        "source_version": "amazon-merged-20261022-84bacc4c6b66ab7a",
+        "title_original": "Bolsa Caddy para productos de limpieza, organizador de limpieza portátil XXL con asa y correa para el hombro para coche, baño grande y hogar, bolsa de limpieza para guardar ordenadamente los"
+      },
+      "masked_sides": {
+        "左": {
+          "subject_type": "清洁用品收纳提袋",
+          "form": "ordinary_good",
+          "subject_span": "Bolsa Caddy para productos de limpieza",
+          "relation": "category_only",
+          "coverage": "subject",
+          "action_sku": "3222822",
+          "reference_span": "Bolsa de tela",
+          "reason": "标题虽截断，已明确为清洁用品收纳提袋；布袋仅有宽泛袋类关联，不影响普通收纳用品研究。",
+          "review_question": "",
+          "decision": "保留",
+          "action_name": "Bolsa de tela"
+        },
+        "右": {
+          "subject_type": "便携清洁用品收纳袋",
+          "form": "ordinary_good",
+          "subject_span": "Bolsa Caddy para productos de limpieza, organizador de limpieza portátil XXL con asa y correa para el hombro",
+          "relation": "related_type",
+          "coverage": "subject",
+          "action_sku": "3222822",
+          "reference_span": "Bolsa de tela",
+          "reason": "售品是带提手和肩带的清洁收纳袋，属于日常收纳；布袋参考用途较泛。",
+          "review_question": "",
+          "decision": "保留",
+          "action_name": "Bolsa de tela"
+        }
+      },
+      "assessment": "equivalent",
+      "reason": "布袋与清洁收纳袋是广义袋类关联，双方均承认用途泛，未证明确优劣。",
+      "unblinding": {
+        "左": "B",
+        "右": "A"
+      },
+      "authority": "AI_AUXILIARY_NOT_HUMAN_GOLD"
+    },
+    {
+      "review_id": "V015",
+      "source": {
+        "category_l1_original": "Hogar y cocina",
+        "record_id": "B0_84bacc4c6b66_021638",
+        "source_hash": "61fa97e2cc49a2baaf25d81ff303fcf1ea1585ac3b492380fea297f2b90df298",
+        "source_version": "amazon-merged-20261022-84bacc4c6b66ab7a",
+        "title_original": "Vulli 523400 - Muñeco de Sophie la jirafa para el baño (colores surtidos) | Evolutiva | colchón hinchable | arco actividades | 3 posiciones | tumbado sentado protegido | cojín incluido | regalo bebé"
+      },
+      "masked_sides": {
+        "左": {
+          "subject_type": "售品身份不明",
+          "form": "unknown",
+          "subject_span": "Vulli 523400 - Muñeco de Sophie la jirafa para el baño (colores surtidos) | Evolutiva | colchón hinchable | arco actividades | 3 posiciones | tumbado sentado protegido | cojín incluido | regalo bebé",
+          "relation": "related_type",
+          "coverage": "partial",
+          "action_sku": "3016204",
+          "reference_span": "Colchón hinchable",
+          "reason": "标题同时出现洗澡玩偶、充气垫及活动架，无法确认实际售品；充气床参考仅对应其中片段。",
+          "review_question": "实际售品是洗澡玩偶、婴儿充气活动垫，还是组合套装？",
+          "decision": "观察",
+          "action_name": "Colchón hinchable"
+        },
+        "右": {
+          "subject_type": "主体未确定",
+          "form": "unknown",
+          "subject_span": "Vulli 523400 - Muñeco de Sophie la jirafa para el baño (colores surtidos) | Evolutiva | colchón hinchable | arco actividades | 3 posiciones | tumbado sentado protegido | cojín incluido | regalo bebé",
+          "relation": "none",
+          "coverage": "unknown",
+          "action_sku": "",
+          "reference_span": "",
+          "reason": "标题同时描述洗澡玩偶、充气床垫和带活动拱架座垫，无法确定实际售物；不能用床垫参照替标题消歧。",
+          "review_question": "实际交付的是长颈鹿洗澡玩偶，还是含充气床垫、活动拱架和靠垫的婴儿用品组合？",
+          "decision": "观察",
+          "action_name": ""
+        }
+      },
+      "assessment": "right_clearer",
+      "reason": "未确定卖玩偶还是活动垫时，不应由床垫片段确定商品参照；右none更稳健。",
+      "unblinding": {
+        "左": "A",
+        "右": "B"
+      },
+      "authority": "AI_AUXILIARY_NOT_HUMAN_GOLD"
+    },
+    {
+      "review_id": "V019",
+      "source": {
+        "category_l1_original": "Bricolaje y herramientas",
+        "record_id": "B0_84bacc4c6b66_020668",
+        "source_hash": "c8f40618b32c154cfb4022741f14001e83344d84dedd42dc3b6853a08e285d8c",
+        "source_version": "amazon-merged-20261022-84bacc4c6b66ab7a",
+        "title_original": "3 Piezas Mando Garaje Universal 433 MHz | Duplicador de Control Remoto para Puerta de Garaje, Clonador Inalámbrico de 4 Canales, Mando a Distancia Portátil"
+      },
+      "masked_sides": {
+        "左": {
+          "subject_type": "车库门遥控器",
+          "form": "host_component",
+          "subject_span": "3 Piezas Mando Garaje Universal 433 MHz",
+          "relation": "category_only",
+          "coverage": "subject",
+          "action_sku": "2540255",
+          "reference_span": "Mando a distancia universal Grundig",
+          "reason": "车库门遥控器依赖门机编码协议，433 MHz及Universal字样不足以证明兼容；通用遥控器参照仅有宽泛类型关联。",
+          "review_question": "支持哪些固定码或滚动码协议及门机型号，是否纳入需协议适配管理的门机配件？",
+          "decision": "观察",
+          "action_name": "Mando a distancia universal Grundig"
+        },
+        "右": {
+          "subject_type": "车库门复制遥控器",
+          "form": "host_component",
+          "subject_span": "3 Piezas Mando Garaje Universal 433 MHz",
+          "relation": "related_type",
+          "coverage": "subject",
+          "action_sku": "2540255",
+          "reference_span": "Mando a distancia universal Grundig",
+          "reason": "433兆赫车库门复制遥控器依赖接收系统，通用遥控参考不能证明协议兼容，专用系统附件范围待定。",
+          "review_question": "支持哪些固定码或滚动码协议，是否纳入车库门系统专用附件？",
+          "decision": "观察",
+          "action_name": "Mando a distancia universal Grundig"
+        }
+      },
+      "assessment": "equivalent",
+      "reason": "普通遥控器名未说明门机协议；两侧均不作兼容保证，枚举不同不直接计胜。",
+      "unblinding": {
+        "左": "B",
+        "右": "A"
+      },
+      "authority": "AI_AUXILIARY_NOT_HUMAN_GOLD"
+    },
+    {
+      "review_id": "V022",
+      "source": {
+        "category_l1_original": "Hogar y cocina",
+        "record_id": "B0_84bacc4c6b66_004016",
+        "source_hash": "596de00a7aa236a1fe625dac9915cd4360e32de2153abdb13ff1a4067626bee6",
+        "source_version": "amazon-merged-20261022-84bacc4c6b66ab7a",
+        "title_original": "48 Piezas Calabaza Madera Deco,Calabazas de Madera Sin Terminar | para Pintar, DIY, 3.5 x 2.9 Inches, Con Cuerda, para Manualidades Otoño, Regalos De Halloween Acción De Gracias."
+      },
+      "masked_sides": {
+        "左": {
+          "subject_type": "未上色木质南瓜装饰片",
+          "form": "ordinary_good",
+          "subject_span": "Calabazas de Madera Sin Terminar | para Pintar, DIY",
+          "relation": "related_type",
+          "coverage": "subject",
+          "action_sku": "3218013",
+          "reference_span": "Adornos de madera",
+          "reason": "未上色木质南瓜片配绳，属于节庆手工用品；木质饰品是相近类型，不能据此认定已完成装饰。",
+          "review_question": "",
+          "decision": "保留",
+          "action_name": "Adornos de madera"
+        },
+        "右": {
+          "subject_type": "未涂装木南瓜装饰片",
+          "form": "ordinary_good",
+          "subject_span": "Calabazas de Madera Sin Terminar",
+          "relation": "same_type",
+          "coverage": "subject",
+          "action_sku": "3218013",
+          "reference_span": "Adornos de madera",
+          "reason": "未涂装木南瓜片属于手工装饰材料，与木制装饰参考同类。",
+          "review_question": "",
+          "decision": "保留",
+          "action_name": "Adornos de madera"
+        }
+      },
+      "assessment": "equivalent",
+      "reason": "木南瓜装饰与木饰品可在不同类型层级描述，未见需要断定哪侧错。",
+      "unblinding": {
+        "左": "B",
+        "右": "A"
+      },
+      "authority": "AI_AUXILIARY_NOT_HUMAN_GOLD"
+    },
+    {
+      "review_id": "V023",
+      "source": {
+        "category_l1_original": "Hogar y cocina",
+        "record_id": "B0_84bacc4c6b66_020561",
+        "source_hash": "05626515c55b5ad0e433c2cf6a23e1096fa8757d0a62329f9cfab57c42fcbb93",
+        "source_version": "amazon-merged-20261022-84bacc4c6b66ab7a",
+        "title_original": "UXEWKL Porta Incienso de Madera de Nogal, 1 Unidad, Quemador de Incienso Vertical, Base Firme con Bandeja de Ceniza, Ambiente Zen Sereno"
+      },
+      "masked_sides": {
+        "左": {
+          "subject_type": "木质立式香座",
+          "form": "ordinary_good",
+          "subject_span": "Porta Incienso de Madera de Nogal, 1 Unidad",
+          "relation": "none",
+          "coverage": "unknown",
+          "action_sku": "",
+          "reference_span": "",
+          "reason": "木质立式香座含接灰盘，属于家居用品；所供木托盘参照不能确认香座类型或熏香需求。",
+          "review_question": "",
+          "decision": "保留",
+          "action_name": ""
+        },
+        "右": {
+          "subject_type": "胡桃木立式香座",
+          "form": "ordinary_good",
+          "subject_span": "Porta Incienso de Madera de Nogal, 1 Unidad, Quemador de Incienso Vertical",
+          "relation": "related_type",
+          "coverage": "partial",
+          "action_sku": "3220266",
+          "reference_span": "Bandeja de madera",
+          "reason": "售品是带接灰盘的木香座，属于家居用品；木托盘参考仅覆盖其托盘部分。",
+          "review_question": "",
+          "decision": "保留",
+          "action_name": "Bandeja de madera"
+        }
+      },
+      "assessment": "right_more_cautious",
+      "reason": "木托盘不是香座整体；右none谨慎，左partial只可指接灰底座形态，非已证部件等同。",
+      "unblinding": {
+        "左": "B",
+        "右": "A"
+      },
+      "authority": "AI_AUXILIARY_NOT_HUMAN_GOLD"
+    },
+    {
+      "review_id": "V028",
+      "source": {
+        "category_l1_original": "",
+        "record_id": "B0_84bacc4c6b66_021763",
+        "source_hash": "a981a3e5721612adb1c91ed2b1415b083423ada22470fe4325bfa29c6d69e625",
+        "source_version": "amazon-merged-20261022-84bacc4c6b66ab7a",
+        "title_original": "WMF Lumero - Grill Gourmet 3 en 1, 3 funciones Raclette, Fondue, Grill iluminación LED, Gourmet, hasta 8 personas, hasta 1 L, acero inoxidable, antiadherente"
+      },
+      "masked_sides": {
+        "左": {
+          "subject_type": "三合一桌面烤炉",
+          "form": "whole_machine",
+          "subject_span": "Grill Gourmet 3 en 1, 3 funciones Raclette, Fondue, Grill",
+          "relation": "same_type",
+          "coverage": "subject",
+          "action_sku": "3225025",
+          "reference_span": "Gourmet/raclette",
+          "reason": "三合一桌面烹饪小家电，与融奶酪烤炉参考直接相关。",
+          "review_question": "",
+          "decision": "保留",
+          "action_name": "Gourmet/raclette"
+        },
+        "右": {
+          "subject_type": "三合一桌面烹饪器",
+          "form": "whole_machine",
+          "subject_span": "Grill Gourmet 3 en 1, 3 funciones Raclette, Fondue, Grill",
+          "relation": "related_type",
+          "coverage": "subject",
+          "action_sku": "3225025",
+          "reference_span": "Gourmet/raclette",
+          "reason": "主体是三合一桌面烹饪器，可作家用小电器扩展研究；Action有Gourmet/raclette参照，但不能证明三种功能均相同。",
+          "review_question": "",
+          "decision": "保留",
+          "action_name": "Gourmet/raclette"
+        }
+      },
+      "assessment": "right_clearer",
+      "reason": "右明确Raclette不能覆盖三功能，属功能覆盖说明改进；不是识别整机错误修复。",
+      "unblinding": {
+        "左": "A",
+        "右": "B"
+      },
+      "authority": "AI_AUXILIARY_NOT_HUMAN_GOLD"
+    },
+    {
+      "review_id": "V030",
+      "source": {
+        "category_l1_original": "Hogar y cocina",
+        "record_id": "B0_84bacc4c6b66_001525",
+        "source_hash": "b727a21a7352952727320516751efd46e0820534a8c3884379ebad1319307190",
+        "source_version": "amazon-merged-20261022-84bacc4c6b66ab7a",
+        "title_original": "Caja Americana para Lienzo, Marco para Bastidor, Moldura 1064BLANCO 50X70 | Efecto flotante que realza el lienzo o tabla, dándole profundidad"
+      },
+      "masked_sides": {
+        "左": {
+          "subject_type": "画布悬浮框",
+          "form": "ordinary_good",
+          "subject_span": "Caja Americana para Lienzo, Marco para Bastidor, Moldura 1064BLANCO 50X70",
+          "relation": "none",
+          "coverage": "unknown",
+          "action_sku": "",
+          "reference_span": "",
+          "reason": "主体是画布用悬浮框，属于家居装饰用品；候选画布是装框对象，收纳盒也不是同类参照。",
+          "review_question": "",
+          "decision": "保留",
+          "action_name": ""
+        },
+        "右": {
+          "subject_type": "画布悬浮装饰框",
+          "form": "ordinary_good",
+          "subject_span": "Caja Americana para Lienzo, Marco para Bastidor, Moldura 1064BLANCO 50X70",
+          "relation": "host_only",
+          "coverage": "partial",
+          "action_sku": "3220576",
+          "reference_span": "Lienzos",
+          "reason": "售卖画布用悬浮框，画布参考仅关联装裱对象；属于合理家饰延伸。",
+          "review_question": "",
+          "decision": "保留",
+          "action_name": "Lienzos"
+        }
+      },
+      "assessment": "right_more_cautious",
+      "reason": "画布是框的使用对象；左none与右host_only均可；partial不证明框组件。",
+      "unblinding": {
+        "左": "B",
+        "右": "A"
+      },
+      "authority": "AI_AUXILIARY_NOT_HUMAN_GOLD"
+    },
+    {
+      "review_id": "V033",
+      "source": {
+        "category_l1_original": "Hogar y cocina",
+        "record_id": "B0_84bacc4c6b66_006064",
+        "source_hash": "307234ad96fe055d86a0aae6cd9ee0f0f63d13649b5d6a2d7052bda40e072125",
+        "source_version": "amazon-merged-20261022-84bacc4c6b66ab7a",
+        "title_original": "Deshumidificador 2,5L 700ml 40W 30dB Silencioso Timer 8/12/24H | 7 Colores, Modo Sueño, Drenaje continuo (1m), Descongelación, Apagado automático, para Baño, Dormitorio, Salón & Oficina"
+      },
+      "masked_sides": {
+        "左": {
+          "subject_type": "电动除湿器",
+          "form": "whole_machine",
+          "subject_span": "Deshumidificador 2,5L 700ml 40W",
+          "relation": "specific_need",
+          "coverage": "subject",
+          "action_sku": "3220708",
+          "reference_span": "Deshumidificador de coche Legit",
+          "reason": "40W电动除湿整机可作家用小电器扩展；车用除湿器仅支持共同除湿需求，其原名未说明同种工作方式。",
+          "review_question": "",
+          "decision": "保留",
+          "action_name": "Deshumidificador de coche Legit"
+        },
+        "右": {
+          "subject_type": "家用电动除湿器",
+          "form": "whole_machine",
+          "subject_span": "Deshumidificador 2,5L 700ml 40W",
+          "relation": "related_type",
+          "coverage": "subject",
+          "action_sku": "3220708",
+          "reference_span": "Deshumidificador de coche Legit",
+          "reason": "40W家用电动除湿器属于普通小家电，汽车除湿用品仅为相关参考；静音等宣称未验证。",
+          "review_question": "",
+          "decision": "保留",
+          "action_name": "Deshumidificador de coche Legit"
+        }
+      },
+      "assessment": "equivalent",
+      "reason": "家用除湿电器与车用除湿品可共享除湿需求，原名未定车用品机制，不应夸大同技术。",
+      "unblinding": {
+        "左": "B",
+        "右": "A"
+      },
+      "authority": "AI_AUXILIARY_NOT_HUMAN_GOLD"
+    },
+    {
+      "review_id": "V039",
+      "source": {
+        "category_l1_original": "Hogar y cocina",
+        "record_id": "B0_84bacc4c6b66_020949",
+        "source_hash": "c4e00929dc1c910cd4b0478a734d506bd41d1db4deca81a139fdaf9badcb6dce",
+        "source_version": "amazon-merged-20261022-84bacc4c6b66ab7a",
+        "title_original": "VELORA H&L Pizarra de Corcho 50 x 70 cm Madera Natural – Tablero de Corcho con Marco de Madera, Tablón de Anuncios para Oficina, Escuela y Hogar, Montaje Vertical u Horizontal"
+      },
+      "masked_sides": {
+        "左": {
+          "subject_type": "木框软木公告板",
+          "form": "ordinary_good",
+          "subject_span": "Pizarra de Corcho 50 x 70 cm Madera Natural",
+          "relation": "related_type",
+          "coverage": "partial",
+          "action_sku": "3007380",
+          "reference_span": "Marco de fotos de madera",
+          "reason": "木框软木公告板属于普通家居办公用品，木相框只覆盖相近展示形式。",
+          "review_question": "",
+          "decision": "保留",
+          "action_name": "Marco de fotos de madera"
+        },
+        "右": {
+          "subject_type": "木框软木公告板",
+          "form": "ordinary_good",
+          "subject_span": "Pizarra de Corcho 50 x 70 cm Madera Natural",
+          "relation": "none",
+          "coverage": "unknown",
+          "action_sku": "",
+          "reference_span": "",
+          "reason": "木框软木公告板主体清楚，属于普通家居办公用品；木相框仅共享部分外观结构，无有效功能参照。",
+          "review_question": "",
+          "decision": "保留",
+          "action_name": ""
+        }
+      },
+      "assessment": "right_clearer",
+      "reason": "木相框只有外形结构，不是软木公告板的类型证据；右拒绝更合理。",
+      "unblinding": {
+        "左": "A",
+        "右": "B"
+      },
+      "authority": "AI_AUXILIARY_NOT_HUMAN_GOLD"
+    },
+    {
+      "review_id": "V041",
+      "source": {
+        "category_l1_original": "Bricolaje y herramientas",
+        "record_id": "B0_84bacc4c6b66_022647",
+        "source_hash": "3dd7d68e6bd7fc6eb226a4d4f0b9507b49cd1e5792ef06af7727da2b49f98147",
+        "source_version": "amazon-merged-20261022-84bacc4c6b66ab7a",
+        "title_original": "Yardwe 10 Piezas Organizador de Estanterías Minoristas Empuje Automático | Plástico, Gestión de Baldas, Compatibilidad Versátil, Supermercados y Exposición Continua de Productos"
+      },
+      "masked_sides": {
+        "左": {
+          "subject_type": "货架自动推货整理器",
+          "form": "ordinary_good",
+          "subject_span": "10 Piezas Organizador de Estanterías Minoristas Empuje Automático",
+          "relation": "category_only",
+          "coverage": "subject",
+          "action_sku": "3205401",
+          "reference_span": "Organizador",
+          "reason": "明确是十件货架推货整理器，可作为简单陈列用品扩展；普通Organizador只提供宽泛整理关联，不能证明同类。",
+          "review_question": "",
+          "decision": "保留",
+          "action_name": "Organizador"
+        },
+        "右": {
+          "subject_type": "货架自动前推整理件",
+          "form": "bundle",
+          "subject_span": "10 Piezas Organizador de Estanterías Minoristas Empuje Automático",
+          "relation": "category_only",
+          "coverage": "partial",
+          "action_sku": "3205401",
+          "reference_span": "Organizador",
+          "reason": "十件塑料货架前推整理件，属于轻型陈列用品延伸，未显示为大型系统；泛称整理器参考有限。",
+          "review_question": "",
+          "decision": "保留",
+          "action_name": "Organizador"
+        }
+      },
+      "assessment": "both_unknown",
+      "reason": "Organizador连具体组件未明，两侧coverage subject/partial均应保留unknown，而非已证修正。",
+      "unblinding": {
+        "左": "B",
+        "右": "A"
+      },
+      "authority": "AI_AUXILIARY_NOT_HUMAN_GOLD"
+    },
+    {
+      "review_id": "V042",
+      "source": {
+        "category_l1_original": "Hogar y cocina",
+        "record_id": "B0_84bacc4c6b66_013502",
+        "source_hash": "808c1cad55c68b37c08c2998e916567dea207c7bd9b41484effb18e0ab001425",
+        "source_version": "amazon-merged-20261022-84bacc4c6b66ab7a",
+        "title_original": "Mini ventilador de refrigeración con clip para taza y cuenco, 3 velocidades | Enfriador de café con diseño de animales de dibujos animados, compañero de refrigeración de bebidas de escritorio"
+      },
+      "masked_sides": {
+        "左": {
+          "subject_type": "杯碗夹式降温风扇",
+          "form": "whole_machine",
+          "subject_span": "Mini ventilador de refrigeración con clip para taza y cuenco, 3 velocidades",
+          "relation": "host_only",
+          "coverage": "partial",
+          "action_sku": "2574198",
+          "reference_span": "Taza para café",
+          "reason": "杯碗夹式小风扇属于厨房小电器延伸，咖啡杯参考仅覆盖夹持对象；降温表现未验证。",
+          "review_question": "",
+          "decision": "保留",
+          "action_name": "Taza para café"
+        },
+        "右": {
+          "subject_type": "杯碗夹式迷你风扇",
+          "form": "whole_machine",
+          "subject_span": "Mini ventilador de refrigeración con clip para taza y cuenco, 3 velocidades",
+          "relation": "host_only",
+          "coverage": "subject",
+          "action_sku": "2574198",
+          "reference_span": "Taza para café",
+          "reason": "主体是夹杯碗使用的迷你风扇，可作生活小电器扩展；咖啡杯仅是使用对象，不能证明风扇同类，降温效果未验证。",
+          "review_question": "",
+          "decision": "保留",
+          "action_name": "Taza para café"
+        }
+      },
+      "assessment": "equivalent",
+      "reason": "两侧均host_only：杯子是风扇作用对象，subject/partial均不得表示风扇匹配。",
+      "unblinding": {
+        "左": "A",
+        "右": "B"
+      },
+      "authority": "AI_AUXILIARY_NOT_HUMAN_GOLD"
+    },
+    {
+      "review_id": "V043",
+      "source": {
+        "category_l1_original": "Hogar y cocina",
+        "record_id": "B0_84bacc4c6b66_004830",
+        "source_hash": "bc14360ec68f67a688feb8ff72dfbb482b09d4ed62da58988d7dc9e9bc3581aa",
+        "source_version": "amazon-merged-20261022-84bacc4c6b66ab7a",
+        "title_original": "Tapiz árbol de la Vida 150 x 130 cm Colgante de Pared Bohemio Negro | Decoración de Pared Bohemia para Salón, Dormitorio, Hogar"
+      },
+      "masked_sides": {
+        "左": {
+          "subject_type": "墙面装饰挂毯",
+          "form": "ordinary_good",
+          "subject_span": "Tapiz árbol de la Vida 150 x 130 cm Colgante de Pared Bohemio Negro",
+          "relation": "category_only",
+          "coverage": "subject",
+          "action_sku": "3214944",
+          "reference_span": "Decoración de pared",
+          "reason": "墙挂装饰挂毯主体明确，属于家居日用品；Action墙饰原名仅支持宽泛装饰关联，未明确为挂毯。",
+          "review_question": "",
+          "decision": "保留",
+          "action_name": "Decoración de pared"
+        },
+        "右": {
+          "subject_type": "墙面装饰挂毯",
+          "form": "ordinary_good",
+          "subject_span": "Tapiz árbol de la Vida 150 x 130 cm Colgante de Pared Bohemio Negro",
+          "relation": "same_type",
+          "coverage": "subject",
+          "action_sku": "3214944",
+          "reference_span": "Decoración de pared",
+          "reason": "生命树图案挂毯属于普通墙饰，参考直接覆盖用途。",
+          "review_question": "",
+          "decision": "保留",
+          "action_name": "Decoración de pared"
+        }
+      },
+      "assessment": "left_clearer",
+      "reason": "墙饰泛称不能证明挂毯同类，左category_only限制更准确。",
+      "unblinding": {
+        "左": "B",
+        "右": "A"
+      },
+      "authority": "AI_AUXILIARY_NOT_HUMAN_GOLD"
+    },
+    {
+      "review_id": "V044",
+      "source": {
+        "category_l1_original": "Bricolaje y herramientas",
+        "record_id": "B0_84bacc4c6b66_023295",
+        "source_hash": "36339625a488ce2f7847d7f2ed896e5c9c61fd1ba12fa067134125c3897fac73",
+        "source_version": "amazon-merged-20261022-84bacc4c6b66ab7a",
+        "title_original": "Rasqueta autonivelante de 56 cm con dientes de 5 mm y guantes | Marco de aluminio reforzado, construcción de acero inoxidable, fijación de remaches, para hormigón y pavimento"
+      },
+      "masked_sides": {
+        "左": {
+          "subject_type": "地面齿刮板与手套组合",
+          "form": "bundle",
+          "subject_span": "Rasqueta autonivelante de 56 cm con dientes de 5 mm y guantes",
+          "relation": "same_type",
+          "coverage": "partial",
+          "action_sku": "2555736",
+          "reference_span": "Guantes",
+          "reason": "销售手动齿刮板及手套，可作DIY手工具扩展，不是工业整机；Action手套只覆盖组合中的手套。",
+          "review_question": "",
+          "decision": "保留",
+          "action_name": "Guantes"
+        },
+        "右": {
+          "subject_type": "地坪齿刮板套装",
+          "form": "bundle",
+          "subject_span": "Rasqueta autonivelante de 56 cm con dientes de 5 mm y guantes",
+          "relation": "related_type",
+          "coverage": "partial",
+          "action_sku": "2555736",
+          "reference_span": "Guantes",
+          "reason": "带手套的手动地坪齿刮板，可作DIY工具延伸；用途较专门但并非工业整机，参考仅覆盖手套。",
+          "review_question": "",
+          "decision": "保留",
+          "action_name": "Guantes"
+        }
+      },
+      "assessment": "both_need_scope",
+      "reason": "两侧均正确partial；手套可同类比较手套组件，不能把整行当刮板同类，需明确比较对象。",
+      "unblinding": {
+        "左": "B",
+        "右": "A"
+      },
+      "authority": "AI_AUXILIARY_NOT_HUMAN_GOLD"
+    },
+    {
+      "review_id": "V047",
+      "source": {
+        "category_l1_original": "Hogar y cocina",
+        "record_id": "B0_84bacc4c6b66_024084",
+        "source_hash": "ca07b1afb3b14338b32633d5f263755f20838b651023fa704483c9addb5bf681",
+        "source_version": "amazon-merged-20261022-84bacc4c6b66ab7a",
+        "title_original": "iZoeL Interior Decoración Halloween Casa Adorno Halloween Mantel\nGuirnalda | Adornos Halloween Mantel, Tela Negra, Guirnalda, Globos y Siluetas de Murciélagos y Cuervos, Decoración Halloween Exterior"
+      },
+      "masked_sides": {
+        "左": {
+          "subject_type": "万圣节装饰组合",
+          "form": "bundle",
+          "subject_span": "Adornos Halloween Mantel, Tela Negra, Guirnalda, Globos y Siluetas de Murciélagos y Cuervos",
+          "relation": "related_type",
+          "coverage": "subject",
+          "action_sku": "3206472",
+          "reference_span": "Decoración para puerta de Halloween Cool2Party",
+          "reason": "标题已列明台布、黑布、花环、气球和动物剪影，组合主体清楚；Action门饰是相近节庆装饰，非整个组合的同类匹配。",
+          "review_question": "",
+          "decision": "保留",
+          "action_name": "Decoración para puerta de Halloween Cool2Party"
+        },
+        "右": {
+          "subject_type": "万圣节装饰套装",
+          "form": "bundle",
+          "subject_span": "Adornos Halloween Mantel, Tela Negra, Guirnalda, Globos y Siluetas de Murciélagos y Cuervos",
+          "relation": "related_type",
+          "coverage": "partial",
+          "action_sku": "3206472",
+          "reference_span": "Decoración para puerta de Halloween Cool2Party",
+          "reason": "桌布、黑布、花环及气球等节庆装饰套装，门饰参考仅覆盖部分装饰用途。",
+          "review_question": "",
+          "decision": "保留",
+          "action_name": "Decoración para puerta de Halloween Cool2Party"
+        }
+      },
+      "assessment": "equivalent",
+      "reason": "门饰与混合万圣节饰品共享主题；partial保守但subject也可能仅指相关形态，非确定错误。",
+      "unblinding": {
+        "左": "B",
+        "右": "A"
+      },
+      "authority": "AI_AUXILIARY_NOT_HUMAN_GOLD"
+    },
+    {
+      "review_id": "V049",
+      "source": {
+        "category_l1_original": "",
+        "record_id": "B0_84bacc4c6b66_009969",
+        "source_hash": "0b40ff0b9f790c44616a46169e505fb3a23aedde52698d70e213639645f3a3d7",
+        "source_version": "amazon-merged-20261022-84bacc4c6b66ab7a",
+        "title_original": "IBILI 405914 Sarten doble para tortillas de patatas indubasic, 14 cm. Aliminio, antiadherente 2 capas. Inducción. Voltea atortillas."
+      },
+      "masked_sides": {
+        "左": {
+          "subject_type": "双面蛋饼煎锅",
+          "form": "ordinary_good",
+          "subject_span": "Sarten doble para tortillas de patatas indubasic, 14 cm.",
+          "relation": "related_type",
+          "coverage": "subject",
+          "action_sku": "3015865",
+          "reference_span": "Sartén",
+          "reason": "销售双面蛋饼煎锅，属于普通炊具；Action煎锅提供相近类型参照，但原名未证明双面结构。",
+          "review_question": "",
+          "decision": "保留",
+          "action_name": "Sartén"
+        },
+        "右": {
+          "subject_type": "双面煎锅",
+          "form": "ordinary_good",
+          "subject_span": "Sarten doble para tortillas de patatas indubasic, 14 cm",
+          "relation": "same_type",
+          "coverage": "subject",
+          "action_sku": "3015865",
+          "reference_span": "Sartén",
+          "reason": "14厘米双面煎锅属于普通厨具，煎锅参考覆盖主体。",
+          "review_question": "",
+          "decision": "保留",
+          "action_name": "Sartén"
+        }
+      },
+      "assessment": "equivalent",
+      "reason": "双面煎锅与煎锅可同商品族或相近子类型，不证明双面结构。",
+      "unblinding": {
+        "左": "B",
+        "右": "A"
+      },
+      "authority": "AI_AUXILIARY_NOT_HUMAN_GOLD"
+    },
+    {
+      "review_id": "V050",
+      "source": {
+        "category_l1_original": "Hogar y cocina",
+        "record_id": "B0_84bacc4c6b66_004475",
+        "source_hash": "7ede8487ff910a3a9350656bf951de46a4da1291b95a1e5d99d0df53551e5ef6",
+        "source_version": "amazon-merged-20261022-84bacc4c6b66ab7a",
+        "title_original": "Cecotec Tostadora de Café en Grano Eléctrica Roaster Booster. 1400W, Accesorio de Café, Tueste Automático o Manual, Tostado Homogéneo, Capacidad de 100-150gr, Tiempo Ajustable 8-15mins"
+      },
+      "masked_sides": {
+        "左": {
+          "subject_type": "电动咖啡豆烘焙机",
+          "form": "whole_machine",
+          "subject_span": "Tostadora de Café en Grano Eléctrica Roaster Booster. 1400W",
+          "relation": "specific_need",
+          "coverage": "partial",
+          "action_sku": "3222766",
+          "reference_span": "Café en grano Palazzo Regular",
+          "reason": "100至150克容量的独立电动咖啡豆烘焙机，可作厨房小家电延伸；咖啡豆参考仅覆盖处理原料，均匀烘焙宣称未验证。",
+          "review_question": "",
+          "decision": "保留",
+          "action_name": "Café en grano Palazzo Regular"
+        },
+        "右": {
+          "subject_type": "电动咖啡豆烘焙机",
+          "form": "whole_machine",
+          "subject_span": "Tostadora de Café en Grano Eléctrica Roaster Booster. 1400W",
+          "relation": "host_only",
+          "coverage": "subject",
+          "action_sku": "3222766",
+          "reference_span": "Café en grano Palazzo Regular",
+          "reason": "标题独立明确电动咖啡豆烘焙机，100—150克容量支持小型厨房电器扩展研究；不是因Accesorio就判配件。Action咖啡豆仅是加工对象。",
+          "review_question": "",
+          "decision": "保留",
+          "action_name": "Café en grano Palazzo Regular"
+        }
+      },
+      "assessment": "right_clearer",
+      "reason": "咖啡豆是加工对象；右host_only和文字更清楚；subject不能表示机器已覆盖。",
+      "unblinding": {
+        "左": "A",
+        "右": "B"
+      },
+      "authority": "AI_AUXILIARY_NOT_HUMAN_GOLD"
+    },
+    {
+      "review_id": "V054",
+      "source": {
+        "category_l1_original": "Hogar y cocina",
+        "record_id": "B0_84bacc4c6b66_009290",
+        "source_hash": "50aa41a74d9ae64b7c1ae895c1f497696729eb24688c74ee567b4e9a23d7dc28",
+        "source_version": "amazon-merged-20261022-84bacc4c6b66ab7a",
+        "title_original": "HWGING Máquina de Tejer de Madera con Aguja y Columna Cerrada, Marco de Tejer para Principiantes, para Alfombras, Bufandas, Suéteres, 20x15 Cm"
+      },
+      "masked_sides": {
+        "左": {
+          "subject_type": "木质编织框配针",
+          "form": "bundle",
+          "subject_span": "Máquina de Tejer de Madera con Aguja y Columna Cerrada, Marco de Tejer para Principiantes",
+          "relation": "same_type",
+          "coverage": "partial",
+          "action_sku": "3219937",
+          "reference_span": "Agujas de tejer",
+          "reason": "标题明确木质编织框及针，属于小型手工用品；Action织针只对应附带针具，不覆盖编织框。",
+          "review_question": "",
+          "decision": "保留",
+          "action_name": "Agujas de tejer"
+        },
+        "右": {
+          "subject_type": "木制编织框",
+          "form": "ordinary_good",
+          "subject_span": "Máquina de Tejer de Madera con Aguja y Columna Cerrada, Marco de Tejer para Principiantes",
+          "relation": "related_type",
+          "coverage": "partial",
+          "action_sku": "3219937",
+          "reference_span": "Agujas de tejer",
+          "reason": "20×15厘米木制编织框适合手作延伸，织针参考只覆盖相关工具。",
+          "review_question": "",
+          "decision": "保留",
+          "action_name": "Agujas de tejer"
+        }
+      },
+      "assessment": "both_need_scope",
+      "reason": "织针与编织框配针仅组件匹配，两侧partial正确；不能仅换related_type便称整框更准。",
+      "unblinding": {
+        "左": "B",
+        "右": "A"
+      },
+      "authority": "AI_AUXILIARY_NOT_HUMAN_GOLD"
+    },
+    {
+      "review_id": "V057",
+      "source": {
+        "category_l1_original": "",
+        "record_id": "B0_84bacc4c6b66_019365",
+        "source_hash": "50cadfdeb26a6be6c9a7ccd506f310853e4f81fa5cb7bb804a4749ed9c2c3c0e",
+        "source_version": "amazon-merged-20261022-84bacc4c6b66ab7a",
+        "title_original": "TJ.Moree Soporte de Pared para Tabla de Planchar sobre la Puerta con Cesta de Almacenamiento Grande y Ganchos Fuertes, Soporte de Almacenamiento para Plancha de lavandería y Tabla de Planchar"
+      },
+      "masked_sides": {
+        "左": {
+          "subject_type": "熨衣板收纳挂架",
+          "form": "ordinary_good",
+          "subject_span": "Soporte de Pared para Tabla de Planchar sobre la Puerta con Cesta de Almacenamiento Grande y Ganchos Fuertes",
+          "relation": "related_type",
+          "coverage": "partial",
+          "action_sku": "4000131",
+          "reference_span": "Cesta de almacenamiento",
+          "reason": "售卖的是带篮和挂钩的收纳架，属于普通家居收纳，参考仅覆盖篮筐部分。",
+          "review_question": "",
+          "decision": "保留",
+          "action_name": "Cesta de almacenamiento"
+        },
+        "右": {
+          "subject_type": "熨衣用品收纳架",
+          "form": "ordinary_good",
+          "subject_span": "Soporte de Pared para Tabla de Planchar sobre la Puerta con Cesta de Almacenamiento Grande y Ganchos Fuertes",
+          "relation": "same_type",
+          "coverage": "partial",
+          "action_sku": "4000131",
+          "reference_span": "Cesta de almacenamiento",
+          "reason": "销售带篮和挂钩的收纳架，非熨衣板；Action收纳篮仅对应篮部，整体仍属普通家居收纳。",
+          "review_question": "",
+          "decision": "保留",
+          "action_name": "Cesta de almacenamiento"
+        }
+      },
+      "assessment": "equivalent",
+      "reason": "收纳篮只对应熨衣板支架中的篮组件，两侧partial，same_type可在组件层级成立。",
+      "unblinding": {
+        "左": "A",
+        "右": "B"
+      },
+      "authority": "AI_AUXILIARY_NOT_HUMAN_GOLD"
+    },
+    {
+      "review_id": "V061",
+      "source": {
+        "category_l1_original": "Hogar y cocina",
+        "record_id": "B0_84bacc4c6b66_012162",
+        "source_hash": "b95a25c7e3b677f26cea00b813c836b6d6158e563ebbf7159db166de464bb91f",
+        "source_version": "amazon-merged-20261022-84bacc4c6b66ab7a",
+        "title_original": "LetCart Tricotin Automatique, Machine de Tricotar Tejer  (Púrpura) | Mini Molino de Tejer, Máquina Eléctrica de Cordón de Punto Automática Para Aficionados Al Tejido, Ganchillo y Proyectos"
+      },
+      "masked_sides": {
+        "左": {
+          "subject_type": "迷你电动编绳机",
+          "form": "whole_machine",
+          "subject_span": "Mini Molino de Tejer, Máquina Eléctrica de Cordón de Punto Automática Para Aficionados Al Tejido",
+          "relation": "specific_need",
+          "coverage": "subject",
+          "action_sku": "3219937",
+          "reference_span": "Agujas de tejer",
+          "reason": "标题明确爱好者用迷你电动编绳机，可作手工小电器扩展；织针仅共享编织需求，不是同类机器。",
+          "review_question": "",
+          "decision": "保留",
+          "action_name": "Agujas de tejer"
+        },
+        "右": {
+          "subject_type": "迷你电动织绳机",
+          "form": "whole_machine",
+          "subject_span": "Mini Molino de Tejer, Máquina Eléctrica de Cordón de Punto Automática Para Aficionados Al Tejido",
+          "relation": "related_type",
+          "coverage": "partial",
+          "action_sku": "3219937",
+          "reference_span": "Agujas de tejer",
+          "reason": "标题明确为爱好者用迷你电动织绳机，可作手作小电器延伸。",
+          "review_question": "",
+          "decision": "保留",
+          "action_name": "Agujas de tejer"
+        }
+      },
+      "assessment": "right_clearer",
+      "reason": "电动编绳器与织针有手作需求但非同形态；右至少partial更谨慎，仍不证明组件共性。",
+      "unblinding": {
+        "左": "B",
+        "右": "A"
+      },
+      "authority": "AI_AUXILIARY_NOT_HUMAN_GOLD"
+    },
+    {
+      "review_id": "V062",
+      "source": {
+        "category_l1_original": "Hogar y cocina",
+        "record_id": "B0_84bacc4c6b66_001144",
+        "source_hash": "c43adbd3ee96a14aa0156874bd95198e017ce2d92f0119a2ba6b817bd7c8d1ec",
+        "source_version": "amazon-merged-20261022-84bacc4c6b66ab7a",
+        "title_original": "AllisWay Foto Transfer Potch, Utiliza para la Transferencia de Imágenes | Medio Transferencia Imagenes, Gel Transferencia Fotos, Para Usar en Fotografías, Resúmenes de Prensa y Revistas, 100 ml"
+      },
+      "masked_sides": {
+        "左": {
+          "subject_type": "图像转印胶",
+          "form": "ordinary_good",
+          "subject_span": "Medio Transferencia Imagenes, Gel Transferencia Fotos",
+          "relation": "specific_need",
+          "coverage": "subject",
+          "action_sku": "2523150",
+          "reference_span": "Papel de transferencia",
+          "reason": "100毫升图像转印胶主体明确，属手工材料；Action转印纸共享转印需求，材料形态不同。",
+          "review_question": "",
+          "decision": "保留",
+          "action_name": "Papel de transferencia"
+        },
+        "右": {
+          "subject_type": "照片转印胶",
+          "form": "ordinary_good",
+          "subject_span": "Medio Transferencia Imagenes, Gel Transferencia Fotos",
+          "relation": "specific_need",
+          "coverage": "partial",
+          "action_sku": "2523150",
+          "reference_span": "Papel de transferencia",
+          "reason": "100毫升照片转印胶属于手作耗材，转印纸参考仅关联用途。",
+          "review_question": "",
+          "decision": "保留",
+          "action_name": "Papel de transferencia"
+        }
+      },
+      "assessment": "equivalent",
+      "reason": "转印介质与转印纸共同转印需求，是否组件无证据；subject/partial差异不是已证改进。",
+      "unblinding": {
+        "左": "B",
+        "右": "A"
+      },
+      "authority": "AI_AUXILIARY_NOT_HUMAN_GOLD"
+    },
+    {
+      "review_id": "V064",
+      "source": {
+        "category_l1_original": "Bricolaje y herramientas",
+        "record_id": "B0_84bacc4c6b66_015161",
+        "source_hash": "3f12925cc79788b34687dfa0b541fbac6cb7427e3e1c18f7e41759a476be4d83",
+        "source_version": "amazon-merged-20261022-84bacc4c6b66ab7a",
+        "title_original": "POPP® Electric Interruptor diferencial industrial TIPO AC corriente residual alterna 2 Polo 25A 30mA SERIE MSL8 (1P+N, 25A 30mA)"
+      },
+      "masked_sides": {
+        "左": {
+          "subject_type": "漏电保护开关",
+          "form": "installed_component",
+          "subject_span": "Interruptor diferencial industrial TIPO AC corriente residual alterna 2 Polo 25A 30mA",
+          "relation": "none",
+          "coverage": "unknown",
+          "action_sku": "",
+          "reference_span": "",
+          "reason": "主体是固定电路用漏电保护开关，非插座开关；工业字样不足以排除，但专业安装及安全保护经营边界待确认。",
+          "review_question": "是否纳入需专业固定安装的漏电保护器，并能核实其保护规格与适用电路？",
+          "decision": "观察",
+          "action_name": ""
+        },
+        "右": {
+          "subject_type": "漏电保护器",
+          "form": "installed_component",
+          "subject_span": "Interruptor diferencial industrial TIPO AC corriente residual alterna 2 Polo 25A 30mA SERIE MSL8",
+          "relation": "category_only",
+          "coverage": "partial",
+          "action_sku": "3216807",
+          "reference_span": "Enchufe con interruptor Pro-max",
+          "reason": "这是配电安装用漏电保护器，需明确固定电气安装元件的范围；插座开关参考较弱。",
+          "review_question": "本次是否纳入需配电安装的25A、30mA漏电保护器？",
+          "decision": "观察",
+          "action_name": "Enchufe con interruptor Pro-max"
+        }
+      },
+      "assessment": "left_clearer",
+      "reason": "插座不是漏电保护元件，左none避免不恰当partial关联；同一级五金不足功能覆盖。",
+      "unblinding": {
+        "左": "B",
+        "右": "A"
+      },
+      "authority": "AI_AUXILIARY_NOT_HUMAN_GOLD"
+    },
+    {
+      "review_id": "V066",
+      "source": {
+        "category_l1_original": "",
+        "record_id": "B0_84bacc4c6b66_009209",
+        "source_hash": "1921cde3af7ebaaaf312c739e2d323b432ac21a5e02f5fe0f743537f4f4859cb",
+        "source_version": "amazon-merged-20261022-84bacc4c6b66ab7a",
+        "title_original": "HOOBRO Librería de 6 Niveles, Biblioteca Esquinera de Estilo Industrial, Estantería de Exhibición, Marco de Metal para Sala de Estar, Dormitorio, Oficina, Cocina, Marrón Rústico y Negro EBF72SJ01"
+      },
+      "masked_sides": {
+        "左": {
+          "subject_type": "六层转角书架",
+          "form": "ordinary_good",
+          "subject_span": "Librería de 6 Niveles, Biblioteca Esquinera de Estilo Industrial, Estantería de Exhibición, Marco de Metal",
+          "relation": "same_type",
+          "coverage": "subject",
+          "action_sku": "3206697",
+          "reference_span": "Estantería de metal",
+          "reason": "主体为六层完整书架；工业风描述不代表工业设备，完整家具仍需范围澄清。",
+          "review_question": "本次是否纳入六层完整书架这类家具？",
+          "decision": "观察",
+          "action_name": "Estantería de metal"
+        },
+        "右": {
+          "subject_type": "六层转角书架",
+          "form": "ordinary_good",
+          "subject_span": "Librería de 6 Niveles, Biblioteca Esquinera de Estilo Industrial, Estantería de Exhibición",
+          "relation": "related_type",
+          "coverage": "subject",
+          "action_sku": "3206697",
+          "reference_span": "Estantería de metal",
+          "reason": "完整六层转角书架属于家具，Action金属架是相近类型；完整家具经营范围仍须澄清，工业风不代表工业设备。",
+          "review_question": "本次研究是否纳入完整六层转角书架这类家具？",
+          "decision": "观察",
+          "action_name": "Estantería de metal"
+        }
+      },
+      "assessment": "equivalent",
+      "reason": "六层书架与金属架可同族不同粒度，两侧都观察，不能仅因枚举差异计错。",
+      "unblinding": {
+        "左": "A",
+        "右": "B"
+      },
+      "authority": "AI_AUXILIARY_NOT_HUMAN_GOLD"
+    },
+    {
+      "review_id": "V067",
+      "source": {
+        "category_l1_original": "Hogar y cocina",
+        "record_id": "B0_84bacc4c6b66_014871",
+        "source_hash": "22c520af2927d4e2633c75cd8599441131fa78b21daa01bb7c6993235538e0ac",
+        "source_version": "amazon-merged-20261022-84bacc4c6b66ab7a",
+        "title_original": "3 Piezas Organizador Gorras, Porta gorras, Incluye 8 pinzas para gorras | No es necesario taladrar, Para Guardar Sombreros Y Corbatas, Para Usar Detrás De Puertas O En Armarios, 2 Negras,1 Gris"
+      },
+      "masked_sides": {
+        "左": {
+          "subject_type": "帽子收纳挂具",
+          "form": "bundle",
+          "subject_span": "3 Piezas Organizador Gorras, Porta gorras, Incluye 8 pinzas para gorras",
+          "relation": "same_type",
+          "coverage": "subject",
+          "action_sku": "3205401",
+          "reference_span": "Organizador",
+          "reason": "免钻孔帽子收纳挂具属于普通家居收纳，参考名称较宽泛。",
+          "review_question": "",
+          "decision": "保留",
+          "action_name": "Organizador"
+        },
+        "右": {
+          "subject_type": "帽子收纳挂件套装",
+          "form": "bundle",
+          "subject_span": "3 Piezas Organizador Gorras, Porta gorras, Incluye 8 pinzas para gorras",
+          "relation": "category_only",
+          "coverage": "unknown",
+          "action_sku": "3205401",
+          "reference_span": "Organizador",
+          "reason": "帽子收纳挂件多件装主体清楚，属普通收纳；Action仅泛称整理器，无法确认具体形态。",
+          "review_question": "",
+          "decision": "保留",
+          "action_name": "Organizador"
+        }
+      },
+      "assessment": "right_clearer",
+      "reason": "整理器泛称不足证明帽子收纳同类，右category_only/unknown更准确。",
+      "unblinding": {
+        "左": "A",
+        "右": "B"
+      },
+      "authority": "AI_AUXILIARY_NOT_HUMAN_GOLD"
+    },
+    {
+      "review_id": "V070",
+      "source": {
+        "category_l1_original": "Bricolaje y herramientas",
+        "record_id": "B0_84bacc4c6b66_023279",
+        "source_hash": "36f85d0eb3da8adbd4fc9123b08889f48a9e35a21d7e094d780c75be80e2b9f2",
+        "source_version": "amazon-merged-20261022-84bacc4c6b66ab7a",
+        "title_original": "Cinta de sellado autoadhesiva resistente al calor para estufa de leña, chimeneas de leña y estufas de leña, Junta hermética para alargador de chimenea y ahumadores (2 mm x 15 mm x 3 m)"
+      },
+      "masked_sides": {
+        "左": {
+          "subject_type": "炉具自粘密封带",
+          "form": "ordinary_good",
+          "subject_span": "Cinta de sellado autoadhesiva resistente al calor para estufa de leña",
+          "relation": "same_type",
+          "coverage": "subject",
+          "action_sku": "3202390",
+          "reference_span": "Cinta de sellado",
+          "reason": "按尺寸使用的自粘密封带可作普通维修耗材延伸，耐热能力需后续验证。",
+          "review_question": "",
+          "decision": "保留",
+          "action_name": "Cinta de sellado"
+        },
+        "右": {
+          "subject_type": "炉具耐热密封带",
+          "form": "installed_component",
+          "subject_span": "Cinta de sellado autoadhesiva resistente al calor para estufa de leña",
+          "relation": "related_type",
+          "coverage": "subject",
+          "action_sku": "3202390",
+          "reference_span": "Cinta de sellado",
+          "reason": "炉具与烟道用耐热密封带，Action仅有一般密封带；其用途依赖耐温及安装条件，需明确相关经营边界。",
+          "review_question": "是否纳入炉具及烟道密封维护材料，并能确认适用温度和安装部位？",
+          "decision": "观察",
+          "action_name": "Cinta de sellado"
+        }
+      },
+      "assessment": "equivalent",
+      "reason": "密封带同族但耐热用途未确认，related_type更保守而非确定事实纠错。",
+      "unblinding": {
+        "左": "A",
+        "右": "B"
+      },
+      "authority": "AI_AUXILIARY_NOT_HUMAN_GOLD"
+    },
+    {
+      "review_id": "V071",
+      "source": {
+        "category_l1_original": "Hogar y cocina",
+        "record_id": "B0_84bacc4c6b66_013184",
+        "source_hash": "d32cbecaa2977c6e314316a2aa1aae1bbba3b1692c2e32412c3d8ecc56a26b47",
+        "source_version": "amazon-merged-20261022-84bacc4c6b66ab7a",
+        "title_original": "para Estufa de 2 Tazas, Material de Aleación de Aluminio, Uso Resistente a la Corrosión, Seguridad, Diseño de Doble Cabezal, Olla Moka para (100ml) (Base redonda)"
+      },
+      "masked_sides": {
+        "左": {
+          "subject_type": "摩卡壶",
+          "form": "ordinary_good",
+          "subject_span": "Olla Moka para (100ml) (Base redonda)",
+          "relation": "specific_need",
+          "coverage": "subject",
+          "action_sku": "2557964",
+          "reference_span": "Taza",
+          "reason": "后半句独立指明100毫升圆底摩卡壶，非前段杯数所指的杯；Action杯仅共享咖啡饮用需求，可按普通咖啡器具研究。",
+          "review_question": "",
+          "decision": "保留",
+          "action_name": "Taza"
+        },
+        "右": {
+          "subject_type": "摩卡壶",
+          "form": "ordinary_good",
+          "subject_span": "Olla Moka para (100ml) (Base redonda)",
+          "relation": "specific_need",
+          "coverage": "partial",
+          "action_sku": "2557964",
+          "reference_span": "Taza",
+          "reason": "后段独立名称指向100毫升圆底摩卡壶，属于普通咖啡器具；杯子参考仅关联饮用需求。",
+          "review_question": "",
+          "decision": "保留",
+          "action_name": "Taza"
+        }
+      },
+      "assessment": "both_unknown",
+      "reason": "杯子不是摩卡壶匹配证据；本品词链残缺，双方共同过早确定主体，coverage变化无价值证明。",
+      "unblinding": {
+        "左": "B",
+        "右": "A"
+      },
+      "authority": "AI_AUXILIARY_NOT_HUMAN_GOLD"
+    },
+    {
+      "review_id": "V073",
+      "source": {
+        "category_l1_original": "",
+        "record_id": "B0_84bacc4c6b66_007953",
+        "source_hash": "0f8ac40268da089a58b4b0459f5a946a7f711dfb269d43c410f105e869454932",
+        "source_version": "amazon-merged-20261022-84bacc4c6b66ab7a",
+        "title_original": "Fortnite - Luz RGB con logotipo que cambia de color, lámpara de juegos con licencia oficial con control remoto, pantalla en pared o escritorio, decoración del hogar alimentada por USB para jugadores"
+      },
+      "masked_sides": {
+        "左": {
+          "subject_type": "RGB标志装饰灯",
+          "form": "ordinary_good",
+          "subject_span": "Luz RGB con logotipo que cambia de color, lámpara de juegos con licencia oficial con control remoto",
+          "relation": "related_type",
+          "coverage": "subject",
+          "action_sku": "3016662",
+          "reference_span": "Luz ambiental",
+          "reason": "USB供电标志装饰灯主体明确，与Action氛围灯相近；遥控、变色和授权宣称未核验。",
+          "review_question": "",
+          "decision": "保留",
+          "action_name": "Luz ambiental"
+        },
+        "右": {
+          "subject_type": "RGB标志装饰灯",
+          "form": "ordinary_good",
+          "subject_span": "Luz RGB con logotipo que cambia de color, lámpara de juegos con licencia oficial con control remoto",
+          "relation": "same_type",
+          "coverage": "subject",
+          "action_sku": "3016662",
+          "reference_span": "Luz ambiental",
+          "reason": "USB供电遥控RGB标志灯属于普通家居装饰灯。",
+          "review_question": "",
+          "decision": "保留",
+          "action_name": "Luz ambiental"
+        }
+      },
+      "assessment": "equivalent",
+      "reason": "环境灯与游戏标志灯可在灯具层级视同类或相近，不能从枚举断质量。",
+      "unblinding": {
+        "左": "B",
+        "右": "A"
+      },
+      "authority": "AI_AUXILIARY_NOT_HUMAN_GOLD"
+    },
+    {
+      "review_id": "V074",
+      "source": {
+        "category_l1_original": "Hogar y cocina",
+        "record_id": "B0_84bacc4c6b66_016064",
+        "source_hash": "882fc564ac63994a1935947ca536c52fbee0ab386eab6d96cd34a4098c23a82d",
+        "source_version": "amazon-merged-20261022-84bacc4c6b66ab7a",
+        "title_original": "8 Piezas Placa Portadora Carril para Colgar, Placa Trasera de Fijación Placa Portadora Carril para Colgar Armarios Muebles de Pared"
+      },
+      "masked_sides": {
+        "左": {
+          "subject_type": "壁柜挂轨固定板",
+          "form": "installed_component",
+          "subject_span": "8 Piezas Placa Portadora Carril para Colgar, Placa Trasera de Fijación Placa Portadora Carril para Colgar Armarios Muebles de Pared",
+          "relation": "host_only",
+          "coverage": "partial",
+          "action_sku": "3216159",
+          "reference_span": "Armario de pared",
+          "reason": "售卖的是壁柜挂轨承载固定板，参考为壁柜主件；通用性及安装配件范围待明确。",
+          "review_question": "这些固定板是通用壁柜五金还是特定挂轨系统专件，是否纳入安装配件范围？",
+          "decision": "观察",
+          "action_name": "Armario de pared"
+        },
+        "右": {
+          "subject_type": "壁柜悬挂固定板",
+          "form": "installed_component",
+          "subject_span": "8 Piezas Placa Portadora Carril para Colgar, Placa Trasera de Fijación Placa Portadora Carril para Colgar Armarios Muebles de Pared",
+          "relation": "host_only",
+          "coverage": "subject",
+          "action_sku": "3216159",
+          "reference_span": "Armario de pared",
+          "reason": "销售壁柜悬挂固定板多件装，非完整壁柜；未指定专用系统，可作普通家具五金研究，孔位及承载需后续选型核对。",
+          "review_question": "",
+          "decision": "保留",
+          "action_name": "Armario de pared"
+        }
+      },
+      "assessment": "equivalent",
+      "reason": "壁柜是固定板的宿主，双方host_only正确；coverage差异不能证明配件覆盖。",
+      "unblinding": {
+        "左": "A",
+        "右": "B"
+      },
+      "authority": "AI_AUXILIARY_NOT_HUMAN_GOLD"
+    },
+    {
+      "review_id": "V077",
+      "source": {
+        "category_l1_original": "Hogar y cocina",
+        "record_id": "B0_84bacc4c6b66_016116",
+        "source_hash": "adda597eacce669959f5ab5f90c3e2feaafd76eb7a3d4d81289ef15e52b1961c",
+        "source_version": "amazon-merged-20261022-84bacc4c6b66ab7a",
+        "title_original": "Powell Vaporeta Limpieza Hogar 2000W, Limpiador a Vapor 5 Bar, Depósito 2 L | Vaporeta de mano con ruedas, hasta 60 min de vapor, accesorios para suelos, alfombras, sofás, azulejos, juntas y ventanas"
+      },
+      "masked_sides": {
+        "左": {
+          "subject_type": "蒸汽清洁机",
+          "form": "whole_machine",
+          "subject_span": "Vaporeta Limpieza Hogar 2000W",
+          "relation": "specific_need",
+          "coverage": "unknown",
+          "action_sku": "3216860",
+          "reference_span": "Set de limpieza C&C",
+          "reason": "家用蒸汽清洁整机可作小电器扩展；清洁套装仅有需求关联，不能证明机器同类。",
+          "review_question": "",
+          "decision": "保留",
+          "action_name": "Set de limpieza C&C"
+        },
+        "右": {
+          "subject_type": "家用蒸汽清洁机",
+          "form": "whole_machine",
+          "subject_span": "Powell Vaporeta Limpieza Hogar 2000W, Limpiador a Vapor 5 Bar",
+          "relation": "specific_need",
+          "coverage": "partial",
+          "action_sku": "3216860",
+          "reference_span": "Set de limpieza C&C",
+          "reason": "家用蒸汽清洁整机可作为清洁小家电研究；参考仅提供宽泛清洁套装关联，不能确认同类机器。",
+          "review_question": "",
+          "decision": "保留",
+          "action_name": "Set de limpieza C&C"
+        }
+      },
+      "assessment": "equivalent",
+      "reason": "泛称清洁套装不能证明蒸汽机或某具体附件；partial与unknown差异未被原名证实。",
+      "unblinding": {
+        "左": "B",
+        "右": "A"
+      },
+      "authority": "AI_AUXILIARY_NOT_HUMAN_GOLD"
+    },
+    {
+      "review_id": "V080",
+      "source": {
+        "category_l1_original": "",
+        "record_id": "B0_84bacc4c6b66_014405",
+        "source_hash": "95f4731e4a1532c9f75b71e50ed92a14355bba12a2be7deb55b679a1f3b267b7",
+        "source_version": "amazon-merged-20261022-84bacc4c6b66ab7a",
+        "title_original": "NutriChef Olla de Acero Inoxidable, 18/8, Tapa Incluida, Apta para Lavavajillas, Compatible con Gas, Inducción, Cerámica y Estufas Halógenas"
+      },
+      "masked_sides": {
+        "左": {
+          "subject_type": "带盖不锈钢锅",
+          "form": "ordinary_good",
+          "subject_span": "Olla de Acero Inoxidable, 18/8, Tapa Incluida",
+          "relation": "none",
+          "coverage": "unknown",
+          "action_sku": "",
+          "reference_span": "",
+          "reason": "带盖不锈钢锅是普通厨具；同材质首饰及调酒器不构成有效类型参照。",
+          "review_question": "",
+          "decision": "保留",
+          "action_name": ""
+        },
+        "右": {
+          "subject_type": "带盖不锈钢锅",
+          "form": "ordinary_good",
+          "subject_span": "NutriChef Olla de Acero Inoxidable, 18/8, Tapa Incluida",
+          "relation": "category_only",
+          "coverage": "partial",
+          "action_sku": "3215995",
+          "reference_span": "Coctelera de acero inoxidable",
+          "reason": "带盖不锈钢锅属于普通炊具；参考仅同属不锈钢厨房器具，用途不同。",
+          "review_question": "",
+          "decision": "保留",
+          "action_name": "Coctelera de acero inoxidable"
+        }
+      },
+      "assessment": "left_clearer",
+      "reason": "锅与调酒器仅同材质及厨房大类，左none更干净；右category_only/partial不得当锅组件。",
+      "unblinding": {
+        "左": "B",
+        "右": "A"
+      },
+      "authority": "AI_AUXILIARY_NOT_HUMAN_GOLD"
+    },
+    {
+      "review_id": "V082",
+      "source": {
+        "category_l1_original": "Hogar y cocina",
+        "record_id": "B0_84bacc4c6b66_012298",
+        "source_hash": "7d0ceb23311eb42414970f115c06786912cceb207f5893e53792a8b47260f795",
+        "source_version": "amazon-merged-20261022-84bacc4c6b66ab7a",
+        "title_original": "Uwant Limpiador de Tapicerías y Alfombras 18kPa Potente Succión, Máquina Limpiadora Portátil con Autolimpieza, Limpiador de Manchas para Mascotas con Herramientas y Solución, para Sofá, Coche set of 1"
+      },
+      "masked_sides": {
+        "左": {
+          "subject_type": "便携织物清洗机",
+          "form": "whole_machine",
+          "subject_span": "Máquina Limpiadora Portátil con Autolimpieza",
+          "relation": "specific_need",
+          "coverage": "unknown",
+          "action_sku": "1326911",
+          "reference_span": "Limpiador de tapicería C&C",
+          "reason": "便携织物清洗机可作家用电器扩展；参照未说明形态，只支持同需求，自清洁等宣称未验证。",
+          "review_question": "",
+          "decision": "保留",
+          "action_name": "Limpiador de tapicería C&C"
+        },
+        "右": {
+          "subject_type": "便携布艺清洗机",
+          "form": "whole_machine",
+          "subject_span": "Máquina Limpiadora Portátil con Autolimpieza",
+          "relation": "specific_need",
+          "coverage": "partial",
+          "action_sku": "1326911",
+          "reference_span": "Limpiador de tapicería C&C",
+          "reason": "便携布艺清洗整机属于家用清洁电器；参考共享布艺清洁需求，但名称不能确认其为机器，自清洁表现待验证。",
+          "review_question": "",
+          "decision": "保留",
+          "action_name": "Limpiador de tapicería C&C"
+        }
+      },
+      "assessment": "equivalent",
+      "reason": "布艺清洁剂与抽洗整机最多共享清洁需求；未证实际组件，不以partial认定更优。",
+      "unblinding": {
+        "左": "B",
+        "右": "A"
+      },
+      "authority": "AI_AUXILIARY_NOT_HUMAN_GOLD"
+    },
+    {
+      "review_id": "V083",
+      "source": {
+        "category_l1_original": "Hogar y cocina",
+        "record_id": "B0_84bacc4c6b66_020260",
+        "source_hash": "31b95f4843244ac88b5e980a71c63d0ffb702742cad6c720ab9a77be76260716",
+        "source_version": "amazon-merged-20261022-84bacc4c6b66ab7a",
+        "title_original": "Tostador de café de 1600 W, tostador de granos de café, máquina tostadora de granos de café casera de 1500 g, máquina tostadora de granos de café eléctrica ajustable con temperatura de 0-250 ℃"
+      },
+      "masked_sides": {
+        "左": {
+          "subject_type": "家用咖啡豆烘焙机",
+          "form": "whole_machine",
+          "subject_span": "máquina tostadora de granos de café casera de 1500 g",
+          "relation": "specific_need",
+          "coverage": "partial",
+          "action_sku": "3222766",
+          "reference_span": "Café en grano Palazzo Regular",
+          "reason": "标题定位家用咖啡烘焙机，可作为厨房电器延伸研究；咖啡豆参考仅关联加工对象。",
+          "review_question": "",
+          "decision": "保留",
+          "action_name": "Café en grano Palazzo Regular"
+        },
+        "右": {
+          "subject_type": "家用咖啡烘豆机",
+          "form": "whole_machine",
+          "subject_span": "máquina tostadora de granos de café casera de 1500 g",
+          "relation": "none",
+          "coverage": "unknown",
+          "action_sku": "",
+          "reference_span": "",
+          "reason": "标题明确家用电动烘豆机，可作厨房电器扩展；咖啡豆是加工对象，杯子也非机器参照。",
+          "review_question": "",
+          "decision": "保留",
+          "action_name": ""
+        }
+      },
+      "assessment": "right_more_cautious",
+      "reason": "咖啡豆是烘豆机加工对象非部件；右none合理，左specific_need/partial夸大匹配。",
+      "unblinding": {
+        "左": "A",
+        "右": "B"
+      },
+      "authority": "AI_AUXILIARY_NOT_HUMAN_GOLD"
+    },
+    {
+      "review_id": "V091",
+      "source": {
+        "category_l1_original": "",
+        "record_id": "B0_84bacc4c6b66_022729",
+        "source_hash": "7105ce03ed98d6af1a736832303069ae0d4b56ef891639cb58df6a7c67108269",
+        "source_version": "amazon-merged-20261022-84bacc4c6b66ab7a",
+        "title_original": "Decantador de Vino, Jarra de Vino Tinto con Aireador Integrado, Vino de Regalo, Tapón Vertedor de Acero Inoxidable, Filtro, Vaso de Cristal 100% Soplado a Mano sin Plomo"
+      },
+      "masked_sides": {
+        "左": {
+          "subject_type": "醒酒壶",
+          "form": "ordinary_good",
+          "subject_span": "Decantador de Vino, Jarra de Vino Tinto con Aireador Integrado",
+          "relation": "category_only",
+          "coverage": "partial",
+          "action_sku": "3215993",
+          "reference_span": "Enfriador de vino",
+          "reason": "带醒酒结构的玻璃酒壶属于厨房餐饮器具；冰酒器参考仅为相关酒具，用途不同。",
+          "review_question": "",
+          "decision": "保留",
+          "action_name": "Enfriador de vino"
+        },
+        "右": {
+          "subject_type": "醒酒壶",
+          "form": "ordinary_good",
+          "subject_span": "Decantador de Vino, Jarra de Vino Tinto con Aireador Integrado",
+          "relation": "specific_need",
+          "coverage": "subject",
+          "action_sku": "3215993",
+          "reference_span": "Enfriador de vino",
+          "reason": "销售带醒酒结构的酒壶，属日用酒具；冰酒器只支持同需求，无铅等宣称未验证。",
+          "review_question": "",
+          "decision": "保留",
+          "action_name": "Enfriador de vino"
+        }
+      },
+      "assessment": "equivalent",
+      "reason": "冰酒器与醒酒壶功能不同，只能宽泛酒具关联；specific_need不能泛指喝酒需求。",
+      "unblinding": {
+        "左": "A",
+        "右": "B"
+      },
+      "authority": "AI_AUXILIARY_NOT_HUMAN_GOLD"
+    },
+    {
+      "review_id": "V094",
+      "source": {
+        "category_l1_original": "Hogar y cocina",
+        "record_id": "B0_84bacc4c6b66_005149",
+        "source_hash": "d6b9760a77dcedaf34315366ab85e956f128f08504edeac1d1647feb34316737",
+        "source_version": "amazon-merged-20261022-84bacc4c6b66ab7a",
+        "title_original": "Kit de Costura de Navidad, Cesta Acolchada Patchwork DIY para Adultos，A | Manualidades Navideñas para Adultos, Proyecto de Costura Patchwork, Cesta para Dulces, Regalos, Almacenamiento & Decoración"
+      },
+      "masked_sides": {
+        "左": {
+          "subject_type": "拼布篮缝纫套件",
+          "form": "bundle",
+          "subject_span": "Kit de Costura de Navidad, Cesta Acolchada Patchwork DIY para Adultos",
+          "relation": "related_type",
+          "coverage": "partial",
+          "action_sku": "2535238",
+          "reference_span": "Cesta",
+          "reason": "实际为制作拼布篮的圣诞缝纫套件，可作手工用品延伸；篮子参考仅对应成品形态。",
+          "review_question": "",
+          "decision": "保留",
+          "action_name": "Cesta"
+        },
+        "右": {
+          "subject_type": "圣诞拼布篮缝纫套装",
+          "form": "bundle",
+          "subject_span": "Kit de Costura de Navidad, Cesta Acolchada Patchwork DIY para Adultos",
+          "relation": "specific_need",
+          "coverage": "unknown",
+          "action_sku": "2535238",
+          "reference_span": "Cesta",
+          "reason": "标题明确拼布篮缝纫项目套装，可作手工候选；成品篮参照仅关联制成后的用途，不证明套装构成。",
+          "review_question": "",
+          "decision": "保留",
+          "action_name": "Cesta"
+        }
+      },
+      "assessment": "right_more_cautious",
+      "reason": "成品篮是制作结果，不是已确认套件部件，右unknown更稳健。",
+      "unblinding": {
+        "左": "A",
+        "右": "B"
+      },
+      "authority": "AI_AUXILIARY_NOT_HUMAN_GOLD"
+    },
+    {
+      "review_id": "V096",
+      "source": {
+        "category_l1_original": "Hogar y cocina",
+        "record_id": "B0_84bacc4c6b66_007924",
+        "source_hash": "74fe2e4d197d73472378d9bb3afa43f053eebb379ce256eeee7353573a859fb4",
+        "source_version": "amazon-merged-20261022-84bacc4c6b66ab7a",
+        "title_original": "Fokenzary Herramientas de pintura de diamantes, marco de fotos blanco con plexiglás y cartulina para kits de pintura de diamantes de 30 x 40 cm"
+      },
+      "masked_sides": {
+        "左": {
+          "subject_type": "钻石画展示相框",
+          "form": "universal_accessory",
+          "subject_span": "marco de fotos blanco con plexiglás y cartulina para kits de pintura de diamantes de 30 x 40 cm",
+          "relation": "specific_need",
+          "coverage": "partial",
+          "action_sku": "3205989",
+          "reference_span": "Pintura de diamantes",
+          "reason": "独立命名的所售物为配有机玻璃及卡纸的相框，属于普通展示配件；钻石画参考关联被展示作品。",
+          "review_question": "",
+          "decision": "保留",
+          "action_name": "Pintura de diamantes"
+        },
+        "右": {
+          "subject_type": "钻石画装裱相框",
+          "form": "ordinary_good",
+          "subject_span": "marco de fotos blanco con plexiglás y cartulina para kits de pintura de diamantes de 30 x 40 cm",
+          "relation": "host_only",
+          "coverage": "subject",
+          "action_sku": "3205989",
+          "reference_span": "Pintura de diamantes",
+          "reason": "实际销售带有机玻璃及卡纸的相框；钻石画是装裱对象，参照仅为使用对象，普通画框仍可研究。",
+          "review_question": "",
+          "decision": "保留",
+          "action_name": "Pintura de diamantes"
+        }
+      },
+      "assessment": "right_clearer",
+      "reason": "钻石画是画框使用对象，右host_only比左same-need/partial更清楚。",
+      "unblinding": {
+        "左": "A",
+        "右": "B"
+      },
+      "authority": "AI_AUXILIARY_NOT_HUMAN_GOLD"
+    },
+    {
+      "review_id": "V098",
+      "source": {
+        "category_l1_original": "Hogar y cocina",
+        "record_id": "B0_84bacc4c6b66_022546",
+        "source_hash": "527d900ff8432136509c5f12948b6bd8b36ede6881ed6364cf7406b35a9ef1d6",
+        "source_version": "amazon-merged-20261022-84bacc4c6b66ab7a",
+        "title_original": "YWAYNU Números de Madera 0-9, 100 Unidades, 3 cm Piezas Recortadas, Kit Educativo Seguro para Manualidades DIY, Conteo Infantil y Creaciones Artísticas"
+      },
+      "masked_sides": {
+        "左": {
+          "subject_type": "木质数字切片",
+          "form": "ordinary_good",
+          "subject_span": "Números de Madera 0-9, 100 Unidades, 3 cm Piezas Recortadas",
+          "relation": "related_type",
+          "coverage": "subject",
+          "action_sku": "3218013",
+          "reference_span": "Adornos de madera",
+          "reason": "100片木质数字切片主体明确，与木饰片相近，属于普通手工材料；安全宣称未验证。",
+          "review_question": "",
+          "decision": "保留",
+          "action_name": "Adornos de madera"
+        },
+        "右": {
+          "subject_type": "木制数字切片套装",
+          "form": "bundle",
+          "subject_span": "YWAYNU Números de Madera 0-9, 100 Unidades, 3 cm Piezas Recortadas",
+          "relation": "related_type",
+          "coverage": "subject",
+          "action_sku": "3218830",
+          "reference_span": "Kit de manualidades",
+          "reason": "木制数字切片套装可作为手工及教育用品延伸；手工套件参考相近但未说明数字材料，安全宣称待验证。",
+          "review_question": "",
+          "decision": "保留",
+          "action_name": "Kit de manualidades"
+        }
+      },
+      "assessment": "equivalent",
+      "reason": "木饰品与泛称手工套件均未明确数字切片用途，左较近但仅凭换SKU不能证实理解提升。",
+      "unblinding": {
+        "左": "B",
+        "右": "A"
+      },
+      "authority": "AI_AUXILIARY_NOT_HUMAN_GOLD"
+    }
+  ],
+  "left_right_key": {
+    "V001": {
+      "左": "B",
+      "右": "A"
+    },
+    "V002": {
+      "左": "B",
+      "右": "A"
+    },
+    "V003": {
+      "左": "B",
+      "右": "A"
+    },
+    "V004": {
+      "左": "B",
+      "右": "A"
+    },
+    "V005": {
+      "左": "A",
+      "右": "B"
+    },
+    "V006": {
+      "左": "B",
+      "右": "A"
+    },
+    "V007": {
+      "左": "B",
+      "右": "A"
+    },
+    "V008": {
+      "左": "B",
+      "右": "A"
+    },
+    "V009": {
+      "左": "A",
+      "右": "B"
+    },
+    "V010": {
+      "左": "A",
+      "右": "B"
+    },
+    "V011": {
+      "左": "B",
+      "右": "A"
+    },
+    "V012": {
+      "左": "B",
+      "右": "A"
+    },
+    "V013": {
+      "左": "B",
+      "右": "A"
+    },
+    "V014": {
+      "左": "B",
+      "右": "A"
+    },
+    "V015": {
+      "左": "A",
+      "右": "B"
+    },
+    "V016": {
+      "左": "B",
+      "右": "A"
+    },
+    "V017": {
+      "左": "A",
+      "右": "B"
+    },
+    "V018": {
+      "左": "B",
+      "右": "A"
+    },
+    "V019": {
+      "左": "B",
+      "右": "A"
+    },
+    "V020": {
+      "左": "A",
+      "右": "B"
+    },
+    "V021": {
+      "左": "A",
+      "右": "B"
+    },
+    "V022": {
+      "左": "B",
+      "右": "A"
+    },
+    "V023": {
+      "左": "B",
+      "右": "A"
+    },
+    "V024": {
+      "左": "B",
+      "右": "A"
+    },
+    "V025": {
+      "左": "B",
+      "右": "A"
+    },
+    "V026": {
+      "左": "B",
+      "右": "A"
+    },
+    "V027": {
+      "左": "A",
+      "右": "B"
+    },
+    "V028": {
+      "左": "A",
+      "右": "B"
+    },
+    "V029": {
+      "左": "A",
+      "右": "B"
+    },
+    "V030": {
+      "左": "B",
+      "右": "A"
+    },
+    "V031": {
+      "左": "B",
+      "右": "A"
+    },
+    "V032": {
+      "左": "B",
+      "右": "A"
+    },
+    "V033": {
+      "左": "B",
+      "右": "A"
+    },
+    "V034": {
+      "左": "A",
+      "右": "B"
+    },
+    "V035": {
+      "左": "B",
+      "右": "A"
+    },
+    "V036": {
+      "左": "A",
+      "右": "B"
+    },
+    "V037": {
+      "左": "B",
+      "右": "A"
+    },
+    "V038": {
+      "左": "A",
+      "右": "B"
+    },
+    "V039": {
+      "左": "A",
+      "右": "B"
+    },
+    "V040": {
+      "左": "B",
+      "右": "A"
+    },
+    "V041": {
+      "左": "B",
+      "右": "A"
+    },
+    "V042": {
+      "左": "A",
+      "右": "B"
+    },
+    "V043": {
+      "左": "B",
+      "右": "A"
+    },
+    "V044": {
+      "左": "B",
+      "右": "A"
+    },
+    "V045": {
+      "左": "B",
+      "右": "A"
+    },
+    "V046": {
+      "左": "B",
+      "右": "A"
+    },
+    "V047": {
+      "左": "B",
+      "右": "A"
+    },
+    "V048": {
+      "左": "B",
+      "右": "A"
+    },
+    "V049": {
+      "左": "B",
+      "右": "A"
+    },
+    "V050": {
+      "左": "A",
+      "右": "B"
+    },
+    "V051": {
+      "左": "A",
+      "右": "B"
+    },
+    "V052": {
+      "左": "A",
+      "右": "B"
+    },
+    "V053": {
+      "左": "B",
+      "右": "A"
+    },
+    "V054": {
+      "左": "B",
+      "右": "A"
+    },
+    "V055": {
+      "左": "B",
+      "右": "A"
+    },
+    "V056": {
+      "左": "A",
+      "右": "B"
+    },
+    "V057": {
+      "左": "A",
+      "右": "B"
+    },
+    "V058": {
+      "左": "B",
+      "右": "A"
+    },
+    "V059": {
+      "左": "A",
+      "右": "B"
+    },
+    "V060": {
+      "左": "B",
+      "右": "A"
+    },
+    "V061": {
+      "左": "B",
+      "右": "A"
+    },
+    "V062": {
+      "左": "B",
+      "右": "A"
+    },
+    "V063": {
+      "左": "B",
+      "右": "A"
+    },
+    "V064": {
+      "左": "B",
+      "右": "A"
+    },
+    "V065": {
+      "左": "A",
+      "右": "B"
+    },
+    "V066": {
+      "左": "A",
+      "右": "B"
+    },
+    "V067": {
+      "左": "A",
+      "右": "B"
+    },
+    "V068": {
+      "左": "A",
+      "右": "B"
+    },
+    "V069": {
+      "左": "B",
+      "右": "A"
+    },
+    "V070": {
+      "左": "A",
+      "右": "B"
+    },
+    "V071": {
+      "左": "B",
+      "右": "A"
+    },
+    "V072": {
+      "左": "B",
+      "右": "A"
+    },
+    "V073": {
+      "左": "B",
+      "右": "A"
+    },
+    "V074": {
+      "左": "A",
+      "右": "B"
+    },
+    "V075": {
+      "左": "A",
+      "右": "B"
+    },
+    "V076": {
+      "左": "B",
+      "右": "A"
+    },
+    "V077": {
+      "左": "B",
+      "右": "A"
+    },
+    "V078": {
+      "左": "A",
+      "右": "B"
+    },
+    "V079": {
+      "左": "B",
+      "右": "A"
+    },
+    "V080": {
+      "左": "B",
+      "右": "A"
+    },
+    "V081": {
+      "左": "B",
+      "右": "A"
+    },
+    "V082": {
+      "左": "B",
+      "右": "A"
+    },
+    "V083": {
+      "左": "A",
+      "右": "B"
+    },
+    "V084": {
+      "左": "A",
+      "右": "B"
+    },
+    "V085": {
+      "左": "B",
+      "右": "A"
+    },
+    "V086": {
+      "左": "B",
+      "右": "A"
+    },
+    "V087": {
+      "左": "A",
+      "右": "B"
+    },
+    "V088": {
+      "左": "A",
+      "右": "B"
+    },
+    "V089": {
+      "左": "A",
+      "右": "B"
+    },
+    "V090": {
+      "左": "A",
+      "右": "B"
+    },
+    "V091": {
+      "左": "A",
+      "右": "B"
+    },
+    "V092": {
+      "左": "A",
+      "右": "B"
+    },
+    "V093": {
+      "左": "B",
+      "右": "A"
+    },
+    "V094": {
+      "左": "A",
+      "右": "B"
+    },
+    "V095": {
+      "左": "B",
+      "右": "A"
+    },
+    "V096": {
+      "左": "A",
+      "右": "B"
+    },
+    "V097": {
+      "左": "B",
+      "右": "A"
+    },
+    "V098": {
+      "左": "B",
+      "右": "A"
+    },
+    "V099": {
+      "左": "A",
+      "右": "B"
+    },
+    "V100": {
+      "左": "A",
+      "右": "B"
+    }
+  },
+  "review_notes_sha256_before_unblinding": "0cbb6421b7d461e68eac54985b9997089691b50876e9062384a5df5da381d5eb",
+  "blinding_limit": "Analyst previously exposed; masked presentation only, not independent blind human evaluation.",
+  "selection_agree20": {
+    "original_cohort": {
+      "random": 13,
+      "boundary": 4,
+      "confusing": 3
+    },
+    "source_category": {
+      "(原类目空)": 3,
+      "Hogar y cocina": 10,
+      "Bricolaje y herramientas": 7
+    },
+    "source_version": {
+      "amazon-merged-20261022-84bacc4c6b66ab7a": 20
+    }
+  },
+  "reference_integrity_checked": 135,
+  "costs": {
+    "A": {
+      "recorded_calls": 5,
+      "requested_record_attempts": 101,
+      "usage": {
+        "input_tokens": 112673,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 25029,
+        "reasoning_output_tokens": 179
+      },
+      "summary": {
+        "run_id": "assistant_run-82f4fe1e894c7da78b6ec484",
+        "arm": "ordinary",
+        "completed": 100,
+        "pending": 0,
+        "calls_this_attempt": 5,
+        "cached_records": 24,
+        "elapsed_seconds_this_attempt": 404.47,
+        "errors": [],
+        "integrity": {
+          "integrity": "ok",
+          "foreign_keys": 0
+        },
+        "human_gold": 0,
+        "accuracy": null,
+        "formal_publication": false,
+        "provider": "codex-cli-chatgpt-v1:1103e9e09c71fa2cd0afd6d8f3b9a2d63174fe8efd7cb5bd09f1cb14ef58a098"
+      },
+      "batch_seconds_per_completed_record_not_latency": 4.0447
+    },
+    "B": {
+      "recorded_calls": 4,
+      "requested_record_attempts": 100,
+      "usage": {
+        "input_tokens": 106845,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 25629,
+        "reasoning_output_tokens": 166
+      },
+      "summary": {
+        "run_id": "assistant_run-faa3529736475a0060f3101a",
+        "arm": "skill",
+        "completed": 100,
+        "pending": 0,
+        "calls_this_attempt": 4,
+        "cached_records": 0,
+        "elapsed_seconds_this_attempt": 431.06,
+        "errors": [],
+        "integrity": {
+          "integrity": "ok",
+          "foreign_keys": 0
+        },
+        "human_gold": 0,
+        "accuracy": null,
+        "formal_publication": false,
+        "provider": "codex-cli-chatgpt-v1:1103e9e09c71fa2cd0afd6d8f3b9a2d63174fe8efd7cb5bd09f1cb14ef58a098"
+      },
+      "batch_seconds_per_completed_record_not_latency": 4.3106
+    }
+  },
+  "protected_hashes": {
+    "assets/action_reference10037.jsonl": "16666989932fdc84abbb8b8e6c929cef070fe613354f0954de2b56b8f6d7fdbc",
+    "releases/v0.3/manifest.json": "55544c23cf1ab372b177cd0e3e210e961b073c49c8ce9c18e757daac1ac54802",
+    "releases/v0.3/skill_entry.txt": "d9af09d1997946fc54cd6f6dafc9b9ae2c4b7b58e2b3ff27b494c7a05184edce",
+    "releases/v31/skill_entry_15b5f84.txt": "d61bf5af5e2fc3304a32f02a33375f43dd8eedcb6c0a95cd8d2537bea302b7a7",
+    "reports/assistant_training_v1_20261027/data/actual_model_calls.json": "6d896e6257c44af38a7c644cf307a63afe8ccafe7ade6a6b3a069ce4540f4e7e",
+    "reports/assistant_training_v1_20261027/data/final_metrics.json": "aa82fb6277a8b218348a3a994b84f528674220a2468b7abf4e228efe3388b3d8",
+    "reports/assistant_training_v1_20261027/data/frozen_contract_summary.json": "0aa642f54fbd3d3f7c26cff8a27e02bf79c66e305e954a086d3c0a8d8d0f08fe",
+    "reports/assistant_training_v1_20261027/data/independent_comparison100.jsonl": "ecd02465108d6df8774a880089fddfe3c14cdd8ff568dcb6d9c50e0e04b35b0d",
+    "reports/assistant_training_v1_20261027/data/initial_prompt.txt": "00c0b8cf9968c0005aff80d62fe8af5b2ab6475fc36b76f3d4b703eeb9970ee7",
+    "reports/assistant_training_v1_20261027/data/operating_calibration28.json": "4f3848daf0b9cb7753dda7277e6046377f87ec14d9965d31f98dccabcf640d21",
+    "reports/assistant_training_v1_20261027/data/regression_revision1_results.jsonl": "6786ca5923b09c24e4fe1341e1cd7fe1c66b5449ed3d71ecdbd6631606543771",
+    "reports/assistant_training_v1_20261027/data/regression_revision1_summary.json": "d4bc40b711ce668513e2442e7a6b4b54ff18d9dce5a20cc33c8ddcc8754c234e",
+    "reports/assistant_training_v1_20261027/data/regression_revision2_results.jsonl": "d770ce85e5ea3a4ac509e8588c914e9cc16640516b363dd122fa0ab83468d69d",
+    "reports/assistant_training_v1_20261027/data/regression_revision2_summary.json": "e6fce48721152bb17174e4f8c2e8203022f9582d2fbbd071f62b07cb3a60dc96",
+    "reports/assistant_training_v1_20261027/data/revision1_prompt.txt": "5f303ea9ed3bc044ed162f8e20cf63983a9298d319920862bce570d7c4e4a552",
+    "reports/assistant_training_v1_20261027/data/revision2_prompt.txt": "79691d353afefa65810b81b05875334f6c8eaca55e72c1761769eaccde8948ab",
+    "reports/assistant_training_v1_20261027/data/test100_sampling.json": "285d4335200baeb22254e861e83445abacbb90e0f560fcd9d08ee3f68b539fa9",
+    "reports/assistant_training_v1_20261027/data/test_ai_diagnostics.json": "3916bffc24c2045c1fc75f819ddf8a60a22ea199998c30d8731f0df09763a4f2",
+    "reports/assistant_training_v1_20261027/data/test_ordinary_prompt.txt": "894b0eb7a480128fc61b33d30c3a7609d2e2633b894c8a28bb293b4b3bcd69f2",
+    "reports/assistant_training_v1_20261027/data/test_ordinary_results.jsonl": "e5e671c599deab1aedfe353903c2e2c98b4d11d03ef025b4eb228f8723a31a67",
+    "reports/assistant_training_v1_20261027/data/test_ordinary_summary.json": "455c85a7c3d9d6e7b47a7322e527d863404fe96b0923f3487f4fc06dc26c05ac",
+    "reports/assistant_training_v1_20261027/data/test_skill_prompt.txt": "79691d353afefa65810b81b05875334f6c8eaca55e72c1761769eaccde8948ab",
+    "reports/assistant_training_v1_20261027/data/test_skill_results.jsonl": "2f0701a0ea068f8b0c4a5bd311536dececb7a3c5888fc87770527458675990aa",
+    "reports/assistant_training_v1_20261027/data/test_skill_summary.json": "5469682c6fbca7d7404baa703f7abaa3a834f56cf528e018af8943a9fc9a60cc",
+    "reports/assistant_training_v1_20261027/data/train150_sampling.json": "cca8d00bb62f22f3a35d4078d957533fae085b2b74031a454b74e2c1188377c9",
+    "reports/assistant_training_v1_20261027/data/train_initial_results.jsonl": "e640a55189a4f83731c38188fa98ed2f2923f3df468e16bf29f4ed4e6d9c5db9",
+    "reports/assistant_training_v1_20261027/data/train_initial_summary.json": "4d8a91cd8005944e5a6d0732e69232c1e40752dace7fe80ece67ea18c6710c35",
+    "reports/assistant_training_v1_20261027/data/training_diagnosis150.jsonl": "7d148129b4de2e4682d4db4c9624840b819e22e79a97e92ae039fce53fd2067e",
+    "reports/assistant_training_v1_20261027/data/training_records150.jsonl": "6ee681fa1027bf5e9235b063dad35db590da255a5145a7efb781397f6160f4af",
+    "reports/assistant_training_v1_20261027/design_review.md": "556e8d5bbec65c48dd03f131693ac6acabad32612dfaba4be1c822896b6c925f",
+    "reports/assistant_training_v1_20261027/final_report.md": "1fc1d2b21da34a5e7b94ade5e87678ddd388200a3bdad80f661137d58a022307",
+    "reports/assistant_training_v1_20261027/training_changes.md": "708f73e986ef7f06ca3607e5c712250c8e8de01e5f8f24fb9b0925ad0415d5a0",
+    "runtime/rules/action_semantic22_rules.tsv": "a3cceefac546f16086d8e47baaa5ea44720120c42d65895d8dd80a1bcb087d98",
+    "runtime/rules/boundary-v0.1/semantic_prompt.md": "e1926a188f29df8496bd3b0b6dc291a1d795d00f37ff19830ddb531da24a7d40",
+    "runtime/rules/boundary-v0.2/evidence_prompt.md": "9b5303a42b166591890abbd5f34c464dee5470e516a9db3c8bf5843d80badc89",
+    "runtime/rules/boundary-v0.3/prompt.md": "213224edca77245e0cdf32df7601fb6c166b2c491b7042fd05e80ea861b2d7a2",
+    "runtime/rules/boundary-v0.json": "cf2d49cacd2a611f37b33b47b18040d56f5d958785db53ec3a6177b75d591c75",
+    "runtime/rules/function_tags.json": "361a7e64459ee9a18e34763d6d94b3a82ce9dcb7694354d02a5e283e9e4ea925",
+    "runtime/rules/name_rules.json": "3ab5789f1978f5bb773570665c03a7b464382367b325a1b0b6b982abbdc72266",
+    "runtime/rules/semantic_v26_prompt.md": "ec0a01902100a311e19a1e0ea0f3706baca298a9d9bb3be39c8159c304374292",
+    "runtime/rules/taxonomy.json": "66eea461a05e7c19a07dd4557d7f83637e9d477cc00c355769046e68bc6b1686",
+    "runtime/rules/versions/name-semantics-v1/function_tags.json": "76e8bbd2a0795785d31d7e93570f4a033415129f9a728bbdc06f68990451437b",
+    "runtime/rules/versions/name-semantics-v1/name_rules.json": "2ddd9731213ccdab3254fa634532d0d71a6f1fbbb6855d33d7f2b0aabcce914e",
+    "runtime/rules/versions/name-semantics-v1/taxonomy.json": "7616f36b2cf7cb811464853f7c65a0f2771005bac095eca1e2e1116544e5dde9",
+    "runtime/rules/versions/name-semantics-v10-context-guard/function_tags.json": "1b25f0f66cf9857136b0ce26a3f5ad415399f2bf69ac9aa4dd97cc504e719482",
+    "runtime/rules/versions/name-semantics-v10-context-guard/name_rules.json": "f5b2a8b57317e1096327215bef5b138e7c9f592e86fd87652e32b71ffa614850",
+    "runtime/rules/versions/name-semantics-v10-context-guard/review487_policy.json": "c16971d171e6aa504f766d42858ee8e56a256a6ee6d383331064add2b88a3c7a",
+    "runtime/rules/versions/name-semantics-v10-context-guard/second_pass_policy.json": "7c568810f437aed4555131e602a53ce930194d0614adf853c60e9645d9fe1f91",
+    "runtime/rules/versions/name-semantics-v10-context-guard/semantic_refinement.json": "0d43a36fbebf7f6c6cea11fc7872ec09dfeca22e3a01e5142447aa59908d64df",
+    "runtime/rules/versions/name-semantics-v10-context-guard/taxonomy.json": "291b6b5a3b66a2697d35330df44488fb4a281330ce4540b4648f73b3917cde6c",
+    "runtime/rules/versions/name-semantics-v10-context-guard/title_families.json": "b8ae3489d02212847410f328ba510963e0860f7eae19d65d3225da41505c6743",
+    "runtime/rules/versions/name-semantics-v11-action5000-candidate/action5000_policy.json": "719fadbba10b9c60b8675da19719ecc368b2b2bb5f202527cb10238a1784b185",
+    "runtime/rules/versions/name-semantics-v11-action5000-candidate/action5000_review_policy.json": "1453b11e7b595c76407853601f658aa4c8293a0844459f45b6ef016e05feaf39",
+    "runtime/rules/versions/name-semantics-v11-action5000-candidate/function_tags.json": "ecfd2d50bda8d6c89684381217c4c77a1e08233055591944e5e940866c4d6faf",
+    "runtime/rules/versions/name-semantics-v11-action5000-candidate/name_rules.json": "f3a45f58451e57000aac82296497a83537acaa6dbb266d67280f58b4d315a14b",
+    "runtime/rules/versions/name-semantics-v11-action5000-candidate/review487_policy.json": "f2388e0383fb8ff08e5764284bd2b8de8df04b5b8dacb9505f3fcdfb9d229f5b",
+    "runtime/rules/versions/name-semantics-v11-action5000-candidate/second_pass_policy.json": "f85610cee779933aca2cbf0be39aa93f0e972bb5720c5cb87ea8646d54e2e27a",
+    "runtime/rules/versions/name-semantics-v11-action5000-candidate/semantic_refinement.json": "91add10e4466fc0b536d65967370f3a69f09515ee22907a45f9b4989d55a5fb2",
+    "runtime/rules/versions/name-semantics-v11-action5000-candidate/taxonomy.json": "1f0cf462a95db87642f0d382d21b329d977d33e43cabcdc8077d32accf3a8b44",
+    "runtime/rules/versions/name-semantics-v11-action5000-candidate/title_families.json": "bfceeda22068265fe5583bbc00108fdd7c3f9725332348bde4c709ce65845347",
+    "runtime/rules/versions/name-semantics-v3-staged/function_tags.json": "7bee7fc187cae657e00fb679baea86c071572f04f5ecf9e288bdd16db130b2d6",
+    "runtime/rules/versions/name-semantics-v3-staged/name_rules.json": "db09eb1ec0b9711945b3f6c4a4e4e6555fe1b2017f39590a7ed33debe8dd3750",
+    "runtime/rules/versions/name-semantics-v3-staged/taxonomy.json": "25305b105e23863a14843e6efb58f5f43ea606e6a6563fd038dac8b2405308f2",
+    "runtime/rules/versions/name-semantics-v3-staged/title_families.json": "895c4324fab64225c006dc79ebd9ec48a9370e8e14bad83ca741af56de1a9d70",
+    "runtime/rules/versions/name-semantics-v4-staged/function_tags.json": "e97680057b209b809e3a4f3fe217b3f9bddea629132922316f0ec20e8981c6d2",
+    "runtime/rules/versions/name-semantics-v4-staged/name_rules.json": "9165d3b48a7fd98b61061ff067e26c569a8ab399be467e67e8d5b712b54c93e8",
+    "runtime/rules/versions/name-semantics-v4-staged/taxonomy.json": "bf31d6b91ba01bc910e174e7fabaa890bf964c30de63c2aa939f8270690f82ab",
+    "runtime/rules/versions/name-semantics-v4-staged/title_families.json": "e670326e89672705c6e50b597690d2a09701f4fd52fa9c826d06a1297dc888b3",
+    "runtime/rules/versions/name-semantics-v5-staged/function_tags.json": "123d6768a49c9a36df0f9add1b7672afc4f4d7baaf47de60fd0f2a0b77985ef7",
+    "runtime/rules/versions/name-semantics-v5-staged/name_rules.json": "216f9a7e7ea0dd4606d46ba4de792b91e5fd5802ea493167c84c8edcc1dbd25c",
+    "runtime/rules/versions/name-semantics-v5-staged/taxonomy.json": "f9f4744492591eed6a067f4d5310f2ac7618237579935663fbe0239fba018f6f",
+    "runtime/rules/versions/name-semantics-v5-staged/title_families.json": "ffdab74caa023f6f82734f5d013e91735b74eea1e043d22c2c02724c6381f11a",
+    "runtime/rules/versions/name-semantics-v6-staged/function_tags.json": "d2e834dec63b263e131a89351a72653b4f0acd0fcac240477237ffe895a34a78",
+    "runtime/rules/versions/name-semantics-v6-staged/name_rules.json": "50f11ade4a1c920cbb3384ab34c440c667b8d2edf1b6c9c9de907479e15eafca",
+    "runtime/rules/versions/name-semantics-v6-staged/taxonomy.json": "d5ba146a51488a5160a1a33cb5c75594e69dac178ee5669c2e7c4bc08343c908",
+    "runtime/rules/versions/name-semantics-v6-staged/title_families.json": "9baefc6ce8f57b3319ad6c84ccc6a8f438fdc05d0e1dd3da5b58cce1fa07efe9",
+    "runtime/rules/versions/name-semantics-v7-review487/function_tags.json": "69565418ba314ac21157f0b967c93ac510c929d1cf4cc78776ebcf15aad59e3c",
+    "runtime/rules/versions/name-semantics-v7-review487/name_rules.json": "de97f1a86c0328ca9bcd94dee9da51ae7046a3ac5c9bdb107bf30974052c5f3c",
+    "runtime/rules/versions/name-semantics-v7-review487/review487_policy.json": "9ad795c0a4bbd517df162aeb71912be7eb19d89064efbe44b0ad854b98d6f92b",
+    "runtime/rules/versions/name-semantics-v7-review487/taxonomy.json": "a7a2019284c2d4fa3b65144b5575a19b7fb45362132314353378ec8869b02bb7",
+    "runtime/rules/versions/name-semantics-v7-review487/title_families.json": "5e495858542bdc4bf364b6923d80d959ebd0681ed8c1955945868c40d144f088",
+    "runtime/rules/versions/name-semantics-v8-review487/function_tags.json": "72d1902b454c1f47c6cd5f48005347e514a77fae3d3ea0af904a80ed3a40ec5f",
+    "runtime/rules/versions/name-semantics-v8-review487/name_rules.json": "91636b16b53e8a04a0c18f932f418ff3d7317dd20c59afd32b36a0bce9e0896c",
+    "runtime/rules/versions/name-semantics-v8-review487/review487_policy.json": "24e370e1571474158e95842c158f508859eb9ca58ab0a5b2fd5445ef3125ef4b",
+    "runtime/rules/versions/name-semantics-v8-review487/second_pass_policy.json": "18f39e7c77c309607ba29842ddb8254277323b226c7002b1810f999895965787",
+    "runtime/rules/versions/name-semantics-v8-review487/taxonomy.json": "0f999815557bc66da9469e1af1ef7f94f675be5e1fc0815e0a45f3f2783e68cf",
+    "runtime/rules/versions/name-semantics-v8-review487/title_families.json": "e20ca445c4b74cf29825b120ea69aac5974c178f46b0c9d8bdf7f01cf868a763",
+    "runtime/rules/versions/name-semantics-v9-compositional-review/function_tags.json": "ef0808d41143b1a628d263cac83671e9e25e40283f14a248e5560e5f236ca69a",
+    "runtime/rules/versions/name-semantics-v9-compositional-review/name_rules.json": "786f97d324776441ad8ad82ba5943445d7a7a5bb39a81794ba5dfa895490edb0",
+    "runtime/rules/versions/name-semantics-v9-compositional-review/review487_policy.json": "d8fc9625377b4836e09b04a15c481558f6054dfaf27928ff9e9c7501a643c780",
+    "runtime/rules/versions/name-semantics-v9-compositional-review/second_pass_policy.json": "15fc3c34f2da75d215952714c271218259eeeb81867e0f55558092a3cd342bed",
+    "runtime/rules/versions/name-semantics-v9-compositional-review/semantic_refinement.json": "970b58e66260b7282cab0b97bcd7b35a506686161b27fa906d823c632723242c",
+    "runtime/rules/versions/name-semantics-v9-compositional-review/taxonomy.json": "d212aff55a1074b820224b8eaef27a13455ea66dda84b9fe2c754c75646c09be",
+    "runtime/rules/versions/name-semantics-v9-compositional-review/title_families.json": "e64e4321ad0917bfdeca0e3872085bf9d89d17f993dd4a983b6f65cab873b3cb",
+    "runtime/scripts/action5000_refine.py": "5227953feccc5a221901331a70073b95001980b4650988db551cd80f3ee681b1",
+    "runtime/scripts/benchmark.py": "c528d2a36755a54710143e7c97a1bfdd9e357af5306f4ec1ff65959a9d00db50",
+    "runtime/scripts/build_pilot_annotations.py": "ca383479a09ac3759eebc2b6ad6611861daf04531730ceb3e57038f59f6a3951",
+    "runtime/scripts/finalize_review_v2.py": "6ff751789bbbe40fe2dd034d51c9d880115d630959c6a778c7b89e47b0d0939d",
+    "runtime/scripts/p11_run.py": "5bd8def506c9de64e4fb501cf180d360208846486a232ef2735a1cc3497fedf7",
+    "runtime/scripts/pipeline.py": "2584ceea39768ea4dfebb8889d2de5eb3f45c3e3a637ab3fc50280f1703d3a99",
+    "runtime/scripts/quality_review.py": "3f2bb678d3b272c49d5b7d1fbdd8353b75c23b5a045f885662e26d2076d11ed7",
+    "runtime/scripts/review_pilot_v2.py": "e5e51b1fe736307b6e8dec802471962ca9a9902c7f8d975b3233fce94f5f5766",
+    "runtime/scripts/semantic22.py": "bab0d18190f40d166fb484907a7d7a68d5ebe0904d07b523d1fd301af2262646",
+    "runtime/scripts/semantic22_finalize.py": "ae1b3dfae8311361cb82d7e21757c30426e3dfbf1d8c2d68bba814953987649f",
+    "runtime/scripts/semantic22_history.py": "d4c3892d6ae401d92dee8647b76e6bb5ffb6503d1208101a2406cc0959633f68",
+    "runtime/scripts/semantic22_prepare.py": "4cdf0d2c2b6525601c9333a48671125b04dadabeab47d5786cfc8c8b918ce43b",
+    "runtime/scripts/semantic23.py": "9f160d90e18d83d46a560d09fa15e36fd75029ab1e875f696c9ceb3572cd507a",
+    "runtime/scripts/semantic23_finalize.py": "593b7ad415d460c8e3a29f420c71f58c139f9f81bb72479c1f95438be7edb725",
+    "runtime/scripts/semantic23_merge_diagnostics.py": "0f717eb89aeba853786f040a488e1b0b31ba71b149694fecf7976ea7db9ab9b0",
+    "runtime/scripts/semantic23_prepare.py": "5e119ab12fa58c705fa0a34520a2734d13b802e7f011e602c3409b19038f082a",
+    "runtime/scripts/storage.py": "4375fc9d1f37ffd19941a701c59634c645750cf17fccd2126dccfc708f4189fb",
+    "runtime/scripts/title_semantic_refinement.py": "170a6adff1e44db726839c29aa75fec955499d0723ad8c7ba63c35e40c50fd08",
+    "runtime/v2/amazon_inputs.py": "2f1c5fcfc0c0a42aa549c45a7b4441140757a8a09b4c747c18d48fa9b995d99b",
+    "runtime/v2/archive_prototype.py": "e1336b6463b29770c381b60ee5fdf893ac061e4ff1270241cdf44cc27a4f5f70",
+    "runtime/v2/assortment.py": "83610734da8d611203751a110bb16296d553b97cfb1577ae63c3b77defb3a26e",
+    "runtime/v2/audit_subject_v2510.py": "0f17b423e3fe0fcacc054bd2fafa843865284a4b016a3402b669570dca3a91b5",
+    "runtime/v2/audit_subject_v2513.py": "3f64b9049c911c6100f9a2013f3f4ab6e3e9d8bcd96ae6f4ca1b983090fbbde0",
+    "runtime/v2/audit_subject_v256.py": "2ce00dbcd685de9109f11a3ac91c52355c75bf0254afbdd9f7355a11c9ffb0c7",
+    "runtime/v2/bind_and_reserve.py": "32516b66d97651f0a38cd7dbfb770f2cc28719d74844c1c1ea6200c767ee1326",
+    "runtime/v2/bind_boundary_reviews.py": "7c82d9e663574109988893e6f105cd5dd0e103bb968744eada11faf9474f7dca",
+    "runtime/v2/bind_semantics_v01.py": "ed90d8e659365ea00fa3135950966e5c2c1e14f40d9021a62bb9cd01ac0d6a40",
+    "runtime/v2/boundary_feedback.py": "e715f42e6fab22c0a097bc9b94d76cb84e7a50f8ee8e5a12707740f4bf104614",
+    "runtime/v2/boundary_learning.py": "236e7b7c82ec06071ef447515b0ff110fbfa2d4abb5c765f366d0204df9bda99",
+    "runtime/v2/boundary_refinement_v02.py": "8907dfa2e328d83ee693255e084012c218fdd2a8fe9ead8e7ef6e699a99f6640",
+    "runtime/v2/boundary_store.py": "542c361a835a3f9d45bff3452f2d1def61a9c5931e72e4731e3405df235134c4",
+    "runtime/v2/boundary_v24.py": "d9973553f7b424a90fc1c61f31b9cd7d87c8047fad5e7fae97a3886e156bea6b",
+    "runtime/v2/boundary_v25.py": "144fb2d755e8f6b5894cad23aedb8e79111c908e826eb04819d8d28c11be2ec2",
+    "runtime/v2/boundary_validation_v03.py": "4d9273b85f44604ef1a2240df3395bda5de4497ef46278298ce51e179ff46f64",
+    "runtime/v2/calibration_v01.py": "3444ab4d32140567e322024f260a45231139eb9d0de504a49f6588cb2b4bc19e",
+    "runtime/v2/close_boundary_pilot500.py": "655ab007416e04f38ad5cb5d5b3688e13209f4930345a71955bdc37f4a7a90ef",
+    "runtime/v2/close_boundary_refinement_v02.py": "b3f7c6f6c241ee2745cb585a268cf2a342cf76c7d87a6343fbc7db87a3aab4a7",
+    "runtime/v2/close_boundary_validation_v03.py": "2a1bfbf362bd0394aa113abcc190cc97e785a5b3de162577fe553fe89282b943",
+    "runtime/v2/comparison.py": "f69b58a8779e432f307d1df008ffabdc3ac9172653734c935e3e702d0f5f278a",
+    "runtime/v2/evaluation.py": "f80f3b1181bd367f5496f9f7efbef0f24b64e2d5295bcaaf9266329080ad065d",
+    "runtime/v2/export_boundary_v25_calibration.py": "cb173d2493649f6ff95639c258f3c60dd7ea1ec1c4f4df05edde6d35afd9bb88",
+    "runtime/v2/export_data.py": "d2befe3ef475bf99e7f0c871b8f2b6221fe00832f2ab6d3334a491df5e1af822",
+    "runtime/v2/finalize_boundary_v0.py": "ae5223621bfc04cc5b24043d1f756a74387ae0f38e4cc0752c2431dd1c69bfd4",
+    "runtime/v2/finalize_boundary_v01.py": "5c052198a29aaaf5990c8c9486b64d22d4b5adc7560740b9d14f746066a5b020",
+    "runtime/v2/finalize_semantic_v26.py": "54590d15863b9fff610ccfbc85dcf46b253e57b96e0777f29c28f73648da096e",
+    "runtime/v2/freeze_final_candidate.py": "956f696faf4a6b9bc2d9a508cdb8f21b3c77e56cf4ad5e161cded28ae80706e8",
+    "runtime/v2/p0_inventory.py": "af993ed289e3440b473e00f6cb1684186cf2d9a744201eb42301c34e1ef2aa9d",
+    "runtime/v2/policy.json": "74f4bebb712b0564388f4d3f873b79e96f2b3c342768af7b0c45db8a6394ee91",
+    "runtime/v2/relation_guard_v23.py": "29f3332b5fe52b5bba27ed3a631846f26dc4dcc6eae8bd2327b043836e0daf42",
+    "runtime/v2/report_boundary_validation_v03.py": "d70f453467be474ae54665cd9f53c600c91c84e5afb046f156d03484e0eb7bb3",
+    "runtime/v2/review_round_v251.py": "397df2b12da6bc4493a46fd839077d7edc46d23a2bda06eca3ed12ef14d4f25f",
+    "runtime/v2/run_boundary_full.py": "2373372cdc2d84684579892d1f6ebab9bec9326dc1c7d1ca7c33315227cd5f30",
+    "runtime/v2/run_boundary_learning.py": "952184db2f7ce1598875b255059cffb0ba68a12dcbbbc4b5e61a248dc1cebcbf",
+    "runtime/v2/run_boundary_pilot500.py": "3bdabbf7470127f6146bc0cd1dd080d208f91e270ecd548fb1edfb2219667224",
+    "runtime/v2/run_boundary_refinement_v02.py": "6ebd8ffe1400b054ed746e98f38aaccb226d7e1248f96e8d967665991c0d136b",
+    "runtime/v2/run_boundary_v01.py": "f65da68bbc376acfc26d77f01167e5c49bfd3f1bc7b8a84512b5aa9ae3395347",
+    "runtime/v2/run_boundary_validation_v03.py": "6dff92312f9ce3015be0f3f00944b0f384c73f806febaa56f7f781ca5b153e67",
+    "runtime/v2/run_bulk.py": "5495229d7eed7eb72f8fc983e96d3d496f17abf9fba81b3ace118a0142994a93",
+    "runtime/v2/run_effective.py": "7e1dab281379d51a3cd67e9902d031cd55279a08b086a0b5873a8fb26d13fb9d",
+    "runtime/v2/run_semantic_v26.py": "59b4991cee34506e4c3f15ef47b63730bd412a85b5bfa4201064fc572722f988",
+    "runtime/v2/run_subject_v2510.py": "fda01625b6c53bd2469778ff95ca4ab41829ba486dd2c04718b748252fdd0106",
+    "runtime/v2/run_subject_v2511.py": "d1ebd2f3fc44cb6a49ed212fe0ae81f04b6390a5105907bc3a778ea111f5ca8c",
+    "runtime/v2/run_subject_v2512.py": "9c721619fe956dc9c5e467255a78a132f2b0e6704700cba96945ffc2739ec719",
+    "runtime/v2/run_subject_v2513.py": "a5716121a07dd5149020cf06ea35168949ef1f27a53b5559b3b8ee469fa907ef",
+    "runtime/v2/run_subject_v252.py": "a36ce7c4f3e0858284a183042f96d6d732cfc33e43b32321e0d4b6697fd1ad86",
+    "runtime/v2/run_subject_v253.py": "12efae56c88c748939e5ec7b15ceb8e9b055d352d1d538732a485e920e232a36",
+    "runtime/v2/run_subject_v254.py": "2f056e9b2e89d0e5bbce8299c2741d9fb52309bfa4eed469a7af78c74418e87d",
+    "runtime/v2/run_subject_v255.py": "083c4c38c9fc18839960a3651a688f4bf9af1e45ce99d97f70820ffb7b1bbe1f",
+    "runtime/v2/run_subject_v256.py": "1ed51638cdc057a4cd35ebfaab2a488183c8aaff389960a3d94262e5e5ac5ccb",
+    "runtime/v2/run_subject_v257.py": "bad2063b25695a88e3b1243f327fcb1deca88324987034e851626f76b1770087",
+    "runtime/v2/run_subject_v258.py": "c271468f4d3a02a295e13f5f18e4ad6e1baed176d92bf86fbcc803e0fc6455cb",
+    "runtime/v2/run_subject_v259.py": "0a9e13d5a56b8ce919b61e9c258ad131dd8f7065366de139fb2a6711ac6b2dc5",
+    "runtime/v2/runs/action_assortment_v2_20261022/method_manifest.json": "d8eebf8edd5c4022e8c1da7045f0d5c7515130fd5e3dc97de7d35eaf4053116b",
+    "runtime/v2/runs/action_assortment_v2_20261022/retrieval_index.joblib": "e944252617db9a5d49b9c23dc0aa9c7370516e41efb380422545b6a55393c5f0",
+    "runtime/v2/semantic_understanding_v01.py": "dced10d6a673fe4c528ee5ac7fb53ca514a286fc037bb61f3675e65373330f45",
+    "runtime/v2/semantic_v26.py": "6c7d0760d5ec789949d6685832f7f6f0141672ffbef453143b588421d675187c",
+    "runtime/v2/subject_experiment_store.py": "b3ce2295fa748c9b290cfe3f11f11d907153b10fba5ed9727b993bb0282dced3",
+    "runtime/v2/subject_reference_bridge.py": "bc4ce79b38b2adddfd41940ef8e202b55db0d90b9d23b245e34c4a5535a7dc75",
+    "runtime/v2/subject_reference_core.py": "2c9654fc6c08015e628fe9a16a79917369a9ae0666b770c3de382a3165691e8b",
+    "runtime/v2/subject_v2510.py": "f225caf56a3eb39e83bf30bab13e8159a91edbb345859dee5e7e87cee21989cf",
+    "runtime/v2/subject_v2511.py": "54bf1ea15540e5b4229b1c216c0fa98d45825e3fef3e9d25bd420a8502ddc904",
+    "runtime/v2/subject_v2512.py": "716375bc6b5f04a521ee7ce844d42ca1aa0fb27e4a93093ebcfe9b6c1e93b45d",
+    "runtime/v2/subject_v2513.py": "e022ed5df7f7df336ced58ae3bef365a93d7116323d85499640ccd08323542a6",
+    "runtime/v2/subject_v252.py": "1cbbf7b9a701c467bd177a72eaf4c4cd83e07ed31c787224499c33a0989ab8d4",
+    "runtime/v2/subject_v253.py": "6912f0c6fc0e30f839535845800e46f3e9d23bfcabdaa04389870d3d4f806766",
+    "runtime/v2/subject_v254.py": "d5041255003e1b3cc0786388c4419015782b7c921810ee312970f35cddda7b30",
+    "runtime/v2/subject_v255.py": "d9d3a9de36255794c0d2c4bd5033f1b1314e34402b668268135465f3c2657804",
+    "runtime/v2/subject_v256.py": "c229ab833dae788b08041d6cefc468deee36b188e5e2a315b850edb3b6b5077d",
+    "runtime/v2/subject_v257.py": "357d3b224c148e1a2e2e8aad503af534b741f17457d5a7afa6535cbd014c7585",
+    "runtime/v2/subject_v258.py": "80d8cf1262d8e612e0c076878e5a59ecec23c17655819d707290dbdd9e87d0b0",
+    "runtime/v2/subject_v259.py": "d0ff436029f420383ab82ab7904665aca1dc4e8ca807ce4dbbe86bdd8c4894ec",
+    "runtime/v2/technical_gate.py": "da36d152e84f241c6a7ed4fc0da37c249dec39860915378c674e5e05dddf4cfd",
+    "runtime/v2/test_contracts.py": "df782bd97ff863f226589dc4f8bb4194736b18a1c226a4213d28753035966a6d",
+    "runtime/v2/v26_prepare.py": "0aa1a6923edeaaacf5e24981b09f959a58a26b7902cd0df8363f286becf5ce43",
+    "runtime/v2/verify_boundary_pilot500.py": "f583486339580e6583c927c031f9c9fc32d365c1579ab098f7564de745d7bfb0",
+    "runtime/v2/verify_boundary_v03_final.py": "5ccf38a4d1c98b46a1e7a9dd95217648d3bf060a18216ffdf97c77408cb29ba0",
+    "runtime/v2/verify_data_and_resume.py": "e1566317e74699648c8c4db33cd08bdb1b3f14110aae8f1b9d7f0faa8204fff0",
+    "runtime/v2/verify_effective.py": "f39c918fc0f2d1a37f216bac42b005cb1bfb98f4228884a1ce104d567edaffb4",
+    "runtime/v3/__init__.py": "51c484f17e21596be345e2a85d5fe4951cdcde9f20b0003af5bd6ca38582cd09",
+    "runtime/v3/catalog.py": "6f7f5344f998be5db1addcaa9ae3ccd219ee36fee65a8273d9e72fd8d1a25f13",
+    "runtime/v3/cli.py": "7b547e12b009f0b66b4bb187ccc3d7c2a6fc390576142b3f905259b1295e749c",
+    "runtime/v3/core.py": "8e5b0abe9807c5198f74938dd6118c57a603dc5fba3c50683b130b868e5d0402",
+    "runtime/v3/evaluation.py": "aaa2fb54cefffb68ba18c568536e2448da0e744bc6cc23462540ac88e1c103bf",
+    "runtime/v3/feedback.py": "3f3ddaa88a6221ff63161c91168becd45f4ce67eabb4aff2d8f48f641066cd9c",
+    "runtime/v3/store.py": "603f1a0eded8c31ee6564f17ac0d16cb39888987b2ea8640b2f837841cd4222d",
+    "runtime/v3/workflow.py": "97cc2ff5bb40e9da1703ffd93cc8edf26d8611623cb88de730b32cf345a67306",
+    "runtime/v31/__init__.py": "e49a396565bbbd385671a3428aa7a649ad569e67ee50a8bfa6905046a68f62ba",
+    "runtime/v31/calibration.py": "a603aebf68a7f0c7fe44c7b771dfc769ead4f6c22087a910635d37a76eded9e4",
+    "runtime/v31/cli.py": "d7fea39d3362dfd44bf7241fd4a0808411ee3a99b57de8c5c9797b373a09834c",
+    "runtime/v31/core.py": "a1a9b988fde9f843d1ab65b442a9dd348799f0023ffad1fdea8a6c3e0a2f0409",
+    "runtime/v31/model.py": "cc0b66a47210c2bfae661d727dc4fa762cc32184232f939b1e26c13eeb412460",
+    "runtime/v31/qualification.py": "acca0c0480ad300a2f7a9ce05c0306f23b258134a9bb3edef036e2b0e8799dc6",
+    "runtime/v31/reviewed.py": "e57875dd6593f71b464ec59646eedead06147ee61bcb46e9ac792ff351b799e2",
+    "runtime/v31/reviewed_workflow.py": "7331760b8c618ec89cea3ee7ccfe0800a86259dde0ed6f20d662608ce0a2429d",
+    "runtime/v31/rules.py": "75e8be49f1ab967aea326588f5b20f4c80e923a6fa742709ddc461ff8871ad3d",
+    "runtime/v31/state.py": "ad0104933460d7381fd47e0f3cfe3452b5f5b46d88399ff90144752214bb5b9b",
+    "runtime/v31/workflow.py": "b352bd6c232f8bd52c9804136034a453932d73dc27efba45b8c29e8cfb5aa17f",
+    "scripts/build_manifest.py": "6f3692d8b9f0745e988a7d2854fad00ed1b7b8d3c375d4047f6b3d820179f203",
+    "scripts/selection_assistant.py": "2990a88adbfc00783c5f0092d7f797f5d9c129df74d42e6b88dc1af0fcbd9165",
+    "scripts/share_tool.py": "9cd845f036fd9be28f24c109694dd0585d84e8de91d8b00419f94e2c338213d8",
+    "scripts/v31_commonality.py": "fdea4def060e359203084689b4167f478004ebf9099d3428b5c327768d654257",
+    "scripts/v31_cycle.py": "b2146a7da95eb2e40776ca89139ae294d744beb3b0c56b1b4137dd8d19be127a",
+    "scripts/v31_prepare_validation.py": "3f815502c90a17c28e1299f41aa2fd27e1c703e1223d7f007a8c960157cdfe30",
+    "scripts/v31_report.py": "1a8bb2f6ee93821a1ee5867fcbb929dcf114067361c5798dcd3b05f912c6a683"
+  },
+  "original_input_hashes": {
+    "test_ordinary_prompt.txt": "894b0eb7a480128fc61b33d30c3a7609d2e2633b894c8a28bb293b4b3bcd69f2",
+    "test_skill_prompt.txt": "79691d353afefa65810b81b05875334f6c8eaca55e72c1761769eaccde8948ab",
+    "independent_comparison100.jsonl": "ecd02465108d6df8774a880089fddfe3c14cdd8ff568dcb6d9c50e0e04b35b0d",
+    "operating_calibration28.json": "4f3848daf0b9cb7753dda7277e6046377f87ec14d9965d31f98dccabcf640d21"
+  },
+  "human_gold": 0,
+  "new_amazon_samples": 0,
+  "new_cli_model_calls": 0,
+  "main_merge": false,
+  "master_writes": 0,
+  "formal_accuracy": null,
+  "reference_local_clearer_counts_not_accuracy": {
+    "B": 9,
+    "A": 1
+  },
+  "issue_counts29": {
+    "C": 13,
+    "B": 11,
+    "OK": 2,
+    "D": 3
+  },
+  "revision_count": 1,
+  "new_policy_approvals": 0
+}

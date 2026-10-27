@@ -37,8 +37,8 @@
       "bytes": 4577
     },
     "SKILL.md": {
-      "sha256": "fbaf143c048c9c6b8649ebd1544cbcff0ba357910a5e3cf65d24a32ccaf12b54",
-      "bytes": 2891
+      "sha256": "006d79c1a7482b52051e175357d23a43bcc0db7cadef0f38bdab2f8114b241fb",
+      "bytes": 2986
     },
     "assets/action_groups_v26.json": {
       "sha256": "e9e11376e6318b7e01ad358c56533516e3391ca7dd9b7713c6d20f867abf0ce4",
@@ -221,12 +221,12 @@
       "bytes": 2630
     },
     "references/selection_cases.json": {
-      "sha256": "e6ceab9a477d20592c80b8156f676d2e296ec281d753ad12d37452280f7732a5",
-      "bytes": 3056
+      "sha256": "888f8b56296a449eb3fbfa007cd5c2633d97e9c4dcc355b90f6e5f599ddc9ab1",
+      "bytes": 4332
     },
     "references/selection_playbook.md": {
-      "sha256": "0bd6c5a78081e01cfb3b179b4e649015cf7695aac57a6cc21fe57e64ac44a009",
-      "bytes": 4567
+      "sha256": "2e06aa4a0111326b586fa0463d4a8337480840f266a861ba4f76c4e739c49828",
+      "bytes": 5167
     },
     "references/v31_autonomous.md": {
       "sha256": "19ee8841c9794da28e68cac617bf89c2f50aa7ba0bcc8c03268b4a757922dcd9",
@@ -247,6 +247,30 @@
     "releases/v31/skill_entry_15b5f84.txt": {
       "sha256": "d61bf5af5e2fc3304a32f02a33375f43dd8eedcb6c0a95cd8d2537bea302b7a7",
       "bytes": 6028
+    },
+    "reports/assistant_calibration_v1_20261027/ab_review.md": {
+      "sha256": "33fecf0503d6d07cf911b5ec48e55d6aa136958dd5eb81e1de2b976995ae1693",
+      "bytes": 46463
+    },
+    "reports/assistant_calibration_v1_20261027/audit.json": {
+      "sha256": "546e9d6beed2ed2000a0f899769856f5d84ec116c4d0ad511ddcfe3528a1d1f5",
+      "bytes": 222457
+    },
+    "reports/assistant_calibration_v1_20261027/operating_principles.md": {
+      "sha256": "c12b935fab12757b34326cdf0ff3a4f33b23da3c1a6c39dd32e1b5058778b451",
+      "bytes": 14531
+    },
+    "reports/assistant_calibration_v1_20261027/skill_revision.md": {
+      "sha256": "89ffc6295d29a36affe8c2396ae2a50081ed728f6e4a0d4cc675124dd51c9fbc",
+      "bytes": 3514
+    },
+    "reports/assistant_calibration_v1_20261027/value_report.md": {
+      "sha256": "1d6434a04f90ee72b92d856b225793951352959fe29a905b386b9019ac35aceb",
+      "bytes": 8616
+    },
+    "reports/assistant_calibration_v1_20261027/verification.json": {
+      "sha256": "eda459f58abf670a83b110e41f77993e46a4478b1e559a57a8bc22956d494781",
+      "bytes": 2323
     },
     "reports/assistant_training_v1_20261027/data/actual_model_calls.json": {
       "sha256": "6d896e6257c44af38a7c644cf307a63afe8ccafe7ade6a6b3a069ce4540f4e7e",
