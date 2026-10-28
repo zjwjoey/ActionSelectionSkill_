@@ -212,6 +212,10 @@
       "sha256": "e19fd53949d3d5d41b5ebe3e689d5e6a8c16fa0613d38e534805b191bbf78d34",
       "bytes": 5487
     },
+    "references/matching_v21_price_layers.md": {
+      "sha256": "5329442c4a82d9c5a809913512bb3114b9867524da723b3a0191799aa8c6a89c",
+      "bytes": 2469
+    },
     "references/matching_v2_candidate.md": {
       "sha256": "547ce98eed86191b6de9cf221ab4c971bd04fa7830d90cf417742038a6fe27c7",
       "bytes": 4316
@@ -483,6 +487,10 @@
     "reports/business_v14_20261027/training_plan.md": {
       "sha256": "c383df53ee537a1449d4b983863a0caf4d9408fbbba35b09fb0b5a3fb8dec7ec",
       "bytes": 2463
+    },
+    "reports/matching_v21_20261028/anonymous_summary.json": {
+      "sha256": "fa3184bd03cb2d7ef0715926a656026a240725208c115fbcc29de3f7d5e71bbf",
+      "bytes": 5607
     },
     "reports/matching_v2_20261028/anonymous_metrics.json": {
       "sha256": "8094b72ae0fd5423c25a69015ff68da2acb4a7be4cbe8f5b6f3b43d726225082",
@@ -3840,6 +3848,10 @@
       "sha256": "3298c7eebbb99491c925e326693d0c73e75daaa86ba2b5b71ee8c3f3c23b0b4a",
       "bytes": 12029
     },
+    "runtime/matching_v2/price_layers.py": {
+      "sha256": "d816e37871a06a59a613c8bf3d142f732af0b712850bb2a0869c45b4233b18bc",
+      "bytes": 12845
+    },
     "runtime/matching_v2/reporting.py": {
       "sha256": "48974ddb902eee7c8eb997073dc5f43296dc5cdff0de40762d33d0e7355fae44",
       "bytes": 8114
@@ -4572,6 +4584,10 @@
       "sha256": "67cc841fda1ebf374e4894baf97c8119e192c47422e6d2280addd4288338670c",
       "bytes": 2983
     },
+    "scripts/matching_price_review.py": {
+      "sha256": "f1b65ccc11cd9525bbfd81abd415c2d2f83528b402f0d272fcd90aa943cda2d6",
+      "bytes": 19674
+    },
     "scripts/selection_assistant.py": {
       "sha256": "2990a88adbfc00783c5f0092d7f797f5d9c129df74d42e6b88dc1af0fcbd9165",
       "bytes": 8655
@@ -4599,6 +4615,10 @@
     "tests/test_matching_v2.py": {
       "sha256": "5054c13eda2e409f13d2738fbc14288420e6883b124690da6c03070008aef358",
       "bytes": 4106
+    },
+    "tests/test_price_layers.py": {
+      "sha256": "288796c79661efeac090f7c5ac52bdf675647f748cc46c55cdac6745fbf38a0a",
+      "bytes": 4650
     },
     "tests/test_reviewed_observation.py": {
       "sha256": "038b3cd6f53bbe83052a152544b79bc34fa29faf421162ff2eea31b43e1efa71",

@@ -1,0 +1,203 @@
+{
+  "input_sample": 200,
+  "B_pairs": 1000,
+  "verified_source_books": 13,
+  "amazon_records": 21280,
+  "amazon_asins": 15596,
+  "amazon_positive_price": 20348,
+  "action_frozen_references": 10037,
+  "action_saved_skus": 7171,
+  "action_saved_exact_binding": 7158,
+  "AB_top1_changed": 66,
+  "weight_sensitive": 23,
+  "old_strict_eligible": 0,
+  "old_strict_blockers_overlap": {
+    "TYPE_NOT_COMPARABLE": 632,
+    "SPEC_EQUIVALENCE_NOT_ESTABLISHED": 1000,
+    "EXPLICIT_CURRENCY_MISSING": 414,
+    "EQUIVALENT_PACK_COUNT_UNCONFIRMED": 914,
+    "SNAPSHOT_DATES_MORE_THAN_7_DAYS_APART": 323,
+    "ACTION_SOURCE_BINDING_UNCONFIRMED": 311,
+    "PRICE_MISSING": 405
+  },
+  "B_spec_status": {
+    "UNKNOWN": 755,
+    "DIFFERENT": 245
+  },
+  "B_category_status": {
+    "UNKNOWN": 225,
+    "CONFLICT": 250,
+    "SUPPORT": 525
+  },
+  "normalized_amount_equal_pairs_not_equivalence": 10,
+  "dimension_coordinate_overlap_pairs_not_equivalence": 9,
+  "old_pack_missing_L2_available": 159,
+  "old_pack_missing_new_two_explicit_counts": 20,
+  "old_pack_missing_L3_available": 3,
+  "L2_partial_top5_queries": 71,
+  "L2_full_top5_queries": 7,
+  "layers": {
+    "L2": {
+      "pairs": 197,
+      "amazon_skus": 78,
+      "action_skus": 177,
+      "date_buckets": {
+        "SAME_DAY": 106,
+        "8_30_DAYS": 39,
+        "OVER_30_DAYS": 30,
+        "1_7_DAYS": 22
+      },
+      "blockers_overlap": {
+        "AMAZON_L1_INVALID": 280,
+        "TYPE_BASIS_NOT_ESTABLISHED": 632,
+        "ACTION_L1_INVALID": 311
+      }
+    },
+    "L3": {
+      "pairs": 9,
+      "amazon_skus": 4,
+      "action_skus": 9,
+      "date_buckets": {
+        "SAME_DAY": 4,
+        "OVER_30_DAYS": 1,
+        "8_30_DAYS": 2,
+        "1_7_DAYS": 2
+      },
+      "blockers_overlap": {
+        "AMAZON_L1_INVALID": 280,
+        "TYPE_BASIS_NOT_ESTABLISHED": 632,
+        "AMAZON_SALE_QUANTITY_UNCONFIRMED": 805,
+        "ACTION_SALE_QUANTITY_UNCONFIRMED": 863,
+        "ACTION_L1_INVALID": 311,
+        "MEASUREMENT_BASE_DIFFERS": 3
+      }
+    },
+    "L1": {
+      "both_valid_pairs": 490,
+      "amazon_skus": 144,
+      "action_skus": 429,
+      "amazon_valid_pair_occurrences": 720,
+      "action_valid_pair_occurrences": 689,
+      "amazon_valid_unique": 144,
+      "action_valid_unique": 584,
+      "blockers_overlap": {
+        "amazon:EXPLICIT_CURRENCY_MISSING": 145,
+        "action:SOURCE_RECORD_MISSING": 310,
+        "action:FROZEN_TITLE_BINDING_UNCONFIRMED": 1,
+        "amazon:POSITIVE_NUMERIC_PRICE_MISSING": 135
+      }
+    }
+  },
+  "disjoint_price_cascade": {
+    "L1_SOURCE_PRICE_OR_CURRENCY_INVALID": 510,
+    "L1_VALID_TYPE_UNCONFIRMED": 293,
+    "L3_STANDARDIZABLE": 9,
+    "L2_ONLY_QUANTITY_OR_BASE_UNCONFIRMED": 188
+  },
+  "history": {
+    "counts": {
+      "INSUFFICIENT_VALID_OBSERVATIONS": 11250,
+      "ECONOMIC_PRICE_CHANGE_UNRESOLVED": 13976,
+      "CURRENCY_EVIDENCE_ONLY_CHANGED": 1438,
+      "NO_OBSERVED_CHANGE": 1502,
+      "BOTH_NUMERIC_AND_CURRENCY_EVIDENCE_CHANGED": 1285,
+      "NUMERIC_ONLY_CHANGED": 121
+    },
+    "definitions": "Numeric cell changes and currency evidence are distinct; unresolved economic change is overlapping, not an extra disjoint group"
+  },
+  "old_history_mixed_change_count": 2844,
+  "review60": {
+    "pairs": 60,
+    "unique_pairs": 60,
+    "unique_amazon": 12,
+    "max_pairs_per_amazon": 7,
+    "strata": {
+      "high_score": 10,
+      "low_score": 10,
+      "spec_difference": 10,
+      "uncertain": 10,
+      "AB_change": 10,
+      "other": 10
+    },
+    "human_fact_labels": 0,
+    "sampling_limit": "Pair strata are concentrated by original iteration order; not a 60-product representative sample"
+  },
+  "recall30": {
+    "queries": 30,
+    "all_references": 10037,
+    "all_rank_rows": 301110,
+    "review60_overlap_asins": 11,
+    "combined_unique_amazon": 31,
+    "strata": {
+      "high_name_similarity": 5,
+      "AB_top1_difference": 5,
+      "spec_conflict": 5,
+      "host_or_part": 5,
+      "weak_retrieval": 5,
+      "no_confirmed_match": 5
+    },
+    "candidate_rows": 631,
+    "outside_original20_candidates": 139,
+    "queries_with_outside_candidates": 14,
+    "original_retrieval_parity": "PASS_WITH_REPORTED_TIES",
+    "ties": [
+      {
+        "id": "M161",
+        "kind": "TOP20_BOUNDARY_TIE",
+        "count": 2
+      },
+      {
+        "id": "M017",
+        "kind": "TOP20_BOUNDARY_TIE",
+        "count": 2
+      },
+      {
+        "id": "M181",
+        "kind": "TOP20_BOUNDARY_TIE",
+        "count": 2
+      },
+      {
+        "id": "M184",
+        "kind": "TOP20_BOUNDARY_TIE",
+        "count": 2
+      },
+      {
+        "id": "M003",
+        "kind": "TOP20_BOUNDARY_TIE",
+        "count": 2
+      }
+    ],
+    "confirmed_misses": null,
+    "Recall_at_20": null,
+    "limitation": "Focused lexical retrieval is not independent exhaustive semantic ground truth"
+  },
+  "weights_unchanged": {
+    "name_heavy": [
+      0.6,
+      0.3,
+      0.08,
+      0.02
+    ],
+    "balanced": [
+      0.35,
+      0.45,
+      0.15,
+      0.05
+    ],
+    "type_heavy": [
+      0.2,
+      0.6,
+      0.15,
+      0.05
+    ]
+  },
+  "Precision_at_1": null,
+  "Recall_at_20": null,
+  "price_improved_accuracy": null,
+  "new_external_model_calls": 0,
+  "new_external_model_tokens": 0,
+  "scope": "Deterministic local analysis; excludes interactive assistant conversation tokens",
+  "formal_skill_promotion": false,
+  "main_merged": false,
+  "elapsed_seconds": 6.12
+}
