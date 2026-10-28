@@ -1,0 +1,153 @@
+{
+  "sample": 200,
+  "top5_rows_per_method": 1000,
+  "strata": {
+    "random": 80,
+    "spec_pack": 30,
+    "price_missing_or_extreme": 25,
+    "form_or_host": 25,
+    "high_name_similarity": 20,
+    "weak_reference": 20
+  },
+  "AB_top1_changed": 66,
+  "AB_relation_changed": 18,
+  "weight_top1_sensitive_queries": 23,
+  "A_changed_from_existing_retrieval_top1": 76,
+  "B_changed_from_existing_retrieval_top1": 102,
+  "A_relations": {
+    "UNRELATED": 31,
+    "SHARED_NEED": 40,
+    "FUNCTIONAL_ALTERNATIVE": 13,
+    "SAME_TYPE": 114,
+    "INSUFFICIENT": 2
+  },
+  "B_relations": {
+    "UNRELATED": 30,
+    "SHARED_NEED": 47,
+    "SAME_TYPE": 110,
+    "FUNCTIONAL_ALTERNATIVE": 12,
+    "INSUFFICIENT": 1
+  },
+  "C_comparable_pairs": 0,
+  "C_queries_with_any_comparable_pair": 0,
+  "C_queries_with_full_comparable_top5": 0,
+  "C_noncomparable_reasons": {
+    "TYPE_NOT_COMPARABLE": 632,
+    "SPEC_EQUIVALENCE_NOT_ESTABLISHED": 1000,
+    "EXPLICIT_CURRENCY_MISSING": 414,
+    "EQUIVALENT_PACK_COUNT_UNCONFIRMED": 914,
+    "SNAPSHOT_DATES_MORE_THAN_7_DAYS_APART": 323,
+    "ACTION_SOURCE_BINDING_UNCONFIRMED": 311,
+    "PRICE_MISSING": 405
+  },
+  "human_fact_labels": 0,
+  "human_business_labels": 0,
+  "Precision_at_1": null,
+  "Recall_at_20": null,
+  "confirmed_high_score_false_matches": null,
+  "confirmed_spec_false_matches": null,
+  "price_improved_accuracy": null,
+  "weights_calibrated": false,
+  "usage": {
+    "A": {
+      "calls": 22,
+      "call_records": 211,
+      "elapsed_call_seconds": 2140.57,
+      "tokens": {
+        "cached_input_tokens": 86912,
+        "input_tokens": 451919,
+        "output_tokens": 117970,
+        "reasoning_output_tokens": 2006
+      },
+      "source_or_schema_rejections": 1,
+      "duplicate_request_calls": 1,
+      "all_call_event_hashes_available": true,
+      "integrity": "ok",
+      "fk_violations": 0,
+      "execution_failures": 0
+    },
+    "B": {
+      "calls": 21,
+      "call_records": 201,
+      "elapsed_call_seconds": 2234.22,
+      "tokens": {
+        "input_tokens": 525220,
+        "output_tokens": 117437,
+        "reasoning_output_tokens": 1696,
+        "cached_input_tokens": 120576
+      },
+      "source_or_schema_rejections": 1,
+      "duplicate_request_calls": 0,
+      "all_call_event_hashes_available": true,
+      "integrity": "ok",
+      "fk_violations": 0,
+      "execution_failures": 0
+    }
+  },
+  "amazon": {
+    "combined": {
+      "records": 21280,
+      "unique_asins": 15596,
+      "unique_urls": 16112,
+      "title_nonempty": 21280,
+      "valid_price": 20348,
+      "currency_counts": {
+        "UNKNOWN": 5000,
+        "EUR": 16280
+      },
+      "spec_nonempty": 21149,
+      "variant_nonempty": 12634,
+      "literal_quantity_present": 15086,
+      "flags": {
+        "DUPLICATE_ATTRIBUTE_VALUES_REVIEW": 2235,
+        "PRICE_CURRENCY_UNKNOWN": 5000,
+        "SPEC_ENGLISH_SUSPECT": 242,
+        "DETAILS_SCRIPT_RESIDUAL": 115,
+        "DETAILS_ENGLISH_SUSPECT": 227,
+        "TITLE_ENGLISH_SUSPECT": 112,
+        "PRICE_MISSING": 932,
+        "DETAILS_CJK": 42,
+        "SPEC_CJK": 1,
+        "DETAILS_ENCODING_SUSPECT": 13,
+        "CATEGORY_MISSING": 13,
+        "TITLE_CJK": 1
+      }
+    },
+    "extra_observations_over_distinct_asins": 5684,
+    "cross_file_repeated_asins": 4442,
+    "price_changed_asins": 2844,
+    "name_changed_asins": 101,
+    "category_changed_asins": 980,
+    "latest_missing_price_with_older_valid": 33
+  },
+  "action": {
+    "reference_skus": 10037,
+    "reference_has_price": 0,
+    "reference_has_spec": 0,
+    "historical_observations": 49814,
+    "covered_skus": 7171,
+    "missing_skus": 2866,
+    "latest_positive_price": 7171,
+    "latest_explicit_eur": 7171,
+    "latest_spec": 7171,
+    "latest_exact_frozen_title": 7158,
+    "latest_es_url": 7171,
+    "dates": {
+      "2026-09-21": 182,
+      "2026-10-26": 5670,
+      "2026-09-28": 141,
+      "2026-08-31": 193,
+      "2026-09-07": 455,
+      "2026-10-19": 117,
+      "2026-10-05": 144,
+      "2026-08-24": 192,
+      "2026-10-12": 77
+    },
+    "price_capture_timestamp": "NOT_AVAILABLE_IN_EXPORTS",
+    "price_comparable_pairs": "NOT_YET_EVALUATED"
+  },
+  "protected_inputs_unchanged": true,
+  "V14_replaced": false,
+  "source_hash_retry_preserved": true,
+  "count_transport_repair_preserved": true
+}
