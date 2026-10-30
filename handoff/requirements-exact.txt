@@ -45,3 +45,6 @@ tqdm==4.67.3
 transformers==5.9.0
 typer==0.24.1
 typing-extensions==4.15.0
+requests==2.33.0
+urllib3==1.26.20
+charset-normalizer==3.4.6

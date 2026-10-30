@@ -1,6 +1,6 @@
 {
   "group": "G",
-  "version": "g-action-v331-20261030-v1",
+  "version": "g-action-v331-20261030-v2",
   "native_algorithm_commit": "c0a7e16ec7df3418bed6621ad1d8882d4d82295b",
   "native_default_unchanged": "v31",
   "g_profile": "native_v321",
@@ -15,22 +15,33 @@
     "dimensions": 384
   },
   "asset_repository": "zjwjoey/ActionSelectionSkill-G-Assets",
-  "asset_release": "g-action-v331-20261030-v1",
-  "asset_manifest_sha256": "ede885437d47bb7d65304dd6587db0aa1eb1203f709e7db76793991d52c4634d",
+  "asset_release": "g-action-v331-20261030-v2",
+  "asset_manifest_sha256": "7d3d2ccf7f8525945f68e526941a502e14e2e158a15ffad4de9bb112f3395ecb",
   "archives": [
     {
       "file": "g-state-v331.zip",
       "sha256": "743e663b2e9e0b229db2e5cf3d3c4cefa82944abd8a0d9eae9d591bc9111f8f5",
-      "bytes": 69161762
+      "bytes": 69161762,
+      "source_release": "g-action-v331-20261030-v1"
     },
     {
       "file": "g-e5-v1.zip",
       "sha256": "a65e1c8ee6fd3319cb9d126a96636054fa20f5a97471fd85bc7cede989294739",
-      "bytes": 302765910
+      "bytes": 302765910,
+      "source_release": "g-action-v331-20261030-v1"
+    },
+    {
+      "file": "g-legacy-learning-v1.zip",
+      "sha256": "d60408670610a0fbb2772c419ddcaa192bf7087f33800e1894d50754c5830b6e",
+      "bytes": 162116896
     }
   ],
   "torch_cpu": "2.11.0",
   "independent_human_pair_gold": 0,
   "formal_quality_accepted": false,
-  "all_action_reference_ids_exposed": true
+  "all_action_reference_ids_exposed": true,
+  "base_asset_release": "g-action-v331-20261030-v1",
+  "historical_codex_cli_version": "0.166.0-alpha.5.1",
+  "historical_live_model_id": null,
+  "live_provider_limitation": "Historical native calls did not pin a model ID in recorded adapter settings; cache replay is reproducible, fresh original-provider equivalence unverified"
 }

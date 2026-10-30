@@ -149,16 +149,16 @@
       "bytes": 4723
     },
     "handoff/README_ZH.md": {
-      "sha256": "92f8ef84d74837942b55f33e2a875bfef417b2a007610c861cc2396d911566b3",
-      "bytes": 6356
+      "sha256": "957c376976ab45a35bf0bf38992d4b60335746c37491f5ae7837a9e12c4f8a39",
+      "bytes": 7316
     },
     "handoff/g_config.json": {
-      "sha256": "7c3a2121d4f8b28151d97e3ab790132c069a25828b0b26fef59a14ebce0a693c",
-      "bytes": 1242
+      "sha256": "717f3ebec0ca397f55d18fa301bae963cdfaac7b85f1dd12047794405a98e6f9",
+      "bytes": 1854
     },
     "handoff/requirements-exact.txt": {
-      "sha256": "50c23eb80a2a3631bedc9f7217f540cb3a0cfbc6a136a2eab682bd1ea95ae994",
-      "bytes": 1037
+      "sha256": "2be1320915dc9408614398fddc4c1105e503f3f7d443be721b3a6ceb2e1cc214",
+      "bytes": 1100
     },
     "handoff/sample_input.jsonl": {
       "sha256": "3819ef221341f5ddf50fef9831f667e9b7f5c7247dfdee8d96054985d7743041",

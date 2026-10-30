@@ -7,7 +7,7 @@
 从本交接分支的确切commit克隆完整仓库，不只复制SKILL.md。原Skill入口、skills/六个专业入口、V3/V3.1经营流程、V3.2检索与学习、V3.3配对模块和历史规则均保留。
 
 `g_config.json`绑定原算法commit、E5 revision、私有资产版本、压缩包hash和资产清单hash。
-私有存储为`zjwjoey/ActionSelectionSkill-G-Assets`的`g-action-v331-20261030-v1` release；仅具有读取权限的身份能下载。不能把下载URL改为匿名公开链接。Dot还需要该私有仓库读取权限，本交接不授予第三方身份、不复制凭证。
+私有存储为`zjwjoey/ActionSelectionSkill-G-Assets`：v1 release保存不变的E5与当前研究资产，v2 release保存历史学习库增量及最终总清单。两个release共同恢复同一个v2快照；仅具有读取权限的身份能下载。不能把下载URL改为匿名公开链接。Dot还需要该私有仓库读取权限，本交接不授予第三方身份、不复制凭证。
 
 ```bash
 git clone https://github.com/zjwjoey/ActionSelectionSkill_.git action-g
@@ -17,7 +17,8 @@ python -m venv .venv
 .venv/bin/python -m pip install 'torch==2.11.0' --index-url https://download.pytorch.org/whl/cpu
 .venv/bin/python -m pip install --no-deps -r handoff/requirements-exact.txt
 gh release download g-action-v331-20261030-v1 --repo zjwjoey/ActionSelectionSkill-G-Assets --dir downloads
-.venv/bin/python scripts/g_group.py restore --downloads downloads --assets work/g-assets --manifest-sha ede885437d47bb7d65304dd6587db0aa1eb1203f709e7db76793991d52c4634d
+gh release download g-action-v331-20261030-v2 --repo zjwjoey/ActionSelectionSkill-G-Assets --dir downloads --clobber
+.venv/bin/python scripts/g_group.py restore --downloads downloads --assets work/g-assets --manifest-sha 7d3d2ccf7f8525945f68e526941a502e14e2e158a15ffad4de9bb112f3395ecb
 .venv/bin/python scripts/g_group.py verify --assets work/g-assets --output work/g-restore-verification
 ```
 
@@ -25,6 +26,10 @@ Windows使用`.venv/Scripts/python.exe`。所有目录由调用方指定，云�
 原始Windows来源路径作为证据原值保留；`source_map.json`将其指向已按hash验证的恢复源文件，不修改事实。E5模型目录和文件分隔符在运行副本中重定位，原index元数据及字节保留。
 
 历史真实环境存在声明依赖冲突：sentence-transformers5.1.2声明transformers<5，但实际使用5.9.0。锁文件复现实际版本，采用`--no-deps`显式安装；不能宣称pip依赖一致性通过。恢复验收必须实测E5检索，失败不得悄悄换模型或版本。
+
+干净云端测试发现原环境隐式存在的`requests`未被第一版锁文件包含，E5加载失败后原检索器退回纯文本，严格排名核对因此拒绝通过。现已显式锁定该依赖及其依赖，保持原有E5/RRF验收条件。历史Codex CLI版本为`0.166.0-alpha.5.1`，原调用记录没有固定实时模型ID；缓存重放可验，未来实时模型回答等价性尚未验证。
+
+`legacy/action_selection.sqlite3`是一致性备份的原始历史学习库，保留早期批次、语义学习、反馈、规则版本和测试记录；仅作为历史状态恢复，不自动合并经营规则、不训练、不读取密封测试内容。重复的before备份和大体积中间缓存未复制。
 
 ## Dot统一输入输出
 
@@ -61,7 +66,7 @@ Resume绑定输入hash、资产版本及profile，改变合同需新目录。原
 
 ## 恢复验收口径
 
-1. 所有压缩包与214个资产条目按清单校验（SQLite使用一致性备份）。
+1. 三个压缩包与215个资产条目按清单校验（SQLite使用一致性备份）。
 2. 三件私有真实商品用已保存的原模型分析重放原生评分、匹配和属性检查。
 3. 在空查询缓存中重新计算文本/E5/RRF，候选排名须一致、文本/余弦数值误差≤3e-6。原评分须一致。
 4. 重放80件、6个已保存模型路径的480个排序结果，ID顺序须完全一致。
