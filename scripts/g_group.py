@@ -15,5 +15,5 @@ def main():
   if not 1<=args.batch_size<=25:p.error('batch-size must be 1..25')
   if args.mode=='file' and not args.analysis:p.error('--analysis required for file mode')
   result=run(args.input,args.assets,args.output,args.profile,args.mode,args.analysis,args.batch_size)
- print(json.dumps(result,ensure_ascii=False,indent=2));return 0
+ print(json.dumps(result,ensure_ascii=False,indent=2));return 2 if args.command=='run' and any(result.get(k) for k in ['failed','invalid','errors']) else 0
 if __name__=='__main__':raise SystemExit(main())

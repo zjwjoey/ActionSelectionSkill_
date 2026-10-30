@@ -73,8 +73,8 @@ def normalize(rows):
  for i,r in enumerate(rows):
   try:
    if not isinstance(r,dict) or any(not isinstance(r.get(k),str) or not r[k].strip() for k in ['product_id','original_name','source_version']):raise ValueError('ID_NAME_SOURCE_VERSION_REQUIRED')
-   if r['product_id'] in seen:raise ValueError('DUPLICATE_PRODUCT_ID')
-   seen.add(r['product_id']);valid.append(r)
+   if r['product_id'].strip() in seen:raise ValueError('DUPLICATE_PRODUCT_ID')
+   seen.add(r['product_id'].strip());valid.append(r)
   except ValueError as exc:fail.append(dict(group='G',input_index=i,product_id=r.get('product_id') if isinstance(r,dict) else None,status='INVALID_INPUT',error=str(exc)))
  return valid,fail
 
@@ -91,6 +91,11 @@ def run(input_file,assets,out,profile='native_v321',mode='queue',analysis=None,b
  contract=dict(version=VERSION,input_sha=filehash(input_file),asset_manifest=load(assets/'asset_receipt.json')['manifest_sha'],profile=profile)
  if (out/'contract.json').exists() and load(out/'contract.json')!=contract:raise ValueError('RESUME_CONTRACT_CHANGED')
  save(out/'contract.json',contract)
+ if not rows:
+  write_jsonl(out/'results.jsonl',errors);summary=dict(total=len(errors),complete=0,pending=0,failed=0,invalid=len(errors),provider_calls_this_attempt=0);save(out/'summary.json',summary)
+  with (out/'results.csv').open('w',encoding='utf-8-sig',newline='') as f:
+   w=csv.DictWriter(f,fieldnames=['group','input_index','product_id','status','error']);w.writeheader();w.writerows(errors)
+  return summary
  if profile=='business_v3':
   # This legacy algorithm has functions/needs and its OWN three-state policy.
   # It is never silently substituted for the matching profile.
@@ -101,7 +106,6 @@ def run(input_file,assets,out,profile='native_v321',mode='queue',analysis=None,b
  else:
   raw=[dict(source_product_id=r['product_id'],title_original=r['original_name'],category_original=r.get('category_l1',''),source_platform=r.get('source_platform','g-input'),source_version=r['source_version'],specifications=r.get('specifications',''),variant=r.get('variant',''),brand=r.get('brand','')) for r in rows]
   write_jsonl(out/'normalized_input.jsonl',raw)
-  if not rows:write_jsonl(out/'results.jsonl',errors);return dict(total=len(errors),complete=0,errors=len(errors))
   products,ingest_errors=ingest(out/'normalized_input.jsonl');refs=references(assets);ext=Extension(runtime_index(assets,out/'e5_runtime'),'off') if profile=='native_v321' else None
   if ext:ext.bind(refs)
   method=digest(dict(native_signature=match10.signature(refs,None),g_contract=contract));requests=[]
