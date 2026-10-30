@@ -1,5 +1,10 @@
 import fs from 'node:fs/promises';
-import {Workbook,SpreadsheetFile} from '@oai/artifact-tool';
+import path from 'node:path';
+import {createRequire} from 'node:module';
+import {pathToFileURL} from 'node:url';
+// Resolve the host-provided artifact dependency without installing repo packages.
+const hostRequire=createRequire(process.env.CODEX_NODE_MODULES?path.join(process.env.CODEX_NODE_MODULES,'artifact-host.cjs'):import.meta.url);
+const {Workbook,SpreadsheetFile}=await import(pathToFileURL(hostRequire.resolve('@oai/artifact-tool')).href);
 const dir=process.argv[2],data=JSON.parse(await fs.readFile(`${dir}/workbook_data.json`,'utf8')),wb=Workbook.create();
 const letter=n=>{let s='';for(;n;n=Math.floor((n-1)/26))s=String.fromCharCode(65+(n-1)%26)+s;return s;};
 const safe=x=>typeof x==='string'&&/^[=+@-]/.test(x)?`'${x}`:x??null;
@@ -13,17 +18,23 @@ const tabs=[
 ];
 for(const [name,title,headers,rows] of tabs){
  const sh=wb.worksheets.add(name);sh.showGridLines=false;
+ const widths=headers.map(h=>/名称|原文|证据|问题|原因|风险|说明|文件|hash|方法|意见/.test(h)?65:24);
+ if(name==='运行统计及学习效果')widths[1]=110;
  sh.getRangeByIndexes(0,0,Math.max(8,rows.length+5),headers.length).format={font:{name:'Arial',size:11,color:'#243746'},wrapText:true,verticalAlignment:'top'};
  sh.getRange('A2').values=[[title]];sh.getRange('A2').format={font:{bold:true,size:16},wrapText:false,rowHeight:32};
  for(let j=0;j<headers.length;j++){
-  const width=/名称|原文|证据|问题|原因|风险|说明|文件|hash|方法|意见/.test(headers[j])?65:24;
+  const width=widths[j];
   sh.getRangeByIndexes(0,j,Math.max(8,rows.length+5),1).format.columnWidth=width;
   if(rows.every(r=>r[j]==null||typeof r[j]==='string'))sh.getRangeByIndexes(5,j,Math.max(1,rows.length),1).setNumberFormat('@');
  }
  if(name==='运行统计及学习效果')sh.getRange('B:B').format.columnWidth=110;
  sh.getRangeByIndexes(4,0,1,headers.length).values=[headers];sh.getRangeByIndexes(4,0,1,headers.length).format={fill:'#294D63',font:{bold:true,color:'#FFFFFF'},rowHeight:45};
  if(rows.length){sh.getRangeByIndexes(5,0,rows.length,headers.length).values=rows.map(r=>r.map(safe));sh.tables.add(`A5:${letter(headers.length)}${rows.length+5}`,true,`Data${wb.worksheets.items.length}`);}
- sh.getRangeByIndexes(5,0,Math.max(1,rows.length),headers.length).format.rowHeight=115;
+ sh.getRangeByIndexes(5,0,Math.max(1,rows.length),headers.length).format.rowHeight=36;
+ rows.forEach((row,i)=>{
+  const lines=Math.max(1,...row.map((v,j)=>Math.ceil([...String(v??'')].reduce((n,c)=>n+(c.charCodeAt(0)>255?2:1),0)/Math.max(12,widths[j]-2))));
+  if(lines>1)sh.getRangeByIndexes(i+5,0,1,headers.length).format.rowHeight=Math.min(409,lines*16+12);
+ });
  headers.forEach((h,j)=>{
   if(h.includes('分（10分制）')||h==='建议分数'){sh.getRangeByIndexes(5,j,Math.max(1,rows.length),1).setNumberFormat('0.0');}
   if(h.startsWith('人工')||h==='新参考SKU'||h==='建议分数')sh.getRangeByIndexes(5,j,Math.max(1,rows.length),1).format.fill='#FFF2CC';

@@ -257,8 +257,8 @@
       "bytes": 1783
     },
     "references/v322_learning500.md": {
-      "sha256": "cda0a7042c052c9fadad05f7962700eef55719510a685cf9602b7e55315920b2",
-      "bytes": 2268
+      "sha256": "085753c55f13b6daf65390a586283a79db0d0fcd7bad640cf00b1844790a8e5a",
+      "bytes": 3112
     },
     "references/v32_learning.md": {
       "sha256": "54d2568610c45bba94593caf0ca6063ce053584a995d8e2469dc9041819b4702",
@@ -4673,8 +4673,8 @@
       "bytes": 964
     },
     "scripts/export_learning500.mjs": {
-      "sha256": "baa47bcd5999605ba8f07b9cc694e041503fa86fc87e6ba3accf927142866f2c",
-      "bytes": 3532
+      "sha256": "a06caafa459a29e4d933989f1e290ebc53b559d8fbc4250eb2594f0491633f66",
+      "bytes": 4285
     },
     "scripts/export_match10.mjs": {
       "sha256": "8ca2394a663043bbd2b60351e2372b5c582ba81f529790b5fbacff9e09542b65",
