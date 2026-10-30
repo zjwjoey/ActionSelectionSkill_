@@ -47,6 +47,12 @@ class Extension:
   if self.verification:req['literal_attributes']=extract(row['title_original'],row['specifications'])
   if self.knowledge_version:req['knowledge_version']=self.knowledge_version
   if self.mode=='approved':req['approved_knowledge']=[i for i in self.items if i['kind'] in ['type','positive_pair','negative_pair','spec_rule'] and i['source']['record_id']==row['quote_id']]
+  if self.mode=='approved':
+   from runtime.retail.discovery import shadow_parse
+   rules=[dict(id=i['candidate_id'],kind=i['kind'],**{k:i['body'].get(k) for k in ['scope','issue','terms']}) for i in self.items if i['kind']=='spec_rule']
+   hints=shadow_parse(row,rules)
+   for hint in hints:hint['authority']='APPROVED_RULE_LITERAL_SOURCE_EVIDENCE'
+   req['approved_count_explanations']=hints
   self.requests[row['quote_id']]=req
  def content_key(self,row,req):return digest(dict(platform=row['source_platform'],product_id=row['source_product_id'],brand=row.get('brand'),request={k:v for k,v in req.items() if k not in ['record_id','source_hash']}))
  def reuse(self,row,req):
@@ -57,6 +63,12 @@ class Extension:
   return a
  def project(self,row,a,candidates,refs,method,origin):
   adjusted=copy.deepcopy(a);checks={};by={c['sku']:c for c in candidates};inputattrs=extract(row['title_original'],row['specifications'])
+  if self.mode=='approved':
+   hints=self.requests.get(row['quote_id'],{}).get('approved_count_explanations',[])
+   values=sorted({str(h['possible_count']) for h in hints})
+   if len(values)==1 and not inputattrs['attributes'].get('count'):
+    inputattrs['attributes']['count']=values;inputattrs['evidence']['count']=[h['literal'] for h in hints]
+    inputattrs['approved_knowledge_evidence']=hints
   for p in adjusted['pairs']:
    c=by[p['sku']];check=verify(inputattrs,extract(c['title'],c.get('spec','')));checks[p['sku']]=check
    if not inputattrs['family'] and a['subject_status']=='clear':

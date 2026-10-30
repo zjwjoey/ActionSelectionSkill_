@@ -1,5 +1,5 @@
 import unittest
-from runtime.retail.discovery import discover,head
+from runtime.retail.discovery import discover,head,shadow_parse
 class DiscoveryTests(unittest.TestCase):
  def row(self,rid,text):
   return dict(record_id=rid,status='COMPLETE',source=dict(source_platform='supplier',source_product_id=rid,source_sha256='fixture',source_file='fixture',title_original=text,specifications='',variant='',brand=''),analysis=dict(subject_span=text,subject_status='clear',form='consumable',pairs=[]),matches=[],attribute_checks={})
@@ -12,3 +12,9 @@ class DiscoveryTests(unittest.TestCase):
  def test_brand_and_adjective_are_not_commodity_aliases(self):
   self.assertEqual(head('Series Brand crema reparadora',vocabulary={'crema'}),'crema')
   self.assertEqual(head('Original Formula',vocabulary={'crema'}),'')
+ def test_shadow_count_is_literal_type_scoped_and_not_a_fact_write(self):
+  row=dict(title_original='Pilas pack de 4',specifications='')
+  rule=dict(id='synthetic',kind='spec_rule',issue='UNPARSED_EXPLICIT_COUNT',scope='battery',terms='PACK_DE_N')
+  self.assertEqual(shadow_parse(row,[rule])[0]['possible_count'],4)
+  self.assertNotIn('count',row)
+  self.assertEqual(shadow_parse(dict(title_original='Caja pack de 4',specifications=''),[rule]),[])
