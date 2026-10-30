@@ -77,14 +77,17 @@ def grouped_split(pairs, family_keys, seed=3301):
     def find(x):
         while parent[x]!=x:parent[x]=parent[parent[x]];x=parent[x]
         return x
-    def union(a,b):parent[find(a)]=find(b)
+    def union(a,b):
+        # Canonical roots keep seed-based allocation stable across hash seeds.
+        a,b=find(a),find(b)
+        if a!=b:parent[max(a,b)]=min(a,b)
     owners={}
     for p in pairs:
         keys={p['group_key'],'title:'+normalized_title(p['input']['title_original'])}
         ev=p['input'].get('source_evidence',{});pe=ev.get('parent_evidence',ev)
         if pe.get('Parent ASIN'):keys.add('parent:'+str(pe['Parent ASIN']))
         if p['relation']=='SAME_TYPE' and p['scope']=='WHOLE':keys.add('type:'+family_keys.get(p['reference']['sku'],p['reference']['sku']))
-        for key in keys:
+        for key in sorted(keys):
             if key in owners:union(p['input_id'],owners[key])
             else:owners[key]=p['input_id']
     # Same normalized maker/model/title tokens across platforms may still escape:
@@ -99,7 +102,7 @@ def grouped_split(pairs, family_keys, seed=3301):
                 if sims[a,b]>=.80:union(ids[a],ids[b])
     groups=collections.defaultdict(list)
     for sid in parent:groups[find(sid)].append(sid)
-    ordered=sorted(groups);random.Random(seed).shuffle(ordered)
+    ordered=sorted(groups,key=lambda g:digest(sorted(groups[g])));random.Random(seed).shuffle(ordered)
     # Group counts, not pair rows. No label-stratified retries of test allocation.
     cut1=max(1,int(len(ordered)*.65));cut2=max(cut1+1,int(len(ordered)*.82))
     assigned={sid:('train' if i<cut1 else 'dev' if i<cut2 else 'historical_holdout') for i,g in enumerate(ordered) for sid in groups[g]}
@@ -244,4 +247,3 @@ def active_queue(pairs,models,limit=40,random_fraction=.2,seed=3301):
     for t in chosen:t['sample_arm']='uncertainty_and_disagreement'
     for t in pool[:random_n]:t['sample_arm']='random_remaining'
     return chosen+pool[:random_n]
-

@@ -73,3 +73,16 @@ KNOWN_REFERENCE_IN_POOL 仅说明指定已知候选在不在召回池，不能�
 实现依据：[scikit-learn LogisticRegression](https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LogisticRegression.html)
 和 [StandardScaler](https://scikit-learn.org/stable/modules/generated/sklearn.preprocessing.StandardScaler.html)。
 实际环境和拟合参数以本地模型 manifest 为准，不能用新版网页替代运行版本记录。
+
+## V3.3.1 扩样实验
+
+累计500件来源身份去重商品，每件10候选，共5000对；优先复用原始分析。
+另外对60件商品的300组未评价候选开展来源绑定AI弱标注（48件风险优先、
+12件随机剩余），不把未知自动转负例。追加式标签事件保留原始空标签版本。
+此前80件验证已曝光，可纳入开发，但不再充当全新测试。
+
+分组连接使用规范代表元及成员hash排序，消除输入顺序和Python哈希种子
+对拆分的影响。新一轮拆分独立冻结，不改旧拆分、旧模型或旧报告。
+同一新拆分下同时训练旧150件控制组和扩大500件组，固定C=1和原有特征，
+另冻结80件新输入比较；原V3.3模型也保留回放。不能把拆分变化或补标收益
+全部归因为商品数量增加。所有模型仍为显式实验，不根据最终测试结果调参。

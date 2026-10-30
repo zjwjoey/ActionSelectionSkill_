@@ -1,0 +1,282 @@
+{
+  "version": "V3.3.1-expanded500",
+  "products": 500,
+  "pairs": 5000,
+  "added_products": 350,
+  "ai_silver_pairs": 2800,
+  "unverified_pairs": 2200,
+  "usable_weak_pairs": 2331,
+  "human_gold": 0,
+  "new_ai_labeled_pairs": 300,
+  "split": {
+    "seed": 3311,
+    "groups": 288,
+    "products": {
+      "train": 312,
+      "dev": 99,
+      "historical_holdout": 89
+    },
+    "pairs": {
+      "dev": 990,
+      "train": 3120,
+      "historical_holdout": 890
+    },
+    "family_proxy_limit": "Parent/title/AI candidate type/char .80 graph; missing GTIN and cross-language identities remain incomplete"
+  },
+  "effective_training_inputs": 104,
+  "training_preference_rows": 1310,
+  "new_validation_products": 80,
+  "new_source_counts": {
+    "amazon": 40,
+    "ikea": 15,
+    "mrdiy": 15,
+    "tedi": 10
+  },
+  "known_type_disjoint": 23,
+  "weak_metrics": {
+    "A": {
+      "top_primary_eligible": {
+        "value": 0.8974358974358975,
+        "denominator": 78
+      },
+      "component_top": {
+        "value": 0.05128205128205128,
+        "denominator": 78
+      },
+      "top_unrelated": {
+        "value": 0.02564102564102564,
+        "denominator": 78
+      },
+      "reciprocal_rank": {
+        "value": 0.9794520547945206,
+        "denominator": 73
+      },
+      "ndcg5": {
+        "value": 0.9877699545795031,
+        "denominator": 75
+      }
+    },
+    "small150_B": {
+      "top_primary_eligible": {
+        "value": 0.7948717948717948,
+        "denominator": 78
+      },
+      "component_top": {
+        "value": 0.0641025641025641,
+        "denominator": 78
+      },
+      "top_unrelated": {
+        "value": 0.08974358974358974,
+        "denominator": 78
+      },
+      "reciprocal_rank": {
+        "value": 0.9114155251141552,
+        "denominator": 73
+      },
+      "ndcg5": {
+        "value": 0.9323729780694631,
+        "denominator": 75
+      }
+    },
+    "small150_C": {
+      "top_primary_eligible": {
+        "value": 0.8333333333333334,
+        "denominator": 78
+      },
+      "component_top": {
+        "value": 0.0641025641025641,
+        "denominator": 78
+      },
+      "top_unrelated": {
+        "value": 0.0641025641025641,
+        "denominator": 78
+      },
+      "reciprocal_rank": {
+        "value": 0.934931506849315,
+        "denominator": 73
+      },
+      "ndcg5": {
+        "value": 0.9441225461626319,
+        "denominator": 75
+      }
+    },
+    "expanded500_B": {
+      "top_primary_eligible": {
+        "value": 0.8205128205128205,
+        "denominator": 78
+      },
+      "component_top": {
+        "value": 0.05128205128205128,
+        "denominator": 78
+      },
+      "top_unrelated": {
+        "value": 0.0641025641025641,
+        "denominator": 78
+      },
+      "reciprocal_rank": {
+        "value": 0.9228310502283104,
+        "denominator": 73
+      },
+      "ndcg5": {
+        "value": 0.9466006502070577,
+        "denominator": 75
+      }
+    },
+    "expanded500_C": {
+      "top_primary_eligible": {
+        "value": 0.8205128205128205,
+        "denominator": 78
+      },
+      "component_top": {
+        "value": 0.05128205128205128,
+        "denominator": 78
+      },
+      "top_unrelated": {
+        "value": 0.05128205128205128,
+        "denominator": 78
+      },
+      "reciprocal_rank": {
+        "value": 0.9235159817351599,
+        "denominator": 73
+      },
+      "ndcg5": {
+        "value": 0.9486455539747436,
+        "denominator": 75
+      }
+    },
+    "V33_B": {
+      "top_primary_eligible": {
+        "value": 0.7948717948717948,
+        "denominator": 78
+      },
+      "component_top": {
+        "value": 0.0641025641025641,
+        "denominator": 78
+      },
+      "top_unrelated": {
+        "value": 0.10256410256410256,
+        "denominator": 78
+      },
+      "reciprocal_rank": {
+        "value": 0.9091324200913241,
+        "denominator": 73
+      },
+      "ndcg5": {
+        "value": 0.9250301527182847,
+        "denominator": 75
+      }
+    },
+    "V33_C": {
+      "top_primary_eligible": {
+        "value": 0.7948717948717948,
+        "denominator": 78
+      },
+      "component_top": {
+        "value": 0.0641025641025641,
+        "denominator": 78
+      },
+      "top_unrelated": {
+        "value": 0.10256410256410256,
+        "denominator": 78
+      },
+      "reciprocal_rank": {
+        "value": 0.9098173515981736,
+        "denominator": 73
+      },
+      "ndcg5": {
+        "value": 0.9241856143536268,
+        "denominator": 75
+      }
+    }
+  },
+  "weak_differences": {
+    "expanded500_B_vs_A": {
+      "top_changed": 28,
+      "weak_gain": 1,
+      "weak_loss": 9,
+      "equal": 68
+    },
+    "expanded500_C_vs_A": {
+      "top_changed": 24,
+      "weak_gain": 1,
+      "weak_loss": 7,
+      "equal": 70
+    },
+    "expanded500_B_vs_V33_B": {
+      "top_changed": 37,
+      "weak_gain": 6,
+      "weak_loss": 3,
+      "equal": 69
+    },
+    "expanded500_C_vs_V33_B": {
+      "top_changed": 44,
+      "weak_gain": 9,
+      "weak_loss": 4,
+      "equal": 65
+    },
+    "expanded500_B_vs_V33_C": {
+      "top_changed": 38,
+      "weak_gain": 6,
+      "weak_loss": 3,
+      "equal": 69
+    },
+    "expanded500_C_vs_V33_C": {
+      "top_changed": 45,
+      "weak_gain": 9,
+      "weak_loss": 4,
+      "equal": 65
+    },
+    "expanded500_B_vs_small150_B": {
+      "top_changed": 24,
+      "weak_gain": 5,
+      "weak_loss": 3,
+      "equal": 70
+    },
+    "expanded500_C_vs_small150_B": {
+      "top_changed": 36,
+      "weak_gain": 8,
+      "weak_loss": 4,
+      "equal": 66
+    },
+    "expanded500_B_vs_small150_C": {
+      "top_changed": 30,
+      "weak_gain": 2,
+      "weak_loss": 3,
+      "equal": 73
+    },
+    "expanded500_C_vs_small150_C": {
+      "top_changed": 34,
+      "weak_gain": 5,
+      "weak_loss": 4,
+      "equal": 69
+    }
+  },
+  "full20_behavior": {
+    "V33_C": {
+      "top_changed": 57,
+      "top_unanalyzed": 33
+    },
+    "small150_C": {
+      "top_changed": 52,
+      "top_unanalyzed": 27
+    },
+    "expanded500_B": {
+      "top_changed": 40,
+      "top_unanalyzed": 8
+    },
+    "expanded500_C": {
+      "top_changed": 38,
+      "top_unanalyzed": 12
+    }
+  },
+  "ranker_extra_ai_calls": 0,
+  "train_label_ai_calls": 7,
+  "validation_ai_calls": 8,
+  "status": "EXPERIMENTAL_WEAK_SUPERVISION",
+  "formal_quality_improved": null,
+  "formal_promotion": false,
+  "main_merged": false,
+  "default_changed": false,
+  "private_data_uploaded": false,
+  "interpretation": "Relative to old150 ranker there is limited weak-label improvement; same-partition150 control is mixed (top eligible65/78 vs64/78, MRR down, NDCG slightly up). OriginalAI70/78 remains higher. No independent human accuracy or production promotion."
+}

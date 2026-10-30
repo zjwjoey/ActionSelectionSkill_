@@ -16,7 +16,7 @@
   "master_included": false,
   "full_learning_database_included": false,
   "source_skill_sha256": "6218634ce80e20c1a83ae0a2d37ec0069672ce81f0269411b2343474136c1445",
-  "package_version": "v3.3-data-learning-experimental",
+  "package_version": "v3.3.1-expanded500-experimental",
   "independent_selection_accuracy": null,
   "frozen_asset_files_verified": 201,
   "files": {
@@ -269,8 +269,8 @@
       "bytes": 5606
     },
     "references/v33_data_learning.md": {
-      "sha256": "19633538fd29c5e08959c907f05b1352ef43f2a8de8cbce247d89a806a98a5db",
-      "bytes": 5405
+      "sha256": "5e52afa8767ca0d9841af935b5e576b34247c88f41ea517563077349a528b9ee",
+      "bytes": 6300
     },
     "references/v3_workflow.md": {
       "sha256": "d3b243a1ea6d9154ae91d32a24c1761594282eb65a20dc0e94a6f0d519821e7a",
@@ -3868,6 +3868,10 @@
       "sha256": "d22b46b159438354873561a6d8c2df7586319890755f450b52f5679536c9a7db",
       "bytes": 4920
     },
+    "reports/v331_expanded500_summary.json": {
+      "sha256": "249cb76249f7c6a57ec048304c3d30a681c049abda8c54f4e37109bb8eb079f2",
+      "bytes": 6918
+    },
     "reports/v33_data_learning_summary.json": {
       "sha256": "230528cf59b724c4e44e253a24c0f575ade7d67b6487c87c2e364c4faebcb381",
       "bytes": 3199
@@ -3965,8 +3969,8 @@
       "bytes": 4526
     },
     "runtime/retail/pair_learning.py": {
-      "sha256": "e74f97c9799e19b58483cd2135eba5d4edbc3c8c554eeab204fb95ed516f9bb1",
-      "bytes": 19994
+      "sha256": "7db657fb95409ec3cee3feb267c71db1cf118d46943277d69593106a5a8a2d97",
+      "bytes": 20166
     },
     "runtime/retail/pricing.py": {
       "sha256": "8d6f54b42340d650050ec1151d329c43a526b6bfce6c2e56b3d861027979b029",
@@ -4693,7 +4697,7 @@
       "bytes": 9754
     },
     "scripts/build_manifest.py": {
-      "sha256": "80c1a60fd951346d80d3a12351bc7edba4f215d231ccf47332658420860dd481",
+      "sha256": "2b34b8593a0a291df0950302ca11c2683c82b796032f68931458009baf7121e4",
       "bytes": 1417
     },
     "scripts/build_semantic_index.py": {
@@ -4809,8 +4813,8 @@
       "bytes": 4106
     },
     "tests/test_pair_learning.py": {
-      "sha256": "6ed7ae517fea197705fbe45424e8f6190b0a54c90fc2130f355c42dbeb8c217d",
-      "bytes": 6399
+      "sha256": "d635938f8bbabe29d7ecb624cbd4482eaba1b4dcdb2c597fa151be105c7fe7d3",
+      "bytes": 7561
     },
     "tests/test_price_layers.py": {
       "sha256": "288796c79661efeac090f7c5ac52bdf675647f748cc46c55cdac6745fbf38a0a",

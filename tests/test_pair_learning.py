@@ -53,6 +53,19 @@ class PairLearningTests(unittest.TestCase):
   grouped_split(rows,{},77);validate_dataset(rows);self.assertEqual(len({p['split'] for p in rows if int(p['input_id'])<4}),1)
   rows[0]['split']='another'
   with self.assertRaises(ValueError):validate_dataset(rows)
+ def test_group_allocation_does_not_depend_on_input_order(self):
+  rows=fixture()
+  for p in rows:p['group_key']='shared' if int(p['input_id'])<4 else p['group_key']
+  a=copy.deepcopy(rows);b=list(reversed(copy.deepcopy(rows)))
+  grouped_split(a,{},77);grouped_split(b,{},77)
+  self.assertEqual({p['pair_id']:(p['split'],p['isolation_group']) for p in a},{p['pair_id']:(p['split'],p['isolation_group']) for p in b})
+ def test_group_allocation_stable_across_python_hash_seeds(self):
+  import subprocess,sys,os
+  program="from test_pair_learning import fixture; from runtime.retail.pair_learning import grouped_split; import json; r=fixture(); [p.update(group_key='shared') for p in r if int(p['input_id'])<4]; grouped_split(r,{},77); print(json.dumps([(p['pair_id'],p['split'],p['isolation_group']) for p in r]))"
+  env={**os.environ,'PYTHONPATH':os.pathsep.join([str(Path(__file__).resolve().parents[1]),str(Path(__file__).parent)])}
+  a=subprocess.check_output([sys.executable,'-c',program],env={**env,'PYTHONHASHSEED':'1'},text=True)
+  b=subprocess.check_output([sys.executable,'-c',program],env={**env,'PYTHONHASHSEED':'2'},text=True)
+  self.assertEqual(a,b)
  def test_metrics_weak_not_accuracy(self):
   m=self.model();e=evaluate(fixture(),{'B':m});self.assertIsNone(e['human_gold_metrics']);self.assertIsNone(e['full_catalog_recall']);self.assertIn('AGREEMENT',e['label_basis'])
  def test_active_has_random_and_no_human(self):
