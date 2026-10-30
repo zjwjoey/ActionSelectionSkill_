@@ -24,6 +24,7 @@ function tab(name,title,headers,data,widths){
  sh.freezePanes.freezeRows(5);sh.freezePanes.freezeColumns(2);return sh;
 }
 const relations={IDENTICAL:'同款（需独立核验）',SAME_TYPE:'同类型',FUNCTIONAL_ALTERNATIVE:'功能替代',SHARED_NEED:'相同需求',UNRELATED:'不相关',INSUFFICIENT:'信息不足'};
+const priceReason={AMAZON_L1_INVALID:'本品价格资料待核验',ACTION_L1_INVALID:'参考价格资料缺失或待核验',TYPE_BASIS_NOT_ESTABLISHED:'同类比较依据不足',SOLD_SUBJECT_UNCLEAR:'销售主体未确认',CURRENCIES_DIFFER:'币种不同，未作汇率换算',RETAIL_WHOLESALE_OR_UNKNOWN_BASIS:'零售、批发或报价口径尚未统一'};
 const rows=results.map(r=>{
  const a=r.analysis,m=r.matches[0],q=m?.reference_quote,p=m?.price;
  return [r.source.source_platform,r.source.source_product_id,r.source.title_original,r.source.price_value,r.source.price_currency||'未知',a?.sold_subject||'待分析',a?.no_confirmed_match?`无可靠匹配；检索候选：${m?.title||'无'}`:m?.title||'无可靠匹配',m?.reference_id||'',q?.price_value??null,relations[m?.relation]||'待核验',m?.scores.balanced.index??null,p?.L3.eligible?'L3单位价':p?.L2.eligible?'L2历史标价':p?.L1_source.valid?'L1本品价格有效':'资料不足',r.decision,r.reason,r.review_question||a?.unknowns.join('；')||'',r.status,r.source.source_url,r.source.source_date,r.record_id];
@@ -34,7 +35,7 @@ tab('选品结果','跨平台商品研究｜保留为研究候选；AI判断尚�
 const review=results.filter(r=>r.status!='COMPLETE'||r.decision==='观察'||r.matches.some(m=>!m.price.L2.eligible));
 tab('需人工复核','先核对售品、匹配与价格；经营裁定与事实审核分开保存',
  ['平台','商品ID','原品名','当前建议','待确认依据','反馈记录ID','人工修改','审核人','修改原因','审核时间'],
- review.map(r=>[r.source.source_platform,r.source.source_product_id,r.source.title_original,r.decision,[r.review_question,...r.matches.slice(0,1).flatMap(m=>m.price.L2.reasons)].filter(Boolean).join('；'),r.record_id,null,null,null,null]),
+ review.map(r=>[r.source.source_platform,r.source.source_product_id,r.source.title_original,r.decision,[r.review_question,...r.matches.slice(0,1).flatMap(m=>m.price.L2.reasons.map(x=>priceReason[x]||'价格比较条件尚未确认'))].filter(Boolean).join('；'),r.record_id,null,null,null,null]),
  [15,23,72,18,85,65,24,22,60,24]);
 const metadata=Object.entries(summary).map(([k,v])=>[k,typeof v==='object'?JSON.stringify(v):v]);
 metadata.push(['来源口径','原始来源文件只读；原名、报价和证据保存在本地results.jsonl。参考报价为历史零售价格，不是实时价或完整到店成本。'],['指数口径','沿用V2三组未校准权重；表中显示balanced，不是同款概率，不按指数自动排除。'],['反馈','人工栏为填写模板；反馈须通过CLI绑定记录ID与结果hash入库，AI结果不会被覆盖。']);
