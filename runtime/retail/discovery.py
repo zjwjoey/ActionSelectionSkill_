@@ -1,5 +1,6 @@
 """Source-bound reusable hypotheses. No changes to retrieval/score or approval."""
 import re,collections,unicodedata
+from difflib import SequenceMatcher
 from runtime.v3.core import digest
 from runtime.retail.attributes import extract,package
 from runtime.retail.learning import Learning
@@ -42,7 +43,9 @@ def discover(results):
    m=by.get(p['sku']);refterm=head(p.get('action_span',''),vocabulary=vocabulary)
    if not m:continue
    if p['relation']=='SAME_TYPE' and p.get('scope')=='WHOLE' and term and refterm and term!=refterm:
-    add('alias',family or term,'POSSIBLE_TERM_EQUIVALENCE',[term,refterm],{**evidence,'reference_id':p['sku'],'reference_span':p['action_span']},'AI给出同类型且两侧有字面术语；仅作为同义/类型粒度核查线索','同类型不一定同义；品牌、用途或产品层级可能不同，不能按向量相似自动批准')
+    ref_family=extract(m['title'])['family']
+    plausible=bool(family and family==ref_family) or SequenceMatcher(None,term,refterm).ratio()>=.82
+    add('alias' if plausible else 'type',family or term,'POSSIBLE_TERM_EQUIVALENCE' if plausible else 'SUBJECT_TERM_GRANULARITY_REVIEW',[term,refterm],{**evidence,'reference_id':p['sku'],'reference_span':p['action_span']},'字面近形/同词族的术语假设' if plausible else 'AI同类型但两侧主体术语不同，先检查材料、用途或组件是否被错当主体，不直接提出同义词规则','同类型不一定同义；品牌、用途或产品层级可能不同，不能按向量相似自动批准')
    check=r.get('attribute_checks',{}).get(p['sku'],{})
    if check.get('block_same_type') and p['relation']=='SAME_TYPE':
     add('type',family or term,'SUBJECT_HOST_CONFUSION',[family,check['reference']['family']],{**evidence,'reference_id':p['sku']},'AI同类型与明确主体词族冲突，可形成通用主体/宿主反例','词族规则也可能错误；不得自动扩成全类排除')

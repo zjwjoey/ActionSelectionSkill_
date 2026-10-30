@@ -3901,8 +3901,8 @@
       "bytes": 5072
     },
     "runtime/retail/discovery.py": {
-      "sha256": "8cbcae0409d68b752b088afcb9f7faa60bc061b2ed41ffd0bd3990ea008c2f35",
-      "bytes": 6177
+      "sha256": "276ec6f0e54282b953758c8d895bbaf2887f3ccecc03d1d034a566fdc376b73d",
+      "bytes": 6538
     },
     "runtime/retail/engine.py": {
       "sha256": "67dd694df892cfac63491eb3136789fbf160869b175c3bbf08f5061d2ded7210",
