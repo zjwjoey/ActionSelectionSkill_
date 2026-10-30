@@ -75,6 +75,8 @@ Resume绑定输入hash、资产版本及profile，改变合同需新目录。原
 
 恢复能否通过以实际新的GitHub Actions运行及报告为准，不能用本地解包代替云端验收。Dot登录身份是否可访问私有资产、Dot新商品实时原Codex调用仍须单独验证。
 
+2026-10-30实际验收：私有云端运行[41078875885](https://github.com/zjwjoey/ActionSelectionSkill-G-Assets/actions/runs/41078875885)从代码`2f5ac1b18e4939cd821f755498e69db09874ae3b`恢复v2资产，215项文件校验、227项基础测试、3件原生评分及新算E5/RRF、480组排序重放全部通过。完整结果见[交接报告](../reports/Action算法G组远端交接报告_20261030.md)。后续仅文档提交属于发布元数据，不改变该audited head的算法。
+
 ## 曝光与评价边界
 
 `exposure/action10037.jsonl`列出G参照库全部已曝光ID；历史曝光索引还在`research/knowledge/exposure_index.json`，各轮输入/分组/来源hash及冻结记录均保存。

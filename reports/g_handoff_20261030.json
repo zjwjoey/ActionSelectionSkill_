@@ -1,0 +1,81 @@
+{
+  "title": "Action算法G组远端交接报告",
+  "snapshot_cutoff": "2026-10-30T15:20:34.195349+00:00",
+  "audited_adapter_code_sha": "2f5ac1b18e4939cd821f755498e69db09874ae3b",
+  "publication_metadata": "The later docs commit publishes this audited head; it does not change the native algorithm.",
+  "native_algorithm_head": "c0a7e16ec7df3418bed6621ad1d8882d4d82295b",
+  "main_unchanged": "3a427ef223613c140faaffc94a64f1390693e828",
+  "branch": "handoff/g-action-v331-20261030",
+  "asset_repository": "zjwjoey/ActionSelectionSkill-G-Assets",
+  "asset_version": "g-action-v331-20261030-v2",
+  "asset_manifest_sha256": "7d3d2ccf7f8525945f68e526941a502e14e2e158a15ffad4de9bb112f3395ecb",
+  "archives": [
+    {
+      "file": "g-state-v331.zip",
+      "sha256": "743e663b2e9e0b229db2e5cf3d3c4cefa82944abd8a0d9eae9d591bc9111f8f5",
+      "bytes": 69161762,
+      "source_release": "g-action-v331-20261030-v1"
+    },
+    {
+      "file": "g-e5-v1.zip",
+      "sha256": "a65e1c8ee6fd3319cb9d126a96636054fa20f5a97471fd85bc7cede989294739",
+      "bytes": 302765910,
+      "source_release": "g-action-v331-20261030-v1"
+    },
+    {
+      "file": "g-legacy-learning-v1.zip",
+      "sha256": "d60408670610a0fbb2772c419ddcaa192bf7087f33800e1894d50754c5830b6e",
+      "bytes": 162116896
+    }
+  ],
+  "private_asset_entries": 215,
+  "public_ci": {
+    "id": 41078542550,
+    "head": "2f5ac1b18e4939cd821f755498e69db09874ae3b",
+    "conclusion": "success",
+    "jobs": [
+      {
+        "name": "acceptance (ubuntu-latest)",
+        "conclusion": "success"
+      },
+      {
+        "name": "acceptance (windows-latest)",
+        "conclusion": "success"
+      }
+    ]
+  },
+  "cloud_restore": {
+    "id": 41078875885,
+    "control_head": "cdc19e366c2926b1a99e9e4fa57b5f0476480b23",
+    "audited_public_code_sha": "2f5ac1b18e4939cd821f755498e69db09874ae3b",
+    "conclusion": "success",
+    "test_count": 227,
+    "canaries": 3,
+    "exact_ranking_replays": 480,
+    "fresh_e5_rrf_checks": 3
+  },
+  "training": {
+    "products": 500,
+    "pairs": 5000,
+    "human_pair_gold": 0,
+    "ai_silver": 2800,
+    "unverified": 2200,
+    "usable_weak_pairs": 2331,
+    "effective_training_products": 104,
+    "status": "EXPERIMENTAL_WEAK_SUPERVISION_NOT_PROMOTED"
+  },
+  "paid_live_ai_calls_this_handoff": 0,
+  "dot_identity_read_access_verified": false,
+  "fresh_live_original_provider_equivalence_verified": false,
+  "restoration_acceptance": "PASS_SAVED_STATE_AND_FRESH_LOCAL_RETRIEVAL",
+  "massmarket_experiment_admission": false,
+  "main_merged": false,
+  "production_modified": false,
+  "persistent_private_recovery_evidence": {
+    "file": "g-restoration-evidence-v2.zip",
+    "sha256": "62c558c4c8dfd44fb540cb326f9e0cbec47aa8b315b03a2615c2a63cea2d2725",
+    "bytes": 104367,
+    "files": 45,
+    "purpose": "Persistent recovery evidence and historical execution drivers; not required by current inference state or model manifest"
+  }
+}

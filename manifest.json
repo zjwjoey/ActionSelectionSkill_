@@ -149,8 +149,8 @@
       "bytes": 4723
     },
     "handoff/README_ZH.md": {
-      "sha256": "957c376976ab45a35bf0bf38992d4b60335746c37491f5ae7837a9e12c4f8a39",
-      "bytes": 7316
+      "sha256": "be89b2e372d3b3f9a836f264605d6d25748295740c1069993d241852d8960146",
+      "bytes": 7806
     },
     "handoff/g_config.json": {
       "sha256": "717f3ebec0ca397f55d18fa301bae963cdfaac7b85f1dd12047794405a98e6f9",
@@ -311,6 +311,10 @@
     "releases/v31/skill_entry_15b5f84.txt": {
       "sha256": "d61bf5af5e2fc3304a32f02a33375f43dd8eedcb6c0a95cd8d2537bea302b7a7",
       "bytes": 6028
+    },
+    "reports/Action算法G组远端交接报告_20261030.md": {
+      "sha256": "af8d3e23b148fe5d0d0c02677dc61f7495329f1ef787f151d69c6b2939f806fb",
+      "bytes": 12732
     },
     "reports/assistant_calibration_v1_20261027/ab_review.md": {
       "sha256": "33fecf0503d6d07cf911b5ec48e55d6aa136958dd5eb81e1de2b976995ae1693",
@@ -543,6 +547,10 @@
     "reports/business_v14_20261027/training_plan.md": {
       "sha256": "c383df53ee537a1449d4b983863a0caf4d9408fbbba35b09fb0b5a3fb8dec7ec",
       "bytes": 2463
+    },
+    "reports/g_handoff_20261030.json": {
+      "sha256": "2e560ef69968416b88e17c38b53edfcef00b92697fe1b4e600afe714077d9bda",
+      "bytes": 3000
     },
     "reports/matching_v21_20261028/anonymous_summary.json": {
       "sha256": "fa3184bd03cb2d7ef0715926a656026a240725208c115fbcc29de3f7d5e71bbf",
