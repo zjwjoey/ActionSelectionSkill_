@@ -1,0 +1,601 @@
+{
+  "snapshot_cutoff": "2026-10-30T14:23:35.611131+00:00",
+  "audited_code_head": "4e236c26014b0b309430b006595c10c8d9c918f0",
+  "publication_metadata": "This snapshot binds the audited head, not the SHA of its own later documentation commit.",
+  "source_repository": "https://github.com/zjwjoey/ActionSelectionSkill_.git",
+  "active_branch": "feat/selection-engine-v331-expanded-pairs",
+  "branches": [
+    {
+      "branch": "feat/selection-assistant-business-v14",
+      "local_head": "5a4fc9dbf0a3ce3c55e5cb8e67e597495197b161",
+      "remote_head": "5a4fc9dbf0a3ce3c55e5cb8e67e597495197b161",
+      "ahead": 0,
+      "behind": 0
+    },
+    {
+      "branch": "feat/selection-assistant-calibration-v1",
+      "local_head": "d182c5407614dc933cb0f101080e5e0bc3fa3424",
+      "remote_head": "d182c5407614dc933cb0f101080e5e0bc3fa3424",
+      "ahead": 0,
+      "behind": 0
+    },
+    {
+      "branch": "feat/selection-assistant-matching-v2",
+      "local_head": "978063f4c39541f879dd67c39bda426e15aba87c",
+      "remote_head": "978063f4c39541f879dd67c39bda426e15aba87c",
+      "ahead": 0,
+      "behind": 0
+    },
+    {
+      "branch": "feat/selection-assistant-matching-v21",
+      "local_head": "1d5c35773a2638431da912dd6a547e0b5ed96e23",
+      "remote_head": "1d5c35773a2638431da912dd6a547e0b5ed96e23",
+      "ahead": 0,
+      "behind": 0
+    },
+    {
+      "branch": "feat/selection-assistant-training-v1",
+      "local_head": "2b07fc858a97be7d05a522d7a8cb7c3f5ef02550",
+      "remote_head": "2b07fc858a97be7d05a522d7a8cb7c3f5ef02550",
+      "ahead": 0,
+      "behind": 0
+    },
+    {
+      "branch": "feat/selection-engine-v3",
+      "local_head": "198818cfb119a8d3b8543793a72ff748c9aad730",
+      "remote_head": "198818cfb119a8d3b8543793a72ff748c9aad730",
+      "ahead": 0,
+      "behind": 0
+    },
+    {
+      "branch": "feat/selection-engine-v31-match10",
+      "local_head": "1f0e526aa78de64b2c9109ed63fe4ee992dc0aec",
+      "remote_head": "1f0e526aa78de64b2c9109ed63fe4ee992dc0aec",
+      "ahead": 0,
+      "behind": 0
+    },
+    {
+      "branch": "feat/selection-engine-v32-learning",
+      "local_head": "92d9d214f1a5d1a9ee8871a3aae4dd263da1a2b1",
+      "remote_head": "92d9d214f1a5d1a9ee8871a3aae4dd263da1a2b1",
+      "ahead": 0,
+      "behind": 0
+    },
+    {
+      "branch": "feat/selection-engine-v321-fix",
+      "local_head": "68f742ac0930b8b0a9809da6e0ac50aed9f4056c",
+      "remote_head": "68f742ac0930b8b0a9809da6e0ac50aed9f4056c",
+      "ahead": 0,
+      "behind": 0
+    },
+    {
+      "branch": "feat/selection-engine-v322-knowledge-validation",
+      "local_head": "aa3249f824a0919a58c576db420b3a76a098c569",
+      "remote_head": "aa3249f824a0919a58c576db420b3a76a098c569",
+      "ahead": 0,
+      "behind": 0
+    },
+    {
+      "branch": "feat/selection-engine-v322-learning500",
+      "local_head": "da1695efee40f2dee92baaad6806dbba64dc85a6",
+      "remote_head": "da1695efee40f2dee92baaad6806dbba64dc85a6",
+      "ahead": 0,
+      "behind": 0
+    },
+    {
+      "branch": "feat/selection-engine-v33-data-learning",
+      "local_head": "3ffb4fa38906a9018d4d79c8c458dc30c7f7ef8b",
+      "remote_head": "3ffb4fa38906a9018d4d79c8c458dc30c7f7ef8b",
+      "ahead": 0,
+      "behind": 0
+    },
+    {
+      "branch": "feat/selection-engine-v331-expanded-pairs",
+      "local_head": "4e236c26014b0b309430b006595c10c8d9c918f0",
+      "remote_head": "4e236c26014b0b309430b006595c10c8d9c918f0",
+      "ahead": 0,
+      "behind": 0
+    },
+    {
+      "branch": "feat/v3-unified-screening",
+      "local_head": "bf9fb318b3f4a03cd08a29e0a686e42616bc1bd3",
+      "remote_head": "bf9fb318b3f4a03cd08a29e0a686e42616bc1bd3",
+      "ahead": 0,
+      "behind": 0
+    },
+    {
+      "branch": "feat/v3.1-autonomous-learning",
+      "local_head": "15b5f84a2eae4628ada6da1ed898251b3e801714",
+      "remote_head": "15b5f84a2eae4628ada6da1ed898251b3e801714",
+      "ahead": 0,
+      "behind": 0
+    },
+    {
+      "branch": "main",
+      "local_head": "3a427ef223613c140faaffc94a64f1390693e828",
+      "remote_head": "3a427ef223613c140faaffc94a64f1390693e828",
+      "ahead": 0,
+      "behind": 0
+    }
+  ],
+  "worktrees": [
+    {
+      "folder": "ActionSelectionSkill_",
+      "head": "5a4fc9dbf0a3ce3c55e5cb8e67e597495197b161",
+      "branch": "feat/selection-assistant-business-v14",
+      "tracked_and_untracked_clean": true,
+      "uncommitted_count": 0
+    },
+    {
+      "folder": "ActionSelectionSkill_engine_v3",
+      "head": "198818cfb119a8d3b8543793a72ff748c9aad730",
+      "branch": "feat/selection-engine-v3",
+      "tracked_and_untracked_clean": true,
+      "uncommitted_count": 0
+    },
+    {
+      "folder": "ActionSelectionSkill_engine_v31",
+      "head": "1f0e526aa78de64b2c9109ed63fe4ee992dc0aec",
+      "branch": "feat/selection-engine-v31-match10",
+      "tracked_and_untracked_clean": true,
+      "uncommitted_count": 0
+    },
+    {
+      "folder": "ActionSelectionSkill_engine_v32",
+      "head": "92d9d214f1a5d1a9ee8871a3aae4dd263da1a2b1",
+      "branch": "feat/selection-engine-v32-learning",
+      "tracked_and_untracked_clean": true,
+      "uncommitted_count": 0
+    },
+    {
+      "folder": "ActionSelectionSkill_engine_v321",
+      "head": "68f742ac0930b8b0a9809da6e0ac50aed9f4056c",
+      "branch": "feat/selection-engine-v321-fix",
+      "tracked_and_untracked_clean": true,
+      "uncommitted_count": 0
+    },
+    {
+      "folder": "ActionSelectionSkill_engine_v322",
+      "head": "4e236c26014b0b309430b006595c10c8d9c918f0",
+      "branch": "feat/selection-engine-v331-expanded-pairs",
+      "tracked_and_untracked_clean": true,
+      "uncommitted_count": 0
+    },
+    {
+      "folder": "ActionSelectionSkill_matching_v2",
+      "head": "978063f4c39541f879dd67c39bda426e15aba87c",
+      "branch": "feat/selection-assistant-matching-v2",
+      "tracked_and_untracked_clean": true,
+      "uncommitted_count": 0
+    },
+    {
+      "folder": "ActionSelectionSkill_matching_v21",
+      "head": "1d5c35773a2638431da912dd6a547e0b5ed96e23",
+      "branch": "feat/selection-assistant-matching-v21",
+      "tracked_and_untracked_clean": true,
+      "uncommitted_count": 0
+    },
+    {
+      "folder": "ActionSelectionSkill_v32_run_frozen_ae932e4",
+      "head": "ae932e497f02b8bb5ebcc8f515cb20f40975965f",
+      "branch": null,
+      "tracked_and_untracked_clean": true,
+      "uncommitted_count": 0
+    }
+  ],
+  "unpublished_commit_count": 0,
+  "private_artifacts": [
+    {
+      "version": "V33",
+      "logical_artifact": "dataset/pairs.jsonl",
+      "sha256": "82cdbb0277b20207ccdbd5f29a15eb1a14183ffe7b9be76efa23cb948e7f7668",
+      "bytes": 9651177,
+      "published": false,
+      "reason": "Private experiment artifact; hashes and aggregate state only"
+    },
+    {
+      "version": "V33",
+      "logical_artifact": "models/B.json",
+      "sha256": "77caf422fd5a2904c3eb095c4fa25c486487c8af59ec2440b3e05a073f10b66e",
+      "bytes": 4344,
+      "published": false,
+      "reason": "Private experiment artifact; hashes and aggregate state only"
+    },
+    {
+      "version": "V33",
+      "logical_artifact": "models/C.json",
+      "sha256": "b5c5a13c41d973a62c4a7c4c9a2d3bf0a40e70616438f0c4f4cb8dc797a03f2f",
+      "bytes": 5395,
+      "published": false,
+      "reason": "Private experiment artifact; hashes and aggregate state only"
+    },
+    {
+      "version": "V33",
+      "logical_artifact": "summary.json",
+      "sha256": "90519a7dff374fa417d58c07ebd841a6de717bacdaf28011e116c1ebe4c74dad",
+      "bytes": 22399,
+      "published": false,
+      "reason": "Private experiment artifact; hashes and aggregate state only"
+    },
+    {
+      "version": "V33",
+      "logical_artifact": "closeout.json",
+      "sha256": "6239ac7f2273b334b5cd5fbd8bb1a99cb8e58a084c69172f0b36fa07251fe509",
+      "bytes": 1357,
+      "published": false,
+      "reason": "Private experiment artifact; hashes and aggregate state only"
+    },
+    {
+      "version": "V33",
+      "logical_artifact": "outputs/ActionSelectionSkill_V33_配对训练与独立验证.xlsx",
+      "sha256": "7da51d3d3a05f0ed828d390b9bd423d6dda94ec3eb8b67d5e4b3aec947490661",
+      "bytes": 376624,
+      "published": false,
+      "reason": "Private experiment artifact; hashes and aggregate state only"
+    },
+    {
+      "version": "V33",
+      "logical_artifact": "local_helpers/analyze_final.py",
+      "sha256": "6016069c36544261c01d5c2f7f99fa108520a0c9b6610d9d9d559db7b85a3c78",
+      "bytes": 7414,
+      "published": false,
+      "reason": "Run-specific local orchestration; public reusable core remains scripts/pair_learning.py"
+    },
+    {
+      "version": "V33",
+      "logical_artifact": "local_helpers/audit.py",
+      "sha256": "9c40a14ce7ea758446c965155825f01f1fa95b37999d2c2ae710bed74ce3b3c7",
+      "bytes": 2720,
+      "published": false,
+      "reason": "Run-specific local orchestration; public reusable core remains scripts/pair_learning.py"
+    },
+    {
+      "version": "V33",
+      "logical_artifact": "local_helpers/audit_label_levels.py",
+      "sha256": "0741140de65e6ca5a3c0df9d6cdc18618fe501468684dd46e605d4a0610f17e8",
+      "bytes": 1362,
+      "published": false,
+      "reason": "Run-specific local orchestration; public reusable core remains scripts/pair_learning.py"
+    },
+    {
+      "version": "V33",
+      "logical_artifact": "local_helpers/behavior_checks.py",
+      "sha256": "e90166c278b66e641f7a853c426a3c9a0f80d742a63eb64532086c26625a98ba",
+      "bytes": 1823,
+      "published": false,
+      "reason": "Run-specific local orchestration; public reusable core remains scripts/pair_learning.py"
+    },
+    {
+      "version": "V33",
+      "logical_artifact": "local_helpers/closeout.py",
+      "sha256": "fc12ff16dc39fde8a98ed37b1223e5f4e90ff6595c230a78f46114bf95692b1e",
+      "bytes": 9769,
+      "published": false,
+      "reason": "Run-specific local orchestration; public reusable core remains scripts/pair_learning.py"
+    },
+    {
+      "version": "V33",
+      "logical_artifact": "local_helpers/deliver.py",
+      "sha256": "2c2e5763995bd395ca1f5a68478bc6a93c2191f1e5d6aeaf43fbcd1576b0312a",
+      "bytes": 12300,
+      "published": false,
+      "reason": "Run-specific local orchestration; public reusable core remains scripts/pair_learning.py"
+    },
+    {
+      "version": "V33",
+      "logical_artifact": "local_helpers/error_analysis_new80.py",
+      "sha256": "a4595b0f7e5e9f96d0efd26a4b54cc44cc9588584bcc31ab77bbaaca36a1af5d",
+      "bytes": 3893,
+      "published": false,
+      "reason": "Run-specific local orchestration; public reusable core remains scripts/pair_learning.py"
+    },
+    {
+      "version": "V33",
+      "logical_artifact": "local_helpers/evidence_and_history.py",
+      "sha256": "3c6789b93e86e2399babf8fa78a0368211406e801a0ea3069b38accee3fc146d",
+      "bytes": 4390,
+      "published": false,
+      "reason": "Run-specific local orchestration; public reusable core remains scripts/pair_learning.py"
+    },
+    {
+      "version": "V33",
+      "logical_artifact": "local_helpers/predict_new80.py",
+      "sha256": "7dbd3382726b39604b2dd6fcfd5042658763b61bf0a874ec0c1bd06b1ffc4e28",
+      "bytes": 2975,
+      "published": false,
+      "reason": "Run-specific local orchestration; public reusable core remains scripts/pair_learning.py"
+    },
+    {
+      "version": "V33",
+      "logical_artifact": "local_helpers/prepare.py",
+      "sha256": "de05c0f1d8706164cee34f63c1bd1a08910ea8108df979e66be2f9261113b3af",
+      "bytes": 2927,
+      "published": false,
+      "reason": "Run-specific local orchestration; public reusable core remains scripts/pair_learning.py"
+    },
+    {
+      "version": "V33",
+      "logical_artifact": "local_helpers/prepare_new80.py",
+      "sha256": "a8f63127415a36f17c99280ae682498b816928b300553633f349df059db48674",
+      "bytes": 4178,
+      "published": false,
+      "reason": "Run-specific local orchestration; public reusable core remains scripts/pair_learning.py"
+    },
+    {
+      "version": "V33",
+      "logical_artifact": "local_helpers/supplement_audit.py",
+      "sha256": "139dbd42fcac61ec69301e671f7903eab8e6f6fd24d0f0b794ee104e55b95f58",
+      "bytes": 2083,
+      "published": false,
+      "reason": "Run-specific local orchestration; public reusable core remains scripts/pair_learning.py"
+    },
+    {
+      "version": "V33",
+      "logical_artifact": "local_helpers/train_and_freeze.py",
+      "sha256": "101a3eb71d581d423d920f4c60be232b34bf9c6a686d0f3e47d561be681df581",
+      "bytes": 2042,
+      "published": false,
+      "reason": "Run-specific local orchestration; public reusable core remains scripts/pair_learning.py"
+    },
+    {
+      "version": "V33",
+      "logical_artifact": "local_helpers/verify_delivery.py",
+      "sha256": "5e921dc50eb209d77b74953573a7cb960a41e66ca255375e81615e6ced087c56",
+      "bytes": 3239,
+      "published": false,
+      "reason": "Run-specific local orchestration; public reusable core remains scripts/pair_learning.py"
+    },
+    {
+      "version": "V331",
+      "logical_artifact": "dataset/pairs500.jsonl",
+      "sha256": "07fbca709bb05a579c7f9d49bd80c2d4ccdaafb625bb9dc16817afb4c2193af0",
+      "bytes": 38762160,
+      "published": false,
+      "reason": "Private experiment artifact; hashes and aggregate state only"
+    },
+    {
+      "version": "V331",
+      "logical_artifact": "models/expanded500_B.json",
+      "sha256": "d1643ea8df8e7f2823d6f38bda9e47f29a77784f8baa9eff876bfb5e5410b769",
+      "bytes": 9455,
+      "published": false,
+      "reason": "Private experiment artifact; hashes and aggregate state only"
+    },
+    {
+      "version": "V331",
+      "logical_artifact": "models/expanded500_C.json",
+      "sha256": "140b2e6cfa312beefe494560fa3ab7fb6f36288d9052b5543bac4720e48526dd",
+      "bytes": 10646,
+      "published": false,
+      "reason": "Private experiment artifact; hashes and aggregate state only"
+    },
+    {
+      "version": "V331",
+      "logical_artifact": "models/small150_B.json",
+      "sha256": "8b9869bd912a6f46d9760aab6e89671b2c1562f7f79041327438f7c00741e0d7",
+      "bytes": 4343,
+      "published": false,
+      "reason": "Private experiment artifact; hashes and aggregate state only"
+    },
+    {
+      "version": "V331",
+      "logical_artifact": "models/small150_C.json",
+      "sha256": "c9475add61f3390862f4537f3a37e34fcbe1af4546d301be427634f6aae79d81",
+      "bytes": 5324,
+      "published": false,
+      "reason": "Private experiment artifact; hashes and aggregate state only"
+    },
+    {
+      "version": "V331",
+      "logical_artifact": "pair_labels.sqlite3",
+      "sha256": "2e9daf91a7ad0ff17177c54b806ee99ae34aa0ecc1ab4de7f114d7180714dd5e",
+      "bytes": 344064,
+      "published": false,
+      "reason": "Private experiment artifact; hashes and aggregate state only"
+    },
+    {
+      "version": "V331",
+      "logical_artifact": "extra60_ai_labels.jsonl",
+      "sha256": "61fa56950371e3b2d996151150585c829e98514e47a22aa6b20111b725d6f4fc",
+      "bytes": 126292,
+      "published": false,
+      "reason": "Private experiment artifact; hashes and aggregate state only"
+    },
+    {
+      "version": "V331",
+      "logical_artifact": "new80.jsonl",
+      "sha256": "a13935c63a0b3f4c3f92439d81dc3b8b413385eabde19448992a83c805b3cf36",
+      "bytes": 252662,
+      "published": false,
+      "reason": "Private experiment artifact; hashes and aggregate state only"
+    },
+    {
+      "version": "V331",
+      "logical_artifact": "new80_frozen_predictions.json",
+      "sha256": "fa81139314e5d42d904eee11aed5448a087e84052ed35cdce8efb633d96b8352",
+      "bytes": 836805,
+      "published": false,
+      "reason": "Private experiment artifact; hashes and aggregate state only"
+    },
+    {
+      "version": "V331",
+      "logical_artifact": "new80_evaluation_pairs.jsonl",
+      "sha256": "6a36805e2d9a8e4ebe16f84cba55c2ecf75c7edd65817b858f2f757398568763",
+      "bytes": 12775966,
+      "published": false,
+      "reason": "Private experiment artifact; hashes and aggregate state only"
+    },
+    {
+      "version": "V331",
+      "logical_artifact": "summary.json",
+      "sha256": "997d02749486ae10826737d3fd9bb1868e313ce7efadfb1acbc2b555d6eee77e",
+      "bytes": 48740,
+      "published": false,
+      "reason": "Private experiment artifact; hashes and aggregate state only"
+    },
+    {
+      "version": "V331",
+      "logical_artifact": "closeout.json",
+      "sha256": "77554b7f785eec69291ddaf2d329c2953e9cc74e4b268d24b89a549faaff7657",
+      "bytes": 1716,
+      "published": false,
+      "reason": "Private experiment artifact; hashes and aggregate state only"
+    },
+    {
+      "version": "V331",
+      "logical_artifact": "outputs/ActionSelectionSkill_V331_500件扩样训练与新80验证.xlsx",
+      "sha256": "fed573e7aef42b212d37ffad52fa562e976f92cd41d2c08e765f14d5debc4d2b",
+      "bytes": 1193130,
+      "published": false,
+      "reason": "Private experiment artifact; hashes and aggregate state only"
+    },
+    {
+      "version": "V331",
+      "logical_artifact": "local_helpers/analyze_validation.py",
+      "sha256": "e273d616264a06c98e7054b5b97f8d9db75a223aa336de3edb1edd504a36e98e",
+      "bytes": 6490,
+      "published": false,
+      "reason": "Run-specific local orchestration; public reusable core remains scripts/pair_learning.py"
+    },
+    {
+      "version": "V331",
+      "logical_artifact": "local_helpers/closeout.py",
+      "sha256": "3918636ca70784012d43a28dee6fa883646f317dc510f603aeb10cfbcaf36272",
+      "bytes": 2799,
+      "published": false,
+      "reason": "Run-specific local orchestration; public reusable core remains scripts/pair_learning.py"
+    },
+    {
+      "version": "V331",
+      "logical_artifact": "local_helpers/deliver.py",
+      "sha256": "d1574e9929e7e37810d235e363afb4912a7d872073acc62fa7beae5c50c2dafd",
+      "bytes": 9246,
+      "published": false,
+      "reason": "Run-specific local orchestration; public reusable core remains scripts/pair_learning.py"
+    },
+    {
+      "version": "V331",
+      "logical_artifact": "local_helpers/features.py",
+      "sha256": "74a4251b0b93c3aeb47317c3808a7e87e5a29a4b25f16111813f6c2c224e7d9e",
+      "bytes": 1111,
+      "published": false,
+      "reason": "Run-specific local orchestration; public reusable core remains scripts/pair_learning.py"
+    },
+    {
+      "version": "V331",
+      "logical_artifact": "local_helpers/features_validation.py",
+      "sha256": "62e538e5e93f6c210e66e802ca14bab5c579fc8d77df5dc733f2317ce817c97e",
+      "bytes": 1345,
+      "published": false,
+      "reason": "Run-specific local orchestration; public reusable core remains scripts/pair_learning.py"
+    },
+    {
+      "version": "V331",
+      "logical_artifact": "local_helpers/freeze_predictions.py",
+      "sha256": "ecdef45fea2297d25d91bdb300c978d16386e133a53a024e897bbeafe428e90e",
+      "bytes": 1502,
+      "published": false,
+      "reason": "Run-specific local orchestration; public reusable core remains scripts/pair_learning.py"
+    },
+    {
+      "version": "V331",
+      "logical_artifact": "local_helpers/inventory.py",
+      "sha256": "5d5f325825f5c11dbd2f30dc2b09cf90a1eeedbc991574d5602c7e5b7200214c",
+      "bytes": 2366,
+      "published": false,
+      "reason": "Run-specific local orchestration; public reusable core remains scripts/pair_learning.py"
+    },
+    {
+      "version": "V331",
+      "logical_artifact": "local_helpers/label_extra.py",
+      "sha256": "04977fbce894426f219624b5794b26247c0d9b5e725f2016bf6648884dbb1334",
+      "bytes": 1494,
+      "published": false,
+      "reason": "Run-specific local orchestration; public reusable core remains scripts/pair_learning.py"
+    },
+    {
+      "version": "V331",
+      "logical_artifact": "local_helpers/posthoc_review.py",
+      "sha256": "7862111e6c3f314fa0f716cdb22a3624853a137ab68ccd36337cbdcd41259343",
+      "bytes": 4235,
+      "published": false,
+      "reason": "Run-specific local orchestration; public reusable core remains scripts/pair_learning.py"
+    },
+    {
+      "version": "V331",
+      "logical_artifact": "local_helpers/prepare.py",
+      "sha256": "0e32c6f881630195e7143b94aa1938e255287c4bcbca47a7fda6a06a388fed60",
+      "bytes": 4362,
+      "published": false,
+      "reason": "Run-specific local orchestration; public reusable core remains scripts/pair_learning.py"
+    },
+    {
+      "version": "V331",
+      "logical_artifact": "local_helpers/prepare_validation.py",
+      "sha256": "0beef0d78ad07245668a4dfab166c3e8d44ee973cdfed99b7489e28b6fcf9b9e",
+      "bytes": 3965,
+      "published": false,
+      "reason": "Run-specific local orchestration; public reusable core remains scripts/pair_learning.py"
+    },
+    {
+      "version": "V331",
+      "logical_artifact": "local_helpers/train_expanded.py",
+      "sha256": "58a8ba4f3dac4e15765417a1c5ef5ed19c04533ea24565949111fe29415406ec",
+      "bytes": 4808,
+      "published": false,
+      "reason": "Run-specific local orchestration; public reusable core remains scripts/pair_learning.py"
+    },
+    {
+      "version": "V331",
+      "logical_artifact": "local_helpers/verify_delivery.py",
+      "sha256": "04bb906831373f03160b25c6f099c703924ad80cb2d9e640741922beb8e7e1a0",
+      "bytes": 3670,
+      "published": false,
+      "reason": "Run-specific local orchestration; public reusable core remains scripts/pair_learning.py"
+    },
+    {
+      "version": "V331",
+      "logical_artifact": "local_helpers/write_report.py",
+      "sha256": "3d5f4cf1fbe84693ab55ef6031501e4fd85a3845139391db9e18d1caf946a7a4",
+      "bytes": 6566,
+      "published": false,
+      "reason": "Run-specific local orchestration; public reusable core remains scripts/pair_learning.py"
+    }
+  ],
+  "engineering": {
+    "audited_head_ci": "https://github.com/zjwjoey/ActionSelectionSkill_/actions/runs/41069445123",
+    "audited_head_ci_sha": "4e236c26014b0b309430b006595c10c8d9c918f0",
+    "local_tests": 219,
+    "ubuntu_tests": 219,
+    "windows_tests": 219,
+    "workbook_cells_verified": 158001
+  },
+  "business": {
+    "human_pair_gold": 0,
+    "formal_quality_accepted": false,
+    "trained_input_records": 500,
+    "training_split_inputs": 312,
+    "effective_preference_inputs": 104,
+    "study_pairs": 5000,
+    "ai_silver_pairs": 2800,
+    "unverified_pairs": 2200,
+    "new_validation_inputs": 80,
+    "new_validation_amazon": 40,
+    "new_family_proxy_disjoint": 23,
+    "weak_eligible_top_counts": {
+      "original_AI": 70,
+      "old_v33_C": 62,
+      "matched_split_control150_C": 65,
+      "expanded500_C": 64
+    },
+    "weak_common_denominator": 78,
+    "interpretation": "Limited gain over old ranker, mixed against matched-split150 control; no independent human accuracy proof."
+  },
+  "protection": {
+    "main_merged": false,
+    "main_sha": "3a427ef223613c140faaffc94a64f1390693e828",
+    "primary_master_changed": false,
+    "default_model_switched": false,
+    "private_data_or_quotes_or_model_responses_published": false
+  }
+}
