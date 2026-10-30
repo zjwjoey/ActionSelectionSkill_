@@ -36,7 +36,7 @@ def verify(a,b):
  for key in a["attributes"].keys() | b["attributes"].keys() | set(KEYS.get(a["family"], [])):
   x=a["attributes"].get(key);y=b["attributes"].get(key)
   applicable=key in KEYS.get(a["family"],[])
-  comparisons.append(dict(attribute=key,input_raw=a["evidence"].get(key,[]),reference_raw=b["evidence"].get(key,[]),input_normalized=x,reference_normalized=y,status="NOT_APPLICABLE" if not applicable else "SOURCE_CONFLICT" if key in a["source_conflicts"]+b["source_conflicts"] else "MISSING_SOURCE" if x is None or y is None else "EQUAL" if x==y else "DIFFERENT",reason="Type-specific rule" if applicable else "Not a critical attribute for this type"))
+  comparisons.append(dict(attribute=key,input_raw=a["evidence"].get(key,[]),reference_raw=b["evidence"].get(key,[]),input_normalized=x,reference_normalized=y,status="TYPE_UNIDENTIFIED" if not a["family"] else "RULE_NOT_DEFINED" if not KEYS.get(a["family"]) else "NOT_APPLICABLE" if not applicable else "SOURCE_CONFLICT" if key in a["source_conflicts"]+b["source_conflicts"] else "MISSING_SOURCE" if x is None or y is None else "EQUAL" if x==y else "DIFFERENT",reason="Type-specific rule" if applicable else "Not a critical attribute for this type"))
  return dict(input=a,reference=b,comparisons=comparisons,type_status="TYPE_UNIDENTIFIED" if not a["family"] else "RULE_NOT_DEFINED" if not KEYS.get(a["family"]) else "RULE_AVAILABLE",conflicts=conflicts,unknown=unknown,block_same_type=bool(different),
   evidence_status='来源存在冲突' if source_conflict else '商品类型未识别' if not a['family'] else '该类型未定义属性规则' if not KEYS.get(a['family']) else '所需属性来源缺失' if unknown else '有部分证据' if conflicts else '关键属性已核实',version=VERSION)
 

@@ -59,6 +59,10 @@ class Extension:
   adjusted=copy.deepcopy(a);checks={};by={c['sku']:c for c in candidates};inputattrs=extract(row['title_original'],row['specifications'])
   for p in adjusted['pairs']:
    c=by[p['sku']];check=verify(inputattrs,extract(c['title'],c.get('spec','')));checks[p['sku']]=check
+   if not inputattrs['family'] and a['subject_status']=='clear':
+    check['type_status']='RULE_NOT_DEFINED';check['evidence_status']='该类型未定义属性规则'
+    for comparison in check.get('comparisons',[]):
+     if comparison['status']=='TYPE_UNIDENTIFIED':comparison['status']='RULE_NOT_DEFINED'
    if self.verification:
     if p['scope']=='COMPONENT' and p['relation']=='SAME_TYPE' and inputattrs['family'] and inputattrs['family']==check['reference']['family'] and package(row['title_original'])=='HOMOGENEOUS_MULTIPACK' and package(c['title']) not in ['MAIN_WITH_ACCESSORY','COMPOSITION_UNKNOWN','REPLACEMENT_ACCESSORY']:p['scope']='WHOLE'
     if check['block_same_type'] and p['relation']=='SAME_TYPE':p['relation']='INSUFFICIENT';p['scope']='UNKNOWN'
