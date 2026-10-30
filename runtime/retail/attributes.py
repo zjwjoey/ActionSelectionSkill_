@@ -14,7 +14,7 @@ def extract(title,spec=''):
   ms=list(re.finditer(pattern,text,re.I));values=[]
   for m in ms:
    value=m.group(0).upper().replace('CR-','CR').replace('CR ','CR') if key=='model' else fold(m.group(1)).replace(',','.') if key not in ['chemistry'] else fold(m.group(0))
-   if key=='dimensions':value=tuple(round(float(x.strip().replace(',','.'))*(.1 if m.group(2).lower()=='mm' else 1),6) for x in re.split('[x×]',m.group(1)))
+   if key=='dimensions':value=tuple(round(float(x.strip().replace(',','.'))*(.1 if m.group(2).lower()=='mm' else 1),6) for x in re.split('[x×]',m.group(1),flags=re.I))
    if key=='capacity':value=float(m.group(1).replace(',','.'))*(1000 if m.group(2).lower()!='ml' else 1)
    if value not in values:values.append(value)
   if values:attrs[key]=values;evidence[key]=[m.group(0) for m in ms]

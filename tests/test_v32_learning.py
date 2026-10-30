@@ -21,6 +21,7 @@ class V32Tests(unittest.TestCase):
  def test_shelf_levels_and_dimensions_preserved(self):
   c=verify(extract('Estantería 2 niveles','100 x 40 cm'),extract('Estantería 3 niveles','1000 x 400 mm'))
   self.assertIn('levels',c['conflicts']);self.assertNotIn('dimensions',c['conflicts']);self.assertFalse(c['block_same_type'])
+  self.assertEqual(extract('Estante','40X50 cm')['attributes']['dimensions'],[(40.0,50.0)])
  def test_battery_identity_and_missing_chemistry(self):
   a=extract('Pilas Maxell CR2032 3V 5 unidades');b=extract('Pilas Varta CR2025 3V 5 unidades');c=verify(a,b)
   self.assertIn('model',c['conflicts']);self.assertIn('chemistry',c['unknown'])
