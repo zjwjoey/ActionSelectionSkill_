@@ -150,7 +150,9 @@ def verify_restore(assets,out):
   for field in fields:
    if diagnostics(restored[field])!=diagnostics(r[field]):raise ValueError('NATIVE_REPLAY_DIFFERENCE:'+field)
   candidates,trace=ext.retriever.search(row,20)
-  if trace['rrf50']!=r['retrieval_trace']['rrf50']:raise ValueError('FRESH_RETRIEVAL_ORDER_DIFFERENCE')
+  if trace['rrf50']!=r['retrieval_trace']['rrf50']:
+   failure=dict(error='FRESH_RETRIEVAL_ORDER_DIFFERENCE',canary=len(checks),expected=r['retrieval_trace'],actual=trace,score_deltas=[dict(sku=c['sku'],text=c['retrieval_score'],e5=c.get('semantic_score'),expected_text=next((x['retrieval_score'] for x in q['action_candidates'] if x['sku']==c['sku']),None),expected_e5=next((x.get('semantic_score') for x in q['action_candidates'] if x['sku']==c['sku']),None)) for c in candidates])
+   save(out/'restore_failure.json',failure);print(json.dumps(failure));raise ValueError('FRESH_RETRIEVAL_ORDER_DIFFERENCE')
   expected={c['sku']:c for c in q['action_candidates']}
   for c in candidates:
    for key in ['retrieval_score','semantic_score']:
