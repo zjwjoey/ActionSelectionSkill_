@@ -115,8 +115,10 @@ def valid_quote(record,source_hashes,side):
         if not match or match.group(1).upper()!=record.get('asin'):reasons.append('ASIN_URL_BINDING_UNCONFIRMED')
     return {'side':side,'valid':not reasons,'reasons':reasons,'value':n,'currency':p.get('currency'),'raw':p.get('raw'),'snapshot_date':record.get('source_date'),'price_time':record.get('price_time'),'date_basis':'EXPORT_SNAPSHOT_NOT_PRECISE_QUOTE_TIME','promotion':record.get('promotion_status',record.get('promotion_note_raw','UNKNOWN')),'source_file':record.get('source_file'),'source_sha256':record.get('source_sha256'),'source_row':record.get('source_row'),'url':record.get('url')}
 
-def layers(amazon,action,pair,source_hashes,subject_clear=True):
-    qa=valid_quote(amazon,source_hashes,'Amazon');qb=valid_quote(action,source_hashes,'Action')
+def layers(amazon,action,pair,source_hashes,subject_clear=True,quote_validator=None):
+    # Optional source adapter; historical V2.1 behavior remains the default.
+    validator=quote_validator or valid_quote
+    qa=validator(amazon,source_hashes,'Amazon');qb=validator(action,source_hashes,'Action')
     q1=quantity(amazon['title'],amazon.get('spec',''),amazon.get('variant',''))
     q2=quantity(action['title'],action.get('spec','')) if action else quantity('')
     reasons=[]
