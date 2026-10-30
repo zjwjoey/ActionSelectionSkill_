@@ -1,0 +1,68 @@
+{
+  "review_products": 40,
+  "review_verdicts": {
+    "TYPE_REFERENCE_SUPPORTED": 28,
+    "CONFIRMED_SCOPE_CONTRACT_ERROR": 1,
+    "FUNCTIONAL_REFERENCE_PLAUSIBLE": 2,
+    "ATTRIBUTE_CLAIM_UNSUPPORTED_AND_RECALL_GAP": 1,
+    "REFERENCE_UNVERIFIED": 3,
+    "SOURCE_INSUFFICIENT": 2,
+    "TYPE_REFERENCE_SUPPORTED_WITH_SOURCE_CONFLICT": 1,
+    "CONTEXT_RELATION_REQUIRES_REVIEW": 2
+  },
+  "knowledge_selected": 10,
+  "unseen_products": 60,
+  "unseen_amazon": 40,
+  "unseen_ikea": 10,
+  "unseen_mrdiy": 10,
+  "sample_arms": {
+    "knowledge_challenge": 30,
+    "random_remaining_eligible": 30
+  },
+  "ai_calls": 7,
+  "tokens": {
+    "cache_write_input_tokens": 0,
+    "cached_input_tokens": 0,
+    "input_tokens": 257998,
+    "output_tokens": 39030,
+    "reasoning_output_tokens": 563
+  },
+  "elapsed_seconds": 641.56,
+  "final_pending": 0,
+  "model_transport_failures": 0,
+  "validation_retry_events": 1,
+  "validation_retried_products": 1,
+  "new_explicit_quantity_records": 9,
+  "quantity_records_total": 11,
+  "quantity_preexisting_records": 2,
+  "source_checked_quantity_errors_observed": 0,
+  "source_checked_quantity_authority": "AI check against literal frozen source, not human Gold",
+  "historical_scope_products_corrected": 1,
+  "historical_scope_pairs_corrected": 3,
+  "unseen_scope_changes": 0,
+  "unseen_primary_or_score_changes": 0,
+  "alias_applications": 17,
+  "duplicate_normalized_alias_queries": 10,
+  "head_changed_records": 23,
+  "head_audit": {
+    "SUPPORTED": 16,
+    "REGRESSION_COVERAGE_LOSS": 1,
+    "UNSAFE_BRAND_HEAD": 1,
+    "UNSAFE_GENERIC_HEAD": 3,
+    "REGRESSION_BRAND_ERROR": 1,
+    "NORMALIZATION_ONLY": 1
+  },
+  "human_gold": 0,
+  "formally_approved_knowledge": 0,
+  "FORMAL_LEARNING_LOOP_VERIFIED": false,
+  "MATCHING_QUALITY_IMPROVEMENT_VERIFIED": false,
+  "GLOBAL_KNOWLEDGE_PUBLICATION_READY": false,
+  "base_sha": "da1695efee40f2dee92baaad6806dbba64dc85a6",
+  "frozen_trial_sha256": "d471ae03d0eb81ba31e1ac27c5ea53bbf938aa380b2fe004628ad1a1ac48cebe",
+  "default_engine_changed": false,
+  "main_merged": false,
+  "quantity_gain_by_expression": {
+    "ud_uds": 5,
+    "pack_paquete_de_n": 4
+  }
+}

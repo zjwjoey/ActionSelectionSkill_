@@ -8,7 +8,7 @@ const {Workbook,SpreadsheetFile}=await import(pathToFileURL(hostRequire.resolve(
 const dir=process.argv[2],data=JSON.parse(await fs.readFile(`${dir}/workbook_data.json`,'utf8')),wb=Workbook.create();
 const letter=n=>{let s='';for(;n;n=Math.floor((n-1)/26))s=String.fromCharCode(65+(n-1)%26)+s;return s;};
 const safe=x=>typeof x==='string'&&/^[=+@-]/.test(x)?`'${x}`:x??null;
-const tabs=[
+const tabs=data.tabs??[
  ['商品匹配结果','500条来源绑定总表｜仅实际完成AI分析者有匹配分',data.mainHeaders,data.main],
  ['Top5匹配明细','只展示实际分析过的关系；召回排名不是人工事实',data.detailHeaders,data.details],
  ['需要人工核查','开发样本优先审核｜问题和建议不等于Gold',data.reviewHeaders,data.review],
@@ -18,9 +18,10 @@ const tabs=[
 ];
 for(const [name,title,headers,rows] of tabs){
  const sh=wb.worksheets.add(name);sh.showGridLines=false;
- const widths=headers.map(h=>/名称|原文|证据|问题|原因|风险|说明|文件|hash|方法|意见/.test(h)?65:24);
+ const widths=headers.map(h=>/名称|原文|证据|问题|原因|风险|说明|文件|hash|方法|意见|依据|结论|建议|边界|URL|召回/.test(h)?65:24);
+ headers.forEach((h,j)=>{if(/^(审核号|样本号|知识号|证据号)$/.test(h))widths[j]=12;});
  headers.forEach((h,j)=>{if(h==='逐属性证据'||h==='来源证据')widths[j]=95;});
- if(name==='运行统计及学习效果')widths[1]=110;
+ if(headers.length===2)widths[1]=110;
  sh.getRangeByIndexes(0,0,Math.max(8,rows.length+5),headers.length).format={font:{name:'Arial',size:11,color:'#243746'},wrapText:true,verticalAlignment:'top'};
  sh.getRange('A2').values=[[title]];sh.getRange('A2').format={font:{bold:true,size:16},wrapText:false,rowHeight:32};
  for(let j=0;j<headers.length;j++){
@@ -42,7 +43,9 @@ for(const [name,title,headers,rows] of tabs){
  });
  sh.freezePanes.freezeRows(5);sh.freezePanes.freezeColumns(2);
 }
-wb.recalculate();console.log((await wb.inspect({kind:'table',range:'商品匹配结果!A5:H8',include:'values',tableMaxRows:4,tableMaxCols:8})).ndjson);
+wb.recalculate();console.log((await wb.inspect({kind:'table',range:`${tabs[0][0]}!A5:H8`,include:'values',tableMaxRows:4,tableMaxCols:8})).ndjson);
 console.log((await wb.inspect({kind:'match',searchTerm:'#REF!|#DIV/0!|#VALUE!|#NUM!|#NAME\\?',options:{useRegex:true,maxResults:10}})).ndjson);
 for(const [name] of tabs){const img=await wb.render({sheetName:name,range:'A5:F8',scale:1,format:'png'});await fs.writeFile(`${dir}/${name}_preview.png`,new Uint8Array(await img.arrayBuffer()));}
-await fs.mkdir(`${dir}/outputs`,{recursive:true});await(await SpreadsheetFile.exportXlsx(wb)).save(`${dir}/outputs/ActionSelectionSkill_V322_500条学习与验证.xlsx`);
+const outputName=path.basename(data.outputName??'ActionSelectionSkill_V322_500条学习与验证.xlsx');
+if(!outputName.endsWith('.xlsx'))throw new Error('XLSX_OUTPUT_REQUIRED');
+await fs.mkdir(`${dir}/outputs`,{recursive:true});await(await SpreadsheetFile.exportXlsx(wb)).save(`${dir}/outputs/${outputName}`);
