@@ -11,6 +11,9 @@ function tab(name,title,headers,data,widths){
  sh.getRangeByIndexes(0,0,Math.max(7,data.length+5),headers.length).format={font:{name:'Arial',size:11,color:'#243746'},verticalAlignment:'top',wrapText:true};
  sh.getRange('A2').values=[[title]];sh.getRange('A2').format={font:{size:15,bold:true},wrapText:false,rowHeight:30};
  sh.getRangeByIndexes(4,0,1,headers.length).values=[headers];sh.getRangeByIndexes(4,0,1,headers.length).format={fill:'#244E62',font:{bold:true,color:'#FFFFFF'},rowHeight:38};
+ // Preserve numeric-looking retailer IDs (e.g. IKEA 00473546) as text.
+ const ids=headers.map((h,i)=>/ID|SKU/.test(h)?i:-1).filter(i=>i>=0);
+ for(const i of ids)sh.getRangeByIndexes(5,i,Math.max(1,data.length),1).setNumberFormat('@');
  if(data.length)sh.getRangeByIndexes(5,0,data.length,headers.length).values=data.map(r=>r.map(safe));
  for(let i=0;i<headers.length;i++)sh.getRangeByIndexes(0,i,Math.max(7,data.length+5),1).format.columnWidth=widths[i]||24;
  for(let i=0;i<data.length;i++){
