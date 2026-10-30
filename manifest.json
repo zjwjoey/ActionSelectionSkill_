@@ -37,8 +37,8 @@
       "bytes": 4577
     },
     "SKILL.md": {
-      "sha256": "c59c4fbc5fd5cfb586daa0f8364cfc98382a312929a16b9ec2bfbdd0f2f6d55e",
-      "bytes": 2719
+      "sha256": "d2c97da16d2c7f974ea0ec98866549ed06261f4fd7c97300cf367fa85e6fb8e3",
+      "bytes": 3007
     },
     "assets/action_groups_v26.json": {
       "sha256": "e9e11376e6318b7e01ad358c56533516e3391ca7dd9b7713c6d20f867abf0ce4",
@@ -147,6 +147,22 @@
     "examples/v3_development/results.jsonl": {
       "sha256": "1d23309d033f85fea745d3de2c2d8b2eae7c80897c94de5c24b9f2ffecf34259",
       "bytes": 4723
+    },
+    "handoff/README_ZH.md": {
+      "sha256": "92f8ef84d74837942b55f33e2a875bfef417b2a007610c861cc2396d911566b3",
+      "bytes": 6356
+    },
+    "handoff/g_config.json": {
+      "sha256": "7c3a2121d4f8b28151d97e3ab790132c069a25828b0b26fef59a14ebce0a693c",
+      "bytes": 1242
+    },
+    "handoff/requirements-exact.txt": {
+      "sha256": "50c23eb80a2a3631bedc9f7217f540cb3a0cfbc6a136a2eab682bd1ea95ae994",
+      "bytes": 1037
+    },
+    "handoff/sample_input.jsonl": {
+      "sha256": "3819ef221341f5ddf50fef9831f667e9b7f5c7247dfdee8d96054985d7743041",
+      "bytes": 135
     },
     "references/current_method.md": {
       "sha256": "c5a5c4a6193cc96ae5aed456b74e7bd376dadc96807044bb00c2bac947d9e41d",
@@ -3904,6 +3920,10 @@
       "sha256": "35f5d483aa37644be0a4ed52d6355b760d219329bb259f9aac11450629aaedf0",
       "bytes": 2400
     },
+    "runtime/g_handoff.py": {
+      "sha256": "cb41e6cbd14855383b41f7d8ffd5c6cb13a6c0b4ec711f007916e8a7627163b4",
+      "bytes": 13477
+    },
     "runtime/matching_v2/__init__.py": {
       "sha256": "7c869fd110383a897af7b3a70f5ae4f21935980a1b6e1d7edd2e5cb8cf526311",
       "bytes": 79
@@ -4728,6 +4748,10 @@
       "sha256": "dbf10bd4baaa5152b9601d158d3f1c1e551f29cffdfc7dce0c7ada268a6f3002",
       "bytes": 5903
     },
+    "scripts/g_group.py": {
+      "sha256": "3f0ab6445b87fd085a48c6a2f09baf8e295df277d71fe93ff8b38d52f92320f7",
+      "bytes": 1572
+    },
     "scripts/manage_learning.py": {
       "sha256": "839e16288dabb2e2d14747823720935cd83c5f8b05b2876c690dcb0711c0df9b",
       "bytes": 1037
@@ -4807,6 +4831,10 @@
     "tests/test_discovery.py": {
       "sha256": "cf92a8879004dda480ab834ff57f5df6d5043b402210939bb3497c74924422e5",
       "bytes": 2415
+    },
+    "tests/test_g_handoff.py": {
+      "sha256": "c853365e02db7f373731c1367a29fb69fab745dc0c21cf272bbef5dcde469536",
+      "bytes": 2540
     },
     "tests/test_knowledge_trial.py": {
       "sha256": "cfa3a8d1abb08aeb9d05db305695429615745fc07d00cedb92debe491c7ef6bc",
