@@ -16,7 +16,7 @@
   "master_included": false,
   "full_learning_database_included": false,
   "source_skill_sha256": "6218634ce80e20c1a83ae0a2d37ec0069672ce81f0269411b2343474136c1445",
-  "package_version": "v3.2.1-fix-experimental",
+  "package_version": "v3.2.2-learning500-experimental",
   "independent_selection_accuracy": null,
   "frozen_asset_files_verified": 201,
   "files": {
@@ -37,8 +37,8 @@
       "bytes": 4577
     },
     "SKILL.md": {
-      "sha256": "21ab7ce5cca2e74eaa692106377067f45c98058a2702874dbc637d53ce80abd9",
-      "bytes": 2418
+      "sha256": "c59c4fbc5fd5cfb586daa0f8364cfc98382a312929a16b9ec2bfbdd0f2f6d55e",
+      "bytes": 2719
     },
     "assets/action_groups_v26.json": {
       "sha256": "e9e11376e6318b7e01ad358c56533516e3391ca7dd9b7713c6d20f867abf0ce4",
@@ -255,6 +255,10 @@
     "references/v321_fixes.md": {
       "sha256": "127a1c3efc69b6b635ba618f3a026ef0070690bb591c0bb59aa488500a2fcafd",
       "bytes": 1783
+    },
+    "references/v322_learning500.md": {
+      "sha256": "cda0a7042c052c9fadad05f7962700eef55719510a685cf9602b7e55315920b2",
+      "bytes": 2268
     },
     "references/v32_learning.md": {
       "sha256": "54d2568610c45bba94593caf0ca6063ce053584a995d8e2469dc9041819b4702",
@@ -3896,6 +3900,10 @@
       "sha256": "3565ccfb3d56aefcc9e86f3b49b55a1a396a5e366c5834d40afc7cfa10568780",
       "bytes": 5072
     },
+    "runtime/retail/discovery.py": {
+      "sha256": "e0d01a7902d11f3d6fb266ac2d78d26368257d8969ff18676c6cee62b4c2a91c",
+      "bytes": 4658
+    },
     "runtime/retail/engine.py": {
       "sha256": "67dd694df892cfac63491eb3136789fbf160869b175c3bbf08f5061d2ded7210",
       "bytes": 13186
@@ -3917,8 +3925,8 @@
       "bytes": 2184
     },
     "runtime/retail/learning_pipeline.py": {
-      "sha256": "12c828bccec15426ddce02ab1a8e2566687310b17be86b24093af72d46ba588b",
-      "bytes": 9536
+      "sha256": "cca899e8589964f317757c20b074d4618acd225af0128b0cf5d28f3c1191e406",
+      "bytes": 9643
     },
     "runtime/retail/match10.py": {
       "sha256": "06c5a87e8e525170b23068d3740de73db6d1469a37f20c959632aa061676a80f",
@@ -4649,12 +4657,16 @@
       "bytes": 11462
     },
     "scripts/build_manifest.py": {
-      "sha256": "17229a4e07feb07115573012fd7355e179d674befbd8987dfb153ae75b1c8036",
-      "bytes": 1396
+      "sha256": "45775b634321420b72da8b243fce71b07620150cb8010e95bb016dd02bc95bbb",
+      "bytes": 1404
     },
     "scripts/build_semantic_index.py": {
       "sha256": "c0f5fd190d996c408ef7fc6fa25ee9f5e38cee9f62394ca03611c1ab8a267f49",
       "bytes": 1038
+    },
+    "scripts/discover_learning.py": {
+      "sha256": "a9070099dac44ec416e2c17bc8d4839c91954eacf30fc2866fdcd7d9a1c246bb",
+      "bytes": 964
     },
     "scripts/export_match10.mjs": {
       "sha256": "8ca2394a663043bbd2b60351e2372b5c582ba81f529790b5fbacff9e09542b65",
@@ -4713,28 +4725,32 @@
       "bytes": 9210
     },
     "skills/assortment-selection/SKILL.md": {
-      "sha256": "e2c030e7bd55284889b3315cf5329a7cce6bde53e48beaa32b82e8eeeb3a4e52",
-      "bytes": 1200
+      "sha256": "dee6bdb7803b0bd6d62f8a50ce97f1e799c5e4dc49ec9dea44d9ae30c8c15c5b",
+      "bytes": 1501
     },
     "skills/matching-learning/SKILL.md": {
-      "sha256": "621c84efc756b6a5a873622032f3db1bb6bc562b8578317e9d11cb85787c9666",
-      "bytes": 1895
+      "sha256": "a3c8b1f4460eeb51371ad855678e2cf9f4edb405b4f8f6bb8b55c5b090217344",
+      "bytes": 2196
     },
     "skills/price-analysis/SKILL.md": {
-      "sha256": "10edee5a879f3bbff6bc2d2ff715448564bf484165f3106644772c6c98a1c676",
-      "bytes": 1196
+      "sha256": "a14563cff8e55b5dcbb56d2171f559782de9f5319987133d4e2495cb38341b0d",
+      "bytes": 1497
     },
     "skills/product-matching/SKILL.md": {
-      "sha256": "51886642812420d6fbcf9b41e1873470333e9ef68bab53c57ac5794405c8cda2",
-      "bytes": 1305
+      "sha256": "9f91e070849e419a228421a905d59ec68b7e96eade9d3a74ad6f5a843595e1dd",
+      "bytes": 1606
     },
     "skills/product-understanding/SKILL.md": {
-      "sha256": "641808ef15d6457c85bf3eec2bc219dc9c08ea7c3b800c68f938731889f94326",
-      "bytes": 1172
+      "sha256": "0926297f26bfd69fa88351f818a1b2e44359effca7bda8bd66a243dee37241a4",
+      "bytes": 1473
     },
     "skills/selection-quality/SKILL.md": {
-      "sha256": "b3f219d56e751c040cc53e7c92308d9eb57e67e00717e5b9226b39983e66a8ba",
-      "bytes": 1343
+      "sha256": "5ed12bd04f798f8cc1d0dde7bacaad9e66650c280c4332a53a2af60c2b5ef03c",
+      "bytes": 1644
+    },
+    "tests/test_discovery.py": {
+      "sha256": "6afbc9694fcc56ba785d4edf637e1c5edc0a1f55b2c0af950ae88dceed7536d6",
+      "bytes": 958
     },
     "tests/test_match10.py": {
       "sha256": "5d73a7e7a2d84d5f9109b0e1314bc6042c7f276fdc66126844bdd9c24202ed26",

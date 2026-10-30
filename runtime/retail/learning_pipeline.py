@@ -16,7 +16,7 @@ class Extension:
    if not knowledge:raise ValueError('APPROVED_KNOWLEDGE_VERSION_REQUIRED')
    self.knowledge_version,self.items=load_release(knowledge)
   elif learning=='shadow' and store:
-   st=Learning(store);allitems={r['candidate_id']:r for r in st.events()};st.close();self.items=[r for r in allitems.values() if r['state']!='REJECTED'];self.knowledge_version=digest(self.items)
+   st=Learning(store);allitems={r['candidate_id']:r for r in st.events() if r.get('candidate_id') and r.get('kind') in ['alias','type','positive_pair','negative_pair','spec_rule']};st.close();self.items=[r for r in allitems.values() if r['state']!='REJECTED'];self.knowledge_version=digest(self.items)
  def bind(self,refs):
   self.refs=refs;self.retriever=HybridRetriever(refs,self.index,self.k)
   if self.store_path:
