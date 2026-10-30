@@ -3852,6 +3852,10 @@
       "sha256": "346bb25aa817b209c6c15fbf16bf4c75ad31e3646be0ff6805aa7a178efa6079",
       "bytes": 1992
     },
+    "reports/v322_learning500_summary.json": {
+      "sha256": "d22b46b159438354873561a6d8c2df7586319890755f450b52f5679536c9a7db",
+      "bytes": 4920
+    },
     "reports/v3_candidate_acceptance_20261023.json": {
       "sha256": "5db7169c50d8f048215b314e2ea70d7207dbe642eb0c1a1ed1189edc43ee100d",
       "bytes": 2594
@@ -4657,8 +4661,8 @@
       "bytes": 11462
     },
     "scripts/build_learning500_data.py": {
-      "sha256": "c29604998a74e945500139aa38039f9e0915ade6c74931a552f63236e8accd4c",
-      "bytes": 8753
+      "sha256": "807ddc5c8f3f225f765624f94b38cb1c7fc1de37ce2db94a1c16e2311ea4abd5",
+      "bytes": 9754
     },
     "scripts/build_manifest.py": {
       "sha256": "45775b634321420b72da8b243fce71b07620150cb8010e95bb016dd02bc95bbb",
@@ -4673,8 +4677,8 @@
       "bytes": 964
     },
     "scripts/export_learning500.mjs": {
-      "sha256": "a06caafa459a29e4d933989f1e290ebc53b559d8fbc4250eb2594f0491633f66",
-      "bytes": 4285
+      "sha256": "98d49844e8d761c083ae2c684b10f264dab3975f778d0f343a269d11f48e3258",
+      "bytes": 4530
     },
     "scripts/export_match10.mjs": {
       "sha256": "8ca2394a663043bbd2b60351e2372b5c582ba81f529790b5fbacff9e09542b65",
