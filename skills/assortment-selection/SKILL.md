@@ -8,3 +8,5 @@ description: 仅在用户明确要求时回放历史三态经营研究，退出�
 这是可选历史能力。使用 `--task legacy-selection` 明确运行V3旧三态；默认十分制评分流程不调用经营手册、不返回保留/观察/用不到。历史Owner裁定和AI意见分级保留，不将匹配分解释成经营适配或采购建议。
 
 从本Skill上溯两级到仓库根目录，调用共享入口 `python scripts/run_selection.py`。所有工作目录使用F盘；原始商品资料只读。完整参数及版本边界见[共享运行说明](../../references/match10_v31.md)。
+
+V3.2扩展只在显式engine v32启用，详见[共享实验流程](../../references/v32_learning.md)。与matching-learning共用程序；候选假设不得自动当成事实，经营研究仍不进入默认评分。

@@ -42,7 +42,7 @@ def validate(req,a,catalog=None):
   if p['relation'] not in ['SAME_TYPE','FUNCTIONAL_ALTERNATIVE','SHARED_NEED','UNRELATED','INSUFFICIENT']:raise ValueError('RELATION_INVALID')
   if p['spec_status'] not in ['SAME','DIFFERENT','UNKNOWN'] or p['category_status'] not in ['SUPPORT','CONFLICT','UNKNOWN']:raise ValueError('EVIDENCE_ENUM_INVALID')
   clones=[{**p,'sku':str(i)} for i in range(5)]
-  validate_packs({**req,'method':'B','action_candidates':[dict(c,sku=str(i)) for i in range(5)]},{**a,'pairs':clones})
+  validate_packs({**req,'spec':req.get('spec','')+' '+req.get('variant',''),'method':'B','action_candidates':[dict(c,sku=str(i)) for i in range(5)]},{**a,'pairs':clones})
 
 def scored(name100,pair,model_rank):
  baseline=score(name100,pair,'B',WEIGHTS['balanced'])
@@ -64,7 +64,7 @@ def rank_matches(matches,analysis):
 
 def signature(refs,quotes):
  paths=[]
- for pattern in ['runtime/retail/*.py','runtime/matching_v2/*.py','runtime/v31/model.py','runtime/v3/catalog.py','runtime/v3/core.py','runtime/v3/workflow.py','runtime/v2/assortment.py','assets/**/*','rules/v3_type_aliases.json','skills/product-understanding/SKILL.md','skills/product-matching/SKILL.md','skills/price-analysis/SKILL.md','skills/selection-quality/SKILL.md']:
+ for pattern in ['runtime/retail/*.py','runtime/matching_v2/*.py','runtime/v31/model.py','runtime/v3/catalog.py','runtime/v3/core.py','runtime/v3/workflow.py','runtime/v2/assortment.py','assets/**/*','rules/v3_type_aliases.json','skills/product-understanding/SKILL.md','skills/product-matching/SKILL.md','skills/price-analysis/SKILL.md','skills/selection-quality/SKILL.md','skills/matching-learning/SKILL.md']:
   paths.extend(p for p in ROOT.glob(pattern) if p.is_file() and '__pycache__' not in str(p))
  return digest(dict(version=VERSION,code={str(p.relative_to(ROOT)):filehash(p) for p in sorted(set(paths))},prompt=PROMPT,schema=schema(),weights=WEIGHTS,reference=refs.version,quotes=filehash(Path(quotes)) if quotes else None))
 
@@ -100,9 +100,10 @@ def project(row,a,candidates,refs,method,origin):
   matching_status='MATCH_CANDIDATE' if primary else 'UNCONFIRMED_MATCH',status='COMPLETE',origin=origin,method=method,issues=issues,human_gold=False,
   score_status='PROVISIONAL_MATCH_SCORE',score_version=VERSION)
 
-def run(input_path,out,source='auto',reference='action',quotes=None,mode='queue',analysis=None,source_date='',currency='',price_type='unknown',limit=None,batch_size=10,do_export=True):
+def run(input_path,out,source='auto',reference='action',quotes=None,mode='queue',analysis=None,source_date='',currency='',price_type='unknown',limit=None,batch_size=10,do_export=True,extension=None):
  out=Path(out).resolve();out.mkdir(parents=True,exist_ok=True);started=time.monotonic()
  rows,errors=ingest(input_path,source,source_date,currency,price_type,limit);refs=References(reference,quotes);method=signature(refs,quotes)
+ if extension:extension.bind(refs);method=extension.signature(method)
  contract=dict(input_sha=filehash(Path(input_path)),method=method,source=source,date=source_date,currency=currency,price_type=price_type,limit=limit,reference=reference)
  cp=out/'contract.json'
  if cp.exists() and json.loads(cp.read_text(encoding='utf8'))!=contract:raise ValueError('INCOMPATIBLE_MATCH10_RESUME_USE_NEW_DIRECTORY')
@@ -114,24 +115,40 @@ def run(input_path,out,source='auto',reference='action',quotes=None,mode='queue'
   reused_results=set()
   requests=[]
   for row in rows:
-   req=dict(record_id=row['quote_id'],title=row['title_original'],spec=row['specifications'],variant=row['variant'],category1=row['category_original'],action_candidates=retrieve(refs,row),method_signature=method)
+   req=dict(record_id=row['quote_id'],title=row['title_original'],spec=row['specifications'],variant=row['variant'],category1=row['category_original'],action_candidates=extension.retrieve(refs,row) if extension else retrieve(refs,row),method_signature=method)
+   if extension:extension.prepare(row,req)
    req['source_hash']=digest(req);requests.append(req)
   write_jsonl(out/'requests.jsonl',requests)
   for start in range(0,len(rows),batch_size):
    chunk=requests[start:start+batch_size];values={}
-   pending=[q for q in chunk if q['record_id'] not in completed_cache or completed_cache[q['record_id']]['source']!=next(r for r in rows if r['quote_id']==q['record_id'])]
+   def cache_valid(q):
+    cached=completed_cache.get(q['record_id'])
+    return cached and cached['source']==next(r for r in rows if r['quote_id']==q['record_id']) and cached['analysis']['source_hash']==q['source_hash']
+   content_reused={}
+   if extension:
+    for row,q in zip(rows[start:start+batch_size],chunk):
+     if not cache_valid(q):
+      a=extension.reuse(row,q)
+      if a:content_reused[q['record_id']]=a
+   pending=[q for q in chunk if not cache_valid(q) and q['record_id'] not in content_reused]
    try:
     for attempt in range(2):
      try:values={a['record_id']:a for a in model.run(pending,'understand')} if pending else {};break
      except ValueError as e:
       if attempt or 'RETRY_ONLY_UNCACHED_ROWS' not in str(e):raise
-   except (ValueError,OSError,subprocess.SubprocessError) as e:errors.append(dict(start=start,error=str(e)))
+   except (ValueError,OSError,subprocess.SubprocessError) as e:
+    errors.append(dict(start=start,error=str(e)))
+    # A rejected sibling must not discard already validated records or trigger
+    # repeat calls for them. Queue mode reads the same source-bound cache only.
+    saved_mode=model.mode
+    try:model.mode='queue';values={a['record_id']:a for a in model.run(pending,'understand')}
+    finally:model.mode=saved_mode
    for row,req in zip(rows[start:start+batch_size],chunk):
-    if req['record_id'] in completed_cache and completed_cache[req['record_id']]['source']==row:
+    if cache_valid(req):
      results.append(completed_cache[req['record_id']]);reused_results.add(req['record_id']);continue
-    a=values.get(req['record_id'])
+    a=values.get(req['record_id']) or content_reused.get(req['record_id'])
     if a:
-     validate(req,a);item=project(row,a,req['action_candidates'],refs,method,'V31_REAL_MODEL' if mode=='codex' else 'V31_SOURCE_BOUND_FILE_ANALYSIS')
+     validate(req,a);item=(extension.project if extension else project)(row,a,req['action_candidates'],refs,method,'REAL_MODEL' if mode=='codex' else 'SOURCE_BOUND_FILE_ANALYSIS')
     else:item=dict(record_id=row['quote_id'],source=row,analysis=None,matches=[],primary=None,match_score_10=None,status='INCOMPLETE',matching_status='UNCONFIRMED_MATCH',method=method,origin='PENDING_MODEL',issues=['模型分析未完成'],human_gold=False)
     state.put('match10_result',item);results.append(item)
    write_jsonl(out/'results.jsonl',results);print(json.dumps(dict(processed=len(results),completed=sum(r['status']=='COMPLETE' for r in results),calls=model.calls)),flush=True)
@@ -142,11 +159,14 @@ def run(input_path,out,source='auto',reference='action',quotes=None,mode='queue'
      if isinstance(v,(int,float)):tokens[k]=tokens.get(k,0)+v
   summary=dict(version=VERSION,method=method,input=str(Path(input_path).resolve()),source_sha=contract['input_sha'],reference_version=refs.version,completed=sum(r['status']=='COMPLETE' for r in results),pending=sum(r['status']!='COMPLETE' for r in results),
    records=len(results),errors=errors,calls_this_attempt=model.calls,calls_total=len(calls),cached_records=model.reused+len(reused_results),tokens=tokens,elapsed_seconds=round(time.monotonic()-started,2),integrity=state.store.check(),score_status='SCORE_UNCALIBRATED',quality='NOT_INDEPENDENTLY_VERIFIED')
+  if extension:extension.finish(out,results,summary)
   (out/'summary.json').write_text(json.dumps(summary,ensure_ascii=False,indent=2),encoding='utf8')
   if filehash(Path(input_path))!=contract['input_sha']:raise ValueError('SOURCE_CHANGED')
   if do_export:export(out)
   return summary
- finally:state.close()
+ finally:
+  state.close()
+  if extension:extension.close()
 
 def migrate(path,out,quotes=None,do_export=True):
  out=Path(out).resolve()
