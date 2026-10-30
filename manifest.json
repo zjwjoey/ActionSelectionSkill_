@@ -252,6 +252,10 @@
       "sha256": "19ee8841c9794da28e68cac617bf89c2f50aa7ba0bcc8c03268b4a757922dcd9",
       "bytes": 4835
     },
+    "references/v321_fixes.md": {
+      "sha256": "127a1c3efc69b6b635ba618f3a026ef0070690bb591c0bb59aa488500a2fcafd",
+      "bytes": 1783
+    },
     "references/v32_learning.md": {
       "sha256": "54d2568610c45bba94593caf0ca6063ce053584a995d8e2469dc9041819b4702",
       "bytes": 5606
@@ -3889,8 +3893,8 @@
       "bytes": 80
     },
     "runtime/retail/attributes.py": {
-      "sha256": "b5e093845cc8e2ff2786b34a58c9b767188bb33ffb8064236c321ed941b6fdc0",
-      "bytes": 4873
+      "sha256": "91eb105320e9036237594504ae615e63c4746f8fe96aad9a6f3aee41d637708c",
+      "bytes": 4975
     },
     "runtime/retail/engine.py": {
       "sha256": "67dd694df892cfac63491eb3136789fbf160869b175c3bbf08f5061d2ded7210",
@@ -4765,8 +4769,8 @@
       "bytes": 997
     },
     "tests/test_v32_learning.py": {
-      "sha256": "03be28aceb96d590b630e4b9c92edd6ece512fade2a0121b786386ff5813fa9b",
-      "bytes": 8062
+      "sha256": "97d21020dee5157fc80eba022775f04ff2f7ad998dd4916f4dde27f123e714fb",
+      "bytes": 8167
     },
     "tests/test_v3_acceptance.py": {
       "sha256": "ba6d6bcf143c5839ee2da72342d12cfedcc9b68c7c9bc106e874254006d9e010",

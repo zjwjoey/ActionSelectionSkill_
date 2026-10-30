@@ -35,7 +35,7 @@ class V32Tests(unittest.TestCase):
   c=verify(extract('Pilas Maxell AAA 1.5V'),extract('Pilas Philips AAA 1.5V'))
   self.assertFalse(c['block_same_type']);self.assertFalse(c['conflicts'])
   self.assertEqual(extract('Raclette vitre')['family'],'squeegee')
-  self.assertEqual(verify(extract('Raclette vitre'),extract('Limpiacristales'))['evidence_status'],'关键属性未知')
+  self.assertEqual(verify(extract('Raclette vitre'),extract('Limpiacristales'))['evidence_status'],'该类型未定义属性规则')
  def test_conflicting_source_is_not_normalized_away(self):
   a=extract('Botella 300 ml','Capacidad 320 ml');self.assertIn('capacity',a['source_conflicts'])
  def test_learning_idempotency_and_human_gates(self):
