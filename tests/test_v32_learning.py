@@ -34,6 +34,7 @@ class V32Tests(unittest.TestCase):
   c=verify(extract('Pilas Maxell AAA 1.5V'),extract('Pilas Philips AAA 1.5V'))
   self.assertFalse(c['block_same_type']);self.assertFalse(c['conflicts'])
   self.assertEqual(extract('Raclette vitre')['family'],'squeegee')
+  self.assertEqual(verify(extract('Raclette vitre'),extract('Limpiacristales'))['evidence_status'],'关键属性未知')
  def test_conflicting_source_is_not_normalized_away(self):
   a=extract('Botella 300 ml','Capacidad 320 ml');self.assertIn('capacity',a['source_conflicts'])
  def test_learning_idempotency_and_human_gates(self):
@@ -84,3 +85,8 @@ class V32Tests(unittest.TestCase):
    inp.write_text('{"sku":"a","title":"Caja a"}\n{"sku":"b","title":"Caja b"}\n');ref.write_text('{"sku":"ref","title":"Caja"}\n');notes.write_text('')
    with patch('runtime.v31.model.Model.run',adapter):s=run(inp,d/'run',reference=str(ref),mode='file',analysis=notes,do_export=False)
    self.assertEqual((s['completed'],s['pending']),(1,1));self.assertEqual(len(s['errors']),1)
+ def test_known_semantic_type_outside_small_attribute_vocabulary(self):
+  from runtime.retail.learning import classify_unknown
+  r=dict(analysis=dict(subject_status='clear',form='whole'),source=dict(brand=''),primary=dict(relation='SAME_TYPE',scope='WHOLE'))
+  flags=classify_unknown(r,extract('Juguete'),False)
+  self.assertIn('A_NEW_SKU_KNOWN_TYPE',flags);self.assertNotIn('C_TYPE_HYPOTHESIS',flags)

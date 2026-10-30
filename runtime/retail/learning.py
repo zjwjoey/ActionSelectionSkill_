@@ -74,9 +74,13 @@ def aliases_for(items,title):
  return [i['body']['expansion'] for i in items if i['kind'] in ['alias','type'] and i['body'].get('term') and i['body'].get('expansion') and re.search(r'(?<!\w)'+re.escape(i['body']['term'])+r'(?!\w)',title,re.I)]
 def classify_unknown(result,attrs,known):
  a=result['analysis'];flags=[]
+ # The small literal-attribute vocabulary is not the product knowledge universe.
+ # A source-bound same-type candidate can establish a KNOWN-TYPE HYPOTHESIS.
+ primary=result.get('primary') or {}
+ known=known or (primary.get('relation')=='SAME_TYPE' and primary.get('scope')=='WHOLE')
  if a['subject_status']!='clear' or a['form']=='unknown':flags.append('D_INSUFFICIENT_SOURCE')
  elif not attrs['family'] and not known:flags.append('C_TYPE_HYPOTHESIS')
- else:flags.append('B_NEW_BRAND_OR_MODEL' if result['source'].get('brand') or attrs['attributes'].get('model') else 'A_NEW_SKU_KNOWN_TYPE')
+ else:flags.append('B_BRAND_MODEL_NOVELTY_UNCONFIRMED' if result['source'].get('brand') or attrs['attributes'].get('model') else 'A_NEW_SKU_KNOWN_TYPE')
  if result['primary'] is None:flags.append('E_NO_CONFIRMED_REFERENCE')
  if attrs['source_conflicts']:flags.append('F_SOURCE_CONFLICT')
  return flags

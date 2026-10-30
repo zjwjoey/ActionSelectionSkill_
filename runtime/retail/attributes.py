@@ -26,6 +26,7 @@ def verify(a,b):
  different=a['family'] and b['family'] and a['family']!=b['family']
  if different:conflicts.append('SUBJECT_FAMILY_DIFFERENT')
  if a['role']!=b['role'] and 'accessory' in [a['role'],b['role']]:unknown.append('WHOLE_ACCESSORY_SCOPE_UNCONFIRMED')
+ if a['family'] and not KEYS.get(a['family']):unknown.append('TYPE_SPECIFIC_ATTRIBUTE_SCHEMA_UNAVAILABLE')
  for k in KEYS.get(a['family'],[]):
   x=a['attributes'].get(k);y=b['attributes'].get(k)
   if not x or not y:unknown.append(k)
