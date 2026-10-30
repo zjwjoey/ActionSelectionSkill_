@@ -3901,8 +3901,8 @@
       "bytes": 5072
     },
     "runtime/retail/discovery.py": {
-      "sha256": "e0d01a7902d11f3d6fb266ac2d78d26368257d8969ff18676c6cee62b4c2a91c",
-      "bytes": 4658
+      "sha256": "8cbcae0409d68b752b088afcb9f7faa60bc061b2ed41ffd0bd3990ea008c2f35",
+      "bytes": 6177
     },
     "runtime/retail/engine.py": {
       "sha256": "67dd694df892cfac63491eb3136789fbf160869b175c3bbf08f5061d2ded7210",
@@ -4656,6 +4656,10 @@
       "sha256": "b352bd6c232f8bd52c9804136034a453932d73dc27efba45b8c29e8cfb5aa17f",
       "bytes": 11462
     },
+    "scripts/build_learning500_data.py": {
+      "sha256": "fbf3eacd690d2f6b2b5150b98450a57de2bd9398ca849de8cf7464700cb40615",
+      "bytes": 6543
+    },
     "scripts/build_manifest.py": {
       "sha256": "45775b634321420b72da8b243fce71b07620150cb8010e95bb016dd02bc95bbb",
       "bytes": 1404
@@ -4667,6 +4671,10 @@
     "scripts/discover_learning.py": {
       "sha256": "a9070099dac44ec416e2c17bc8d4839c91954eacf30fc2866fdcd7d9a1c246bb",
       "bytes": 964
+    },
+    "scripts/export_learning500.mjs": {
+      "sha256": "baa47bcd5999605ba8f07b9cc694e041503fa86fc87e6ba3accf927142866f2c",
+      "bytes": 3532
     },
     "scripts/export_match10.mjs": {
       "sha256": "8ca2394a663043bbd2b60351e2372b5c582ba81f529790b5fbacff9e09542b65",
@@ -4749,8 +4757,8 @@
       "bytes": 1644
     },
     "tests/test_discovery.py": {
-      "sha256": "6afbc9694fcc56ba785d4edf637e1c5edc0a1f55b2c0af950ae88dceed7536d6",
-      "bytes": 958
+      "sha256": "53d1cc2a64ac0fb31607a0275574d7240178b2436bcfacba38678b91c5668613",
+      "bytes": 1182
     },
     "tests/test_match10.py": {
       "sha256": "5d73a7e7a2d84d5f9109b0e1314bc6042c7f276fdc66126844bdd9c24202ed26",

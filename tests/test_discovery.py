@@ -1,5 +1,5 @@
 import unittest
-from runtime.retail.discovery import discover
+from runtime.retail.discovery import discover,head
 class DiscoveryTests(unittest.TestCase):
  def row(self,rid,text):
   return dict(record_id=rid,status='COMPLETE',source=dict(source_platform='supplier',source_product_id=rid,source_sha256='fixture',source_file='fixture',title_original=text,specifications='',variant='',brand=''),analysis=dict(subject_span=text,subject_status='clear',form='consumable',pairs=[]),matches=[],attribute_checks={})
@@ -9,3 +9,6 @@ class DiscoveryTests(unittest.TestCase):
   self.assertEqual(discover([self.row('a','Objeto marca nueva')]),[])
  def test_different_families_do_not_merge(self):
   self.assertEqual(len(discover([self.row('a','Pilas 4 uds'),self.row('b','Cajas 4 uds')])),2)
+ def test_brand_and_adjective_are_not_commodity_aliases(self):
+  self.assertEqual(head('Series Brand crema reparadora',vocabulary={'crema'}),'crema')
+  self.assertEqual(head('Original Formula',vocabulary={'crema'}),'')
