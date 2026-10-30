@@ -1,7 +1,7 @@
 {
   "package": "ActionSelectionSkill",
   "date": "2026-10-23",
-  "boundary_method": "V3.2 opt-in hybrid learning; V3.1 remains default",
+  "boundary_method": "V3.3 explicit pairwise ranker experiment; V3.1 remains default",
   "action_reference_count": 10037,
   "semantic_candidates": 10037,
   "owner_selection_decisions": 3,
@@ -16,7 +16,7 @@
   "master_included": false,
   "full_learning_database_included": false,
   "source_skill_sha256": "6218634ce80e20c1a83ae0a2d37ec0069672ce81f0269411b2343474136c1445",
-  "package_version": "v3.2.2-learning500-experimental",
+  "package_version": "v3.3-data-learning-experimental",
   "independent_selection_accuracy": null,
   "frozen_asset_files_verified": 201,
   "files": {
@@ -267,6 +267,10 @@
     "references/v32_learning.md": {
       "sha256": "54d2568610c45bba94593caf0ca6063ce053584a995d8e2469dc9041819b4702",
       "bytes": 5606
+    },
+    "references/v33_data_learning.md": {
+      "sha256": "19633538fd29c5e08959c907f05b1352ef43f2a8de8cbce247d89a806a98a5db",
+      "bytes": 5405
     },
     "references/v3_workflow.md": {
       "sha256": "d3b243a1ea6d9154ae91d32a24c1761594282eb65a20dc0e94a6f0d519821e7a",
@@ -3864,6 +3868,10 @@
       "sha256": "d22b46b159438354873561a6d8c2df7586319890755f450b52f5679536c9a7db",
       "bytes": 4920
     },
+    "reports/v33_data_learning_summary.json": {
+      "sha256": "230528cf59b724c4e44e253a24c0f575ade7d67b6487c87c2e364c4faebcb381",
+      "bytes": 3199
+    },
     "reports/v3_candidate_acceptance_20261023.json": {
       "sha256": "5db7169c50d8f048215b314e2ea70d7207dbe642eb0c1a1ed1189edc43ee100d",
       "bytes": 2594
@@ -3951,6 +3959,14 @@
     "runtime/retail/match10_feedback.py": {
       "sha256": "73f7411ed294f556ed4de2c0a01bf44e88a39bc3a1f2e944d8b2fe42522ca2ba",
       "bytes": 4524
+    },
+    "runtime/retail/pair_feedback.py": {
+      "sha256": "feca3135184e65abf2589fdacaa411b199afebae33c60de007ccd676181bc97a",
+      "bytes": 4526
+    },
+    "runtime/retail/pair_learning.py": {
+      "sha256": "e74f97c9799e19b58483cd2135eba5d4edbc3c8c554eeab204fb95ed516f9bb1",
+      "bytes": 19994
     },
     "runtime/retail/pricing.py": {
       "sha256": "8d6f54b42340d650050ec1151d329c43a526b6bfce6c2e56b3d861027979b029",
@@ -4677,8 +4693,8 @@
       "bytes": 9754
     },
     "scripts/build_manifest.py": {
-      "sha256": "45775b634321420b72da8b243fce71b07620150cb8010e95bb016dd02bc95bbb",
-      "bytes": 1404
+      "sha256": "80c1a60fd951346d80d3a12351bc7edba4f215d231ccf47332658420860dd481",
+      "bytes": 1417
     },
     "scripts/build_semantic_index.py": {
       "sha256": "c0f5fd190d996c408ef7fc6fa25ee9f5e38cee9f62394ca03611c1ab8a267f49",
@@ -4715,6 +4731,10 @@
     "scripts/matching_price_review.py": {
       "sha256": "f1b65ccc11cd9525bbfd81abd415c2d2f83528b402f0d272fcd90aa943cda2d6",
       "bytes": 19674
+    },
+    "scripts/pair_learning.py": {
+      "sha256": "335215bfbb15cbb62a887c4c1a7729f5ca3cfbb1dd0b4c74be60e08934309006",
+      "bytes": 4773
     },
     "scripts/run_match10.py": {
       "sha256": "273012462e2bd1e50a0e4d616f96f7f80fe7e3919075c76ef106d869f76f4b25",
@@ -4753,8 +4773,8 @@
       "bytes": 1501
     },
     "skills/matching-learning/SKILL.md": {
-      "sha256": "6c2ac960c068347b1b22af038d880b9b1ff9433105a42bc94d8547826cf55853",
-      "bytes": 2531
+      "sha256": "07776e3ef9a8d54bd9057bd93d39a65629ed552d1bcda5c95adf484d5508c168",
+      "bytes": 2929
     },
     "skills/price-analysis/SKILL.md": {
       "sha256": "a14563cff8e55b5dcbb56d2171f559782de9f5319987133d4e2495cb38341b0d",
@@ -4787,6 +4807,10 @@
     "tests/test_matching_v2.py": {
       "sha256": "5054c13eda2e409f13d2738fbc14288420e6883b124690da6c03070008aef358",
       "bytes": 4106
+    },
+    "tests/test_pair_learning.py": {
+      "sha256": "6ed7ae517fea197705fbe45424e8f6190b0a54c90fc2130f355c42dbeb8c217d",
+      "bytes": 6399
     },
     "tests/test_price_layers.py": {
       "sha256": "288796c79661efeac090f7c5ac52bdf675647f748cc46c55cdac6745fbf38a0a",

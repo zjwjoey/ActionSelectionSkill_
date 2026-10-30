@@ -1,0 +1,124 @@
+{
+  "version": "V3.3-data-learning-experimental",
+  "historical_products": 150,
+  "historical_pairs": 1200,
+  "ai_silver_pairs": 750,
+  "unverified_pairs": 450,
+  "human_gold": 0,
+  "source_anchored_relations": 0,
+  "source_fact_records": 10,
+  "training_products": 96,
+  "effective_preference_products": 34,
+  "preference_rows": 270,
+  "models_trained": [
+    "LogisticRegression B",
+    "LogisticRegression C"
+  ],
+  "status": "EXPERIMENTAL_WEAK_SUPERVISION",
+  "new_validation_products": 80,
+  "new_platform_counts": {
+    "amazon": 40,
+    "ikea": 15,
+    "mrdiy": 15,
+    "tedi": 10
+  },
+  "independent_family_subset": 35,
+  "weak_label_metrics": {
+    "A": {
+      "top_primary_eligible": {
+        "value": 0.7702702702702703,
+        "denominator": 74
+      },
+      "component_top": {
+        "value": 0.02702702702702703,
+        "denominator": 74
+      },
+      "top_unrelated": {
+        "value": 0.16216216216216217,
+        "denominator": 74
+      },
+      "reciprocal_rank": {
+        "value": 1.0,
+        "denominator": 57
+      },
+      "ndcg5": {
+        "value": 0.9903855538685268,
+        "denominator": 61
+      }
+    },
+    "B": {
+      "top_primary_eligible": {
+        "value": 0.7432432432432432,
+        "denominator": 74
+      },
+      "component_top": {
+        "value": 0.02702702702702703,
+        "denominator": 74
+      },
+      "top_unrelated": {
+        "value": 0.1891891891891892,
+        "denominator": 74
+      },
+      "reciprocal_rank": {
+        "value": 0.9795321637426901,
+        "denominator": 57
+      },
+      "ndcg5": {
+        "value": 0.9697075372922683,
+        "denominator": 61
+      }
+    },
+    "C": {
+      "top_primary_eligible": {
+        "value": 0.7432432432432432,
+        "denominator": 74
+      },
+      "component_top": {
+        "value": 0.02702702702702703,
+        "denominator": 74
+      },
+      "top_unrelated": {
+        "value": 0.1891891891891892,
+        "denominator": 74
+      },
+      "reciprocal_rank": {
+        "value": 0.9751461988304094,
+        "denominator": 57
+      },
+      "ndcg5": {
+        "value": 0.9669580097678875,
+        "denominator": 61
+      }
+    }
+  },
+  "weak_ranking_differences": {
+    "B": {
+      "common_pool_top_changed": 43,
+      "weak_relevance_up": 0,
+      "weak_relevance_down": 4,
+      "weak_relevance_equal": 70
+    },
+    "C": {
+      "common_pool_top_changed": 43,
+      "weak_relevance_up": 0,
+      "weak_relevance_down": 4,
+      "weak_relevance_equal": 70
+    }
+  },
+  "formal_quality_metrics": {
+    "Precision_at_1": null,
+    "MRR": null,
+    "NDCG_at_5": null,
+    "Recall_at_20": null,
+    "Recall_at_50": null,
+    "high_score_true_errors": null,
+    "reason": "No independent human pair Gold; no exhaustive catalog positives. Weak-label metrics are separately named, not formal accuracy."
+  },
+  "active_review_inputs": 40,
+  "ranker_added_model_calls": 0,
+  "ranker_ms_per_query": 0.0793004624997593,
+  "model_fit_seconds": 0.011041300000215415,
+  "formal_promotion": false,
+  "default_changed": false,
+  "raw_private_data_uploaded": false
+}
