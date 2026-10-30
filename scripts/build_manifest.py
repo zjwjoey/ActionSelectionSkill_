@@ -14,7 +14,7 @@ def main():
         p=ROOT/rel
         if p.is_file():files[rel]={'sha256':hashlib.sha256(p.read_bytes()).hexdigest(),'bytes':p.stat().st_size}
     result={k:v for k,v in old.items() if k!='files'}
-    result.update(package_version='v3.2-learning-experimental',boundary_method='V3.2 opt-in hybrid learning; V3.1 remains default',
+    result.update(package_version='v3.2.1-fix-experimental',boundary_method='V3.2 opt-in hybrid learning; V3.1 remains default',
         independent_selection_accuracy=None,frozen_asset_files_verified=len(frozen),files=files)
     (ROOT/'manifest.json').write_text(json.dumps(result,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
     print(json.dumps({'files':len(files),'frozen_files_verified':len(frozen)}))

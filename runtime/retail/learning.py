@@ -44,10 +44,22 @@ class Learning:
   if state=='APPROVED_FOR_LEARNING' and not evidence.get('authorization'):raise ValueError('EXPLICIT_LEARNING_AUTHORIZATION_REQUIRED')
   return self.append({**r,'state':state,'reviewer':reviewer,'review_evidence':evidence,'reviewed_at':now()})
  def collect(self,result,unknown,priority):
-  source=result['source'];body=dict(result_hash=digest(result),method=result['method'],initial_match=result['match_score_10'],hypothesis=result['analysis'],unknown=unknown,priority=priority,candidates=[m['reference_id'] for m in result['matches']],original=source)
-  # Same evidence/method is one immutable item; repeated sources retain separate observations.
-  cid=self.propose('type',body,dict(record_id=result['record_id'],source_sha=source['source_sha256']))
-  return {**self.current(cid),'group_key':digest([result['analysis']['sold_subject'],sorted(unknown)]),'record_id':result['record_id']}
+  source=result['source'];rid=result['record_id'];key=digest([rid,result['method']])
+  body=dict(result_hash=digest(result),method=result['method'],initial_match=result['match_score_10'],hypothesis=result['analysis'],unknown=unknown,priority=priority,candidates=[m['reference_id'] for m in result['matches']],original=source)
+  obs=dict(candidate_id=key,record_type='OBSERVATION',kind='observation',body=body,source=dict(record_id=rid,source_sha=source['source_sha256']),state='OBSERVED',synthetic=False,record_id=rid,group_key=key)
+  self.append(obs)
+  checks=list(result.get('attribute_checks',{}).values());families={c['input']['family'] for c in checks if c['input']['family']}
+  claims={p['sku']:p for p in result['analysis']['pairs']}
+  reusable=sorted({x for sku,c in result.get('attribute_checks',{}).items() for x in c['conflicts'] if x!='SUBJECT_FAMILY_DIFFERENT' and claims[sku]['spec_status']=='SAME'})
+  if reusable and len(families)==1:
+   hypothesis=dict(family=next(iter(families)),issue='SPEC_COMPARISON_REVIEW',attributes=reusable)
+   group=digest(hypothesis);cid=digest(['spec_rule',hypothesis])
+   if not any(e.get('candidate_id')==cid for e in self.events()):
+    base=dict(candidate_id=cid,kind='spec_rule',body=hypothesis,source=obs['source'],synthetic=False)
+    self.append({**base,'state':'OBSERVED'});self.append({**base,'state':'CANDIDATE'})
+   self.append(dict(candidate_id=digest([cid,key]),record_type='EVIDENCE',kind='evidence',knowledge_id=cid,state='OBSERVED',source=obs['source'],body=body,synthetic=False))
+   return {**obs,'candidate_id':cid,'record_type':'KNOWLEDGE_CANDIDATE','state':'CANDIDATE','group_key':group}
+  return obs
  def publish(self,ids,receipt,path):
   items=[self.current(cid) for cid in ids]
   if not items or any(i['state']!='APPROVED_FOR_LEARNING' for i in items):raise ValueError('APPROVED_KNOWLEDGE_ONLY')

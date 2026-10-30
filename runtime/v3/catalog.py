@@ -209,14 +209,10 @@ class Catalog:
             words.append(self._aliases.get(word, word))
         return words
 
-    def retrieve(self, title: str, limit: int = 8) -> list[dict[str, Any]]:
-        """Rank frozen reference candidates; perform no selection inference."""
-        if not isinstance(title, str):
-            raise TypeError("title must be a string")
-        if isinstance(limit, bool) or not isinstance(limit, int) or limit < 0:
-            raise ValueError("limit must be a nonnegative integer")
-        if not title.strip() or limit == 0:
-            return []
+    def query_scores(self, title):
+        """Numeric frozen lexical scores, without materializing catalog objects."""
+        cache = getattr(self, "_query_cache", {})
+        if title in cache: return cache[title]
         self._load_retriever()
         model = self._model
         assert model is not None
@@ -233,6 +229,27 @@ class Catalog:
         head = next((w for w in self._words(prefix)[:5] if w in self._head_vocabulary), "")
         if head:
             scores += .10 * np.array([r["feature"]["head"] == head for r in model["references"]])
+        if len(cache) >= 16: cache.pop(next(iter(cache)))
+        cache[title] = scores; self._query_cache = cache
+        return scores
+
+    def score_skus(self, title, skus):
+        scores = self.query_scores(title)
+        if not hasattr(self, "_sku_offsets"):
+            self._sku_offsets = {str(r["sku"]): i for i, r in enumerate(self._model["references"])}
+        return {s: float(scores[self._sku_offsets[s]]) for s in skus}
+
+    def retrieve(self, title: str, limit: int = 8) -> list[dict[str, Any]]:
+        """Rank frozen reference candidates; perform no selection inference."""
+        if not isinstance(title, str):
+            raise TypeError("title must be a string")
+        if isinstance(limit, bool) or not isinstance(limit, int) or limit < 0:
+            raise ValueError("limit must be a nonnegative integer")
+        if not title.strip() or limit == 0:
+            return []
+        scores = self.query_scores(title)
+        np = self._numerics
+        model = self._model
         # Stable ordering makes equal-scoring results reproducible; no arbitrary
         # zero-score results are returned for inputs absent from the vocabulary.
         selected = np.argsort(-scores, kind="stable")[:min(limit, len(scores))]

@@ -64,7 +64,9 @@ def build(catalog,directory,model_path,revision):
  (directory/'index.json').write_text(json.dumps(meta,ensure_ascii=False,indent=2),encoding='utf8');return meta
 
 class HybridRetriever:
- def __init__(self,refs,index=None,k=60):
+ def __init__(self,refs,index=None,k=60,strategy="single"):
+  if strategy not in ["single","nested"]:raise ValueError("INVALID_TEXT_FUSION_STRATEGY")
+  self.strategy=strategy
   self.refs=refs;self.index=None;self.k=k;self.fallback=None
   if index:
    try:
@@ -74,9 +76,8 @@ class HybridRetriever:
  def search(self,row,limit=20,aliases=()):
   from runtime.retail.match10 import retrieve
   original=retrieve(self.refs,row)
-  textall=self.refs.catalog.retrieve(row['title_original'],limit=len(self.refs.catalog.by_sku)) if self.refs.catalog else []
-  text=textall[:50]
-  lexical={r['sku']:dict(sku=r['sku'],title=r['name_es_original'],retrieval_score=r['retrieval_score']) for r in textall}
+  text=self.refs.catalog.retrieve(row['title_original'],limit=50) if self.refs.catalog else []
+  lexical={r['sku']:dict(sku=r['sku'],title=r['name_es_original'],retrieval_score=r['retrieval_score']) for r in text}
   lexical.update({r['sku']:r for r in original})
   routes={'v31':[r['sku'] for r in original],'text50':[r['sku'] for r in text]};semantic=[]
   if self.index:
@@ -84,13 +85,19 @@ class HybridRetriever:
    except (OSError,ValueError,ImportError,RuntimeError) as e:self.fallback=type(e).__name__+': '+str(e)
   for i,alias in enumerate(aliases):
    more=self.refs.retrieve(alias);routes['approved_alias_'+str(i)]=[c['sku'] for c in more];lexical.update({c['sku']:c for c in more})
-  fused=rrf(routes,self.k) if semantic or aliases else [dict(sku=r['sku'],rrf_score=None,ranks={'v31':i}) for i,r in enumerate(original,1)]
+  fusion={key:ids for key,ids in routes.items() if key!='v31'}
+  if self.strategy=='nested':fusion['text50']=[x['sku'] for x in rrf({'full':routes['text50'],'views':routes['v31']},self.k)]
+  fused=rrf(fusion,self.k) if semantic or aliases else [dict(sku=r['sku'],rrf_score=None,ranks={'v31':i}) for i,r in enumerate(original,1)]
   output=[]
-  for f in fused:
+  final_ids=[f['sku'] for f in fused[:limit]]
+  actual=self.refs.catalog.score_skus(row['title_original'],final_ids) if self.refs.catalog else {}
+  dense=dict(semantic)
+  for f in fused[:limit]:
    s=f['sku'];c=lexical.get(s)
    if c is None:
-    ref=self.refs.catalog.by_sku[s];c=dict(sku=s,title=ref['name_es_original'],retrieval_score=0.0)
+    ref=self.refs.catalog.by_sku[s];c=dict(sku=s,title=ref['name_es_original'],retrieval_score=actual[s])
    # Preserve lexical name score; cosine/RRF must not become the 0–10 index.
    q=self.refs.quotes.get(s) or {}
+   if s in actual:c={**c,'retrieval_score':actual[s],'text_score_status':'COMPUTED_FROZEN_METHOD','semantic_score':dense.get(s)}
    output.append({**c,'spec':q.get('specifications','') if q.get('binding_valid',True) else '', 'category1':c.get('category1',''),'category2':c.get('category2',''),'recall':f})
-  return output[:limit],dict(original_v31=routes['v31'],text50=routes['text50'],semantic50=routes.get('semantic',[]),rrf50=[f['sku'] for f in fused[:50]],fallback=self.fallback,rrf_k=self.k)
+  return output[:limit],dict(original_v31=routes['v31'],text50=routes['text50'],semantic50=routes.get('semantic',[]),rrf50=[f['sku'] for f in fused[:50]],fallback=self.fallback,rrf_k=self.k,text_strategy=self.strategy,fusion_routes=list(fusion))

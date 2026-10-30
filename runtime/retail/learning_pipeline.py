@@ -3,11 +3,11 @@ import copy,json,time
 from pathlib import Path
 from runtime.retail import match10
 from runtime.retail.hybrid import HybridRetriever
-from runtime.retail.attributes import extract,verify
+from runtime.retail.attributes import extract,verify,package
 from runtime.retail.learning import Learning,load_release,aliases_for,classify_unknown
 from runtime.v3.core import digest
 from runtime.v3.workflow import filehash,write_jsonl
-VERSION='v3.2-experimental-v1'
+VERSION='v3.2.1-experimental-v1'
 class Extension:
  def __init__(self,index=None,learning='off',store=None,knowledge=None,verification=True,recall_size=20,rrf_k=60):
   if learning not in ['off','collect','shadow','approved'] or not 5<=recall_size<=20:raise ValueError('LEARNING_MODE_OR_FINE_CANDIDATE_LIMIT_INVALID')
@@ -60,6 +60,7 @@ class Extension:
   for p in adjusted['pairs']:
    c=by[p['sku']];check=verify(inputattrs,extract(c['title'],c.get('spec','')));checks[p['sku']]=check
    if self.verification:
+    if p['scope']=='COMPONENT' and p['relation']=='SAME_TYPE' and inputattrs['family'] and inputattrs['family']==check['reference']['family'] and package(row['title_original'])=='HOMOGENEOUS_MULTIPACK' and package(c['title']) not in ['MAIN_WITH_ACCESSORY','COMPOSITION_UNKNOWN','REPLACEMENT_ACCESSORY']:p['scope']='WHOLE'
     if check['block_same_type'] and p['relation']=='SAME_TYPE':p['relation']='INSUFFICIENT';p['scope']='UNKNOWN'
     if check['conflicts'] and not check['block_same_type']:p['spec_status']='DIFFERENT'
     if check['unknown'] and p['spec_status']=='SAME':p['spec_status']='UNKNOWN'
@@ -67,6 +68,8 @@ class Extension:
    for i in self.items if self.mode=='approved' else []:
     if i['kind']=='negative_pair' and i['body'].get('reference_id')==p['sku'] and i['source']['record_id']==row['quote_id']:p['relation']='UNRELATED';p['scope']='UNKNOWN'
   result=match10.project(row,adjusted,candidates,refs,method,origin)
+
+  for m in result['matches']:m['retrieval_evidence']={k:by[m['reference_id']].get(k) for k in ['recall','retrieval_score','text_score_status','semantic_score']}
   result['analysis']=a;result['effective_analysis']=adjusted;result['attribute_checks']=checks;result['retrieval_trace']=self.traces[row['quote_id']];result['knowledge_version']=self.knowledge_version;result['engine_version']=VERSION
   result['evidence_status']=(checks[result['primary']['reference_id']]['evidence_status'] if result['primary'] else '关键属性未知')
   if row['quote_id'] in self.rebound:result['origin']='VERIFIED_CONTENT_CACHE_REBIND_NOT_NEW_MODEL';result['analysis_reuse']=self.rebound[row['quote_id']]
@@ -90,7 +93,7 @@ class Extension:
     if len(scores)==2 and all(s is not None for s in scores) and abs(scores[0]-scores[1])<3:priority.append('CLOSE_TOP_TWO')
     if st:observed.append(st.collect(r,flags,priority))
    self.learning_rows=observed;write_jsonl(Path(out)/'learning_candidates.jsonl',observed)
-   ordered=sorted((r for r in observed if r['body']['priority']),key=lambda r:(-len(r['body']['priority']),r['record_id']))
+   ordered=sorted((r for r in observed if r['record_type']=='KNOWLEDGE_CANDIDATE' or 'TEXT_SEMANTIC_DISAGREEMENT' in r['body']['priority']),key=lambda r:(-len(r['body']['priority']),r['record_id']))
    queue=[];groups=set()
    for r in ordered:
     if r['group_key'] not in groups:queue.append(r);groups.add(r['group_key'])
@@ -99,7 +102,7 @@ class Extension:
     if len(queue)==50:break
     if r not in queue:queue.append(r)
    write_jsonl(Path(out)/'active_review.jsonl',queue)
-   summary['learning']=dict(mode=self.mode,version=self.knowledge_version,candidates=len(observed),review_records=len(queue),hypothesis_groups=len({r['group_key'] for r in observed}),approved_items=len(self.items) if self.mode=='approved' else 0,content_cache_rebound=len(self.rebound),formal_publication=False)
+   summary['learning']=dict(mode=self.mode,version=self.knowledge_version,observations=len(observed),candidates=len({r['candidate_id'] for r in observed if r['record_type']=='KNOWLEDGE_CANDIDATE'}),review_records=len(queue),hypothesis_groups=len({r['group_key'] for r in observed}),approved_items=len(self.items) if self.mode=='approved' else 0,content_cache_rebound=len(self.rebound),formal_publication=False)
    summary['retrieval']=dict(index_version=self.retriever.index.meta if self.retriever.index else None,fallback=self.retriever.fallback,rrf_k=self.k,fine_candidates=self.limit)
   finally:
    if st:st.close()

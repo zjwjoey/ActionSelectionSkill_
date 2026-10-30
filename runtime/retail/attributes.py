@@ -1,15 +1,15 @@
 """Literal evidence extraction for repeated failure families; absent is unknown."""
 import re,unicodedata
-VERSION='literal-attributes-v1'
+VERSION='literal-attributes-v321'
 def fold(t):return ''.join(c for c in unicodedata.normalize('NFKD',t.casefold()) if not unicodedata.combining(c))
-FAMILIES=[('box',r'\b(?:caja|box|boite)\b'),('knife',r'\b(?:cuchillos?|knives|knife)\b'),('battery',r'\b(?:pilas?|baterias?|batter(?:y|ies))\b'),('shelf',r'\b(?:estantes?|estanteria|baldas?|libreria|shel(?:f|ves)|etagere)\b'),('vacuum',r'\b(?:aspirador(?:a)?|vacuum)\b'),('squeegee',r'\b(?:limpiacristales|rasqueta|raclette|squeegee)\b'),('bulb',r'\b(?:bombillas?|bulbs?)\b'),('lamp',r'\b(?:lamparas?|lamps?)\b')]
+FAMILIES=[('box',r'\b(?:caja|box|boite|tarros?|frascos?|botes?)\b'),('knife',r'\b(?:cuchillos?|knives|knife)\b'),('battery',r'\b(?:pilas?|baterias?|batter(?:y|ies))\b'),('shelf',r'\b(?:estantes?|estanteria|baldas?|libreria|shel(?:f|ves)|etagere)\b'),('vacuum',r'\b(?:aspirador(?:a)?|vacuum)\b'),('squeegee',r'\b(?:limpiacristales|rasqueta|raclette|squeegee)\b'),('bulb',r'\b(?:bombillas?|bulbs?)\b'),('lamp',r'\b(?:lamparas?|lamps?)\b')]
 def extract(title,spec=''):
  text=title+' | '+spec;head=re.split(r'\b(?:para|compatible|for|pour)\b',fold(title),maxsplit=1)[0]
  hits=[(m.start(),family) for family,pattern in FAMILIES if (m:=re.search(pattern,head))]
  family=min(hits)[1] if hits else None
  role='accessory' if re.search(r'\b(?:filtros?|recambios?|repuestos?|replacement|accessories)\b',head) else 'unknown'
  attrs={};evidence={}
- patterns={'model':r'\b(?:CR[- ]?\d{4}|LR\d{2}|AAA|AA)\b','voltage':r'(\d+(?:[.,]\d+)?)\s*(?:V\b|voltios?\b)','levels':r'(\d+)\s*(?:niveles?|pisos?|baldas?|layers?|shelves|etages?)\b','count':r'(\d+)\s*(?:unidades?|piezas?|units?|pieces?)\b','dimensions':r'(\d+(?:[.,]\d+)?\s*[x×]\s*\d+(?:[.,]\d+)?(?:\s*[x×]\s*\d+(?:[.,]\d+)?)?)\s*(cm|mm)\b','capacity':r'(\d+(?:[.,]\d+)?)\s*(ml|litros?|litres?|l)\b','chemistry':r'\b(?:alcalin[ao]s?|litio|lithium|NiMH)\b'}
+ patterns={'model':r'\b(?:CR[- ]?\d{4}|LR\d{2}|AAA|AA)\b','voltage':r'(\d+(?:[.,]\d+)?)\s*(?:V\b|voltios?\b)','levels':r'(\d+)\s*(?:niveles?|pisos?|baldas?|layers?|shelves|etages?)\b','count':r'(\d+)\s*(?:unidades?|piezas?|units?|pieces?|tarros?|frascos?|botes?|cuchillos?)\b','dimensions':r'(\d+(?:[.,]\d+)?\s*[x×]\s*\d+(?:[.,]\d+)?(?:\s*[x×]\s*\d+(?:[.,]\d+)?)?)\s*(cm|mm)\b','capacity':r'(\d+(?:[.,]\d+)?)\s*(ml|litros?|litres?|l)\b','chemistry':r'\b(?:alcalin[ao]s?|litio|lithium|NiMH)\b'}
  for key,pattern in patterns.items():
   ms=list(re.finditer(pattern,text,re.I));values=[]
   for m in ms:
@@ -32,5 +32,19 @@ def verify(a,b):
   if not x or not y:unknown.append(k)
   elif x!=y:conflicts.append(k)
  source_conflict=bool(a['source_conflicts'] or b['source_conflicts'])
- return dict(input=a,reference=b,conflicts=conflicts,unknown=unknown,block_same_type=bool(different),
+ comparisons=[]
+ for key in a["attributes"].keys() | b["attributes"].keys() | set(KEYS.get(a["family"], [])):
+  x=a["attributes"].get(key);y=b["attributes"].get(key)
+  applicable=key in KEYS.get(a["family"],[])
+  comparisons.append(dict(attribute=key,input_raw=a["evidence"].get(key,[]),reference_raw=b["evidence"].get(key,[]),input_normalized=x,reference_normalized=y,status="NOT_APPLICABLE" if not applicable else "SOURCE_CONFLICT" if key in a["source_conflicts"]+b["source_conflicts"] else "MISSING_SOURCE" if x is None or y is None else "EQUAL" if x==y else "DIFFERENT",reason="Type-specific rule" if applicable else "Not a critical attribute for this type"))
+ return dict(input=a,reference=b,comparisons=comparisons,type_status="TYPE_UNIDENTIFIED" if not a["family"] else "RULE_NOT_DEFINED" if not KEYS.get(a["family"]) else "RULE_AVAILABLE",conflicts=conflicts,unknown=unknown,block_same_type=bool(different),
   evidence_status='来源存在冲突' if source_conflict else '关键属性未知' if unknown or not a['family'] else '有部分证据' if conflicts else '关键属性已核实',version=VERSION)
+
+
+def package(title):
+ text=fold(title)
+ if re.search(r"\b(?:recambio|repuesto|filtro para|replacement head)\b",text):return 'REPLACEMENT_ACCESSORY'
+ if re.search(r"\b(?:cuchillos?|knives)\b.*\b(?:caja|box)\b",text):return 'MAIN_WITH_ACCESSORY'
+ if re.search(r"\b(?:kit|set|juego)\b",text):return 'COMPOSITION_UNKNOWN'
+ if re.search(r"\b\d+\s*(?:tarros|frascos|botes|cuchillos|pilas|unidades|piezas)\b",text):return 'HOMOGENEOUS_MULTIPACK'
+ return 'UNSPECIFIED'

@@ -18,3 +18,5 @@ Python将V2暂定100分指数换算为十分制，展示一位小数。关系、
 旧三态经营流程只在明确选择 `--task legacy-selection` 时运行。旧V1.4入口已逐字节保存在[历史快照](releases/v14/SKILL.original.md)，历史结果、Owner裁定和201项保护资产不改写。
 
 V3.2实验能力：显式 `--engine v32` 选择本地E5/RRF、属性核验和学习层。默认继续V3.1，未经独立证据不升级默认算法。第六个入口[matching-learning](skills/matching-learning/SKILL.md)与既有五个Skill共享数据、缓存和模型调用，参见[实验运行契约](references/v32_learning.md)。
+
+V3.2.1修复：实验v32路径采用单路文本/E5等票RRF；观察记录不等于新知识；逐属性区分缺失、不适用、未定义规则与一致/差异。同质多件装不直接当作混合套装组件。默认v31不变，无独立标签不宣称效果提升。
