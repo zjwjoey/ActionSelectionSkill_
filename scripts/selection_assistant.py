@@ -40,7 +40,8 @@ COMMON='''Research goal: everyday discount-variety retail: household goods, kitc
 def prompt(root,arm='skill'):
     root=Path(root)
     if arm=='ordinary':return COMMON+'\nAct as an ordinary retail analyst. Identify the actual product, consider the goal and supplied references, and give an independent recommendation. No Skill instructions or other answers.\n'+FORMAT
-    return COMMON+'\nExecute this single Skill:\n'+(root/'SKILL.md').read_text(encoding='utf-8')+'\nPLAYBOOK:\n'+(root/'references/selection_playbook.md').read_text(encoding='utf-8')+'\nAI TEACHING CASES, NOT GOLD:\n'+(root/'references/selection_cases.json').read_text(encoding='utf-8')+FORMAT
+    entry=root/'releases/v14/SKILL.original.md'
+    return COMMON+'\nExecute this single Skill:\n'+(entry if entry.exists() else root/'SKILL.md').read_text(encoding='utf-8')+'\nPLAYBOOK:\n'+(root/'references/selection_playbook.md').read_text(encoding='utf-8')+'\nAI TEACHING CASES, NOT GOLD:\n'+(root/'references/selection_cases.json').read_text(encoding='utf-8')+FORMAT
 
 def run(root,raw,output,arm='skill',mode='queue',analysis=None,batch_size=25,instruction=None,frozen=None):
     root=Path(root);out=safe_workspace_path(root,output);out.mkdir(parents=True,exist_ok=True);(out/'requests').mkdir(exist_ok=True)

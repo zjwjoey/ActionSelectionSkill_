@@ -5,6 +5,11 @@ sys.path.insert(0,str(Path(__file__).resolve().parents[1]))
 from runtime.retail.engine import run,feedback
 
 def main():
+    legacy='--task=legacy-selection' in sys.argv or any(x=='--task' and i+1<len(sys.argv) and sys.argv[i+1]=='legacy-selection' for i,x in enumerate(sys.argv))
+    if not legacy:
+        from scripts.run_match10 import main as match_main
+        return match_main()
+    sys.argv=[x for x in sys.argv if x not in ['--task','legacy-selection','--task=legacy-selection']]
     p=argparse.ArgumentParser(description=__doc__);p.add_argument('--input');p.add_argument('--source',default='auto');p.add_argument('--reference',default='action');p.add_argument('--quotes');p.add_argument('--output',required=True);p.add_argument('--source-date',default='');p.add_argument('--currency',default='');p.add_argument('--price-type',choices=['retail','wholesale','unknown'],default='unknown');p.add_argument('--mode',choices=['queue','codex','file'],default='queue');p.add_argument('--analysis');p.add_argument('--limit',type=int);p.add_argument('--batch-size',type=int,default=10);p.add_argument('--no-export',action='store_true');p.add_argument('--feedback-id');p.add_argument('--expected-hash');p.add_argument('--decision');p.add_argument('--reviewer');p.add_argument('--reason');p.add_argument('--kind',default='business')
     a=p.parse_args()
     if a.feedback_id:

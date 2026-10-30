@@ -125,6 +125,7 @@ class Model:
                     from .core import validate
                     validate(row,a,catalog)
                     if self.validator:self.validator(row,a,catalog)
+                elif self.validator:self.validator(row,a,None)
                 accepted[a['record_id']]=a
                 self.state.put('model_record',{'cache_key':cache_key(row),'request_hash':key,'provider':self.identity,'role':role,'analysis':a})
             except (ValueError,KeyError,TypeError) as exc:

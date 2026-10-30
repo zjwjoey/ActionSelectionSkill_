@@ -1,7 +1,7 @@
 {
   "package": "ActionSelectionSkill",
   "date": "2026-10-23",
-  "boundary_method": "V3 candidate; V0.3 historical data frozen",
+  "boundary_method": "V3.1 provisional matching; legacy operating modes explicit",
   "action_reference_count": 10037,
   "semantic_candidates": 10037,
   "owner_selection_decisions": 3,
@@ -16,7 +16,7 @@
   "master_included": false,
   "full_learning_database_included": false,
   "source_skill_sha256": "6218634ce80e20c1a83ae0a2d37ec0069672ce81f0269411b2343474136c1445",
-  "package_version": "v3.0-candidate",
+  "package_version": "v3.1-match10-candidate",
   "independent_selection_accuracy": null,
   "frozen_asset_files_verified": 201,
   "files": {
@@ -37,8 +37,8 @@
       "bytes": 4577
     },
     "SKILL.md": {
-      "sha256": "0cfd613f23edfd7af9e1d4a0f9fc153ec535af42c4c8c37a43b5b3548ccffadd",
-      "bytes": 3090
+      "sha256": "33c88ba448451cef35d161144178c864d6532618cf8f53217a5ed4b0d759ab9f",
+      "bytes": 1801
     },
     "assets/action_groups_v26.json": {
       "sha256": "e9e11376e6318b7e01ad358c56533516e3391ca7dd9b7713c6d20f867abf0ce4",
@@ -212,6 +212,14 @@
       "sha256": "e19fd53949d3d5d41b5ebe3e689d5e6a8c16fa0613d38e534805b191bbf78d34",
       "bytes": 5487
     },
+    "references/match10_code_audit.md": {
+      "sha256": "bbaceee9de2b4a4c6d1f600e74155d27d08cc1281a6602244280fc3380f163a1",
+      "bytes": 4002
+    },
+    "references/match10_v31.md": {
+      "sha256": "dc9ab6d19cbf14adf0ae6d630cba5d8a2fa9c2f77961e201b60c22374a277e3a",
+      "bytes": 3820
+    },
     "references/matching_v21_price_layers.md": {
       "sha256": "5329442c4a82d9c5a809913512bb3114b9867524da723b3a0191799aa8c6a89c",
       "bytes": 2469
@@ -255,6 +263,14 @@
     "releases/v0.3/skill_entry.txt": {
       "sha256": "d9af09d1997946fc54cd6f6dafc9b9ae2c4b7b58e2b3ff27b494c7a05184edce",
       "bytes": 3357
+    },
+    "releases/v14/SKILL.original.md": {
+      "sha256": "0cfd613f23edfd7af9e1d4a0f9fc153ec535af42c4c8c37a43b5b3548ccffadd",
+      "bytes": 3090
+    },
+    "releases/v14/entry_migration.json": {
+      "sha256": "092fc561428b21d12ca349bc0f47a1194c9a283f00c4dc9691da282d03c009d9",
+      "bytes": 280
     },
     "releases/v31/skill_entry_15b5f84.txt": {
       "sha256": "d61bf5af5e2fc3304a32f02a33375f43dd8eedcb6c0a95cd8d2537bea302b7a7",
@@ -3872,6 +3888,14 @@
       "sha256": "59525e92c7c656f2824f93e15f7b53401893615a5f7ecbec16a5b11776da2a60",
       "bytes": 5176
     },
+    "runtime/retail/match10.py": {
+      "sha256": "01b66c01e2e1b8ba20fb60bd0f33f2a4ab2d971f0e76ba9ffff00c76972ab5f5",
+      "bytes": 16931
+    },
+    "runtime/retail/match10_feedback.py": {
+      "sha256": "73f7411ed294f556ed4de2c0a01bf44e88a39bc3a1f2e944d8b2fe42522ca2ba",
+      "bytes": 4524
+    },
     "runtime/retail/pricing.py": {
       "sha256": "8d6f54b42340d650050ec1151d329c43a526b6bfce6c2e56b3d861027979b029",
       "bytes": 2320
@@ -4565,8 +4589,8 @@
       "bytes": 8716
     },
     "runtime/v31/model.py": {
-      "sha256": "cc0b66a47210c2bfae661d727dc4fa762cc32184232f939b1e26c13eeb412460",
-      "bytes": 14654
+      "sha256": "6f43c240077d7360d47f3d847f8cdd388f04bfc2c1b1cf1bb6c6550d3a51ccc3",
+      "bytes": 14717
     },
     "runtime/v31/qualification.py": {
       "sha256": "acca0c0480ad300a2f7a9ce05c0306f23b258134a9bb3edef036e2b0e8799dc6",
@@ -4593,8 +4617,12 @@
       "bytes": 11462
     },
     "scripts/build_manifest.py": {
-      "sha256": "6f3692d8b9f0745e988a7d2854fad00ed1b7b8d3c375d4047f6b3d820179f203",
-      "bytes": 1358
+      "sha256": "076777262cfd65c298d49eeeea047ee3fcd101d0d6d3855d20b6a82e4cd8659f",
+      "bytes": 1383
+    },
+    "scripts/export_match10.mjs": {
+      "sha256": "d31312feb26882255377247a7131a83a36a32c12130568ca640f329e9ea8f20b",
+      "bytes": 8122
     },
     "scripts/export_selection.mjs": {
       "sha256": "dbf10bd4baaa5152b9601d158d3f1c1e551f29cffdfc7dce0c7ada268a6f3002",
@@ -4612,13 +4640,17 @@
       "sha256": "f1b65ccc11cd9525bbfd81abd415c2d2f83528b402f0d272fcd90aa943cda2d6",
       "bytes": 19674
     },
+    "scripts/run_match10.py": {
+      "sha256": "118f2ab7c33610d4596dc62ea18e31e7066719634493f79b16178e0a072bf041",
+      "bytes": 1783
+    },
     "scripts/run_selection.py": {
-      "sha256": "ba1545d61a0d780e9c02259fc9a1a18740d9231af901daa8f77e12063159a0fa",
-      "bytes": 1947
+      "sha256": "cd20e8b741f7359e9132fe24d0336070c2c354585ebf0b85c7714eaf608b6c24",
+      "bytes": 2316
     },
     "scripts/selection_assistant.py": {
-      "sha256": "2990a88adbfc00783c5f0092d7f797f5d9c129df74d42e6b88dc1af0fcbd9165",
-      "bytes": 8655
+      "sha256": "1006a3110d6ff529ae4f5040f2a3cdceffaa05ecd2182c1d1cc1db1942d02cf0",
+      "bytes": 8732
     },
     "scripts/share_tool.py": {
       "sha256": "9cd845f036fd9be28f24c109694dd0585d84e8de91d8b00419f94e2c338213d8",
@@ -4641,24 +4673,28 @@
       "bytes": 9210
     },
     "skills/assortment-selection/SKILL.md": {
-      "sha256": "e582ad827ca0cc06ccc907f6310fbc4df5e04e79ba4939465827294c4604993d",
-      "bytes": 788
+      "sha256": "75951f2b85494c2f0624f81cd0b5eb39600acab3bded77635f93afd7a1d4f075",
+      "bytes": 701
     },
     "skills/price-analysis/SKILL.md": {
-      "sha256": "706e6d492e9bb78464310590a4f970f486a3218b8ade20518bbf76e9b9a3c1f2",
-      "bytes": 778
+      "sha256": "cc0acf984c8af0967c1c1becde50ee854f6262db40f39a1f37f05ae73e75eb2f",
+      "bytes": 697
     },
     "skills/product-matching/SKILL.md": {
-      "sha256": "a8f17367e8e7fd3d94c67c76b559c9fd6fe02e81136ff17c84ca03c55e0f0f77",
-      "bytes": 766
+      "sha256": "456078e1cf638c8cfecc1f834e5197268d18f936d48cec624b21fd0c713e2c24",
+      "bytes": 806
     },
     "skills/product-understanding/SKILL.md": {
-      "sha256": "c14ad13fe6e0aa3b26981b0232c6453e8155fa4afd82877e1cb48baba4d37dfa",
-      "bytes": 836
+      "sha256": "ddd47c6b9b17496c25db86cb233b5314e150ed2ff8264ef770174997e878d557",
+      "bytes": 673
     },
     "skills/selection-quality/SKILL.md": {
-      "sha256": "4ee92cdb56d33a911a2571d2662e3703304c57c1373c619e5894a96e906abf21",
-      "bytes": 827
+      "sha256": "cf7ee809f33dfbac9cf37d47b11edc566a6aa2de0cd6e860f83330a304174d0a",
+      "bytes": 844
+    },
+    "tests/test_match10.py": {
+      "sha256": "5d73a7e7a2d84d5f9109b0e1314bc6042c7f276fdc66126844bdd9c24202ed26",
+      "bytes": 5273
     },
     "tests/test_matching_v2.py": {
       "sha256": "5054c13eda2e409f13d2738fbc14288420e6883b124690da6c03070008aef358",

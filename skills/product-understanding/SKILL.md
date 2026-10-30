@@ -1,10 +1,10 @@
 ---
 name: product-understanding
-description: 理解跨平台商品表的实际销售主体、规格及商品形态；用于零售目录研究，不推断未提供的性能或销量。
+description: 理解跨平台商品的实际销售主体、规格与形态，为十分制匹配提供原文证据。
 ---
 
-使用仓库共享入口 `python scripts/run_selection.py --input <商品表> --output <F盘工作目录> --mode codex`。先识别实际售品，再判断参考关系。保留平台货号、原始字段、来源文件行号和未知值；宿主、加工对象和配套系统不能替代售品。原表只读。
+# product-understanding V3.1
 
-Excel、CSV、JSONL由同一导入器处理。件数只使用显式原文，数量缺失不能填1；组合构成未知则明确保留。后续匹配、价格和经营判断复用同次分析及SQLite缓存，不另起一次模型调用。
+明确买家收到整机、配件、耗材还是组合；标题中宿主不等于所售主体。数量、颜色、功能数和包装尺寸分别处理，不猜缺失参数。主体不明只报告未确认，不作三态经营取舍。
 
-完整参数与证据边界见 [共享运行说明](../../references/retail_engine_v3.md)。
+从本Skill上溯两级到仓库根目录，调用共享入口 `python scripts/run_selection.py`。所有工作目录使用F盘；原始商品资料只读。完整参数及版本边界见[共享运行说明](../../references/match10_v31.md)。

@@ -1,10 +1,10 @@
 ---
 name: assortment-selection
-description: 基于商品事实、参考货盘和经营方向给出保留、观察或用不到的研究建议，不执行采购。
+description: 仅在用户明确要求时回放历史三态经营研究，退出默认V3.1匹配评分流程。
 ---
 
-通过共享CLI完成批量处理；沿用 [V1.4经营方法](../../references/selection_playbook.md) 中的证据分级，具体裁定、批次方向和AI归纳不得混写成人工事实。
+# assortment-selection V3.1
 
-先说明实际售品，再独立判断日用折扣零售适配。无Action同款、价格高、匹配分低都不单独作为排除依据。保留是研究候选；观察写明会改变决定的具体未知；用不到须给出明确经营范围或形态依据。主体信息不足不能排除。避免凭空评价销量、受众规模和利润。
+这是可选历史能力。使用 `--task legacy-selection` 明确运行V3旧三态；默认十分制评分流程不调用经营手册、不返回保留/观察/用不到。历史Owner裁定和AI意见分级保留，不将匹配分解释成经营适配或采购建议。
 
-完整入口见 [共享运行说明](../../references/retail_engine_v3.md)。
+从本Skill上溯两级到仓库根目录，调用共享入口 `python scripts/run_selection.py`。所有工作目录使用F盘；原始商品资料只读。完整参数及版本边界见[共享运行说明](../../references/match10_v31.md)。
