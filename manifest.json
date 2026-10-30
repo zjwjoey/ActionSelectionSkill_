@@ -4657,8 +4657,8 @@
       "bytes": 11462
     },
     "scripts/build_learning500_data.py": {
-      "sha256": "fbf3eacd690d2f6b2b5150b98450a57de2bd9398ca849de8cf7464700cb40615",
-      "bytes": 6543
+      "sha256": "c29604998a74e945500139aa38039f9e0915ade6c74931a552f63236e8accd4c",
+      "bytes": 8753
     },
     "scripts/build_manifest.py": {
       "sha256": "45775b634321420b72da8b243fce71b07620150cb8010e95bb016dd02bc95bbb",
@@ -4757,8 +4757,8 @@
       "bytes": 1644
     },
     "tests/test_discovery.py": {
-      "sha256": "ed2ed60513e2a4a9da7d63c73bb32520bf5577e1603457e01533e82964dbd964",
-      "bytes": 1643
+      "sha256": "cf92a8879004dda480ab834ff57f5df6d5043b402210939bb3497c74924422e5",
+      "bytes": 2415
     },
     "tests/test_match10.py": {
       "sha256": "5d73a7e7a2d84d5f9109b0e1314bc6042c7f276fdc66126844bdd9c24202ed26",
