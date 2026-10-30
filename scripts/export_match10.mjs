@@ -4,6 +4,10 @@ const dir=process.argv[2],summary=JSON.parse(await fs.readFile(`${dir}/summary.j
 const rows=(await fs.readFile(`${dir}/results.jsonl`,'utf8')).trim().split('\n').filter(Boolean).map(JSON.parse);
 const bindings=JSON.parse(await fs.readFile(`${dir}/feedback_bindings.json`,'utf8'));
 const hash=x=>bindings[x.record_id]; // Python canonical hash avoids 1.0 versus 1 serialization drift.
+const summaryRows=Object.entries(summary).map(([k,v])=>{
+ if(k==='retrieval'&&v?.index_version){const {ids,model_files,...meta}=v.index_version;v={...v,index_version:{...meta,reference_count:ids?.length,model_manifest:'Full ID/model-file manifest remains in the source index.json; not repeated in one Excel cell.'}};}
+ return [k,typeof v==='object'?JSON.stringify(v):v];
+});
 const wb=Workbook.create(),col=n=>{let s='';for(;n;n=Math.floor((n-1)/26))s=String.fromCharCode(65+(n-1)%26)+s;return s;};
 const safe=x=>typeof x==='string'&&/^[=+@-]/.test(x)?`'${x}`:x??null;
 function table(name,title,headers,data,widths){
@@ -36,7 +40,7 @@ const detail=table('Top5匹配明细','原模型排名与评分排名同时保�
 detail.getRangeByIndexes(5,4,Math.max(1,details.length),1).setNumberFormat('0.0');
 const check=rows.filter(r=>r.status!=='COMPLETE'||r.issues.length);
 table('需要核查','只列匹配可信度问题；价格缺失本身不自动加入', ['平台','商品ID','原品名','影响匹配的疑问','记录ID'],check.map(r=>[r.source.source_platform,r.source.source_product_id,r.source.title_original,r.issues.join('；'),r.record_id]),[17,23,75,110,65]);
-table('运行与来源说明','历史离线换算、来源绑定文件导入与真实模型运行分别标记',['项目','记录'],[...Object.entries(summary).map(([k,v])=>[k,typeof v==='object'?JSON.stringify(v):v]),['评分规则','旧V2平衡权重指数除10、保留一位小数；关系既作为维度又作为上限，上限不是二次加分。未知规格仍按旧基线归一，必须阅读证据覆盖率，不是校准概率。RRF仅用于召回排序，不是商品匹配分。'],['主分规则','按原始指数降序、证据覆盖率降序、原模型排名、SKU稳定排序。主体清楚且完整覆盖、关系可靠时取最高候选；无可靠匹配主分为空。'],['价格','价格不进入商品身份分数；两侧币种/快照、L1/L2/L3及不可比原因见明细与本地JSON。'],['反馈','黄色栏由实际审核人填写。使用--import-feedback及真实--reviewer安全回导；绑定hash，原AI结果不覆盖。'],['质量','PROVISIONAL_MATCH_SCORE / SCORE_UNCALIBRATED；没有独立事实Gold，不授予MATCHING_QUALITY_VERIFIED。']],[32,120]);
+table('运行与来源说明','历史离线换算、来源绑定文件导入与真实模型运行分别标记',['项目','记录'],[...summaryRows,['评分规则','旧V2平衡权重指数除10、保留一位小数；关系既作为维度又作为上限，上限不是二次加分。未知规格仍按旧基线归一，必须阅读证据覆盖率，不是校准概率。RRF仅用于召回排序，不是商品匹配分。'],['主分规则','按原始指数降序、证据覆盖率降序、原模型排名、SKU稳定排序。主体清楚且完整覆盖、关系可靠时取最高候选；无可靠匹配主分为空。'],['价格','价格不进入商品身份分数；两侧币种/快照、L1/L2/L3及不可比原因见明细与本地JSON。'],['反馈','黄色栏由实际审核人填写。使用--import-feedback及真实--reviewer安全回导；绑定hash，原AI结果不覆盖。'],['质量','PROVISIONAL_MATCH_SCORE / SCORE_UNCALIBRATED；没有独立事实Gold，不授予MATCHING_QUALITY_VERIFIED。']],[32,120]);
 if(summary.learning){
  const learning=(await fs.readFile(`${dir}/learning_candidates.jsonl`,'utf8')).trim().split('\n').filter(Boolean).map(JSON.parse);
  table('未知SKU与学习候选','AI假设不等于事实；人工反馈填写主表黄色栏，批准与发布需独立验收',['平台','原始商品ID','原始品名','未知原因','当前理解','审核问题','学习状态','候选ID','同类线索组','来源hash','原文证据链接','方法版本','反馈入口'],learning.map(x=>[x.body.original.source_platform,x.body.original.source_product_id,x.body.original.title_original,x.body.unknown.join('；'),x.body.hypothesis.sold_subject,x.body.priority.join('；'),x.state,x.candidate_id,x.group_key,x.source.source_sha,x.body.original.source_url,x.body.method,'主表黄色反馈栏；manage_learning.py 接收来源绑定审核']),[17,23,72,48,45,65,22,70,70,70,60,70,65]);
